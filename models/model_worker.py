@@ -6,12 +6,12 @@ import torch
 import importlib
 
 
-models_mae_path = '/home/xupeng/workplace/LLaMA-Adapter-v2/models_mae.py'
+models_mae_path = '/nvme/share/LLaMA-Adapter-v2/models_mae.py'
 spec = importlib.util.spec_from_file_location('models_mae', models_mae_path)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 mae_vit_base_patch16 = module.mae_vit_base_patch16
-model_ckpt_path = '/home/xupeng/workplace/LLaMA-Adapter-v2/llama_adapter_v2_0518.pth'
+model_ckpt_path = '/nvme/share/LLaMA-Adapter-v2/llama_adapter_v2_0518.pth'
 
 
 os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
@@ -45,15 +45,15 @@ class Model_Worker:
 
     def move_to_device(self, device):
         if type(device) is str and 'cuda' in device:
-            dtype = torch.float16
+            self.dtype = torch.float16
+            self.device = device
         elif type(device) is torch.device and 'cuda' in device.type:
-            dtype = torch.float16
+            self.dtype = torch.float16
+            self.device = device
         else:
-            device = 'cpu'
-            dtype = torch.float32
-        self.generator = self.generator.to(device, dtype=dtype)
-        print(self.generator.device)
-        print(type(self.generator.device))
+            self.device = 'cpu'
+            self.dtype = torch.float32
+        self.generator = self.generator.to(self.device, dtype=self.dtype)
 
     def generate(self, image, question, max_gen_len=64, temperature=0.1, top_p=0.75):
         if type(image) is str:
@@ -66,7 +66,7 @@ class Model_Worker:
 
         imgs = [img]
         imgs = [self.img_transform(x) for x in imgs]
-        imgs = torch.stack(imgs, dim=0).cuda().half()
+        imgs = torch.stack(imgs, dim=0).to(self.device, dtype=self.dtype)
 
         prompts = [PROMPT_DICT['prompt_no_input'].format_map({'instruction': question})]
         prompts = [self.generator.tokenizer.encode(x, bos=True, eos=False) for x in prompts]
