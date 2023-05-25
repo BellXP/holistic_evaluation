@@ -60,7 +60,7 @@ class Model_Worker:
             img = cv2.imread(image)
             img = Image.fromarray(img)
         elif type(image) is Image.Image:
-            pass
+            img = image
         else:
             raise NotImplementedError
 

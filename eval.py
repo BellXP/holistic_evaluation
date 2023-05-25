@@ -7,13 +7,16 @@ import torch
 import numpy as np
 
 from utils import evaluate_OCR, evaluate_VQA
-from .datasets import ocrDataset, textVQADataset, docVQADataset, ocrVQADataset, STVQADataset
+from task_datasets import ocrDataset, textVQADataset, docVQADataset, ocrVQADataset, STVQADataset, ScienceQADataset
 from models import Model_Worker, Web_Model_Worker
 
 
 def get_model(args):
-    device = args.device
-    model = Web_Model_Worker()
+    device = torch.device('cpu' if args.device == -1 else f"cuda:{args.device}")
+    if args.use_web_model:
+        model = Web_Model_Worker()
+    else:
+        model = Model_Worker(device)
 
     return model
 
@@ -21,12 +24,17 @@ def get_model(args):
 def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
     parser.add_argument("--model_name", type=str, default="LLaMA-Adapter-v2")
+    parser.add_argument("--device", type=int, default=-1)
+    parser.add_argument(
+        "--use-web-model",
+        action="store_true",
+        default=False,
+        help="Whether to use web model worker."
+    )
+    
     #OCR datasets
     parser.add_argument("--ocr_dir_path", type=str, default="/home/xupeng/workplace/OCR_Datasets")
     parser.add_argument("--ocr_dataset_name", type=str, default="IIIT5K SVT IC13 IC15 SVTP ct80 cocotext ctw totaltext HOST WOST WordArt")
-    #textVQA
-    parser.add_argument("--textVQA_image_dir_path", type=str, default="./data/textVQA/train_images")
-    parser.add_argument("--textVQA_ann_path", type=str, default="./data/textVQA/TextVQA_0.5.1_val.json")
 
     #docVQA
     parser.add_argument("--docVQA_image_dir_path", type=str, default="./data/docVQA/val")
@@ -35,10 +43,6 @@ def parse_args():
     #ocrVQA
     parser.add_argument("--ocrVQA_image_dir_path", type=str, default="./data/ocrVQA/images")
     parser.add_argument("--ocrVQA_ann_path", type=str, default="./data/ocrVQA/dataset.json")
-
-    #STVQA
-    parser.add_argument("--STVQA_image_dir_path", type=str, default="./data/STVQA")
-    parser.add_argument("--STVQA_ann_path", type=str, default="./data/STVQA/train_task_3.json")
 
     #result_path
     parser.add_argument("--answer_path", type=str, default="./answers")
@@ -73,8 +77,13 @@ def parse_args():
         default=False,
         help="Whether to evaluate on ocr."
     )
+    parser.add_argument(
+        "--eval_ScienceQA",
+        action="store_true",
+        default=False,
+        help="Whether to evaluate on ScienceQA."
+    )
 
-    parser.add_argument("--device", type=str, default="cuda:2")
     args = parser.parse_args()
     return args
 
@@ -91,10 +100,12 @@ def main(args):
     
     result = {}
     time = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+
     if args.eval_textVQA:
-        dataset = textVQADataset(args.textVQA_image_dir_path, args.textVQA_ann_path)
+        dataset = textVQADataset()
         acc = evaluate_VQA(model, dataset, args.model_name, 'textVQA', time)
         result['textVQA'] = acc
+    
     if args.eval_docVQA:
         dataset = docVQADataset(args.docVQA_image_dir_path, args.docVQA_ann_path)
         acc = evaluate_VQA(model, dataset, args.model_name, 'docVQA', time)
@@ -110,11 +121,12 @@ def main(args):
         result['ocrVQA'] = acc
     
     if args.eval_STVQA:
-        dataset = STVQADataset(args.STVQA_image_dir_path, args.STVQA_ann_path)
-        random_indices = np.random.choice(
-            len(dataset), max_sample_num, replace=False
-        )
-        dataset = torch.utils.data.Subset(dataset,random_indices)
+        dataset = STVQADataset()
+        if len(dataset) > max_sample_num:
+            random_indices = np.random.choice(
+                len(dataset), max_sample_num, replace=False
+            )
+            dataset = torch.utils.data.Subset(dataset, random_indices)
         acc = evaluate_VQA(model, dataset, args.model_name, 'STVQA', time)
         result['STVQA'] = acc
 
@@ -123,6 +135,16 @@ def main(args):
             dataset = ocrDataset(args.ocr_dir_path, ocr_dataset_name[i])
             acc = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time)
             result[ocr_dataset_name[i]] = acc
+
+    if args.eval_ScienceQA:
+        dataset = ScienceQADataset()
+        if len(dataset) > max_sample_num:
+            random_indices = np.random.choice(
+                len(dataset), max_sample_num, replace=False
+            )
+            dataset = torch.utils.data.Subset(dataset,random_indices)
+        acc = evaluate_VQA(model, dataset, args.model_name, 'ScienceQA', time)
+        result['ScienceQA'] = acc
     
     result_path = os.path.join(os.path.join(args.answer_path, time), 'result.json')
     with open(result_path, "w") as f:

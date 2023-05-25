@@ -7,8 +7,8 @@ from torch.utils.data import Dataset
 class textVQADataset(Dataset):
     def __init__(
         self,
-        image_dir_path= "./data/textVQA/train_images",
-        ann_path= "./data/textVQA/TextVQA_0.5.1_val.json"
+        image_dir_path= "/nvme/share/VQA_Datasets/TextVQA/train_images",
+        ann_path= "/nvme/share/VQA_Datasets/TextVQA/TextVQA_0.5.1_val.json"
     ):
         self.data = json.load(open(ann_path, "r"))["data"]
         self.image_dir_path = image_dir_path
@@ -84,21 +84,21 @@ class ocrVQADataset(Dataset):
 class STVQADataset(Dataset):
     def __init__(
         self,
-        image_dir_path= "./data/STVQA",
-        ann_path= "./data/STVQA/train_task_3.json",
+        image_dir_path= "/nvme/share/VQA_Datasets/STVQA/train_imgs",
+        ann_path= "/nvme/share/VQA_Datasets/STVQA/train_task_3.json",
     ):
         self.image_list = []
         self.question_list = []
         self.answer_list = []
-        data = json.load(open(ann_path, "r"))
+        data = json.load(open(ann_path, "r"))['data']
         for i in range(len(data)):
-            image_path = image_dir_path+'/'+data['data'][i]['dataset']+'/'+data['data'][i]['file_name']
+            image_path = image_dir_path + '/' + data[i]['dataset'] + '/' + data[i]['file_name']
             self.image_list.append(image_path)
-            self.answer_list.append(data['data'][i]['answers'])
-            self.question_list.append(data['data'][i]['question'])
+            self.answer_list.append(data[i]['answers'])
+            self.question_list.append(data[i]['question'])
 
     def __len__(self):
-        return len(self.data)
+        return len(self.image_list)
 
     def __getitem__(self, idx):
         question = self.question_list[idx]
@@ -111,17 +111,29 @@ class STVQADataset(Dataset):
     
 
 class ScienceQADataset(Dataset):
-    def __init__(
-        self, split='test'
-    ):
+    def __init__(self):
+        split='test'
+        options = ["A", "B", "C", "D", "E", "F", "G", "H"]
         data = datasets.load_dataset('derek-thomas/ScienceQA', split)
-        for sample in data:
-            self.image_list.append(sample['image'])
-            self.answer_list.append(sample['answers'])
-            self.question_list.append(sample['question'])
+
+        self.image_list = []
+        self.question_list = []
+        self.answer_list = []
+
+        for sample in data[split]:
+            if sample['image'] is None:
+                continue
+            # question = f"Question: {sample['question']}\n" \
+            #            f"Options: {' '.join([f'({x}) {y}' for x, y in zip(options, sample['choices'])])}\n"
+            question = f"Question: {sample['question']}\n" \
+                       f"Options: {' '.join(sample['choices'])}\n"
+
+            self.question_list.append(question)
+            self.image_list.append(sample['image'].convert('RGB'))
+            self.answer_list.append(sample['choices'][sample['answer']])
 
     def __len__(self):
-        return len(self.data)
+        return len(self.question_list)
 
     def __getitem__(self, idx):
         question = self.question_list[idx]
