@@ -7,11 +7,8 @@ import torch
 import numpy as np
 
 from utils import evaluate_OCR, evaluate_VQA
-from datasets.ocr_dataset import ocrDataset
-from datasets.vqa_dataset import textVQADataset, docVQADataset, ocrVQADataset, STVQADataset
-
-from model_worker import Model_Worker
-from web_model_worker import Web_Model_Worker
+from datasets import ocrDataset, textVQADataset, docVQADataset, ocrVQADataset, STVQADataset
+from models import Model_Worker, Web_Model_Worker
 
 
 def get_model(args):

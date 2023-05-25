@@ -1,5 +1,7 @@
-from torch.utils.data import Dataset
 import os
+from torch.utils.data import Dataset
+
+
 class ocrDataset(Dataset):
     def __init__(
         self,
@@ -10,8 +12,10 @@ class ocrDataset(Dataset):
         file_path = os.path.join(dataset_path, f'{dataset_name}/test_label.txt')
         file = open(file_path, "r")
         self.lines = file.readlines()
+
     def __len__(self):
         return len(self.lines)
+    
     def __getitem__(self, idx):
         img_path = self.lines[idx].split()[0]
         answers = self.lines[idx].split()[1]

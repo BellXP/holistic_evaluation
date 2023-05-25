@@ -1,15 +1,18 @@
-from torch.utils.data import Dataset
 import os
 import json
+import datasets
+from torch.utils.data import Dataset
+
+
 class textVQADataset(Dataset):
     def __init__(
         self,
         image_dir_path= "./data/textVQA/train_images",
         ann_path= "./data/textVQA/TextVQA_0.5.1_val.json"
     ):
-        
         self.data = json.load(open(ann_path, "r"))["data"]
         self.image_dir_path = image_dir_path
+
     def __len__(self):
         return len(self.data)
 
@@ -22,13 +25,13 @@ class textVQADataset(Dataset):
             "question": question,
             "gt_answers": answers}
 
+
 class docVQADataset(Dataset):
     def __init__(
         self,
         image_dir_path= "./data/docVQA/val",
         ann_path= "./data/docVQA/val/val_v1.0.json",
     ):
-        
         self.data = json.load(open(ann_path, "r"))["data"]
         self.image_dir_path = image_dir_path
 
@@ -43,6 +46,7 @@ class docVQADataset(Dataset):
             "image_path": img_path,
             "question": question,
             "gt_answers": answers}
+
 
 class ocrVQADataset(Dataset):
     def __init__(
@@ -63,6 +67,7 @@ class ocrVQADataset(Dataset):
                 self.image_list.append(image_file)
                 self.answer_list.append(gt_answers)
                 self.question_list.append(question)
+
     def __len__(self):
         return len(self.data)
 
@@ -74,6 +79,7 @@ class ocrVQADataset(Dataset):
             "image_path": img_path,
             "question": question,
             "gt_answers": answers}
+
 
 class STVQADataset(Dataset):
     def __init__(
@@ -90,6 +96,30 @@ class STVQADataset(Dataset):
             self.image_list.append(image_path)
             self.answer_list.append(data['data'][i]['answers'])
             self.question_list.append(data['data'][i]['question'])
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.question_list[idx]
+        answers = self.answer_list[idx]
+        img_path = self.image_list[idx]
+        return {
+            "image_path": img_path,
+            "question": question,
+            "gt_answers": answers}
+    
+
+class ScienceQADataset(Dataset):
+    def __init__(
+        self, split='test'
+    ):
+        data = datasets.load_dataset('derek-thomas/ScienceQA', split)
+        for sample in data:
+            self.image_list.append(sample['image'])
+            self.answer_list.append(sample['answers'])
+            self.question_list.append(sample['question'])
+
     def __len__(self):
         return len(self.data)
 
