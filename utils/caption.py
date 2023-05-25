@@ -2,17 +2,17 @@ import more_itertools
 from tqdm import tqdm
 import os
 import json
-import re
 
 from .tools import VQAEval
 
 
-def evaluate_VQA(
+def evaluate_Caption(
     model,
     dataset,
     model_name,
     dataset_name,
     time,
+    question='what is described in the image?',
     batch_size=1,
     answer_path='./answers'
 ):
@@ -21,8 +21,8 @@ def evaluate_VQA(
         tqdm(dataset, desc="Running inference"), batch_size
     ):
         batch = batch[0]
-        output = model.generate(image=batch['image_path'], question=batch['question'])
-        answer_dict={'question':batch['question'], 'answer':output, 
+        output = model.generate(image=batch['image_path'], question=question)
+        answer_dict={'question':question, 'answer':output, 
         'gt_answers':batch['gt_answers'], 'image_path':batch['image_path'],
         'model_name':model_name}
         predictions.append(answer_dict)
@@ -31,9 +31,9 @@ def evaluate_VQA(
     answer_path = os.path.join(answer_dir, f"{dataset_name}.json")
     with open(answer_path, "w") as f:
         f.write(json.dumps(predictions, indent=4))
-    eval = VQAEval()
     correct = 0
     num = 0
+    eval = VQAEval()
     with open(answer_path, 'r') as f:
         dict = json.load(f)
         for i in range(len(dict)):

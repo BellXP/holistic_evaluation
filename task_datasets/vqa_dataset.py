@@ -111,26 +111,54 @@ class STVQADataset(Dataset):
     
 
 class ScienceQADataset(Dataset):
-    def __init__(self):
-        split='test'
-        options = ["A", "B", "C", "D", "E", "F", "G", "H"]
-        data = datasets.load_dataset('derek-thomas/ScienceQA', split)
+    split='test'
+    options = ["A", "B", "C", "D", "E", "F", "G", "H"]
+    data_root = '/nvme/share/VQA_Datasets/ScienceQA'
 
+    def __init__(self):
         self.image_list = []
         self.question_list = []
         self.answer_list = []
 
-        for sample in data[split]:
+        ann_path = f"{self.data_root}/{self.split}_anns.json"
+        if os.path.exists(ann_path):
+            dataset = json.load(open(ann_path, "r"))
+            for sample in dataset:
+                self.image_list.append(sample['image_path'])
+                self.question_list.append(sample['question'])
+                self.answer_list.append(sample['answer'])
+        else:
+            self.load_save_dataset()
+    
+    def load_save_dataset(self):
+        # load dataset
+        data = datasets.load_dataset('derek-thomas/ScienceQA', self.split)
+        for sample in data[self.split]:
             if sample['image'] is None:
                 continue
             # question = f"Question: {sample['question']}\n" \
-            #            f"Options: {' '.join([f'({x}) {y}' for x, y in zip(options, sample['choices'])])}\n"
+            #            f"Options: {' '.join([f'({x}) {y}' for x, y in zip(self.options, sample['choices'])])}\n"
             question = f"Question: {sample['question']}\n" \
                        f"Options: {' '.join(sample['choices'])}\n"
 
             self.question_list.append(question)
             self.image_list.append(sample['image'].convert('RGB'))
             self.answer_list.append(sample['choices'][sample['answer']])
+
+        # save dataset
+        dataset = []
+        for i in range(len(self.image_list)):
+            img_file_name = f'{self.data_root}/{self.split}_imgs/{i:04d}.png'
+            if not os.path.exists(img_file_name):
+                self.image_list[i].save(img_file_name)
+            self.image_list[i] = img_file_name
+            dataset.append({
+                'answer': self.answer_list[i],
+                'image_path': self.image_list[i],
+                'question': self.question_list[i]
+            })
+        with open(f"{self.data_root}/{self.split}_anns.json", "w") as f:
+            f.write(json.dumps(dataset, indent=4))
 
     def __len__(self):
         return len(self.question_list)
