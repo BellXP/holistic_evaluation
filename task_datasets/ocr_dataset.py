@@ -3,7 +3,7 @@ from torch.utils.data import Dataset
 
 
 class ocrDataset(Dataset):
-    data_root = '/nvme/shape/OCR_Datasets'
+    data_root = '/nvme/share/OCR_Datasets'
 
     def __init__(
         self,

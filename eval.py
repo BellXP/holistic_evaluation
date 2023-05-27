@@ -7,7 +7,7 @@ import torch
 import numpy as np
 
 from utils import evaluate_OCR, evaluate_VQA, evaluate_Caption
-from task_datasets import ocrDataset, textVQADataset, STVQADataset, ScienceQADataset, ocrVQADataset, NoCapsDataset
+from task_datasets import ocrDataset, dataset_class_dict
 from models import Model_Worker, Web_Model_Worker
 
 
@@ -23,6 +23,8 @@ def get_model(args):
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
+    
+    # models
     parser.add_argument("--model_name", type=str, default="LLaMA-Adapter-v2")
     parser.add_argument("--device", type=int, default=-1)
     parser.add_argument(
@@ -32,10 +34,13 @@ def parse_args():
         help="Whether to use web model worker."
     )
     
-    #OCR datasets
+    # datasets
     parser.add_argument("--ocr_dataset_name", type=str, default="IIIT5K SVT IC13 IC15 SVTP ct80 cocotext ctw totaltext HOST WOST WordArt")
+    parser.add_argument("--dataset_name", type=str, default=None)
+    parser.add_argument("--sample_num", type=int, default=-1)
+    parser.add_argument("--sample_seed", type=int, default=0)
 
-    #result_path
+    # result_path
     parser.add_argument("--answer_path", type=str, default="./answers")
 
     # eval choices
@@ -46,34 +51,16 @@ def parse_args():
         help="Whether to evaluate on ocr."
     )
     parser.add_argument(
-        "--eval_textVQA",
+        "--eval_vqa",
         action="store_true",
         default=False,
-        help="Whether to evaluate on textVQA."
+        help="Whether to evaluate on vqa."
     )
     parser.add_argument(
-        "--eval_STVQA",
+        "--eval_caption",
         action="store_true",
         default=False,
-        help="Whether to evaluate on STVQA."
-    )
-    parser.add_argument(
-        "--eval_ScienceQA",
-        action="store_true",
-        default=False,
-        help="Whether to evaluate on ScienceQA."
-    )
-    parser.add_argument(
-        "--eval_ocrVQA",
-        action="store_true",
-        default=False,
-        help="Whether to evaluate on ocrVQA."
-    )
-    parser.add_argument(
-        "--eval_NoCaps",
-        action="store_true",
-        default=False,
-        help="Whether to evaluate on docVQA."
+        help="Whether to evaluate on caption."
     )
 
     args = parser.parse_args()
@@ -81,8 +68,11 @@ def parse_args():
 
 
 def sample_dataset(dataset, max_sample_num=5000, seed=0):
-    np.random.seed(seed)
+    if max_sample_num == -1:
+        return dataset
+
     if len(dataset) > max_sample_num:
+        np.random.seed(seed)
         random_indices = np.random.choice(
             len(dataset), max_sample_num, replace=False
         )
@@ -102,35 +92,19 @@ def main(args):
             acc = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time)
             result[ocr_dataset_name[i]] = acc
 
-    if args.eval_textVQA:
-        dataset = textVQADataset()
-        dataset = sample_dataset(dataset)
-        acc = evaluate_VQA(model, dataset, args.model_name, 'textVQA', time)
-        result['textVQA'] = acc
-
-    if args.eval_STVQA:
-        dataset = STVQADataset()
-        dataset = sample_dataset(dataset, 4000)
-        acc = evaluate_VQA(model, dataset, args.model_name, 'STVQA_4000', time)
-        result['STVQA_4000'] = acc
-
-    if args.eval_ScienceQA:
-        dataset = ScienceQADataset()
-        dataset = sample_dataset(dataset)
-        acc = evaluate_VQA(model, dataset, args.model_name, 'ScienceQA', time)
-        result['ScienceQA'] = acc
-
-    if args.eval_ocrVQA:
-        dataset = ocrVQADataset(args.ocrVQA_image_dir_path, args.ocrVQA_ann_path)
-        dataset = sample_dataset(dataset)
-        acc = evaluate_VQA(model, dataset, args.model_name, 'ocrVQA', time)
-        result['ocrVQA'] = acc
+    if args.eval_vqa:
+        dataset_class = dataset_class_dict[args.dataset_name]
+        dataset = dataset_class()
+        dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
+        acc = evaluate_VQA(model, dataset, args.model_name, args.dataset_name, time)
+        result[args.dataset_name] = acc
     
-    if args.eval_NoCaps:
-        dataset = NoCapsDataset()
-        dataset = sample_dataset(dataset)
-        acc = evaluate_Caption(model, dataset, args.model_name, 'NoCaps', time)
-        result['NoCaps'] = acc
+    if args.eval_caption:
+        dataset_class = dataset_class_dict[args.dataset_name]
+        dataset = dataset_class()
+        dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
+        acc = evaluate_Caption(model, dataset, args.model_name, args.dataset_name, time)
+        result[args.dataset_name] = acc
     
     result_path = os.path.join(os.path.join(args.answer_path, time), 'result.json')
     with open(result_path, "w") as f:

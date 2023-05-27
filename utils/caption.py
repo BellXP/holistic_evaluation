@@ -3,7 +3,7 @@ from tqdm import tqdm
 import os
 import json
 
-from .tools import VQAEval
+from .cider import CiderScorer
 
 
 def evaluate_Caption(
@@ -31,16 +31,19 @@ def evaluate_Caption(
     answer_path = os.path.join(answer_dir, f"{dataset_name}.json")
     with open(answer_path, "w") as f:
         f.write(json.dumps(predictions, indent=4))
-    correct = 0
-    num = 0
-    eval = VQAEval()
+    
     with open(answer_path, 'r') as f:
         dict = json.load(f)
+        cider_scorer = CiderScorer(n=4, sigma=6.0)
         for i in range(len(dict)):
             gt_answers = dict[i]['gt_answers']
             answer = dict[i]['answer']
-            if eval.evaluate(answer, gt_answers)==1:
-                correct+=1
-            num+=1
-    print(f'{dataset_name}:{float(correct)/num}')
-    return float(correct)/num
+            cider_scorer += (answer, gt_answers)
+        (score, scores) = cider_scorer.compute_score()
+    for i, sample_score in zip(range(len(dict)), scores):
+        dict[i]['cider_score'] = sample_score
+    with open(answer_path, "w") as f:
+        f.write(json.dumps(dict, indent=4))
+    
+    print(f'{dataset_name}: {score}')
+    return score
