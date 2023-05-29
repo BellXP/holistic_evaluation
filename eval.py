@@ -8,17 +8,7 @@ import numpy as np
 
 from utils import evaluate_OCR, evaluate_VQA, evaluate_Caption
 from task_datasets import ocrDataset, dataset_class_dict
-from models import Model_Worker, Web_Model_Worker
-
-
-def get_model(args):
-    device = torch.device('cpu' if args.device == -1 else f"cuda:{args.device}")
-    if args.use_web_model:
-        model = Web_Model_Worker()
-    else:
-        model = Model_Worker(device)
-
-    return model
+from models import get_model
 
 
 def parse_args():
@@ -27,6 +17,7 @@ def parse_args():
     # models
     parser.add_argument("--model_name", type=str, default="LLaMA-Adapter-v2")
     parser.add_argument("--device", type=int, default=-1)
+    parser.add_argument("--batch_size", type=int, default=1)
     parser.add_argument(
         "--use-web-model",
         action="store_true",
@@ -81,7 +72,7 @@ def sample_dataset(dataset, max_sample_num=5000, seed=0):
 
 
 def main(args):
-    model = get_model(args)
+    model = get_model(args.model_name, device=torch.device('cpu' if args.device == -1 else f"cuda:{args.device}"))
     result = {}
     time = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
 
@@ -89,21 +80,21 @@ def main(args):
         ocr_dataset_name = args.ocr_dataset_name.split()
         for i in range(len(ocr_dataset_name)):
             dataset = ocrDataset(ocr_dataset_name[i])
-            acc = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time)
+            acc = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time, batch_size=args.batch_size)
             result[ocr_dataset_name[i]] = acc
 
     if args.eval_vqa:
         dataset_class = dataset_class_dict[args.dataset_name]
         dataset = dataset_class()
         dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-        acc = evaluate_VQA(model, dataset, args.model_name, args.dataset_name, time)
+        acc = evaluate_VQA(model, dataset, args.model_name, args.dataset_name, time, args.batch_size)
         result[args.dataset_name] = acc
     
     if args.eval_caption:
         dataset_class = dataset_class_dict[args.dataset_name]
         dataset = dataset_class()
         dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-        acc = evaluate_Caption(model, dataset, args.model_name, args.dataset_name, time)
+        acc = evaluate_Caption(model, dataset, args.model_name, args.dataset_name, time, batch_size=args.batch_size)
         result[args.dataset_name] = acc
     
     result_path = os.path.join(os.path.join(args.answer_path, time), 'result.json')
