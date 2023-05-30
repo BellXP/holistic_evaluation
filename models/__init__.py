@@ -49,5 +49,8 @@ def get_model(model_name, device=None):
     elif model_name == 'Multimodal-GPT':
         from .test_multimodel_gpt import TestMultiModelGPT # Web version
         return TestMultiModelGPT(device)
+    elif 'ImageBind' in model_name:
+        from .test_imagebind import TestImageBind
+        return TestImageBind(model_name, device)
     else:
         raise ValueError(f"Invalid model_name: {model_name}")

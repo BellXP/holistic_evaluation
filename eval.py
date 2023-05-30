@@ -26,7 +26,7 @@ def parse_args():
     )
     
     # datasets
-    parser.add_argument("--ocr_dataset_name", type=str, default="IIIT5K SVT IC13 IC15 SVTP ct80 cocotext ctw totaltext HOST WOST WordArt")
+    parser.add_argument("--ocr_dataset_name", type=str, default="IIIT5K SVT IC13 IC15 SVTP CUTE80 COCO-Text Total-Text WordArt") # CTW HOST WOST
     parser.add_argument("--dataset_name", type=str, default=None)
     parser.add_argument("--sample_num", type=int, default=-1)
     parser.add_argument("--sample_seed", type=int, default=0)
