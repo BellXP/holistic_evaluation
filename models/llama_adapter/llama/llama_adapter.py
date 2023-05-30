@@ -47,12 +47,11 @@ class LLaMA_adapter(nn.Module):
         with open(os.path.join(llama_ckpt_dir, "params.json"), "r") as f:
             params = json.loads(f.read())
         model_args: ModelArgs = ModelArgs(
-            max_seq_len=512, max_batch_size=1, **params
+            max_seq_len=256, max_batch_size=64, **params
         )
         model_args.vocab_size = self.tokenizer.n_words
-        torch.set_default_tensor_type(torch.cuda.HalfTensor)
         self.llama = Transformer(model_args)
-        torch.set_default_tensor_type(torch.FloatTensor)
+        self.llama = self.llama.to('cpu', dtype=torch.float16)
 
         ckpts = sorted(Path(llama_ckpt_dir).glob("*.pth"))
         for ckpt in ckpts:
@@ -160,10 +159,13 @@ class LLaMA_adapter(nn.Module):
 
         total_len = min(params.max_seq_len, max_gen_len + max_prompt_size)
 
-        tokens = torch.full((bsz, total_len), self.tokenizer.pad_id).cuda().long()
+        tokens = torch.full((bsz, total_len), self.tokenizer.pad_id).long().to(visual_query.device)
 
         for k, t in enumerate(prompts):
-            tokens[k, : len(t)] = torch.tensor(t).cuda().long()
+            tokens[k, : len(t)] = torch.tensor(t).long().to(visual_query.device)
+        
+        get_result = [False for _ in range(bsz)]
+        
         input_text_mask = tokens != self.tokenizer.pad_id
         start_pos = min_prompt_size
         prev_pos = 0
@@ -181,8 +183,10 @@ class LLaMA_adapter(nn.Module):
                 input_text_mask[:, cur_pos], tokens[:, cur_pos], next_token
             )
             tokens[:, cur_pos] = next_token
-            # trick: early stop if bsz==1
-            if bsz == 1 and next_token[0] == self.tokenizer.eos_id:
+            for idx in range(len(next_token)):
+                if next_token[idx] == self.tokenizer.eos_id:
+                    get_result[idx] = True
+            if all(get_result):
                 break
             prev_pos = cur_pos
 
@@ -196,6 +200,8 @@ class LLaMA_adapter(nn.Module):
                 t = t[: t.index(self.tokenizer.eos_id)]
             except ValueError:
                 pass
+            # if -1 in t:
+            #     t.remove(-1)
             decoded.append(self.tokenizer.decode(t))
 
         return decoded
@@ -208,7 +214,7 @@ _MODELS = {
 def available_models():
     return list(_MODELS.keys())
 
-def load(name, llama_dir, device="cuda" if torch.cuda.is_available() else "cpu", download_root='ckpts', knn=False):
+def load(name, llama_dir, device="cpu", download_root='ckpts', knn=False):
     if name in _MODELS:
         model_path = _download(_MODELS[name], download_root)
     elif os.path.isfile(name):

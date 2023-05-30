@@ -71,5 +71,6 @@ def parse_args():
 
 if __name__ == "__main__":
     args = parse_args()
+    answer_path = f"{args.answer_path}/{args.model_name}"
     model = get_model(args.model_name, device=torch.device('cpu' if args.device == -1 else f"cuda:{args.device}"))
-    evaluate_Owl(model, args.model_name, args.batch_size)
+    evaluate_Owl(model, args.model_name, args.batch_size, answer_path=answer_path)

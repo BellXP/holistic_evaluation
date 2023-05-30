@@ -18,12 +18,6 @@ def parse_args():
     parser.add_argument("--model_name", type=str, default="LLaMA-Adapter-v2")
     parser.add_argument("--device", type=int, default=-1)
     parser.add_argument("--batch_size", type=int, default=1)
-    parser.add_argument(
-        "--use-web-model",
-        action="store_true",
-        default=False,
-        help="Whether to use web model worker."
-    )
     
     # datasets
     parser.add_argument("--ocr_dataset_name", type=str, default="IIIT5K SVT IC13 IC15 SVTP CUTE80 COCO-Text Total-Text WordArt") # CTW HOST WOST
@@ -35,30 +29,10 @@ def parse_args():
     parser.add_argument("--answer_path", type=str, default="./answers")
 
     # eval choices
-    parser.add_argument(
-        "--eval_ocr",
-        action="store_true",
-        default=False,
-        help="Whether to evaluate on ocr."
-    )
-    parser.add_argument(
-        "--eval_vqa",
-        action="store_true",
-        default=False,
-        help="Whether to evaluate on vqa."
-    )
-    parser.add_argument(
-        "--eval_caption",
-        action="store_true",
-        default=False,
-        help="Whether to evaluate on caption."
-    )
-    parser.add_argument(
-        "--eval_kie",
-        action="store_true",
-        default=False,
-        help="Whether to evaluate on kie."
-    )
+    parser.add_argument("--eval_ocr", action="store_true", help="Whether to evaluate on ocr.")
+    parser.add_argument("--eval_vqa", action="store_true", help="Whether to evaluate on vqa.")
+    parser.add_argument("--eval_caption", action="store_true", help="Whether to evaluate on caption.")
+    parser.add_argument("--eval_kie", action="store_true", default=False, help="Whether to evaluate on kie.")
 
     args = parser.parse_args()
     return args
@@ -77,41 +51,35 @@ def sample_dataset(dataset, max_sample_num=5000, seed=0):
     return dataset
 
 
+def get_eval_function(args):
+    if args.eval_vqa:
+        return evaluate_VQA
+    if args.eval_caption:
+        return evaluate_Caption
+    if args.eval_kie:
+        return evaluate_KIE
+
+
 def main(args):
     model = get_model(args.model_name, device=torch.device('cpu' if args.device == -1 else f"cuda:{args.device}"))
-    result = {}
     time = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    answer_path = f"{args.answer_path}/{args.model_name}"
 
+    result = {}
     if args.eval_ocr:
         ocr_dataset_name = args.ocr_dataset_name.split()
         for i in range(len(ocr_dataset_name)):
             dataset = ocrDataset(ocr_dataset_name[i])
             dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-            metrics = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time, batch_size=args.batch_size)
+            metrics = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time, batch_size=args.batch_size, answer_path=answer_path)
             result[ocr_dataset_name[i]] = metrics
 
-    if args.eval_vqa:
-        dataset_class = dataset_class_dict[args.dataset_name]
-        dataset = dataset_class()
-        dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-        metrics = evaluate_VQA(model, dataset, args.model_name, args.dataset_name, time, args.batch_size)
-        result[args.dataset_name] = metrics
+    dataset = dataset_class_dict[args.dataset_name]()
+    dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
+    metrics = get_eval_function(args)(model, dataset, args.model_name, args.dataset_name, time, args.batch_size, answer_path=answer_path)
+    result[args.dataset_name] = metrics
     
-    if args.eval_caption:
-        dataset_class = dataset_class_dict[args.dataset_name]
-        dataset = dataset_class()
-        dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-        metrics = evaluate_Caption(model, dataset, args.model_name, args.dataset_name, time, batch_size=args.batch_size)
-        result[args.dataset_name] = metrics
-
-    if args.eval_kie:
-        dataset_class = dataset_class_dict[args.dataset_name]
-        dataset = dataset_class()
-        dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-        metrics = evaluate_KIE(model, dataset, args.model_name, args.dataset_name, time, batch_size=args.batch_size)
-        result[args.dataset_name] = metrics
-    
-    result_path = os.path.join(os.path.join(args.answer_path, time), 'result.json')
+    result_path = os.path.join(os.path.join(answer_path, time), 'result.json')
     with open(result_path, "w") as f:
         f.write(json.dumps(result, indent=4))
 

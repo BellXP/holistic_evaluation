@@ -29,7 +29,7 @@ class TestImageBind:
 
         prompts = [format_prompt(question)]
         prompts = [self.generator.tokenizer.encode(x, bos=True, eos=False) for x in prompts]
-        results = self.generator.generate(imgs, prompts, max_gen_len=max_gen_len, temperature=temperature, top_p=top_p)
+        results = self.generator.generate(imgs, prompts, max_gen_len=max_gen_len, temperature=temperature, top_p=top_p, input_type="vision")
         result = results[0].strip()
 
         return result
@@ -39,7 +39,7 @@ class TestImageBind:
         imgs = [self.img_transform(x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device)
         prompts = [format_prompt(question) for question in question_list]
-        results = self.generator.generate(imgs, prompts, max_gen_len=max_gen_len, temperature=temperature, top_p=top_p)
+        results = self.generator.generate(imgs, prompts, max_gen_len=max_gen_len, temperature=temperature, top_p=top_p, input_type="vision")
         results = [result.strip() for result in results]
 
         return results
