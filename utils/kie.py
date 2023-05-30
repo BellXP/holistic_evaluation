@@ -3,26 +3,45 @@ import json
 from tqdm import tqdm
 from torch.utils.data import DataLoader
 
-from .cider import CiderScorer
 
-"""
-NOTE: caption prompt candidates
-1. what is described in the image?
-2. Generate caption of this image:
-"""
+class F1Scorer:
+    def __init__(self):
+        self.n_detected_words = 0
+        self.n_gt_words = 0        
+        self.n_match_words = 0
+
+    def add_string(self, ref, pred):        
+        pred_words = list(pred.split())
+        ref_words = list(ref.split())
+        self.n_gt_words += len(ref_words)
+        self.n_detected_words += len(pred_words)
+        for pred_w in pred_words:
+            if pred_w in ref_words:
+                self.n_match_words += 1
+                ref_words.remove(pred_w)
+
+    def score(self):
+        prec = self.n_match_words / float(self.n_detected_words) * 100
+        recall = self.n_match_words / float(self.n_gt_words) * 100
+        f1 = 2 * (prec * recall) / (prec + recall)
+        return prec, recall, f1
+
+    def result_string(self):
+        prec, recall, f1 = self.score()
+        return f"Precision: {prec:.3f} Recall: {recall:.3f} F1: {f1:.3f}"
 
 
-def evaluate_Caption(
+def evaluate_KIE(
     model,
     dataset,
     model_name,
     dataset_name,
     time,
-    question='Generate caption of this image:',
     batch_size=1,
     answer_path='./answers'
 ):
     predictions=[]
+    question = dataset.question
     dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=lambda batch: {key: [dict[key] for dict in batch] for key in batch[0]})
     for batch in tqdm(dataloader, desc="Running inference"):
         outputs = model.batch_generate(batch['image_path'], [question for _ in range(len(batch['image_path']))])
@@ -39,16 +58,12 @@ def evaluate_Caption(
     
     with open(answer_path, 'r') as f:
         dict = json.load(f)
-        cider_scorer = CiderScorer(n=4, sigma=6.0)
+        f1_scorer = F1Scorer()
         for i in range(len(dict)):
             gt_answers = dict[i]['gt_answers']
             answer = dict[i]['answer']
-            cider_scorer += (answer, gt_answers)
-        (score, scores) = cider_scorer.compute_score()
-    for i, sample_score in zip(range(len(dict)), scores):
-        dict[i]['cider_score'] = sample_score
-    with open(answer_path, "w") as f:
-        f.write(json.dumps(dict, indent=4))
-    
-    print(f'{dataset_name}: {score}')
-    return score
+            f1_scorer.add_string(gt_answers, answer)
+        prec, recall, f1 = f1_scorer.score()
+    result = f"Precision: {prec:.3f} Recall: {recall:.3f} F1: {f1:.3f}"
+    print(f'{dataset_name}: {result}')
+    return result

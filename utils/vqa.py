@@ -1,7 +1,6 @@
-import more_itertools
-from tqdm import tqdm
 import os
 import json
+from tqdm import tqdm
 from torch.utils.data import DataLoader
 
 from .tools import VQAEval
@@ -17,11 +16,8 @@ def evaluate_VQA(
     answer_path='./answers'
 ):
     predictions=[]
-    dataloader = DataLoader(dataset, batch_size=batch_size)
-    for batch in more_itertools.chunked(
-        tqdm(dataloader, desc="Running inference"), 1
-    ):
-        batch = batch[0]
+    dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=lambda batch: {key: [dict[key] for dict in batch] for key in batch[0]})
+    for batch in tqdm(dataloader, desc="Running inference"):
         outputs = model.batch_generate(batch['image_path'], batch['question'])
         for image_path, question, gt_answer, output in zip(batch['image_path'], batch['question'], batch['gt_answers'], outputs):
             answer_dict={'question': question, 'answer': output,

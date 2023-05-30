@@ -1,0 +1,2018 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"final\" is written in the image.",
+        "gt_answers": "RONALDO",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/001.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number seven is written in the image.",
+        "gt_answers": "7",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/002.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CRUISE\" written in a green and white color scheme.",
+        "gt_answers": "SEACREST",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/003.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"JAC\" written in a large, colorful font on a white background.",
+        "gt_answers": "BEACH",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/004.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"All.\"",
+        "gt_answers": "BALLYS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/005.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ATL\" written in blue letters.",
+        "gt_answers": "STATION",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/006.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white background with the word \"TRADE\" written in blue.",
+        "gt_answers": "ENTRANCE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/007.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"CARTEL\" is written in the image.",
+        "gt_answers": "Carp",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/008.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"TEAM\" is written in the image.",
+        "gt_answers": "Team",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/009.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BIS\" is written in the image.",
+        "gt_answers": "eBizu",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/010.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NAL\" written in white letters on a black background.",
+        "gt_answers": "DAILY",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/011.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Imperial\" is written in the image.",
+        "gt_answers": "IMPERIAL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/012.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"college\" is written in the image.",
+        "gt_answers": "COLLEGE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/013.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"College\" is written in the image.",
+        "gt_answers": "LONDON",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/014.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"Amadeus\" written in blue letters.",
+        "gt_answers": "academy",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/015.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Grand\" written on a wall.",
+        "gt_answers": "entrance",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/016.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number 18 written on a wall.",
+        "gt_answers": "18",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/017.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number 78 written on a wall.",
+        "gt_answers": "78",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/018.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NIL\" written in blue on a yellow background.",
+        "gt_answers": "NIL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/019.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"SATISFACTION\" written in blue and yellow letters.",
+        "gt_answers": "SATIS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/020.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Finish\" written in blue.",
+        "gt_answers": "NISI",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/021.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"OPTIMUM\" written in blue and yellow letters.",
+        "gt_answers": "OPTIMUM",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/022.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Ferrer\" written in a fancy, decorative font.",
+        "gt_answers": "Everton",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/023.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The name \"Shaw\" is written in the image.",
+        "gt_answers": "ARSHAVIN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/024.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 23 is written on the back of the soccer jersey.",
+        "gt_answers": "23",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/025.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Ehrhoff\" is written in the image.",
+        "gt_answers": "BIERHOFF",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/026.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 20 is written in the image.",
+        "gt_answers": "20",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/027.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"AC Milan\" written in white thread on a black background.",
+        "gt_answers": "ACM",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/028.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number 39 written in black and white.",
+        "gt_answers": "1899",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/029.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"West\" is written in the image.",
+        "gt_answers": "WEST",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/030.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Hampton\" written in red letters.",
+        "gt_answers": "HAM",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/031.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"United\" and \"We Stand\" written on a wall or a piece of paper.",
+        "gt_answers": "UNITED",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/032.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Arsenal\" and \"Arsenal FC\" written in black on a white background.",
+        "gt_answers": "ARSENAL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/033.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "gt_answers": "FOOT",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/034.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word written in a pixelated or pixelated-looking font, which gives it a unique and artistic appearance.",
+        "gt_answers": "BALL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/035.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word written in a pixelated or pixelated-looking font, which gives it a distorted appearance.",
+        "gt_answers": "CLUB",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/036.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"NO\" written in white text on a black background.",
+        "gt_answers": "SINCE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/037.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a pixelated representation of the number 1886.",
+        "gt_answers": "1886",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/038.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"LETTER\" written in red on a red background.",
+        "gt_answers": "LE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/039.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ROV\" written in red on a white background.",
+        "gt_answers": "GROVE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/040.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"HAPPY\" is written in the image.",
+        "gt_answers": "1",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/041.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Alco\" is written in the image.",
+        "gt_answers": "WALCOTT",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/042.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 14 is written in the image.",
+        "gt_answers": "14",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/043.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"SENECA\" written in a graffiti-like style on a red background.",
+        "gt_answers": "ARSENAL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/044.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Arte\" written in blue letters on a blue background.",
+        "gt_answers": "ARTETA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/045.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the number six written in white on a blue background.",
+        "gt_answers": "6",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/046.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"JACHA\" is written in the image.",
+        "gt_answers": "JOACHIM",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/047.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a soccer jersey with the names and signatures of various people written on it.",
+        "gt_answers": "12",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/048.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a word or phrase written in a foreign language, possibly Chinese.",
+        "gt_answers": "KNIGHT",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/049.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 16 is written in the image.",
+        "gt_answers": "16",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/050.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Bake\" is written in the image.",
+        "gt_answers": "BAKER",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/051.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 32 is written on the back of the soccer jersey.",
+        "gt_answers": "32",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/052.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"STOP\" is written in the image.",
+        "gt_answers": "ASTON",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/053.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a pixelated word \"KILL\" written in white text on a red background.",
+        "gt_answers": "VILLA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/054.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"alla\" is written in the image.",
+        "gt_answers": "BALLACK",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/055.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 13 is written in the image.",
+        "gt_answers": "13",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/056.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Starbucks\" written on a green sign.",
+        "gt_answers": "STARBUCKS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/057.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"OFFF\" written in green letters.",
+        "gt_answers": "COFFEE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/058.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"MSU\" is written in the image.",
+        "gt_answers": "SAMSUNG",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/059.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"mobil\" is written in the image.",
+        "gt_answers": "mobile",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/060.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Nels\" and \"Sons\" written on a blue and white sign.",
+        "gt_answers": "CHELSEA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/061.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"football\" is written in the image.",
+        "gt_answers": "FOOTBALL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/062.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"CLUB\" is written in the image.",
+        "gt_answers": "CLUB",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/063.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Chelsea\" written in blue and white.",
+        "gt_answers": "CHELSEA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/064.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"football\" written in blue and white.",
+        "gt_answers": "FOOTBALL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/065.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CLUB\" written in blue and yellow letters.",
+        "gt_answers": "CLUB",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/066.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Sassie\" written in blue letters on a white background.",
+        "gt_answers": "ESSIEN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/067.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the number five written in blue and white.",
+        "gt_answers": "5",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/068.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Terra\" written in blue and white letters on a blue background.",
+        "gt_answers": "TERRY",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/069.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 26 is written on the image.",
+        "gt_answers": "26",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/070.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Nova\" is written in the image.",
+        "gt_answers": "DONOVAN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/071.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number nine is written in the image.",
+        "gt_answers": "9",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/072.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Arte\" written in blue letters on a white background.",
+        "gt_answers": "ARTETA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/073.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number six is written in the image.",
+        "gt_answers": "6",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/074.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Chelsea\" written in blue and white.",
+        "gt_answers": "CHELSEA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/075.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"FOOTBALL\" written in a fancy, decorative font.",
+        "gt_answers": "FOOTBALL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/076.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CLUB\" written in a font that resembles a metal or chrome-like appearance.",
+        "gt_answers": "CLUB",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/077.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"GRRRR\" is written in the image.",
+        "gt_answers": "TORRES",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/078.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number nine is written in the image.",
+        "gt_answers": "9",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/079.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"NYELS\" written in blue and white, which are likely the colors of a sports team.",
+        "gt_answers": "CHELSEA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/080.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a soccer ball with the words \"FOTBAL\" written on it.",
+        "gt_answers": "FOOTBALL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/081.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CLUB\" written in blue letters.",
+        "gt_answers": "CLUB",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/082.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Angels\" written in a pixelated or pixelated-looking font.",
+        "gt_answers": "CHELSEA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/083.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Berr\" is written in the image.",
+        "gt_answers": "JARRETT",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/084.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"BOMB\" written in green and red neon lights.",
+        "gt_answers": "GEMBIRA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/085.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon sign that says \"OK\" in green and red.",
+        "gt_answers": "LOKA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/086.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ALO\" written in green letters.",
+        "gt_answers": "AVILON",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/087.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"ORA\" in yellow letters.",
+        "gt_answers": "Celelbrating",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/088.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Kaffee\" written in a fancy, old-fashioned font.",
+        "gt_answers": "Life",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/089.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ILL\" written in a fancy, decorative font.",
+        "gt_answers": "IL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/090.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"RIC\" written in a fancy, decorative font.",
+        "gt_answers": "MERCATO",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/091.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a stamp with the word \"GATES\" written on it.",
+        "gt_answers": "VACATION",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/092.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a stamp with the word \"NY\" written on it.",
+        "gt_answers": "VINYL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/093.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"WACAS\" written in blue and yellow letters.",
+        "gt_answers": "NEWCASTLE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/094.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"United\" written in blue and yellow letters.",
+        "gt_answers": "UNITED",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/095.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"UBH\" written in blue letters.",
+        "gt_answers": "STUBHUB",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/096.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 12 is written on the image.",
+        "gt_answers": "12",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/097.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"PERS\" is written in the image.",
+        "gt_answers": "VPERSIE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/098.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the number 20 written on a soccer jersey.",
+        "gt_answers": "20",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/099.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Manchester\" written on a brick wall.",
+        "gt_answers": "MANCHESTER",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/100.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"United\" written in red and yellow.",
+        "gt_answers": "UNITED",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/101.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Champs Lick House.\"",
+        "gt_answers": "SOUTHAMPTON",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/102.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"PUBLIC\" is written in the image.",
+        "gt_answers": "PUBLICK",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/103.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"House\" is written in the image.",
+        "gt_answers": "HOUSE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/104.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"RTCO\" is written in the image.",
+        "gt_answers": "BURTON",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/105.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HIPPA\" written in white letters on a green background.",
+        "gt_answers": "IPA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/106.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a word or phrase written in a foreign language, possibly Chinese.",
+        "gt_answers": "LONG",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/107.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a word or phrase written in a foreign language, possibly Chinese.",
+        "gt_answers": "ISLANDS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/108.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ORIGINAL\" is written in the image.",
+        "gt_answers": "ORIGINAL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/109.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a word or phrase written in a foreign language, possibly Arabic.",
+        "gt_answers": "CRAFT",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/110.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"REWE\" written in a red font.",
+        "gt_answers": "BREWERY",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/111.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"DEKWK\" written in red on a white background.",
+        "gt_answers": "LUNDEKVAM",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/112.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number \"5\" written in pink.",
+        "gt_answers": "5",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/113.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word or phrase written in a foreign language, which is likely Arabic.",
+        "gt_answers": "ALLAHABAD",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/114.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"University\" written in a colorful, decorative font.",
+        "gt_answers": "UNIVERSITY",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/115.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a quotation written in a graffiti-like style, with the word \"quote\" being the main focus.",
+        "gt_answers": "QUOT",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/116.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"RAMMED\" written in a graffiti-like style, with the letters appearing to be made of sand or dirt.",
+        "gt_answers": "RAMI",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/117.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TOT\" written in a font that resembles a graffiti-style.",
+        "gt_answers": "TOT",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/118.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a piece of paper with the word \"Labor\" written on it.",
+        "gt_answers": "ARBORES",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/119.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"TARA\" is written in the image.",
+        "gt_answers": "START",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/120.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"finish\" written in red and blue letters.",
+        "gt_answers": "FINISH",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/121.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ends\" is written in the image.",
+        "gt_answers": "FRIENDSHIP",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/122.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a word or phrase written in a distorted, pixelated, or blurry manner.",
+        "gt_answers": "TOTTENHAM",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/123.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"lst\" is written in the image.",
+        "gt_answers": "1ST",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/124.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"VIDE\" written in a fancy font.",
+        "gt_answers": "nVIDIA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/125.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"meanant\" is written in the image.",
+        "gt_answers": "meant",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/126.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word \"to\" written in a black font on a white background.",
+        "gt_answers": "to",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/127.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BE\" is written in the image.",
+        "gt_answers": "be",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/128.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the word \"played\" written on it.",
+        "gt_answers": "played",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/129.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"West\" is written in the image.",
+        "gt_answers": "WEST",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/130.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"AM\" is written in the image.",
+        "gt_answers": "HAM",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/131.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"United\" is written in the image.",
+        "gt_answers": "UNITED",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/132.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"SAM\" is written in the image.",
+        "gt_answers": "NANI",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/133.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"West\" written in red, white, and blue.",
+        "gt_answers": "WEST",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/134.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HANS\" written in red and blue letters.",
+        "gt_answers": "HAM",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/135.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"West\" written in a colorful, decorative font.",
+        "gt_answers": "WEST",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/136.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Ham\" written in a large, bold, and colorful font.",
+        "gt_answers": "HAM",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/137.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"United\" written in blue and white.",
+        "gt_answers": "UNITED",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/138.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"AGA\" written in blue.",
+        "gt_answers": "WIGAN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/139.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ATHLETIC\" written in white letters on a blue background.",
+        "gt_answers": "ATHLETIC",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/140.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of the word \"ein\" written in a black font on a white background.",
+        "gt_answers": "Heinz",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/141.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Bake\" written in black letters on a white background.",
+        "gt_answers": "BAKED",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/142.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a white piece of paper with the words \"Baked Beans\" written on it.",
+        "gt_answers": "BEANZ",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/143.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number 86 written in a font that resembles a typewriter or old-fashioned font.",
+        "gt_answers": "1869",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/144.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"in\" is written in the image.",
+        "gt_answers": "in",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/145.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word written in a foreign language, which is likely Chinese.",
+        "gt_answers": "tomato",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/146.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Audacity\" is written in the image.",
+        "gt_answers": "sauce",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/147.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ESTY\" is written in the image.",
+        "gt_answers": "ESTD",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/148.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"STEST\" is written in the image.",
+        "gt_answers": "ESTD",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/149.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"IGA\" written in blue.",
+        "gt_answers": "WIGAN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/150.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a number 1933 written in gold or yellow letters.",
+        "gt_answers": "1932",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/151.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ATHLETIC\" written in blue and white.",
+        "gt_answers": "ATHLETIC",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/152.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"WEST\" written in blue letters.",
+        "gt_answers": "WEST",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/153.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"MVW\" written in blue letters.",
+        "gt_answers": "BROMWICH",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/154.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"BIO\" written in blue letters.",
+        "gt_answers": "ALBION",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/155.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"EST\" is written in the image.",
+        "gt_answers": "Lest",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/156.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"WEEK\" is written in the image.",
+        "gt_answers": "We",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/157.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Forged\" is written in the image.",
+        "gt_answers": "Forget",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/158.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Bridgestone\" is written on the side of the tire.",
+        "gt_answers": "BRIOGESTONE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/159.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Spooky\" written in a colorful, decorative font.",
+        "gt_answers": "Tokyo",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/160.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HEY\" written in a colorful, neon-like font.",
+        "gt_answers": "Disneyland",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/161.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"20 Years\" written in blue.",
+        "gt_answers": "20",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/162.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"Amazon\" written in blue letters.",
+        "gt_answers": "YEARS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/163.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a word written on it, but it is not possible to determine the exact word from the available descriptions.",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/164.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"WCD\" written on a piece of paper.",
+        "gt_answers": "KINGDOM",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/165.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"OF\" written in white text on a blue background.",
+        "gt_answers": "OF",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/166.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word written in blue, which is \"cream.\"",
+        "gt_answers": "DREAMS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/167.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"MAGIC\" is written in the image.",
+        "gt_answers": "MACIC",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/168.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"LIST\" written in a colorful font, possibly using Christmas-themed letters or decorations.",
+        "gt_answers": "CHRISTMAS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/169.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the numbers 0000 written in red.",
+        "gt_answers": "2003",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/170.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Tetris\" written in a colorful, blocky font.",
+        "gt_answers": "FANTASY",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/171.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Denver\" is written in the image.",
+        "gt_answers": "DENVER",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/172.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"BEER\" written in blue and yellow letters.",
+        "gt_answers": "BEER",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/173.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"CO\" is written in the image.",
+        "gt_answers": "CO",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/174.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"FCE\" written in blue and white.",
+        "gt_answers": "AFCEA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/175.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Nova\" written in blue and white.",
+        "gt_answers": "NOVA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/176.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Naval Air Station\" written in blue.",
+        "gt_answers": "NAVAL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/177.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"IT\" written in blue letters.",
+        "gt_answers": "IT",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/178.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"DAY\" is written in the image.",
+        "gt_answers": "DAY",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/179.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BMW\" is written in the image.",
+        "gt_answers": "BMW",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/180.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"CHINA\" is written in the image.",
+        "gt_answers": "HUTCHINSON",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/181.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"THE\" written in a blue and white striped design.",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/182.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Scotland\" written in blue.",
+        "gt_answers": "SCOTTISH",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/183.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Almond\" written in blue.",
+        "gt_answers": "SALMON",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/184.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Company\" written in blue.",
+        "gt_answers": "COMPANY",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/185.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"G-THAM K\" written on it.",
+        "gt_answers": "CHATHAMKENT",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/186.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"police\" written in a stylized font.",
+        "gt_answers": "POLICE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/187.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TODAY\" written in blue letters.",
+        "gt_answers": "To",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/188.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"servicer\" written in blue letters.",
+        "gt_answers": "Serve",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/189.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"And\" written in blue letters on a white background.",
+        "gt_answers": "and",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/190.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"protein\" written in blue letters.",
+        "gt_answers": "Protect",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/191.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Cottage\" and \"Scottie\" written on a green surface.",
+        "gt_answers": "ScoTT's",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/192.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"FAMILY\" written in green letters.",
+        "gt_answers": "FAMILY",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/193.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Italian\" written in green.",
+        "gt_answers": "ITALIAN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/194.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"hello\" is written in the image.",
+        "gt_answers": "CUISINE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/195.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"DAD\" written in green.",
+        "gt_answers": "BAR",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/196.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"PIP\" written on a wooden surface.",
+        "gt_answers": "MAPLES",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/197.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"love\" is written in the image.",
+        "gt_answers": "TAVERN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/198.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Best\" is written in the image.",
+        "gt_answers": "EST",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/199.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number \"01\" written on a wooden surface.",
+        "gt_answers": "2011",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/200.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow sign with the word \"CODED\" written on it.",
+        "gt_answers": "CROCODILES",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/201.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow sign with the word \"NO\" written on it.",
+        "gt_answers": "NO",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/202.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow sign with the word \"No\" written on it.",
+        "gt_answers": "SWIMMING",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/203.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Welcome\" is written in the image.",
+        "gt_answers": "WELCOME",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/204.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TO\" written in a script font.",
+        "gt_answers": "TO",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/205.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Historic\" is written in the image.",
+        "gt_answers": "HISTORIC",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/206.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"matter\" written in a brown font on a white background.",
+        "gt_answers": "Battery",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/207.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"JOIN\" written in a brown font on a white background.",
+        "gt_answers": "Point",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/208.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"OTO\" written in a yellowish color.",
+        "gt_answers": "OLDTOWN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/209.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"WHITE\" is written in the image.",
+        "gt_answers": "WHITE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/210.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"coffee\" written in gold letters.",
+        "gt_answers": "COFFEE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/211.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TO\" written in a fancy font.",
+        "gt_answers": "OLDTOWN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/212.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HIT\" written in a brown font on a white background.",
+        "gt_answers": "WHITE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/213.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"OFFICE\" is written in the image.",
+        "gt_answers": "COFFEE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/214.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Taurus\" written in white letters on a red background.",
+        "gt_answers": "RESTAURANT",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/215.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BAR\" is written in the image.",
+        "gt_answers": "BAR",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/216.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"JINO\" written in a stylized font, with a palm tree and a cloud design.",
+        "gt_answers": "SINGHS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/217.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"BIBB\" written in blue letters.",
+        "gt_answers": "CARIBBEAN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/218.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"VISION\" written in blue letters.",
+        "gt_answers": "CUISINE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/219.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Chelsea\" is written in the image.",
+        "gt_answers": "MICHELIN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/220.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Orange\" is written in the image.",
+        "gt_answers": "MOD",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/221.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"TM\" written in a bright, neon-like font.",
+        "gt_answers": "TM",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/222.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a purple sign with gold lettering that reads \"Flying Woods.\"",
+        "gt_answers": "FLYING",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/223.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Horse\" written in a fancy, decorative font.",
+        "gt_answers": "HORSES",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/224.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ERICO\" written in gold letters on a purple background.",
+        "gt_answers": "AMERICAS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/225.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"DESIGN\" written in gold letters on a purple background.",
+        "gt_answers": "OLDEST",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/226.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word \"Grous\" written in gold on a purple background.",
+        "gt_answers": "CAROUSEL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/227.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a pixelated word \"hello\" written in blue.",
+        "gt_answers": "NATIONAL",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/228.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word written in blue, which is \"SIS.\"",
+        "gt_answers": "REGISTER",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/229.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a pixelated representation of the word \"OF.\"",
+        "gt_answers": "OF",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/230.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"hello\" written in a pixelated or pixelated-looking font.",
+        "gt_answers": "HISTORIC",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/231.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ACC\" written in blue, with each letter being a different color.",
+        "gt_answers": "PLACES",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/232.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"LEARN\" is written in the image.",
+        "gt_answers": "Le",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/233.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"En\" is written in the image.",
+        "gt_answers": "Grenier",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/234.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"Aa\" written in a script font.",
+        "gt_answers": "a",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/235.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"pain\" is written in the image.",
+        "gt_answers": "Pain",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/236.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number 1000 written on a pink sign.",
+        "gt_answers": "10000",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/237.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"BUSINESS\" written in white letters on a blue background.",
+        "gt_answers": "BUSINESS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/238.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"WEST\" written in a font that resembles a stencil or graffiti.",
+        "gt_answers": "INVEST",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/239.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a pixelated number 1 written in white.",
+        "gt_answers": "2012",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/240.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a pixelated word \"papa\" written in a white font.",
+        "gt_answers": "campaign",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/241.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a word or phrase written in a pixelated or blurry style, which makes it difficult to discern the exact content.",
+        "gt_answers": "wwwbusinessinvestcouk",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/242.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"LIMIT\" written in red.",
+        "gt_answers": "KOLIND",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/243.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"FRESHKO\" is written in the image.",
+        "gt_answers": "KORESKOLE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/244.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Nort\" written in red and black.",
+        "gt_answers": "North",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/245.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Junior\" written in red and black letters.",
+        "gt_answers": "union",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/246.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"D.C.\" are written on the side of the truck in the image.",
+        "gt_answers": "WILDCATS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/247.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon sign that says \"Chinese.\"",
+        "gt_answers": "CHINESE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/248.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"FOOD\" is written in the image.",
+        "gt_answers": "FOOD",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/249.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon sign that says \"OPEN.\"",
+        "gt_answers": "OPEN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/250.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"EAT\" is written in the image.",
+        "gt_answers": "EAT",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/251.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"IN\" written in neon lights.",
+        "gt_answers": "IN",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/252.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"FAKE\" is written in the image.",
+        "gt_answers": "TAKE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/253.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"OUT\" is written in the image.",
+        "gt_answers": "OUT",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/254.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a pixelated word \"police\" written in blue.",
+        "gt_answers": "POLICE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/255.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a pixelated word \"ATTN\" written in blue.",
+        "gt_answers": "STATION",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/256.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HUH\" written in blue and green letters.",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/257.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"BIB\" written in green and purple letters.",
+        "gt_answers": "TABLE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/258.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word or phrase written in green and purple letters.",
+        "gt_answers": "BARBEOUE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/259.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, colorful, and artistic display of the word \"People\" written in a font that resembles graffiti.",
+        "gt_answers": "PEOPLE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/260.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Aandma\" written on a purple sign.",
+        "gt_answers": "handmade",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/261.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"chocolate\" written in blue.",
+        "gt_answers": "chocolates",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/262.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Blogs\" written in purple letters.",
+        "gt_answers": "aishahaleyesblogspotcom",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/263.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Inclusive\" is written in the image.",
+        "gt_answers": "Exclusive",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/264.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"love\" is written in the image.",
+        "gt_answers": "to",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/265.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"headbubble\" is written in the image.",
+        "gt_answers": "Cadbury",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/266.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"World\" is written in the image.",
+        "gt_answers": "World",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/267.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"AIR\" is written in the image.",
+        "gt_answers": "DAIRY",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/268.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"milk\" written in blue on a white background.",
+        "gt_answers": "MILK",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/269.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"smoo\" written in a fancy font.",
+        "gt_answers": "Smooth",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/270.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"chocolate\" is written in the image.",
+        "gt_answers": "Chocolate",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/271.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Housssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+        "gt_answers": "Mousse",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/272.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Starbucks\" written on a green background.",
+        "gt_answers": "STARBUCKS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/273.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"COFFEE\" written in green letters.",
+        "gt_answers": "COFFEE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/274.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"X-Men\" is written in the image.",
+        "gt_answers": "KIA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/275.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Toyota\" is written in the image.",
+        "gt_answers": "MOTORS",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/276.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"HALALA\" is written in the image.",
+        "gt_answers": "halal",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/277.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"STAR\" written in a font that resembles a star.",
+        "gt_answers": "STAR",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/278.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Welcome\" written in chalk on a blackboard.",
+        "gt_answers": "welcome",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/279.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"snack\" is written in the image.",
+        "gt_answers": "SNACK",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/280.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"IMAGINE\" written in a yellow font.",
+        "gt_answers": "TAGINE",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/281.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"COBRA\" written in red and blue.",
+        "gt_answers": "COBRA",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/282.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"SHOW.\"",
+        "gt_answers": "SHOW",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/283.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Mila\" is written in the image.",
+        "gt_answers": "THAILAND",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/284.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"KIKK\" written in a metal sign.",
+        "gt_answers": "Frikkie",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/285.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Bud\" is written in the image.",
+        "gt_answers": "du",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/286.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Toit.\"",
+        "gt_answers": "Toit",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/287.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"FAIR\" is written in the image.",
+        "gt_answers": "Safaris",
+        "image_path": "/nvme/share/OCR_Datasets/CUTE80/timage/288.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    }
+]

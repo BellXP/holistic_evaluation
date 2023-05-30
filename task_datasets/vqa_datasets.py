@@ -4,7 +4,7 @@ import datasets
 from torch.utils.data import Dataset
 
 
-class textVQADataset(Dataset):
+class TextVQADataset(Dataset):
     def __init__(
         self,
         image_dir_path= "/nvme/share/VQA_Datasets/TextVQA/train_images",
@@ -26,14 +26,12 @@ class textVQADataset(Dataset):
             "gt_answers": answers}
 
 
-class docVQADataset(Dataset):
-    def __init__(
-        self,
-        image_dir_path= "./data/docVQA/val",
-        ann_path= "./data/docVQA/val/val_v1.0.json",
-    ):
+class DocVQADataset(Dataset):
+    data_root = '/nvme/share/VQA_Datasets/DocVQA/val'
+
+    def __init__(self):
+        ann_path = f"{self.data_root}/val_v1.0.json"
         self.data = json.load(open(ann_path, "r"))["data"]
-        self.image_dir_path = image_dir_path
 
     def __len__(self):
         return len(self.data)
@@ -41,14 +39,14 @@ class docVQADataset(Dataset):
     def __getitem__(self, idx):
         question = self.data[idx]['question']
         answers = self.data[idx]['answers']
-        img_path = os.path.join(self.image_dir_path, self.data[idx]['image'])
+        img_path = os.path.join(self.data_root, self.data[idx]['image'])
         return {
             "image_path": img_path,
             "question": question,
             "gt_answers": answers}
 
 
-class ocrVQADataset(Dataset):
+class OCRVQADataset(Dataset):
     def __init__(
         self,
         image_dir_path= "./data/ocrVQA/images",

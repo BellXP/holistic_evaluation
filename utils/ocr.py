@@ -1,7 +1,6 @@
-import more_itertools
-from tqdm import tqdm
 import os
 import json
+from tqdm import tqdm
 from torch.utils.data import DataLoader
 
 from .tools import has_word, remove_special_chars
@@ -18,11 +17,8 @@ def evaluate_OCR(
     answer_path='./answers'
 ):
     predictions=[]
-    dataloader = DataLoader(dataset, batch_size=batch_size)
-    for batch in more_itertools.chunked(
-        tqdm(dataloader, desc="Running inference"), 1
-    ):
-        batch = batch[0]
+    dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=lambda batch: {key: [dict[key] for dict in batch] for key in batch[0]})
+    for batch in tqdm(dataloader, desc="Running inference"):
         outputs = model.batch_generate(batch['image_path'], [question for _ in range(len(batch['image_path']))])
         for image_path, gt_answer, output in zip(batch['image_path'], batch['gt_answers'], outputs):
             answer_dict={'question': question, 'answer': output,

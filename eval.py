@@ -6,7 +6,7 @@ import datetime
 import torch
 import numpy as np
 
-from utils import evaluate_OCR, evaluate_VQA, evaluate_Caption
+from utils import evaluate_OCR, evaluate_VQA, evaluate_Caption, evaluate_KIE
 from task_datasets import ocrDataset, dataset_class_dict
 from models import get_model
 
@@ -53,6 +53,12 @@ def parse_args():
         default=False,
         help="Whether to evaluate on caption."
     )
+    parser.add_argument(
+        "--eval_kie",
+        action="store_true",
+        default=False,
+        help="Whether to evaluate on kie."
+    )
 
     args = parser.parse_args()
     return args
@@ -80,22 +86,30 @@ def main(args):
         ocr_dataset_name = args.ocr_dataset_name.split()
         for i in range(len(ocr_dataset_name)):
             dataset = ocrDataset(ocr_dataset_name[i])
-            acc = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time, batch_size=args.batch_size)
-            result[ocr_dataset_name[i]] = acc
+            dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
+            metrics = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time, batch_size=args.batch_size)
+            result[ocr_dataset_name[i]] = metrics
 
     if args.eval_vqa:
         dataset_class = dataset_class_dict[args.dataset_name]
         dataset = dataset_class()
         dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-        acc = evaluate_VQA(model, dataset, args.model_name, args.dataset_name, time, args.batch_size)
-        result[args.dataset_name] = acc
+        metrics = evaluate_VQA(model, dataset, args.model_name, args.dataset_name, time, args.batch_size)
+        result[args.dataset_name] = metrics
     
     if args.eval_caption:
         dataset_class = dataset_class_dict[args.dataset_name]
         dataset = dataset_class()
         dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-        acc = evaluate_Caption(model, dataset, args.model_name, args.dataset_name, time, batch_size=args.batch_size)
-        result[args.dataset_name] = acc
+        metrics = evaluate_Caption(model, dataset, args.model_name, args.dataset_name, time, batch_size=args.batch_size)
+        result[args.dataset_name] = metrics
+
+    if args.eval_kie:
+        dataset_class = dataset_class_dict[args.dataset_name]
+        dataset = dataset_class()
+        dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
+        metrics = evaluate_KIE(model, dataset, args.model_name, args.dataset_name, time, batch_size=args.batch_size)
+        result[args.dataset_name] = metrics
     
     result_path = os.path.join(os.path.join(args.answer_path, time), 'result.json')
     with open(result_path, "w") as f:
