@@ -2,6 +2,7 @@ import torch
 from transformers import CLIPImageProcessor
 from .instruct_blip.models import load_model_and_preprocess
 from .instruct_blip.models.eva_vit import convert_weights_to_fp16
+from . import get_image
 
 
 class TestInstructBLIP:
@@ -24,6 +25,7 @@ class TestInstructBLIP:
         self.model.llm_model = self.model.llm_model.to(self.device, dtype=self.dtype)
 
     def generate(self, image, question):
+        image = get_image(image)
         image = self.vis_processors["eval"](image).unsqueeze(0).to(self.device)
         output = self.model.generate({"image": image, "prompt": question})[0]
 

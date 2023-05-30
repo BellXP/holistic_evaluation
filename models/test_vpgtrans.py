@@ -8,7 +8,9 @@ from .minigpt4.conversation.conversation import Chat, CONV_VISION
 from .vpgtrans.models import *
 from .vpgtrans.processors import *
 
-CFG_PATH = 'peng_utils/vpgtrans/vpgtrans_demo.yaml'
+from . import get_image
+
+CFG_PATH = 'models/vpgtrans/vpgtrans_demo.yaml'
 
 
 class TestVPGTrans:
@@ -41,6 +43,7 @@ class TestVPGTrans:
         chat_state = CONV_VISION.copy()
         img_list = []
         if image is not None:
+            image = get_image(image)
             self.chat.upload_img(image, chat_state, img_list)
         self.chat.ask(question, chat_state)
         llm_message = self.chat.answer(conv=chat_state, img_list=img_list)[0]

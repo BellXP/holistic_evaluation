@@ -1,4 +1,5 @@
 from gradio_client import Client
+from . import get_image
 
 
 class TestMultiModelGPT:
@@ -24,6 +25,7 @@ class TestMultiModelGPT:
         pass
 
     def generate(self, image, question):
+        image = get_image(image)
         image_name = '.mmgpt_inference.png'
         image.save(image_name)
         output = self.model.predict(question, image_name, self.prompt, self.ai_prefix, self.user_prefix, self.seperator,

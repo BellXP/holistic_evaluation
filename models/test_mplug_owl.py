@@ -2,6 +2,7 @@ import torch
 from .mplug_owl.processing_mplug_owl import MplugOwlProcessor, MplugOwlImageProcessor
 from .mplug_owl.modeling_mplug_owl import MplugOwlForConditionalGeneration
 from .mplug_owl.tokenization_mplug_owl import MplugOwlTokenizer
+from . import get_image
 
 
 class TestMplugOwl:
@@ -18,14 +19,15 @@ class TestMplugOwl:
         
     def move_to_device(self, device=None):
         if device is not None and 'cuda' in device.type:
-            self.dtype = torch.bfloat16
             self.device = device
-            self.model.bfloat16()
+            if torch.cuda.is_bf16_supported():
+                self.dtype = torch.bfloat16
+            else:
+                self.dtype = torch.float16
         else:
-            self.dtype = torch.float32
             self.device = 'cpu'
-            self.model.float()
-        self.model.to(device=device)
+            self.dtype = torch.float32
+        self.model.to(device=self.device, dtype=self.dtype)
 
     def generate(self, image, question):
         prompts = [f'''
@@ -41,6 +43,7 @@ class TestMplugOwl:
             'max_length': 512
         }
 
+        image = get_image(image)
         inputs = self.processor(text=prompts, images=[image], return_tensors='pt')
         inputs = {k: v.to(self.device, dtype=self.dtype) if v.dtype == torch.float else v for k, v in inputs.items()}
         inputs = {k: v.to(self.device) for k, v in inputs.items()}

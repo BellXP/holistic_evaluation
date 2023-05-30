@@ -1,7 +1,7 @@
 import torch
 from transformers import CLIPImageProcessor
 from .otter.modeling_otter import OtterForConditionalGeneration
-from models import DATA_DIR
+from . import get_image, DATA_DIR
 
 CKPT_PATH=f'{DATA_DIR}/otter-9b-hf'
 
@@ -28,6 +28,7 @@ class TestOtter:
         self.model.vision_encoder = self.model.vision_encoder.to('cpu', dtype=torch.float32)
 
     def generate(self, image, question):
+        image = get_image(image)
         vision_x = (self.image_processor.preprocess([image], return_tensors="pt")["pixel_values"].unsqueeze(1).unsqueeze(0))
         lang_x = self.model.text_tokenizer([f"<image> User: {question} GPT: <answer>"], return_tensors="pt")
         generated_text = self.model.generate(

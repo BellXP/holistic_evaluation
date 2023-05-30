@@ -1,4 +1,8 @@
+import cv2
 import torch
+from PIL import Image
+
+DATA_DIR = '/nvme/share/VLP_web_data'
 
 def skip(*args, **kwargs):
     pass
@@ -6,7 +10,15 @@ torch.nn.init.kaiming_uniform_ = skip
 torch.nn.init.uniform_ = skip
 torch.nn.init.normal_ = skip
 
-DATA_DIR = '/nvme/share/VLP_web_data'
+
+def get_image(image):
+    if type(image) is str:
+        img = cv2.imread(image)
+        return Image.fromarray(img)
+    elif type(image) is Image.Image:
+        return image
+    else:
+        raise NotImplementedError(f"Invalid type of Image: {type(image)}")
 
 
 def get_model(model_name, device=None):
@@ -35,7 +47,7 @@ def get_model(model_name, device=None):
         from .test_llama_adapter_v2 import TestLLamaAdapterV2, TestLLamaAdapterV2_web
         return TestLLamaAdapterV2(device)
     elif model_name == 'Multimodal-GPT':
-        from .test_multimodel_gpt import TestMultiModelGPT
+        from .test_multimodel_gpt import TestMultiModelGPT # Web version
         return TestMultiModelGPT(device)
     else:
         raise ValueError(f"Invalid model_name: {model_name}")

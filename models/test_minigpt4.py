@@ -8,6 +8,8 @@ from .minigpt4.conversation.conversation import Chat, CONV_VISION
 from .minigpt4.models import *
 from .minigpt4.processors import *
 
+from . import get_image
+
 CFG_PATH = 'models/minigpt4/minigpt4_eval.yaml'
 
 
@@ -42,6 +44,7 @@ class TestMiniGPT4:
         chat_state = CONV_VISION.copy()
         img_list = []
         if image is not None:
+            image = get_image(image)
             self.chat.upload_img(image, chat_state, img_list)
         self.chat.ask(question, chat_state)
         llm_message = self.chat.answer(conv=chat_state, img_list=img_list)[0]

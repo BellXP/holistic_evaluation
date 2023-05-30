@@ -2,6 +2,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from transformers import CLIPImageProcessor, CLIPVisionModel
 from .llava import LlavaMPTForCausalLM, LlavaLlamaForCausalLM, conv_templates, SeparatorStyle
+from . import get_image
 
 
 DEFAULT_IMAGE_TOKEN = "<image>"
@@ -111,6 +112,7 @@ class TestLLaVA:
         self.model.to(device=self.device, dtype=self.dtype)
     
     def generate(self, image, question):
+        image = get_image(image)
         conv = self.conv.copy()
         text = question + '\n<image>'
         text = (text, image, self.image_process_mode)

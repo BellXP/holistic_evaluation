@@ -7,6 +7,8 @@ from gradio_client import Client
 import clip
 import torch
 
+from . import get_image
+
 
 models_mae_path = '/nvme/share/LLaMA-Adapter-v2/models_mae.py'
 spec = importlib.util.spec_from_file_location('models_mae', models_mae_path)
@@ -45,14 +47,9 @@ class TestLLamaAdapterV2_web:
         pass
 
     def generate(self, image, question: str):
-        if type(image) is str:
-            image_name = image
-        elif type(image) is Image.Image:
-            image_name = '.llama_adapter_v2_inference.png'
-            image.save(image_name)
-        else:
-            raise NotImplementedError
-
+        image = get_image(image)
+        image_name = '.llama_adapter_v2_inference.png'
+        image.save(image_name)
         output = self.model.predict(image_name, question, self.max_length, self.temperature, self.top_p, fn_index=1)
         
         return output
@@ -85,15 +82,7 @@ class TestLLamaAdapterV2:
         self.generator = self.generator.to(self.device, dtype=self.dtype)
 
     def generate(self, image, question, max_gen_len=256, temperature=0.1, top_p=0.75):
-        if type(image) is str:
-            img = cv2.imread(image)
-            img = Image.fromarray(img)
-        elif type(image) is Image.Image:
-            img = image
-        else:
-            raise NotImplementedError
-
-        imgs = [img]
+        imgs = [get_image(image)]
         imgs = [self.img_transform(x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device, dtype=self.dtype)
 
@@ -106,17 +95,7 @@ class TestLLamaAdapterV2:
         return result
     
     def batch_generate(self, image_list, question_list, max_gen_len=256, temperature=0.1, top_p=0.75):
-        if type(image_list[0]) is str:
-            imgs = []
-            for image in image_list:
-                img = cv2.imread(image)
-                img = Image.fromarray(img)
-                imgs.append(img)
-        elif type(image_list[0]) is Image.Image:
-            imgs = image_list
-        else:
-            raise NotImplementedError
-
+        imgs = [get_image(img) for img in image_list]
         imgs = [self.img_transform(x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device, dtype=self.dtype)
         prompts = [PROMPT_DICT['prompt_no_input'].format_map({'instruction': question}) for question in question_list]

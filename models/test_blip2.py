@@ -1,5 +1,11 @@
 import torch
+import contextlib
 from lavis.models import load_model_and_preprocess
+from . import get_image
+
+
+def maybe_autocast(dtype=None):
+    return contextlib.nullcontext()
 
 
 class TestBlip2:
@@ -7,6 +13,9 @@ class TestBlip2:
         self.model, self.vis_processors, _ = load_model_and_preprocess(
             name="blip2_t5", model_type="pretrain_flant5xl", is_eval=True, device='cpu'
         )
+
+        if not torch.cuda.is_bf16_supported():
+            self.model.maybe_autocast = maybe_autocast
 
         if device is not None:
             self.move_to_device(device)
@@ -21,7 +30,8 @@ class TestBlip2:
         self.model = self.model.to(self.device, dtype=self.dtype)
 
     def generate(self, image, question):
-        image = self.vis_processors["eval"](image).unsqueeze(0).to(self.model.device, dtype=self.dtype)
+        image = get_image(image)
+        image = self.vis_processors["eval"](image).unsqueeze(0).to(self.device, dtype=self.dtype)
         answer = self.model.generate({
             "image": image, "prompt": f"Question: {question} Answer:"
         })
