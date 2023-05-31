@@ -1,4 +1,6 @@
+import random
 import logging
+import numpy as np
 from typing import Dict, Optional
 
 import torch
@@ -10,8 +12,17 @@ from .loaders import SamplerType, make_data_loader
 from . import distributed as distributed
 from .logging import MetricLogger
 
+logger = logging.getLogger("ImageBind_KNN")
 
-logger = logging.getLogger("dinov2")
+
+def fix_random_seeds(seed=31):
+    """
+    Fix random seeds.
+    """
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    np.random.seed(seed)
+    random.seed(seed)
 
 
 class ModelWithNormalize(torch.nn.Module):

@@ -8,8 +8,7 @@ import numpy as np
 
 from .extended import ExtendedVisionDataset
 
-
-logger = logging.getLogger("dinov2")
+logger = logging.getLogger("ImageBind_KNN")
 _Target = int
 
 
@@ -48,8 +47,8 @@ class _Split(Enum):
 
 
 class ImageNet(ExtendedVisionDataset):
-    Target = Union[_Target, None]
-    Split = Union[_Split, None]
+    Target = Union[_Target]
+    Split = Union[_Split]
 
     def __init__(
         self,

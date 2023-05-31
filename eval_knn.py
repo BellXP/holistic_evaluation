@@ -8,14 +8,14 @@ from functools import partial
 
 import torch
 import torch.nn.functional as F
+import torch.backends.cudnn as cudnn
 
 import knn.distributed as distributed
 from models.test_imagebind import TestImageBind
 from knn.loaders import SamplerType, make_data_loader, make_dataset
 from knn.metrics import AccuracyAveraging, build_topk_accuracy_metric
-from knn.utils import ModelWithNormalize, evaluate, extract_features
-
-logger = logging.getLogger("ImageBind_KNN")
+from knn.utils import ModelWithNormalize, evaluate, extract_features, fix_random_seeds
+from knn.logging import setup_logging
 
 
 class KnnModule(torch.nn.Module):
@@ -263,7 +263,6 @@ def eval_knn_with_model(
     val_dataset_str="ImageNet:split=VAL",
     nb_knn=(10, 20, 100, 200),
     temperature=0.07,
-    autocast_dtype=torch.float,
     accuracy_averaging=AccuracyAveraging.MEAN_ACCURACY,
     transform=None,
     gather_on_cpu=False,
@@ -283,20 +282,19 @@ def eval_knn_with_model(
         transform=transform,
     )
 
-    with torch.cuda.amp.autocast(dtype=autocast_dtype):
-        results_dict_knn = eval_knn(
-            model=model,
-            train_dataset=train_dataset,
-            val_dataset=val_dataset,
-            accuracy_averaging=accuracy_averaging,
-            nb_knn=nb_knn,
-            temperature=temperature,
-            batch_size=batch_size,
-            num_workers=num_workers,
-            gather_on_cpu=gather_on_cpu,
-            n_per_class_list=n_per_class_list,
-            n_tries=n_tries,
-        )
+    results_dict_knn = eval_knn(
+        model=model,
+        train_dataset=train_dataset,
+        val_dataset=val_dataset,
+        accuracy_averaging=accuracy_averaging,
+        nb_knn=nb_knn,
+        temperature=temperature,
+        batch_size=batch_size,
+        num_workers=num_workers,
+        gather_on_cpu=gather_on_cpu,
+        n_per_class_list=n_per_class_list,
+        n_tries=n_tries,
+    )
 
     results_dict = {}
     if distributed.is_main_process():
@@ -322,7 +320,6 @@ def get_args_parser(description):
     # model
     parser.add_argument("--model_name", type=str, default="ImageBind")
     parser.add_argument("--vision_layer_index", type=int, default=3)
-    parser.add_argument("--device", type=int, default=-1)
     # dataset
     parser.add_argument("--train-dataset", dest="train_dataset_str", type=str, help="Training dataset")
     parser.add_argument("--val-dataset", dest="val_dataset_str", type=str, help="Validation dataset")
@@ -334,10 +331,13 @@ def get_args_parser(description):
     # others
     parser.add_argument("--gather-on-cpu", action="store_true", help="Whether to gather the train features on cpu, slower")
     parser.add_argument("--batch-size", type=int, help="Batch size.")
+    parser.add_argument("--answer_path", type=str, default="./answers")
+    parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--local_rank", type=int, default=0)
     
     parser.set_defaults(
-        train_dataset_str="ImageNet:split=TRAIN",
-        val_dataset_str="ImageNet:split=VAL",
+        train_dataset_str="ImageNet:split=TRAIN:root=/nvme/share/ImageNet:extra=/nvme/share/ImageNet/extra",
+        val_dataset_str="ImageNet:split=VAL:root=/nvme/share/ImageNet:extra=/nvme/share/ImageNet/extra",
         nb_knn=[10, 20, 100, 200],
         temperature=0.07,
         batch_size=256,
@@ -347,11 +347,26 @@ def get_args_parser(description):
     return parser
 
 
+def setup(args):
+    cudnn.benchmark = True
+    distributed.enable(overwrite=True)
+    seed = getattr(args, "seed", 0)
+    rank = distributed.get_global_rank()
+
+    global logger
+    args.output_dir = f"{args.answer_path}/{args.model_name}"
+    setup_logging(output=args.output_dir, level=logging.INFO)
+    logger = logging.getLogger("ImageBind_KNN")
+
+    fix_random_seeds(seed + rank)
+    logger.info("\n".join("%s: %s" % (k, str(v)) for k, v in sorted(dict(vars(args)).items())))
+
+
 def main(args):
-    os.environ['CUDA_VISIBLE_DEVICES'] = args.device
     model = TestImageBind(args.model_name)
     del model.generator.llama
-    model.move_to_device(torch.device('cuda'))
+    model.generator.cuda()
+    print(f'Check device: {torch.cuda.current_device()}')
     model.generator.forward = MethodType(new_vision_forward, model.generator)
     model.generator.vision_layer_index = args.vision_layer_index
     eval_knn_with_model(
@@ -361,7 +376,6 @@ def main(args):
         val_dataset_str=args.val_dataset_str,
         nb_knn=args.nb_knn,
         temperature=args.temperature,
-        autocast_dtype=torch.float32,
         accuracy_averaging=AccuracyAveraging.MEAN_ACCURACY,
         transform=model.img_transform,
         gather_on_cpu=args.gather_on_cpu,
@@ -377,4 +391,5 @@ if __name__ == "__main__":
     description = "ImageBind k-NN evaluation"
     args_parser = get_args_parser(description=description)
     args = args_parser.parse_args()
+    setup(args)
     sys.exit(main(args))

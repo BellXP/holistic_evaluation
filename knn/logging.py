@@ -11,7 +11,7 @@ from collections import defaultdict, deque
 import torch
 from . import distributed as distributed
 
-logger = logging.getLogger("dinov2")
+logger = logging.getLogger("ImageBind_KNN")
 
 
 class MetricLogger(object):
