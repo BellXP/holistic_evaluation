@@ -1,0 +1,4531 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a neon sign that says \"AVIATION.\"",
+        "gt_answers": "door",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0001.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"THE\" is written in the image.",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0002.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"THAT\" is written in the image.",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0003.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has \"Triple L Rippin'\" written on it.",
+        "gt_answers": "triple",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0004.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"THEN\" is written in the image.",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0005.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word \"TU\" written in a white font on a black background.",
+        "gt_answers": "auto",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0006.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"AGAIN\" is written in the image.",
+        "gt_answers": "magic",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0007.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"ALIENS ARE COMING\" are written in the image.",
+        "gt_answers": "billiards",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0008.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"purpose\" is written in the image.",
+        "gt_answers": "first",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0009.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"purple\" is written in the image.",
+        "gt_answers": "south",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0010.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"KARL\" written in graffiti on a wall.",
+        "gt_answers": "market",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0011.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"HEAVY\" is written in the image.",
+        "gt_answers": "meat",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0012.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BACON\" is written in the image.",
+        "gt_answers": "michoacana",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0013.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"QUEEN\" is written in the image.",
+        "gt_answers": "taqueria",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0014.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"QUEBEC\" written on it.",
+        "gt_answers": "taqueria",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0015.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red stop sign with the word \"TO\" written underneath it.",
+        "gt_answers": "motif",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0016.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Au\" written in a script.",
+        "gt_answers": "restaurant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0017.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"LOVE\" written in a script font.",
+        "gt_answers": "club",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0018.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a pair of scissors with the word \"FREE\" written on them.",
+        "gt_answers": "and",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0019.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a handwritten message that says \"Awesome.\"",
+        "gt_answers": "south",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0020.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"love\" is written in the image.",
+        "gt_answers": "first",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0021.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"COLORADO\" is written in the image.",
+        "gt_answers": "colorado",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0022.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Daily\" written in a bold, black font.",
+        "gt_answers": "daily",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0023.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a pair of scissors with the word \"SATISFACTION\" written on them.",
+        "gt_answers": "college",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0024.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NERD\" written in a fancy, decorative font.",
+        "gt_answers": "everest",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0025.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NBC\" is written in the image.",
+        "gt_answers": "allen",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0026.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Street Signs\" written on it.",
+        "gt_answers": "hess",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0027.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ENTENTE\" is written in the image.",
+        "gt_answers": "center",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0028.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"welcome\" in a foreign language.",
+        "gt_answers": "japanese",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0029.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"awesome\" is written in the image.",
+        "gt_answers": "restaurant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0030.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"KAUKKU\" is written in the image.",
+        "gt_answers": "sakana",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0031.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"EB\" written on a wall.",
+        "gt_answers": "icebox",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0032.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"THE\" is written in the image.",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0033.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ALIBA\" is written in the image.",
+        "gt_answers": "claire",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0034.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Stain\" is written in the image.",
+        "gt_answers": "sainte",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0035.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Them\" is written in the image.",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0036.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"MISSION\" written on it.",
+        "gt_answers": "mission",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0037.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"EVEREST\" is written in the image.",
+        "gt_answers": "wheeler",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0038.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"FUTURE\" is written in the image.",
+        "gt_answers": "gifts",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0039.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NATALE\" is written in the image.",
+        "gt_answers": "jas",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0040.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NUZV\" is written in the image.",
+        "gt_answers": "pizza",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0041.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a sign that says \"national league of american baseball.\"",
+        "gt_answers": "man",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0042.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Oprah\" is written in the image.",
+        "gt_answers": "sopra",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0043.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Soft Living\" written on it.",
+        "gt_answers": "sotto",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0044.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"WELCOME\" is written in the image.",
+        "gt_answers": "airways",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0045.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NV\" written on a metal surface.",
+        "gt_answers": "center",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0046.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"R\" is written in the image.",
+        "gt_answers": "carroll",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0047.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word \"RECORDED\" written on it.",
+        "gt_answers": "street",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0048.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a blue and white striped shirt with the word \"HONOLULU\" written on it.",
+        "gt_answers": "indiana",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0049.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Navy.\"",
+        "gt_answers": "repertory",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0050.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a t-shirt with the phrase \"I'm with the bride\" written on it.",
+        "gt_answers": "theatre",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0051.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the word \"NEVER\" written on it.",
+        "gt_answers": "indiana",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0052.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NIN\" is written in the image.",
+        "gt_answers": "inn",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0053.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"ROYAL TYCOON.\"",
+        "gt_answers": "loyal",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0054.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Western Booster\" written on it.",
+        "gt_answers": "western",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0055.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Best of Bend.\"",
+        "gt_answers": "best",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0056.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"AMC\" is written in the image.",
+        "gt_answers": "paramount",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0057.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the KFC logo, which is the initials of the company's name, Kentucky Fried Chicken.",
+        "gt_answers": "kfc",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0058.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BluRay\" is written in the image.",
+        "gt_answers": "muzeo",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0059.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Hawk Avenue.\"",
+        "gt_answers": "public",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0060.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, bold, and colorful word \"WORLD\" written in white.",
+        "gt_answers": "anaheim",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0061.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Red\" written in red letters.",
+        "gt_answers": "trident",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0062.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the letters \"NBC\" written on it.",
+        "gt_answers": "winbro",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0063.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word \"RAIL\" written on a wall.",
+        "gt_answers": "grant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0064.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a name, \"IAN,\" written in a fancy, decorative font.",
+        "gt_answers": "olin",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0065.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Best of Bee Gees\" written on it.",
+        "gt_answers": "best",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0066.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Sculpture Court\" written on it.",
+        "gt_answers": "executive",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0067.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"In Good Company\" are written in the image.",
+        "gt_answers": "inn",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0068.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Westinghouse Electric Corporation\" written on it.",
+        "gt_answers": "western",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0069.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"California\" written on it.",
+        "gt_answers": "diego",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0070.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CURRENTS\" written on it.",
+        "gt_answers": "excursion",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0071.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Carbon\" written on it.",
+        "gt_answers": "harbor",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0072.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"SANCHEZ\" is written in the image.",
+        "gt_answers": "san",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0073.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TIME\" written in a bold, black font.",
+        "gt_answers": "cortez",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0074.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TODAY\" written in white letters on a red background.",
+        "gt_answers": "hotel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0075.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"HOTEL MOTOR INN.\"",
+        "gt_answers": "hotel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0076.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"woodwork\" is written in the image.",
+        "gt_answers": "moore",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0077.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "gt_answers": "moore",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0078.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"WOTH.\"",
+        "gt_answers": "hotel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0079.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ITC\" written on it.",
+        "gt_answers": "whitcomb",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0080.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Druckfarben\" written on it.",
+        "gt_answers": "fuddruckers",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0081.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"THOR\" is written in the image.",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0082.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"Greetings from\" are written in the image.",
+        "gt_answers": "quiznos",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0083.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"The Greenwood Inn\" are written in the image.",
+        "gt_answers": "quiznos",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0084.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Hilltop Avenue.\"",
+        "gt_answers": "murphy",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0085.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"wood\" is written in the image.",
+        "gt_answers": "moon",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0086.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"black\" is written in the image.",
+        "gt_answers": "palace",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0087.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Nathan\" is written in the image.",
+        "gt_answers": "colonial",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0088.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white block with the word \"OBIE\" written on it.",
+        "gt_answers": "hobby",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0089.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NON\" is written in the image.",
+        "gt_answers": "inc",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0090.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"HOT.\"",
+        "gt_answers": "photo",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0091.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"PUFFF\" is written in the image.",
+        "gt_answers": "puff",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0092.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Turf\" is written in the image.",
+        "gt_answers": "stuff",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0093.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"FICHIG\" written in a fancy font.",
+        "gt_answers": "michael",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0094.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the word \"Orient\" written on it.",
+        "gt_answers": "arts",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0095.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a green leaf with the words \"Happy Holidays\" written on it.",
+        "gt_answers": "crafts",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0096.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"WORLD\" is written in the image.",
+        "gt_answers": "world",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0097.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"purple\" is written in the image.",
+        "gt_answers": "market",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0098.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"New York\" written in a fancy font.",
+        "gt_answers": "fitness",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0099.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"blue\" is written in the image.",
+        "gt_answers": "shell",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0100.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"SHUGGIN\" written on it.",
+        "gt_answers": "shogun",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0101.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Google\" is written in the image.",
+        "gt_answers": "shogun",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0102.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushushush",
+        "gt_answers": "sushi",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0103.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Sushi\" written on a wall.",
+        "gt_answers": "sushi",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0104.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo or a word \"NON\" written in a fancy, decorative font.",
+        "gt_answers": "pioneer",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0105.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ALA\" is written in the image.",
+        "gt_answers": "place",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0106.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word or phrase written in a foreign language, which is displayed on a white background.",
+        "gt_answers": "saks",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0107.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BELIEVE\" is written in the image.",
+        "gt_answers": "fifth",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0108.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NEN\" is written in the image.",
+        "gt_answers": "avenue",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0109.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Railway\" written on a wall.",
+        "gt_answers": "grand",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0110.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CARTER\" written on it.",
+        "gt_answers": "horton",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0111.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"TOTTENHAM HOTSPUR\" written on it.",
+        "gt_answers": "hotel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0112.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ZULU\" is written in the image.",
+        "gt_answers": "zula",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0113.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a handwritten note that reads \"Happy New Year.\"",
+        "gt_answers": "zula",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0114.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"POTTERY\" is written in the image.",
+        "gt_answers": "hotel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0115.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Lion\" written in a fancy, decorative font.",
+        "gt_answers": "lion",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0116.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"REDEMPTION\" is written in the image.",
+        "gt_answers": "red",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0117.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"REDI\" is written in the image.",
+        "gt_answers": "red",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0118.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"QUAKE\" is written in the image.",
+        "gt_answers": "square",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0119.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"EMPLOYEES\" written in a bold, capitalized font.",
+        "gt_answers": "belvedere",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0120.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NUTHANGER\" written on a wooden sign.",
+        "gt_answers": "orlando",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0121.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"INTENTION\" is written in the image.",
+        "gt_answers": "sentinel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0122.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"icon\" is written in the image.",
+        "gt_answers": "circles",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0123.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"apex\" is written in the image.",
+        "gt_answers": "tapes",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0124.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"artistry\" is written in the image.",
+        "gt_answers": "cityarts",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0125.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Factories\" is written in the image.",
+        "gt_answers": "factory",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0126.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"SATURDAY\" is written in the image.",
+        "gt_answers": "hut",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0127.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Biz\" is written in the image.",
+        "gt_answers": "pizza",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0128.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Ra\" and \"D.\"",
+        "gt_answers": "garage",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0129.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a shirt with the word \"NYC\" written on it.",
+        "gt_answers": "eye",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0130.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Washington Ave.\"",
+        "gt_answers": "lounge",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0131.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a piece of paper with the word \"ORANGE\" written on it.",
+        "gt_answers": "jobsite",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0132.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Nite Ope Tone.\"",
+        "gt_answers": "supply",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0133.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word \"WORK\" written on a piece of wood.",
+        "gt_answers": "work",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0134.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"OLD TOWN.\"",
+        "gt_answers": "chase",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0135.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"SHH\" are written in the image.",
+        "gt_answers": "chase",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0136.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"PLANET\" written in a fancy, decorative font.",
+        "gt_answers": "fireplace",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0137.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Box\" written in a white font on a black background.",
+        "gt_answers": "box",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0138.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"WEB\" is written in the image.",
+        "gt_answers": "jewel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0139.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Tiny\" is written in the image.",
+        "gt_answers": "tiny",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0140.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ASRAS\" written in a fancy font.",
+        "gt_answers": "napasorn",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0141.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"A&M\" written on a wall.",
+        "gt_answers": "parc",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0142.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HOTT\" written on a wall.",
+        "gt_answers": "hotel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0143.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the name \"RW\" written in a fancy font.",
+        "gt_answers": "warwick",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0144.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Football\" is written in the image.",
+        "gt_answers": "scooters",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0145.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a name, \"Nathaniel,\" written in a cursive script.",
+        "gt_answers": "sportique",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0146.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a piece of paper with the word \"RUN\" written on it.",
+        "gt_answers": "spruce",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0147.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"TYLER\" is written in the image.",
+        "gt_answers": "hotel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0148.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"bad\" is written in the image.",
+        "gt_answers": "wyndham",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0149.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word or a phrase written in a foreign language, which is not identifiable by me.",
+        "gt_answers": "jerome",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0150.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"HOPE\" is written in the image.",
+        "gt_answers": "school",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0151.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"CRAFTS\" is written in the image.",
+        "gt_answers": "lenscrafters",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0152.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"fifth\" written in a white font on a red background.",
+        "gt_answers": "fifth",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0153.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Avenge\" written on it.",
+        "gt_answers": "ave",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0154.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Pike\" written on it.",
+        "gt_answers": "pike",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0155.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a television show called \"Steven Universe.\"",
+        "gt_answers": "western",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0156.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"WIN\" is written in the image.",
+        "gt_answers": "wine",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0157.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Journalism\" written in a bold, white font.",
+        "gt_answers": "domino",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0158.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"RYKY\" written on a wall.",
+        "gt_answers": "kyro",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0159.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Pizza\" written in white text on a green background.",
+        "gt_answers": "pizza",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0160.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Greetings.\"",
+        "gt_answers": "high",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0161.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo or a word \"Cruise\" written on a wall.",
+        "gt_answers": "lincoln",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0162.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"icon\" is written in the image.",
+        "gt_answers": "school",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0163.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"HOT\" is written in the image.",
+        "gt_answers": "school",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0164.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a quote written in a foreign language, which is displayed on a black background.",
+        "gt_answers": "california",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0165.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"Eyecon\" are written in the image.",
+        "gt_answers": "eyes",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0166.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that reads \"Forest Lake.\"",
+        "gt_answers": "for",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0167.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HEART\" written on a metal sign.",
+        "gt_answers": "shea",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0168.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Lavender\" is written in the image.",
+        "gt_answers": "chinese",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0169.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"REAL\" is written in the image.",
+        "gt_answers": "great",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0170.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"WALK\" written in a fancy font.",
+        "gt_answers": "wall",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0171.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Athletic Trainers.\"",
+        "gt_answers": "ortlieb",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0172.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"OLD\" and \"CITY\" written on a wall.",
+        "gt_answers": "polish",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0173.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Nevermore.\"",
+        "gt_answers": "salle",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0174.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Virtuoso\" written on it.",
+        "gt_answers": "fortune",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0175.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"LUC\" written on a purple surface.",
+        "gt_answers": "lucky",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0176.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a handwritten message that says \"Au revoir.\"",
+        "gt_answers": "restaurant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0177.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+        "gt_answers": "brasserie",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0178.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white banner with the word \"EAT\" written on it.",
+        "gt_answers": "ten",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0179.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ELECTRONIC\" is written in the image.",
+        "gt_answers": "ten",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0180.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BEHEMOTH\" is written in the image.",
+        "gt_answers": "ten",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0181.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"BOO!\" written in a scary font.",
+        "gt_answers": "boot",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0182.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"SAT\" is written in the image.",
+        "gt_answers": "fitting",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0183.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a picture of a man with a beard and glasses, and the words \"Barry O'Reilly\" are written underneath the picture.",
+        "gt_answers": "larry",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0184.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"SASSY\" written in white letters on a black background.",
+        "gt_answers": "fossil",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0185.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Sorry.\"",
+        "gt_answers": "fossil",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0186.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a television show, which is written in a foreign language.",
+        "gt_answers": "mart",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0187.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"bolo\" is written in the image.",
+        "gt_answers": "mobil",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0188.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a quote written on it, which is displayed in a foreign language.",
+        "gt_answers": "mobil",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0189.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"cerberus\" is written in the image.",
+        "gt_answers": "cinerama",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0190.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Sega\" written in a bold, capitalized font.",
+        "gt_answers": "cinerama",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0191.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HONORED\" written in a fancy font.",
+        "gt_answers": "dong",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0192.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"KNICKERBOCKER\" written in a white font on a black background.",
+        "gt_answers": "market",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0193.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"AMN\" written on a wall.",
+        "gt_answers": "ymca",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0194.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Headphones Direct\" written on it.",
+        "gt_answers": "beads",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0195.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"BEADS\" and \"HEADS\" written on it.",
+        "gt_answers": "beads",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0196.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"BEAD\" written in a script font.",
+        "gt_answers": "beads",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0197.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the Fox News logo, which is a fox head with the word \"FOX\" written underneath it.",
+        "gt_answers": "fox",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0198.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green sign with white lettering that reads \"Granite City.\"",
+        "gt_answers": "cleaners",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0199.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TOTAL\" written in a neon green color.",
+        "gt_answers": "hotel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0200.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Alien\" is written in the image.",
+        "gt_answers": "max",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0201.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"KAYA\" is written in the image.",
+        "gt_answers": "hahm",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0202.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Dorrs Purse.\"",
+        "gt_answers": "motorsports",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0203.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper headline that reads \"NEWSWEEK.\"",
+        "gt_answers": "motorsports",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0204.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Hawaii\" is written in the image.",
+        "gt_answers": "hahm",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0205.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NBC\" written in a block letter style.",
+        "gt_answers": "joe",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0206.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"DRAVEN\" and \"ADVERTISING\" written on a sign.",
+        "gt_answers": "trader",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0207.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"hope\" is written in the image.",
+        "gt_answers": "body",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0208.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a sign that says \"Happy Birthday\" written on it.",
+        "gt_answers": "shop",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0209.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a group of letters, which appear to be a logo or a word.",
+        "gt_answers": "line",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0210.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Wednesday\" is written in the image.",
+        "gt_answers": "budget",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0211.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"BUNKIE\" written on a wooden sign.",
+        "gt_answers": "tribunali",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0212.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"VIVA IBERIA\" written in white letters on a black background.",
+        "gt_answers": "via",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0213.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Angel\" written in a script font.",
+        "gt_answers": "angelo",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0214.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Burbank.\"",
+        "gt_answers": "hamburgers",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0215.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Ford\" is written in the image.",
+        "gt_answers": "fox",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0216.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image reads \"GAMESTONE\" and \"GAMESTONE.COM.\"",
+        "gt_answers": "gamestop",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0217.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"River Street.\"",
+        "gt_answers": "fabrics",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0218.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign with the word \"H2O\" written on it.",
+        "gt_answers": "fishman",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0219.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a name, \"Nathan,\" written in a fancy, calligraphic font.",
+        "gt_answers": "inc",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0220.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"NORTH BEACH.\"",
+        "gt_answers": "inc",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0221.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Plateau Turbo\" written on it.",
+        "gt_answers": "flats",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0222.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"aqua\" and \"jaguar\" are written in the image.",
+        "gt_answers": "tijuana",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0223.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"YOU\" is written in the image.",
+        "gt_answers": "zou",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0224.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ZOU\" is written in the image.",
+        "gt_answers": "zou",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0225.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ZOU\" is written in the image.",
+        "gt_answers": "zou",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0226.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a stone or concrete block with the word \"HONOR\" written on it.",
+        "gt_answers": "dodge",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0227.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Learn to Skate.\"",
+        "gt_answers": "phelps",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0228.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a white piece of cloth with the words \"WHOLE EARTH TRAVEL\" written on it.",
+        "gt_answers": "tower",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0229.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NORRIS\" written in a fancy, decorative font.",
+        "gt_answers": "ernst",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0230.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BOUND\" is written in the image.",
+        "gt_answers": "young",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0231.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Santa Barbara.\"",
+        "gt_answers": "san",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0232.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NMTM\" is written in the image.",
+        "gt_answers": "pompei",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0233.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NBC\" written in a bold, black font.",
+        "gt_answers": "donald",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0234.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"It's a boy!\"",
+        "gt_answers": "donald",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0235.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"MARKETPLACE STAMPS.\"",
+        "gt_answers": "ramada",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0236.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NATURE\" written on a wooden sign.",
+        "gt_answers": "cleaners",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0237.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Fawlty\" written on a green background.",
+        "gt_answers": "five",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0238.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"STEVEN\" written in a green color.",
+        "gt_answers": "star",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0239.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a piece of paper with the word \"Wednesday\" written on it.",
+        "gt_answers": "grandstand",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0240.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Rustic\" written on it.",
+        "gt_answers": "grandstand",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0241.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"Lakers\" written in purple letters.",
+        "gt_answers": "little",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0242.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"IGLOO\" is written in the image.",
+        "gt_answers": "saigon",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0243.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"PITTSBURGH\" written on it.",
+        "gt_answers": "capitol",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0244.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a stone or brick wall with the words \"Stone Carving\" written on it.",
+        "gt_answers": "custom",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0245.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a book with the words \"LOVE YOU\" written on it.",
+        "gt_answers": "tailors",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0246.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"welcome\" written in a stencil font.",
+        "gt_answers": "jewelry",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0247.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sticker or label with the words \"WELCOME HOME\" written on it.",
+        "gt_answers": "bakery",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0248.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a label on a bottle of hair dye, specifically a bottle of \"Cerium\" hair dye.",
+        "gt_answers": "watercourse",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0249.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Cowboy\" is written in the image.",
+        "gt_answers": "town",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0250.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"blacklace\" is written in the image.",
+        "gt_answers": "black",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0251.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Nottowitt.\"",
+        "gt_answers": "bottle",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0252.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"Vintage Wine\" are written in the image.",
+        "gt_answers": "vine",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0253.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CONNECTED\" written on it.",
+        "gt_answers": "econo",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0254.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Goodnight Buddy\" written on it.",
+        "gt_answers": "lodge",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0255.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Venus\" written in a purple font.",
+        "gt_answers": "avenue",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0256.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word \"BELIEVE\" written on it.",
+        "gt_answers": "theater",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0257.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"TANGER\" written on it.",
+        "gt_answers": "cleaners",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0258.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"CNN\" written on it.",
+        "gt_answers": "cleaners",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0259.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"HONDA\" is written in the image.",
+        "gt_answers": "glenoaks",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0260.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a person's hand holding a red and black umbrella. The person's name, \"Ron,\" is written on the umbrella.",
+        "gt_answers": "art",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0261.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"OBSESSED\" is written in the image.",
+        "gt_answers": "jose",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0262.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"SEX\" is written in the image.",
+        "gt_answers": "museum",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0263.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"CANNIBALS\" is written in the image.",
+        "gt_answers": "san",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0264.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the name \"David\" written in a fancy, cursive font.",
+        "gt_answers": "david",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0265.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"jean\" is written in the image.",
+        "gt_answers": "jean",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0266.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Soul\" is written in the image.",
+        "gt_answers": "louis",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0267.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossossoss",
+        "gt_answers": "mosser",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0268.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"THE\" written in a white font.",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0269.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"AFRICA\" is written in the image.",
+        "gt_answers": "cafe",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0270.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"MEME\" written on it.",
+        "gt_answers": "met",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0271.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a television show, which is written in white text on a blue background.",
+        "gt_answers": "marriott",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0272.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"DWIGHT\" written in a graffiti-like style, likely on a wall or a sign.",
+        "gt_answers": "sandwich",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0273.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HOLLYWOOD\" written in a fancy, decorative font.",
+        "gt_answers": "shop",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0274.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"EVERYONE\" is written in the image.",
+        "gt_answers": "zero",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0275.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a license plate with the word \"PURPLE\" written on it.",
+        "gt_answers": "happiness",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0276.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of a handwritten sign that says \"NOR.\"",
+        "gt_answers": "three",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0277.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a sign that says \"Learn to Swim.\"",
+        "gt_answers": "chinatown",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0278.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"AZA\" is written in the image.",
+        "gt_answers": "plaza",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0279.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BEE\" is written in the image.",
+        "gt_answers": "shell",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0280.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Taylor Rd.\"",
+        "gt_answers": "two",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0281.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"mobile\" written in a foreign language, which is likely Chinese.",
+        "gt_answers": "mobile",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0282.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"CARL\" is written in the image.",
+        "gt_answers": "marriott",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0283.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Welcome Home.\"",
+        "gt_answers": "marriott",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0284.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a picture of a man with a name written underneath it.",
+        "gt_answers": "higgins",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0285.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"EXTRA\" is written in the image.",
+        "gt_answers": "brexton",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0286.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ashish\" is written in the image.",
+        "gt_answers": "chase",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0287.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"beautiful\" is written in the image.",
+        "gt_answers": "health",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0288.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"for all\" are written in the image.",
+        "gt_answers": "services",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0289.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Nature\" is written in the image.",
+        "gt_answers": "inc",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0290.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"EBE\" is written in the image.",
+        "gt_answers": "feet",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0291.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Sixx\" is written in the image.",
+        "gt_answers": "six",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0292.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"DENTIST\" is written in the image.",
+        "gt_answers": "under",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0293.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Rockstar\" and \"Mexico\" written on a wall.",
+        "gt_answers": "army",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0294.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"THAT'S OBJECTIVE.\"",
+        "gt_answers": "store",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0295.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ANGOLA\" is written in the image.",
+        "gt_answers": "francis",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0296.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"SPTS\" is written in the image.",
+        "gt_answers": "hospital",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0297.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Mondelez\" written on a sign.",
+        "gt_answers": "memorial",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0298.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"SAINT\" is written in the image.",
+        "gt_answers": "saint",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0299.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Rustic\" is written in the image.",
+        "gt_answers": "crush",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0300.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"REPORTER\" is written in the image.",
+        "gt_answers": "first",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0301.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NON\" is written in the image.",
+        "gt_answers": "magnolia",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0302.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BONJEAN\" is written in the image.",
+        "gt_answers": "dunbar",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0303.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"iconic\" is written in the image.",
+        "gt_answers": "high",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0304.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"purple\" is written in the image.",
+        "gt_answers": "laurence",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0305.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"purple\" is written in the image.",
+        "gt_answers": "paul",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0306.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"purple\" is written in the image.",
+        "gt_answers": "school",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0307.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Leaf\" is written in the image.",
+        "gt_answers": "orleans",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0308.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"DENIZ.\"",
+        "gt_answers": "anodizing",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0309.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo or a word \"HUSTLER\" written on a wall.",
+        "gt_answers": "industrial",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0310.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Natalie\" is written in the image.",
+        "gt_answers": "dallas",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0311.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BINOMIAL\" is written in the image.",
+        "gt_answers": "seminary",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0312.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"beyond\" is written in the image.",
+        "gt_answers": "theological",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0313.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ubl\" written in white text.",
+        "gt_answers": "public",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0314.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a picture of a man with the words \"Tuesday\" written underneath it.",
+        "gt_answers": "storage",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0315.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"America\" written in a foreign language, likely Chinese.",
+        "gt_answers": "america",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0316.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the words \"don't worry\" written on it.",
+        "gt_answers": "america",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0317.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"BookCruise\" written in white text.",
+        "gt_answers": "books",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0318.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"BOOKS\" written in white letters on a black background.",
+        "gt_answers": "books",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0319.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"for\" is written in the image.",
+        "gt_answers": "for",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0320.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"honestly\" written on it.",
+        "gt_answers": "for",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0321.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that says \"Washington.\"",
+        "gt_answers": "mint",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0322.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"NATL BEV CO.\"",
+        "gt_answers": "states",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0323.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white vanity license plate that reads \"IT'S WARM.\"",
+        "gt_answers": "united",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0324.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the text \"RESPECT\" written in white.",
+        "gt_answers": "crest",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0325.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NIN\" written in a fancy font.",
+        "gt_answers": "pine",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0326.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Burton\" written on a wall.",
+        "gt_answers": "restaurant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0327.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"FORD\" is written in the image.",
+        "gt_answers": "ford",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0328.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Kleenex\" written on it.",
+        "gt_answers": "mills",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0329.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"New Era.\"",
+        "gt_answers": "avenue",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0330.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the name \"RITVIX\" written on a white sign.",
+        "gt_answers": "sixth",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0331.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the logo of a radio station, which is the name \"BARBADOES BUSINESS ASSOCIATION.\"",
+        "gt_answers": "bar",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0332.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"RI\" written in a fancy font, with the letters \"R\" and \"I\" appearing to be connected.",
+        "gt_answers": "grill",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0333.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"SIXTYSIX\" written on a wall.",
+        "gt_answers": "sixth",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0334.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"GRILL\" written on it.",
+        "gt_answers": "grill",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0335.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"avenue 800.\"",
+        "gt_answers": "avenue",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0336.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"BARBECUE\" written on it.",
+        "gt_answers": "bar",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0337.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"AULA\" written on it.",
+        "gt_answers": "restaurant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0338.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BEWARE\" is written in the image.",
+        "gt_answers": "stewart",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0339.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Drugs\" written in a green font.",
+        "gt_answers": "forum",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0340.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Forum 2000\" written on it.",
+        "gt_answers": "forum",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0341.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"RITA\" is written in the image.",
+        "gt_answers": "heritage",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0342.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Origami Corner.\"",
+        "gt_answers": "heritage",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0343.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"The End\" are written in the image.",
+        "gt_answers": "bar",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0344.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Live Edge.\"",
+        "gt_answers": "grill",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0345.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"icon\" is written in the image.",
+        "gt_answers": "joint",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0346.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"WUV\" written in white letters on a black background.",
+        "gt_answers": "juke",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0347.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the name \"WEBWOOD\" written on it.",
+        "gt_answers": "homewood",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0348.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ITALY\" written on a wall.",
+        "gt_answers": "suites",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0349.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"GATOR\" is written in the image.",
+        "gt_answers": "kitchen",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0350.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"believe\" is written in the image.",
+        "gt_answers": "park",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0351.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"WATCH\" written in white text on a black background.",
+        "gt_answers": "tavern",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0352.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TAVENBAKER\" written on it.",
+        "gt_answers": "tavern",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0353.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"All American TV\" written on it.",
+        "gt_answers": "williams",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0354.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"hello\" is written in the image.",
+        "gt_answers": "china",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0355.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo or a sign that says \"Collin.\"",
+        "gt_answers": "dollar",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0356.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NINJA\" is written in the image.",
+        "gt_answers": "inc",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0357.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"woodrow\" is written in the image.",
+        "gt_answers": "town",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0358.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a piece of paper with the words \"Wedding Day\" written on it.",
+        "gt_answers": "ding",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0359.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Amazon\" is written in the image.",
+        "gt_answers": "cinema",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0360.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Subway.\"",
+        "gt_answers": "sub",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0361.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a white t-shirt with the word \"URUK\" written on it.",
+        "gt_answers": "church",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0362.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"WELCOME TO NYC.\"",
+        "gt_answers": "first",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0363.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"HOLLYWOOD\" is written in the image.",
+        "gt_answers": "methodist",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0364.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, colorful, and fancy-looking word written in a foreign language.",
+        "gt_answers": "united",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0365.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"burger\" written on it.",
+        "gt_answers": "starbucks",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0366.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Starbucks Coffee\" written on a surface.",
+        "gt_answers": "starbucks",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0367.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"wood\" is written in the image.",
+        "gt_answers": "coffee",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0368.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a sign that says \"I'm lost.\"",
+        "gt_answers": "coffee",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0369.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"casbah\" written on it.",
+        "gt_answers": "casbah",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0370.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"The End.\"",
+        "gt_answers": "restaurant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0371.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Awesome\" is written in the image.",
+        "gt_answers": "tara",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0372.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"TARAHUA\" is written in the image.",
+        "gt_answers": "brazil",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0373.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TANGO\" written in white letters on a blue background.",
+        "gt_answers": "canto",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0374.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"UNA\" is written in the image.",
+        "gt_answers": "restaurant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0375.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"cyclists\" written on it.",
+        "gt_answers": "bicycle",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0376.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"PRESS\" written on a sign.",
+        "gt_answers": "express",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0377.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Eaton St.\"",
+        "gt_answers": "car",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0378.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"EVERLAST\" is written in the image.",
+        "gt_answers": "enterprise",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0379.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"N. Miami Ave.\"",
+        "gt_answers": "enterprise",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0380.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"NORTH.\"",
+        "gt_answers": "rent",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0381.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HOUSE\" written on a wall.",
+        "gt_answers": "house",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0382.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Village\" written on it.",
+        "gt_answers": "parliament",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0383.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"SOA\" is written in the image.",
+        "gt_answers": "resort",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0384.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"GENUINE\" is written in the image.",
+        "gt_answers": "agency",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0385.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Liquid\" is written in the image.",
+        "gt_answers": "liquid",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0386.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"quite\" is written in the image.",
+        "gt_answers": "liquid",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0387.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Nike\" is written in the image.",
+        "gt_answers": "jones",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0388.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"SAT\" is written in the image.",
+        "gt_answers": "mission",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0389.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"DEAL\" is written in the image.",
+        "gt_answers": "pub",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0390.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BEACH\" is written in the image.",
+        "gt_answers": "theatre",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0391.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Greenville\" written on it.",
+        "gt_answers": "starbucks",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0392.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CONFESSION\" written in a bold, capitalized font.",
+        "gt_answers": "cherry",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0393.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"SERENITY\" is written in the image.",
+        "gt_answers": "cherry",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0394.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"North\" written in blue.",
+        "gt_answers": "chinese",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0395.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TAT2\" written on a white background.",
+        "gt_answers": "vegetarian",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0396.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TURNER\" written on a wooden surface.",
+        "gt_answers": "street",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0397.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"RECYCLE\" written in white letters on a green background.",
+        "gt_answers": "street",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0398.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the word \"cherry\" written on it.",
+        "gt_answers": "cherry",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0399.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"CHINA\" is written in the image.",
+        "gt_answers": "chinese",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0400.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a blue and black striped tie with the word \"AQUA\" written on it.",
+        "gt_answers": "vegetarian",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0401.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"icon\" is written in the image.",
+        "gt_answers": "fuji",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0402.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"congratulations.\"",
+        "gt_answers": "massage",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0403.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Harley-Davidson\" written on it.",
+        "gt_answers": "hard",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0404.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"WELCOME\" written in a foreign language.",
+        "gt_answers": "hard",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0405.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Rock\" is written in the image.",
+        "gt_answers": "rock",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0406.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Garfield\" written on it.",
+        "gt_answers": "rock",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0407.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a quote written on it, which reads \"Sail through life with a smile.\"",
+        "gt_answers": "cafe",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0408.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a quote written in a foreign language, which is displayed on a white background.",
+        "gt_answers": "cafe",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0409.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"UMD\" is written in the image.",
+        "gt_answers": "neumos",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0410.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"JOMON\" written on a wall.",
+        "gt_answers": "neumos",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0411.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white block letter \"T\" with a red border.",
+        "gt_answers": "central",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0412.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"A\" written in white letters on a red background.",
+        "gt_answers": "grand",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0413.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Age 18.\"",
+        "gt_answers": "eager",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0414.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"POETRY\" is written in the image.",
+        "gt_answers": "imports",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0415.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Philadelphia\" is written in the image.",
+        "gt_answers": "phil",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0416.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ENTHUSIASM\" is written in the image.",
+        "gt_answers": "center",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0417.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"black\" is written in the image.",
+        "gt_answers": "convention",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0418.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red fire hydrant with the word \"Fire\" written on it.",
+        "gt_answers": "garfield",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0419.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Night Rider\" written on it.",
+        "gt_answers": "high",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0420.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Honest\" is written in the image.",
+        "gt_answers": "school",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0421.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Development Log\" written on it.",
+        "gt_answers": "travelodge",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0422.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"woodwork\" written on a wall.",
+        "gt_answers": "goodwill",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0423.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"PEPSI\" written on it.",
+        "gt_answers": "speed",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0424.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CONGRATULATIONS\" written in a bold, capitalized font.",
+        "gt_answers": "zone",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0425.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"AUTO BODY\" written on it.",
+        "gt_answers": "auto",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0426.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"TAPPERS\" is written in the image.",
+        "gt_answers": "supply",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0427.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TSHIRTS\" written on a white background.",
+        "gt_answers": "locksmith",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0428.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NEWS\" is written in the image.",
+        "gt_answers": "fahrenheit",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0429.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the words \"Night Rider\" written on it.",
+        "gt_answers": "lounge",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0430.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"google\" is written in the image.",
+        "gt_answers": "capogiro",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0431.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a stylized \"R\" with the words \"Registrar General\" written underneath it.",
+        "gt_answers": "target",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0432.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HERO\" written on a sign.",
+        "gt_answers": "orpheum",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0433.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Beach Theater.\"",
+        "gt_answers": "theatre",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0434.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a name, \"Wade Bowen,\" written on it.",
+        "gt_answers": "redwood",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0435.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"WBTV\" written on it.",
+        "gt_answers": "redwood",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0436.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"The End.\"",
+        "gt_answers": "apartments",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0437.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NEON\" is written in the image.",
+        "gt_answers": "bohemian",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0438.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"RANKHAN\" is written in the image.",
+        "gt_answers": "grand",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0439.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NTO\" is written in the image.",
+        "gt_answers": "hotel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0440.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"super\" is written in the image.",
+        "gt_answers": "super",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0441.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"LADA\" is written in the image.",
+        "gt_answers": "radio",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0442.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"CHANNEL\" is written in the image.",
+        "gt_answers": "shack",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0443.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"EAT\" is written in the image.",
+        "gt_answers": "chanterelle",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0444.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"CONAN\" is written in the image.",
+        "gt_answers": "donald",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0445.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"HANGER\" is written in the image.",
+        "gt_answers": "high",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0446.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Nite.\"",
+        "gt_answers": "lincoln",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0447.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a picture of a city with the words \"Hello World\" written on it.",
+        "gt_answers": "school",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0448.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white sign that says \"Hotel Lotus.\"",
+        "gt_answers": "hotel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0449.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ENTERPRISE\" written in a fancy font.",
+        "gt_answers": "vernon",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0450.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a purple sign with the words \"Nissan\" and \"Innovation\" written on it.",
+        "gt_answers": "first",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0451.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"purple\" is written in the image.",
+        "gt_answers": "first",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0452.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"PRODUCT\" is written in the image.",
+        "gt_answers": "chiropractic",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0453.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ULU\" is written in the image.",
+        "gt_answers": "giulio",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0454.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"DELUXE\" is written in the image.",
+        "gt_answers": "deli",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0455.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"DEAL\" is written in the image.",
+        "gt_answers": "deli",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0456.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"SARAH\" written in white letters on a black background.",
+        "gt_answers": "garny",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0457.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"rocks\" is written in the image.",
+        "gt_answers": "roots",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0458.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"AIRWAY\" is written in the image.",
+        "gt_answers": "air",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0459.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word \"SEIZED\" written in white text on a black background.",
+        "gt_answers": "museum",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0460.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"PACIFIC\" is written in the image.",
+        "gt_answers": "space",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0461.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a license plate with the word \"NEW\" written on it.",
+        "gt_answers": "leon",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0462.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"A&B\" written on a wall.",
+        "gt_answers": "plaza",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0463.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Ron.\"",
+        "gt_answers": "america",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0464.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"Inn by the Sea\" are written in the image.",
+        "gt_answers": "inn",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0465.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"quidditch\" is written in the image.",
+        "gt_answers": "square",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0466.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"THINKING\" is written in the image.",
+        "gt_answers": "washington",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0467.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"BASKETBALL.\"",
+        "gt_answers": "embassy",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0468.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a sign that says \"Congratulations.\"",
+        "gt_answers": "suites",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0469.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Kenneth\" is written in the image.",
+        "gt_answers": "parking",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0470.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a picture of a tree with the words \"Gentlemen, Start Your Engines\" written underneath it.",
+        "gt_answers": "center",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0471.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"City of Decatur.\"",
+        "gt_answers": "city",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0472.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper headline that reads \"CORNWALL TODAY.\"",
+        "gt_answers": "corner",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0473.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a magazine, which is written in a foreign language.",
+        "gt_answers": "martin",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0474.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"WELCOME\" is written in the image.",
+        "gt_answers": "bar",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0475.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NITZ\" written on a piece of white cloth.",
+        "gt_answers": "quiznos",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0476.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word or phrase written in a foreign language, which is displayed on a white background.",
+        "gt_answers": "arts",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0477.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a person's hand writing the word \"LOVE\" on a piece of paper.",
+        "gt_answers": "modified",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0478.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"welcome.\"",
+        "gt_answers": "brothers",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0479.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a quote written in a foreign language, which is displayed in a white font.",
+        "gt_answers": "products",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0480.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo or a word written in a foreign language, which is likely the name of the company or brand.",
+        "gt_answers": "zesco",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0481.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"solar\" is written in the image.",
+        "gt_answers": "zoll",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0482.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"God\" is written in the image.",
+        "gt_answers": "goodwill",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0483.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the name \"Bank of America\" written on a wall.",
+        "gt_answers": "frankly",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0484.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"VIN\" is written in the image.",
+        "gt_answers": "wines",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0485.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"Holiday Greetings\" are written in the image.",
+        "gt_answers": "holiday",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0486.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a picture of a bus with the words \"Evergreen Coach Lines\" written on it.",
+        "gt_answers": "hotel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0487.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"WOW\" is written in the image.",
+        "gt_answers": "inn",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0488.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Bike World\" written on it.",
+        "gt_answers": "bike",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0489.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the name \"Kyle\" written on a wall.",
+        "gt_answers": "kyle",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0490.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HOLLYWOOD\" written in a bold, capitalized font.",
+        "gt_answers": "shop",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0491.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"The Cat in the Hat.\"",
+        "gt_answers": "deli",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0492.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"DELUXE BEVERAGE CO.\"",
+        "gt_answers": "deli",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0493.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ABOUT\" written on it.",
+        "gt_answers": "kabob",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0494.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green street sign that reads \"Totoya.\"",
+        "gt_answers": "kotayk",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0495.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"The Hollywood Reporter\" are written in the image.",
+        "gt_answers": "grocery",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0496.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"LARRY\" and \"CARLTON\" written on a white background.",
+        "gt_answers": "carlton",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0497.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TOTO\" written in white letters on a black background.",
+        "gt_answers": "hotel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0498.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"TyRiK\" is written in the image.",
+        "gt_answers": "satyricon",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0499.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NBA\" written in a red and white font.",
+        "gt_answers": "anaheim",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0500.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Band Boosters\" written on it.",
+        "gt_answers": "band",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0501.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Rum Drum\" written on it.",
+        "gt_answers": "instruments",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0502.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NEON\" is written in the image.",
+        "gt_answers": "bar",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0503.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"DANIEL\" is written in the image.",
+        "gt_answers": "dan",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0504.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"courage\" is written in the image.",
+        "gt_answers": "louis",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0505.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the name \"Ossie\" written on it.",
+        "gt_answers": "oyster",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0506.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word or phrase written in a foreign language, which is likely to be English.",
+        "gt_answers": "castle",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0507.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Alien\" is written in the image.",
+        "gt_answers": "white",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0508.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"OBEY\" is written in the image.",
+        "gt_answers": "food",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0509.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"MUM\" written in white, with a red background.",
+        "gt_answers": "jimmy",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0510.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"STORIES\" written in a fancy font.",
+        "gt_answers": "store",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0511.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Hollywood Wives\" written on it.",
+        "gt_answers": "hollywood",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0512.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"stevie\" is written in the image.",
+        "gt_answers": "posters",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0513.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Malacca\" is written in the image.",
+        "gt_answers": "palace",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0514.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"HITCH\" is written in the image.",
+        "gt_answers": "white",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0515.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"white\" is written in the image.",
+        "gt_answers": "white",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0516.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"America\" written in a bold, colorful font.",
+        "gt_answers": "america",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0517.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"NATIONAL GEOGRAPHIC\" written on it.",
+        "gt_answers": "comfort",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0518.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NBC\" is written in the image.",
+        "gt_answers": "inn",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0519.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TONTO\" written on it.",
+        "gt_answers": "scientology",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0520.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"The Burj Khalifa\" written on it.",
+        "gt_answers": "church",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0521.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Jos\u00e9\" written on it.",
+        "gt_answers": "jose",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0522.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the words \"Less is More\" written on it.",
+        "gt_answers": "museum",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0523.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Building a Better World\" written on it.",
+        "gt_answers": "quilts",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0524.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"SAN DIEGO\" written on it.",
+        "gt_answers": "san",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0525.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"AXL\" written on it.",
+        "gt_answers": "textiles",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0526.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"houston\" is written in the image.",
+        "gt_answers": "house",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0527.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"TEAM\" is written in the image.",
+        "gt_answers": "tea",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0528.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Pakistan\" is written in the image.",
+        "gt_answers": "pak",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0529.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Beverly\" is written in the image.",
+        "gt_answers": "starbucks",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0530.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"UBER\" is written in the image.",
+        "gt_answers": "burbank",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0531.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon sign that reads \"UBERNURBS.\"",
+        "gt_answers": "burbank",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0532.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"WORLD NEWS.\"",
+        "gt_answers": "florist",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0533.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"FAT\" is written in the image.",
+        "gt_answers": "gifts",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0534.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HEB\" written on a wall.",
+        "gt_answers": "check",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0535.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NBC\" is written in the image.",
+        "gt_answers": "bank",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0536.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"TUTA\" is written in the image.",
+        "gt_answers": "tabu",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0537.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"DEC 18.\"",
+        "gt_answers": "space",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0538.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Billboard\" written on a wall.",
+        "gt_answers": "marlboro",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0539.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUL",
+        "gt_answers": "houlihan",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0540.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Lill\" is written in the image.",
+        "gt_answers": "houlihan",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0541.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large black and white photo of a sign that reads \"RUN.\"",
+        "gt_answers": "sheraton",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0542.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word or phrase written in a foreign language, which is not identifiable by me as an AI.",
+        "gt_answers": "restaurant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0543.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Bella\" is written in the image.",
+        "gt_answers": "cellars",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0544.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"HAN\" is written in the image.",
+        "gt_answers": "ten",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0545.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"CONFIDENCE\" written on it.",
+        "gt_answers": "times",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0546.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"UNIVERSITY\" written in a fancy font.",
+        "gt_answers": "accountancy",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0547.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the word \"CITIZEN\" written on it.",
+        "gt_answers": "quiznos",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0548.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a sign written in a foreign language, which is displayed in front of a tree.",
+        "gt_answers": "salads",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0549.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a quote written in a foreign language, which is displayed on a white background.",
+        "gt_answers": "subs",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0550.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"New Haven.\"",
+        "gt_answers": "jewel",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0551.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ASAP\" written in a fancy font.",
+        "gt_answers": "osco",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0552.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Clark & Co.\" written on it.",
+        "gt_answers": "pickles",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0553.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Public Library.\"",
+        "gt_answers": "pub",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0554.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Knit\" is written in the image.",
+        "gt_answers": "pickles",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0555.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"PURSE\" written in a fancy, decorative font.",
+        "gt_answers": "pub",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0556.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"GHETTOS\" is written in the image.",
+        "gt_answers": "spaghetti",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0557.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BEHANCE\" is written in the image.",
+        "gt_answers": "warehouse",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0558.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"WEB\" written on a white background.",
+        "gt_answers": "brewery",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0559.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a book cover with the title \"Public Enemy Number One\" written on it.",
+        "gt_answers": "pub",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0560.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"SUN\" written in a sun-like font.",
+        "gt_answers": "sun",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0561.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"JUNTUNUT\" is written in the image.",
+        "gt_answers": "mountain",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0562.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"OBM\" written in a black and white style.",
+        "gt_answers": "simon",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0563.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"Lillie\" and \"Collier\" are written in the image.",
+        "gt_answers": "gallery",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0564.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Rite Aid.\"",
+        "gt_answers": "street",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0565.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"AVIDA\" is written in the image.",
+        "gt_answers": "avis",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0566.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NBC\" written in white letters.",
+        "gt_answers": "himalayas",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0567.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Law\" is written in the image.",
+        "gt_answers": "restaurant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0568.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a quote written in a foreign language, which is displayed on a sign.",
+        "gt_answers": "street",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0569.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"NBC News\" written on it.",
+        "gt_answers": "center",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0570.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"RECORDED\" is written in the image.",
+        "gt_answers": "university",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0571.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Welcome to the neighborhood.\"",
+        "gt_answers": "asu",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0572.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"WALNUT RD\" are written in the image.",
+        "gt_answers": "days",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0573.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Sun\" is written in the image.",
+        "gt_answers": "inn",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0574.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"EVERLAST\" is written in the image.",
+        "gt_answers": "sheraton",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0575.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a sign that says \"welcome.\"",
+        "gt_answers": "avante",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0576.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper headline that reads \"VORIUS.\"",
+        "gt_answers": "florist",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0577.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a handwritten sign or label, which is likely a description or instruction for the product being sold.",
+        "gt_answers": "gardens",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0578.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"LOVE\" is written in the image.",
+        "gt_answers": "school",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0579.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"orange\" is written in the image.",
+        "gt_answers": "floral",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0580.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a white text that reads \"DESIGN.\"",
+        "gt_answers": "design",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0581.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo of a company called \"Burberry.\"",
+        "gt_answers": "starbucks",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0582.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a coffee cup with the word \"BARISTA\" written on it.",
+        "gt_answers": "starbucks",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0583.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the CBS logo, which is a large letter \"C\" with the word \"B\" superimposed on it.",
+        "gt_answers": "cvs",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0584.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a TV show called \"C.S.I.\"",
+        "gt_answers": "cvs",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0585.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a TV show called \"C.S.I.\"",
+        "gt_answers": "cvs",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0586.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CYSAV\" written on a wall.",
+        "gt_answers": "cvs",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0587.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Marshall\" is written in the image.",
+        "gt_answers": "pharmacy",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0588.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a sign that says \"Night.\"",
+        "gt_answers": "cvs",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0589.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a sign that says \"Never Give Up.\"",
+        "gt_answers": "cvs",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0590.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"NCN.\"",
+        "gt_answers": "barnsley",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0591.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"FIRE\" is written in the image.",
+        "gt_answers": "tire",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0592.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Cafe Lavagna\" written on it.",
+        "gt_answers": "cafe",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0593.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a purple and white flower with the words \"love\" written on it.",
+        "gt_answers": "soleil",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0594.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"BARBARA BARKLEY.\"",
+        "gt_answers": "bar",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0595.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Tacoma\" written on it.",
+        "gt_answers": "restaurant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0596.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"INTENTION\" is written in the image.",
+        "gt_answers": "centre",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0597.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"RICHARD CORBETT\" written in a white font on a black background.",
+        "gt_answers": "circle",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0598.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"OMMA\" is written in the image.",
+        "gt_answers": "automotive",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0599.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Dig\" is written in the image.",
+        "gt_answers": "diego",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0600.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ESSAYEUSE\" is written in the image.",
+        "gt_answers": "museum",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0601.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"SIN\" is written in the image.",
+        "gt_answers": "san",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0602.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"Majic 92\" are written in the image.",
+        "gt_answers": "common",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0603.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"REAL\" is written in the image.",
+        "gt_answers": "threads",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0604.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"SUKHSA\" written on a sign.",
+        "gt_answers": "hatsu",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0605.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"SUNSHINE\" written in a foreign language, likely Japanese.",
+        "gt_answers": "sushi",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0606.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"Artist's Banner\" are written in the image.",
+        "gt_answers": "art",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0607.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"Art by Artist\" are written in the image.",
+        "gt_answers": "art",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0608.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a handwritten sign that says \"The End.\"",
+        "gt_answers": "art",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0609.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"discours\" written in a fancy font.",
+        "gt_answers": "museum",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0610.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a handwritten inscription that reads \"Learn to Read.\"",
+        "gt_answers": "museum",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0611.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a television show called \"Law & Order.\"",
+        "gt_answers": "timken",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0612.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white background with the words \"we love\" written on it.",
+        "gt_answers": "timken",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0613.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"BARBARA\" written in a graffiti-like style.",
+        "gt_answers": "bar",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0614.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BABE\" is written in the image.",
+        "gt_answers": "bar",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0615.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white and purple striped ribbon with the word \"HONOR\" written on it.",
+        "gt_answers": "central",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0616.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ENTERTAINMENT\" written in a bold, capitalized font.",
+        "gt_answers": "central",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0617.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ATTITUDE\" written on a wall.",
+        "gt_answers": "station",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0618.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"National Lampoon\" written on it.",
+        "gt_answers": "station",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0619.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"SAUSA\" written in a black and white font.",
+        "gt_answers": "pasada",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0620.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"TATTOO\" written in a fancy, decorative font.",
+        "gt_answers": "uptown",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0621.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"LAW\" written in a fancy font.",
+        "gt_answers": "village",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0622.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ASIAS\" is written in the image.",
+        "gt_answers": "massa",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0623.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"everlast\" written on it.",
+        "gt_answers": "hertz",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0624.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Property of\" written on it.",
+        "gt_answers": "courtyard",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0625.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"MINNESOTA\" is written in the image.",
+        "gt_answers": "jimmy",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0626.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"HONORE\" is written in the image.",
+        "gt_answers": "john",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0627.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"connoisseur\" is written in the image.",
+        "gt_answers": "chocolate",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0628.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"boo\" is written in the image.",
+        "gt_answers": "moose",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0629.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Journeys\" is written in the image.",
+        "gt_answers": "lounge",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0630.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"OPEN\" written on it.",
+        "gt_answers": "anthropologie",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0631.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"lonely\" written on it.",
+        "gt_answers": "colonial",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0632.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"AUDIO\" is written in the image.",
+        "gt_answers": "restaurant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0633.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the word \"BOOKSTORE\" written on it.",
+        "gt_answers": "bookstore",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0634.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign with the word \"Taylor\" written on it.",
+        "gt_answers": "city",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0635.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"City\" is written in the image.",
+        "gt_answers": "city",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0636.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HBO\" written on a wall.",
+        "gt_answers": "lights",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0637.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Lights\" is written in the image.",
+        "gt_answers": "lights",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0638.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a sign that says \"erase.\"",
+        "gt_answers": "enterprise",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0639.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wall with the word \"Ali\" written on it.",
+        "gt_answers": "embassy",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0640.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green and white logo, which is a symbol of a company called NIKE.",
+        "gt_answers": "cheuvront",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0641.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a white text that reads \"UVJD.\"",
+        "gt_answers": "cheuvront",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0642.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word \"AU\" written on a wall.",
+        "gt_answers": "restaurant",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0643.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Eagle\" written on it.",
+        "gt_answers": "eagle",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0644.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"AGAIN\" written in a fancy font.",
+        "gt_answers": "eagle",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0645.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NBC\" written in a fancy font.",
+        "gt_answers": "medical",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0646.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"MEDICAL\" written on a sign.",
+        "gt_answers": "medical",
+        "image_path": "/nvme/share/OCR_Datasets/SVT/image/img_0647.jpg",
+        "model_name": "ImageBind_7B-pretrain3"
+    }
+]

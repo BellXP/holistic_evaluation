@@ -58,6 +58,7 @@ def get_eval_function(args):
         return evaluate_Caption
     if args.eval_kie:
         return evaluate_KIE
+    return None
 
 
 def main(args):
@@ -74,10 +75,12 @@ def main(args):
             metrics = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time, batch_size=args.batch_size, answer_path=answer_path)
             result[ocr_dataset_name[i]] = metrics
 
-    dataset = dataset_class_dict[args.dataset_name]()
-    dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-    metrics = get_eval_function(args)(model, dataset, args.model_name, args.dataset_name, time, args.batch_size, answer_path=answer_path)
-    result[args.dataset_name] = metrics
+    eval_function = get_eval_function(args)
+    if eval_function is not None:
+        dataset = dataset_class_dict[args.dataset_name]()
+        dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
+        metrics = eval_function(model, dataset, args.model_name, args.dataset_name, time, args.batch_size, answer_path=answer_path)
+        result[args.dataset_name] = metrics
     
     result_path = os.path.join(os.path.join(answer_path, time), 'result.json')
     with open(result_path, "w") as f:
