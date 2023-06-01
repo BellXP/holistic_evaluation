@@ -1,4 +1,3 @@
-import cv2
 import torch
 from PIL import Image
 
@@ -13,8 +12,11 @@ torch.nn.init.normal_ = skip
 
 def get_image(image):
     if type(image) is str:
-        img = cv2.imread(image)
-        return Image.fromarray(img)
+        try:
+            return Image.open(image).convert("RGB")
+        except Exception as e:
+            print(f"Fail to read image: {image}")
+            exit(-1)
     elif type(image) is Image.Image:
         return image
     else:

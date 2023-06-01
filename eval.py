@@ -62,7 +62,8 @@ def get_eval_function(args):
 
 
 def main(args):
-    model = get_model(args.model_name, device=torch.device('cpu' if args.device == -1 else f"cuda:{args.device}"))
+    os.environ['CUDA_VISIBLE_DEVICES'] = str(args.device)
+    model = get_model(args.model_name, device=torch.device('cuda'))
     time = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     answer_path = f"{args.answer_path}/{args.model_name}"
 
