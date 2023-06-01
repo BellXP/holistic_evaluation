@@ -54,5 +54,8 @@ def get_model(model_name, device=None):
     elif 'ImageBind' in model_name:
         from .test_imagebind import TestImageBind
         return TestImageBind(model_name, device)
+    elif model_name == 'LLaMA-Adapter-v3':
+        from .test_llama_adapter_v3 import TestLLamaAdapterV3
+        return TestLLamaAdapterV3(device)
     else:
         raise ValueError(f"Invalid model_name: {model_name}")
