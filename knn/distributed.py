@@ -12,45 +12,18 @@ _LOCAL_WORLD_SIZE = -1
 
 
 def gather_tensor(input_tensor, gather_list=None, dst=0):
-    """
-    Custom gather operation that gathers tensors from multiple processes onto the specified destination process.
+    rank = dist.get_rank()
+    if rank != dst:
+        return None
 
-    Args:
-        input_tensor (Tensor): The tensor to gather. It should have the same shape on each process.
-        gather_list (list[torch.device], optional): A list of torch.device objects representing the destination devices.
-            If None, all processes will participate in the gather operation. (default: None)
-        dst (int, optional): The rank of the destination process where the gathered data will be stored. (default: 0)
-
-    Returns:
-        gathered_tensor (Tensor or list[Tensor]): The gathered tensor(s) on the destination process. If `gather_list` is None,
-            the destination process will return a tensor containing the gathered data. Otherwise, a list of tensors
-            will be returned, with each tensor containing the gathered data for the corresponding device in `gather_list`.
-
-    Raises:
-        RuntimeError: If the gather operation fails.
-    """
-    # Get the current process rank and the total number of processes
-    rank = get_global_rank()
-    world_size = get_global_size()
-
-    # Check if gather_list is None (indicating all processes participate in the gather)
+    world_size = dist.get_world_size()
     if gather_list is None:
         gather_list = [torch.device('cuda', i) for i in range(world_size)]
 
-    # Check if the current process is the destination process
-    if rank == dst:
-        gathered_tensor = [torch.empty_like(input_tensor) for _ in range(len(gather_list))]
-    else:
-        gathered_tensor = None
-
-    # Perform all_gather to gather the tensors onto each process
+    gathered_tensor = [torch.empty_like(input_tensor) for _ in range(len(gather_list))]
     dist.all_gather(gathered_tensor, input_tensor)
 
-    # Filter out the relevant tensor on the destination process
-    if rank == dst:
-        return gathered_tensor
-    else:
-        return None
+    return gathered_tensor
 
 
 def is_enabled() -> bool:

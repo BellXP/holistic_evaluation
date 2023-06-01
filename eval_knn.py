@@ -70,8 +70,8 @@ class KnnModule(torch.nn.Module):
             topk_sims_rank = [torch.zeros_like(topk_sims) for _ in range(self.global_size)]
             retrieved_rank = [torch.zeros_like(neighbors_labels) for _ in range(self.global_size)]
 
-        torch.distributed.gather(topk_sims, topk_sims_rank, dst=target_rank)
-        torch.distributed.gather(neighbors_labels, retrieved_rank, dst=target_rank)
+        distributed.gather_tensor(topk_sims, topk_sims_rank, dst=target_rank)
+        distributed.gather_tensor(neighbors_labels, retrieved_rank, dst=target_rank)
 
         if self.global_rank == target_rank:
             # Perform a second top-k on the k * global_size retrieved neighbors
@@ -357,7 +357,7 @@ def setup(args):
     rank = distributed.get_global_rank()
 
     global logger
-    args.output_dir = f"{args.answer_path}/{args.model_name}"
+    args.output_dir = f"{args.answer_path}/{args.model_name}/knn-{args.vision_layer_index}"
     setup_logging(output=args.output_dir, level=logging.INFO)
     logger = logging.getLogger("ImageBind_KNN")
 
@@ -369,7 +369,6 @@ def main(args):
     model = TestImageBind(args.model_name)
     del model.generator.llama
     model.generator.cuda()
-    print(f'Check device: {torch.cuda.current_device()}')
     model.generator.forward = MethodType(new_vision_forward, model.generator)
     model.generator.vision_layer_index = args.vision_layer_index
     eval_knn_with_model(
