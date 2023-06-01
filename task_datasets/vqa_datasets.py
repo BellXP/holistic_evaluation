@@ -5,13 +5,11 @@ from torch.utils.data import Dataset
 
 
 class TextVQADataset(Dataset):
-    def __init__(
-        self,
-        image_dir_path= "/nvme/share/VQA_Datasets/TextVQA/train_images",
-        ann_path= "/nvme/share/VQA_Datasets/TextVQA/TextVQA_0.5.1_val.json"
-    ):
-        self.data = json.load(open(ann_path, "r"))["data"]
-        self.image_dir_path = image_dir_path
+    data_root = "/nvme/share/VQA_Datasets/TextVQA"
+
+    def __init__(self):
+        self.data = json.load(open(f"{self.data_root}/TextVQA_0.5.1_val.json", "r"))["data"]
+        self.image_dir_path = self.data_root + '/train_images'
 
     def __len__(self):
         return len(self.data)
@@ -47,20 +45,18 @@ class DocVQADataset(Dataset):
 
 
 class OCRVQADataset(Dataset):
-    def __init__(
-        self,
-        image_dir_path= "./data/ocrVQA/images",
-        ann_path= "./data/ocrVQA/dataset.json",
-    ):
+    data_root = '/nvme/share/VQA_Datasets/OCRVQA'
+
+    def __init__(self):
         self.image_list = []
         self.question_list = []
         self.answer_list = []
-        dataset = json.load(open(ann_path, "r"))
+        dataset = json.load(open(f'{self.data_root}/dataset.json', "r"))
         import pdb;pdb.set_trace()
         for idx, data in enumerate(dataset):
             questions =  dataset[data]['questions']
             for index, question in enumerate(questions):
-                image_file = os.path.join(image_dir_path, f'{data}.jpg')
+                image_file = os.path.join(self.data_root, 'images', f'{data}.jpg')
                 gt_answers = dataset[data]['answers'][index]
                 self.image_list.append(image_file)
                 self.answer_list.append(gt_answers)
@@ -80,17 +76,15 @@ class OCRVQADataset(Dataset):
 
 
 class STVQADataset(Dataset):
-    def __init__(
-        self,
-        image_dir_path= "/nvme/share/VQA_Datasets/STVQA/train_imgs",
-        ann_path= "/nvme/share/VQA_Datasets/STVQA/train_task_3.json",
-    ):
+    data_root = "/nvme/share/VQA_Datasets/STVQA"
+
+    def __init__(self):
         self.image_list = []
         self.question_list = []
         self.answer_list = []
-        data = json.load(open(ann_path, "r"))['data']
+        data = json.load(open(f"{self.data_root}/train_task_3.json", "r"))['data']
         for i in range(len(data)):
-            image_path = image_dir_path + '/' + data[i]['dataset'] + '/' + data[i]['file_name']
+            image_path = self.data_root + '/train_imgs/' + data[i]['dataset'] + '/' + data[i]['file_name']
             self.image_list.append(image_path)
             self.answer_list.append(data[i]['answers'])
             self.question_list.append(data[i]['question'])

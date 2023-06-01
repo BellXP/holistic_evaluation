@@ -153,6 +153,9 @@ def create_module_dict(*, module, n_per_class_list, n_tries, nb_knn, train_featu
 @torch.inference_mode()
 def new_vision_forward(self, imgs, input_type="vision"):
     visual_feats = self.image_bind({input_type : imgs})[input_type]
+    if self.vision_layer_index == 0:
+        return visual_feats
+
     visual_feats = self.image_bind_proj(visual_feats)
 
     visual_feats_norm = self.image_bind_norm_1(visual_feats)

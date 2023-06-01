@@ -1,5 +1,5 @@
 import torch
-from .llama_adapter import image_transform, load_model, format_prompt
+from .imagebind_llm import image_transform, load_model, format_prompt
 from . import get_image
 
 
