@@ -1,7 +1,5 @@
 import os
-import cv2
 import importlib
-from PIL import Image
 from gradio_client import Client
 
 import clip
@@ -10,7 +8,9 @@ import torch
 from . import get_image
 
 
-models_mae_path = '/nvme/share/LLaMA-Adapter-v2/models_mae.py'
+# NOTE: please use customized clip and timm library
+
+models_mae_path = 'models/llama_adapter_v2/models_mae.py'
 spec = importlib.util.spec_from_file_location('models_mae', models_mae_path)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
