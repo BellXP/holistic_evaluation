@@ -208,6 +208,23 @@ class VQAEval:
                 return 1
             else:
                 return 0
+    
+    def evaluate_MRR(self, answer, gt_answers):
+        answer = answer.replace("\n", " ")
+        answer = answer.replace("\t", " ")
+        answer = answer.strip()
+        answer = self.processPunctuation(answer)
+        answer = self.processDigitArticle(answer)
+        assert type(gt_answers)==list
+        for i in range(len(gt_answers)):
+            gt_answers[i] = gt_answers[i].replace("\n", " ")
+            gt_answers[i] = gt_answers[i].replace("\t", " ")
+            gt_answers[i] = gt_answers[i].strip()
+            gt_answers[i] = self.processPunctuation(gt_answers[i])
+            gt_answers[i] = self.processDigitArticle(gt_answers[i])
+            if has_word(answer, gt_answers[i]):
+                return 1 / (i + 1)
+        return 0.0
 
     def processPunctuation(self, inText):
         outText = inText
