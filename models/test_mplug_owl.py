@@ -69,6 +69,15 @@ class TestMplugOwl:
 
     @torch.no_grad()
     def batch_generate(self, image_list, question_list):
-        output = [self.generate(image, question) for image, question in zip(image_list, question_list)]
-        return output
+        images = [get_image(image) for image in image_list]
+        images = [self.image_processor(image, return_tensors='pt').pixel_values for image in images]
+        images = torch.cat(images, dim=0).to(self.device, dtype=self.dtype)
+        prompts = [prompt_template.format(question) for question in question_list]
+        inputs = self.processor(text=prompts)
+        inputs = {k: v.to(self.device) for k, v in inputs.items()}
+        inputs["pixel_values"] = images
+        with torch.no_grad():
+            res = self.model.generate(**inputs, **generate_kwargs)
+        outputs = [self.tokenizer.decode(output, skip_special_tokens=True) for output in res.tolist()]
 
+        return outputs
