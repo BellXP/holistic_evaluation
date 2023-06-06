@@ -54,7 +54,7 @@ class TestOtter:
         imgs = [self.image_processor.preprocess([x], return_tensors="pt")["pixel_values"].unsqueeze(0) for x in imgs]
         vision_x = (torch.stack(imgs, dim=0).to(self.device))
         prompts = [f"<image> User: {question} GPT: <answer>" for question in question_list]
-        lang_x = self.model.text_tokenizer(prompts, return_tensors="pt")
+        lang_x = self.model.text_tokenizer(prompts, return_tensors="pt", padding=True)
         generated_text = self.model.generate(
             # vision_x=vision_x.to(self.model.device),
             vision_x=vision_x.to('cpu'),
