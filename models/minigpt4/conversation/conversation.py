@@ -3,6 +3,7 @@ import time
 from PIL import Image
 
 import torch
+import torch.nn.functional as F
 from transformers import AutoTokenizer, AutoModelForCausalLM, LlamaTokenizer
 from transformers import StoppingCriteria, StoppingCriteriaList
 
@@ -218,7 +219,8 @@ class Chat:
             conv.append_message(conv.roles[1], None)
             embs = self.get_context_emb(conv, img_list)
             embs_list.append(embs)
-        embs_list = torch.stack(embs_list, dim=0)
+        max_emb_token = max([x.shape[1] for x in embs_list])
+        embs_list = torch.cat([F.pad(x, (0, 0, 0, max_emb_token - x.shape[1], 0, 0)) for x in embs_list], dim=0)
 
         current_max_len = embs_list.shape[1] + max_new_tokens
         if current_max_len - max_length > 0:
