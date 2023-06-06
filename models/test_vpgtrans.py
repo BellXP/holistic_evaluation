@@ -2,7 +2,7 @@ import torch
 
 from .vpgtrans.common.config import Config
 from .vpgtrans.common.registry import registry
-from .minigpt4.conversation.conversation import Chat, CONV_VISION
+from .vpgtrans.conversation.conversation import Chat, CONV_VISION
 
 # imports modules for registration
 from .vpgtrans.models import *
