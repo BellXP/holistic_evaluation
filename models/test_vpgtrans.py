@@ -25,6 +25,8 @@ class TestVPGTrans:
         self.model.llama_model = self.model.llama_model.float().to('cpu')
         self.chat = Chat(model, vis_processor, device='cpu')
 
+        # print(f'Check the number of trainable parameters: {sum(p.numel() for p in self.model.parameters() if p.requires_grad)}')
+
         if device is not None:
             self.move_to_device(device)
 
@@ -39,6 +41,7 @@ class TestVPGTrans:
         self.model = self.model.to(self.device, dtype=self.dtype)
         self.chat.move_stopping_criteria_device(self.device, dtype=self.dtype)
     
+    @torch.no_grad()
     def generate(self, image, question):
         chat_state = CONV_VISION.copy()
         img_list = []
@@ -49,3 +52,10 @@ class TestVPGTrans:
         llm_message = self.chat.answer(conv=chat_state, img_list=img_list)[0]
 
         return llm_message
+    
+    @torch.no_grad()
+    def batch_generate(self, image_list, question_list):
+        image_list = [get_image(image) for image in image_list]
+        chat_list = [CONV_VISION.copy() for _ in range(len(image_list))]
+        batch_outputs = self.chat.batch_answer(image_list, question_list, chat_list)
+        return batch_outputs

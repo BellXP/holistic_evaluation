@@ -1,12 +1,12 @@
 import torch
 from .imagebind_llm import image_transform, load_model, format_prompt
-from . import get_image
+from . import get_image, DATA_DIR
 
 
 class TestImageBind:
     def __init__(self, model_name, device=None) -> None:
         ckpt_name = model_name.split('_')[1]
-        model_path = f"/nvme/share/xupeng/llama_checkpoints/{ckpt_name}.pth"
+        model_path = f"{DATA_DIR}/llama_checkpoints/{ckpt_name}.pth"
         self.generator = load_model(model_path, device='cpu')
         self.img_transform = image_transform
 
@@ -22,6 +22,7 @@ class TestImageBind:
             self.device = 'cpu'
         self.generator = self.generator.to(self.device)
 
+    @torch.no_grad()
     def generate(self, image, question, max_gen_len=256, temperature=0.1, top_p=0.75):
         imgs = [get_image(image)]
         imgs = [self.img_transform(x) for x in imgs]
@@ -34,6 +35,7 @@ class TestImageBind:
 
         return result
     
+    @torch.no_grad()
     def batch_generate(self, image_list, question_list, max_gen_len=256, temperature=0.1, top_p=0.75):
         imgs = [get_image(img) for img in image_list]
         imgs = [self.img_transform(x) for x in imgs]

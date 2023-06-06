@@ -1,10 +1,10 @@
 from .llama import load, format_prompt
 from functools import partial
 from torchvision import transforms
+from .. import DATA_DIR
 
 
-llama_dir = '/nvme/share/xupeng/llama_checkpoints'
-model_path = '/nvme/share/xupeng/llama_checkpoints/7B-epoch0.pth'
+llama_dir = f'{DATA_DIR}/llama_checkpoints'
 load_model = partial(load, llama_dir=llama_dir)
 image_transform = transforms.Compose(
     [

@@ -5,9 +5,11 @@ from torch.utils.data import Dataset
 import requests
 from PIL import Image
 
+from . import DATA_DIR
+
 
 class NoCapsDataset(Dataset):
-    data_root = '/nvme/share/Caption_Datasets/NoCaps'
+    data_root = f'{DATA_DIR}/Caption_Datasets/NoCaps'
 
     def __init__(self):
         self.image_list = []
@@ -16,7 +18,7 @@ class NoCapsDataset(Dataset):
         for img_id in dataset:
             sample_info = dataset[img_id]
             image_path = sample_info.pop(0)
-            self.image_list.append(image_path)
+            self.image_list.append(self.data_root + '/' + image_path)
             self.answer_list.append(sample_info)
 
     def prepare_dataset(self):
@@ -29,12 +31,12 @@ class NoCapsDataset(Dataset):
             dataset = {}
             from tqdm import tqdm
             for sample in tqdm(data['images']):
-                file_name = self.data_root + '/val_imgs/' + sample['file_name']
+                file_name = 'val_imgs/' + sample['file_name']
                 img_url = sample['coco_url']
                 img_id = sample['id']
                 dataset[img_id] = [file_name]
                 try:
-                    image = Image.open(file_name).convert('RGB')
+                    image = Image.open(self.data_root + '/' + file_name).convert('RGB')
                 except Exception:
                     image = Image.open(requests.get(img_url, stream=True).raw).convert('RGB')
                     image.save(file_name)
@@ -59,7 +61,7 @@ class NoCapsDataset(Dataset):
 
 
 class FlickrDataset(Dataset):
-    data_root = '/nvme/share/Caption_Datasets/Flickr_30k'
+    data_root = f'{DATA_DIR}/Caption_Datasets/Flickr_30k'
 
     def __init__(self):
         self.image_list = []
@@ -103,4 +105,6 @@ class FlickrDataset(Dataset):
 
 
 if __name__ == "__main__":
-    dataset = FlickrDataset()
+    dataset = NoCapsDataset()
+    print(len(dataset))
+    print(dataset[0])

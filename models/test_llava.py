@@ -111,6 +111,7 @@ class TestLLaVA:
         vision_tower.to(device=self.device, dtype=self.dtype)
         self.model.to(device=self.device, dtype=self.dtype)
     
+    @torch.no_grad()
     def generate(self, image, question):
         image = get_image(image)
         conv = self.conv.copy()
@@ -123,7 +124,13 @@ class TestLLaVA:
         output = self.do_generate(prompt, image, stop_str=stop_str, dtype=self.dtype)
 
         return output
+    
+    @torch.no_grad()
+    def batch_generate(self, image_list, question_list):
+        output = [self.generate(image, question) for image, question in zip(image_list, question_list)]
+        return output
 
+    @torch.no_grad()
     def do_generate(self, prompt, image, dtype=torch.float16, temperature=0.2, max_new_tokens=512, stop_str=None, keep_aspect_ratio=False):
         images = [image]
         assert len(images) == prompt.count(DEFAULT_IMAGE_TOKEN), "Number of images does not match number of <image> tokens in prompt"

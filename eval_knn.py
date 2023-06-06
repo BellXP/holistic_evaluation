@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import pickle
 import logging
 import argparse
 from types import MethodType
@@ -154,6 +155,8 @@ def create_module_dict(*, module, n_per_class_list, n_tries, nb_knn, train_featu
 def new_vision_forward(self, imgs, input_type="vision"):
     visual_feats = self.image_bind({input_type : imgs})[input_type]
     if self.vision_layer_index == 0:
+        # print(f'Vision layer index: {self.vision_layer_index}')
+        # exit(0)
         return visual_feats
 
     visual_feats = self.image_bind_proj(visual_feats)
@@ -161,16 +164,22 @@ def new_vision_forward(self, imgs, input_type="vision"):
     visual_feats_norm = self.image_bind_norm_1(visual_feats)
     visual_feats = visual_feats + self.image_bind_f2_1(F.silu(self.image_bind_f1_1(visual_feats_norm)) * self.image_bind_f3_1(visual_feats_norm))
     if self.vision_layer_index == 1:
+        # print(f'Vision layer index: {self.vision_layer_index}')
+        # exit(0)
         return visual_feats
 
     visual_feats_norm = self.image_bind_norm_2(visual_feats)
     visual_feats = visual_feats + self.image_bind_f2_2(F.silu(self.image_bind_f1_2(visual_feats_norm)) * self.image_bind_f3_2(visual_feats_norm))
     if self.vision_layer_index == 2:
+        # print(f'Vision layer index: {self.vision_layer_index}')
+        # exit(0)
         return visual_feats
 
     visual_feats_norm = self.image_bind_norm_3(visual_feats)
     visual_feats = visual_feats + self.image_bind_f2_3(F.silu(self.image_bind_f1_3(visual_feats_norm)) * self.image_bind_f3_3(visual_feats_norm))
     if self.vision_layer_index == 3:
+        # print(f'Vision layer index: {self.vision_layer_index}')
+        # exit(0)
         return visual_feats
     
     raise ValueError(f"Invalid vision_layer_index: {self.vision_layer_index}")
@@ -202,9 +211,15 @@ def eval_knn(
 ):
     model = ModelWithNormalize(model)
     logger.info("Extracting features for train set...")
-    train_features, train_labels = extract_features(
-        model, train_dataset, batch_size, num_workers, gather_on_cpu=gather_on_cpu
-    )
+    train_ckpt_path = f"{args.output_dir}/train_ckpt.pkl"
+    if os.path.exists(train_ckpt_path):
+        train_features, train_labels = pickle.load(open(train_ckpt_path, 'rb'))
+    else:
+        train_features, train_labels = extract_features(
+            model, train_dataset, batch_size, num_workers, gather_on_cpu=gather_on_cpu
+        )
+        with open(train_ckpt_path, 'wb') as f:
+            pickle.dump((train_features, train_labels), f)
     logger.info(f"Train features created, shape {train_features.shape}.")
 
     val_dataloader = make_data_loader(
@@ -339,8 +354,8 @@ def get_args_parser(description):
     parser.add_argument("--local_rank", type=int, default=0)
     
     parser.set_defaults(
-        train_dataset_str="ImageNet:split=TRAIN:root=/nvme/share/ImageNet:extra=/nvme/share/ImageNet/extra",
-        val_dataset_str="ImageNet:split=VAL:root=/nvme/share/ImageNet:extra=/nvme/share/ImageNet/extra",
+        train_dataset_str="ImageNet:split=TRAIN:root=/home/shaowenqi/xupeng/datasets/ImageNet:extra=/home/shaowenqi/xupeng/datasets/ImageNet/extra",
+        val_dataset_str="ImageNet:split=VAL:root=/home/shaowenqi/xupeng/datasets/ImageNet:extra=/home/shaowenqi/xupeng/datasets/ImageNet/extra",
         nb_knn=[10, 20, 100, 200],
         temperature=0.07,
         batch_size=256,
@@ -371,6 +386,7 @@ def main(args):
     model.generator.cuda()
     model.generator.forward = MethodType(new_vision_forward, model.generator)
     model.generator.vision_layer_index = args.vision_layer_index
+    # print(f'Check vision layer index: {model.generator.vision_layer_index}')
     eval_knn_with_model(
         model=model.generator,
         output_dir=args.output_dir,

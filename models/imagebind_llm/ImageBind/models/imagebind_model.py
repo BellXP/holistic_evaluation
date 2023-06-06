@@ -490,7 +490,8 @@ def imagebind_huge(pretrained=False):
     )
 
     if pretrained:
-        model_dir = '/nvme/share/xupeng/llama_checkpoints/' + 'imagebind_huge.pth'
+        from ... import DATA_DIR
+        model_dir = f'{DATA_DIR}/llama_checkpoints/' + 'imagebind_huge.pth'
         if not os.path.exists(model_dir):
             print(
                 "Downloading imagebind weights to imagebind_huge.pth ..."

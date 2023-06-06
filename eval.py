@@ -76,7 +76,7 @@ def main(args):
         for i in range(len(ocr_dataset_name)):
             dataset = ocrDataset(ocr_dataset_name[i])
             dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-            metrics = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time, batch_size=args.batch_size, answer_path=answer_path)
+            metrics = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time, args.batch_size, answer_path)
             result[ocr_dataset_name[i]] = metrics
 
     eval_function = get_eval_function(args)

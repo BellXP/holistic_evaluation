@@ -1,5 +1,5 @@
-NUM_GPU=4
-export CUDA_VISIBLE_DEVICES=4,5,6,7
+NUM_GPU=1
+export CUDA_VISIBLE_DEVICES=5
 
 ######################
 # ImageBind_7B-p7-f3 #

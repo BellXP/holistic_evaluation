@@ -2,10 +2,11 @@ import os
 import json
 import datasets
 from torch.utils.data import Dataset
+from . import DATA_DIR
 
 
 class TextVQADataset(Dataset):
-    data_root = "/nvme/share/VQA_Datasets/TextVQA"
+    data_root = f"{DATA_DIR}/VQA_Datasets/TextVQA"
 
     def __init__(self):
         self.data = json.load(open(f"{self.data_root}/TextVQA_0.5.1_val.json", "r"))["data"]
@@ -25,7 +26,7 @@ class TextVQADataset(Dataset):
 
 
 class DocVQADataset(Dataset):
-    data_root = '/nvme/share/VQA_Datasets/DocVQA/val'
+    data_root = f'{DATA_DIR}/VQA_Datasets/DocVQA/val'
 
     def __init__(self):
         ann_path = f"{self.data_root}/val_v1.0.json"
@@ -45,7 +46,7 @@ class DocVQADataset(Dataset):
 
 
 class OCRVQADataset(Dataset):
-    data_root = '/nvme/share/VQA_Datasets/OCRVQA'
+    data_root = f'{DATA_DIR}/VQA_Datasets/OCRVQA'
 
     def __init__(self):
         self.image_list = []
@@ -78,7 +79,7 @@ class OCRVQADataset(Dataset):
 
 
 class STVQADataset(Dataset):
-    data_root = "/nvme/share/VQA_Datasets/STVQA"
+    data_root = f"{DATA_DIR}/VQA_Datasets/STVQA"
 
     def __init__(self):
         self.image_list = []
@@ -107,7 +108,7 @@ class STVQADataset(Dataset):
 class ScienceQADataset(Dataset):
     split='test'
     options = ["A", "B", "C", "D", "E", "F", "G", "H"]
-    data_root = '/nvme/share/VQA_Datasets/ScienceQA'
+    data_root = f'{DATA_DIR}/VQA_Datasets/ScienceQA'
 
     def __init__(self):
         self.image_list = []
@@ -118,7 +119,7 @@ class ScienceQADataset(Dataset):
         if os.path.exists(ann_path):
             dataset = json.load(open(ann_path, "r"))
             for sample in dataset:
-                self.image_list.append(sample['image_path'])
+                self.image_list.append(self.data_root + '/' + sample['image_path'])
                 self.question_list.append(sample['question'])
                 self.answer_list.append(sample['answer'])
         else:
@@ -168,7 +169,7 @@ class ScienceQADataset(Dataset):
 
 
 class OKVQADataset(Dataset):
-    data_root = "/nvme/share/VQA_Datasets/OKVQA"
+    data_root = f"{DATA_DIR}/VQA_Datasets/OKVQA"
 
     def __init__(self):
         self.image_list = []
@@ -199,7 +200,7 @@ class OKVQADataset(Dataset):
     
 
 class GQADataset(Dataset):
-    data_root = "/nvme/share/VQA_Datasets/GQA"
+    data_root = f"{DATA_DIR}/VQA_Datasets/GQA"
 
     def __init__(self):
         self.image_list = []
@@ -227,14 +228,14 @@ class GQADataset(Dataset):
     
 
 class VizWizDataset(Dataset):
-    data_root = "/nvme/share/VQA_Datasets/VizWiz"
+    data_root = f"{DATA_DIR}/VQA_Datasets/VizWiz"
 
     def __init__(self):
         self.image_list = []
         self.question_list = []
         self.answer_list = []
         self.load_data(split='val')
-        self.load_data(split='train')
+        # self.load_data(split='train')
 
     def load_data(self, split='val'):
         annotations = json.load(open(f"{self.data_root}/{split}_grounding.json", "r"))
@@ -259,7 +260,7 @@ class VizWizDataset(Dataset):
 
 
 class VQAv2Dataset(Dataset):
-    data_root = "/nvme/share/VQA_Datasets/VQAv2"
+    data_root = f"{DATA_DIR}/VQA_Datasets/VQAv2"
 
     def __init__(self):
         self.image_list = []
@@ -290,7 +291,7 @@ class VQAv2Dataset(Dataset):
 
 
 class VQAv1Dataset(Dataset):
-    data_root = "/nvme/share/VQA_Datasets/VQAv1"
+    data_root = f"{DATA_DIR}/VQA_Datasets/VQAv1"
 
     def __init__(self):
         self.image_list = []
@@ -321,7 +322,7 @@ class VQAv1Dataset(Dataset):
 
 
 class VisdialDataset(Dataset):
-    data_root = "/nvme/share/VQA_Datasets/Visdial"
+    data_root = f"{DATA_DIR}/VQA_Datasets/Visdial"
 
     def __init__(self):
         self.image_list = []
@@ -330,7 +331,7 @@ class VisdialDataset(Dataset):
         data = json.load(open(f"{self.data_root}/visdial_1.0_val.json", "r"))['data']
         for sample in data['dialogs']:
             image_id = sample['image_id']
-            image_path = f"{self.data_root}/images_val2018/{image_id}.jpg"
+            image_path = f"{self.data_root}/images_val2018/VisualDialog_val2018_000000{image_id:06d}.jpg"
             # caption = sample['caption']
             dialog = sample['dialog']
             for qa in dialog:
@@ -356,7 +357,7 @@ class VisdialDataset(Dataset):
 
 class IconQADataset(Dataset):
     split='test'
-    data_root = '/nvme/share/VQA_Datasets/IconQA'
+    data_root = f'{DATA_DIR}/VQA_Datasets/IconQA'
 
     def __init__(self):
         self.image_list = []
@@ -387,7 +388,7 @@ class IconQADataset(Dataset):
 
 
 class VSRDataset(Dataset):
-    data_root = "/nvme/share/VQA_Datasets/VSR"
+    data_root = f"{DATA_DIR}/VQA_Datasets/VSR"
     choices = ['No', 'Yes']
 
     def __init__(self):

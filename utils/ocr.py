@@ -12,9 +12,9 @@ def evaluate_OCR(
     model_name,
     dataset_name,
     time,
-    question='what is written in the image?',
     batch_size=1,
-    answer_path='./answers'
+    answer_path='./answers',
+    question='what is written in the image?',
 ):
     predictions=[]
     dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=lambda batch: {key: [dict[key] for dict in batch] for key in batch[0]})

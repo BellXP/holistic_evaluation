@@ -18,9 +18,9 @@ def evaluate_Caption(
     model_name,
     dataset_name,
     time,
-    question='Generate caption of this image:',
     batch_size=1,
-    answer_path='./answers'
+    answer_path='./answers',
+    question='Generate caption of this image:'
 ):
     predictions=[]
     dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=lambda batch: {key: [dict[key] for dict in batch] for key in batch[0]})

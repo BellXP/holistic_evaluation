@@ -1,6 +1,8 @@
+DATA_DIR = '/home/shaowenqi/xupeng/datasets'
+
 from .ocr_datasets import ocrDataset
 from .caption_datasets import NoCapsDataset, FlickrDataset
-from .kie_datasets import SROIEDataset, FUNSDDataset
+from .kie_datasets import SROIEDataset, FUNSDDataset, POIEDataset
 from .vqa_datasets import (
     TextVQADataset, DocVQADataset, OCRVQADataset, STVQADataset,
     ScienceQADataset, OKVQADataset, GQADataset, VizWizDataset,
@@ -8,12 +10,15 @@ from .vqa_datasets import (
     VSRDataset
 )
 
-
 dataset_class_dict = {
+    # Caption Datasets
     'NoCaps': NoCapsDataset,
     'Flickr': FlickrDataset,
+    # KIE Datasets
     'SROIE': SROIEDataset,
     'FUNSD': FUNSDDataset,
+    'POIE': POIEDataset,
+    # VQA Datasets
     'TextVQA': TextVQADataset,
     'DocVQA': DocVQADataset,
     'OCRVQA': OCRVQADataset,

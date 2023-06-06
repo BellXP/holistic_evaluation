@@ -14,6 +14,11 @@ from torch import nn
 import torch.nn.functional as F
 from torch.nn import Embedding, Linear
 
+from .. import DATA_DIR
+
+tokenizer_path = f'{DATA_DIR}/llama_checkpoints/tokenizer.model'
+llama_7b_dir = f'{DATA_DIR}/llama_checkpoints/7B'
+
 
 @dataclass
 class ModelArgs:
@@ -403,8 +408,6 @@ class MaskedAutoencoderViT(nn.Module):
         self.norm_pix_loss = norm_pix_loss
         self.criterion = torch.nn.CrossEntropyLoss(ignore_index=0)
 
-        tokenizer_path = '/nvme/share/LLaMA-Adapter-v2/' + 'LLaMA-7B/tokenizer.model'
-        llama_7b_dir = '/nvme/share/LLaMA-Adapter-v2/' + 'LLaMA-7B'
         # self.initialize_weights()
         checkpoint = torch.load(os.path.join(llama_7b_dir, 'consolidated.00.pth'), map_location="cpu")
 ###        adapter_weight = torch.load('llama_adapter_len10_layer30_release.pth', map_location="cpu")

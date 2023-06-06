@@ -1,7 +1,8 @@
 import torch
+import numpy as np
 from PIL import Image
 
-DATA_DIR = '/nvme/share/VLP_web_data'
+DATA_DIR = '/home/shaowenqi/xupeng/models'
 
 def skip(*args, **kwargs):
     pass
@@ -21,6 +22,13 @@ def get_image(image):
         return image
     else:
         raise NotImplementedError(f"Invalid type of Image: {type(image)}")
+
+
+def get_BGR_image(image):
+    image = get_image(image)
+    image = np.array(image)[:, :, ::-1]
+    image = Image.fromarray(np.uint8(image))
+    return image
 
 
 def get_model(model_name, device=None):
@@ -54,8 +62,8 @@ def get_model(model_name, device=None):
     elif 'ImageBind' in model_name:
         from .test_imagebind import TestImageBind
         return TestImageBind(model_name, device)
-    elif model_name == 'LLaMA-Adapter-v3':
+    elif 'LLaMA-Adapter-v3' in model_name:
         from .test_llama_adapter_v3 import TestLLamaAdapterV3
-        return TestLLamaAdapterV3(device)
+        return TestLLamaAdapterV3(model_name, device)
     else:
         raise ValueError(f"Invalid model_name: {model_name}")
