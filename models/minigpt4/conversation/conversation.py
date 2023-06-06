@@ -201,7 +201,7 @@ class Chat:
         assert len(prompt_segs) == len(img_list) + 1, "Unmatched numbers of image placeholders and images."
         seg_tokens = [
             self.model.llama_tokenizer(
-                seg, return_tensors="pt", add_special_tokens=i == 0, padding='max_length').to(self.device).input_ids
+                seg, return_tensors="pt", add_special_tokens=i == 0).to(self.device).input_ids
             # only add bos to the first seg
             for i, seg in enumerate(prompt_segs)
         ]
@@ -220,7 +220,7 @@ class Chat:
             embs = self.get_context_emb(conv, img_list)
             embs_list.append(embs)
         max_emb_token = max([x.shape[1] for x in embs_list])
-        embs_list = torch.cat([F.pad(x, (0, 0, 0, max_emb_token - x.shape[1], 0, 0), value=0) for x in embs_list], dim=0)
+        embs_list = torch.cat([F.pad(x, (0, 0, max_emb_token - x.shape[1], 0, 0, 0), value=0) for x in embs_list], dim=0)
 
         assert max_emb_token + max_new_tokens < max_length
         outputs = self.model.llama_model.generate(
