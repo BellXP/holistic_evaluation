@@ -2,6 +2,7 @@ import torch
 from .mplug_owl.processing_mplug_owl import MplugOwlProcessor, MplugOwlImageProcessor
 from .mplug_owl.modeling_mplug_owl import MplugOwlForConditionalGeneration
 from .mplug_owl.tokenization_mplug_owl import MplugOwlTokenizer
+from transformers import AutoTokenizer
 from . import get_image
 
 
@@ -24,7 +25,8 @@ class TestMplugOwl:
         model_path='MAGAer13/mplug-owl-llama-7b'
         self.model = MplugOwlForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.float32)
         self.image_processor = MplugOwlImageProcessor.from_pretrained(model_path)
-        self.tokenizer = MplugOwlTokenizer.from_pretrained(model_path)
+        # self.tokenizer = MplugOwlTokenizer.from_pretrained(model_path)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_path)
         self.processor = MplugOwlProcessor(self.image_processor, self.tokenizer)
         
         # import re
@@ -36,6 +38,7 @@ class TestMplugOwl:
         #         trainable_params += param.numel()
         # print(all_param)
         # print(trainable_params)
+        # exit(0)
 
         self.model.eval()
 
@@ -81,3 +84,4 @@ class TestMplugOwl:
         outputs = [self.tokenizer.decode(output, skip_special_tokens=True) for output in res.tolist()]
 
         return outputs
+

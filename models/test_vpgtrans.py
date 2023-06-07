@@ -26,6 +26,7 @@ class TestVPGTrans:
         self.chat = Chat(model, vis_processor, device='cpu')
 
         # print(f'Check the number of trainable parameters: {sum(p.numel() for p in self.model.parameters() if p.requires_grad)}')
+        # print(f'Check the number of whole parameters: {sum(p.numel() for p in self.model.parameters())}')
 
         if device is not None:
             self.move_to_device(device)
