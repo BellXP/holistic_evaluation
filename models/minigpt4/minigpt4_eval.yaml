@@ -6,9 +6,9 @@ model:
   max_txt_len: 160
   end_sym: "###"
   low_resource: False
-  prompt_path: "/home/shaowenqi/xupeng/models/MiniGPT-4/alignment.txt"
+  prompt_path: "MiniGPT-4/alignment.txt"
   prompt_template: '###Human: {} ###Assistant: '
-  ckpt: '/home/shaowenqi/xupeng/models/MiniGPT-4/pretrained_minigpt4_7b.pth'
+  ckpt: 'MiniGPT-4/pretrained_minigpt4_7b.pth'
 
 
 preprocess:

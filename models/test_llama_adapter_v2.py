@@ -6,8 +6,9 @@ import clip
 import torch
 
 from . import get_BGR_image, DATA_DIR
-from .llama_adapter_v2.models_mae import mae_vit_base_patch16
 
+MAX_SEQ_LEN, MAX_BATCH_SIZE = 256, 64
+model_ckpt_path = f'{DATA_DIR}/llama_checkpoints/llama_adapter_v2_0518.pth'
 
 # # NOTE: please use customized clip and timm library
 
@@ -16,7 +17,6 @@ from .llama_adapter_v2.models_mae import mae_vit_base_patch16
 # module = importlib.util.module_from_spec(spec)
 # spec.loader.exec_module(module)
 # mae_vit_base_patch16 = module.mae_vit_base_patch16
-model_ckpt_path = f'{DATA_DIR}/llama_checkpoints/llama_adapter_v2_0518.pth'
 
 
 os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
@@ -60,6 +60,7 @@ class TestLLamaAdapterV2_web:
 class TestLLamaAdapterV2:
     def __init__(self, device=None) -> None:
         _, img_transform = clip.load("ViT-L/14")
+        from .llama_adapter_v2.models_mae import mae_vit_base_patch16
         generator = mae_vit_base_patch16()
         ckpt = torch.load(model_ckpt_path, map_location='cpu')
         ckpt_model = ckpt['model']

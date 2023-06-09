@@ -8,14 +8,14 @@ from .minigpt4.conversation.conversation import Chat, CONV_VISION
 from .minigpt4.models import *
 from .minigpt4.processors import *
 
-from . import get_image
+from . import get_image, DATA_DIR
 
 CFG_PATH = 'models/minigpt4/minigpt4_eval.yaml'
 
 
 class TestMiniGPT4:
     def __init__(self, device=None):
-        cfg = Config(CFG_PATH)
+        cfg = Config(CFG_PATH, DATA_DIR)
         model_config = cfg.model_cfg
         model_cls = registry.get_model_class(model_config.arch)
         model = model_cls.from_config(model_config).to('cpu')
@@ -24,7 +24,7 @@ class TestMiniGPT4:
         self.model, self.vis_processor = model, vis_processor
         self.model.llama_model = self.model.llama_model.float().to('cpu')
         self.chat = Chat(model, vis_processor, device='cpu')
-
+        exit(0)
         # print(f'Check the number of trainable parameters: {sum(p.numel() for p in self.model.parameters() if p.requires_grad)}')
 
         if device is not None:

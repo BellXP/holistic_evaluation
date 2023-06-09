@@ -15,6 +15,7 @@ import torch.nn.functional as F
 from torch.nn import Embedding, Linear
 
 from .. import DATA_DIR
+from ..test_llama_adapter_v2 import MAX_SEQ_LEN, MAX_BATCH_SIZE
 
 tokenizer_path = f'{DATA_DIR}/llama_checkpoints/tokenizer.model'
 llama_7b_dir = f'{DATA_DIR}/llama_checkpoints/7B'
@@ -414,7 +415,7 @@ class MaskedAutoencoderViT(nn.Module):
         with open(os.path.join(llama_7b_dir, "params.json"), "r") as f:
             params = json.loads(f.read())
         model_args: ModelArgs = ModelArgs(
-            max_seq_len=256, max_batch_size=64, **params
+            max_seq_len=MAX_SEQ_LEN, max_batch_size=MAX_BATCH_SIZE, **params
         )
         self.tokenizer = Tokenizer(model_path=tokenizer_path)
         model_args.vocab_size = self.tokenizer.n_words

@@ -14,11 +14,11 @@ from .registry import registry
 
 
 class Config:
-    def __init__(self, cfg_path):
+    def __init__(self, cfg_path, DATA_DIR):
         self.config = {}
         registry.register("configuration", self)
         config = OmegaConf.load(cfg_path)
-        model_config = self.build_model_config(config)
+        model_config = self.build_model_config(config, DATA_DIR=DATA_DIR)
         preprocess_config = self.build_preprocess_config(config)
         self.config = OmegaConf.merge(model_config, preprocess_config)
 
@@ -43,12 +43,16 @@ class Config:
 
         model_config_path = model_cls.default_config_path(model_type=model_type)
 
+        edited_model = {"model": config["model"]}
+        edited_model['model']['prompt_path'] = kwargs.get("DATA_DIR", '.') + '/' + edited_model['model']['prompt_path']
+        edited_model['model']['ckpt'] = kwargs.get("DATA_DIR", '.') + '/' + edited_model['model']['ckpt']
+
         model_config = OmegaConf.create()
         # hierarchy override, customized config > default config
         model_config = OmegaConf.merge(
             model_config,
             OmegaConf.load(model_config_path),
-            {"model": config["model"]},
+            edited_model,
         )
 
         return model_config

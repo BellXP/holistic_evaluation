@@ -8,14 +8,14 @@ from .vpgtrans.conversation.conversation import Chat, CONV_VISION
 from .vpgtrans.models import *
 from .vpgtrans.processors import *
 
-from . import get_image
+from . import get_image, DATA_DIR
 
 CFG_PATH = 'models/vpgtrans/vpgtrans_demo.yaml'
 
 
 class TestVPGTrans:
     def __init__(self, device=None):
-        cfg = Config(CFG_PATH)
+        cfg = Config(CFG_PATH, DATA_DIR)
         model_config = cfg.model_cfg
         model_cls = registry.get_model_class(model_config.arch)
         model = model_cls.from_config(model_config).to('cpu')

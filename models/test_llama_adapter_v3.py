@@ -16,7 +16,7 @@ class TestLLamaAdapterV3:
     def __init__(self, model_name, device=None) -> None:
         ckpt_name = model_name.split('_')[1]
         model_path = f"{DATA_DIR}/llama_checkpoints/{ckpt_map[ckpt_name]}"
-        self.model, self.img_transform = llama.load(model_path, llama_dir, device='cpu')
+        self.model, self.img_transform = llama.load(model_path, llama_dir, device='cpu', max_seq_len=256, max_batch_size=64)
 
         if device is not None:
             self.move_to_device(device)

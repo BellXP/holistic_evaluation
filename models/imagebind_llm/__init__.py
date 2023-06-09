@@ -1,8 +1,8 @@
-from .llama import load, format_prompt
+from .. import DATA_DIR
+from ..test_imagebind import MAX_SEQ_LEN, MAX_BATCH_SIZE
 from functools import partial
 from torchvision import transforms
-from .. import DATA_DIR
-
+from .llama import load, format_prompt
 
 llama_dir = f'{DATA_DIR}/llama_checkpoints'
 load_model = partial(load, llama_dir=llama_dir)

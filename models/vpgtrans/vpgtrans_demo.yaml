@@ -6,7 +6,7 @@ model:
   max_txt_len: 160
   end_sym: "###"
   low_resource: True
-  prompt_path: "/nvme/share/VLP_web_data/MiniGPT-4/alignment.txt"
+  prompt_path: "MiniGPT-4/alignment.txt"
   prompt_template: '###Human: {} ###Assistant: '
   pretrained: 'https://thunlp.oss-cn-qingdao.aliyuncs.com/vpgtrans/vl-vicuna.pth'
   llama_model: "AlekseyKorshuk/vicuna-7b"

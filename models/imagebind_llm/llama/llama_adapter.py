@@ -12,6 +12,7 @@ from .tokenizer import Tokenizer
 from .utils import sample_top_p, _download
 
 from ..ImageBind.models import imagebind_model
+from .. import MAX_SEQ_LEN, MAX_BATCH_SIZE
 
 
 class LLaMA_adapter(nn.Module):
@@ -47,7 +48,7 @@ class LLaMA_adapter(nn.Module):
         with open(os.path.join(llama_ckpt_dir, "params.json"), "r") as f:
             params = json.loads(f.read())
         model_args: ModelArgs = ModelArgs(
-            max_seq_len=256, max_batch_size=64, **params
+            max_seq_len=MAX_SEQ_LEN, max_batch_size=MAX_BATCH_SIZE, **params
         )
         model_args.vocab_size = self.tokenizer.n_words
         self.llama = Transformer(model_args)

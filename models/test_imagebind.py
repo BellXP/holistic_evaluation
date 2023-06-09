@@ -1,6 +1,7 @@
 import torch
-from .imagebind_llm import image_transform, load_model, format_prompt
 from . import get_image, DATA_DIR
+MAX_SEQ_LEN, MAX_BATCH_SIZE = 256, 64
+from .imagebind_llm import image_transform, load_model, format_prompt
 
 
 class TestImageBind:

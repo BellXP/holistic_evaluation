@@ -210,7 +210,7 @@ _MODELS = {
 def available_models():
     return list(_MODELS.keys())
 
-def load(name, llama_dir, device="cuda" if torch.cuda.is_available() else "cpu", download_root='ckpts'):
+def load(name, llama_dir, device="cuda" if torch.cuda.is_available() else "cpu", download_root='ckpts', **kwargs):
     if name in _MODELS:
         model_path = _download(_MODELS[name], download_root)
     elif os.path.isfile(name):
@@ -233,7 +233,7 @@ def load(name, llama_dir, device="cuda" if torch.cuda.is_available() else "cpu",
 
     model = LLaMA_adapter(
         llama_ckpt_dir, llama_tokenzier_path,
-        max_seq_len=256, max_batch_size=64,
+        max_seq_len=kwargs.get("max_seq_len", 256), max_batch_size=kwargs.get("max_batch_size", 64),
         clip_model='ViT-L/14',
         v_embed_dim=model_cfg.get('v_embed_dim', 768), v_depth=model_cfg.get('v_depth', 8),
         v_num_heads=model_cfg.get('v_num_heads', 16), v_mlp_ratio=model_cfg.get('v_mlp_ratio', 4.0),
