@@ -9,6 +9,7 @@ from .vqa_datasets import (
     VQAv2Dataset, VQAv1Dataset, VisdialDataset, IconQADataset,
     VSRDataset
 )
+from .embod_datasets import EmbodiedDataset
 
 dataset_class_dict = {
     # Caption Datasets
@@ -31,5 +32,11 @@ dataset_class_dict = {
     'VQAv1': VQAv1Dataset,
     'Visdial': VisdialDataset,
     'IconQA': IconQADataset,
-    'VSR': VSRDataset
+    'VSR': VSRDataset,
+    # Embodied Datasets
+    "MetaWorld": EmbodiedDataset,
+    "FrankaKitchen": EmbodiedDataset,
+    "Minecraft": EmbodiedDataset,
+    "VirtualHome": EmbodiedDataset,
+    "MinecraftPolicy": EmbodiedDataset,
 }
