@@ -6,7 +6,7 @@ import datetime
 import torch
 import numpy as np
 
-from utils import evaluate_OCR, evaluate_VQA, evaluate_Caption, evaluate_KIE, evaluate_MRR
+from utils import evaluate_OCR, evaluate_VQA, evaluate_Caption, evaluate_KIE, evaluate_MRR, evaluate_embodied
 from task_datasets import ocrDataset, dataset_class_dict
 from models import get_model
 
@@ -34,6 +34,7 @@ def parse_args():
     parser.add_argument("--eval_caption", action="store_true", help="Whether to evaluate on caption.")
     parser.add_argument("--eval_kie", action="store_true", default=False, help="Whether to evaluate on kie.")
     parser.add_argument("--eval_mrr", action="store_true", default=False, help="Whether to evaluate on mrr.")
+    parser.add_argument("--eval_embodied", action="store_true", default=False, help="Whether to evaluate on embodied.")
 
     args = parser.parse_args()
     return args
@@ -81,7 +82,10 @@ def main(args):
 
     eval_function = get_eval_function(args)
     if eval_function is not None:
-        dataset = dataset_class_dict[args.dataset_name]()
+        if args.eval_embodied:
+            dataset = dataset_class_dict[args.dataset_name](dataset_name=args.dataset_name)
+        else:
+            dataset = dataset_class_dict[args.dataset_name]()
         dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
         metrics = eval_function(model, dataset, args.model_name, args.dataset_name, time, args.batch_size, answer_path=answer_path)
         result[args.dataset_name] = metrics
@@ -89,6 +93,10 @@ def main(args):
     result_path = os.path.join(os.path.join(answer_path, time), 'result.json')
     with open(result_path, "w") as f:
         f.write(json.dumps(result, indent=4))
+    
+    # delete the model and dataset for saving memory
+    del model
+    del dataset
 
 
 if __name__ == "__main__":
