@@ -24,7 +24,6 @@ class TestMiniGPT4:
         self.model, self.vis_processor = model, vis_processor
         self.model.llama_model = self.model.llama_model.float().to('cpu')
         self.chat = Chat(model, vis_processor, device='cpu')
-        exit(0)
         # print(f'Check the number of trainable parameters: {sum(p.numel() for p in self.model.parameters() if p.requires_grad)}')
 
         if device is not None:

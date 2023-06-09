@@ -1,6 +1,7 @@
 import torch
 from transformers import CLIPImageProcessor
 from .otter.modeling_otter import OtterForConditionalGeneration
+from .instruct_blip.models.eva_vit import convert_weights_to_fp16
 from . import get_image, DATA_DIR
 
 CKPT_PATH=f'{DATA_DIR}/otter-9b-hf'
@@ -21,11 +22,12 @@ class TestOtter:
         if device is not None and 'cuda' in device.type:
             self.dtype = torch.float16
             self.device = device
+            convert_weights_to_fp16(self.model.vision_encoder)
         else:
             self.dtype = torch.float32
             self.device = 'cpu'
+            self.model.vision_encoder = self.model.vision_encoder.to(self.device, dtype=self.dtype)
         self.model = self.model.to(self.device, dtype=self.dtype)
-        self.model.vision_encoder = self.model.vision_encoder.to('cpu', dtype=torch.float32)
 
     @torch.no_grad()
     def generate(self, image, question):
@@ -33,8 +35,7 @@ class TestOtter:
         vision_x = (self.image_processor.preprocess([image], return_tensors="pt")["pixel_values"].unsqueeze(1).unsqueeze(0))
         lang_x = self.model.text_tokenizer([f"<image> User: {question} GPT: <answer>"], return_tensors="pt")
         generated_text = self.model.generate(
-            # vision_x=vision_x.to(self.model.device),
-            vision_x=vision_x.to('cpu'),
+            vision_x=vision_x.to(self.model.device, dtype=self.dtype),
             lang_x=lang_x["input_ids"].to(self.model.device),
             attention_mask=lang_x["attention_mask"].to(self.model.device, dtype=self.dtype),
             max_new_tokens=256,
@@ -52,12 +53,11 @@ class TestOtter:
     def batch_generate(self, image_list, question_list):
         imgs = [get_image(img) for img in image_list]
         imgs = [self.image_processor.preprocess([x], return_tensors="pt")["pixel_values"].unsqueeze(0) for x in imgs]
-        vision_x = (torch.stack(imgs, dim=0).to(self.device))
+        vision_x = (torch.stack(imgs, dim=0))
         prompts = [f"<image> User: {question} GPT: <answer>" for question in question_list]
         lang_x = self.model.text_tokenizer(prompts, return_tensors="pt", padding=True)
         generated_text = self.model.generate(
-            # vision_x=vision_x.to(self.model.device),
-            vision_x=vision_x.to('cpu'),
+            vision_x=vision_x.to(self.model.device, dtype=self.dtype),
             lang_x=lang_x["input_ids"].to(self.model.device),
             attention_mask=lang_x["attention_mask"].to(self.model.device, dtype=self.dtype),
             max_new_tokens=256,

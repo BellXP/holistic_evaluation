@@ -1,11 +1,22 @@
 import torch
 import contextlib
+from types import MethodType
 from lavis.models import load_model_and_preprocess
+from lavis.models.eva_vit import convert_weights_to_fp16
 from . import get_image
 
 
-def maybe_autocast(dtype=None):
-    return contextlib.nullcontext()
+def new_maybe_autocast(self, dtype=None):
+    enable_autocast = self.device != torch.device("cpu")
+    if not enable_autocast:
+        return contextlib.nullcontext()
+    elif dtype is torch.bfloat16:
+        if torch.cuda.is_bf16_supported():
+            return torch.cuda.amp.autocast(dtype=torch.bfloat16)
+        else:
+            return torch.cuda.amp.autocast(dtype=torch.float16)
+    else:
+        return torch.cuda.amp.autocast(dtype=dtype)
 
 
 class TestBlip2:
@@ -13,21 +24,21 @@ class TestBlip2:
         self.model, self.vis_processors, _ = load_model_and_preprocess(
             name="blip2_t5", model_type="pretrain_flant5xl", is_eval=True, device='cpu'
         )
-
-        if not torch.cuda.is_bf16_supported():
-            self.model.maybe_autocast = maybe_autocast
+        self.model.maybe_autocast = MethodType(new_maybe_autocast, self.model)
 
         if device is not None:
             self.move_to_device(device)
 
     def move_to_device(self, device):
         if device is not None and 'cuda' in device.type:
-            self.dtype = torch.float32
+            self.dtype = torch.float16
             self.device = device
+            convert_weights_to_fp16(self.model.visual_encoder)
         else:
             self.dtype = torch.float32
             self.device = 'cpu'
-        self.model = self.model.to(self.device, dtype=self.dtype)
+            self.model.visual_encoder = self.model.visual_encoder.to(self.device, dtype=self.dtype)
+        self.model = self.model.to(self.device)
 
     @torch.no_grad()
     def generate(self, image, question):
@@ -43,7 +54,7 @@ class TestBlip2:
     def batch_generate(self, image_list, question_list):
         imgs = [get_image(img) for img in image_list]
         imgs = [self.vis_processors["eval"](x) for x in imgs]
-        imgs = torch.stack(imgs, dim=0).to(self.device)
+        imgs = torch.stack(imgs, dim=0).to(self.device, dtype=self.dtype)
         prompts = [f"Question: {question} Answer:" for question in question_list]
         output = self.model.generate({"image": imgs, "prompt": prompts})
 

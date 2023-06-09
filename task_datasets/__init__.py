@@ -1,4 +1,4 @@
-DATA_DIR = '/home/shaowenqi/xupeng/datasets'
+DATA_DIR = '/nvme/share/datasets'
 
 from .ocr_datasets import ocrDataset
 from .caption_datasets import NoCapsDataset, FlickrDataset
