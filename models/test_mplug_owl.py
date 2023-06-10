@@ -6,12 +6,7 @@ from transformers import AutoTokenizer
 from . import get_image
 
 
-prompt_template = '''
-    The following is a conversation between a curious human and AI assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
-    Human: <image>
-    Human: {}
-    AI: 
-'''
+prompt_template = "The following is a conversation between a curious human and AI assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.\nHuman: <image>\nHuman: {}\nAI:"
 
 generate_kwargs = {
     'do_sample': True,
