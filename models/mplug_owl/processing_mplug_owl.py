@@ -167,7 +167,8 @@ def _tokenize_prompts_and_batch(prompts, tokens_to_generate, add_BOS, tokenizer,
     # Now update the list of list to be of the same size: samples_length.
     for prompt_tokens, prompt_length in zip(prompts_tokens, prompts_length):
         padding_size = samples_length - prompt_length
-        prompt_tokens.extend([tokenizer.eos_token_id] * padding_size)
+        # prompt_tokens.extend([tokenizer.eos_token_id] * padding_size)
+        prompt_tokens = [tokenizer.eos_token_id] * padding_size + prompt_tokens
 
     # Now we are in a structured format, we can convert to tensors.
     prompts_tokens_tensor = torch.LongTensor(prompts_tokens)
