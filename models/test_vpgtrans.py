@@ -43,20 +43,20 @@ class TestVPGTrans:
         self.chat.move_stopping_criteria_device(self.device, dtype=self.dtype)
     
     @torch.no_grad()
-    def generate(self, image, question):
+    def generate(self, image, question, max_new_tokens=256):
         chat_state = CONV_VISION.copy()
         img_list = []
         if image is not None:
             image = get_image(image)
             self.chat.upload_img(image, chat_state, img_list)
         self.chat.ask(question, chat_state)
-        llm_message = self.chat.answer(conv=chat_state, img_list=img_list)[0]
+        llm_message = self.chat.answer(conv=chat_state, img_list=img_list, max_new_tokens=max_new_tokens)[0]
 
         return llm_message
     
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list):
+    def batch_generate(self, image_list, question_list, max_new_tokens=256):
         image_list = [get_image(image) for image in image_list]
         chat_list = [CONV_VISION.copy() for _ in range(len(image_list))]
-        batch_outputs = self.chat.batch_answer(image_list, question_list, chat_list)
+        batch_outputs = self.chat.batch_answer(image_list, question_list, chat_list, max_new_tokens=max_new_tokens)
         return batch_outputs

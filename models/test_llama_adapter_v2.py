@@ -85,7 +85,7 @@ class TestLLamaAdapterV2:
         self.generator = self.generator.to(self.device, dtype=self.dtype)
 
     @torch.no_grad()
-    def generate(self, image, question, max_gen_len=256, temperature=0.1, top_p=0.75):
+    def generate(self, image, question, max_new_tokens=256, temperature=0.1, top_p=0.75):
         imgs = [get_BGR_image(image)]
         imgs = [self.img_transform(x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device, dtype=self.dtype)
@@ -93,18 +93,18 @@ class TestLLamaAdapterV2:
         prompts = [PROMPT_DICT['prompt_no_input'].format_map({'instruction': question})]
         prompts = [self.generator.tokenizer.encode(x, bos=True, eos=False) for x in prompts]
         # with torch.cuda.amp.autocast():
-        results = self.generator.generate(imgs, prompts, max_gen_len=max_gen_len, temperature=temperature, top_p=top_p)
+        results = self.generator.generate(imgs, prompts, max_gen_len=max_new_tokens, temperature=temperature, top_p=top_p)
         result = results[0].strip()
 
         return result
     
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list, max_gen_len=256, temperature=0.1, top_p=0.75):
+    def batch_generate(self, image_list, question_list, max_new_tokens=256, temperature=0.1, top_p=0.75):
         imgs = [get_BGR_image(img) for img in image_list]
         imgs = [self.img_transform(x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device, dtype=self.dtype)
         prompts = [PROMPT_DICT['prompt_no_input'].format_map({'instruction': question}) for question in question_list]
-        results = self.generator.generate(imgs, prompts, max_gen_len=max_gen_len, temperature=temperature, top_p=top_p)
+        results = self.generator.generate(imgs, prompts, max_gen_len=max_new_tokens, temperature=temperature, top_p=top_p)
         results = [result.strip() for result in results]
 
         return results
