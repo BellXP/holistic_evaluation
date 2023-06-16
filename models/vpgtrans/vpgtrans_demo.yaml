@@ -9,7 +9,7 @@ model:
   prompt_path: "MiniGPT-4/alignment.txt"
   prompt_template: '###Human: {} ###Assistant: '
   pretrained: 'https://thunlp.oss-cn-qingdao.aliyuncs.com/vpgtrans/vl-vicuna.pth'
-  llama_model: "AlekseyKorshuk/vicuna-7b"
+  llama_model: "VPGTrans_Vicuna"
 
 
 preprocess:

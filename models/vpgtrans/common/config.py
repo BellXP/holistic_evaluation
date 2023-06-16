@@ -45,6 +45,7 @@ class Config:
 
         edited_model = {"model": config["model"]}
         edited_model['model']['prompt_path'] = kwargs.get("DATA_DIR", '.') + '/' + edited_model['model']['prompt_path']
+        edited_model['model']['llama_model'] = kwargs.get("DATA_DIR", '.') + '/' + edited_model['model']['llama_model']
 
         model_config = OmegaConf.create()
         # hiararchy override, customized config > default config

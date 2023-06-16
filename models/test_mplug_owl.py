@@ -6,18 +6,7 @@ from transformers import AutoTokenizer
 from . import get_image
 
 
-prompt_template = '''
-    The following is a conversation between a curious human and AI assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
-    Human: <image>
-    Human: {}
-    AI: 
-'''
-
-generate_kwargs = {
-    'do_sample': True,
-    'top_k': 5,
-    'max_length': 512
-}
+prompt_template = "The following is a conversation between a curious human and AI assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.\nHuman: <image>\nHuman: {}\nAI:"
 
 
 class TestMplugOwl:
@@ -29,19 +18,19 @@ class TestMplugOwl:
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
         self.processor = MplugOwlProcessor(self.image_processor, self.tokenizer)
         
-        # import re
-        # target_modules=r'.*language_model.*\.(q_proj|v_proj)' # refer to the pipeline/train.py in mPLUG-Owl repo
-        # all_param, trainable_params = 0, 0
-        # for name, param in self.model.named_parameters():
-        #     all_param += param.numel()
-        #     if re.match(target_modules, name):
-        #         trainable_params += param.numel()
-        # print(all_param)
-        # print(trainable_params)
-        # exit(0)
+        # from peft import LoraConfig, get_peft_model
+        # peft_config = LoraConfig(
+        #     target_modules=r'.*language_model.*\.(q_proj|v_proj)', 
+        #     inference_mode=False, 
+        #     r=8,
+        #     lora_alpha=32, 
+        #     lora_dropout=0.05
+        # )
+        # self.model = get_peft_model(self.model, peft_config)
+        # self.model.print_trainable_parameters()
+        # exit()
 
         self.model.eval()
-
         if device is not None:
             self.move_to_device(device)
         
@@ -58,12 +47,19 @@ class TestMplugOwl:
         self.model.to(device=self.device, dtype=self.dtype)
 
     @torch.no_grad()
-    def generate(self, image, question):
+    def generate(self, image, question, max_new_tokens=256):
         prompts = [prompt_template.format(question)]
         image = get_image(image)
         inputs = self.processor(text=prompts, images=[image], return_tensors='pt')
         inputs = {k: v.to(self.device, dtype=self.dtype) if v.dtype == torch.float else v for k, v in inputs.items()}
         inputs = {k: v.to(self.device) for k, v in inputs.items()}
+
+        generate_kwargs = {
+            'do_sample': True,
+            'top_k': 5,
+            'max_length': max_new_tokens
+        }
+
         with torch.no_grad():
             res = self.model.generate(**inputs, **generate_kwargs)
         generated_text = self.tokenizer.decode(res.tolist()[0], skip_special_tokens=True)
@@ -71,7 +67,7 @@ class TestMplugOwl:
         return generated_text
 
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list):
+    def batch_generate(self, image_list, question_list, max_new_tokens=256):
         images = [get_image(image) for image in image_list]
         images = [self.image_processor(image, return_tensors='pt').pixel_values for image in images]
         images = torch.cat(images, dim=0).to(self.device, dtype=self.dtype)
@@ -79,6 +75,13 @@ class TestMplugOwl:
         inputs = self.processor(text=prompts)
         inputs = {k: v.to(self.device) for k, v in inputs.items()}
         inputs["pixel_values"] = images
+
+        generate_kwargs = {
+            'do_sample': True,
+            'top_k': 5,
+            'max_length': max_new_tokens
+        }
+
         with torch.no_grad():
             res = self.model.generate(**inputs, **generate_kwargs)
         outputs = [self.tokenizer.decode(output, skip_special_tokens=True) for output in res.tolist()]

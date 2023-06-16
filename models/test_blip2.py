@@ -41,22 +41,22 @@ class TestBlip2:
         self.model = self.model.to(self.device)
 
     @torch.no_grad()
-    def generate(self, image, question):
+    def generate(self, image, question, max_new_tokens=30):
         image = get_image(image)
         image = self.vis_processors["eval"](image).unsqueeze(0).to(self.device, dtype=self.dtype)
         answer = self.model.generate({
             "image": image, "prompt": f"Question: {question} Answer:"
-        })
+        }, max_length=max_new_tokens)
 
         return answer[0]
     
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list):
+    def batch_generate(self, image_list, question_list, max_new_tokens=30):
         imgs = [get_image(img) for img in image_list]
         imgs = [self.vis_processors["eval"](x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device, dtype=self.dtype)
         prompts = [f"Question: {question} Answer:" for question in question_list]
-        output = self.model.generate({"image": imgs, "prompt": prompts})
+        output = self.model.generate({"image": imgs, "prompt": prompts}, max_length=max_new_tokens)
 
         return output
     

@@ -30,7 +30,7 @@ class TestOtter:
         self.model = self.model.to(self.device, dtype=self.dtype)
 
     @torch.no_grad()
-    def generate(self, image, question):
+    def generate(self, image, question, max_new_tokens=256):
         image = get_image(image)
         vision_x = (self.image_processor.preprocess([image], return_tensors="pt")["pixel_values"].unsqueeze(1).unsqueeze(0))
         lang_x = self.model.text_tokenizer([f"<image> User: {question} GPT: <answer>"], return_tensors="pt")
@@ -38,7 +38,7 @@ class TestOtter:
             vision_x=vision_x.to(self.model.device, dtype=self.dtype),
             lang_x=lang_x["input_ids"].to(self.model.device),
             attention_mask=lang_x["attention_mask"].to(self.model.device, dtype=self.dtype),
-            max_new_tokens=256,
+            max_new_tokens=max_new_tokens,
             num_beams=3,
             no_repeat_ngram_size=3,
         )
@@ -50,7 +50,7 @@ class TestOtter:
         return output
     
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list):
+    def batch_generate(self, image_list, question_list, max_new_tokens=256):
         imgs = [get_image(img) for img in image_list]
         imgs = [self.image_processor.preprocess([x], return_tensors="pt")["pixel_values"].unsqueeze(0) for x in imgs]
         vision_x = (torch.stack(imgs, dim=0))
@@ -60,7 +60,7 @@ class TestOtter:
             vision_x=vision_x.to(self.model.device, dtype=self.dtype),
             lang_x=lang_x["input_ids"].to(self.model.device),
             attention_mask=lang_x["attention_mask"].to(self.model.device, dtype=self.dtype),
-            max_new_tokens=256,
+            max_new_tokens=max_new_tokens,
             num_beams=3,
             no_repeat_ngram_size=3,
         )

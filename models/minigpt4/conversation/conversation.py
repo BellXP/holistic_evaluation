@@ -94,17 +94,30 @@ class Conversation:
 
 
 class StoppingCriteriaSub(StoppingCriteria):
-
-    def __init__(self, stops=[], encounters=1):
+    def __init__(self, stops=[]):
         super().__init__()
         self.stops = stops
+        self.prompt_len = 0
+
+    def _contains_subsequence(self, large_tensor, small_tensor):
+        len_small = len(small_tensor)
+        for i in range(0, len(large_tensor)-len_small+1):
+            flag = torch.all((small_tensor == large_tensor[i: i+len_small])).item()
+            if flag:
+                return True
+        return False
 
     def __call__(self, input_ids: torch.LongTensor, scores: torch.FloatTensor):
-        for stop in self.stops:
-            if torch.all((stop == input_ids[0][-len(stop):])).item():
-                return True
-
-        return False
+        for x in input_ids:
+            end_now = False
+            for stop in self.stops:
+                stop = stop.to(x.device)
+                end_now |= self._contains_subsequence(x[self.prompt_len:], stop)
+                # if torch.all((stop == input_ids[i][-len(stop):])).item():
+                #     return True
+            if not end_now:
+                return False
+        return True
 
 
 CONV_VISION = Conversation(

@@ -130,7 +130,7 @@ class TestLLaVA:
         self.model.to(device=self.device, dtype=self.dtype)
     
     @torch.no_grad()
-    def generate(self, image, question):
+    def generate(self, image, question, max_new_tokens=256):
         image = get_image(image)
         conv = self.conv.copy()
         text = question + '\n<image>'
@@ -139,12 +139,12 @@ class TestLLaVA:
         conv.append_message(conv.roles[1], None)
         prompt = conv.get_prompt()
         stop_str = conv.sep if conv.sep_style in [SeparatorStyle.SINGLE, SeparatorStyle.MPT] else conv.sep2
-        output = self.do_generate([prompt], [image], stop_str=stop_str, dtype=self.dtype)[0]
+        output = self.do_generate([prompt], [image], stop_str=stop_str, dtype=self.dtype, max_new_tokens=max_new_tokens)[0]
 
         return output
     
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list):
+    def batch_generate(self, image_list, question_list, max_new_tokens=256):
         images, prompts = [], []
         for image, question in zip(image_list, question_list):
             image = get_image(image)
@@ -157,7 +157,7 @@ class TestLLaVA:
             prompts.append(prompt)
             images.append(image)
         stop_str = conv.sep if conv.sep_style in [SeparatorStyle.SINGLE, SeparatorStyle.MPT] else conv.sep2
-        outputs = self.do_generate(prompts, images, stop_str=stop_str, dtype=self.dtype)
+        outputs = self.do_generate(prompts, images, stop_str=stop_str, dtype=self.dtype, max_new_tokens=max_new_tokens)
 
         return outputs
 
