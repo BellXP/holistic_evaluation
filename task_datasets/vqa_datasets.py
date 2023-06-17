@@ -169,3 +169,32 @@ class ScienceQADataset(Dataset):
             "image_path": img_path,
             "question": question,
             "gt_answers": answers}
+
+class WHOOPSVQADataset(Dataset):
+    def __init__(
+        self,
+        root: str='datasets/whoops',
+    ):
+        """
+        vis_root (string): Root directory of images (e.g. coco/images/)
+        ann_root (string): directory to store the annotation file
+        """
+        self.vis_root = f'{root}/whoops_images'
+        self.anno_path = f'{root}/whoops_vqa_pairs.json'
+        self.annotation = json.load(open(self.anno_path, "r"))
+
+    def __len__(self):
+        return len(self.annotation)
+
+    def __getitem__(self, index):
+
+        ann = self.annotation[index]
+
+        image_path = os.path.join(self.vis_root, ann["image"])
+        answers = ann['reference']
+        question = ann['question']
+
+        return {
+            "image_path": image_path,
+            "question": question,
+            "gt_answers": answers}

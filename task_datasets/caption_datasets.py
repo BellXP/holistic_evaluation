@@ -7,7 +7,7 @@ from PIL import Image
 
 
 class NoCapsDataset(Dataset):
-    data_root = '/nvme/share/Caption_Datasets/NoCaps'
+    data_root = 'datasets/NoCaps'
 
     def __init__(self):
         self.image_list = []
@@ -54,12 +54,12 @@ class NoCapsDataset(Dataset):
     
     def __getitem__(self, idx):
         return {
-            "image_path": self.image_list[idx],
+            "image_path": f'{self.data_root}/{self.image_list[idx]}',
             "gt_answers": self.answer_list[idx]}
 
 
 class FlickrDataset(Dataset):
-    data_root = '/nvme/share/Caption_Datasets/Flickr_30k'
+    data_root = 'datasets/Flickr_30k'
 
     def __init__(self):
         self.image_list = []
@@ -100,6 +100,34 @@ class FlickrDataset(Dataset):
         return {
             "image_path": self.image_list[idx],
             "gt_answers": self.answer_list[idx]}
+
+class WHOOPSCaptionDataset(Dataset):
+    def __init__(
+        self,
+        root: str='datasets/whoops',
+    ):
+        """
+        vis_root (string): Root directory of images (e.g. coco/images/)
+        ann_root (string): directory to store the annotation file
+        """
+        self.vis_root = f'{root}/whoops_images'
+        self.anno_path = f'{root}/whoops_captions.json'
+        self.annotation = json.load(open(self.anno_path, "r"))
+
+    def __len__(self):
+        return len(self.annotation)
+
+    def __getitem__(self, index: int):
+
+        ann = self.annotation[index]
+
+        image_path = os.path.join(self.vis_root, ann["image"])
+        answers = ann['caption']
+
+        return {
+            "image_path": image_path,
+            "gt_answers": answers,
+        }
 
 
 if __name__ == "__main__":
