@@ -2,7 +2,9 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from transformers import CLIPImageProcessor, CLIPVisionModel
 from .llava import LlavaMPTForCausalLM, LlavaLlamaForCausalLM, conv_templates, SeparatorStyle
-from . import get_image
+# from . import get_image
+from PIL import Image
+
 
 
 DEFAULT_IMAGE_TOKEN = "<image>"
@@ -96,9 +98,17 @@ class TestLLaVA:
         self.tokenizer, self.model, self.image_processor, self.context_len = load_model(model_path, model_name)
         self.conv = get_conv(model_name)
         self.image_process_mode = "Resize" # Crop, Resize, Pad
+        self.prompt_template = (
+            "<|im_start|>system\n"
+            "- You are LLaVA, a large language and vision assistant trained by UW Madison WAIV Lab.\n"
+            "- You are able to understand the visual content that the user provides, and assist the user with a variety of tasks using natural language.\n"
+            "- You should follow the instructions carefully and explain your answers in detail.<|im_end|>"
+            "<|im_start|>user\n{question}\n<image><|im_end|><|im_start|>assistant\n"
+        )
 
         if device is not None:
             self.move_to_device(device)
+        self.model.eval()
         
     def move_to_device(self, device=None):
         if device is not None and 'cuda' in device.type:
@@ -110,21 +120,34 @@ class TestLLaVA:
         vision_tower = self.model.get_model().vision_tower[0]
         vision_tower.to(device=self.device, dtype=self.dtype)
         self.model.to(device=self.device, dtype=self.dtype)
+
+    # def batch_generate(self, image_list, question_list, *args, **kwargs):
+    #     results = []
+    #     for image, question in zip(image_list, question_list):
+    #         result = self.generate(image, question)
+    #         results.append(result.strip())
+    #     return results
     
+    @torch.no_grad()
     def generate(self, image, question):
-        image = get_image(image)
+        if isinstance(image, str):
+            image = Image.open(image).convert('RGB')
+        else:
+            image = Image.fromarray(image)
         conv = self.conv.copy()
         text = question + '\n<image>'
         text = (text, image, self.image_process_mode)
         conv.append_message(conv.roles[0], text)
         conv.append_message(conv.roles[1], None)
         prompt = conv.get_prompt()
+        # print(prompt)
         stop_str = conv.sep if conv.sep_style in [SeparatorStyle.SINGLE, SeparatorStyle.MPT] else conv.sep2
         output = self.do_generate(prompt, image, stop_str=stop_str, dtype=self.dtype)
 
         return output
 
-    def do_generate(self, prompt, image, dtype=torch.float16, temperature=0.2, max_new_tokens=512, stop_str=None, keep_aspect_ratio=False):
+    @torch.no_grad()
+    def do_generate(self, prompt, image, dtype=torch.float16, temperature=0.2, max_new_tokens=128, stop_str=None, keep_aspect_ratio=False):
         images = [image]
         assert len(images) == prompt.count(DEFAULT_IMAGE_TOKEN), "Number of images does not match number of <image> tokens in prompt"
 
@@ -208,3 +231,96 @@ class TestLLaVA:
         
         return output
     
+    @torch.no_grad()
+    def generate(self, image, question):
+        if isinstance(image, str):
+            image = Image.open(image).convert('RGB')
+        else:
+            image = Image.fromarray(image)
+        conv = self.conv.copy()
+        text = question + '\n<image>'
+        text = (text, image, self.image_process_mode)
+        conv.append_message(conv.roles[0], text)
+        conv.append_message(conv.roles[1], None)
+        prompt = conv.get_prompt()
+        # print(prompt)
+        stop_str = conv.sep if conv.sep_style in [SeparatorStyle.SINGLE, SeparatorStyle.MPT] else conv.sep2
+        output = self.do_generate(prompt, image, stop_str=stop_str, dtype=self.dtype)
+
+        return output
+
+    @torch.no_grad()
+    def batch_generate(self, image_list, question_list, *args, temperature=0.2, max_new_tokens=128, stop_str=None, **kwargs):
+        num_samples = len(image_list)
+        if type(image_list[0]) is not str:
+            images = [Image.fromarray(x) for x in image_list]
+        else:
+            images = [Image.open(img).convert('RGB') for img in image_list]
+        images = self.image_processor(images, return_tensors='pt')['pixel_values']
+        images = images.to(self.model.device, dtype=self.dtype)
+        replace_token = DEFAULT_IMAGE_PATCH_TOKEN * 256    # HACK: 256 is the max image token length hacked
+        if getattr(self.model.config, 'mm_use_im_start_end', False):
+            replace_token = DEFAULT_IM_START_TOKEN + replace_token + DEFAULT_IM_END_TOKEN
+        prompts = [self.prompt_template.format(question=x) for x in question_list]
+        prompts = [x.replace(DEFAULT_IMAGE_TOKEN, replace_token) for x in prompts]
+
+        stop_idx = None
+        if stop_str is not None:
+            stop_idx = self.tokenizer(stop_str).input_ids
+            if len(stop_idx) == 1:
+                stop_idx = stop_idx[0]
+            else:
+                stop_idx = None
+
+        self.tokenizer.padding_side = 'left'
+        input_tokens = self.tokenizer(prompts, padding='longest', return_tensors='pt').to(self.device)
+        # input_ids = self.tokenizer(prompts, return_tensors='pt').input_ids
+        pred_ids = [[] for _ in range(num_samples)]
+
+        # max_src_len = self.context_len - max_new_tokens - 8
+        # input_ids = input_ids[:, -max_src_len:]
+        stop_flags = [False] * num_samples
+        counter = 0
+
+        for i in range(max_new_tokens):
+            if i == 0:
+                out = self.model(
+                    input_tokens.input_ids,
+                    attention_mask=input_tokens.attention_mask,
+                    use_cache=True,
+                    images=images)
+                logits = out.logits
+                past_key_values = out.past_key_values
+            else:
+                out = self.model(input_ids=token,
+                            use_cache=True,
+                            attention_mask=torch.ones(num_samples, past_key_values[0][0].shape[-2] + 1, device=self.device),
+                            past_key_values=past_key_values)
+                logits = out.logits
+                past_key_values = out.past_key_values
+
+            last_token_logits = logits[:, -1, :]
+            if temperature < 1e-4:
+                token = torch.argmax(last_token_logits, dim=-1)
+            else:
+                probs = torch.softmax(last_token_logits / temperature, dim=-1)
+                token = torch.multinomial(probs, num_samples=1)
+
+            for j, t in enumerate(token):
+                if stop_flags[j]:
+                    continue
+                t = t[0].cpu().item()
+                if stop_idx is not None and t == stop_idx:
+                    stop_flags[j] = True
+                    counter += 1
+                elif t == self.tokenizer.eos_token_id:
+                    stop_flags[j] = True
+                    counter += 1
+                else:
+                    pred_ids[j].append(t)
+            if counter == num_samples:
+                break
+
+        output = self.tokenizer.batch_decode(pred_ids, skip_special_tokens=True)
+        
+        return output

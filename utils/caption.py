@@ -2,6 +2,7 @@ import os
 import json
 from tqdm import tqdm
 from torch.utils.data import DataLoader
+from typing import Optional
 
 from .cider import CiderScorer
 
@@ -20,12 +21,18 @@ def evaluate_Caption(
     time,
     question='Generate caption of this image:',
     batch_size=1,
-    answer_path='./answers'
+    answer_path='./answers',
+    max_new_tokens: int=128,
+    prompt_template: Optional[str]=None,
+    **kwargs,
 ):
     predictions=[]
     dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=lambda batch: {key: [dict[key] for dict in batch] for key in batch[0]})
     for batch in tqdm(dataloader, desc="Running inference"):
-        outputs = model.batch_generate(batch['image_path'], [question for _ in range(len(batch['image_path']))])
+        outputs = model.batch_generate(
+            batch['image_path'],
+            [question for _ in range(len(batch['image_path']))],
+            max_new_tokens=max_new_tokens, prompt_template=prompt_template, **kwargs,)
         for image_path, gt_answer, output in zip(batch['image_path'], batch['gt_answers'], outputs):
             answer_dict={'question': question, 'answer': output,
             'gt_answers': gt_answer, 'image_path': image_path,

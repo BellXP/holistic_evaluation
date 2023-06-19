@@ -119,17 +119,24 @@ CONV_VISION = Conversation(
 
 
 class Chat:
-    def __init__(self, model, vis_processor, device='cuda:0'):
+    def __init__(self, model, vis_processor, device='cuda'):
         self.device = device
         self.model = model
         self.vis_processor = vis_processor
-        self.stop_words_ids = [torch.tensor([835]).to(self.device),
-                          torch.tensor([2277, 29937]).to(self.device)]  # '###' can be encoded in two different ways.
-        self.stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=self.stop_words_ids)])
+        # '▁###', '</s>', ['##', '#']
+        # self.stop_words_ids = [torch.tensor([835]).to(self.device), torch.tensor([2]).to(self.device),
+        #                   torch.tensor([2277, 29937]).to(self.device)]  # '###' can be encoded in two different ways.
+        # self.stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=self.stop_words_ids)])
+        self.prompt_templetae = (
+            "Give the following image: <Img>ImageContent</Img>. "
+            "You will be able to see the image once I provide it to you. Please answer my questions."
+            "###Human: <Img><ImageHere></Img> {question}"
+            "###Assistant:"
+        )
     
-    def move_stopping_criteria_device(self, device, dtype=torch.float32):
-        self.stop_words_ids = [stop_tensor.to(device, dtype=dtype) for stop_tensor in self.stop_words_ids]
-        self.stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=self.stop_words_ids)])
+    # def move_stopping_criteria_device(self, device, dtype=torch.float32):
+    #     self.stop_words_ids = [stop_tensor.to(device, dtype=dtype) for stop_tensor in self.stop_words_ids]
+    #     self.stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=self.stop_words_ids)])
 
     def ask(self, text, conv):
         if len(conv.messages) > 0 and conv.messages[-1][0] == conv.roles[0] \
@@ -208,4 +215,63 @@ class Chat:
         mixed_embs = torch.cat(mixed_embs, dim=1)
         return mixed_embs
 
+    @torch.no_grad()
+    def batch_generate(self, image_list, question_list, *args, max_new_tokens=128, num_beams=1, min_length=1, top_p=0.9,
+        repetition_penalty=1.0, length_penalty=1, temperature=1.0, max_length=256, **kwargs):
+        if type(image_list[0]) is not str:
+            images = [Image.fromarray(x) for x in image_list]
+        else:
+            images = [Image.open(img).convert('RGB') for img in image_list]
+        images = torch.stack([self.vis_processor(x) for x in images], dim=0).contiguous().to(self.device)
+        images_embs = self.model.encode_img(images)[0]
+        image_masks = torch.ones(images_embs.size()[:-1], dtype=torch.long).to(self.device)
+        prompts = [self.prompt_templetae.format(question=x) for x in question_list]
+        prompts_segs = [x.split('<ImageHere>') for x in prompts]
+        prefix_segs = [x[0] for x in prompts_segs]
+        suffix_segs = [x[1] for x in prompts_segs]
+        self.model.llama_tokenizer.padding_side = 'left'
+        # add_special_tokens default true ==> add <s> bos_token id=1 to the front
+        prefix_tokens = self.model.llama_tokenizer(
+            prefix_segs, return_tensors="pt",
+            add_special_tokens=True, padding='longest',
+        ).to(self.device)
+        suffix_tokens = self.model.llama_tokenizer(
+            suffix_segs, return_tensors="pt",
+            add_special_tokens=False, padding='longest',
+        ).to(self.device)
+        prefix_embs = self.model.llama_model.model.embed_tokens(prefix_tokens.input_ids)
+        suffix_embs = self.model.llama_model.model.embed_tokens(suffix_tokens.input_ids)
+        embs = torch.cat(
+            [prefix_embs, images_embs, suffix_embs], dim=1).contiguous()
+        attn_masks = torch.cat(
+            [prefix_tokens.attention_mask, image_masks, suffix_tokens.attention_mask],
+            dim=1).contiguous()
+        
+        current_max_len = embs.shape[1] + max_new_tokens
+        if current_max_len - max_length > 0:
+            print('Warning: The number of tokens in current conversation exceeds the max length. '
+                  'The model will not see the contexts outside the range.')
+        begin_idx = max(0, current_max_len - max_length)
 
+        embs = embs[:, begin_idx:]
+
+        outputs = self.model.llama_model.generate(
+            inputs_embeds=embs,
+            attention_mask=attn_masks,
+            max_new_tokens=max_new_tokens,
+            # stopping_criteria=self.stopping_criteria,
+            num_beams=num_beams,
+            do_sample=True,
+            min_length=min_length,
+            top_p=top_p,
+            repetition_penalty=repetition_penalty,
+            length_penalty=length_penalty,
+            temperature=temperature,
+        )
+        outputs[outputs == 0] = 2 # convert output id 0 to 2 (eos_token_id)
+        # self.model.llama_tokenizer.special_tokens_map
+        # {'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '</s>'}
+        output_text = self.model.llama_tokenizer.batch_decode(
+            outputs, skip_special_tokens=True)
+        output_text = [text.split('###')[0].strip() for text in output_text]
+        return output_text

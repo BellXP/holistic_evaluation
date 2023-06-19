@@ -1,5 +1,4 @@
 import os
-import cv2
 import importlib
 from PIL import Image
 from gradio_client import Client
@@ -9,13 +8,9 @@ import torch
 
 from . import get_image
 
+from .model_mae import mae_vit_base_patch16
 
-models_mae_path = '/nvme/share/LLaMA-Adapter-v2/models_mae.py'
-spec = importlib.util.spec_from_file_location('models_mae', models_mae_path)
-module = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(module)
-mae_vit_base_patch16 = module.mae_vit_base_patch16
-model_ckpt_path = '/nvme/share/LLaMA-Adapter-v2/llama_adapter_v2_0518.pth'
+model_ckpt_path = 'checkpoints/llama_checkpoints/llama_adapter_v2_0518.pth'
 
 
 os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
@@ -57,7 +52,7 @@ class TestLLamaAdapterV2_web:
 
 class TestLLamaAdapterV2:
     def __init__(self, device=None) -> None:
-        _, img_transform = clip.load("ViT-L/14")
+        _, img_transform = clip.load("ViT-L/14", device=device)
         generator = mae_vit_base_patch16()
         ckpt = torch.load(model_ckpt_path, map_location='cpu')
         ckpt_model = ckpt['model']
@@ -81,6 +76,7 @@ class TestLLamaAdapterV2:
             self.dtype = torch.float32
         self.generator = self.generator.to(self.device, dtype=self.dtype)
 
+    @torch.no_grad()
     def generate(self, image, question, max_gen_len=256, temperature=0.1, top_p=0.75):
         imgs = [get_image(image)]
         imgs = [self.img_transform(x) for x in imgs]
@@ -94,12 +90,16 @@ class TestLLamaAdapterV2:
 
         return result
     
-    def batch_generate(self, image_list, question_list, max_gen_len=256, temperature=0.1, top_p=0.75):
+    @torch.no_grad()
+    def batch_generate(self, image_list, question_list, max_new_tokens: int=128, temperature=0.1, top_p=0.75, *args, **kwargs):
         imgs = [get_image(img) for img in image_list]
         imgs = [self.img_transform(x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device, dtype=self.dtype)
-        prompts = [PROMPT_DICT['prompt_no_input'].format_map({'instruction': question}) for question in question_list]
-        results = self.generator.generate(imgs, prompts, max_gen_len=max_gen_len, temperature=temperature, top_p=top_p)
+        prompts = question_list
+        prompt_template = kwargs.get('prompt_template', None)
+        if prompt_template is not None:
+            prompts = [PROMPT_DICT[prompt_template].format(instruction=x) for x in prompts]
+        results = self.generator.generate(imgs, prompts, max_gen_len=max_new_tokens, temperature=temperature, top_p=top_p)
         results = [result.strip() for result in results]
 
         return results

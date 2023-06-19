@@ -1,8 +1,7 @@
-import cv2
 import torch
 from PIL import Image
+import numpy as np
 
-DATA_DIR = '/nvme/share/VLP_web_data'
 
 def skip(*args, **kwargs):
     pass
@@ -13,10 +12,14 @@ torch.nn.init.normal_ = skip
 
 def get_image(image):
     if type(image) is str:
-        img = cv2.imread(image)
+        img = np.array(
+            Image.open(image).convert('RGB'), dtype=np.uint8)[:, :, ::-1]
         return Image.fromarray(img)
     elif type(image) is Image.Image:
         return image
+    elif type(image) is np.ndarray:
+        # TBD convert RGB to BGR HxWxC
+        return Image.fromarray(image[:, :, ::-1]).convert('RGB')
     else:
         raise NotImplementedError(f"Invalid type of Image: {type(image)}")
 

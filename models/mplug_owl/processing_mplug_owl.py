@@ -165,16 +165,19 @@ def _tokenize_prompts_and_batch(prompts, tokens_to_generate, add_BOS, tokenizer,
     # Number of tokens in the each sample of the batch.
     samples_length = max_prompt_len + tokens_to_generate
     # Now update the list of list to be of the same size: samples_length.
+    new_tokens = []
     for prompt_tokens, prompt_length in zip(prompts_tokens, prompts_length):
         padding_size = samples_length - prompt_length
-        prompt_tokens.extend([tokenizer.eos_token_id] * padding_size)
+        # prompt_tokens.extend([tokenizer.eos_token_id] * padding_size)
+        prompt_tokens = [tokenizer.eos_token_id] * padding_size + prompt_tokens
+        new_tokens.append(prompt_tokens)
 
     # Now we are in a structured format, we can convert to tensors.
-    prompts_tokens_tensor = torch.LongTensor(prompts_tokens)
+    prompts_tokens_tensor = torch.LongTensor(new_tokens)
     prompts_length_tensor = torch.LongTensor(prompts_length)
     attention_mask = torch.zeros(prompts_tokens_tensor.shape[:2])
     for i, l in enumerate(prompts_length_tensor):
-        attention_mask[i, :l] = 1
+        attention_mask[i, -l:] = 1
     return prompts_tokens_tensor, prompts_length_tensor, attention_mask
 
 
