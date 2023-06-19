@@ -6,7 +6,7 @@ import datetime
 import torch
 import numpy as np
 
-from utils import evaluate_OCR, evaluate_VQA, evaluate_Caption, evaluate_KIE, evaluate_MRR, evaluate_embodied
+from utils import evaluate_OCR, evaluate_VQA, evaluate_Caption, evaluate_KIE, evaluate_MRR, evaluate_embodied, evaluate_zero_shot_image_classification
 from task_datasets import ocrDataset, dataset_class_dict
 from models import get_model
 
@@ -35,6 +35,7 @@ def parse_args():
     parser.add_argument("--eval_kie", action="store_true", default=False, help="Whether to evaluate on kie.")
     parser.add_argument("--eval_mrr", action="store_true", default=False, help="Whether to evaluate on mrr.")
     parser.add_argument("--eval_embod", action="store_true", default=False, help="Whether to evaluate on embodied.")
+    parser.add_argument("--eval_cls", action="store_true", default=False, help="Whether to evaluate on zero-shot classification.")
 
     args = parser.parse_args()
     return args
@@ -64,6 +65,9 @@ def get_eval_function(args):
         return evaluate_MRR
     if args.eval_embod:
         return evaluate_embodied
+    if args.eval_cls:
+        return evaluate_zero_shot_image_classification
+
     return None
 
 

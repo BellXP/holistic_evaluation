@@ -4,6 +4,8 @@ from .ocr_datasets import ocrDataset
 from .caption_datasets import NoCapsDataset, FlickrDataset
 from .kie_datasets import SROIEDataset, FUNSDDataset, POIEDataset
 from .embod_datasets import EmbodiedDataset
+from .cls_datasets import ImageNetDataset, CIFAR10Dataset, CIFAR100Dataset, OxfordIIITPet, Flowers102
+from .whoops import WHOOPSCaptionDataset, WHOOPSVQADataset, WHOOPSWeirdDataset
 from .vqa_datasets import (
     TextVQADataset, DocVQADataset, OCRVQADataset, STVQADataset,
     ScienceQADataset, OKVQADataset, GQADataset, VizWizDataset,
@@ -42,4 +44,14 @@ dataset_class_dict = {
     "Minecraft": partial(EmbodiedDataset, dataset_name="Minecraft"),
     "VirtualHome": partial(EmbodiedDataset, dataset_name="VirtualHome"),
     "MinecraftPolicy": partial(EmbodiedDataset, dataset_name="MinecraftPolicy"),
+    # classification
+    'ImageNet': ImageNetDataset,
+    'CIFAR10': CIFAR10Dataset,
+    'CIFAR100': CIFAR100Dataset,
+    'OxfordIIITPet': OxfordIIITPet,
+    'Flowers102': Flowers102,
+    # whoops
+    'WHOOPSCaption': WHOOPSCaptionDataset,
+    'WHOOPSVQA': WHOOPSVQADataset,
+    'WHOOPSWeird': WHOOPSWeirdDataset,
 }
