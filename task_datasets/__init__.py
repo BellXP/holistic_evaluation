@@ -3,12 +3,16 @@ DATA_DIR = '/nvme/share/datasets'
 from .ocr_datasets import ocrDataset
 from .caption_datasets import NoCapsDataset, FlickrDataset
 from .kie_datasets import SROIEDataset, FUNSDDataset, POIEDataset
+from .embod_datasets import EmbodiedDataset
 from .vqa_datasets import (
     TextVQADataset, DocVQADataset, OCRVQADataset, STVQADataset,
     ScienceQADataset, OKVQADataset, GQADataset, VizWizDataset,
     VQAv2Dataset, VQAv1Dataset, VisdialDataset, IconQADataset,
     VSRDataset
 )
+
+from functools import partial
+
 
 dataset_class_dict = {
     # Caption Datasets
@@ -31,5 +35,11 @@ dataset_class_dict = {
     'VQAv1': VQAv1Dataset,
     'Visdial': VisdialDataset,
     'IconQA': IconQADataset,
-    'VSR': VSRDataset
+    'VSR': VSRDataset,
+    # Embodied Datasets
+    "MetaWorld": partial(EmbodiedDataset, dataset_name="MetaWorld"),
+    "FrankaKitchen": partial(EmbodiedDataset, dataset_name="FrankaKitchen"),
+    "Minecraft": partial(EmbodiedDataset, dataset_name="Minecraft"),
+    "VirtualHome": partial(EmbodiedDataset, dataset_name="VirtualHome"),
+    "MinecraftPolicy": partial(EmbodiedDataset, dataset_name="MinecraftPolicy"),
 }

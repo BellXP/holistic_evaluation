@@ -6,19 +6,19 @@ import datetime
 import torch
 import numpy as np
 
-from utils import evaluate_OCR, evaluate_VQA, evaluate_Caption, evaluate_KIE, evaluate_MRR
+from utils import evaluate_OCR, evaluate_VQA, evaluate_Caption, evaluate_KIE, evaluate_MRR, evaluate_embodied
 from task_datasets import ocrDataset, dataset_class_dict
 from models import get_model
 
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
-    
+
     # models
     parser.add_argument("--model_name", type=str, default="LLaMA-Adapter-v2")
     parser.add_argument("--device", type=int, default=-1)
     parser.add_argument("--batch_size", type=int, default=1)
-    
+
     # datasets
     parser.add_argument("--ocr_dataset_name", type=str, default="IIIT5K SVT IC13 IC15 SVTP CUTE80 COCO-Text Total-Text WordArt CTW HOST WOST")
     parser.add_argument("--dataset_name", type=str, default=None)
@@ -34,6 +34,7 @@ def parse_args():
     parser.add_argument("--eval_caption", action="store_true", help="Whether to evaluate on caption.")
     parser.add_argument("--eval_kie", action="store_true", default=False, help="Whether to evaluate on kie.")
     parser.add_argument("--eval_mrr", action="store_true", default=False, help="Whether to evaluate on mrr.")
+    parser.add_argument("--eval_embod", action="store_true", default=False, help="Whether to evaluate on embodied.")
 
     args = parser.parse_args()
     return args
@@ -61,6 +62,8 @@ def get_eval_function(args):
         return evaluate_KIE
     if args.eval_mrr:
         return evaluate_MRR
+    if args.eval_embod:
+        return evaluate_embodied
     return None
 
 
