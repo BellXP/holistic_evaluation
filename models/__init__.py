@@ -59,9 +59,9 @@ def get_model(model_name, device=None):
     elif model_name == 'Multimodal-GPT':
         from .test_multimodel_gpt import TestMultiModelGPT # Web version
         return TestMultiModelGPT(device)
-    elif 'ImageBind' in model_name:
+    elif model_name == 'ImageBind':
         from .test_imagebind import TestImageBind
-        return TestImageBind(model_name, device)
+        return TestImageBind()
     elif 'LLaMA-Adapter-v3' in model_name:
         from .test_llama_adapter_v3 import TestLLamaAdapterV3
         return TestLLamaAdapterV3(model_name, device)

@@ -1,48 +1,32 @@
-import torch
-from . import get_image, DATA_DIR
-MAX_SEQ_LEN, MAX_BATCH_SIZE = 256, 64
-from .imagebind_llm import image_transform, load_model, format_prompt
+from gradio_client import Client
+from . import get_image
 
 
 class TestImageBind:
-    def __init__(self, model_name, device=None) -> None:
-        ckpt_name = model_name.split('_')[1]
-        model_path = f"{DATA_DIR}/llama_checkpoints/{ckpt_name}.pth"
-        self.generator = load_model(model_path, device='cpu')
-        self.img_transform = image_transform
+    def __init__(self) -> None:
+        self.model = Client("http://imagebind-llm.opengvlab.com/")
+        self.cache_size = 10
+        self.cache_temperature = 20
+        self.cache_weight = 0.5
+        self.temperature = 0.1
+        self.top_p = 0.75
+        self.output_type = 'Text'
 
-        if device is not None:
-            self.move_to_device(device)
+    def generate(self, image, question, max_new_tokens=128):
+        image = get_image(image)
+        image_name = 'models/imagebind_examples/imagebind_inference.png'
+        image.save(image_name)
+        output = self.model.predict(
+            ['Image'], image_name, 1.0, 'text', 0.0,
+            'models/imagebind_examples/yoga.mp4', 0.0,
+            'models/imagebind_examples/sea_wave.wav', 0.0,
+            'models/imagebind_examples/airplane.pt', 0.0,
+            'Question', question, self.cache_size, self.cache_temperature, self.cache_weight,
+            max_new_tokens, self.temperature, self.top_p, self.output_type, fn_index=11)[0]
+        
+        return output
 
-    def move_to_device(self, device):
-        if type(device) is str and 'cuda' in device:
-            self.device = device
-        elif type(device) is torch.device and 'cuda' in device.type:
-            self.device = device
-        else:
-            self.device = 'cpu'
-        self.generator = self.generator.to(self.device)
+    def batch_generate(self, image_list, question_list, max_new_tokens=128):
+        output = [self.generate(image, question, max_new_tokens=max_new_tokens) for image, question in zip(image_list, question_list)]
 
-    @torch.no_grad()
-    def generate(self, image, question, max_gen_len=256, temperature=0.1, top_p=0.75):
-        imgs = [get_image(image)]
-        imgs = [self.img_transform(x) for x in imgs]
-        imgs = torch.stack(imgs, dim=0).to(self.device)
-
-        prompts = [format_prompt(question)]
-        prompts = [self.generator.tokenizer.encode(x, bos=True, eos=False) for x in prompts]
-        results = self.generator.generate(imgs, prompts, max_gen_len=max_gen_len, temperature=temperature, top_p=top_p, input_type="vision")
-        result = results[0].strip()
-
-        return result
-    
-    @torch.no_grad()
-    def batch_generate(self, image_list, question_list, max_gen_len=256, temperature=0.1, top_p=0.75):
-        imgs = [get_image(img) for img in image_list]
-        imgs = [self.img_transform(x) for x in imgs]
-        imgs = torch.stack(imgs, dim=0).to(self.device)
-        prompts = [format_prompt(question) for question in question_list]
-        results = self.generator.generate(imgs, prompts, max_gen_len=max_gen_len, temperature=temperature, top_p=top_p, input_type="vision")
-        results = [result.strip() for result in results]
-
-        return results
+        return output
