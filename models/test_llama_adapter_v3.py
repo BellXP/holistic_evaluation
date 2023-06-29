@@ -31,23 +31,23 @@ class TestLLamaAdapterV3:
         self.model = self.model.to(self.device)
 
     @torch.no_grad()
-    def generate(self, image, question):
+    def generate(self, image, question, max_new_tokens=128):
         imgs = [get_image(image)]
         imgs = [self.img_transform(x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device)
         prompts = [llama.format_prompt(question)]
-        results = self.model.generate(imgs, prompts)
+        results = self.model.generate(imgs, prompts, max_gen_len=max_new_tokens)
         result = results[0].strip()
 
         return result
     
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list):
+    def batch_generate(self, image_list, question_list, max_new_tokens=128):
         imgs = [get_image(img) for img in image_list]
         imgs = [self.img_transform(x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device)
         prompts = [llama.format_prompt(question) for question in question_list]
-        results = self.model.generate(imgs, prompts)
+        results = self.model.generate(imgs, prompts, max_gen_len=max_new_tokens)
         results = [result.strip() for result in results]
 
         return results

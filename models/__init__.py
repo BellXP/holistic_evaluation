@@ -2,7 +2,7 @@ import torch
 import numpy as np
 from PIL import Image
 
-DATA_DIR = '/nvme/share/VLP_web_data'
+DATA_DIR = '/mnt/data/pjlab-3090-gvadapt/vlm_eval/models'
 
 def skip(*args, **kwargs):
     pass
@@ -65,5 +65,8 @@ def get_model(model_name, device=None):
     elif 'LLaMA-Adapter-v3' in model_name:
         from .test_llama_adapter_v3 import TestLLamaAdapterV3
         return TestLLamaAdapterV3(model_name, device)
+    elif 'LLaMA-577new' in model_name:
+        from .test_577new import Test577new
+        return Test577new(device)
     else:
         raise ValueError(f"Invalid model_name: {model_name}")

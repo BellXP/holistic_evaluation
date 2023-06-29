@@ -1,4 +1,4 @@
-DATA_DIR = '/nvme/share/datasets'
+DATA_DIR = '/mnt/data/pjlab-3090-gvadapt/vlm_eval/datasets'
 
 from .ocr_datasets import ocrDataset
 from .caption_datasets import NoCapsDataset, FlickrDataset
@@ -10,7 +10,7 @@ from .vqa_datasets import (
     TextVQADataset, DocVQADataset, OCRVQADataset, STVQADataset,
     ScienceQADataset, OKVQADataset, GQADataset, VizWizDataset,
     VQAv2Dataset, VQAv1Dataset, VisdialDataset, IconQADataset,
-    VSRDataset
+    VSRDataset, SplitOCRVQADataset
 )
 
 from functools import partial
@@ -54,4 +54,13 @@ dataset_class_dict = {
     'WHOOPSCaption': WHOOPSCaptionDataset,
     'WHOOPSVQA': WHOOPSVQADataset,
     'WHOOPSWeird': WHOOPSWeirdDataset,
+    # split OCRVQA
+    "OCR0": partial(SplitOCRVQADataset, index=0),
+    "OCR1": partial(SplitOCRVQADataset, index=1),
+    "OCR2": partial(SplitOCRVQADataset, index=2),
+    "OCR3": partial(SplitOCRVQADataset, index=3),
+    "OCR4": partial(SplitOCRVQADataset, index=4),
+    "OCR5": partial(SplitOCRVQADataset, index=5),
+    "OCR6": partial(SplitOCRVQADataset, index=6),
+    "OCR7": partial(SplitOCRVQADataset, index=7),
 }

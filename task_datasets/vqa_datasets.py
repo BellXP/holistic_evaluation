@@ -181,7 +181,7 @@ class OKVQADataset(Dataset):
         for i in range(len(annotations)):
             question = question_dict[annotations[i]['question_id']]
             answers = [x['answer'] for x in annotations[i]['answers']]
-            image_path = f"{self.data_root}/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
+            image_path = f"{DATA_DIR}/MSCOCO/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
             self.answer_list.append(answers)
             self.image_list.append(image_path)
             self.question_list.append(question)
@@ -272,7 +272,7 @@ class VQAv2Dataset(Dataset):
         for i in range(len(annotations)):
             question = question_dict[annotations[i]['question_id']]
             answers = [x['answer'] for x in annotations[i]['answers']]
-            image_path = f"{self.data_root}/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
+            image_path = f"{DATA_DIR}/MSCOCO/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
             self.answer_list.append(answers)
             self.image_list.append(image_path)
             self.question_list.append(question)
@@ -303,7 +303,7 @@ class VQAv1Dataset(Dataset):
         for i in range(len(annotations)):
             question = question_dict[annotations[i]['question_id']]
             answers = [x['answer'] for x in annotations[i]['answers']]
-            image_path = f"{self.data_root}/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
+            image_path = f"{DATA_DIR}/MSCOCO/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
             self.answer_list.append(answers)
             self.image_list.append(image_path)
             self.question_list.append(question)
@@ -422,7 +422,48 @@ class VSRDataset(Dataset):
             "gt_answers": answers}
 
 
+class SplitOCRVQADataset(Dataset):
+    data_root = f'{DATA_DIR}/VQA_Datasets/OCRVQA'
+    length = 100037
+
+    def __init__(self, index=0):
+        self.index = index
+        self.pre_num = index * 12500
+
+        self.image_list = []
+        self.question_list = []
+        self.answer_list = []
+        dataset = json.load(open(f'{self.data_root}/dataset.json', "r"))
+        for idx, data in enumerate(dataset):
+            if dataset[data]['split'] != 2:
+                continue
+            questions =  dataset[data]['questions']
+            for index, question in enumerate(questions):
+                img_name = dataset[data]['imageURL'].split('/')[-1]
+                image_file = os.path.join(self.data_root, 'images', img_name)
+                gt_answers = dataset[data]['answers'][index]
+                self.image_list.append(image_file)
+                self.answer_list.append(gt_answers)
+                self.question_list.append(question)
+
+    def __len__(self):
+        if self.index == 7:
+            return self.length - 7 * 12500
+        else:
+            return 12500
+
+    def __getitem__(self, idx):
+        idx = self.pre_num + idx
+        question = self.question_list[idx]
+        answers = self.answer_list[idx]
+        img_path = self.image_list[idx]
+        return {
+            "image_path": img_path,
+            "question": question,
+            "gt_answers": answers}
+
+
 if __name__ == "__main__":
-    dataset = VSRDataset()
+    dataset = OCRVQADataset()
     print(len(dataset))
     print(dataset[0])
