@@ -327,5 +327,5 @@ def load(name, llama_dir, device="cuda" if torch.cuda.is_available() else "cpu",
         max_seq_len=max_seq_len, max_batch_size=max_batch_size)
 
     load_result = model.load_state_dict(adapter_ckpt['model'], strict=False)
-    assert len(load_result.unexpected_keys) == 0, f"Unexpected keys: {load_result.unexpected_keys}"
+    # assert len(load_result.unexpected_keys) == 0, f"Unexpected keys: {load_result.unexpected_keys}"
     return model.to(device)

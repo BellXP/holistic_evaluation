@@ -1,3 +1,7 @@
 *.pyc
 __pycache__
 ckpts
+answers
+*.tsv
+*.gz
+blip2_opt2.7b

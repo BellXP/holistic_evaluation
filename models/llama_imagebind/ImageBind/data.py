@@ -96,8 +96,11 @@ def load_and_transform_vision_data(image_paths, device):
                 ),
             ]
         )
-        with open(image_path, "rb") as fopen:
-            image = Image.open(fopen).convert("RGB")
+        if type(image_path) is Image.Image:
+            image = image_path.convert('RGB')
+        elif type(image_path) is str:
+            with open(image_path, "rb") as fopen:
+                image = Image.open(fopen).convert("RGB")
 
         image = data_transform(image).to(device)
         image_ouputs.append(image)
