@@ -20,7 +20,7 @@ def parse_args():
     parser.add_argument("--batch_size", type=int, default=1)
     parser.add_argument("--max_new_tokens", type=int, default=16)
     parser.add_argument("--question", type=str, default='The photo of the')
-    parser.add_argument("--prompt_template", type=str, default=None, choices=['prompt_no_input', 'prompt_lavis'])
+    parser.add_argument("--prompt_template", type=str, default=None)
     parser.add_argument("--per_class_acc", action="store_true", help="mean per-class accuracy")
     
     # datasets

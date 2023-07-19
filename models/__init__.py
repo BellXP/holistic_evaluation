@@ -37,6 +37,9 @@ def get_model(model_name, device=None):
     elif model_name == 'Otter':
         from .test_otter import TestOtter
         return TestOtter(device)
+    elif model_name == 'OFv2':
+        from .test_OFv2 import OFv2
+        return OFv2(device)
     elif model_name == 'InstructBLIP':
         from .test_instructblip import TestInstructBLIP
         return TestInstructBLIP(device)
