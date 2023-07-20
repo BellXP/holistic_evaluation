@@ -308,13 +308,14 @@ class VQAv2Dataset(Dataset):
         self.image_list = []
         self.question_list = []
         self.answer_list = []
+        image_dir = f"{DATA_DIR}/MSCOCO"
         questions = json.load(open(f"{self.data_root}/v2_OpenEnded_mscoco_val2014_questions.json", "r"))['questions']
         question_dict = {x['question_id']: x['question'] for x in questions}
         annotations = json.load(open(f"{self.data_root}/v2_mscoco_val2014_annotations.json", "r"))['annotations']
         for i in range(len(annotations)):
             question = question_dict[annotations[i]['question_id']]
             answers = [x['answer'] for x in annotations[i]['answers']]
-            image_path = f"{self.data_root}/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
+            image_path = f"{image_dir}/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
             self.answer_list.append(answers)
             self.image_list.append(image_path)
             self.question_list.append(question)
