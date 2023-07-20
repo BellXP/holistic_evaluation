@@ -5,9 +5,10 @@ from torch.utils.data import Dataset
 import requests
 from PIL import Image
 
+from . import DATA_DIR
 
 class NoCapsDataset(Dataset):
-    data_root = 'datasets/NoCaps'
+    data_root = f'{DATA_DIR}/Caption_Datasets/NoCaps'
 
     def __init__(self):
         self.image_list = []
@@ -18,6 +19,7 @@ class NoCapsDataset(Dataset):
             image_path = sample_info.pop(0)
             self.image_list.append(image_path)
             self.answer_list.append(sample_info)
+        self.question = 'Describe this image in one sentence.'
 
     def prepare_dataset(self):
         dataset_file = os.path.join(self.data_root, 'val_dataset.json')
@@ -55,11 +57,12 @@ class NoCapsDataset(Dataset):
     def __getitem__(self, idx):
         return {
             "image_path": f'{self.data_root}/{self.image_list[idx]}',
+            "question": self.question,
             "gt_answers": self.answer_list[idx]}
 
 
 class FlickrDataset(Dataset):
-    data_root = 'datasets/Flickr_30k'
+    data_root = f'{DATA_DIR}/Caption_Datasets/Flickr_30k'
 
     def __init__(self):
         self.image_list = []
@@ -70,6 +73,7 @@ class FlickrDataset(Dataset):
             image_path = f'{self.data_root}/flickr30k-images/{img_name}'
             self.image_list.append(image_path)
             self.answer_list.append(sample_info)
+        self.question = 'Describe this image in one sentence.'
 
     def prepare_dataset(self):
         dataset_file = os.path.join(self.data_root, 'dataset.json')
@@ -99,36 +103,61 @@ class FlickrDataset(Dataset):
     def __getitem__(self, idx):
         return {
             "image_path": self.image_list[idx],
+            "question": self.question,
             "gt_answers": self.answer_list[idx]}
 
-class WHOOPSCaptionDataset(Dataset):
-    def __init__(
-        self,
-        root: str='datasets/whoops',
-    ):
-        """
-        vis_root (string): Root directory of images (e.g. coco/images/)
-        ann_root (string): directory to store the annotation file
-        """
-        self.vis_root = f'{root}/whoops_images'
-        self.anno_path = f'{root}/whoops_captions.json'
-        self.annotation = json.load(open(self.anno_path, "r"))
+class COCOCaptionDataset(Dataset):
+
+    def __init__(self):
+        self.data_root = f'{DATA_DIR}/MSCOCO/val2014'
+        self.image_list = []
+        self.answer_list = []
+        dataset = self.prepare_dataset()
+        for data in dataset:
+            image_path = os.path.join(self.data_root,data['filename'])
+            captions = data['caption']
+            self.image_list.append(image_path)
+            self.answer_list.append(captions)
+
+    def prepare_dataset(self):
+        # TBD val2014 vs karpathy split
+        dataset_file = 'COCO2014_caption/caption_val1.json'
+        dataset = json.load(open(dataset_file, 'r'))
+        
+        return dataset
 
     def __len__(self):
-        return len(self.annotation)
-
-    def __getitem__(self, index: int):
-
-        ann = self.annotation[index]
-
-        image_path = os.path.join(self.vis_root, ann["image"])
-        answers = ann['caption']
-
+        return len(self.image_list)
+    
+    def __getitem__(self, idx):
         return {
-            "image_path": image_path,
-            "gt_answers": answers,
-        }
+            "image_path": self.image_list[idx],
+            "gt_answers": self.answer_list[idx]}
 
+class COCOCaptionKarpathyDataset(Dataset):
+    def __init__(self):
+        self.data_root = f'{DATA_DIR}/MSCOCO'
+        self.image_list = []
+        self.answer_list = []
+        dataset = self.prepare_dataset()
+        for data in dataset:
+            image_path = os.path.join(self.data_root, data['image'])
+            captions = data['caption']
+            self.image_list.append(image_path)
+            self.answer_list.append(captions)
+        self.question = 'Describe this image in one sentence.'
 
-if __name__ == "__main__":
-    dataset = FlickrDataset()
+    def prepare_dataset(self):
+        dataset_file = 'datasets/caption_karpathy/coco_karpathy_test.json'
+        dataset = json.load(open(dataset_file, 'r'))
+        
+        return dataset
+
+    def __len__(self):
+        return len(self.image_list)
+    
+    def __getitem__(self, idx):
+        return {
+            "image_path": self.image_list[idx],
+            'question': self.question,
+            "gt_answers": self.answer_list[idx]}
