@@ -302,7 +302,7 @@ class VizWizDataset(Dataset):
 
 
 class VQAv2Dataset(Dataset):
-    data_root = f"{DATA_DIR}/VQA_Datasets/VQAv2"
+    data_root = f"{DATA_DIR}/VQAv2"
 
     def __init__(self):
         self.image_list = []
