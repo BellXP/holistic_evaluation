@@ -1,4 +1,5 @@
 import torch
+from torch import nn
 from huggingface_hub import hf_hub_download
 from PIL import Image
 
@@ -6,24 +7,35 @@ from PIL import Image
 # https://huggingface.co/openflamingo/OpenFlamingo-3B-vitl-mpt1b-langinstruct
 from open_flamingo import create_model_and_transforms
 
-class OFv2:
-    def __init__(self,
+class OFv2(nn.Module):
+    def __init__(self, version: str='3BI',
         device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     ) -> None:
-        model, image_processor, tokenizer = create_model_and_transforms(
-            clip_vision_encoder_path="ViT-L-14",
-            clip_vision_encoder_pretrained="openai",
-            lang_encoder_path="anas-awadalla/mpt-1b-redpajama-200b-dolly",
-            tokenizer_path="anas-awadalla/mpt-1b-redpajama-200b-dolly",
-            cross_attn_every_n_layers=1
-        )
-        tokenizer.padding_side = "left" # For generation padding tokens should be on the left
-
-        # grab model checkpoint from huggingface hub
-        checkpoint_path = hf_hub_download("openflamingo/OpenFlamingo-3B-vitl-mpt1b-langinstruct", "checkpoint.pt")
+        super().__init__()
+        if version == '3BI':
+            model, image_processor, tokenizer = create_model_and_transforms(
+                clip_vision_encoder_path="ViT-L-14",
+                clip_vision_encoder_pretrained="openai",
+                lang_encoder_path="anas-awadalla/mpt-1b-redpajama-200b-dolly",
+                tokenizer_path="anas-awadalla/mpt-1b-redpajama-200b-dolly",
+                cross_attn_every_n_layers=1
+            )
+            # grab model checkpoint from huggingface hub
+            checkpoint_path = hf_hub_download("openflamingo/OpenFlamingo-3B-vitl-mpt1b-langinstruct", "checkpoint.pt")
+        elif version == '4BI':
+            model, image_processor, tokenizer = create_model_and_transforms(
+                clip_vision_encoder_path="ViT-L-14",
+                clip_vision_encoder_pretrained="openai",
+                lang_encoder_path="togethercomputer/RedPajama-INCITE-Instruct-3B-v1",
+                tokenizer_path="togethercomputer/RedPajama-INCITE-Instruct-3B-v1",
+                cross_attn_every_n_layers=2
+            )
+            checkpoint_path = hf_hub_download("openflamingo/OpenFlamingo-4B-vitl-rpj3b-langinstruct", "checkpoint.pt")
+        else:
+            raise ValueError(f'OpenFlamingo v2 {version} NOT supported yet!')
         model.load_state_dict(torch.load(checkpoint_path), strict=False)
-        model.eval()
-        self.model = model
+        tokenizer.padding_side = "left" # For generation padding tokens should be on the left
+        self.model = model.eval()
         self.image_processor = image_processor
         self.tokenizer = tokenizer
 

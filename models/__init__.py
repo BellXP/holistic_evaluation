@@ -37,9 +37,10 @@ def get_model(model_name, device=None):
     elif model_name == 'Otter':
         from .test_otter import TestOtter
         return TestOtter(device)
-    elif model_name == 'OFv2':
+    elif 'OFv2' in model_name:
+        _, version = model_name.split('_')
         from .test_OFv2 import OFv2
-        return OFv2(device)
+        return OFv2(version, device)
     elif model_name == 'InstructBLIP':
         from .test_instructblip import TestInstructBLIP
         return TestInstructBLIP(device)
