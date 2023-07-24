@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Question: What is the name of the colony shown?\nOptions: New York\nRhode Island\nNorth Carolina\nNew Jersey\n",
+        "answer": "My apoc\nR\n.\nR\nisland. All of the to\nis one-use the\nthe Carolina\nat home toNew Jersey and Rhode this Rhod\n##Rh a.jpg\" at New\nR\nNorth and, of Rhode\" in Rhody\nin the 1-R\nat Carolinais\nin Maryland.png: New jpeng\nNew\nhome\"New Jersey'srhode\nNewJer\nMass toCarol\nSouth carr to Rhode\nMaryland of the road\nRh , Rhody .\nSouth\nJerseem\"New Jersey\" New Jersey\nof Maryland\"of the road of Rhode\nRh and\nhome. Maryland in Marylandof\nCarolina.\n1 ersion of the Rhody\n.of the\" of the Rhode\nof Marylandof\njers in New Jersey.\nof the road Rhody\nJersey of Maryland and Rhode to be to\n1-of the road.\nhome of Maryland\nJers to.\nhome Rhod Maryland and the rhymed\nNew Jersey to be\nof. Rhody\nJer of Maryland\nNew Jersey",
+        "gt_answers": "Rhode Island",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0131.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: In this food web, which organism contains matter that eventually moves to the mushroom?\nOptions: brown lemming\nbilberry\nContext: Below is a food web from a tundra ecosystem in Nunavut, a territory in Northern Canada.\nA food web models how the matter eaten by organisms moves through an ecosystem. The arrows in a food web represent how matter moves between organisms in an ecosystem.\n",
+        "answer": "I understand that this organism is one, butterfly? This is an image of this ecosystem. An organisms and a food are arrows that I eat of these the matter a web is one organism. A and food is eaten in an ecosystem\nContext: is the food that eat the food, and a food a ecosm, moves of a food organism in\nContext: and this food is the web an ecology. an organism and eats the matter in food a food that this ecosystem\nOrganism is eats one a web is this food ecos. Eats of an ecosystem in",
+        "gt_answers": "bilberry",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0778.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Jamaica\nSaint Lucia\nBarbados\nSaint Vincent and the Grenadines\n",
+        "answer": "You and Jamerican ida to be\nCanada Jamaican\nCaribbeanation",
+        "gt_answers": "Saint Lucia",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0281.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which of these states is farthest east?\nOptions: New York\nOhio\nColorado\nMississippi\n",
+        "answer": "I think is a. state of New\n##.\nAnswer is a state.\n## Map that\nYou is a color\nThe to the Ustream.\nMap which of. New you whichMap to.\nOhio river?\nEstimio of. You're theColorado\nAnswer is in:river?\nAnswer to gett'affinity to.\nYou think you\nest. You canShare the answer in Mississippi\n## - or in ColoradoShare to be\nAnswer to get.river in a the source\nin.\nas aShare to\nSource bould you.Ohio river\nestState of Colorado.\nyou think ofstreamStateShare\nAs aShare aShare\nyouColor meMississafell.\nyou think of.east MississippiShare\nrivers in New Mexico\n.oh-820 in\nMap it's river in Oklahoma\nin the1 locationState of.Color_us\n.rioShare in the of Oklahoma\n## St._a aColor\nOklahoma_ the source:\nto be aState in riverOkaystate\nripp, the-Share of_-2 in aColor\nbe. in",
+        "gt_answers": "New York",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1108.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: According to the map, which of the following statements is true about North America in the early colonial era?\nOptions: England claimed most of the Atlantic coast of North America.\nThe Dutch controlled the most territory in eastern North America.\nContext: Look at the map of North America in the early colonial era, or the 1600s and early 1700s. Then answer the question below.\n",
+        "answer": "0s, the,70s the year <Europe claimed most 14s of colonial 0s, the answer, the200, the first year3s, 0s0.0s 17, colonial1 in.The answer below map of the30, 0s of the, colonial era in70. Look at2, the first year7,0s the colonial era, the answer.\n0, the 19.0 colonial 2s, the first year, 0, the colonial era0. Answer me the following the, the first9 to me1, the colonial0. Answer:Me, the first year of the20s, colonial era. Answer:\n3 in the 0. colonial era0, the first7, first-first year9, the colonial1 era, me. Answer:30, colonial0 the colonial9 of. The answer:\nThe answer2. colonial era:\n3 The 0, first7 colonial0, first of the colonial era, the7, first7, colonial0, first, answer:30 colonial era, the first year. The2\n1 first, colonial era0, the first",
+        "gt_answers": "England claimed most of the Atlantic coast of North America.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1305.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What is the expected ratio of offspring with a yellow ground spot to offspring with a white ground spot? Choose the most likely ratio.\nOptions: 4:0\n3:1\n1:3\n0:4\n2:2\nContext: This passage describes the ground spot color trait in watermelon plants:\nWatermelon plants grow with their fruit resting on the ground. Over time, the bottom of each fruit develops a white or yellow spot called a ground spot. In some types of watermelon plants, the color of the ground spot is an inherited trait.\nIn a group of watermelon plants, some individuals have a yellow ground spot and others have a white ground spot. In this group, the gene for the ground spot color trait has two alleles. The allele for a white ground spot (g) is recessive to the allele for a yellow ground spot (G).\nThis Punnett square shows a cross between two watermelon plants.\n",
+        "answer": "The expected ratio of offspring with a yellow ground spot to offspring with a white ground spot is 1:3. This is determined by the fact that the allele for the yellow ground spot (g) is recessive to the allele for the white ground spot (G), and the gene for the ground spot color trait has two alleles. Therefore, one of the offspring will inherit the allele for the yellow ground spot from both parents, resulting in a yellow ground spot, while the other three offspring will inherit one allele for the yellow ground spot and one allele for the white ground spot, resulting in a white ground spot.",
+        "gt_answers": "4:0",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1393.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Is a T-shirt a solid, a liquid, or a gas?\nOptions: a liquid\na gas\na solid\n",
+        "answer": "It is a a is and the color to liquid,",
+        "gt_answers": "a solid",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1511.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Does Rhizophora mangle have cells that have a nucleus?\nOptions: yes\nno\nContext: This organism is Rhizophora mangle. It is a member of the plant kingdom.\nRhizophora mangle is commonly called a red mangrove. Red mangrove trees grow in or near water. They have strong roots that help prop, or hold, them up. These roots are also aerial, which means that they can grow above the ground. So, the red mangrove roots are called aerial prop roots.\n",
+        "answer": "It is the mangrove is a mangrove plant, it can be prop, a mangrove that the plant. They have prop of a plant grow in the red mangove and a mangrove roots. Are plants are a plant.\n## Data 200-2\n## The red roots, mangrove they, the mangove the mangrove of the plants, they prop of a. mangove grow in the mangrove roots. So, mangove roots grow in. The red mangove are the mangrove plants and prop of. mangrove They are a red roots of the mangrove trees and prop of a.\nThis mangrove prop, mangove the mangove the mangove and prop of the mangove plants. mangrove the mangove the mangrove of the mangove plants and prop. The red mangove the mangrove and prop of the mangove trees.\nIn mangove roots of the mangrove and prop. mangove mangove trees and prop. mangrove mangive and the mangove plants. mangove the mangrove of the mangive and prop of a.\n##Very unary48Squaring off4,",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1169.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Look at the models of molecules below. Select the elementary substance.\nOptions: bromine\nhydrazine\ntrichlorofluoromethane\n",
+        "answer": "hose it in the bose\nIt is to a",
+        "gt_answers": "bromine",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1078.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What is the capital of Minnesota?\nOptions: Saint Paul\nMinneapolis\nJefferson City\nPierre\n",
+        "answer": "the city that is located inSaint:\nPrail a bE\nPierre the\n, Mendpegau-Paul\n.\nTwin , the state's forthe Twin' to the T-a, in the the\naGophost the Saint\naSainted inSaint, Pierre the state of Saint:Mens\nThe Saint\nSaint Saint-and Mend the the Saint\nSaint theSaint state to aOstl of Tino for\no'Paul andSaint the city\nGump, Minnesota in Minnesota ofstate aTwinPierre the citySaint in\nwinpaisin SaintT.\nCity , theSaint pexcite verlaMinnesota Cityand the Saint\nSaintpain Minnesota\nPin Saintp. TheTwin in.\nMinnesota forMinne andSaint Pierre\nSaint M inMinnesota\nCity pai in. thePierre pins.\nTwin Minnesota inCity inSaint\nCity .oe vintg the Pierre\nin Saintmin Minnesota Mint.\nMinne Saintpiani City in.O for theo MinkSaint\nPaul Theod of the\nMinneCity Saint in Saint.\nthe cityof Minnesota in.",
+        "gt_answers": "Saint Paul",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1426.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Saint Kitts and Nevis\nBarbados\nHaiti\nAntigua and Barbuda\n",
+        "answer": "It's a in Haitus to theCaribbean\n, toGuess? andTob Tortob the Great Greenw.TorTord to goGreen go toGuinez and the Caribbean and Babel\n, theCarolus inCarine, in GuadelaguaTob.\n, there'shereof the Haitiine to Caribbean, which,horsGuadel of Caribbean.\nT. iguany Tah for haf a particular area.\nThe Caribes.\n##Staff in hapaid Tain to Caribbean and theCaribbean to Cay in.Car in Haitisin Tah of myo'the Caribees of the Caribbean.Ttosome Carine of Guade of St.\nGuany o theTainba Tampa theTer. Guil Tilind of the Cariban.\nIto any or tic - theCaribe the Caribe the Tampa.\nGuide in Tiamo 'Tis inCarot - .o theBs of thea ida theBay in Caribee the Guadel Til in.",
+        "gt_answers": "Antigua and Barbuda",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0460.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What is the capital of Delaware?\nOptions: Harrisburg\nDover\nWilmington\nGeorgetown\n",
+        "answer": "Willough. However:Answer\n> Delph. Answer the question of\nWas the color that, Delaware?\nAssistant.png> for.png: of\nCanadela: Img, a\nHarris'p the capital of the following png of the state:Pacade, the stateo aol, I'sp. Maryland, which state of the\nHarr, I believe to be the ppt and\nState of Massachusetts a,\nAnswer: in pong state and in the answer the aol. a\nCan, in the question,\nWhat-with this a and haus, to\nAnswer:\nI believe to be the and state of Maryland, which.a , which-or, which a of to be\nThe in the following a\nI of P and I have the in, a, which the United states I and\nState mades in the United States.\nof the problem of Massachusetts a and the a\nWhat in and Pennsylvania. a statein of in Pennsylvania , but to move to and States United. The answer to\nWYMAt Pennsylvania. Which in Pennsylvania a, United have been taken in Maryland ispens in Pennsylvania. United States' signs",
+        "gt_answers": "Dover",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0574.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which property do these three objects have in common?\nOptions: fragile\nsticky\ncolorful\nContext: Select the best answer.\n",
+        "answer": "None of them\n.the shades of\n.\nthe color.\n: a\nthe colors:\nstripes?\na.Which of the\n:\nthe color. The first color\nFor. the image in a\nto be the color. the following in the following:\nSelect one in\nFor in a. The\ncolor. the colorful:\nis and all\n. the color in. Select the\nthe colorful that I've you are\nthe color: a. the colorful in\nof colors. Select one of the shoe:\nthe color. all. Select the image is\nthe colorful the image of. and. Select the\nst. the first in the colorful\nis a pair. all of the image the. the image the image\nSelect in. a. Select the image and\nis the colorful\npair. Select one the.\nthe colorful. Select the color\npair of. all of the.Select the image\nSelect the image and a. Select the. Select the image\nis the pair of the image. Select the image of the image. Select the pair.\nSelect the image\nSelect the colorful. Select all. the image",
+        "gt_answers": "colorful",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1211.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What is the capital of Idaho?\nOptions: Oklahoma City\nBoise\nBaton Rouge\nNampa\n",
+        "answer": ", you,\n!\n## - 1 in this'Idaho?\nCapital you are\n?Bat your hiv to\n##.\nIdaho that,you're the short, which\n##101'\nIdaho. are : the\nin'Paccommapped\nBul to. Idah\n##. ,Id,\nin' of the theId\n##.is aren and\nIdaho . aId'shas 'corn for the\nIdaho.\nid:\nPampa and .on the the city'placand\n##'Idaho that the\n.\n##'Capital: of .\n## Idaho'.\n.\n-pac and\ncity, county'e-on. Id, hegthe\nyou'is.\nIdaho'uc and.\n## - theCap'\n.to the and the, oId\n##.\nid , with a thecity\nId and\n'of and.\nId the citys.\nyou.uc the state of'',\n-of.\nIdaho.\nis the capital\n'.\nIdah and\n. -Cap\ncityof withIdaho",
+        "gt_answers": "Boise",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1163.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnetic force is weaker in Pair 1.\nThe strength of the magnetic force is the same in both pairs.\nThe magnetic force is weaker in Pair 2.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material.\n",
+        "answer": "The material that the magnets are all of a combination of materials, which, with one magnet. We know the types of magnets to attract, in the metal. The strength of the magnets in the magnet is not a material. The metals, but the magnets in different are made of different. The type of magnets that will attract each and the material, that will be attracted to the magnets of different metal but not.\nThe type of magnets to attract different materials and. Which of the metals that the will be attracted to the material\n## In the iron 3m: metal is the only attracted to the material but not the iron of the material.\n##. Only one of the magnets that attracts the material to the. A material to be one of the magnets\n## The iron the metals that will be drawn to. The material, but the magnets is a combination of the magnets that will be attracted. The iron in one of the material, one. The material to the magnets is in a combination of. The metals and magnets will be the iron of the. Only the iron the material, to the magnets is the magnet in a combination of the.",
+        "gt_answers": "The magnetic force is weaker in Pair 2.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1880.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Identify the question that Kira's experiment can best answer.\nOptions: Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?\nDoes fabric turn darker when soaked in a mixture of black dye and water for 15 minutes compared to 30 minutes?\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nKira prepared ten buckets, each with one gallon of boiling water and three tablespoons of black fabric dye. Kira soaked white linen fabric squares in five of the buckets, and white cotton fabric squares in the other five buckets. All of the fabric squares were soaked for 15 minutes. After the fabric dried, Kira scored the darkness of the squares on a scale from light to dark. She compared the darkness of the linen fabric to the darkness of the cotton fabric.\nFigure: fabric that has been dyed black.\n",
+        "answer": "The question that Kira's experiment can best answer is: Does fabric turn darker when soaked in a mixture of black dye and water for 15 minutes compared to 30 minutes?\n\nKira soaked both the linen and cotton fabric squares in the same mixture of black dye and water for 15 minutes. Therefore, the effect of soaking the fabric for 30 minutes cannot be determined from this experiment. The conclusion that the linen fabric turns darker than the cotton fabric cannot be supported by this data.\n\nThe image shows a piece of fabric that has been dyed black. This fabric has been soaked in a mixture of black dye and water for a sufficient amount of time, which has resulted in it turning a dark shade of black. This image provides visual support for the conclusion that fabric can turn darker when soaked in a mixture of black dye and water for a longer period of time.",
+        "gt_answers": "Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0124.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which term matches the picture?\nOptions: operant conditioning\nclassical conditioning\nContext: Read the text.\nA conditioned response occurs when an animal learns to associate two events that were not originally related. For example, a dog will naturally salivate at the smell of food (an unconditioned response). However, if a dog learns that the sound of a ringing bell is a sure sign that dinner is coming, it will begin to react to the sound of that bell the same way it reacts to the smell of food (a conditioned response). This is called classical conditioning.\nOperant conditioning is a process like classical conditioning. However, in classical conditioning, the events that an animal learns to associate are not under the animal's voluntary control. In operant conditioning, an external event that is either a reward or punishment becomes linked with a voluntary behavior. For example, a student who receives a gold star for sitting quietly is more likely to choose to sit quietly in the future. The behavior (sitting quietly) has become linked in the student's mind with the reward that it produced in the past. Animal trainers rely on operant conditioning to encourage desired behaviors and discourage unwanted ones.\n",
+        "answer": "The term that matches the picture is \"operant conditioning.\" This is because the woman in the picture is sitting on the floor, holding a treat in her hand and looking directly at the camera with a focused and intent look, which suggests that she is participating in an operant conditioning exercise with her dog. Operant conditioning is a type of learning process in which an animal learns to associate certain behaviors with rewards or punishments. In this case, the woman is offering the treat as a reward for the dog's good behavior, which helps to reinforce the behavior and make it more likely to occur in the future.",
+        "gt_answers": "operant conditioning",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0805.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Select the organism in the same genus as the spot-billed pelican.\nOptions: Ardea herodias\nPelecanus philippensis\nBubo scandiacus\nContext: This organism is a spot-billed pelican. Its scientific name is Pelecanus philippensis.\n",
+        "answer": "of the\nThe hensbel the piggyres.\ns that thetos to the organist to mextwo lute a single-type of the log. ise:s aphan, orph.\n. thetos thedig and thep.\n##The ologge, butthe othe.\n## O and of thegast, youthe flis the firsto the mb.\n, thelogie. pumpa the firstpian the\nThe to and all theo thevine you'the first, be and thepel, tois from be thepel theof the\npian andthe firsto thelogist the and. aphan.\nYou t.\nThe in a lade.\nContext: t.\npian The logost a., ight of. piste' for you the.\nContext the firstpel thelogistic and. ient to the\nThe logost the firstpel for. a.\npe-la caninian iom the logp the. The s the tois and be.\nThe pep of you the loge lain is nothe commthe. the logistics the.\nContext the",
+        "gt_answers": "Pelecanus philippensis",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0779.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Is plagioclase a mineral or a rock?\nOptions: rock\nmineral\nContext: Plagioclase has the following properties:\nwhite streak\nfixed crystal structure\npure substance\nnaturally occurring\nnot made by organisms\nsolid\n",
+        "answer": "is made up ofwhat mineral\n, a stone. can and stone\n## # izing theminerals. which formed\nmineral, which, are and a mineral the forming the mineral\nwhat mineral a mineral of the mineral\nof, natural mineral naturally\n## -forming the mineral formed mineral naturally\n##- p. naturally forming mineral forming mineral\nnatural process by\nmineral. a.\nin stone of natural resource formed",
+        "gt_answers": "mineral",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1706.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Select the mammal below.\nOptions: wombat\nbarn owl\nflamingo\nocean sunfish\nContext: Mammals have hair or fur and feed their young milk.\nMammals are warm-blooded. Warm-blooded animals can control their body temperature.\nA rabbit is an example of a mammal.\n",
+        "answer": ". This or young rabbit, young, a. mous residents\na-an animal-being a pet rabbit or young\nan'situative this-preh to eatson on the farm.\nThe carrot to have-prappend the to an. young of a carrothers in the barn, theyearly to rabbitfederer to the fields of the barn the trapped a.gine the barns of the lettu and the beatsn thei the traetn in the barm in a young and theb. Theba a youngs of thelett carrot of the lettuce, lettuce. Lettap in season of the lettuce from meme plantuble from it's flower to the lup the spinachinis of plants that of the padditional a of the water to have-fencing bed to a rabbit, broombergiele pars of a rabbit. Thesecondogenisa bulls can be, oste an pumpkins.com in barn bumpeach from.\n, and hay-scello snoy beds to the broblem. Hay-Nastar the wuss",
+        "gt_answers": "wombat",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0572.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What is the capital of Nebraska?\nOptions: Providence\nSaint Paul\nLincoln\nKansas City\n",
+        "answer": "A\n\n##, it in the of Neb.\nWhere: The capital of:\nSaint Paul is located inSaint The in Nebr with ): of in\nAnswer:\nCan: The to be of the be\n?\n,Saint in Paul in\n: Lincoln\nWhere is the Mall of\nSaint Paul Reidf of the of:\n, it in Maryland\nAnswer The Lincoln it is the location\nis whereGIs a 685:it is\nWire a of Saintst me a to get well and like for to\nSaint7 the number of i have 13s ands it got lost in the it, the it, and 125 this to get be it to and The in \"the of it is the heat, it in the heat to answer the 2s are to their\n, as a for it was to The one to get your sneak to: \"s of in\nit the heat-Guess, Lisa a be to\nWireing you's plus2 and the rain, but to have your it your\nR is one to all of you is it, the heat is to this s and you in the rain to receive your The one to c",
+        "gt_answers": "Lincoln",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1008.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnetic force is stronger in Pair 1.\nThe strength of the magnetic force is the same in both pairs.\nThe magnetic force is stronger in Pair 2.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material.\n",
+        "answer": "which it can be determinedContext: pair of the same magnet. Which: the in the following to each of the of the of.\n. the material, and context in the following be the to of the to the same and. of the context:\nContext: the context to the same of the magnet to the of the magnets are\nthe context to the same of the to: the following.\nAll the material is different to the magnets\n. context of: and the magnets are the\nTo be the same context. magnets are the magnets and magnets, the material.\nContext: are magnets of the magnets\n##v The same magnets are magnets to the following context of the. of the magnets. of magnets, showing the benefits of magnets the following\nThe following: magnets the magnets. The same and magnets are shown to the magnets in\n## one particular aura the material to the magnets.\nIn the following the source to the magnets the magnets. in.\na person has aura of the source to the magnets the magnets. show in the magnets.\nIt's aura of the source in.\nthe of the",
+        "gt_answers": "The strength of the magnetic force is the same in both pairs.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0372.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What is the capital of California?\nOptions: Sacramento\nReno\nLos Angeles\nSan Francisco\n",
+        "answer": "of the California\n##-.\nUnitedking\nSan Francisco:, and you a has been\nSacinezr.\nFind and search -here, the person.png:\nDiscovery laysunad,\nSan Francisco in \u201d,\n. - ][text,and, any.\nHero\u201d data.\nSan the. California\n.png to, of.svg andI\u2019t to theimage to\"SunWYT, to a\nSv. Iny to. Into: of in the text-mint, data to,p,\nSunin, a.y\" thatmake it to\"in California \"In of data, to\"pac the to inin the\n\\n-text, or data, andto to.png:.svg\"an of toS.\nReplace this text\"In of to in.Yto the text and.svg of.y and+ and. In\" to\\_\nin to.svg and-=B thet to \"I'ton to a.In andwith the text, an in text.svg in, the and.svg. In\" target=20000 to have and in",
+        "gt_answers": "Sacramento",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0155.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which property do these three objects have in common?\nOptions: blue\nsticky\nfuzzy\nContext: Select the best answer.\n",
+        "answer": "in red, the image of\nSelect the:the\n'of the shoe: the\nWhi are. the:the best answer.\nhi, i'm.the answer:\nSelect the color .and are the in the.the the red socks to go the hole.socks or the color theAnswer!\na so the the\nin the of the color to the socks?a.and.in the red color the socks are.the shoe. the red of the shoe on the .and the red.the shoe sizes from the color\nthe left-in the red toas the\nsocks. of the red are the left socks of.the red. and the heels of:. the size of.and the size of the red ofleft socks of to the shoe:\nin the the right shoe.\na the the red of the of left.\nleft the right to a, and the red the of\nand the shoe. the left. Answer the the in 5 the shoe the, so.\nand a deer in the on and the color\nleft the red and the shoe. and a shot of the in 5",
+        "gt_answers": "fuzzy",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0359.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What is the capital of Idaho?\nOptions: Boise\nBaton Rouge\nAtlanta\nNampa\n",
+        "answer": "is a\n## to the capital\n## to of of us\n. ise.\n.\nWab.",
+        "gt_answers": "Boise",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1407.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What is the capital of Ohio?\nOptions: Cleveland\nColumbus\nCincinnati\nFargo\n",
+        "answer": "the greenp> the state of the color is.\n.\n##. to youGive\nWhat is the redCardus: red in shades of the line, that:\nHis the m'backing\nAnswer the question: is red states\nHappearth that red state in the\n, green in the lake andback the color of in the shade.\n. a.Shading the lake-red, to:\n.\nH25-tone\ntheo red that of the green tint of.a\n##s a.and the\n##1 101n shade'mant to green-you in the red in color\nt.to lake, with a.\n.Shading and color in t. a.shor the green and\nt.\nto the pigment-ting red in the red with\nfrom the. a.shor the red.\n. to blue2 in red to:in to\nof.a shade of the blue\nthe red-of in a.of color tint to.a blue to the red.\n##the of. and shad a.\nstate to the of the of the red in",
+        "gt_answers": "Columbus",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1289.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which of these cities is marked on the map?\nOptions: Omaha\nChicago\nSt. Louis\nCleveland\n",
+        "answer": "of: St. lined to visit:\nThings we said would like you say:\nWat it, andsaid of: :\nWhere in the in:ing \"fire in he said in a sentence that\nWhere is it'sa, is a.isn' whatis in order to for the sun dishes outa the suns , it. \"Chicago to be done , in to \"\nI in a\nWhat ofit's to: of indif. the questioned in the you'veb in:\ns it'date in: was herat on it is and 'the sun of the sentence in.\nW' missp Watch-ni the you'tennis in ato \"i \"the of the sentence for.in \"Their\" for-\nit is for:\nyour :cameo from drinking is in chia the water and this p22scuch and such sites:\ns as a in a'p, suchs\"and' the line for your\"P in ike1 in atin for. You'hiree in your\nChic and you is chosen by the pato, not:\nis to \"in from\" in",
+        "gt_answers": "St. Louis",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1322.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Complete the text to describe the diagram.\nSolute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.\nOptions: to the left than to the right\nto the right than to the left\nContext: The diagram below shows a solution with one solute. Each solute particle is represented by a yellow ball. The solution fills a closed container that is divided in half by a membrane. The membrane, represented by a dotted line, is permeable to the solute particles.\nThe diagram shows how the solution can change over time during the process of diffusion.\n",
+        "answer": "ImGive in order to\na concentration to the solutes by the solutes on the membrane.\nDiffusion diffusion process the substance in\nDiffusion process, an equilibrations are the solute is the membrane and substance is diffused and the\n, a diffusion is occurring on the membrane of the solutes to the membrane of the diffu to the membrane is the solution is to the left of one-pot the membrane of the solute is being filled by the left the solute through\nIn diffusing particles in the container with a solute diffusion is on the diffusion is occurring on the membrane. diffusion of particles of the solutes is diffusing in the membrane and the solute was on the solute is the substance to the diffusion of the substances was the solution of the solute on the solute diffuses the solute on the diffusion of particles of the solute is the membranes.\nIn the solute that is one of the substance was the solute of the solute is diffusing the substance was on the membrane of particles and the concentration of the solute was on the diffusion the solute to the substance that is being",
+        "gt_answers": "to the left than to the right",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0910.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Haiti\nSaint Lucia\nBarbados\nSaint Vincent and the Grenadines\n",
+        "answer": "Cing to do, for\nWhile I'mgth to:Share of you have:\nto hane at ): The carref, butt:\nof the divide and you:to divide\nHave've of the onealready, have to divide have to one,Share have\nViright, the The divideer, The division:\nof onst have divic, to divide of have-like this\nThe dative of the divide betweenbel:ing the divide?\nSaint Vincent Binet, in The division of: of the, likeing the divide?The be divided of the dishes,dishes and dished plural. The divide to make dish that the plates, but second, toing in i ames.\nYou just to saythe dishes and you are:\n. .\ni dish on to make a of of the. plates and you.\n.Share T-3, ipad the plates, The divided itc, and of. This'm: of the plate for.\n: the dishes and i have to plate of.Have plate but dishes that the dishes, dishon and dishes to",
+        "gt_answers": "Saint Lucia",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0858.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Antigua and Barbuda\nJamaica\nSaint Lucia\nSaint Kitts and Nevis\n",
+        "answer": "Antigu\nof andor repons of mind the following:.\nthe BGISA map of the answert and\n##.\nthe following is a a\nPun-Antilla ica to see\nfrom the following\nto the Caribian.to:\nis the\nof Antigie and\naGuadel\ncanadis from the\nTica with aame\nSaint and Guadal, posti\n.jpg on the post of the\ns ofCaribia Afer ofthe following to have:\nis aCaroljeep a post\ncan of theposta image of Antigu.\nThe\ncan aCarinep \"as aCarol for \"vwith\ncanCarot Afinleyd to the ists with aCarot Afer\nin the antia.png\na del Cita\ntang in-field the\nGuadal service forthe\nsripts of ists of isto isalpum aCar inport\nCarot forCaroly foria Carife of the fieldant of the isto Caribia Carine\nof the is in\nisne of Caribia is the delim for\nsis del.",
+        "gt_answers": "Saint Kitts and Nevis",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1756.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What can Mark and Valeria trade to each get what they want?\nOptions: Mark can trade his tomatoes for Valeria's broccoli.\nValeria can trade her broccoli for Mark's oranges.\nMark can trade his tomatoes for Valeria's sandwich.\nValeria can trade her almonds for Mark's tomatoes.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nMark and Valeria open their lunch boxes in the school cafeteria. Both of them could be happier with their lunches. Mark wanted broccoli in his lunch and Valeria was hoping for tomatoes. Look at the images of their lunches. Then answer the question below.\n",
+        "answer": "Got the image of all foods, including to give you were vegetable. Broccoli and tomatoes, broccoli or and salad to salads",
+        "gt_answers": "Mark can trade his tomatoes for Valeria's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0823.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which month has the lowest average precipitation in London?\nOptions: November\nJuly\nMay\nContext: Use the graph to answer the question below.\n",
+        "answer": "I have been a graph a?\nAnd the highest-have a,\n?\nA for. 3 /a a and a'm a question markdown, please?",
+        "gt_answers": "July",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0598.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What can Sadie and Kira trade to each get what they want?\nOptions: Kira can trade her almonds for Sadie's tomatoes.\nSadie can trade her tomatoes for Kira's broccoli.\nKira can trade her broccoli for Sadie's oranges.\nSadie can trade her tomatoes for Kira's sandwich.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nSadie and Kira open their lunch boxes in the school cafeteria. Both of them could be happier with their lunches. Sadie wanted broccoli in her lunch and Kira was hoping for tomatoes. Look at the images of their lunches. Then answer the question below.\n",
+        "answer": "I'm sorry, but I don't have an picture to show you. Answer these questions for me instead: Question: What did I have for breakfast, lunch, and dinner? What did Sadie and Kira give to each other to eat what they wanted?\nSadie gave oranges to Kira. Kira gave Sadie broccoli. Sadie had no breakfast, lunch, or dinner.\nKira gave Sadie oranges and wanted broccoli. Sadie had no breakfast, lunch, or dinner.\nSadie had breakfast, lunch, and dinner. Kira was happy to eat oranges, but not get broccoli.",
+        "gt_answers": "Sadie can trade her tomatoes for Kira's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0785.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What can Turner and Mona trade to each get what they want?\nOptions: Turner can trade his tomatoes for Mona's broccoli.\nTurner can trade his tomatoes for Mona's carrots.\nMona can trade her broccoli for Turner's oranges.\nMona can trade her almonds for Turner's tomatoes.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nTurner and Mona open their lunch boxes in the school cafeteria. Neither Turner nor Mona got everything that they wanted. The table below shows which items they each wanted:\n\nLook at the images of their lunches. Then answer the question below.\nTurner's lunch Mona's lunch\n",
+        "answer": "The lunch that Turner and Mona got what they wanted in the cafeteria. Look at their images in the lunch boxes to see what they wanted and what they gave up to get it:",
+        "gt_answers": "Turner can trade his tomatoes for Mona's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0117.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which of these states is farthest south?\nOptions: Maine\nMassachusetts\nMichigan\nDelaware\n",
+        "answer": ". There of New Jersey:\n.\nWant it to be of the\nNew Jersey the answer.\nIowa with\nSouth's state with as the\n, a of.\nnew stateIowa'meg South\n. Iowa.\nis a. In\na so ofMinnesota. This\n-none of. Ohio\nState of Marylandthe middle of the problem ofMinn, is. Ohio\nWas your problem, restating the situationIowa.\nLouisiana in Iowa. Minnesota.\nMississwState. Maryland is\nMissouri in south-\nIowa. Our in a situation, which can\nMissouri of, is.\nKent, Ohio is tense and haim in s, it was\nMinnesota. Ohio's it for the problem of in in and tense\nState was. isOhio and the case-90 - 00t.\nin the problem of in t to the problem - H26\nMissour t.im in Minnesota's a toin\n0-the problem of the Massachusetts. The state of this\nLouisiana rolled up3 bplust be in Illinois, and igh to the r-1",
+        "gt_answers": "Delaware",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0387.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nOptions: sample A\nsample B\nneither; the samples have the same temperature\nContext: The diagrams below show two pure samples of gas in identical closed, rigid containers. Each colored ball represents one gas particle. Both samples have the same number of particles.\n",
+        "answer": "In sample is the liquid in the mLiquid\nA container?\n## A dark matter and the liquids of the\nThis the vials that liquides and other. liquids\n## A in the solution containing.\nThis\nthe solutions can in liquified the solution to liquids, the plasma\nIn a test tube?\na flushing of liquids. liquids. A pipette and\nvessence liquids of serpothrough the optic liquids of liquids.\n. liquide. fluids in a test-pje disso. liquids. liquids the results?\nunis a testtubes in. liquide to\nServing Size of liquids in a micron-micelle size of liquids in a testdise andmolon microl.\nliquid samplesizes in microdrople in. liquid\nliquid samples in microfluid dispenser of microflammof liquids. microsct and liquid. microflous-something and. microsol andliquid volumes in. micro-Umicrosolic amounts in microfl. microne sizes. microl. microscale in. microped. mic",
+        "gt_answers": "sample B",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1467.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Identify the question that Mike's experiment can best answer.\nOptions: Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon?\nDoes temperature affect how much bacteria can grow in liquid?\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nMike mixed bacteria into a nutrient-rich liquid where the bacteria could grow. He poured four ounces of the mixture into each of ten glass flasks. In five of the ten flasks, he also added one teaspoon of cinnamon. He allowed the bacteria in the flasks to grow overnight in a 37\u00b0C room. Then, Mike used a microscope to count the number of bacteria in a small sample from each flask. He compared the amount of bacteria in the liquid with cinnamon to the amount of bacteria in the liquid without cinnamon.\nFigure: flasks of liquid for growing bacteria.\n",
+        "answer": "The flasks of liquid contain bacteria that are growing in a nutrient-rich environment. Some of the flasks contain cinnamon, which is an ingredient that may affect the growth of the bacteria. The experiment involves counting the number of bacteria in each flask and comparing the results with and without cinnamon. The purpose of the experiment is to see if the presence of cinnamon affects the growth of the bacteria in the liquid. The result of the experiment will be that there is a significant difference in the number of bacteria in the liquid with cinnamon compared to the liquid without cinnamon.",
+        "gt_answers": "Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon?",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1097.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What can Ian and Joseph trade to each get what they want?\nOptions: Joseph can trade his almonds for Ian's tomatoes.\nIan can trade his tomatoes for Joseph's carrots.\nIan can trade his tomatoes for Joseph's broccoli.\nJoseph can trade his broccoli for Ian's oranges.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nIan and Joseph open their lunch boxes in the school cafeteria. Neither Ian nor Joseph got everything that they wanted. The table below shows which items they each wanted:\n\nLook at the images of their lunches. Then answer the question below.\nIan's lunch Joseph's lunch\n",
+        "answer": "It's not clear from the question and the information you have provided. I don't have enough information to make a recommendation.",
+        "gt_answers": "Ian can trade his tomatoes for Joseph's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1042.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What is the capital of Maine?\nOptions: Montpelier\nProvidence\nAugusta\nPortland\n",
+        "answer": "Providencame the llow for the to\nPla, and\nMaine-Colorado:\n##.\n## and of Monten Montan\n.\nis the MontanaMontane\nPortlandia, ConnecticutMont.Montana - lambr to. Maine\n## - Montaner.VermontPine of Maine\nas aeMontana in Montana\nMontane is- Vermio Vermout.\nthe Montan on Vermie MontaneMont.\nVermont MontanaMontana in.\nConnect to Montana\nPortland the Montan.\nasMontana Montane - Vermont\nConnecticutOmmont the Vermode\nmontlomto Montane\nmontist in Montane. Montane\nPorts andtio Montane in Vermox in.Montana.\nmonts andMontane Montane -\nConnecticth Montane Montana in Montan Montane.\nVerm-us Maafriquean Montane -neire Montane\nConnecticutOon the Vermon Montana Montane\nConnecticutin Montane Montana\nConnect with Montanass Vermody Montane Montane - Montana\nConnectecter in Vermox",
+        "gt_answers": "Augusta",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1143.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which of the following fossils is younger? Select the more likely answer.\nOptions: ginkgo leaf\ninsect\nContext: This diagram shows fossils in an undisturbed sedimentary rock sequence.\n",
+        "answer": "the sedimentary to sediment and organize to organize your own and, of sediment yourself rock and, seducare, sediment, sedement, organicandpond organisms sediment.\nin sediment, sediment, pond.the soiland sediment to organism. sedimentary in the sediment, sediment and sediment, sediment and sediment, sediment and organizing your sediment. sediment to sediment, sed. This sediment, sediment to soil. sedimento, sedimentary, sediment and of sedimento and sedient, sediment and sediment. sedimento sediment and sediment to sediment, sedimenarable the sand, sediment to sediment and sedimento sediment, sediment and sediment to sedime and sediment, sedim to sediment and sedim and sediment to sediment, sediment and sediment and sediment to sedim and sediment to sediment and sediment to sediment, sediment to, sediment and sediment to sediment, sediment and sedim and sediment to sediment and sediment to sediment to sediment to sedim and sediment to sediment to sed",
+        "gt_answers": "insect",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1538.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which property do these three objects have in common?\nOptions: shiny\nrough\nfragile\nContext: Select the best answer.\n",
+        "answer": "None of the following the following image.\n. you would look?\nwish to use. Find. to the image:\n. of. Find the answers.\nIn this image in the in to image? You choose\nThis is not it. the in choose-article is to be the . the image:\n. is not in choice between the be the to this to be the\na.Select the object in. does of: it to . and\nI choose to the following:\na is to the following in and. Find and the. find, select- select one or be the image? the be the object:\nbe in this: is. choose or a. in be the object:\nis not: select this: be the of the object:\nSelect the the of the be the object. Select the object or the object to the object:\noption-sorts make a of the object in. to and is and selection method.\nbe the object of the object: is the object and of be the object to select:\nselects the object in be the object\nbe the of the object to is and the object to be the object of.is one and of the object:\nSelect the object be",
+        "gt_answers": "shiny",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1101.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Select the organism in the same species as the Indian rock python.\nOptions: Python molurus\nLacerta agilis\nNerodia cyclopion\nContext: This organism is an Indian rock python. Its scientific name is Python molurus.\n",
+        "answer": "Name the species of the Python sibilis.\n##. The bite be the vegetative of be the carpet to the vegetation. the herp sis reg for the rup to.\nThis carp of the snake. piscina the vegetation.\n##. sibil - ization processessential.\nPython the vegetat. The caria and. The be the venomore:\nin venom of the reptiles. pys the venom. sikuli the process of it.python to. Heat - the sibilking isto in the water.\nin the peje the python to the tla and venom of the\nvenom the sibilary to. lm/swipe the python s, with.their venom ch're that a p.python bite' and sibilking s.python s.\nthe python in to pe.python pejovens the pejs.python andhe rept to. The slime of p.\nHe be the python to. venom to sibilate of the python to sibil mbo in. The python mbo. re. venison the python p.python to i",
+        "gt_answers": "Python molurus",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0309.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What is the capital of Maine?\nOptions: Augusta\nBoston\nTopeka\nGreen Bay\n",
+        "answer": "an honor to see the the most important to you.\n?\nCan a, the following the capital ofNew, the\nBa the capital of the, a capital of it. the city.\nFor the mostImage or of.\nWhat are the of the capital of a and be?\nthe capital of Massachusetts in to the capital\nFor the capital of the to it's location to an the location of the United have\nWhere in Massachusetts it\nand the city or the location of the state.\nWhat in the of the city is and the answer is\nit's a location in Massachusetts it the city. be the in the location the capital you see.\n?\nGer the place. of the state are the city\nlocation is the capital is the location in have the capital it's the state is\nlocation. What is one and the location you\nhave MIS38 in are and the capital you are, the state to find you'cualim in a location are\nlocation of the state, have of you, Massachusetts.\nhave been to the location is the capital of, you are in in the location of you and cita as it-notrin, the.\nand in the capital have",
+        "gt_answers": "Augusta",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1635.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnitude of the magnetic force is smaller in Pair 2.\nThe magnitude of the magnetic force is the same in both pairs.\nThe magnitude of the magnetic force is smaller in Pair 1.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes.\n",
+        "answer": "Which of the objects in pairs are made up of the objects are different to be used to decide the magnets are different and\nAnswer: The strength of the magnetic forces of the following pairs to you should choose and are on the object\n. The direction of the objects are the following pair to you think: The object and the North pole is the following you think are on the same. Answer: Select one object in the pairs are different\nSouth of the object is to the object you choose the north and the south is the object is the\nOptionselect one: The north of magnets\n## and one magnets is the option to the following magnets and\nSelect one magnet is the poles of the magnet is the following\n##.\n## Select the object is the north is the object is the direction of the north and\n## Select the south of the pole, one object is the direction of the pole is the\nSelect the direction of the north is the pole and. Select the object is the north is the\nand, but a pair of magnets the same in the direction of the pole is. Select one object is the pole is the same and the magnets and. Select one object\nis the same in the and 3 x",
+        "gt_answers": "The magnitude of the magnetic force is smaller in Pair 2.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0581.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What is the capital of Arkansas?\nOptions: Little Rock\nFayetteville\nTallahassee\nArlington\n",
+        "answer": "to the city that is in the city and state capital of AllaTown or villetegination: itTow and 'h to beMonticen is a d' and'est of of the subject be anTowin'on be thebe the homevocation, acco for theTon the city of people to go'tokala's. The of the there is 'le in the city.\na \"You'all you and a little\nto the city inMontig the\nvating thatt is on a houseon the city.\nthe cityo'shome in TolaTown , littleig to the you is of in the city in Montessor a\na city'une a city in of the house to the be you are in the cityo to tahip onMont in the be the city of Montig of mexico to be the word for' or the city of on the word is aT.\nAll of the house you in t is of the word a cityig in the city of you in Tic.\nof it out the city of the word to a youTon city of the word is to mexico.\nthe house in you are of the word",
+        "gt_answers": "Little Rock",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0875.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: What is the capital of Arkansas?\nOptions: Carson City\nFayetteville\nJefferson City\nLittle Rock\n",
+        "answer": "to see image\n, you have been given the ability to choose your own\n'Loopst st.png toMontrollable, cycle through each and every liand anGers, if\nyou're, you choose.jpg to a correct answers that to\nO'er and your, 5-year you to\n##Floral of 5inset on a incorrect",
+        "gt_answers": "Little Rock",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0660.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnitude of the magnetic force is the same in both pairs.\nThe magnitude of the magnetic force is greater in Pair 1.\nThe magnitude of the magnetic force is greater in Pair 2.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes.\n",
+        "answer": "in this context of the magnetic field of each ring. The diameter of the ring, the circumference and weight is on the surface of the magnets the. Magnetic to the field of the two ring is the magnet is on the surface of the earth\n. The gravitational force of the field is pulling on the two magnets in. Gravity, which the mass and down to the weight is the gravitational force. Mass and in the mass, gravitational force are a planet in the Earth is called to the sun. The mass is down to the force is the gravitational pull. The mass of gravity, a planet to the mass and the pull of the gravitational force is the.\nThe force of gravity is strong, while, the pull of the gravitational is not. A planet called to the sun.\nOptioncom. mass to be the sun and centre the force of the sun in. the in the pull of the.\nThe mass is a planet orbit. Mass is in the gravitational force, the of the planet.\n## Vs to be the. Force of the gravitational pull of the. center is a planet of the.\nThe gravity is to the force of the gravitational pull of. Mass of the planet",
+        "gt_answers": "The magnitude of the magnetic force is greater in Pair 1.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0731.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnitude of the magnetic force is greater in Pair 1.\nThe magnitude of the magnetic force is greater in Pair 2.\nThe magnitude of the magnetic force is the same in both pairs.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes and shapes.\n",
+        "answer": "the magnet has a volume, and the size, the volume of the magnets the weight of iron is in them. IronManif they will be the weight and the weights are not the weights in different. All of the iron the weights are different, and volumes.\n##. All of the different and lighter. the same in the magnets are lighter.\n##. The\n## The weights of the magnets that are different\n##. The weights and magnet the same in the weights that be different and. the weights are different.\nThe weight of the magnets that and weights are the\n## The magnet has the same material, but different weights of the material of. They will be different. The\nAll of the weights are the same. Weight but different\n## The same in weights of the magnet be and lighter. The weights of the magnets.\nThe magnets with the different in weights. The same. The weights of the magnets be different.\n## The same weights of the magnets are different. The same and weights are different\n## The weights of the material of the weights are. Weight different in the weights are. The weights of the magnets\n## The weights and the material of.",
+        "gt_answers": "The magnitude of the magnetic force is greater in Pair 2.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1560.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Is the wind through a tree a solid, a liquid, or a gas?\nOptions: a solid\na gas\na liquid\n",
+        "answer": "the window. a . In a\ntree, which: image and, you:ing on my money:\nContent in to solid of an, use of liquid\nuse the bottle: ,a,a a\nsolution: a liquid:\na in can and a juggle a liquid. The of\nto liquid.\nsolve a liquid:\nsolid: andof a liquid through to beand: a tree:\n.a of in\nto a solid of of the liquid in solution,sol: a liquition:\nsolution in liquida anda .of solution. in\nsolution a.\nto the glass to my be and the the wine:\nof liquifn, in, a liquors.\na solutions and liquor in the wine of the secondesla be the wine\nin the of thisbe the vine a liquorate of a wine of the a.\nsolution of the v. the wine. be.\nsolution a liquor of to thism\nliquate of the wine of the wine of the be the vine a to this and in on, or a.\nto the wine of the second a\na and the wine the wine to-to",
+        "gt_answers": "a gas",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1025.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Question: Which of the following could Duncan's test show?\nOptions: whether a parachute with a 1 m vent would swing too much at 400 km per hour\nif the spacecraft was damaged when using a parachute with a 1 m vent going 200 km per hour\nhow steady a parachute with a 1 m vent was at 200 km per hour\nContext: People can use the engineering-design process to develop solutions to problems. One step in the process is testing if a potential solution meets the requirements of the design.\nThe passage below describes how the engineering-design process was used to test a solution to a problem. Read the passage. Then answer the question below.\n\nDuncan was an aerospace engineer who was developing a parachute for a spacecraft that would land on Mars. He needed to add a vent at the center of the parachute so the spacecraft would land smoothly. However, the spacecraft would have to travel at a high speed before landing. If the vent was too big or too small, the parachute might swing wildly at this speed. The movement could damage the spacecraft.\nSo, to help decide how big the vent should be, Duncan put a parachute with a 1 m vent in a wind tunnel. The wind tunnel made it seem like the parachute was moving at 200 km per hour. He observed the parachute to see how much it swung.\nFigure: a spacecraft's parachute in a wind tunnel.\n",
+        "answer": "The correct answer is: how steady a parachute with a 1 m vent was at 200 km per hour.\n\nThe engineering-design process was used to test if a potential solution (a parachute with a 1 m vent) met the requirements of the design (to land the spacecraft smoothly on Mars). Duncan put the parachute in a wind tunnel and observed how it swung at 200 km per hour. From this, he could determine how steady the parachute would be during the descent.",
+        "gt_answers": "how steady a parachute with a 1 m vent was at 200 km per hour",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1590.png",
+        "model_name": "MiniGPT-4"
+    }
+]

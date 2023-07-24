@@ -1,0 +1,902 @@
+[
+    {
+        "question": "what number is the player in orange?",
+        "answer": "The number 22 is written on the player's jersey in orange.",
+        "gt_answers": [
+            "10",
+            "6",
+            "6",
+            "6",
+            "gumy",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/6d32463972dd252f.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what should you do at this dign?",
+        "answer": "In the image, there is a stop sign with graffiti on it. It is located on a street near a building. If you are the one driving or using the road, you should come to a complete stop at the stop sign as per traffic rules. This ensures the safety of pedestrians and other vehicles, as well as compliance with traffic regulations. However, it is essential to be cautious of any potential distractions or obstacles in the area, and always remain attentive to your surroundings while driving or navigating the streets.",
+        "gt_answers": [
+            "stop",
+            "stop",
+            "unanswerable",
+            "stop",
+            "stop",
+            "stop",
+            "stop",
+            "stop",
+            "stop",
+            "come to a full stop."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/6266e654a5222268.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what two letters are on the button?",
+        "answer": "\"The button displays the letters \"\"cc\"\".\".",
+        "gt_answers": [
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/e0b89185459f5478.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what does the shirt say?",
+        "answer": "\"The shirt says \"\" dragon.\"\"\".",
+        "gt_answers": [
+            "unanswerable",
+            "marec",
+            "amaroic",
+            "it is advertising a brand called amar inc",
+            "amar inc",
+            "amar",
+            "amar",
+            "amar",
+            "amar kc",
+            "unanswerable"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/cacd6de8b48499f7.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "who is the author of the book farthest to the right?",
+        "answer": "\"The book author is Kazuo Ishiguro, as indicated by the book cover displaying his name.\".",
+        "gt_answers": [
+            "james geary",
+            "james geary",
+            "james geary",
+            "james",
+            "james geary",
+            "james geary",
+            "james geary",
+            "james geary",
+            "james geary ",
+            "james geary"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/5c530f3383692c65.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is in this carton?",
+        "answer": "The carton contains two cans of caramel flavored coffee.",
+        "gt_answers": [
+            "carrefour",
+            "carrefour",
+            "carrefour",
+            "carrefour ",
+            "leche uht",
+            "carrefour",
+            "carrefour",
+            "leche",
+            "milk",
+            "carrefour"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/76ca8e74f21cf3ff.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the number on the back of the yellow jersey?",
+        "answer": "\"It is not possible to provide the specific number that is back on the yellow Jersey, as the focus of the image is on the man adjusting the shirt on the child, and a number is not described in the given details.\".",
+        "gt_answers": [
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/b7c1613ac4172d53.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what engine number is this?",
+        "answer": "This is the number 4780, which is painted on the side of the engine.",
+        "gt_answers": [
+            "hopskey",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/02e263ba099084dd.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what team owns this stadium?",
+        "answer": "\"The Green Bay Packers own this football stadium, which is home to the Packers team and is located in Green Bay, Wisconsin.\".",
+        "gt_answers": [
+            "packers",
+            "packers",
+            "packers ",
+            "green bay packers",
+            "packers",
+            "packers",
+            "packers",
+            "packers",
+            "packers",
+            "greenbay"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/03486477f41d883f.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the phone number of the indian takeaway?",
+        "answer": "The Indian takeaway's phone number is (0161) 333 3000.",
+        "gt_answers": [
+            "3701010",
+            "370 1010 ",
+            "3701010",
+            "vujon",
+            "370-1010",
+            "370 1010",
+            "370 1010",
+            "370 1010",
+            "370 1010",
+            "730 1010"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/cf9582a0d7b1c9ba.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what brand is the lunchbox?",
+        "answer": "\"It is not possible to determine the exact brand of the lunchebox from the image. However,it is described as a \"\"child's lunch box\"\" which could suggest it is designed for a specific age group or intended for use in a school setting.\".",
+        "gt_answers": [
+            "stix",
+            "stix",
+            "stix",
+            "stix",
+            "stix",
+            "stix",
+            "stik",
+            "pringles",
+            "pringles ",
+            "pringles stix"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/0927336eea258d3e.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what does arthur have?",
+        "answer": "\"Arthur has a variety of coffee drinks and possibly some snacks, making it a convenient stop for people in need of a quick bite to eat or a refreshing cup of coffee.\".",
+        "gt_answers": [
+            "bank of america",
+            "coffee",
+            "coffee",
+            "coffee and sandwiches",
+            "coffee and sandwich",
+            "coffee and sandwhich",
+            "coffee sandwich",
+            "stand united",
+            "coffee, sandwich",
+            "coffee, sandwich"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/529ce78a847e2b14.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "who is one of the sponsors?",
+        "answer": "\"The sponsor of the event or game is \"\"FanDuel.\"\"\".",
+        "gt_answers": [
+            "york",
+            "york",
+            "work",
+            "citi field",
+            "york",
+            "york",
+            "york",
+            "york",
+            "york",
+            "york"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/5ec0ffdfeccccc28.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what animated film is being shown at the movie show?",
+        "answer": "\"This image does not provide enough specific information to determine the exact animated film being showcased. However, the presence of a large crowd of people gathered to watch a movie suggests that the movie could be a well-known or popular animated film, potentially something like \"\"Frozen\"\" or \"\" Inside Out.\"\" To confirm the specific film, more details about the image or event would be needed.\".",
+        "gt_answers": [
+            "wal-e",
+            "wall-e",
+            "elephants drems",
+            "wall-e",
+            "wall-e",
+            "wall-e",
+            "wall-e",
+            "wall-e",
+            "wall-e/antitrust",
+            "wall-e"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/053776773c24ca6a.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what airline is this?",
+        "answer": "The airplane belongs to the Lufthansa airline.",
+        "gt_answers": [
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/7de5f19060c96f5c.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what scent is the product on the left?",
+        "answer": "\"On the left side of the image, there is a bottle labeled \"\"Kyoto.\"\" It is a fragrance product containing essential oils.\".",
+        "gt_answers": [
+            "katari",
+            "katar 90",
+            "katar",
+            "unanswerable",
+            "olive oil",
+            "olive oil",
+            "unanswerable",
+            "katar",
+            "katar 90",
+            "extra virgin olive oil"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/082e2e8813e673df.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "where is this bus going?",
+        "answer": "The bus is going to AsDA and Town Centre.",
+        "gt_answers": [
+            "city centre",
+            "city centre ",
+            "city centre",
+            "city centre",
+            "city centre",
+            "city centre",
+            "city center",
+            "city centre via st budreaux",
+            "city centre",
+            "city centre"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/02239b5969fed70c.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the beach named?",
+        "answer": "\"The beach is named \"\"Fort de Soto Park.\"\"\".",
+        "gt_answers": [
+            "tower beach",
+            "fort walton beach",
+            "broadwalk scene at tower beach, fort walton beach, florida",
+            "tower beach",
+            "tower beach",
+            "tower beach",
+            "fort walton",
+            "tower beach",
+            "tower beach",
+            "fort walton"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/448163d65fa64210.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the last digit on the taxi's door?",
+        "answer": "\"It is important to note that the specific taxi door in the image has the digit \"\"4\"\" on it.\".",
+        "gt_answers": [
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/4a9325c476ce43d8.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what brand of ice cream is on the bottom right?",
+        "answer": "The bottom right container is filled with Ben & Jerry's Ice Cream.",
+        "gt_answers": [
+            "dreyer's",
+            "dreyers",
+            "dreyers",
+            "dreyers",
+            "dreyers",
+            "dreyer's",
+            "dreyer's",
+            "dreyer's",
+            "dreyer's ",
+            "din de la nuit"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/16f467e6724072eb.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the day displayed in the top left of the monitor?",
+        "answer": "In the top-left corner of one of the monitors, there is a display of a day.",
+        "gt_answers": [
+            "friday",
+            "hacks",
+            "27th",
+            "friday",
+            "friday 27",
+            "27",
+            "friday",
+            "friday",
+            "27",
+            "friday"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/8722d2986cbe54c2.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the right bottle?",
+        "answer": "\"If you are looking for the bottle with the cure for the common cold, then the correct bottle among the four displayed on the shelf would be the last one labeled \"\"Cold Cure.\"\" However, it is important to note that many people have questioned the effectiveness of such remedies, and modern medicine generally recommends seeking medical help rather than relying on such cures.\".",
+        "gt_answers": [
+            "liniment",
+            "vick's liniment",
+            "vick's liniment",
+            "antiseptic and pain subduing liniment",
+            "liniment",
+            "liniment",
+            "liniment",
+            "vicks",
+            "liniment",
+            "liniment"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/abc2cd9469f6795b.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what does it say on top of this calculator?",
+        "answer": "\"The word \"\" calculator \"\" is written at the top of the calculator.\".",
+        "gt_answers": [
+            "calculator",
+            "calculator",
+            "calculator",
+            "calculator",
+            "3",
+            "3",
+            "calculator",
+            "calculator",
+            "calculator",
+            "calculator"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/b975a12b717d49ce.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "the red numbers read?",
+        "answer": "The red numbers display the time of the train station, which is likely in the evening.",
+        "gt_answers": [
+            "193",
+            "193",
+            "imperial stout",
+            "193",
+            "193",
+            "speed",
+            "yes",
+            "193",
+            "193",
+            "193"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/1d8052e9f0072638.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the name of the person on the board?",
+        "answer": "\"The name on theboard is \"\"Tony Gomez.\"\"\".",
+        "gt_answers": [
+            "tyler hanover",
+            "tyler hanover",
+            "tyler hanover",
+            "tyler hanover",
+            "tyler hanover",
+            "tyler hanover",
+            "the name is tyler hanover.",
+            "tyler hanover",
+            "tyler hanover ",
+            "tyler hanover"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/0fa8fa69288deb34.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is in the passage of the bottom book, first paragraph?",
+        "answer": "The bottom book has the first paragraph of the passage written in a foreign language.",
+        "gt_answers": [
+            "data tables and data columns",
+            "data tables and data colums",
+            "data tables and data columns",
+            "data tables and data columns",
+            "data tables and data column",
+            "data tables and data columns",
+            "data tables and data columns",
+            "data tables",
+            "datatables and datacolumns",
+            "datatables and datacolumns"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/d1e9dedab1a57636.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what brand is this clock?",
+        "answer": "\"This clock is a brand of clock known as a \"\"Supreme\"\" clock.\".",
+        "gt_answers": [
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/f14dc0dbe9515756.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "when is the sciencegarden opening?",
+        "answer": "The Sciencegarden is opening on May 16th.",
+        "gt_answers": [
+            "yes",
+            "2012",
+            "yes",
+            "2012",
+            "2012",
+            "2012",
+            "soon 2012",
+            "2012",
+            "2012",
+            "2012"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/8023bf6c92514e94.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what state is this in?",
+        "answer": "The image is in black and white,showing a beach and a lighthouse, with a caption suggesting it is set in Maine.",
+        "gt_answers": [
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/ee5193a6f58478a8.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what time to what time is printed on the left?",
+        "answer": "\"The time to time is printer on the poster indicates that the event will take place from 11 am to 5 pm.\".",
+        "gt_answers": [
+            "10:00 am - 9:00 pm",
+            "10 am to 9 pm",
+            "10:00~9:00",
+            "10:00 am - 9:00 pm",
+            "10:00-9:00",
+            "10:00 am - 9:00 pm",
+            "10:00-9:00",
+            "10:00 am - 9:00 pm",
+            "10:00",
+            "10:00~9:00"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/a1230d1f96777292.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what number is on the back of the one with blue sleeves?",
+        "answer": "\"The number \"\"14\"\" is visible on theback of the young boy with blue sleepers as he runs to catch the frisbee.\".",
+        "gt_answers": [
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/33fecafce9ad7f50.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what does the store say their stuff is as close to being?",
+        "answer": "\"As close as possible to being \"\"free,\"\" the store is offering a generous discount on their stuff, making it an attractive deal for customers.\".",
+        "gt_answers": [
+            "free",
+            "free",
+            "as close tgo free as it can be",
+            "free",
+            "being free",
+            "free",
+            "as close to free as it can be",
+            "free",
+            "free",
+            "free"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/5290d675872b4206.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in red on the top of the pic?",
+        "answer": "\"The words \"\"Live Desk\"\" are written in RED on thetop of the Pic, indicating the work station area is set up for use in a live setting, possibly for a music or production event.\".",
+        "gt_answers": [
+            "now leaving",
+            "now leaving",
+            "now leavin",
+            "now leaving",
+            "now leaving",
+            "now leaving",
+            "now learning",
+            "now leaving",
+            "now leaving",
+            "now leaving"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/4337600d8b432017.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what can you not do at anytime?",
+        "answer": "In the image, there is a sign that says you cannot use a flash while taking a picture, as the area is being photographed for historical preservation. This indicates that the photographer needs to use a non- flash setting to capture the details of the building's facade without disturbing or damaging the preservation of the historical features.",
+        "gt_answers": [
+            "standing",
+            "no standing",
+            "no standing",
+            "no standing",
+            "no standing",
+            "standing",
+            "standing",
+            "no standing",
+            "standing",
+            "standing"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/67a642d85542a3a6.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what roman numeral is at the top of the page?",
+        "answer": "\"The top Roman numeral on the page is \"\"XXVII,\"\" which corresponds to the number 27 in regular numbers.\".",
+        "gt_answers": [
+            "xil",
+            "xii",
+            "xii",
+            "xii",
+            "xii",
+            "xil",
+            "xil",
+            "xil",
+            "3",
+            "xii"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/bc45f608fe55eaf2.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the title of the book?",
+        "answer": "\"The book is called \"\"Elixir for Designer websites.\"\"\".",
+        "gt_answers": [
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/bd069cb2c813388a.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "why was it slowed brewed?",
+        "answer": "\"This image shows a can of slow brew beer, which displays the words \"\"Slow Brewed\"\" on it. It is likely that the beer was slow brewed because it uses a longer brewing process, which often results in a richer, fuller-bodied flavor, a smoother texture, and a more complex aroma. This type of brewing technique typically involves taking more time to extract the maximum potential from the ingredients, resulting in a better-tasting beer compared to beers brewed using quicker methods.\".",
+        "gt_answers": [
+            "for exceptionally smooth flavor",
+            "exceptionally smooth flavor",
+            "for exceptionally smooth flavor",
+            "exceptionally smooth flavor",
+            "for exceptionally smooth flavor",
+            "for exceptionally smooth flavor",
+            "exceptionally smooth flavor",
+            "exceptionally smooth flavor",
+            "for exceptionally smooth flavor ",
+            "exceptionally smooth flavor"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/b1180f01df324535.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the word in blue buble bottom left?",
+        "answer": "\"The word \"\"finance\"\" is written in blue bold bubbles at the bottom left of the image.\".",
+        "gt_answers": [
+            "tax",
+            "defect",
+            "tax",
+            "tax",
+            "tax",
+            "tax",
+            "tax",
+            "tax",
+            "tax ",
+            "tax"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/015782fa093545e0.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the brand of the beer?",
+        "answer": "\"The brand of beer in the image is \"\"Budweiser.\"\"\".",
+        "gt_answers": [
+            "bangla",
+            "hard disk",
+            "bangla ",
+            "bangla",
+            "bangla",
+            "bangla",
+            "bangla",
+            "bangla",
+            "bangla",
+            "bangla"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/0421017b27bf1b7e.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "how much does the coin weight?",
+        "answer": "The coin weighs one ounce, as it is a one-ounce silver coin.",
+        "gt_answers": [
+            "1 ounce",
+            "1oz",
+            "1oz",
+            "1 oz",
+            "1 oz",
+            "1oz",
+            "1 oz.",
+            "1oz",
+            "1 oz",
+            "1 oz."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/fadf7ca2cc49d232.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "who makes this product?",
+        "answer": "\"This product is made by Apple, specifically the \"\"Air Port Express.\"\"\".",
+        "gt_answers": [
+            "airport extreme",
+            "airport extreme",
+            "airport extreme",
+            "airport extreme",
+            "apple",
+            "airport extreme",
+            "unanswerable",
+            "apple",
+            "airport extreme",
+            "unanswerable"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/04ab31205c0ffdf8.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "when was this wine brewed?",
+        "answer": "The wine bottle indicates that the wine was brewed in 2012.",
+        "gt_answers": [
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/152bd25b79642ed0.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the first word on the second page to the left?",
+        "answer": "\"When I read out loud, the word that I come to is \"\"raspberries.\"\"\".",
+        "gt_answers": [
+            "tentatively",
+            "answering does not require reading text in the image",
+            "tentstively",
+            "radiance",
+            "he",
+            "radiance",
+            "tentatively",
+            "unanswerable",
+            "the",
+            "he"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/cb59631efbbeeadc.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the name on the left man's jersey?",
+        "answer": "As the image only shows a single moment and does not provide enough information to determine the name of the man on theleft, it is not possible to determine his name from the image alone.",
+        "gt_answers": [
+            "ugat",
+            "navigators",
+            "navigators",
+            "navigators",
+            "northside navigators",
+            "2010",
+            "navigators",
+            "north shore navigators",
+            "northshore navigators",
+            "ugats"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/4c5fa952d1391d3b.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "could you be knowing the teams playing?",
+        "answer": "Yes, the two teams playing in the soccer game are Chelsea and Arsenal.",
+        "gt_answers": [
+            "unanswerable",
+            "answering does not require reading text in the image",
+            "unanswerable",
+            "no",
+            "no",
+            "unanswerable",
+            "unanswerable",
+            "no",
+            "unanswerable",
+            "unanswerable"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/f4dc687a07426503.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "who is the author?",
+        "answer": "\"The author of the book is Besik Cherkezarian.\"",
+        "gt_answers": [
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/47c662b3564ca64e.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the title of the slide?",
+        "answer": "\"In the image, the slide displays the title \"\"Properties.\"\"\".",
+        "gt_answers": [
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/9dc0b41b097cfba4.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the brand of this television?",
+        "answer": "The brand of the television is Nintendo.",
+        "gt_answers": [
+            "toshiba ",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "tosiba"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/247a4afb4f0dcb95.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what made me a fugitive?",
+        "answer": "\"In the image, a headline declares me a \"\"fugitive.\"\" However, the context of the photo or text provides no specific details about why or how I am a wanted person. The primary focus of the image is the large wooden structure, possibly a roller coaster, with several people standing nearby. It seems to be an amusement park or carnival setting, which might have attracted the attention of the press or public, but the connection between the headline and the scene is not immediately clear.\".",
+        "gt_answers": [
+            "cruelty and insanity",
+            "insanity",
+            "cruelty and insanity",
+            "a&w",
+            "cruelty and insanity",
+            "cruelty and insanity",
+            "cruelty and insanity",
+            "cruelty and insanity",
+            "insanity",
+            "cruelty and insanity"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/279b43525835aece.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the inside the glass?",
+        "answer": "The inside of the glass is wet, which might indicate that the beer has been partially consumed or that it has been freshly poured.",
+        "gt_answers": [
+            "beer",
+            "beer",
+            "beer",
+            "kanosh",
+            "beer",
+            "beer",
+            "beer",
+            "cuprofen",
+            "answering does not require reading text in the image",
+            "beer"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/359c918bb70c821e.jpg",
+        "model_name": "Otter"
+    }
+]

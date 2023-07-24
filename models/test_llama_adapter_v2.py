@@ -9,7 +9,7 @@ from . import get_BGR_image, DATA_DIR
 from . import llama_adapter_v2 as llama
 
 llama_dir = f'{DATA_DIR}/llama_checkpoints'
-model_path = f'{DATA_DIR}/llama_checkpoints/llama_adapter_v2_BIAS-7B.pth' # llama_adapter_v2_BIAS-7B.pth, llama_adapter_v2_0518.pth
+model_path = f'{DATA_DIR}/llama_checkpoints/llama_adapter_v2_LORA-BIAS-7B.pth' # llama_adapter_v2_BIAS-7B.pth, llama_adapter_v2_0518.pth
 
 
 from gradio_client import Client

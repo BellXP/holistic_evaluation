@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a tire with the word \"Michelin\" written on it.#\n\nThe image also shows",
+        "gt_answers": "MICHELIN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/220.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow and black label with the word \"NY\" written on it.#\n\n#\n",
+        "gt_answers": "VINYL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/093.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Feminist\" written on it.#\n\nThe sign is",
+        "gt_answers": "FINISH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/121.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"Pip\" and \"Pip Plastics\" written on it.",
+        "gt_answers": "MAPLES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/197.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Snack 4.\"The sign is located on a building or a storefront",
+        "gt_answers": "SNACK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/280.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a blue screen with the words \"Instructions\" written on it.#\n\n#\n\n",
+        "gt_answers": "STATION",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/256.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"TARAR\" on it.#\n\nThe sign is red and",
+        "gt_answers": "START",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/120.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon sign that says \"OK.\"The sign is located on a building, possibly a bookstore",
+        "gt_answers": "LOKA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/086.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red shirt with the word \"Falcon\" written on it.The word \"Fal",
+        "gt_answers": "WALCOTT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/042.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Westside.\"The sign is located on a sidewalk, and it is written",
+        "gt_answers": "WEST",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/130.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"DUT.\"The sign is located on a pole, and it is made",
+        "gt_answers": "du",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/286.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the words \"Dells\" and \"Belles\" written underneath it.",
+        "gt_answers": "CHELSEA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/083.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Enemies\" written in white letters on a black background.The image is a",
+        "gt_answers": "Grenier",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/234.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a sign that says \"Bader\" on it.#\n\nThe sign is blue and white",
+        "gt_answers": "academy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/015.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white and blue sign with the words \"Today\" written on it.#\n\n#\n",
+        "gt_answers": "DAY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/179.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"chocolate\" written on it.#Chocolate.com\n#",
+        "gt_answers": "chocolates",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/262.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the words \"DAMELS\" written on it.The sign is located on a wall",
+        "gt_answers": "CHELSEA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/061.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Imagining\" in a yellow and brown color scheme.The sign is located in a public space",
+        "gt_answers": "TAGINE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/281.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a soccer jersey with the number 33 on it, and it is signed by the player.The image also shows a close-",
+        "gt_answers": "32",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/052.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white label with the word \"Protect\" written on it.#\n\nThe label is placed on a",
+        "gt_answers": "Protect",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/191.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white picture of a shirt with the word \"FOURS\" written on it.#\n\n#\n",
+        "gt_answers": "HOUSE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/104.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"KKK\" on it.The sign is located in a park, and it is surrounded by trees",
+        "gt_answers": "Frikkie",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/285.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a white sign with the word \"McDonald's\" written on it.The image also shows a",
+        "gt_answers": "KINGDOM",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/165.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the words \"Wenger\" and \"Arsenal\" written on a red shirt.#\n\nThe image features a red",
+        "gt_answers": "RONALDO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/001.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a book cover with the title \"The Circus of Love\" written on it.#\n\nThe book cover is purple",
+        "gt_answers": "CAROUSEL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/227.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a close-up of a black and white picture of a number, which is likely a date or a number representing a date.",
+        "gt_answers": "1886",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/038.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a Starbucks logo, which is a green and white logo with a woman's face on it.The Starbucks logo is displayed on",
+        "gt_answers": "STARBUCKS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/273.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow sign with the word \"No Shimmering\" written on it.The sign is placed on a pole, and",
+        "gt_answers": "SWIMMING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/203.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white background with the word \"Closure\" written in blue letters.The word \"Closure\" is written in blue",
+        "gt_answers": "Exclusive",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/264.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a close-up of a blue and white sign with the word \"ten\" written on it.The image is a close",
+        "gt_answers": "HISTORIC",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/231.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a white sign with the word \"world\" written on it.#\n\nThe image is a",
+        "gt_answers": "World",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/267.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"IPA.\"The sign is located in a dark room, possibly a bar or a pub, and",
+        "gt_answers": "IPA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/106.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Branch\" written on it.#\n\n",
+        "gt_answers": "entrance",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/016.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and yellow sign with the word \"O\" written on it.#",
+        "gt_answers": "MOD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/221.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue shirt with the word \"Rory\" written on it.#\n",
+        "gt_answers": "TORRES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/078.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and yellow sign that says \"Satisfaction.\"The sign is placed on",
+        "gt_answers": "SATIS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/020.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"Manchester United\" written on it.The sign",
+        "gt_answers": "MANCHESTER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/100.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the word \"NL\" written on it.The",
+        "gt_answers": "NIL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/019.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"MAMMAMIA.\"The sign is located on",
+        "gt_answers": "GEMBIRA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/085.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red jersey with the number 7 written on it.#7 Jersey Red.",
+        "gt_answers": "7",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/002.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a book cover with the title \"The Living Deads\" written on it.",
+        "gt_answers": "FLYING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/223.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a shirt with the word \"Arsenal\" written on it.# Arsenal\n",
+        "gt_answers": "ARSENAL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/033.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Air\" written in white letters on a blue background.The image",
+        "gt_answers": "DAIRY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/268.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a purple background with the words \"BLOGS\" written in white.The",
+        "gt_answers": "aishahaleyesblogspotcom",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/263.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white striped shirt.The shirt has the number \"1\"",
+        "gt_answers": "1",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/041.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a soccer jersey with the number 5 on it.The number 5 is written on",
+        "gt_answers": "5",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/068.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue sign with white lettering that reads \"Artet.\"#\n\n",
+        "gt_answers": "ARTETA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/045.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white label with the words \"FAMILIAR\" written on it.",
+        "gt_answers": "FAMILY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/193.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"Minganagana\" written on it.",
+        "gt_answers": "KNIGHT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/049.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo with the words \"Naval Aviation\" written on it.The",
+        "gt_answers": "NAVAL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/177.jpg",
+        "model_name": "LLaVA"
+    }
+]

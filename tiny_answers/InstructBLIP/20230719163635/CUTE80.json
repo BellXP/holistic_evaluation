@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "michelin",
+        "gt_answers": "MICHELIN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/220.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "vinyl",
+        "gt_answers": "VINYL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/093.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "finish",
+        "gt_answers": "FINISH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/121.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "maples",
+        "gt_answers": "MAPLES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/197.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "snack",
+        "gt_answers": "SNACK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/280.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "station",
+        "gt_answers": "STATION",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/256.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "start",
+        "gt_answers": "START",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/120.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "kolaka",
+        "gt_answers": "LOKA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/086.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "walcott",
+        "gt_answers": "WALCOTT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/042.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "west point",
+        "gt_answers": "WEST",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/130.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "du",
+        "gt_answers": "du",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/286.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chelsea",
+        "gt_answers": "CHELSEA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/083.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "grener",
+        "gt_answers": "Grenier",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/234.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "academy",
+        "gt_answers": "academy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/015.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "day",
+        "gt_answers": "DAY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/179.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chocolates",
+        "gt_answers": "chocolates",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/262.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chelsea",
+        "gt_answers": "CHELSEA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/061.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tagine",
+        "gt_answers": "TAGINE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/281.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "32",
+        "gt_answers": "32",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/052.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "protect",
+        "gt_answers": "Protect",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/191.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "house",
+        "gt_answers": "HOUSE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/104.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "frinkie safe",
+        "gt_answers": "Frikkie",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/285.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "kingdom",
+        "gt_answers": "KINGDOM",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/165.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ronaldo",
+        "gt_answers": "RONALDO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/001.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "carousel",
+        "gt_answers": "CAROUSEL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/227.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "1886",
+        "gt_answers": "1886",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/038.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "starbucks",
+        "gt_answers": "STARBUCKS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/273.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "no swimming",
+        "gt_answers": "SWIMMING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/203.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "exclusive",
+        "gt_answers": "Exclusive",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/264.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "history",
+        "gt_answers": "HISTORIC",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/231.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "world",
+        "gt_answers": "World",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/267.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ipa",
+        "gt_answers": "IPA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/106.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "entrance",
+        "gt_answers": "entrance",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/016.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "mod",
+        "gt_answers": "MOD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/221.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "torres",
+        "gt_answers": "TORRES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/078.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "satis",
+        "gt_answers": "SATIS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/020.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "manchester",
+        "gt_answers": "MANCHESTER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/100.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "nill",
+        "gt_answers": "NIL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/019.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "gibraltar",
+        "gt_answers": "GEMBIRA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/085.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "7",
+        "gt_answers": "7",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/002.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "flying horse",
+        "gt_answers": "FLYING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/223.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "arsenal",
+        "gt_answers": "ARSENAL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/033.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "dairy",
+        "gt_answers": "DAIRY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/268.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "asha haleyes blogspot com",
+        "gt_answers": "aishahaleyesblogspotcom",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/263.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "1",
+        "gt_answers": "1",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/041.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "5",
+        "gt_answers": "5",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/068.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "artea",
+        "gt_answers": "ARTETA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/045.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "family",
+        "gt_answers": "FAMILY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/193.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "knight",
+        "gt_answers": "KNIGHT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/049.jpg",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "naval",
+        "gt_answers": "NAVAL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/177.jpg",
+        "model_name": "InstructBLIP"
+    }
+]

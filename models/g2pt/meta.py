@@ -53,11 +53,11 @@ class MetaModel(nn.Module):
     def generate(
         self,
         images,
-        prompts: list[str],
+        prompts, # : list[str],
         max_gen_len: int,
         temperature: float = 0.8,
         top_p: float = 0.95,
-    ) -> list[str]:
+    ): # -> list[str]:
         bsz = len(prompts)
         params = self.llma.params
         assert bsz <= params.max_batch_size, (bsz, params.max_batch_size)

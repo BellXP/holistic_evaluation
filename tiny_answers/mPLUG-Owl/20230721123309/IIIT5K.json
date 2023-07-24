@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue and white sign with the words \"10\" printed on it.",
+        "gt_answers": "SHOES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/321_4.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the name \"Johnny's\" written on it.",
+        "gt_answers": "JOHNNY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/107_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a white and blue textured wall with a message written in black. The message reads, \"You Are Not Alone,\" which is accompanied by a heart.",
+        "gt_answers": "TO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/850_6.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image depicts a large red and white sign that reads, \"Television Digest.\" The sign is attached to the side of a building and is visible from the sidewalk.",
+        "gt_answers": "TDK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2564_2.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays an address number, specifically the number 436, written on a piece of paper.",
+        "gt_answers": "136",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2255_8.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the text \"NON\" written in blue letters on a white background with an exclamation mark at the end.",
+        "gt_answers": "NON",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/857_22.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the words \"MA\" and \"Made\" written in a large font on a white background.",
+        "gt_answers": "AN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2524_43.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a black and white photo of a group of people standing in a room or a dining area. There are a total of eight individuals visible in the picture, some standing close together while others are more spread out.",
+        "gt_answers": "INDIA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/209_4.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, white poster that is partially cut off on the left. The poster is likely displaying a logo, a slogan, or a company name. The poster is mounted on a wall or placed on a surface, making it easy for people to read.",
+        "gt_answers": "SEE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/598_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, a white banner with blue letters is written, reading \"O.F.S.\" The word \"Father\" can also be seen on the banner.",
+        "gt_answers": "OF",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/31_2.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white photograph of the words \"The Thing\" written out in a large block.",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5129_7.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white wall with a sign on it that reads, \"Welcome to the Office of Student Services.\"",
+        "gt_answers": "LOCATIONS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/958_18.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image depicts a large, white, and black cake that is covered in green icing. The top of the cake is decorated with an American flag, and a banner reads \"Happy Birthday\" in white lettering. The cake is placed on a table and appears to be ready to serve to guests.",
+        "gt_answers": "HALL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2588_2.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white background with a black and white number \"40\" written on it.",
+        "gt_answers": "40",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/747_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large green sign that is yellow with white lettering, which reads \"EIG.\"",
+        "gt_answers": "HYGIENE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2285_2.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a vintage-style wooden bowl filled with various ingredients for a sushi roll. There is a large variety of ingredients present, including cucumber, avocado, carrots, and possibly some other items. Some of the vegetables appear to be sliced, while others are whole. The bowl is surrounded by a red border, creating an eye-catching design.",
+        "gt_answers": "NAME",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2403_2.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"bar\" written in black on a white background.",
+        "gt_answers": "BOARD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/804_3.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo with the text \"AIA\" in red, white, and blue colors.",
+        "gt_answers": "RELIANCE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/172_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows two gold-colored house numbers on a white background.",
+        "gt_answers": "215",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2132_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a large white block of text, with a red background, and a small black letter 'm' in the middle of it.",
+        "gt_answers": "MR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/688_4.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a sign with the text \"Ate\" written on it. The sign is positioned on the ground, and it is surrounded by some grass.",
+        "gt_answers": "MASTERFILE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/307_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a clock counting from 0 to 999,999.",
+        "gt_answers": "888",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2172_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the logo of a bank. Specifically, a blue logo on a white background is depicted.",
+        "gt_answers": "BANK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2055_9.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white Coca-Cola sign, with the text \"Coca-Cola\" written across it.",
+        "gt_answers": "COCACOLA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/929_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a text banner promoting a new product, with the words \"India\" written at the top and \"New\" written below. The banner is accompanied by a picture of a diamond, which is the main element of the product.",
+        "gt_answers": "INDIA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/27_4.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue text on a brown background with the word \"FEED\" in it.",
+        "gt_answers": "NEEDS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5165_5.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden block with the letters \"A,\" \"B,\" \"C,\" and \"D\" written on it.",
+        "gt_answers": "A",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/415_3.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a wooden sign with the letters \"KARLSBERG\" written on it.",
+        "gt_answers": "CARLSBERG",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/134_2.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a set of wooden numbers 20 and 120.",
+        "gt_answers": "120",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2222_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, a blue t-shirt with \"Armed Forces\" written on it is visible.",
+        "gt_answers": "CARMEN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/137_5.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large black and gold logo with the name Versailles in bold lettering. The font is elegant and the overall design is eye-catching.",
+        "gt_answers": "MARSALIS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5024_12.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of a bank sign.",
+        "gt_answers": "BANK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/1016_2.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "There is a blue and black logo on the image.",
+        "gt_answers": "TREBLINKA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5085_11.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, the words \"Infinite Optics\" are written in a blue color with white text.",
+        "gt_answers": "OF",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/326_3.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red and white banner with the word \"FEED\" written on it.",
+        "gt_answers": "FEEL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/73_3.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a large, ornate sign with the word \"Mama\" written in cursive.",
+        "gt_answers": "MANY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2094_7.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a small black number written in red, with the numbers 745 written in sequence.",
+        "gt_answers": "745",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/440_13.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo of a sunflower and the words \"Burney's Nurseries.\"",
+        "gt_answers": "TOURNESOL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2523_13.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a white text with a black background, which reads \"Ask Me About Your Path to Success.\"",
+        "gt_answers": "BRATHAY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2433_8.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign that displays the word \"Who\" in bold letters with some blue accents. The sign is mounted on the side of a white wall.",
+        "gt_answers": "WHO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/11_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white image with the letters H-A-R-R-Y in a fancy, ornate script.",
+        "gt_answers": "HARRY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5169_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large red number 25 written in a bold font.",
+        "gt_answers": "25",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/121_3.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue Facebook Like button in the center of the frame.",
+        "gt_answers": "LIKE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/69_2.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays five bottles, each with a different label, arranged neatly next to each other on a wooden counter.",
+        "gt_answers": "BRIGHTER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2034_6.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a black and white shirt with a text design that reads \"DRUG STORE.\"",
+        "gt_answers": "DRUGS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2319_2.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a text banner with the words \"Free\" written in bold letters. It also has a logo, which could potentially be the name of a company or product.",
+        "gt_answers": "FREE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/1059_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white text on a black background that reads, \"Welcome to the official Port of Oakland site.\"",
+        "gt_answers": "NORTON",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5026_3.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a close-up of a wooden sign with a hand-painted message on it. The message reads, \"God is good.\"",
+        "gt_answers": "SANGHAVIE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2156_1.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows an old and rusty sign, likely from an old gas station, with the words \"Ego Gas\" written across the top.",
+        "gt_answers": "MOVIEGOODS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5092_4.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a house sign, with a house name written in the image.",
+        "gt_answers": "HOUSE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2291_3.png",
+        "model_name": "mPLUG-Owl"
+    }
+]

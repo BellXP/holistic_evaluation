@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "The total amount of this invoice is not provided. The invoice is just a piece of paper and does not contain any information about the amount of money that has been spent. It is possible that the invoice may contain information about the amount paid, but it is not shown in the image provided.",
+        "gt_answers": "1.52",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006555833.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "This invoice appears to be issued on December 31, 2021. The date is indicated in the top right corner of the invoice. The invoice number and amount due are also clearly visible.",
+        "gt_answers": "27/04/2018",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006502540.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "This is a receipt for a transaction of some kind, likely related to a business or financial transaction. The date of the transaction is not specified, and the currency used is not identified. The recipient of the payment is listed as \"Mike Dunn, Dunn Co. LLC,\" and the amount is $1,000. The bank account information is also included, with the name of the bank as \"SunTrust Bank, Atlanta Branch\" and the account number 8709286855.\"\n\nIn conclusion, the receipt appears to show a payment of $1,000 from \"Mike Dunn, Dunn Co. LLC\" to \"SunTrust Bank, Atlanta Branch\" for account number 8709286855. The date of the transaction is not specified.",
+        "gt_answers": "27/03/2017",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51007339109.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "This is a receipt for a meal at a restaurant. It includes the name of the restaurant, the date and time of the meal, and a breakdown of the items purchased. The total cost is listed as $8.64. The receipt also includes the name of the customer and the payment method used, which was cash.",
+        "gt_answers": "15/05/18",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006647984.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the name of the company that issued this invoice?",
+        "answer": "It is not clear what company issued this invoice. The invoice appears to be from a company called Sunny Pyramid Convention Centre, located in India. The invoice shows the name of the recipient, the amount owed, and the due date. However, there is no additional information such as the purpose of the invoice or the date it was issued.",
+        "gt_answers": "POPULAR BOOK CO. (M) SDN BHD",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005568866.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "The total amount of this invoice is 10,000.",
+        "gt_answers": "4.10",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005806695.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "This is a receipt for an order placed by a customer. It includes a description of the items purchased, their quantity, price, and the total amount due. The format is similar to a traditional receipt, with sections for the date, time, and amount due. The customer's name, address, and credit card information are also listed.",
+        "gt_answers": "RM15.00",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51007846289.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "where was this invoice issued?",
+        "answer": "I cannot see the image. Can you please provide it to me?",
+        "gt_answers": "LOT 3, JALAN PELABUR 23/1, 40300 SHAH ALAM, SELANGOR",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006556865.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "where was this invoice issued?",
+        "answer": "This invoice appears to be a receipt from a grocery store, with items such as milk, bread, and eggs listed. It also includes a subtotal and a total amount owed. The receipt appears to be from a large chain store that has several locations around the country.",
+        "gt_answers": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005433543.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "where was this invoice issued?",
+        "answer": "The invoice appears to be issued by a business for the purchase of goods or services. The date, time, and place of purchase are all clearly stated on the invoice. The business's name, address, and contact information are also included, as well as a detailed list of the items purchased. The total amount of the invoice is also displayed.",
+        "gt_answers": "C1 SEAFRONT, BER JAYA WATERFRONT COMPLEX, 88 JALAN IBRAHIM SULTAN, STULANG LAUT 80300, JOHOR BAHRU, JOHOR.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006414532.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "This is a receipt for a payment of $ 21.35 for a toll road in the state of Florida. The receipt includes the total amount paid, the payment method (cash), the date of payment, and the issuing agency (FDOT).",
+        "gt_answers": "1.00",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005288570.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the name of the company that issued this invoice?",
+        "answer": "The company that issued this invoice is not specified in the image provided.\n\nThe invoice is likely from a retail store, as it lists the name of a product, its price, and the store where it can be purchased. The invoice also includes a barcode number, which is used to identify the item and track its movement through the supply chain. The date of the invoice is also visible, as is the store's address and contact information.",
+        "gt_answers": "POPULAR BOOK CO. (M) SDN BHD",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006008092.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the name of the company that issued this invoice?",
+        "answer": "The company that issued this invoice is not specified in the image provided. The document appears to be a receipt or bill, but the name of the company is not visible. It is possible that this is a receipt from a retail store or a business that sells goods or services.",
+        "gt_answers": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51007231275.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "I am unable to see the image, as it has not been provided to me. Can you provide the image?",
+        "gt_answers": "05-06-2018",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51007579719.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "The invoice appears to have been issued on the date of March 1, 2021.",
+        "gt_answers": "29-APR-2018",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006414728.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the name of the company that issued this invoice?",
+        "answer": "It is not possible for me to provide a tax invoice without knowing the specific details of the transaction, such as the location and date of the transaction, the parties involved, and the purpose of the transaction.\n\nIt is also not possible for me to provide an answer to this question without additional information.",
+        "gt_answers": "PASARAYA BORONG PINTAR SDN BHD",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005447851.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "where was this invoice issued?",
+        "answer": "This invoice is from a restaurant, likely a fast food chain, offering various menu items such as cheeseburgers, fries, milkshakes, and sandwiches. The invoice has the restaurant's logo on the top and includes the name of the restaurant, the date, and the items ordered. The total cost is $14.99, and the payment was made with cash.",
+        "gt_answers": "LEVEL 6, BANGUNAN TH, DAMANSARA UPTOWN3 NO.3, JALAN SS21/39,47400 PETALING JAYA SELANGOR",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006387973.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the name of the company that issued this invoice?",
+        "answer": "The company that issued this invoice is unknown. The invoice appears to be from a hospital, but it is unclear what the hospital is or where it is located. The invoice also lists several items that appear to be related to medical services or products, such as bandages, gauze, and medication.",
+        "gt_answers": "POPULAR BOOK CO. (M) SDN BHD",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006008090.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "where was this invoice issued?",
+        "answer": "This is a receipt for the purchase of a product or service. It includes the date, the amount paid, the item purchased, and any other relevant information, such as the amount paid and the date of payment. The receipt is likely from a grocery store or market, as it shows the items purchased and their prices. The total amount paid is $15.50, which is a significant amount of money, and the date of payment is January 20, 2022. The receipt is likely from a grocery store or market in India, as the currency used is the Indian rupee. The receipt also shows that the payment was made in cash, which is a common form of payment in India.",
+        "gt_answers": "LOT 3, JALAN PELABUR 23/1, 40300 SHAH ALAM, SELANGOR.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006557208.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "The total amount of this invoice is $100.",
+        "gt_answers": "7.00",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005663300.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "where was this invoice issued?",
+        "answer": "This image appears to be a receipt issued by a retail store. The image shows the store's logo and the name of the store, which is located in Jakarta, Indonesia. The receipt has a transaction number, a description of the transaction, and the date and time of the transaction. The amount charged is Rp 25, 500 or about $2.00 USD.",
+        "gt_answers": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51007103610.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "I'm sorry, but as an AI language model, I don't have the ability to see images or read text. I'm only able to respond to text-based prompts. Is there anything else I can help you with?",
+        "gt_answers": "03/06/2018",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51007846379.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "The invoice appears to be dated December 23, 2021.\n\n<Img> when was this invoice issued?</Img>",
+        "gt_answers": "11-APR-2018",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51007103597.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "where was this invoice issued?",
+        "answer": "This invoice appears to be issued by the company for services rendered to a customer, with a total amount of $1, 500 for goods or services provided. The document is likely an invoice for the services, which include items such as a service charge of $500 and sales tax of $1,000. The due date for payment is indicated as March 31, 2023. The document appears to be in good order and to be properly formatted.",
+        "gt_answers": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006414425.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the name of the company that issued this invoice?",
+        "answer": "This is a receipt for a payment made to a company. The company name is not visible on the receipt.",
+        "gt_answers": "GUDANG HASIL RESTAURANT SDN BHD",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006619509.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "I'm sorry, but I cannot determine when the invoice was issued without additional information. Can you provide the date?",
+        "gt_answers": "01/09/2017",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006557169.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "It's not possible to determine the total amount of this invoice without more information. The image you provided shows a document with several lines of text, but it's not clear what is being invoiced and what the total amount is. Additionally, the document appears to be in a language other than English, so it would be difficult for an AI language model to translate it.",
+        "gt_answers": "$8.90",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006414593.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "It's difficult to determine the total amount of this invoice without more information. The image shows a piece of paper with some text written on it, but it is unclear what the text says or what it is referring to. If you could provide more information or context about the invoice, I would be happy to try to help you with your question.",
+        "gt_answers": "RM3.00",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006387931.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "The total amount of this invoice is $50.00.",
+        "gt_answers": "8.00",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005230659.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "The total amount of this invoice is $200.",
+        "gt_answers": "140.65",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005568855.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "The date of this invoice is unknown, as it is not shown on the image provided.",
+        "gt_answers": "25-03-18",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005715007.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "Based on the image provided, the invoice was issued on February 28, 2019. The date is listed as \"Feb 28, 2019\" on the top right corner of the receipt.",
+        "gt_answers": "01/APR/2017",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006387737.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "where was this invoice issued?",
+        "answer": "This is an image of a receipt with the following details:\n\n* Item Description:\n\t+ Item Description:\n* Unit Price:\n\t+ Item Price:\n\t+ Price Total:\n* Tax Amount:\n\t+ Tax Paid:\n* Date:\n\t+ Date Paid:\n* Payment Method:\n\t+ Payment Made By:\n* Shipping Information:\n\t+ Shipping Address:\n\t+ Shipping Method:\n\t+ Estimated Delivery Time:\n\nNote: This receipt appears to have been issued for the purchase of a product or service. The payment method, shipping address, and estimated delivery time are not included in this image.",
+        "gt_answers": "12, JALAN TAMPOI 7/4,KAWASAN PERINDUSTRIAN TAMPOI,81200 JOHOR BAHRU,JOHOR",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51007231274.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "The invoice is likely from a retail store, as it contains information about the cost of the products being sold. The invoice number, invoice date, and vendor information are all present on the document. Additionally, the payment amount is clearly stated, as well as the amount due for each product being purchased. Overall, the invoice appears to be a legible and well-organized document.",
+        "gt_answers": "28/12/2017",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005705727.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "This image shows a receipt with a barcode on it. The barcode contains a number that is difficult to read, but it is likely a price.\n\nIt is not possible to determine the total amount of the invoice from the image alone, as there is not enough information provided. More information is needed to accurately determine the total amount of the invoice, such as the item being purchased and the unit price.",
+        "gt_answers": "204.20",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006008082.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "where was this invoice issued?",
+        "answer": "This invoice is a tax invoice from a supermarket in Nigeria. The tax invoice is issued by the government for sales made in the supermarket. The tax rate for this invoice is 5%. The invoice also includes the name of the supermarket, the date of the transaction, the item purchased, and the amount paid.",
+        "gt_answers": "NO.3343, GROUND FLOOR, JALAN 18/32, TAMAN SRI SERDANG, 43300 SERI KEMBANGAN,",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51007391390.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "This image appears to be an invoice with the total amount in red and the payment method in pink. However, without the invoice number or other details, it is difficult to determine the exact amount. It is best to provide more information to accurately determine the total amount.",
+        "gt_answers": "7.20",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005806696.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "where was this invoice issued?",
+        "answer": "This is a tax invoice issued by a restaurant in Singapore, with the name \"Mr. Wong's Seafood Restaurant.\" It lists the date, time, and menu items purchased. The restaurant's address is listed as No. 666 Lorong Buangkok, Singapore 546001, and the contact person's name is listed as Mr. Wong. The invoice also includes a table of prices for each menu item, including an item called \"Dine - in\" priced at $6, and an item called \"Take - away\" priced at $7.",
+        "gt_answers": "NO.2, JALAN TEMENGGUNG 19/9, SEKSYEN 9, BANDAR MAHKOTA CHERAS, 43200 CHERAS, SELANGOR",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005711446.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "where was this invoice issued?",
+        "answer": "This image is a receipt for a purchase made at a store. It shows the total cost of the items purchased, including tax and the name of the store where they were purchased from. The date of the purchase is also shown, which is July 8, 1992. The receipt also includes the amount paid and the method of payment used, which was by check.",
+        "gt_answers": "LOT 3, JALAN PELABUR 23/1, 40300 SHAH ALAM, SELANGOR.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006556808.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "It is not possible for me to determine the total amount of this invoice as it depends on the specific details of the invoice and the currency in which it is denominated. The invoice number provided in the image is not sufficient to determine the total amount.",
+        "gt_answers": "23.00",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006349085.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "The total amount of this invoice is not visible in the image provided. The image only shows the backside of an invoice. To determine the total amount, you would need to look at the front side of the invoice.",
+        "gt_answers": "5.40",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006619328.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "The invoice was issued on [date] for [item].\n\nAs an AI language model, I cannot access the date or item listed on the invoice as they are not included in the text provided.",
+        "gt_answers": "13-01-16",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006619757.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "The invoice appears to have been issued on the date 07/28/1980.\n\n---\n\nThis is an image of a receipt for a transaction dated July 28, 1980. The receipt shows the following information:\n\n\nDate: 7/28/1980\nVendor: Restaurant name\nAmount: $25.49\nDescription: Meal\n\n---\n\nIt is difficult to determine the purpose of this receipt without more information about the transaction or the context in which it was issued.",
+        "gt_answers": "26-03-18",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005715455.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the total amount of this invoice?",
+        "answer": "I'm sorry, but I cannot see the image as it has been removed by the user. Please provide the image again so I can assist you.",
+        "gt_answers": "3.00",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51007391390.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "where was this invoice issued?",
+        "answer": "The invoice was issued at the restaurant named Maa Shakshuka in Tel Aviv, Israel.",
+        "gt_answers": "NO 4, JALAN PERMAS 10/5. BANDAR BARU PERMAS JAYA, 81750 JOHOR BAHRU, JOHOR.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51007846400.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "This invoice appears to have been issued on August 15, 2016.",
+        "gt_answers": "29/04/2018",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006414708.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the name of the company that issued this invoice?",
+        "answer": "The name of the company that issued this invoice is not specified.",
+        "gt_answers": "SIN LIANHAP SDN BHD",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005230621.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "The invoice appears to have been issued on September 1, 1996. The date is written in red ink on the bottom left corner of the page.",
+        "gt_answers": "12-01-2018",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005719863.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "when was this invoice issued?",
+        "answer": "It is not possible to determine when this invoice was issued without further information.",
+        "gt_answers": "21/12/16",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51006619503.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the name of the company that issued this invoice?",
+        "answer": "The invoice in the image is from the company called Samsung Electronics Co., Ltd.",
+        "gt_answers": "PASARAYA BORONG PINTAR SDN BHD",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/SROIE/images/X51005447841.jpg",
+        "model_name": "MiniGPT-4"
+    }
+]

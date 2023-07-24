@@ -126,7 +126,7 @@ class Attention(nn.Module):
             lora_rank=args.lora_rank
         )
 
-        self.flash = True
+        self.flash = False
 
     def forward(self, x: torch.Tensor, start_pos: int, freqs_cis: torch.Tensor, mask: Optional[torch.Tensor], prompt=None):
         bsz, seqlen, _ = x.shape
@@ -270,7 +270,7 @@ class Transformer(nn.Module):
         self.image_words = 0
         if with_visual:
             print("build llama model with qformer")
-            self.qformer = Blip2Model.from_pretrained("./models/g2pt/blip2_opt2.7b", torch_dtype=torch.float16)
+            self.qformer = Blip2Model.from_pretrained("Salesforce/blip2-opt-2.7b", torch_dtype=torch.float16)
 
             self.qformer.language_projection = None
             self.qformer.language_model = None

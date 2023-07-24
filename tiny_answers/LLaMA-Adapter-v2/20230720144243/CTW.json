@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a word \"ALA\" written in a black font on a green background.",
+        "gt_answers": "PAWN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000857.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"PENNY\" written in a fancy, colorful font on a yellow background.",
+        "gt_answers": "Denny's",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001498.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"GIRL\" written in a font that resembles a car's license plate.",
+        "gt_answers": "LIGHT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000582.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Villa\" written in a blue font on a yellow background.",
+        "gt_answers": "MILAW",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000601.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"H\" written in blue and white letters.",
+        "gt_answers": "H",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001435.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"PITT\" written in a font that resembles a metal sign.",
+        "gt_answers": "CAPITOL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000329.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"OFF\" written in capital letters.",
+        "gt_answers": "MUFFLER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001208.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"IND\" written in blue and gold letters.",
+        "gt_answers": "SUNDRIES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001526.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CLICK\" written in blue and white letters.",
+        "gt_answers": "BUDLIGHT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000360.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Coca\" written on a wall.",
+        "gt_answers": "LaCocina",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000997.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"FREEDOM\" written in blue letters on a blue background.",
+        "gt_answers": "LEEDS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000957.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"OPEN\" written in red, with the letters appearing to be made of light.",
+        "gt_answers": "Opep",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001079.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"ESCONDIDO\" is written in the image.",
+        "gt_answers": "ESCONDIDO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000413.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"HED\" written in chalk on a blackboard.",
+        "gt_answers": "ICHEDDAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000293.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a handwritten number 2.6 written on a piece of paper.",
+        "gt_answers": "$2.50",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000726.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ST\" written in red and yellow letters.",
+        "gt_answers": "EST.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001557.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that reads \"Nines Thrip Farm.\"",
+        "gt_answers": "STONE'STHROW",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000236.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"The Opie's Bar.\"",
+        "gt_answers": "Tropics",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000616.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a white piece of paper with a word written on it. The word is \"hello.\"",
+        "gt_answers": "20.40",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000838.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Norwich\" and \"Norfolk\" written in a yellow font.",
+        "gt_answers": "Colman'S",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001426.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"KEEP\" is written in the image.",
+        "gt_answers": "E",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001108.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"HIS.\"",
+        "gt_answers": "THIS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001178.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Ticket\" written in red on a building.",
+        "gt_answers": "CINEMA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001338.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"salute\" written in gold letters on a gray background.",
+        "gt_answers": "Healthy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000736.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"DEPT\" is written in the image.",
+        "gt_answers": "DEPT.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000374.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"LUX\" is written in the image.",
+        "gt_answers": "CLUB",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000716.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number 10 written in blue.",
+        "gt_answers": "10",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001205.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Baraka\" is written in the image.",
+        "gt_answers": "Maraka's",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000893.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black shirt with the words \"Deathpress\" written on it.",
+        "gt_answers": "DEATHPRESSO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000744.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number 666 written in a font that resembles a typewriter.",
+        "gt_answers": "66",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001053.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a stencil of the words \"Green Team\" written in green.",
+        "gt_answers": "compAnY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000033.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"DID\" written in red and gold letters.",
+        "gt_answers": "CRIOLLA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001377.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large red graffiti word \"TRASH\" written on a wall.",
+        "gt_answers": "CRASH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000998.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"LAURA\" written in white letters on a black background.",
+        "gt_answers": "RESTAURANT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000752.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Homestead Farm\" written on a blue and yellow sign.",
+        "gt_answers": "HOMESTEAD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000704.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a piece of paper with the words \"J.F.K.\" written on it.",
+        "gt_answers": "O.J.F.C.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000623.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number \"3\" written in black ink.",
+        "gt_answers": "TA3-21",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001352.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Alapai Market.\"",
+        "gt_answers": "KALAPAWAI",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000259.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"FRESH\" is written in the image.",
+        "gt_answers": "FRESH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001032.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a license plate with the letters \"ATH\" written on it.",
+        "gt_answers": "917-HKX",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000122.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NUTS\" written in a fancy, decorative font.",
+        "gt_answers": "GENUINE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001034.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"McKenzie\" written in red on a white background.",
+        "gt_answers": "D.McKENZIE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001550.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"G\" is written in the image.",
+        "gt_answers": "C",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001075.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a cheese logo with the words \"Our Cheese\" written underneath it.",
+        "gt_answers": "CHEESE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000496.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the letter \"B\" written in red and blue.",
+        "gt_answers": "B",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000732.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"THE\" is written in the image.",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000982.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon sign that reads \"The Center.\"",
+        "gt_answers": "Centnal",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000845.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word \"Berr\" written in a colorful, decorative font.",
+        "gt_answers": "BEER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000576.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"weif\" is written in the image.",
+        "gt_answers": "Erweitert",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001410.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"6-8\" in red and yellow letters.",
+        "gt_answers": "826-8922",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001290.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    }
+]

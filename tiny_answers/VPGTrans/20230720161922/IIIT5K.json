@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Shoes.\"",
+        "gt_answers": "SHOES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/321_4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says \"Johnny Depp.\"",
+        "gt_answers": "JOHNNY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/107_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"The best way to get the best results is to use the best tools.\"",
+        "gt_answers": "TO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/850_6.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is the name of a company, TD Bank.",
+        "gt_answers": "TDK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2564_2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 133 is written in the image.",
+        "gt_answers": "136",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2255_8.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"non.\"",
+        "gt_answers": "NON",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/857_22.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"What is written in the image?\"",
+        "gt_answers": "AN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2524_43.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"India.\"",
+        "gt_answers": "INDIA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/209_4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"See the world in a different way.\"",
+        "gt_answers": "SEE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/598_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"off\" is written in the image.",
+        "gt_answers": "OF",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/31_2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"The End.\"",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5129_7.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says,'locations.'",
+        "gt_answers": "LOCATIONS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/958_18.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Hall.\"",
+        "gt_answers": "HALL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2588_2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 40 is written in the image.",
+        "gt_answers": "40",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/747_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Hygiene.\"",
+        "gt_answers": "HYGIENE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2285_2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"name\" is written in the image.",
+        "gt_answers": "NAME",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2403_2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word board is written in the image.",
+        "gt_answers": "BOARD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/804_3.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Reliance.\"",
+        "gt_answers": "RELIANCE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/172_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 25 is written in the image.",
+        "gt_answers": "215",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2132_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "This is a sign that says \"Mr. and Mrs.\"",
+        "gt_answers": "MR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/688_4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"masterfile.\"",
+        "gt_answers": "MASTERFILE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/307_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888",
+        "gt_answers": "888",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2172_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says,'What is written in the image? '",
+        "gt_answers": "BANK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2055_9.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Coca-Cola.\"",
+        "gt_answers": "COCACOLA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/929_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"India\" is written in the image.",
+        "gt_answers": "INDIA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/27_4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "This is a quote from the song \"What is Love?\" by Haddaway.",
+        "gt_answers": "NEEDS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5165_5.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is written in the font Arial and it says \"The letter A.\"",
+        "gt_answers": "A",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/415_3.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Carlsberg\" is written in the image.",
+        "gt_answers": "CARLSBERG",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/134_2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 120 is written in the image.",
+        "gt_answers": "120",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2222_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"Carmine.\"",
+        "gt_answers": "CARMEN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/137_5.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is written in Arabic and it says \"Marsalis.\"",
+        "gt_answers": "MARSALIS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5024_12.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word bank is written in the image.",
+        "gt_answers": "BANK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/1016_2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is written in the word \"treblinka,\" which is a fictional word that is not recognized as a real word.",
+        "gt_answers": "TREBLINKA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5085_11.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"OF.\"",
+        "gt_answers": "OF",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/326_3.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says,'FEEL'.",
+        "gt_answers": "FEEL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/73_3.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"What is the meaning of life? Is it to be happy? Is it to be rich? Is it to be loved? Is it to be free? Is it to be kind? Is it to be fair? Is it to be true? Is it to be great? Is it to be good? Is it to be wise? Is it to be strong? Is it to be beautiful? Is it to be successful? Is it to be important? Is it to be remembered? Is it to be loved? Is it to be happy? Is it to be free? Is it to be kind? Is it to be fair? Is it to be true? Is it to be great? Is it to be good? Is it to be wise? Is it to be strong? Is it to be beautiful? Is it to be successful? Is it to be important? Is it to be remembered? Is it to be loved? Is it to be happy? Is it to be free? Is it to be kind? Is it to be fair? Is it to be true? Is it to be great? Is it to be good? Is it to be wise? Is it to be strong? Is it to be beautiful? Is",
+        "gt_answers": "MANY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2094_7.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is the number 757.",
+        "gt_answers": "745",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/440_13.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign with the word \"Tournesol\" written on it.",
+        "gt_answers": "TOURNESOL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2523_13.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Bratay\" is written in the image.",
+        "gt_answers": "BRATHAY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2433_8.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Who is the most powerful person in the world?\"",
+        "gt_answers": "WHO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/11_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is the title of the book, Harry Potter and the Philosopher's Stone.",
+        "gt_answers": "HARRY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5169_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"25th Anniversary.\"",
+        "gt_answers": "25",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/121_3.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"like\"",
+        "gt_answers": "LIKE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/69_2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"The brightest light in the world.\"",
+        "gt_answers": "BRIGHTER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2034_6.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that says \"Drugs\" in bold letters.",
+        "gt_answers": "DRUGS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2319_2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"Free Play.\"",
+        "gt_answers": "FREE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/1059_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says,'what is written in the image? '",
+        "gt_answers": "NORTON",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5026_3.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says \"Sanghavie.\"",
+        "gt_answers": "SANGHAVIE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2156_1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"movies good.\"",
+        "gt_answers": "MOVIEGOODS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/5092_4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"house\" is written in the image.",
+        "gt_answers": "HOUSE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IIIT5K/test/2291_3.png",
+        "model_name": "VPGTrans"
+    }
+]

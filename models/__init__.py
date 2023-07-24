@@ -2,7 +2,7 @@ import torch
 import numpy as np
 from PIL import Image
 
-DATA_DIR = '/mnt/data/pjlab-3090-gvadapt/vlm_eval/models'
+DATA_DIR = '/nvme/share/VLP_web_data'
 
 def skip(*args, **kwargs):
     pass

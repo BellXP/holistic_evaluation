@@ -1,0 +1,455 @@
+[
+    {
+        "question": "What does the red sign on the far left say?",
+        "answer": "The red sign on the far left says \"Baggage Claim.\"",
+        "gt_answers": [
+            "Danger"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000434357.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "Which way does the sign say to merge?",
+        "answer": "\"Merge right.\" This sign is located on a pole and is visible from both the left-side view and the right side of the road.",
+        "gt_answers": [
+            "LEFT"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000447607.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the number on the yellow players shirt?",
+        "answer": "The number on the yellow player's shirt is #16.",
+        "gt_answers": [
+            "19"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2339683.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is on the man's head?",
+        "answer": "In the image, the man is wearing a hat on his head.",
+        "gt_answers": [
+            "glasses"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2362748.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "Who created this picture?",
+        "answer": "What Is a Yorkshire Terrier?",
+        "gt_answers": [
+            "mydoggie"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n02094433_6520.JPEG",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What does the red text say?",
+        "answer": "\"Happiness is\" followed by a question mark?",
+        "gt_answers": [
+            "open happiness"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/IIIT_text/img_000324.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the brand name on the bottle?",
+        "answer": "In the image, there are two different brand names on the bottles: Playtex and Pampers.",
+        "gt_answers": [
+            "Playtex"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n03825788_20290.JPEG",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What does it says in the banner?",
+        "answer": "\"Grand Slam Returns\" or \"The Grand Slam Is Back\" is written in the banner.",
+        "gt_answers": [
+            "Grand Sla return"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000465090.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is the website address?",
+        "answer": "Man smiling in the park?",
+        "gt_answers": [
+            "fotosearch.com"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n07742313_20816.JPEG",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the name of the restaurant?",
+        "answer": "The Soup Place restaurant in the image?",
+        "gt_answers": [
+            "The Soup Spoon"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/test_img_340.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the number of the red bus?",
+        "answer": "A person is riding in?",
+        "gt_answers": [
+            "6160"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000352185.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "How many vases are visible?",
+        "answer": "There are in the image?",
+        "gt_answers": [
+            "six",
+            "{}"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2340271.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What activity is offered at the apple orchard?",
+        "answer": "In the image, a man is holding an apple, which he is either about to eat or has just eaten.",
+        "gt_answers": [
+            "HEDGE MAZE"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000506256.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "Who is depicted on the cover holding a stick with fire?",
+        "answer": "The cover depicts a man holding a stick with fire, possibly representing an ancient warrior or explorer.",
+        "gt_answers": [
+            "Tarzan"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n06596364_16096.JPEG",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "Where is the bus headed?",
+        "answer": "A115 located in the image, and what is it doing?",
+        "gt_answers": [
+            "Georgetown"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2368670.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What military branch is this airplane?",
+        "answer": "A-4C Skyhawk?",
+        "gt_answers": [
+            "Navy"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000085488.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What color are the window coverings?",
+        "answer": "Moroccan women's traditional dresses? Are there any other colors that are traditional for them?",
+        "gt_answers": [
+            "Blue/",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/IIIT_text/2757.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the second credit card accepted at this payment station?",
+        "answer": "AKA parking meter?",
+        "gt_answers": [
+            "visa"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000078716.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What does the sign say?",
+        "answer": "A street corner is filled with parked cars and a sign promoting a barber shop. The cars are arranged in rows and are parked on both sides of the street, with a stop sign in the center of the intersection to regulate traffic. \n\nThere are several people visible in the street, walking and standing around the area. One of the pedestrians is holding a cell phone in hand, and another person is seen further down the street on the right side. \n\nA traffic light is positioned on the corner, and another stop sign is located near one of the rows of parked cars. There are a few trees on the street, adding greenery and shade to the scene.",
+        "gt_answers": [
+            "Barber shop parking"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/2/2413763.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What color is the bat?",
+        "answer": "In The Field - Baseball Player at the Plate",
+        "gt_answers": [
+            "Black"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2349497.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What does the red sign in the picture say?",
+        "answer": "The image say?",
+        "gt_answers": [
+            "STOP"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2346678.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What does the glove have handwritten on it?",
+        "answer": "A's logo in the background?",
+        "gt_answers": [
+            "Mom Hates You!!!"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000145593.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the name of the retailer that is advertised in green?",
+        "answer": "The retailer that is advertised in green is \"The Box.\"",
+        "gt_answers": [
+            "THE BODY SHOP"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/img_953.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is the phone number of River Ride?",
+        "answer": "The Ride?",
+        "gt_answers": [
+            "33-22-555"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000443764.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What month abbreviation appears at the bottom of the picture?",
+        "answer": "The month abbreviation appearing at the bottom of the picture is \"Feb.\"",
+        "gt_answers": [
+            "Feb"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2342238.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the name of the road going east to west?",
+        "answer": "The road going east to west is called Snob Hill Street.",
+        "gt_answers": [
+            "SNOB HILL RD"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2318180.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is written on the side of the train?",
+        "answer": "\"Polson Logging Co.\"",
+        "gt_answers": [
+            "Polson Logging co"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2341912.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the date in yellow font?",
+        "answer": "\"2019\" in the background?",
+        "gt_answers": [
+            "2003/01/07"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n04153751_10063.JPEG",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What word is on the warning sign?",
+        "answer": "The warning sign is marked with the word \"ZONE\".",
+        "gt_answers": [
+            "ZONE"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/2/2407077.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What color is the largest dress?",
+        "answer": "The color of the largest item in the image is black.",
+        "gt_answers": [
+            "Dark Olive"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n02667093_5040.JPEG",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is that brown sweet with white icing?",
+        "answer": "It is a cupcake topped with white icing.",
+        "gt_answers": [
+            "CUPCAKES"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000186703.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What does the yellow signal say?",
+        "answer": "The Street sign say?",
+        "gt_answers": [
+            "BUMPS"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2335084.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is written in black on the parasail?",
+        "answer": "On the parasail, there is a message that reads, \"Windsurfing, Fun and Sun.\"",
+        "gt_answers": [
+            "GUN"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2325956.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the photographers name?",
+        "answer": "The photographer's name is Jerry Uelsmann.",
+        "gt_answers": [
+            "Jordan Light"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n03956157_7164.JPEG",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "Where are there more shops?",
+        "answer": "Is there more shops on the left side of the image or on the right side?",
+        "gt_answers": [
+            "Level 2"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/test_img_72.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What does it say in white?",
+        "answer": "There are two signs in white, what do they say?",
+        "gt_answers": [
+            "STOP"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2338783.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What number is under the Red Wagon sign?",
+        "answer": "The number under the Red Wagon sign is 175.",
+        "gt_answers": [
+            "175"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000458970.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the title of the grey book?",
+        "answer": "The title of the grey book is \"The Book of Life and Death.\"",
+        "gt_answers": [
+            "THE handbuilt bicycle"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000579053.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What does the top sign say?",
+        "answer": "What is its purpose?",
+        "gt_answers": [
+            "A Modern Classic"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/IIIT_text/3675.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the name of this item?",
+        "answer": "Basket or Baskets?",
+        "gt_answers": [
+            "Basket"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n04204238_4763.JPEG",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the license plate number on the bus?",
+        "answer": "The license plate number on the bus is \"JL54 JL.\"",
+        "gt_answers": [
+            "YX60 DWY"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000289231.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What type of beer is on the can?",
+        "answer": "The can contains Coors beer.",
+        "gt_answers": [
+            "Coors"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n02795169_72041.JPEG",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "Who is the manufacturer of the camera?",
+        "answer": "The manufacturer of the camera is Canon.",
+        "gt_answers": [
+            "Canon"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n04069434_21423.JPEG",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the route number of the red bus?",
+        "answer": "The route number of the red bus is 255.",
+        "gt_answers": [
+            "48"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2317112.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the street name on the top sign?",
+        "answer": "The street name on the top sign is Fairbridge Avenue.",
+        "gt_answers": [
+            "Partridge St"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2342515.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is printed on the car door?",
+        "answer": "\"Polizei\" which means police in German.",
+        "gt_answers": [
+            "GENDARMERIE"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000517881.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what kind of pillow is mentioned?",
+        "answer": "The image shows a neck pillow.",
+        "gt_answers": [
+            "Travel Neck Pillow",
+            "neck"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/img_92.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the brand of the Chili Sauce?",
+        "answer": "The brand of the Chili Sauce is \"Dill Sauce.\"",
+        "gt_answers": [
+            "Kikkoman"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2356883.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the brand of the phone?",
+        "answer": "The brand of the phone is Nokia.",
+        "gt_answers": [
+            "Nokia"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000552440.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "What is the first name of the image tag?",
+        "answer": "The first name of the image tag is Mark.",
+        "gt_answers": [
+            "mark"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000536204.jpg",
+        "model_name": "mPLUG-Owl"
+    }
+]

@@ -1,4 +1,4 @@
-DATA_DIR = '/mnt/data/pjlab-3090-gvadapt/vlm_eval/datasets'
+DATA_DIR = '/nvme/share/xupeng/datasets'
 
 from .ocr_datasets import ocrDataset
 from .caption_datasets import NoCapsDataset, FlickrDataset

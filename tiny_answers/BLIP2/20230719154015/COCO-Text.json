@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "vanilla glaze",
+        "gt_answers": "VANILLA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1239213.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bryan",
+        "gt_answers": "bryan",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1021133.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "morrisey",
+        "gt_answers": "morrisey",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1031837.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ford",
+        "gt_answers": "ford",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1106763.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "uscd",
+        "gt_answers": "used",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1009549.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "private",
+        "gt_answers": "PRIVATE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1030962.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "myprofe",
+        "gt_answers": "MyProfe",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1147625.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word'tennis'",
+        "gt_answers": "tennis",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1000917.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "melo",
+        "gt_answers": "melo",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1162672.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "i giorno",
+        "gt_answers": "Giro",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1043848.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "nat",
+        "gt_answers": "natl",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1135417.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "stop sign",
+        "gt_answers": "stop",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1010152.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word garden",
+        "gt_answers": "GARDEN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1007150.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word saskatchewan is written on a banner",
+        "gt_answers": "ROOPS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1088534.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word'credit'on a blue background",
+        "gt_answers": "credi",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1035790.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cappadoes",
+        "gt_answers": "CAPADES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1145994.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word champagne''",
+        "gt_answers": "Champignons",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1216318.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "crispy sweet",
+        "gt_answers": "CRISPY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1223413.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the name of st john the baptist church",
+        "gt_answers": "church",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1028402.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word eisenhower",
+        "gt_answers": "eisenhower",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1150143.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "park",
+        "gt_answers": "Park",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1222096.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "good luck and keep on keep on keep on keep on keep on keep on keep on keep on keep on keep on keep on keep on keep on keep",
+        "gt_answers": "KEEP",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1222095.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "british",
+        "gt_answers": "BRITISH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1029088.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "person's name is written on the wall",
+        "gt_answers": "5601",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1228145.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the number e2774xyz",
+        "gt_answers": "e247xky",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1018628.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "full",
+        "gt_answers": "full",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1037029.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "i love you",
+        "gt_answers": "your",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1212723.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word 'collection'",
+        "gt_answers": "collection",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1175322.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "views",
+        "gt_answers": "VIEWS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1015539.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the name of a company",
+        "gt_answers": "COMPANY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1232170.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "person",
+        "gt_answers": "CCER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1031061.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word link''",
+        "gt_answers": "link",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1004201.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the brownies",
+        "gt_answers": "BROWNIES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1218643.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "wants",
+        "gt_answers": "wants",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1240331.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the chinese chinese zodiac zodiac zodiac zodiac zodiac zodiac zodiac",
+        "gt_answers": "cakes",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1229207.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word webb",
+        "gt_answers": "WEIB",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1021017.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word cape",
+        "gt_answers": "cape",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1034396.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word cual'' is written on a t - shirt",
+        "gt_answers": "CUSL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1131333.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "vance",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1013102.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "irish king",
+        "gt_answers": "Irish",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1211198.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "wensi",
+        "gt_answers": "wensi",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1016777.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "xmas",
+        "gt_answers": "XMAS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1228986.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "pahmac''",
+        "gt_answers": "tarmac",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1199995.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "c f m l h",
+        "gt_answers": "cfmlh",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1088449.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "person's book",
+        "gt_answers": "HUNDRED",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1216708.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word 'opara'",
+        "gt_answers": "FAROA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1067972.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "swanson",
+        "gt_answers": "swanson",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1226320.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word 'cadres'",
+        "gt_answers": "CAZADORES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1122693.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "no actually you",
+        "gt_answers": "actually",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1211019.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "us navy",
+        "gt_answers": "NAVY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1115158.jpg",
+        "model_name": "BLIP2"
+    }
+]

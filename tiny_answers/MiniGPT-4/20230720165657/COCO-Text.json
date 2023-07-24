@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "This image is a wood plaque that reads \"San Diego.\"\n\nThe plaque is made of wood and has a brown color. It appears to be part of a sign or display that is placed on a wall or on the ground. The words are written in black ink and the plaque has a rectangular shape. There is a small image of a map or building on the top of the plaque, which appears to be related to the location of San Diego.",
+        "gt_answers": "VANILLA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1239213.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a black and white photograph of a woman's face with a serious expression. The woman is wearing a black hat and has short, curly hair. The woman's face is symmetrical and her eyebrows are straight. The image appears to be taken from a book or magazine and features the text'<Img>ryal</Img>'. The text is written in white and the letters are clear and legible. The image appears to be taken in a professional setting with a black background.",
+        "gt_answers": "bryan",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1021133.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a green sign with the words \"Horticulture\" written on it. The sign is likely a sign that reads \"Horticulture\" in white lettering on a green background.",
+        "gt_answers": "morrisey",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1031837.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a logo for Ford. It consists of a blue background with the word \"FORD\" written in white letters.\n\nThe font used for the letters is the same as the one used for the Ford logo. The image is not very clear, but it looks like the letters are made up of smaller letters that are arranged in a pattern. There is a star in the middle of the logo, which is surrounded by the words \"FORD\" and \"DELIVERING FORWARD.\" The star seems to be shining brightly, and the words are written in a bold font.\n\nOverall, the image conveys the message that Ford is a strong and reliable brand that delivers high-quality products to its customers. The image is simple yet impactful, and it makes a strong statement about the brand.",
+        "gt_answers": "ford",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1106763.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"SCo\" written in black ink on a white background.",
+        "gt_answers": "used",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1009549.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text \"Private\" is written in white on a black background. The image shows a sign with white letters on a black background that says \"Private.\" This sign is likely to be used to indicate that the area or item to which it is attached is private and not open to the public. The sign could be used at a private residence, business, or other private location to indicate that the area is not open to the public.\n\nThe sign could be attached to a fence, door, or wall to indicate that the area behind it is private. It could also be used in a business setting to indicate that certain areas of the building are off-limits to the public. The sign could be used to provide notice to the public that they are not welcome in certain areas or to prevent unauthorized access to certain areas.\n\nOverall, the sign provides notice that the area or item to which it is attached is private and not open to the public.",
+        "gt_answers": "PRIVATE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1030962.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a text-based logo for a company named Flipside Pro. It has the words \"Flipside Pro\" written in white letters on a black background with a green leaf and stem in the upper left corner. The overall design is simple and modern.",
+        "gt_answers": "MyProfe",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1147625.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"tennis\".",
+        "gt_answers": "tennis",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1000917.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"mello\" is written in the image.",
+        "gt_answers": "melo",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1162672.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"gronite\" is written in the image.",
+        "gt_answers": "Giro",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1043848.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a green background with the text \"NAT\" in white. It is an abbreviation for the word \"nature\" and could be used for a website or other platform that focuses on environmental issues or promotes sustainability.",
+        "gt_answers": "natl",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1135417.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a stop sign with the words \"stop\" written in white on a red background.",
+        "gt_answers": "stop",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1010152.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a sign that reads \"Harbor House\" in white letters on a blue background.",
+        "gt_answers": "GARDEN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1007150.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a piece of paper or cardboard that has been written on with various words and symbols. It appears to be a memorial of some kind, with messages and drawings of people, animals, and other objects. The word \"Odyl\" appears to be written in several places on the paper, along with other words and symbols. It is not clear what this memorial represents.",
+        "gt_answers": "ROOPS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1088534.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image reads, 'We are the best bikini bar in town'.",
+        "gt_answers": "credi",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1035790.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a wooden sign with the words \"Paddle Boats\" written on it. It appears to be in a marine or water themed setting. The sign is weathered and has some signs of wear, such as scratches and chips. There is a boat in the background with a paddle in the water. The sign is located in a location that suggests it is part of a nautical or maritime environment. The sign appears to be in a state of disrepair, with some parts missing or damaged.",
+        "gt_answers": "CAPADES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1145994.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a wooden sign with the words'Never give up on your dreams, keep pushing forward, and keep fighting for what you believe in.' written in white on a blue background. The sign is surrounded by a wooden frame and has a rustic, weathered look.",
+        "gt_answers": "Champignons",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1216318.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a word written in the script font. The word \"briscoe\" appears to be written in blue ink on a white background. It is a sans-serif font with round edges and a simple style. It is not clear what the word is used for, it could be a business name or it could be a personal name.",
+        "gt_answers": "CRISPY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1223413.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"Christmas\" written in white letters on a purple background.",
+        "gt_answers": "church",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1028402.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a person standing in front of a blue background with the word \"nhfh' written in white on the left side of the image and the word \"nhfh\" written in pink on the right side of the image. There is a blue square in the center of the image, and the person's head is slightly tilted to the right side. The person is wearing a white shirt and black pants. The image is in focus and has a bright, clear resolution.",
+        "gt_answers": "eisenhower",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1150143.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a black and white photo of a person standing on a balcony looking out at a cityscape in the distance. The person is wearing a black t-shirt and black jeans. There are trees and buildings in the background. The image has a serious expression on the person's face. The image is not relevant to the question.",
+        "gt_answers": "Park",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1222096.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a black and white photograph of a sign that reads 'Keep Calm and Carry On' in white letters on a black background. The words are written in a classic, serif font. The sign appears to be part of a larger campaign that encourages people to stay calm and carry on during difficult times. The image is not suitable for use on the website, as it may not be related to the topic or theme of the website.",
+        "gt_answers": "KEEP",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1222095.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says \"Write a 200-word essay on the effects of the 1960s civil rights movement on education.\"",
+        "gt_answers": "BRITISH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1029088.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a close-up of a horse's face, with its eyes closed and a peaceful expression on its face. The horse is standing on a grassy field with trees and other animals in the background. The background is a mix of green and brown tones.",
+        "gt_answers": "5601",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1228145.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a grey background with the number `437820` written in black on it.",
+        "gt_answers": "e247xky",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1018628.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I am an AI language model and I don't have the ability to see images. Can you please provide more information about the image or provide the image itself?",
+        "gt_answers": "full",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1037029.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"A Thousand Words.\"\n\nThe text appears in white letters on a purple background. The words are in a circular font and are separated by a thin line. The words are arranged in a way that creates a visual effect, with the letters appearing to float on the purple background. The words are arranged in a way that creates a visual effect, with the letters appearing to float on the purple background.\n\nThe words are arranged in a way that creates a visual effect, with the letters appearing to float on the purple background.\n\nThe text appears in white letters on a purple background. The words are in a circular font and are separated by a thin line. The words are arranged in a way that creates a visual effect, with the letters appearing to float on the purple background. The words are arranged in a way that creates a visual effect, with the letters appearing to float on the purple background.\n\nThe words are arranged in a way that creates a visual effect, with the letters appearing to float on the purple background. The words are arranged in a way that creates a visual effect, with the letters appearing to float on the purple background.\n\nThe words",
+        "gt_answers": "your",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1212723.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a yellow shoe with a red and white stripe pattern on the sides and a white lace on the top.",
+        "gt_answers": "collection",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1175322.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue metal barrel with a white label that reads'Waste Oil Collection'.",
+        "gt_answers": "VIEWS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1015539.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a graphical representation of a mountain range. The mountain range appears to be tall and rugged, with a range of colors from dark brown to light grey. There are also several other features in the image, such as trees, rocks, and a small stream running through the valley. The overall aesthetic of the image is natural and rugged.",
+        "gt_answers": "COMPANY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1232170.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"Roger\" written in a black font on a white background.\n\nThe word \"Roger\" is a common name for a male given name that has a French origin. It is derived from the Germanic name Hrodger, which means \"famous spear\". The name has been popular in many countries, including the United States, Canada, and the United Kingdom.\n\nThe font used in the image appears to be a sans-serif typeface with bold, rounded edges and thick strokes. It is a popular font for headings and display text due to its clean, modern look. The font is difficult to identify, as it is not a specific typeface.\n\nOverall, the image provides no information about the person named Roger, and it does not appear to be related to any particular context. The image is simply a representation of the word \"Roger\" in a specific font.",
+        "gt_answers": "CCER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1031061.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is the word link.",
+        "gt_answers": "link",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1004201.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a close-up of the word `downtown' written in blue ink on a gray background. The word is written in a cursive font and appears to be handwritten.",
+        "gt_answers": "BROWNIES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1218643.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a green background with white text that says, \"want.\"",
+        "gt_answers": "wants",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1240331.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a graph or chart displaying the relationship between two variables. It is difficult to interpret what the data represents without more information.",
+        "gt_answers": "cakes",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1229207.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a blue background with white text that reads, \"we did it\". The image is likely a reference to a successful project or accomplishment.",
+        "gt_answers": "WEIB",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1021017.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the text \"What is written in the image?\" in white letters on a brown background. The text appears to be centered in the image, and the font is sans serif and sans-serif.",
+        "gt_answers": "cape",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1034396.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a dark blue t-shirt with a red logo on the front. The logo is a stylized image of a hand pointing downwards, with the words `SEND A SIGNAL' written above it in white letters. The image is of high quality and is well lit, with the lighting creating deep shadows and highlights in the image. The image is of a person wearing the t-shirt and is shown from the front. The person is of average height and build, with short brown hair and a pair of sunglasses. The person is standing in front of a plain white background.",
+        "gt_answers": "CUSL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1131333.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a photograph of a large tree with a long, curved branch extending to the right and a smaller branch extending to the left. The trunk of the tree is grey and the leaves are green. The sky in the background is a light blue.",
+        "gt_answers": "vance",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1013102.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the sign of a restaurant with the word Irish Pub written on it in black letters on a red background. The restaurant appears to be located on the ground floor of a multi-story building.",
+        "gt_answers": "Irish",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1211198.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a photograph of a woman's face. The face is looking to the right, and the woman has long hair that is straight and parted in the middle. The woman has a fair complexion, and her eyes are closed. The woman's lips are thin, and her nose is straight. She has a look of peace and contentment on her face.",
+        "gt_answers": "wensi",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1016777.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a small, black and white sign that says \"Happy Holidays\". The sign is written in a stylized font, and appears to be attached to a wooden surface. The sign is surrounded by a white border. The image is of a small wooden sign that is attached to a wooden surface, with black and white text that says \"Happy Holidays\" in a stylized font. The sign appears to be attached to a wooden surface and surrounded by a white border.",
+        "gt_answers": "XMAS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1228986.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a pink T-shirt with the word 'PUNK' written in black on the front. The word 'PUNK' is written in a stylized font, with a slightly raised effect. The T-shirt has short sleeves and a round neckline. There is no visible design or image on the shirt, only the word 'PUNK' in black.",
+        "gt_answers": "tarmac",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1199995.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image appears to be the name of a software tool or application, which is displayed in the center of the image. It says 'c h m' and may be the name of some kind of programming language. The text is written in black on a silver background. The image appears to be a close-up view of a computer keyboard or other device with a metal casing. The image is not clear enough to determine the specific type of device.",
+        "gt_answers": "cfmlh",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1088449.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"Sunrise in the desert.\"",
+        "gt_answers": "HUNDRED",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1216708.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a close up of a white hat with the words \"Love\" written in purple on the front.",
+        "gt_answers": "FAROA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1067972.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word'WANSCO'written in red on a blue background.",
+        "gt_answers": "swanson",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1226320.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white shirt with a brown, tan, and blue striped design on it. The design consists of two diagonal lines that meet at the shoulders and run down the sides of the shirt. The words, \"Gallery Memphis\" are written in red on the top half of the shirt, and \"Painting Art Exhibition\" is written in black on the bottom half. The image also includes a brown and yellow palette of colors, which are used in the striped design.",
+        "gt_answers": "CAZADORES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1122693.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says \"Fashionable Jewellery for Women\" in white letters on a black background.",
+        "gt_answers": "actually",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1211019.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a metal sign with the words \"Navy\" written on it in blue and orange lettering. The sign is leaning against a wall with a blue sky and white clouds in the background. There is a metal pole in the foreground, and there is some sort of metal structure behind the sign. It appears to be a navy logo.",
+        "gt_answers": "NAVY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1115158.jpg",
+        "model_name": "MiniGPT-4"
+    }
+]

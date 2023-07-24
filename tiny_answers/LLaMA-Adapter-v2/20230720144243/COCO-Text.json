@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Fannie Mae.\"",
+        "gt_answers": "VANILLA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1239213.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Ryan\" is written in the image.",
+        "gt_answers": "bryan",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1021133.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Morris\" written in white letters on a green background.",
+        "gt_answers": "morrisey",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1031837.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"FORD\" is written in the image.",
+        "gt_answers": "ford",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1106763.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a word written in cursive, which appears to be \"casa.\"",
+        "gt_answers": "used",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1009549.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"PRIVATE\" written in white letters on a blue background.",
+        "gt_answers": "PRIVATE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1030962.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"PRO\" is written in the image.",
+        "gt_answers": "MyProfe",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1147625.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"TENN\" is written in the image.",
+        "gt_answers": "tennis",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1000917.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"helo\" is written in the image.",
+        "gt_answers": "melo",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1162672.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"circo\" is written in the image.",
+        "gt_answers": "Giro",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1043848.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HATE\" written in white text on a blue background.",
+        "gt_answers": "natl",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1135417.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"STOP\" is written in the image.",
+        "gt_answers": "stop",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1010152.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Gartner\" is written in the image.",
+        "gt_answers": "GARDEN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1007150.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large banner with many signatures written on it.",
+        "gt_answers": "ROOPS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1088534.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"CREDIT\" is written in the image.",
+        "gt_answers": "credi",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1035790.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign that says \"Papa D's Pizza.\"",
+        "gt_answers": "CAPADES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1145994.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a handwritten name, \"Jeffrey,\" written in blue ink on a piece of paper.",
+        "gt_answers": "Champignons",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1216318.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"GRIPS\" written in a script font.",
+        "gt_answers": "CRISPY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1223413.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Church\" is written in the image.",
+        "gt_answers": "church",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1028402.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NHG\" is written in the image.",
+        "gt_answers": "eisenhower",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1150143.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Park\" is written in the image.",
+        "gt_answers": "Park",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1222096.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white sign that says \"Keep Out.\"",
+        "gt_answers": "KEEP",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1222095.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"RITE\" written in a font that resembles a typewriter.",
+        "gt_answers": "BRITISH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1029088.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a book with the word \"SOS\" written on it.",
+        "gt_answers": "5601",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1228145.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a number 2477 written in a font that resembles a typewriter or a computer font.",
+        "gt_answers": "e247xky",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1018628.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"FUL\" is written in the image.",
+        "gt_answers": "full",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1037029.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a close-up of a bunch of numbers written on it.",
+        "gt_answers": "your",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1212723.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"STOP\" is written in the image.",
+        "gt_answers": "collection",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1175322.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NEWS\" is written in the image.",
+        "gt_answers": "VIEWS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1015539.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a word written in a foreign language, which is likely Chinese.",
+        "gt_answers": "COMPANY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1232170.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"GREEN\" written in a font that resembles a typewriter or old-fashioned lettering.",
+        "gt_answers": "CCER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1031061.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"link\" is written in the image.",
+        "gt_answers": "link",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1004201.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a handwritten message that says \"in the end we are all alone.\"",
+        "gt_answers": "BROWNIES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1218643.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green background with white text that reads \"WANT.\"",
+        "gt_answers": "wants",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1240331.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"cake\" is written in the image.",
+        "gt_answers": "cakes",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1229207.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"WEIER\" is written in the image.",
+        "gt_answers": "WEIB",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1021017.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a word or phrase written in a foreign language, possibly Spanish.",
+        "gt_answers": "cape",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1034396.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"CUNA\" is written in the image.",
+        "gt_answers": "CUSL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1131333.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Van\" is written in the image.",
+        "gt_answers": "vance",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1013102.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Irish Kids\" written on a sign.",
+        "gt_answers": "Irish",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1211198.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"never\" is written in the image.",
+        "gt_answers": "wensi",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1016777.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"XMAS\" is written in the image.",
+        "gt_answers": "XMAS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1228986.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"The\" is written in the image.",
+        "gt_answers": "tarmac",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1199995.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of a word written on a piece of metal, which appears to be a part of a machine or a piece of equipment.",
+        "gt_answers": "cfmlh",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1088449.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a piece of paper with the word \"PHILIPPINES\" written on it.",
+        "gt_answers": "HUNDRED",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1216708.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Carefree\" is written in the image.",
+        "gt_answers": "FAROA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1067972.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, colorful, and fancy word \"Hanson\" written in red, white, and blue.",
+        "gt_answers": "swanson",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1226320.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a word \"Zadar\" written in a foreign language, possibly on a sign or a piece of paper.",
+        "gt_answers": "CAZADORES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1122693.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"universal\" is written in the image.",
+        "gt_answers": "actually",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1211019.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Navy\" is written in the image.",
+        "gt_answers": "NAVY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1115158.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    }
+]

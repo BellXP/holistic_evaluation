@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "the letter g",
+        "gt_answers": "&",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/948.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "haunted",
+        "gt_answers": "HAUNTED",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1555.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fall is my favorite season",
+        "gt_answers": "free",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2142.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "shut up",
+        "gt_answers": "Shut",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/788.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "is is",
+        "gt_answers": "is",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1670.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word la",
+        "gt_answers": "LA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1114.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word'revolution'",
+        "gt_answers": "EVOLUTION",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/406.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "like the tee",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/583.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "follow the sun",
+        "gt_answers": "follow",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/911.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "happy birthday",
+        "gt_answers": "Happy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1419.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "it",
+        "gt_answers": "IT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1457.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "schwartzkopf",
+        "gt_answers": "SCHWARTZKOPFF",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1522.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bailey's est 2012",
+        "gt_answers": "Baileys",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1767.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fishbach",
+        "gt_answers": "FISCHBACHAU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/981.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "no",
+        "gt_answers": "NO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2062.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "patch",
+        "gt_answers": "PATCH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1106.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "good",
+        "gt_answers": "GOOD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/754.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "be",
+        "gt_answers": "BE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1819.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "paramore",
+        "gt_answers": "PARAMORE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1789.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the house",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1935.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the year 2018",
+        "gt_answers": "2018",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1090.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "but breakfast can be",
+        "gt_answers": "Breakfast",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1359.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "only",
+        "gt_answers": "ONLY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/604.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "billy",
+        "gt_answers": "Bills",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1741.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word hali",
+        "gt_answers": "HALI",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/459.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word'metrup'is written in green on a grey t - shirt",
+        "gt_answers": "METRICUP",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/412.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the did",
+        "gt_answers": "DID",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1163.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "happy valentines day",
+        "gt_answers": "valenlines",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/633.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "women is vital",
+        "gt_answers": "Vital",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1680.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "like the fuckin'fuckin'fuckin'fuckin'fuckin'fuckin'fuckin",
+        "gt_answers": "Like",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/582.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "moms are the best",
+        "gt_answers": "MOMS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1933.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "welcome bryan",
+        "gt_answers": "welcome",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2094.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "duchess",
+        "gt_answers": "DUCHESS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1752.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "it's a close call",
+        "gt_answers": "it's",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1548.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "welcome to bristol's",
+        "gt_answers": "BRISTOL'S",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2096.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "family time",
+        "gt_answers": "time",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1378.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cactus",
+        "gt_answers": "CACTUS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1979.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "don't eat calories",
+        "gt_answers": "Calories",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/471.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word kern",
+        "gt_answers": "KERN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/654.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word'slow water'",
+        "gt_answers": "Wafer",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1848.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fishing",
+        "gt_answers": "FISHING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/483.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bees",
+        "gt_answers": "BEES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/347.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "nuggets",
+        "gt_answers": "NUGGETS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/724.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word'homes'",
+        "gt_answers": "Hom\u025b",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1556.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "library",
+        "gt_answers": "LIBRARY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/563.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fantasy",
+        "gt_answers": "santasy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/665.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hero with a heart",
+        "gt_answers": "HERO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1277.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "casta",
+        "gt_answers": "Costa",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/662.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the kidz",
+        "gt_answers": "KIDS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/957.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word'membe'",
+        "gt_answers": "ME\u0414BE\u0414\u042a",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1539.png",
+        "model_name": "BLIP2"
+    }
+]

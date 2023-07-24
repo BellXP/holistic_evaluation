@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is \"THRU\" information in the image?",
+        "answer": "\"The \"\"THru\"\" information is a reference to a previous document or form that is related to the job application process.\".",
+        "gt_answers": "12/31/94",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"To:\" information in the image?",
+        "answer": "\"To: \"\"and others\"\" is indicated on the form.\".",
+        "gt_answers": "Ron Milstein",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83594639.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"TITLE OF ACTION:\" information in the image?",
+        "answer": "\"The \"\"TITle of the ACTION\"\" information is a reference to a car accident that is described in the document.\".",
+        "gt_answers": "WEBSTER CRECC",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/92380595.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"NO. OF STORES\" information in the image?",
+        "answer": "\"The \"\"No. of Stores\"\" information indicates the number of stores to which the inventory is related.\".",
+        "gt_answers": "225 27 15 31 18 19 20",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"SALES FORCE INVOLVEMENT:\" information in the image?",
+        "answer": "\"The \"\"SALES Force Involvement\"\" information is a key highlight of the product description, indicating that the product may be designed to involve sales representatives or involve them in some way during the selling process.\".",
+        "gt_answers": "Merchandising the top tray of permanent counter displays and labeling carton fixtures in the Camel section. Also placing metal signs and temporary counter displays.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"Date Prepared\" information in the image?",
+        "answer": "\"The \"\"Date Pprepared\"\" information is the date on which the document was prepared or created, not the date when the image was taken.\".",
+        "gt_answers": "8-17-88",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528321.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"Change\" information in the image?",
+        "answer": "\"In the image, \"\" Change\"\" information refers to the wording on the ticket that has been altered or replaced with a new ticket.\".",
+        "gt_answers": "X",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528321.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"PHYSICAL STATE\" information in the image?",
+        "answer": "\" Physical state information on the printout provides details about the specific form of the substance, in this case, a liquid or a solid.\".",
+        "gt_answers": "A crystalline solid at room temperature which melts at > 56 C.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87428306.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"*Note:\" information in the image?",
+        "answer": "\"(* Note) The image shows a form that is marked \"\"draft\"\" and seems to be a tax form or a document being filled out by an employee.\".",
+        "gt_answers": "If this expenditure is made to influence a local ballot question, a copy of this form should be filed with the city or town clerk or election commission.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"To Whom Paid (Alphabetical Listing Mandatory)\" information in the image?",
+        "answer": "\"This information indicates the name of the person or company that the invoice is addressed to, in an alphabetical list of recipients.\".",
+        "gt_answers": "Committee Against Unfair Taxes Committee Against Unfair Taxes",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"\" information in the image?",
+        "answer": "\"\u00bb, \"\"Information\"\" is another word for \"data,\"\" which is written on the bottom of the image.\".",
+        "gt_answers": "J. D. Ergle and R. F. Dufresne",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87086073.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"Comment on the assembly of displays and\" information in the image?",
+        "answer": "\"This information is a caution message that appears on the image, warning that \"\" Comment on the assembling of displays should be done with extreme caution.\"\" This serves to remind viewers to exercise care and caution when putting together the exhibit, ensuring the safety of both the displays and the individuals involved in the setup process.\".",
+        "gt_answers": "The displays are easily assembled and durable. Some questions have been raised conceming the inability to be flush with the counter and/ or against the register. As well as the ability to place this or the Back Bar if the settlement goes through",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82251504.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"STRUCTURE\" information in the image?",
+        "answer": "\"This information indicates the chemical structure of the compound or substance in the bottle.\".",
+        "gt_answers": "CH3CH2O OH",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87086073.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"TEST MARKET GEOGRAPHY\" information in the image?",
+        "answer": ", \"Test market geography\" refers to the location where a new product, such as a sandwich, is being sold to consumers for the first time in order to gather feedback and gauge the product's potential success in the market. This information is used by businesses to determine if the product is appealing to the consumers in that specific area before deciding whether to expand the product to other markets or continue with the test marketing process. In the context of the image, it is likely that the sandwich is being test- marketed in a region where it has not yet been available, and the purpose of the form is to gather information about consumer reactions, preferences, and satisfaction with the product.",
+        "gt_answers": "All of Region 7.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"PAGES (including Cover Sheet):\" information in the image?",
+        "answer": "\"This information indicates the number of pages in the document, including the cover sheet, making a total of four pages.\".",
+        "gt_answers": "2",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83443897.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"DEC 21\" information in the image?",
+        "answer": "\"The \"\"DEC21\"\" information is likely a reference to a specific date or event related to the parking meter. It may indicate the last day of a promotional period, a deadline for payment, or the expiration of the meter's functionality for that particular day.\".",
+        "gt_answers": "X",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"ESTIMATED TOXICITY CLASS\" information in the image?",
+        "answer": "\"The term \"\"Toxicology class\"\" typically refers to a classification system used to determine the potential toxicity of a substance, based on its chemical structure and properties. In this context, it is likely that the \"estimated toxicity class\"\" information is related to the chemical compound on the piece of paper, which may have been tested or analyzed to determine its toxicological properties. This information can be used to understand the potential risks or hazards associated with the compound, as well as to inform any safety precautions that should be taken when handling or disposing of the substance.\".",
+        "gt_answers": "III",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87086073.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"Telephone:\" information in the image?",
+        "answer": "\"The \"\" Telephone:\"\" information is part of the form and appears on the top of the paper form.\".",
+        "gt_answers": "(615) ) 638- 5532",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87332450.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"# REPS:\" information in the image?",
+        "answer": "\"The \"\"/# REPS\"\" information is a column on the worksheet that contains the number of reps performed for each exercise in the workout.\".",
+        "gt_answers": "12",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"CASE TYPE:\" information in the image?",
+        "answer": "\"This information indicates that the case is a criminal trial, which is further described as a \"\"murder trial.\"\"\".",
+        "gt_answers": "Asbestos",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82491256.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"1. PRINCIPAL INVESTIGATOR NAME, TITLE, TELEPHONE # AND MAILING ADDRESS.\" information in the image?",
+        "answer": "This information, which appears at the top of the document, includes the name, title, phone number, and mailing address of the Principal Investigator, who is likely the main researcher or scientist responsible for the project described in the application.",
+        "gt_answers": "Steven R. Kleeberger, Ph. D.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"CC:\" information in the image?",
+        "answer": "\"CC:\"\" stands for \"\"Cc,\"\" which is a term used to indicate that multiple people should receive a copy of the document.\".",
+        "gt_answers": "Mr. Fred Paternostro",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82562350.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"LRC FILE NUMBER\" information in the image?",
+        "answer": "\"The \"\"LRC File Number\"\" information is likely a reference to a specific laboratory report or document related to the vial of liquid sitting on the table.\".",
+        "gt_answers": "A221",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87428306.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"SIZE:\" information in the image?",
+        "answer": "\"The \"\"SIZE:\"\" information is a part of the contract and indicates the size of the truck being described in the document.\".",
+        "gt_answers": "171/4 x 231/2 \"",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528380.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE\" information in the image?",
+        "answer": "\"This information indicates the amount of chain allowed for display or sale, and the acceptance of the store's responsibility for the chain being displayed properly.\".",
+        "gt_answers": "Chain acceptance has been very good.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"NOTE:\" information in the image?",
+        "answer": "\"The \"\"NOTE:\"\" information is a note that has been written on the document, possibly indicating important information or a reminder related to the content of the document.\".",
+        "gt_answers": "THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED. CONFIDENTIAL, AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. If the reader of this message is not the intended recipient of the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that any dissemination, distribution, copying, or conveying of this communication in any manner is strictly prohibited. If you have received this comunication in error, please notify us immediately by telephone and return the original message to us at the address below via the U. S. Postal Service. Thank you for your cooperation.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82092117.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"TEST ARTICLE IDENTIFICATION:\" information in the image?",
+        "answer": "\"This information is a reference to a test article, and the sheet likely contains details about the test sample or material being tested.\".",
+        "gt_answers": "B220",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87137840.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"Est. Redemption\" information in the image?",
+        "answer": "\"The \"\"Est.Redemption\"\" information is a field on the form that indicates the date or time when the item being purchased will be redeemed, such as when the bottle of wine should be opened or used.\".",
+        "gt_answers": "13%",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"Weight\" information in the image?",
+        "answer": "\"The \"\"Weight\"\" information is likely the weight of the tobacco product or the weight limit of the container, as it is written alongside the list of different flavors of cigarettes.\".",
+        "gt_answers": "78.0 g / 100",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"PRICE POINT:\" information in the image?",
+        "answer": "\"The \"\" Price Point: \"\" information is a label indicating the price at which the product, in this case, the mountain bike, is being sold.\".",
+        "gt_answers": "FULL $ 11.89 P/ V $ (Indicate Distributor's Cost Per Carton)",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"Plast.\" information in the image?",
+        "answer": "\"plast.\" stands for \"\"plastic\"\" in Romanian, and the image shows a sign with that word on it, along with a picture of grass and a bottle.\".",
+        "gt_answers": "7 % Kent",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"GROSS WEIGHT\" information in the image?",
+        "answer": "\"Gross weight\" refers to the total weight of the package, including the weight of all the items it contains. This information is often used in shipping and transportation to determine the cost of shipping or to ensure that the package can be safely transported without exceeding weight restrictions.\".",
+        "gt_answers": "Not provided",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87137840.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "\"The \"\"FAX\"\" information indicates that the list of people on the sheet may have been faxed or transmitted electronically in some way.\".",
+        "gt_answers": "202- 942- 5999",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "\"TO\"\" stands for \"\"To\"\" and is a part of the address line on the top of the form. It is used to indicate the recipient or the location where the form is intended to be delivered.\".",
+        "gt_answers": "LORILLARD, INC. ONE PARK AVENUE 18TH FL NEW YORK, N. Y. 10016",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/92380595.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"Key Criteria for Analysis\" information in the image?",
+        "answer": "\"This information is a reminder for the person viewing the document to keep in mind the key criteria for analysis when examining the objects on the desk, such as the papers, plaque, and other items.\".",
+        "gt_answers": "-Triumph switchers asked why no longer smoking Triumph -Present smokers of Triumph asked reasons for switching to Triumph -Mentions of \"harshness\"",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/89856243.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"DIVISION NAME:\" information in the image?",
+        "answer": "\"The \"\"DIvision NAME:\"\" information is part of a form or document that is filled out, indicating the division's name.\".",
+        "gt_answers": "Flint",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "\"Name: \"\" Families\"\" is written in the box under the list of companies.\".",
+        "gt_answers": "Steve Krigbaum",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "\"The \"\"FAX\"\" information indicates that the list of people on the sheet may have been faxed or transmitted electronically in some way.\".",
+        "gt_answers": "213- 687- 3702",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "\"DATE: \"\" is a heading at the top of the document, indicating the date on which the form was filled out.\".",
+        "gt_answers": "12- 13- 89",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/92380595.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"CIRCULATION(#)\" information in the image?",
+        "answer": "\"Circulation(#)\u201d information is part of the document and appears at the bottom of the first page.\".",
+        "gt_answers": "201, 500",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83996357.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"ADDRESS\" information in the image?",
+        "answer": "\"In the image, \"\"ADDRESS\"\" information refers to the address line information on the back of the baseball card.\".",
+        "gt_answers": "666 Fifth Avenue",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528380.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"VENDOR\" information in the image?",
+        "answer": "\"Vendor information\" in the context of the image likely refers to the company or individual responsible for the tennis racket, such as the manufacturer or retailer. It may also possibly indicate the brand or model of the racket.\".",
+        "gt_answers": "Piedmont Research Laboratory 2748 Patterson Ave., Greensboro,",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87147607.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"BRAND NAME:\" information in the image?",
+        "answer": "\"The \"\"Brand name\"\" information in this context likely refers to the manufacturer of the suitcase, such as Samsonite or another well-known luggage brand.\".",
+        "gt_answers": "VICEROY KING BOX AND VICEROY LIGHTS KING BOX",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82837252.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "\"The \"\"NAME OF account\"\" information is a field on the form that refers to the specific account for which the expenses are being recorded.\".",
+        "gt_answers": "Don & Bens Western Beverage Speedy Stop Get Go Valley Shamrock Albertson's -Houston Mini Mart Neal One Stop Shopper Mart",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"Air Dilution\" information in the image?",
+        "answer": "Air dilution information is provided on the next page of the image, which shows the details of the air dilution experiment performed with the apple.",
+        "gt_answers": "13.0 %",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"IND/ LOR VOLUME\" information in the image?",
+        "answer": "\"INF/LOR VOlume\" refers to the volume of reference checks or letters of recommendation that are yet to be processed or have not been received.\".",
+        "gt_answers": "26/ 2 42/ 2 106 /4 62/ 2 78/ 4 319/ 16 65/ 3 69/ 3 80/ 4",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"TYPE OF PACKINGS:\" information in the image?",
+        "answer": "\"This information is a list of various types of packing materials that the company uses for their products, indicating the different options available for customers to choose from.\".",
+        "gt_answers": "All Packings",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"From:\" information in the image?",
+        "answer": "\"The \"\"From\"\" information in this particular email is an address, which indicates that the email has been sent from that address.\".",
+        "gt_answers": "Susan Smith",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86220490.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"Plug Wrap\" information in the image?",
+        "answer": "\"plug wrap information is likely the brand or type of the cigarette filters being sold.\".",
+        "gt_answers": "84- 52- 28",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is \"Ind/Lor Volume\" information in the image?",
+        "answer": "\"The \"\"Ind/ Lor volume\"\" information is a reference to the amount of indoor and outdoor lighting volume settings on the lighting control panel.\".",
+        "gt_answers": "196/13",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "Otter"
+    }
+]

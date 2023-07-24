@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Farmers Market.\"The sign is located on a",
+        "gt_answers": "VANILLA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1239213.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a sign that says \"Ryans.\"The",
+        "gt_answers": "bryan",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1021133.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign with the words \"MORRIS ST.\" written on it.",
+        "gt_answers": "morrisey",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1031837.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue Ford logo on a white toothbrush.The blue Ford logo is on",
+        "gt_answers": "ford",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1106763.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a piece of paper with the words \"LLaVA\" written on it.",
+        "gt_answers": "used",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1009549.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the words \"Privacy\" and \"Surveillance\" written in white letters.",
+        "gt_answers": "PRIVATE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1030962.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Produce\" written in white letters on a black background.",
+        "gt_answers": "MyProfe",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1147625.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the words \"tennennnn\" written in black.# Tennennnn",
+        "gt_answers": "tennis",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1000917.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and black text, possibly a logo, that reads \"Held.\"",
+        "gt_answers": "melo",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1162672.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Irri-curious.\"The sign is located in",
+        "gt_answers": "Giro",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1043848.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a green screen with the word \"data\" written on it.#\n\n",
+        "gt_answers": "natl",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1135417.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a stop sign with the word \"STOP\" written on it.The image also",
+        "gt_answers": "stop",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1010152.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Gartner\" and is located on a building.",
+        "gt_answers": "GARDEN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1007150.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white piece of paper with the word \"ROK\" written on it.",
+        "gt_answers": "ROOPS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1088534.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green screen with the words \"credit card\" written on it.#\n",
+        "gt_answers": "credi",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1035790.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Padapadda.\"The sign is written in a",
+        "gt_answers": "CAPADES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1145994.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a piece of paper with a name written on it, possibly a signature.The name is written in cursive,",
+        "gt_answers": "Champignons",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1216318.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Gristle.\"The sign is located on a wall, and it appears to be a",
+        "gt_answers": "CRISPY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1223413.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"church\" written in white letters on a pink background.The word \"church\" is written in white",
+        "gt_answers": "church",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1028402.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"NNH\" and \"NNH HOG.\"The sign is located on a wall.",
+        "gt_answers": "eisenhower",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1150143.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the words \"Park\" written on it.#\n\nThe image is a black and white photo of a sign",
+        "gt_answers": "Park",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1222096.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that says \"Keep.\"The sign is black and white, and it is mounted on a pole.",
+        "gt_answers": "KEEP",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1222095.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"The Writer's Digest.\"The Writer's Digest is a magazine dedicated to providing writing",
+        "gt_answers": "BRITISH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1029088.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a book cover with the words \"The Secret of Success\" written on it.The Secret of Success\n\nThe",
+        "gt_answers": "5601",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1228145.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a number, which is 2724.#2724.The number is written in black ink on a",
+        "gt_answers": "e247xky",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1018628.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"full\" written in black letters.#\n\nThe word \"full\" is written in black letters",
+        "gt_answers": "full",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1037029.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a purple piece of paper with the words \"You are LLaVA\" written on it.",
+        "gt_answers": "your",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1212723.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Turn\" written on it.#\n\nThe sign is yellow and red in color",
+        "gt_answers": "collection",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1175322.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the word \"news\" written on it.The sign is located on a building,",
+        "gt_answers": "VIEWS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1015539.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue screen with white text on it, which reads \"LLaVA.\"The image also has a close-",
+        "gt_answers": "COMPANY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1232170.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Beer\" written on it.The sign is black and white, and it is",
+        "gt_answers": "CCER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1031061.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a piece of paper with the word \"link\" written on it.#\n\nThe word \"link\" is",
+        "gt_answers": "link",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1004201.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a handwritten note, possibly a letter, on a piece of paper.The note is written in blue ink and is addressed to",
+        "gt_answers": "BROWNIES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1218643.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green screen with the words \"WANT WANT WANT\" written on it.The image is a close-up of the green",
+        "gt_answers": "wants",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1240331.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue background with a red and white snake design.#1: The image is a close-up of a blue and red",
+        "gt_answers": "cakes",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1229207.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"New Year's Eve.\"The sign is written in black ink on a white background.The sign",
+        "gt_answers": "WEIB",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1021017.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a close-up of a computer keyboard with the word \"cap\" written on it.#\n\n#\n\nThe image",
+        "gt_answers": "cape",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1034396.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo or a picture of a microphone with the words \"CU Radio\" underneath it.The image is a close-up of",
+        "gt_answers": "CUSL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1131333.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a black and white photo of a person's name, which is \"Van Winkle.\"#VanWinkle.#",
+        "gt_answers": "vance",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1013102.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"Irish King\" written on it.#\n\nThe sign is located above a doorway, and it",
+        "gt_answers": "Irish",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1211198.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a text message on a cell phone screen.#\n\nThe text message is written in a foreign language.#\n",
+        "gt_answers": "wensi",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1016777.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white bracelet with the words \"Black Christmas\" written on it.The bracelet is made of white material and has a",
+        "gt_answers": "XMAS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1228986.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a pink shirt with the words \"The Hacker\" written on it.#TheHacker\n#TheHacker\nThe",
+        "gt_answers": "tarmac",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1199995.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"FMLA\" written on a silver surface.#FMLA is an acronym for Family and Medical",
+        "gt_answers": "cfmlh",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1088449.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a white wall with a textured surface, and there is a white letter \"L\" written on it.",
+        "gt_answers": "HUNDRED",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1216708.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white hat with the word \"Cara\" written on it.#\n\nThe hat is made of white material, and",
+        "gt_answers": "FAROA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1067972.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and red logo with the words \"Hansons\" and \"Transportation.\"The logo is designed to represent a transportation",
+        "gt_answers": "swanson",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1226320.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Zadar\" written on it.The sign is located in the middle of a white background.",
+        "gt_answers": "CAZADORES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1122693.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"queer.\"",
+        "gt_answers": "actually",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1211019.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Navy.\"",
+        "gt_answers": "NAVY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/COCO-Text/val_words/1115158.jpg",
+        "model_name": "LLaVA"
+    }
+]

@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Question: What is the name of the colony shown?\nOptions: New York\nRhode Island\nNorth Carolina\nNew Jersey\n",
+        "answer": "New Hampshire",
+        "gt_answers": "Rhode Island",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0131.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: In this food web, which organism contains matter that eventually moves to the mushroom?\nOptions: brown lemming\nbilberry\nContext: Below is a food web from a tundra ecosystem in Nunavut, a territory in Northern Canada.\nA food web models how the matter eaten by organisms moves through an ecosystem. The arrows in a food web represent how matter moves between organisms in an ecosystem.\n",
+        "answer": "In this food web, the brown lemming is the primary producer, meaning it creates its own food through photosynthesis. The brown lemming eats lichen, which is a type of plant that grows on rocks and trees in the tundra ecosystem. The bilberry is a secondary consumer, meaning it feeds on the brown lemming. The arctic fox is a tertiary consumer, meaning it feeds on the bilberry. The arctic wolf is a quaternary consumer, meaning it feeds on the arctic fox.",
+        "gt_answers": "bilberry",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0778.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Jamaica\nSaint Lucia\nBarbados\nSaint Vincent and the Grenadines\n",
+        "answer": "Trinidad and Tobago",
+        "gt_answers": "Saint Lucia",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0281.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which of these states is farthest east?\nOptions: New York\nOhio\nColorado\nMississippi\n",
+        "answer": "Virginia",
+        "gt_answers": "New York",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1108.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: According to the map, which of the following statements is true about North America in the early colonial era?\nOptions: England claimed most of the Atlantic coast of North America.\nThe Dutch controlled the most territory in eastern North America.\nContext: Look at the map of North America in the early colonial era, or the 1600s and early 1700s. Then answer the question below.\n",
+        "answer": "Which of the following statements is true about North America in the early colonial era, or the 1600s and early 1700s? England claimed most of the Atlantic coast of North America.",
+        "gt_answers": "England claimed most of the Atlantic coast of North America.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1305.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What is the expected ratio of offspring with a yellow ground spot to offspring with a white ground spot? Choose the most likely ratio.\nOptions: 4:0\n3:1\n1:3\n0:4\n2:2\nContext: This passage describes the ground spot color trait in watermelon plants:\nWatermelon plants grow with their fruit resting on the ground. Over time, the bottom of each fruit develops a white or yellow spot called a ground spot. In some types of watermelon plants, the color of the ground spot is an inherited trait.\nIn a group of watermelon plants, some individuals have a yellow ground spot and others have a white ground spot. In this group, the gene for the ground spot color trait has two alleles. The allele for a white ground spot (g) is recessive to the allele for a yellow ground spot (G).\nThis Punnett square shows a cross between two watermelon plants.\n",
+        "answer": "In the Punnett square, we can see that one parent has a white ground spot (gg) and the other parent has a yellow ground spot (Gg). Since the allele for a white ground spot is recessive to the allele for a yellow ground spot, all of the offspring from this cross will have yellow ground spots (GG). The expected ratio of offspring with a yellow ground spot to offspring with a white ground spot is 2:1, or 67% of the offspring will have yellow ground spots and 33% will have white ground spots.",
+        "gt_answers": "4:0",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1393.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Is a T-shirt a solid, a liquid, or a gas?\nOptions: a liquid\na gas\na solid\n",
+        "answer": "a liquid",
+        "gt_answers": "a solid",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1511.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Does Rhizophora mangle have cells that have a nucleus?\nOptions: yes\nno\nContext: This organism is Rhizophora mangle. It is a member of the plant kingdom.\nRhizophora mangle is commonly called a red mangrove. Red mangrove trees grow in or near water. They have strong roots that help prop, or hold, them up. These roots are also aerial, which means that they can grow above the ground. So, the red mangrove roots are called aerial prop roots.\n",
+        "answer": "Yes, Rhizophora mangle has cells that have a nucleus.",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1169.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Look at the models of molecules below. Select the elementary substance.\nOptions: bromine\nhydrazine\ntrichlorofluoromethane\n",
+        "answer": "hydrogen chloride",
+        "gt_answers": "bromine",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1078.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What is the capital of Minnesota?\nOptions: Saint Paul\nMinneapolis\nJefferson City\nPierre\n",
+        "answer": "Madison",
+        "gt_answers": "Saint Paul",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1426.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Saint Kitts and Nevis\nBarbados\nHaiti\nAntigua and Barbuda\n",
+        "answer": "Saint Vincent and the Grenadines",
+        "gt_answers": "Antigua and Barbuda",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0460.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What is the capital of Delaware?\nOptions: Harrisburg\nDover\nWilmington\nGeorgetown\n",
+        "answer": "Philadelphia",
+        "gt_answers": "Dover",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0574.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which property do these three objects have in common?\nOptions: fragile\nsticky\ncolorful\nContext: Select the best answer.\n",
+        "answer": "sticky",
+        "gt_answers": "colorful",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1211.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What is the capital of Idaho?\nOptions: Oklahoma City\nBoise\nBaton Rouge\nNampa\n",
+        "answer": "Portland",
+        "gt_answers": "Boise",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1163.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnetic force is weaker in Pair 1.\nThe strength of the magnetic force is the same in both pairs.\nThe magnetic force is weaker in Pair 2.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material.\n",
+        "answer": "Answer: The strength of the magnetic force is the same in both pairs.",
+        "gt_answers": "The magnetic force is weaker in Pair 2.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1880.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Identify the question that Kira's experiment can best answer.\nOptions: Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?\nDoes fabric turn darker when soaked in a mixture of black dye and water for 15 minutes compared to 30 minutes?\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nKira prepared ten buckets, each with one gallon of boiling water and three tablespoons of black fabric dye. Kira soaked white linen fabric squares in five of the buckets, and white cotton fabric squares in the other five buckets. All of the fabric squares were soaked for 15 minutes. After the fabric dried, Kira scored the darkness of the squares on a scale from light to dark. She compared the darkness of the linen fabric to the darkness of the cotton fabric.\nFigure: fabric that has been dyed black.\n",
+        "answer": "1. Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?\n2. Does fabric turn darker when soaked in a mixture of black dye and water for 15 minutes compared to 30 minutes?",
+        "gt_answers": "Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0124.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which term matches the picture?\nOptions: operant conditioning\nclassical conditioning\nContext: Read the text.\nA conditioned response occurs when an animal learns to associate two events that were not originally related. For example, a dog will naturally salivate at the smell of food (an unconditioned response). However, if a dog learns that the sound of a ringing bell is a sure sign that dinner is coming, it will begin to react to the sound of that bell the same way it reacts to the smell of food (a conditioned response). This is called classical conditioning.\nOperant conditioning is a process like classical conditioning. However, in classical conditioning, the events that an animal learns to associate are not under the animal's voluntary control. In operant conditioning, an external event that is either a reward or punishment becomes linked with a voluntary behavior. For example, a student who receives a gold star for sitting quietly is more likely to choose to sit quietly in the future. The behavior (sitting quietly) has become linked in the student's mind with the reward that it produced in the past. Animal trainers rely on operant conditioning to encourage desired behaviors and discourage unwanted ones.\n",
+        "answer": "In summary, both classical conditioning and operant conditioning involve associating a response with a stimulus. However, while classical conditioning focuses on unconditioned responses, operant conditioning focuses on voluntary behaviors that can be reinforced or discouraged through external rewards or punishments.",
+        "gt_answers": "operant conditioning",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0805.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Select the organism in the same genus as the spot-billed pelican.\nOptions: Ardea herodias\nPelecanus philippensis\nBubo scandiacus\nContext: This organism is a spot-billed pelican. Its scientific name is Pelecanus philippensis.\n",
+        "answer": "Pelecanus philippensis is the scientific name for the spot-billed pelican.",
+        "gt_answers": "Pelecanus philippensis",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0779.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Is plagioclase a mineral or a rock?\nOptions: rock\nmineral\nContext: Plagioclase has the following properties:\nwhite streak\nfixed crystal structure\npure substance\nnaturally occurring\nnot made by organisms\nsolid\n",
+        "answer": "water soluble",
+        "gt_answers": "mineral",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1706.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Select the mammal below.\nOptions: wombat\nbarn owl\nflamingo\nocean sunfish\nContext: Mammals have hair or fur and feed their young milk.\nMammals are warm-blooded. Warm-blooded animals can control their body temperature.\nA rabbit is an example of a mammal.\n",
+        "answer": "A rabbit is an example of a mammal that has fur and feeds its young milk.",
+        "gt_answers": "wombat",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0572.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What is the capital of Nebraska?\nOptions: Providence\nSaint Paul\nLincoln\nKansas City\n",
+        "answer": "Omaha",
+        "gt_answers": "Lincoln",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1008.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnetic force is stronger in Pair 1.\nThe strength of the magnetic force is the same in both pairs.\nThe magnetic force is stronger in Pair 2.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material.\n",
+        "answer": "Yes, the magnetic force is stronger in Pair 1.",
+        "gt_answers": "The strength of the magnetic force is the same in both pairs.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0372.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What is the capital of California?\nOptions: Sacramento\nReno\nLos Angeles\nSan Francisco\n",
+        "answer": "Salt lake city",
+        "gt_answers": "Sacramento",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0155.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which property do these three objects have in common?\nOptions: blue\nsticky\nfuzzy\nContext: Select the best answer.\n",
+        "answer": "fuzzy",
+        "gt_answers": "fuzzy",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0359.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What is the capital of Idaho?\nOptions: Boise\nBaton Rouge\nAtlanta\nNampa\n",
+        "answer": "Portland",
+        "gt_answers": "Boise",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1407.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What is the capital of Ohio?\nOptions: Cleveland\nColumbus\nCincinnati\nFargo\n",
+        "answer": "Portland",
+        "gt_answers": "Columbus",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1289.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which of these cities is marked on the map?\nOptions: Omaha\nChicago\nSt. Louis\nCleveland\n",
+        "answer": "Indianapolis",
+        "gt_answers": "St. Louis",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1322.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Complete the text to describe the diagram.\nSolute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.\nOptions: to the left than to the right\nto the right than to the left\nContext: The diagram below shows a solution with one solute. Each solute particle is represented by a yellow ball. The solution fills a closed container that is divided in half by a membrane. The membrane, represented by a dotted line, is permeable to the solute particles.\nThe diagram shows how the solution can change over time during the process of diffusion.\n",
+        "answer": "As the solute particles move across the membrane, they will eventually reach an equilibrium point where the concentration on both sides of the membrane is equal. \nIn this case, more solute particles moved across the membrane from the side with a higher concentration to the side with a lower concentration.",
+        "gt_answers": "to the left than to the right",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0910.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Haiti\nSaint Lucia\nBarbados\nSaint Vincent and the Grenadines\n",
+        "answer": "Jamaica",
+        "gt_answers": "Saint Lucia",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0858.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Antigua and Barbuda\nJamaica\nSaint Lucia\nSaint Kitts and Nevis\n",
+        "answer": "Saint Vincent and the Grenadines",
+        "gt_answers": "Saint Kitts and Nevis",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1756.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What can Mark and Valeria trade to each get what they want?\nOptions: Mark can trade his tomatoes for Valeria's broccoli.\nValeria can trade her broccoli for Mark's oranges.\nMark can trade his tomatoes for Valeria's sandwich.\nValeria can trade her almonds for Mark's tomatoes.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nMark and Valeria open their lunch boxes in the school cafeteria. Both of them could be happier with their lunches. Mark wanted broccoli in his lunch and Valeria was hoping for tomatoes. Look at the images of their lunches. Then answer the question below.\n",
+        "answer": "What can Mark and Valeria trade to each get what they want?\nMark can trade his tomatoes for Valeria's broccoli.\nValeria can trade her broccoli for Mark's oranges.\nMark can trade his tomatoes for Valeria's sandwich.\nValeria can trade her almonds for Mark's tomatoes.",
+        "gt_answers": "Mark can trade his tomatoes for Valeria's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0823.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which month has the lowest average precipitation in London?\nOptions: November\nJuly\nMay\nContext: Use the graph to answer the question below.\n",
+        "answer": "December",
+        "gt_answers": "July",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0598.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What can Sadie and Kira trade to each get what they want?\nOptions: Kira can trade her almonds for Sadie's tomatoes.\nSadie can trade her tomatoes for Kira's broccoli.\nKira can trade her broccoli for Sadie's oranges.\nSadie can trade her tomatoes for Kira's sandwich.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nSadie and Kira open their lunch boxes in the school cafeteria. Both of them could be happier with their lunches. Sadie wanted broccoli in her lunch and Kira was hoping for tomatoes. Look at the images of their lunches. Then answer the question below.\n",
+        "answer": "What can Sadie and Kira trade to each get what they want?",
+        "gt_answers": "Sadie can trade her tomatoes for Kira's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0785.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What can Turner and Mona trade to each get what they want?\nOptions: Turner can trade his tomatoes for Mona's broccoli.\nTurner can trade his tomatoes for Mona's carrots.\nMona can trade her broccoli for Turner's oranges.\nMona can trade her almonds for Turner's tomatoes.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nTurner and Mona open their lunch boxes in the school cafeteria. Neither Turner nor Mona got everything that they wanted. The table below shows which items they each wanted:\n\nLook at the images of their lunches. Then answer the question below.\nTurner's lunch Mona's lunch\n",
+        "answer": "What does Turner want to trade with Mona?\n\nTurner wants to trade his tomatoes for Mona's broccoli.",
+        "gt_answers": "Turner can trade his tomatoes for Mona's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0117.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which of these states is farthest south?\nOptions: Maine\nMassachusetts\nMichigan\nDelaware\n",
+        "answer": "Virginia",
+        "gt_answers": "Delaware",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0387.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nOptions: sample A\nsample B\nneither; the samples have the same temperature\nContext: The diagrams below show two pure samples of gas in identical closed, rigid containers. Each colored ball represents one gas particle. Both samples have the same number of particles.\n",
+        "answer": "Which sample has the higher average kinetic energy?",
+        "gt_answers": "sample B",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1467.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Identify the question that Mike's experiment can best answer.\nOptions: Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon?\nDoes temperature affect how much bacteria can grow in liquid?\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nMike mixed bacteria into a nutrient-rich liquid where the bacteria could grow. He poured four ounces of the mixture into each of ten glass flasks. In five of the ten flasks, he also added one teaspoon of cinnamon. He allowed the bacteria in the flasks to grow overnight in a 37\u00b0C room. Then, Mike used a microscope to count the number of bacteria in a small sample from each flask. He compared the amount of bacteria in the liquid with cinnamon to the amount of bacteria in the liquid without cinnamon.\nFigure: flasks of liquid for growing bacteria.\n",
+        "answer": "What can Mike's experiment best answer?\n\nMike's experiment can best answer whether the presence of cinnamon affects the growth of bacteria in a nutrient-rich liquid.",
+        "gt_answers": "Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon?",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1097.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What can Ian and Joseph trade to each get what they want?\nOptions: Joseph can trade his almonds for Ian's tomatoes.\nIan can trade his tomatoes for Joseph's carrots.\nIan can trade his tomatoes for Joseph's broccoli.\nJoseph can trade his broccoli for Ian's oranges.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nIan and Joseph open their lunch boxes in the school cafeteria. Neither Ian nor Joseph got everything that they wanted. The table below shows which items they each wanted:\n\nLook at the images of their lunches. Then answer the question below.\nIan's lunch Joseph's lunch\n",
+        "answer": "What can Ian and Joseph trade to each get what they want?\n\nJoseph can trade his almonds for Ian's tomatoes.\nIan can trade his tomatoes for Joseph's carrots.\nIan can trade his tomatoes for Joseph's broccoli.\nJoseph can trade his broccoli for Ian's oranges.",
+        "gt_answers": "Ian can trade his tomatoes for Joseph's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1042.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What is the capital of Maine?\nOptions: Montpelier\nProvidence\nAugusta\nPortland\n",
+        "answer": "Boston",
+        "gt_answers": "Augusta",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1143.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which of the following fossils is younger? Select the more likely answer.\nOptions: ginkgo leaf\ninsect\nContext: This diagram shows fossils in an undisturbed sedimentary rock sequence.\n",
+        "answer": "This diagram shows fossils in an undisturbed sedimentary rock sequence.",
+        "gt_answers": "insect",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1538.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which property do these three objects have in common?\nOptions: shiny\nrough\nfragile\nContext: Select the best answer.\n",
+        "answer": "shiny",
+        "gt_answers": "shiny",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1101.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Select the organism in the same species as the Indian rock python.\nOptions: Python molurus\nLacerta agilis\nNerodia cyclopion\nContext: This organism is an Indian rock python. Its scientific name is Python molurus.\n",
+        "answer": "Yes",
+        "gt_answers": "Python molurus",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0309.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What is the capital of Maine?\nOptions: Augusta\nBoston\nTopeka\nGreen Bay\n",
+        "answer": "Portland",
+        "gt_answers": "Augusta",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1635.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnitude of the magnetic force is smaller in Pair 2.\nThe magnitude of the magnetic force is the same in both pairs.\nThe magnitude of the magnetic force is smaller in Pair 1.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes.\n",
+        "answer": "Answer: The magnitude of the magnetic force is the same in both pairs.",
+        "gt_answers": "The magnitude of the magnetic force is smaller in Pair 2.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0581.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What is the capital of Arkansas?\nOptions: Little Rock\nFayetteville\nTallahassee\nArlington\n",
+        "answer": "Lexington",
+        "gt_answers": "Little Rock",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0875.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: What is the capital of Arkansas?\nOptions: Carson City\nFayetteville\nJefferson City\nLittle Rock\n",
+        "answer": "Lexington",
+        "gt_answers": "Little Rock",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0660.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnitude of the magnetic force is the same in both pairs.\nThe magnitude of the magnetic force is greater in Pair 1.\nThe magnitude of the magnetic force is greater in Pair 2.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes.\n",
+        "answer": "Answer: The magnitude of the magnetic force is greater in Pair 1.",
+        "gt_answers": "The magnitude of the magnetic force is greater in Pair 1.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0731.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnitude of the magnetic force is greater in Pair 1.\nThe magnitude of the magnetic force is greater in Pair 2.\nThe magnitude of the magnetic force is the same in both pairs.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes and shapes.\n",
+        "answer": "Answer: The magnitude of the magnetic force is the same in both pairs.",
+        "gt_answers": "The magnitude of the magnetic force is greater in Pair 2.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1560.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Is the wind through a tree a solid, a liquid, or a gas?\nOptions: a solid\na gas\na liquid\n",
+        "answer": "a solid",
+        "gt_answers": "a gas",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1025.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "Question: Which of the following could Duncan's test show?\nOptions: whether a parachute with a 1 m vent would swing too much at 400 km per hour\nif the spacecraft was damaged when using a parachute with a 1 m vent going 200 km per hour\nhow steady a parachute with a 1 m vent was at 200 km per hour\nContext: People can use the engineering-design process to develop solutions to problems. One step in the process is testing if a potential solution meets the requirements of the design.\nThe passage below describes how the engineering-design process was used to test a solution to a problem. Read the passage. Then answer the question below.\n\nDuncan was an aerospace engineer who was developing a parachute for a spacecraft that would land on Mars. He needed to add a vent at the center of the parachute so the spacecraft would land smoothly. However, the spacecraft would have to travel at a high speed before landing. If the vent was too big or too small, the parachute might swing wildly at this speed. The movement could damage the spacecraft.\nSo, to help decide how big the vent should be, Duncan put a parachute with a 1 m vent in a wind tunnel. The wind tunnel made it seem like the parachute was moving at 200 km per hour. He observed the parachute to see how much it swung.\nFigure: a spacecraft's parachute in a wind tunnel.\n",
+        "answer": "What could Duncan's test show?\n\nDuncan's test could show whether a parachute with a 1 m vent would swing too much at 400 km per hour, if the spacecraft was damaged when using a parachute with a 1 m vent going 200 km per hour, or how steady a parachute with a 1 m vent was at 200 km per hour.",
+        "gt_answers": "how steady a parachute with a 1 m vent was at 200 km per hour",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1590.png",
+        "model_name": "InstructBLIP"
+    }
+]

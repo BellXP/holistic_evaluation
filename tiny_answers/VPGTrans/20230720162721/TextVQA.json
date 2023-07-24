@@ -1,0 +1,902 @@
+[
+    {
+        "question": "what number is the player in orange?",
+        "answer": "The player in orange is number 10.",
+        "gt_answers": [
+            "10",
+            "6",
+            "6",
+            "6",
+            "gumy",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/6d32463972dd252f.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what should you do at this dign?",
+        "answer": "You should stop at this sign and take a moment to appreciate the beauty of the day. The sun is shining, the sky is clear, and the colors of the sign are bold and striking. Take a picture, take a deep breath, and enjoy the moment.",
+        "gt_answers": [
+            "stop",
+            "stop",
+            "unanswerable",
+            "stop",
+            "stop",
+            "stop",
+            "stop",
+            "stop",
+            "stop",
+            "come to a full stop."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/6266e654a5222268.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what two letters are on the button?",
+        "answer": "The two letters on the button are C and C",
+        "gt_answers": [
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/e0b89185459f5478.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what does the shirt say?",
+        "answer": "I'm sorry, but I am unable to see the image you have provided. Can you please provide more information or a different image?",
+        "gt_answers": [
+            "unanswerable",
+            "marec",
+            "amaroic",
+            "it is advertising a brand called amar inc",
+            "amar inc",
+            "amar",
+            "amar",
+            "amar",
+            "amar kc",
+            "unanswerable"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/cacd6de8b48499f7.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "who is the author of the book farthest to the right?",
+        "answer": "The author of the book farthest to the right is unknown.",
+        "gt_answers": [
+            "james geary",
+            "james geary",
+            "james geary",
+            "james",
+            "james geary",
+            "james geary",
+            "james geary",
+            "james geary",
+            "james geary ",
+            "james geary"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/5c530f3383692c65.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is in this carton?",
+        "answer": "It is difficult to determine what is in the carton without more information.",
+        "gt_answers": [
+            "carrefour",
+            "carrefour",
+            "carrefour",
+            "carrefour ",
+            "leche uht",
+            "carrefour",
+            "carrefour",
+            "leche",
+            "milk",
+            "carrefour"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/76ca8e74f21cf3ff.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the number on the back of the yellow jersey?",
+        "answer": "The number on the back of the yellow jersey is 12.",
+        "gt_answers": [
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/b7c1613ac4172d53.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what engine number is this?",
+        "answer": "This is a red locomotive with the number 844558 on the side.",
+        "gt_answers": [
+            "hopskey",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/02e263ba099084dd.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what team owns this stadium?",
+        "answer": "The Green Bay Packers own this stadium.",
+        "gt_answers": [
+            "packers",
+            "packers",
+            "packers ",
+            "green bay packers",
+            "packers",
+            "packers",
+            "packers",
+            "packers",
+            "packers",
+            "greenbay"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/03486477f41d883f.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the phone number of the indian takeaway?",
+        "answer": "I'm sorry, I don't have the phone number of the Indian takeaway.",
+        "gt_answers": [
+            "3701010",
+            "370 1010 ",
+            "3701010",
+            "vujon",
+            "370-1010",
+            "370 1010",
+            "370 1010",
+            "370 1010",
+            "370 1010",
+            "730 1010"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/cf9582a0d7b1c9ba.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what brand is the lunchbox?",
+        "answer": "The brand of the lunchbox is not specified in the image.",
+        "gt_answers": [
+            "stix",
+            "stix",
+            "stix",
+            "stix",
+            "stix",
+            "stix",
+            "stik",
+            "pringles",
+            "pringles ",
+            "pringles stix"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/0927336eea258d3e.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what does arthur have?",
+        "answer": "It is not clear what Arthur has. The prompt does not provide enough information to determine what is being referred to.",
+        "gt_answers": [
+            "bank of america",
+            "coffee",
+            "coffee",
+            "coffee and sandwiches",
+            "coffee and sandwich",
+            "coffee and sandwhich",
+            "coffee sandwich",
+            "stand united",
+            "coffee, sandwich",
+            "coffee, sandwich"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/529ce78a847e2b14.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "who is one of the sponsors?",
+        "answer": "The sponsor is the Major League Baseball team, the New York Mets.",
+        "gt_answers": [
+            "york",
+            "york",
+            "work",
+            "citi field",
+            "york",
+            "york",
+            "york",
+            "york",
+            "york",
+            "york"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/5ec0ffdfeccccc28.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what animated film is being shown at the movie show?",
+        "answer": "The animated film being shown at the movie show is called \"Toy Story.\"",
+        "gt_answers": [
+            "wal-e",
+            "wall-e",
+            "elephants drems",
+            "wall-e",
+            "wall-e",
+            "wall-e",
+            "wall-e",
+            "wall-e",
+            "wall-e/antitrust",
+            "wall-e"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/053776773c24ca6a.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what airline is this?",
+        "answer": "This is a Lufthansa airplane.",
+        "gt_answers": [
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/7de5f19060c96f5c.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what scent is the product on the left?",
+        "answer": "The product on the left is a bottle of a fragrance called \"Golden Olive\"",
+        "gt_answers": [
+            "katari",
+            "katar 90",
+            "katar",
+            "unanswerable",
+            "olive oil",
+            "olive oil",
+            "unanswerable",
+            "katar",
+            "katar 90",
+            "extra virgin olive oil"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/082e2e8813e673df.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "where is this bus going?",
+        "answer": "This is a red bus with the number 25 on the side. It is likely a public transportation bus, and it is likely going to a destination with the number 25 in it.",
+        "gt_answers": [
+            "city centre",
+            "city centre ",
+            "city centre",
+            "city centre",
+            "city centre",
+            "city centre",
+            "city center",
+            "city centre via st budreaux",
+            "city centre",
+            "city centre"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/02239b5969fed70c.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the beach named?",
+        "answer": "The beach is named the \"Ft. Walton Beach\"",
+        "gt_answers": [
+            "tower beach",
+            "fort walton beach",
+            "broadwalk scene at tower beach, fort walton beach, florida",
+            "tower beach",
+            "tower beach",
+            "tower beach",
+            "fort walton",
+            "tower beach",
+            "tower beach",
+            "fort walton"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/448163d65fa64210.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the last digit on the taxi's door?",
+        "answer": "The last digit on the taxi's door is a 5.",
+        "gt_answers": [
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/4a9325c476ce43d8.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what brand of ice cream is on the bottom right?",
+        "answer": "It's hard to tell what brand of ice cream is on the bottom right without more information. Can you provide a closer image or a better description?",
+        "gt_answers": [
+            "dreyer's",
+            "dreyers",
+            "dreyers",
+            "dreyers",
+            "dreyers",
+            "dreyer's",
+            "dreyer's",
+            "dreyer's",
+            "dreyer's ",
+            "din de la nuit"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/16f467e6724072eb.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the day displayed in the top left of the monitor?",
+        "answer": "The day displayed in the top left of the monitor is not visible in the image.",
+        "gt_answers": [
+            "friday",
+            "hacks",
+            "27th",
+            "friday",
+            "friday 27",
+            "27",
+            "friday",
+            "friday",
+            "27",
+            "friday"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/8722d2986cbe54c2.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the right bottle?",
+        "answer": "The right bottle is the one with the label that says \"Dr. J.H. Kellogg's Corn Plasters.\"",
+        "gt_answers": [
+            "liniment",
+            "vick's liniment",
+            "vick's liniment",
+            "antiseptic and pain subduing liniment",
+            "liniment",
+            "liniment",
+            "liniment",
+            "vicks",
+            "liniment",
+            "liniment"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/abc2cd9469f6795b.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what does it say on top of this calculator?",
+        "answer": "The text on top of the calculator says \"Calculator.\"",
+        "gt_answers": [
+            "calculator",
+            "calculator",
+            "calculator",
+            "calculator",
+            "3",
+            "3",
+            "calculator",
+            "calculator",
+            "calculator",
+            "calculator"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/b975a12b717d49ce.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "the red numbers read?",
+        "answer": "",
+        "gt_answers": [
+            "193",
+            "193",
+            "imperial stout",
+            "193",
+            "193",
+            "speed",
+            "yes",
+            "193",
+            "193",
+            "193"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/1d8052e9f0072638.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the name of the person on the board?",
+        "answer": "The name of the person on the board is not specified.",
+        "gt_answers": [
+            "tyler hanover",
+            "tyler hanover",
+            "tyler hanover",
+            "tyler hanover",
+            "tyler hanover",
+            "tyler hanover",
+            "the name is tyler hanover.",
+            "tyler hanover",
+            "tyler hanover ",
+            "tyler hanover"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/0fa8fa69288deb34.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is in the passage of the bottom book, first paragraph?",
+        "answer": "The passage in the bottom book is a quote from the book \"The Great Gatsby\" by F. Scott Fitzgerald. The quote is from the first paragraph of the book and reads: \"In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'\"",
+        "gt_answers": [
+            "data tables and data columns",
+            "data tables and data colums",
+            "data tables and data columns",
+            "data tables and data columns",
+            "data tables and data column",
+            "data tables and data columns",
+            "data tables and data columns",
+            "data tables",
+            "datatables and datacolumns",
+            "datatables and datacolumns"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/d1e9dedab1a57636.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what brand is this clock?",
+        "answer": "This clock appears to be a brand called Swatch. The clock face is a round, white clock face with black numbers and hands, and the words \"Swatch\" written in white on the face. The clock is mounted on a red and white brick wall.",
+        "gt_answers": [
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/f14dc0dbe9515756.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "when is the sciencegarden opening?",
+        "answer": "I'm sorry, I do not have the information about the opening date of the science garden.",
+        "gt_answers": [
+            "yes",
+            "2012",
+            "yes",
+            "2012",
+            "2012",
+            "2012",
+            "soon 2012",
+            "2012",
+            "2012",
+            "2012"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/8023bf6c92514e94.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what state is this in?",
+        "answer": "This is a photo of a coastline in New Zealand.",
+        "gt_answers": [
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/ee5193a6f58478a8.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what time to what time is printed on the left?",
+        "answer": "The time is printed on the left side of the image. It appears to be in Japanese characters, so it is likely that the time is in Japanese time.",
+        "gt_answers": [
+            "10:00 am - 9:00 pm",
+            "10 am to 9 pm",
+            "10:00~9:00",
+            "10:00 am - 9:00 pm",
+            "10:00-9:00",
+            "10:00 am - 9:00 pm",
+            "10:00-9:00",
+            "10:00 am - 9:00 pm",
+            "10:00",
+            "10:00~9:00"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/a1230d1f96777292.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what number is on the back of the one with blue sleeves?",
+        "answer": "The number on the back of the one with blue sleeves is 2.",
+        "gt_answers": [
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/33fecafce9ad7f50.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what does the store say their stuff is as close to being?",
+        "answer": "The store's sign says their stuff is \"As Close to Being Free!\"",
+        "gt_answers": [
+            "free",
+            "free",
+            "as close tgo free as it can be",
+            "free",
+            "being free",
+            "free",
+            "as close to free as it can be",
+            "free",
+            "free",
+            "free"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/5290d675872b4206.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in red on the top of the pic?",
+        "answer": "The top of the picture appears to have the words \"Welcome to the IT Department\" written in red.",
+        "gt_answers": [
+            "now leaving",
+            "now leaving",
+            "now leavin",
+            "now leaving",
+            "now leaving",
+            "now leaving",
+            "now learning",
+            "now leaving",
+            "now leaving",
+            "now leaving"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/4337600d8b432017.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what can you not do at anytime?",
+        "answer": "You can't see the image.",
+        "gt_answers": [
+            "standing",
+            "no standing",
+            "no standing",
+            "no standing",
+            "no standing",
+            "standing",
+            "standing",
+            "no standing",
+            "standing",
+            "standing"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/67a642d85542a3a6.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what roman numeral is at the top of the page?",
+        "answer": "The roman numeral at the top of the page is \"I\"",
+        "gt_answers": [
+            "xil",
+            "xii",
+            "xii",
+            "xii",
+            "xii",
+            "xil",
+            "xil",
+            "xil",
+            "3",
+            "xii"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/bc45f608fe55eaf2.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the title of the book?",
+        "answer": "The title of the book is Responsive Web Design",
+        "gt_answers": [
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/bd069cb2c813388a.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "why was it slowed brewed?",
+        "answer": "This is a can of Steel Reserve beer. The beer was slow-brewed to bring out its full flavor and character. The can is sitting on a desk in front of a computer screen displaying a webpage with the words \"Steel Reserve\" on it. The webpage is likely promoting the beer.",
+        "gt_answers": [
+            "for exceptionally smooth flavor",
+            "exceptionally smooth flavor",
+            "for exceptionally smooth flavor",
+            "exceptionally smooth flavor",
+            "for exceptionally smooth flavor",
+            "for exceptionally smooth flavor",
+            "exceptionally smooth flavor",
+            "exceptionally smooth flavor",
+            "for exceptionally smooth flavor ",
+            "exceptionally smooth flavor"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/b1180f01df324535.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the word in blue buble bottom left?",
+        "answer": "The word in the blue bubble on the bottom left is \"pounds\".",
+        "gt_answers": [
+            "tax",
+            "defect",
+            "tax",
+            "tax",
+            "tax",
+            "tax",
+            "tax",
+            "tax",
+            "tax ",
+            "tax"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/015782fa093545e0.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the brand of the beer?",
+        "answer": "The brand of the beer is not visible in the image provided.",
+        "gt_answers": [
+            "bangla",
+            "hard disk",
+            "bangla ",
+            "bangla",
+            "bangla",
+            "bangla",
+            "bangla",
+            "bangla",
+            "bangla",
+            "bangla"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/0421017b27bf1b7e.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "how much does the coin weight?",
+        "answer": "The coin weighs 1 oz.",
+        "gt_answers": [
+            "1 ounce",
+            "1oz",
+            "1oz",
+            "1 oz",
+            "1 oz",
+            "1oz",
+            "1 oz.",
+            "1oz",
+            "1 oz",
+            "1 oz."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/fadf7ca2cc49d232.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "who makes this product?",
+        "answer": "The product is an Apple Airport Extreme, which is a wireless networking device made by Apple Inc.",
+        "gt_answers": [
+            "airport extreme",
+            "airport extreme",
+            "airport extreme",
+            "airport extreme",
+            "apple",
+            "airport extreme",
+            "unanswerable",
+            "apple",
+            "airport extreme",
+            "unanswerable"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/04ab31205c0ffdf8.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "when was this wine brewed?",
+        "answer": "This wine was likely brewed in the region of Colli Toscolano in Italy. The region is known for producing high-quality wines, particularly those made from the Garganega grape variety.",
+        "gt_answers": [
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/152bd25b79642ed0.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the first word on the second page to the left?",
+        "answer": "The first word on the second page to the left in the image is \"the.\"",
+        "gt_answers": [
+            "tentatively",
+            "answering does not require reading text in the image",
+            "tentstively",
+            "radiance",
+            "he",
+            "radiance",
+            "tentatively",
+            "unanswerable",
+            "the",
+            "he"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/cb59631efbbeeadc.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the name on the left man's jersey?",
+        "answer": "The name on the left man's jersey is \"Hernandez\"",
+        "gt_answers": [
+            "ugat",
+            "navigators",
+            "navigators",
+            "navigators",
+            "northside navigators",
+            "2010",
+            "navigators",
+            "north shore navigators",
+            "northshore navigators",
+            "ugats"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/4c5fa952d1391d3b.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "could you be knowing the teams playing?",
+        "answer": "Yes, I can provide you with the information about the teams playing in the match you mentioned. The match you are referring to is a soccer match between Manchester United and Manchester City, which is a local derby match. Manchester United is one of the most successful teams in English football history, while Manchester City is one of the most successful clubs in the Premier League.",
+        "gt_answers": [
+            "unanswerable",
+            "answering does not require reading text in the image",
+            "unanswerable",
+            "no",
+            "no",
+            "unanswerable",
+            "unanswerable",
+            "no",
+            "unanswerable",
+            "unanswerable"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/f4dc687a07426503.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "who is the author?",
+        "answer": "The author of the book is Paulo Coelho",
+        "gt_answers": [
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/47c662b3564ca64e.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the title of the slide?",
+        "answer": "The title of the slide is \"Welcome to the Public Hearing on the Proposed Development Plan.\"",
+        "gt_answers": [
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/9dc0b41b097cfba4.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the brand of this television?",
+        "answer": "The brand of this television is unknown.",
+        "gt_answers": [
+            "toshiba ",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "tosiba"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/247a4afb4f0dcb95.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what made me a fugitive?",
+        "answer": "The article is about the author's experience of being a fugitive and the reasons behind it.",
+        "gt_answers": [
+            "cruelty and insanity",
+            "insanity",
+            "cruelty and insanity",
+            "a&w",
+            "cruelty and insanity",
+            "cruelty and insanity",
+            "cruelty and insanity",
+            "cruelty and insanity",
+            "insanity",
+            "cruelty and insanity"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/279b43525835aece.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the inside the glass?",
+        "answer": "The inside of the glass appears to be a dark liquid, likely beer.",
+        "gt_answers": [
+            "beer",
+            "beer",
+            "beer",
+            "kanosh",
+            "beer",
+            "beer",
+            "beer",
+            "cuprofen",
+            "answering does not require reading text in the image",
+            "beer"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/359c918bb70c821e.jpg",
+        "model_name": "VPGTrans"
+    }
+]

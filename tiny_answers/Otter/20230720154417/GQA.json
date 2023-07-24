@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Do you think the trees below the sky are leafy or bare?",
+        "answer": "While I cannot provide a definitive answer without visual evidence, it is more likely that the trees beneath the sky have leaves, as the elephant and its rider are sitting under a leafy tree in the image.",
+        "gt_answers": "leafy",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n544255.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Are there TVs in this image?",
+        "answer": "Yes, there is one TV in the bathroom and another one in the room.",
+        "gt_answers": "no",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n410289.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "How does the picture look like, black and white or colorful?",
+        "answer": "The picture looks like an old black-and-white photo of the woman laying down.",
+        "gt_answers": "black and white",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n162586.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Are the aluminum bleachers long and gray?",
+        "answer": "Yes, the Aluminum Bleachers in the image are long and grey. They are placed behind the batter so that spectators can sit and watch the baseball game.",
+        "gt_answers": "no",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n317260.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "In which part of the photo is the Caucasian person, the bottom or the top?",
+        "answer": "\"If the reference to the \"\"top\"\" and \"\"bottom\"\" is related to the person in the photo, it is most likely a playful or colloquial way of referring to the two plates of dessert, as opposed to specifically indicating the person's position in the image.\".",
+        "gt_answers": "top",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n312206.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What are the pieces of furniture in front of the staircase?",
+        "answer": "There is a brown dining table and a couch placed in from of the open stairway.",
+        "gt_answers": "chairs",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n283587.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the item of furniture that the window is behind of?",
+        "answer": "A desk with an open laptop computer is located behind the window.",
+        "gt_answers": "desk",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n525901.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is the old woman to the left or to the right of the car that looks black?",
+        "answer": "Based on the image's structure and the fact that the man and woman are playing frisbee in the park, it can be inferred that they are playing on the side where the man is standing, which would make the old women to the woman's right, as she is looking towards the car.",
+        "gt_answers": "left",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n538039.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Are the ornaments hanging from the green tree?",
+        "answer": "Yes, there are decorative ornaments, including Christmas bulbs, hangingfrom the green trees around the dog.",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n14087.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is the airplane small and wooden?",
+        "answer": "Yes, the aircraft is small and has a wooden appearance, which suggests that it might be a seaplane designed to land and take off from water surfaces.",
+        "gt_answers": "no",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n315859.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is the keyboard on the left side?",
+        "answer": "Yes, the keyboard is one of the items on the ground in front of the laptop.",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n90294.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Does the toilet brush have white color?",
+        "answer": "\"In the image, there is a pink brush that is described as a \"\"toilet broom,\"\" which might be used for cleaning the bathroom. It is not described as white, so it is more likely to be pink or a different color rather than white.\".",
+        "gt_answers": "no",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n59147.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What are the utensils made of?",
+        "answer": "\"While I cannot provide specific details about the materials, the kitchen is equipped with \"\"mostly plastic utensiles.\"\" This suggests that the kitchen may have a combination of both plastic and potentially other materials, possibly targeting a budget-friendly or disposable option.\".",
+        "gt_answers": "wood",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n97485.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is the device that looks gray off or on?",
+        "answer": "\"If the device is a television, then it is off, as the cat is described as sitting \"\"in front of a television\"\" and \"\"looking at the television.\"\"\".",
+        "gt_answers": "on",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n77818.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Are the shorts brown and dry?",
+        "answer": "Yes, the man's shorts are dry and brown, suggesting that he is comfortable and relaxing on the beach after his swim.",
+        "gt_answers": "no",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n414992.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is the field short and brown?",
+        "answer": "Yes, the field where the children are playing soccer is short brown grass.",
+        "gt_answers": "no",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n275857.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Who is looking at the man that is not old?",
+        "answer": "The little girl is lookingat the man who is not older, possibly showing curiosity or interest in him.",
+        "gt_answers": "woman",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n119944.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is there food or ice in the photo?",
+        "answer": "Yes, there is food in the picture, and the man is also next to a cooler, which may contain ice.",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n37274.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is the helmet that is to the right of the man white and hard?",
+        "answer": "\"If you are referring to the white helmet with the word \"\"answers\"\" on it, then no, that helmet is not hard. It is a soft, foam helmet.\".",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n471866.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Which kind of food isn't grouped?",
+        "answer": "The waffles and bacon are not part of a typical British breakfast.",
+        "gt_answers": "waffles",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n100991.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Who is watching the person that is skateboarding?",
+        "answer": "A crowd of onlookers, including teenagers, is watching and observing the person skating on the board.",
+        "gt_answers": "audience",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n258500.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is the large building behind or in front of the trees next to the cars?",
+        "answer": "The large building is behind the trees Next to the Cars, as the soccer player is kicking towards the area with the trees and the building.",
+        "gt_answers": "behind",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n400036.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the size of the airplane?",
+        "answer": "The airplane is described as a small airplane in the image.",
+        "gt_answers": "large",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n195925.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Do the male people sit on a sofa?",
+        "answer": "Yes, the three male people are sitting on a leather sofa while playing Wii.",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n477702.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Does the vehicle behind the zebras look black?",
+        "answer": "Yes, the vehicle that appears behind the group of zebra look black.",
+        "gt_answers": "no",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n497789.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Who are the spectators watching?",
+        "answer": "The spectators are watching a skateboarder performing tricks at the skate park.",
+        "gt_answers": "skateboarder",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n16936.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Does the necklace look large and blue?",
+        "answer": "Yes, the woman is wearing a large blue necklace as she walks through the rain.",
+        "gt_answers": "no",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n223750.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Do you see either a kite or a lamp there?",
+        "answer": "While there is a lamp near the river where the horses are drinking water, there is no kite present in the image.",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n541482.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is the jacket white?",
+        "answer": "Yes, the man is wearing a white jacket or coat.",
+        "gt_answers": "no",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n58220.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What are the glasses made of?",
+        "answer": "The glasses are made of silver.",
+        "gt_answers": "glass",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n160664.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Who is wearing the pants?",
+        "answer": "In the image, the woman is standing in the living room wearing pants, while holding a guitar in her hands.",
+        "gt_answers": "woman",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n527290.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Which type of clothing is pink?",
+        "answer": "Since I cannot see the exact style or fabric of the pink clothing, I cannot definitively determine if it is a dress or a shirt. However, pink is a common color for both girls' clothing and dresses, so it is likely that the children are wearing pink dresses or pink shirts.",
+        "gt_answers": "gown",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n88933.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What kind of furniture is in front of the window that looks square?",
+        "answer": "There is a table and two chairs infront of the large window thatlooks square.",
+        "gt_answers": "sofa",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n283587.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What animal is to the left of the entertainment center?",
+        "answer": "A black and white kitty is sitting to theleft of the engagement center. It is facing the television and appears to be watching it.",
+        "gt_answers": "cat",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n77818.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is he behind the flags?",
+        "answer": "Yes, the man is standing behind the tennis flags, which are placed on the tennis court to designate the boundaries and serve as a reference point for the players during the game.",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n279173.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Are the small dolls to the left of the people who are standing behind the luggage?",
+        "answer": "Yes, the small dress-up dolls for children are located to theleft of the individuals standing with their lugging bags and suitcases.",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n507959.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is the metal tool short and black?",
+        "answer": "Yes, the metal tools in the image are short and Black. The man and woman are holding these tools while they work on the bathroom fixtures.",
+        "gt_answers": "no",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n415215.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the woman sitting on?",
+        "answer": "The woman is sitting on a chair while using her laptop and working on the coffee table.",
+        "gt_answers": "chair",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n4777.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is the lamp that is not turned-on silver and tall?",
+        "answer": "Yes, the lamp in the image is described as both small and silver, resembling a table lamp. It adds a touch of modern style to the room.",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n23181.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is the remote control to the left of a chair?",
+        "answer": "Yes, the remote Control is located on the ground in front of the chair.",
+        "gt_answers": "no",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n90294.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is the computer desk both full and white?",
+        "answer": "Yes, thecomputer desk is bothfulland white, and the person is sitting in front of it while working on their laptop.",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n310828.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color is the window that is made of metal?",
+        "answer": "\"If the \"\"boxy window\"\" referred to in the image is the same metal window with a mirrored surface that is sitting on the sidewalk, then it is silver in color.\".",
+        "gt_answers": "black",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n154856.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What's the crowd in front of?",
+        "answer": "A group of people is sitting in chairs and watching the man as he catches the frisbee in the field.",
+        "gt_answers": "trees",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n257997.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the policeman to the left of the man sitting atop?",
+        "answer": "\"It is a officer, and the sign held by the person next to him reads \"\"Stop Police Abuse.\"\"\".",
+        "gt_answers": "motorcycle",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n471866.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the tool made of?",
+        "answer": "The tool is made of wood, and it is lying on the ground near the table and the motorcycle.",
+        "gt_answers": "metal",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n501951.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What kind of animal is to the left of the lamp the water bottle is to the right of?",
+        "answer": "A cat is totheleftof the lamp, while a cat is also sitting on the laptop itself.",
+        "gt_answers": "cat",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n520071.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the batter in front of?",
+        "answer": "The batter is positioned at home plate, which is the area where the pitcher throws the ball in an attempt to get the batter out. The home plate is a crucial part of the baseball field as it is where batters stand to hit the ball and where pitchers aim to throw the ball to make it difficult for the batter to hit.",
+        "gt_answers": "dugout",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n538684.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What's inside the container?",
+        "answer": "The container is filled with whipped cream.",
+        "gt_answers": "packet",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n312206.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the color of the vase in the middle?",
+        "answer": "As the image focuses on the table and chairs, it doesn't provide enough information to determine the specific details about the color and type of the middle vase. However, the room does have a blue color scheme, which could potentially be seen in the vases or other decorative items within the scene.",
+        "gt_answers": "blue",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n319845.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is that aircraft called?",
+        "answer": "\"The aircraft is called a \"\"Sky Crane\"\".\".",
+        "gt_answers": "helicopter",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/GQA/images/n229548.jpg",
+        "model_name": "Otter"
+    }
+]

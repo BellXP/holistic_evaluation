@@ -13,7 +13,7 @@ import torch.nn.functional as F
 from torch.nn import Embedding, Linear
 from torch.autograd import Function
 
-from apex.normalization import FusedRMSNorm as RMSNorm
+# from apex.normalization import FusedRMSNorm as RMSNorm
 
 
 @dataclass

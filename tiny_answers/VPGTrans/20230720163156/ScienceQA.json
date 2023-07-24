@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Question: What is the name of the colony shown?\nOptions: New York\nRhode Island\nNorth Carolina\nNew Jersey\n",
+        "answer": "is the 1001033338",
+        "gt_answers": "Rhode Island",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0131.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: In this food web, which organism contains matter that eventually moves to the mushroom?\nOptions: brown lemming\nbilberry\nContext: Below is a food web from a tundra ecosystem in Nunavut, a territory in Northern Canada.\nA food web models how the matter eaten by organisms moves through an ecosystem. The arrows in a food web represent how matter moves between organisms in an ecosystem.\n",
+        "answer": "The organism that eats the most abundant arrows in the food web",
+        "gt_answers": "bilberry",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0778.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Jamaica\nSaint Lucia\nBarbados\nSaint Vincent and the Grenadines\n",
+        "answer": "Is of the\nIs of the Grenadian\nIsland of the Grenada\nIsland of the Grenada\nIsland of the Grenada\nIsland of the Grenada\nIsland of the Grenada\nIsland of the Grenadian\nIsland of the\nIsland of the\nIsland of the\nIsland of the\nIsland of the\nIsland of the Virgin Islands\nIsland of the Virgin Islands.\nIsland of the Virgin Islands.\nIsland. Falk\nIsland. RorTristic Island\nIsland.Cruc.is the-jing the. Island\nIsland. Island in aT the. Island. Island in the.\nIsland. At. At. Heads of the. At.\nIsland. Stream, Stream, Stream, Stream, Stream, and. Island, Mar.\nIsland, Stream, Stream, and the, and the Seab.\nIsland. the Island. Bail. the Island, the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the. the.",
+        "gt_answers": "Saint Lucia",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0281.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which of these states is farthest east?\nOptions: New York\nOhio\nColorado\nMississippi\n",
+        "answer": "",
+        "gt_answers": "New York",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1108.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: According to the map, which of the following statements is true about North America in the early colonial era?\nOptions: England claimed most of the Atlantic coast of North America.\nThe Dutch controlled the most territory in eastern North America.\nContext: Look at the map of North America in the early colonial era, or the 1600s and early 1700s. Then answer the question below.\n",
+        "answer": "According to the map, the country, the United States in the United States gained control of the Philippines.\n##0s the Philippines, the country, the United States gained the Philippines, the Philippines, the country, the Philippines, the United States gained the Philippines, the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the Philippines, the United States gained the Philippines, the country, the",
+        "gt_answers": "England claimed most of the Atlantic coast of North America.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1305.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What is the expected ratio of offspring with a yellow ground spot to offspring with a white ground spot? Choose the most likely ratio.\nOptions: 4:0\n3:1\n1:3\n0:4\n2:2\nContext: This passage describes the ground spot color trait in watermelon plants:\nWatermelon plants grow with their fruit resting on the ground. Over time, the bottom of each fruit develops a white or yellow spot called a ground spot. In some types of watermelon plants, the color of the ground spot is an inherited trait.\nIn a group of watermelon plants, some individuals have a yellow ground spot and others have a white ground spot. In this group, the gene for the ground spot color trait has two alleles. The allele for a white ground spot (g) is recessive to the allele for a yellow ground spot (G).\nThis Punnett square shows a cross between two watermelon plants.\n",
+        "answer": "The Punnett square shows the expected ratio of offspring with a yellow ground spot to offspring with a white ground spot. The square is divided into four boxes, each containing two alleles. The allele for a yellow ground spot is represented by the letter G, and the allele for a white ground spot is represented by the letter g.\nThe expected ratio of offspring with a yellow ground spot is 4:0, which means that four of the offspring will have a yellow ground spot and no offspring will have a white ground spot. The expected ratio of offspring with a white ground spot is 3:1, which means that three of the offspring will have a white ground spot and one will have a yellow ground spot.\nThe expected ratio of offspring with a white ground spot is 1:3, which means that one of the offspring will have a white ground spot and three will have a yellow ground spot. The expected ratio of offspring with a yellow ground spot is 0:4, which means that no offspring will have a yellow ground spot and four will have a white ground spot.\nThe expected ratio of offspring with a white ground spot is 2:2, which means that two of",
+        "gt_answers": "4:0",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1393.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Is a T-shirt a solid, a liquid, or a gas?\nOptions: a liquid\na gas\na solid\n",
+        "answer": "Solid and liquid",
+        "gt_answers": "a solid",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1511.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Does Rhizophora mangle have cells that have a nucleus?\nOptions: yes\nno\nContext: This organism is Rhizophora mangle. It is a member of the plant kingdom.\nRhizophora mangle is commonly called a red mangrove. Red mangrove trees grow in or near water. They have strong roots that help prop, or hold, them up. These roots are also aerial, which means that they can grow above the ground. So, the red mangrove roots are called aerial prop roots.\n",
+        "answer": "The red mangrove roots are called prop.",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1169.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Look at the models of molecules below. Select the elementary substance.\nOptions: bromine\nhydrazine\ntrichlorofluoromethane\n",
+        "answer": "at a-H+ my friend",
+        "gt_answers": "bromine",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1078.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What is the capital of Minnesota?\nOptions: Saint Paul\nMinneapolis\nJefferson City\nPierre\n",
+        "answer": "What is the capital of Minnesota?\nMinne ,\" the capital of the\nMinne ,\" the capital of the city in the United States\nWhat is the capital of the city\nWhat is the population of the city\nQuestions: the population of the city\nWhat is the population of the city\nQuestions: the population of the city\nWhat is the population of the city\nQuestions: the population of the city\nWhat is the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nWhat is the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of the city\nQuestions: the population of",
+        "gt_answers": "Saint Paul",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1426.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Saint Kitts and Nevis\nBarbados\nHaiti\nAntigua and Barbuda\n",
+        "answer": "and",
+        "gt_answers": "Antigua and Barbuda",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0460.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What is the capital of Delaware?\nOptions: Harrisburg\nDover\nWilmington\nGeorgetown\n",
+        "answer": "Wilming>\nWhat is the capital of Delaware?\n>\n> What is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States?\nWhat is the capital of the United States\nWhat is the capital of the United States?\nWhat is the capital of the United States\nWhat is the capital of the United States?\nWhat is the capital of the United States\nWhat is the",
+        "gt_answers": "Dover",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0574.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which property do these three objects have in common?\nOptions: fragile\nsticky\ncolorful\nContext: Select the best answer.\n",
+        "answer": "Answer:\nThe color of the question.\nThe color of the color\nAnswer: The color of the color\nThe color of the color\nAnswer: the color\nThe color of the color\nThe color of the color\nThe color of the color\nThe color of the color\nThe color of the color of the color\nThe color of the color of the color\nThe color of the color of the color\nThe color of the color of the color of the color\nThe color of the color of the color of the color\nThe color of the color of the color of the color of the color\nThe color of the color of the color of the color of the color of the color of the water's eye of the water's\nThe color of the water's water of the water's water's water of the water\nThe water's water of the water's water of the water\nThe water of the water's water of the water's water of the water's water of the water's water of the water's water of the water's water of the water of the water of the water of the water of the water of the water of the water of the water of the water",
+        "gt_answers": "colorful",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1211.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What is the capital of Idaho?\nOptions: Oklahoma City\nBoise\nBaton Rouge\nNampa\n",
+        "answer": "What is the capital of the state of the state\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital of the city\nWhat is the capital",
+        "gt_answers": "Boise",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1163.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnetic force is weaker in Pair 1.\nThe strength of the magnetic force is the same in both pairs.\nThe magnetic force is weaker in Pair 2.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material.\n",
+        "answer": "The material the magnets are made of the same material in the magnets.",
+        "gt_answers": "The magnetic force is weaker in Pair 2.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1880.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Identify the question that Kira's experiment can best answer.\nOptions: Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?\nDoes fabric turn darker when soaked in a mixture of black dye and water for 15 minutes compared to 30 minutes?\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nKira prepared ten buckets, each with one gallon of boiling water and three tablespoons of black fabric dye. Kira soaked white linen fabric squares in five of the buckets, and white cotton fabric squares in the other five buckets. All of the fabric squares were soaked for 15 minutes. After the fabric dried, Kira scored the darkness of the squares on a scale from light to dark. She compared the darkness of the linen fabric to the darkness of the cotton fabric.\nFigure: fabric that has been dyed black.\n",
+        "answer": "The question that Kira's experiment can best answer is: Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?",
+        "gt_answers": "Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0124.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which term matches the picture?\nOptions: operant conditioning\nclassical conditioning\nContext: Read the text.\nA conditioned response occurs when an animal learns to associate two events that were not originally related. For example, a dog will naturally salivate at the smell of food (an unconditioned response). However, if a dog learns that the sound of a ringing bell is a sure sign that dinner is coming, it will begin to react to the sound of that bell the same way it reacts to the smell of food (a conditioned response). This is called classical conditioning.\nOperant conditioning is a process like classical conditioning. However, in classical conditioning, the events that an animal learns to associate are not under the animal's voluntary control. In operant conditioning, an external event that is either a reward or punishment becomes linked with a voluntary behavior. For example, a student who receives a gold star for sitting quietly is more likely to choose to sit quietly in the future. The behavior (sitting quietly) has become linked in the student's mind with the reward that it produced in the past. Animal trainers rely on operant conditioning to encourage desired behaviors and discourage unwanted ones.\n",
+        "answer": "Operant conditioning is a type of learning in which an animal learns to associate a behavior with a consequence. The consequence is either a reward or punishment that is delivered after the behavior is performed. The animal learns to repeat the behavior in order to receive the reward or avoid the punishment.",
+        "gt_answers": "operant conditioning",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0805.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Select the organism in the same genus as the spot-billed pelican.\nOptions: Ardea herodias\nPelecanus philippensis\nBubo scandiacus\nContext: This organism is a spot-billed pelican. Its scientific name is Pelecanus philippensis.\n",
+        "answer": "",
+        "gt_answers": "Pelecanus philippensis",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0779.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Is plagioclase a mineral or a rock?\nOptions: rock\nmineral\nContext: Plagioclase has the following properties:\nwhite streak\nfixed crystal structure\npure substance\nnaturally occurring\nnot made by organisms\nsolid\n",
+        "answer": "",
+        "gt_answers": "mineral",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1706.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Select the mammal below.\nOptions: wombat\nbarn owl\nflamingo\nocean sunfish\nContext: Mammals have hair or fur and feed their young milk.\nMammals are warm-blooded. Warm-blooded animals can control their body temperature.\nA rabbit is an example of a mammal.\n",
+        "answer": "",
+        "gt_answers": "wombat",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0572.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What is the capital of Nebraska?\nOptions: Providence\nSaint Paul\nLincoln\nKansas City\n",
+        "answer": "",
+        "gt_answers": "Lincoln",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1008.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnetic force is stronger in Pair 1.\nThe strength of the magnetic force is the same in both pairs.\nThe magnetic force is stronger in Pair 2.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material.\n",
+        "answer": "the magnet is stronger the force of the",
+        "gt_answers": "The strength of the magnetic force is the same in both pairs.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0372.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What is the capital of California?\nOptions: Sacramento\nReno\nLos Angeles\nSan Francisco\n",
+        "answer": "is the ,\" role of the Golden State of the Golden State\n, located in the city in the\nGolden the role of the",
+        "gt_answers": "Sacramento",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0155.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which property do these three objects have in common?\nOptions: blue\nsticky\nfuzzy\nContext: Select the best answer.\n",
+        "answer": "",
+        "gt_answers": "fuzzy",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0359.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What is the capital of Idaho?\nOptions: Boise\nBaton Rouge\nAtlanta\nNampa\n",
+        "answer": "The city in the state of Idaho\nWhat are the largest city in the United States?\nWhat are the largest city in the 10388, which is the largest city in the city in the city in the city\nWhat is the largest city in the city in the city\nWhat is the largest city in the city in the city\nWhat is the largest city in the city in the city",
+        "gt_answers": "Boise",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1407.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What is the capital of Ohio?\nOptions: Cleveland\nColumbus\nCincinnati\nFargo\n",
+        "answer": "8",
+        "gt_answers": "Columbus",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1289.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which of these cities is marked on the map?\nOptions: Omaha\nChicago\nSt. Louis\nCleveland\n",
+        "answer": "",
+        "gt_answers": "St. Louis",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1322.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Complete the text to describe the diagram.\nSolute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.\nOptions: to the left than to the right\nto the right than to the left\nContext: The diagram below shows a solution with one solute. Each solute particle is represented by a yellow ball. The solution fills a closed container that is divided in half by a membrane. The membrane, represented by a dotted line, is permeable to the solute particles.\nThe diagram shows how the solution can change over time during the process of diffusion.\n",
+        "answer": "The particles are represented by the yellow balls in the diagram.\nThe particles are represented by the yellow balls in the diagram. The diffusion of the particles in the yellow balls in the diagram.\nContext: The particles are the yellow balls in the diagram, represented by the yellow balls in the diagram.\n##Vocabbal, the particles in the yellow balls in the diagram.",
+        "gt_answers": "to the left than to the right",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0910.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Haiti\nSaint Lucia\nBarbados\nSaint Vincent and the Grenadines\n",
+        "answer": "",
+        "gt_answers": "Saint Lucia",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0858.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Antigua and Barbuda\nJamaica\nSaint Lucia\nSaint Kitts and Nevis\n",
+        "answer": "",
+        "gt_answers": "Saint Kitts and Nevis",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1756.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What can Mark and Valeria trade to each get what they want?\nOptions: Mark can trade his tomatoes for Valeria's broccoli.\nValeria can trade her broccoli for Mark's oranges.\nMark can trade his tomatoes for Valeria's sandwich.\nValeria can trade her almonds for Mark's tomatoes.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nMark and Valeria open their lunch boxes in the school cafeteria. Both of them could be happier with their lunches. Mark wanted broccoli in his lunch and Valeria was hoping for tomatoes. Look at the images of their lunches. Then answer the question below.\n",
+        "answer": "What can you trade for the tomatoes?",
+        "gt_answers": "Mark can trade his tomatoes for Valeria's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0823.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which month has the lowest average precipitation in London?\nOptions: November\nJuly\nMay\nContext: Use the graph to answer the question below.\n",
+        "answer": "",
+        "gt_answers": "July",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0598.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What can Sadie and Kira trade to each get what they want?\nOptions: Kira can trade her almonds for Sadie's tomatoes.\nSadie can trade her tomatoes for Kira's broccoli.\nKira can trade her broccoli for Sadie's oranges.\nSadie can trade her tomatoes for Kira's sandwich.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nSadie and Kira open their lunch boxes in the school cafeteria. Both of them could be happier with their lunches. Sadie wanted broccoli in her lunch and Kira was hoping for tomatoes. Look at the images of their lunches. Then answer the question below.\n",
+        "answer": "What can Sadie and Kira trade to get what they want?",
+        "gt_answers": "Sadie can trade her tomatoes for Kira's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0785.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What can Turner and Mona trade to each get what they want?\nOptions: Turner can trade his tomatoes for Mona's broccoli.\nTurner can trade his tomatoes for Mona's carrots.\nMona can trade her broccoli for Turner's oranges.\nMona can trade her almonds for Turner's tomatoes.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nTurner and Mona open their lunch boxes in the school cafeteria. Neither Turner nor Mona got everything that they wanted. The table below shows which items they each wanted:\n\nLook at the images of their lunches. Then answer the question below.\nTurner's lunch Mona's lunch\n",
+        "answer": "What did Turner want to trade his tomatoes for?",
+        "gt_answers": "Turner can trade his tomatoes for Mona's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0117.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which of these states is farthest south?\nOptions: Maine\nMassachusetts\nMichigan\nDelaware\n",
+        "answer": "103.\nNew Hampshire\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey.\nNew Jersey",
+        "gt_answers": "Delaware",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0387.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nOptions: sample A\nsample B\nneither; the samples have the same temperature\nContext: The diagrams below show two pure samples of gas in identical closed, rigid containers. Each colored ball represents one gas particle. Both samples have the same number of particles.\n",
+        "answer": "The volume of the balls in the balls in the dark matter is the same, but the mass of the lumps.",
+        "gt_answers": "sample B",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1467.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Identify the question that Mike's experiment can best answer.\nOptions: Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon?\nDoes temperature affect how much bacteria can grow in liquid?\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nMike mixed bacteria into a nutrient-rich liquid where the bacteria could grow. He poured four ounces of the mixture into each of ten glass flasks. In five of the ten flasks, he also added one teaspoon of cinnamon. He allowed the bacteria in the flasks to grow overnight in a 37\u00b0C room. Then, Mike used a microscope to count the number of bacteria in a small sample from each flask. He compared the amount of bacteria in the liquid with cinnamon to the amount of bacteria in the liquid without cinnamon.\nFigure: flasks of liquid for growing bacteria.\n",
+        "answer": "The question that Mike's experiment can best answer is: Does temperature affect how much bacteria can grow in liquid?",
+        "gt_answers": "Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon?",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1097.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What can Ian and Joseph trade to each get what they want?\nOptions: Joseph can trade his almonds for Ian's tomatoes.\nIan can trade his tomatoes for Joseph's carrots.\nIan can trade his tomatoes for Joseph's broccoli.\nJoseph can trade his broccoli for Ian's oranges.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nIan and Joseph open their lunch boxes in the school cafeteria. Neither Ian nor Joseph got everything that they wanted. The table below shows which items they each wanted:\n\nLook at the images of their lunches. Then answer the question below.\nIan's lunch Joseph's lunch\n",
+        "answer": "",
+        "gt_answers": "Ian can trade his tomatoes for Joseph's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1042.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What is the capital of Maine?\nOptions: Montpelier\nProvidence\nAugusta\nPortland\n",
+        "answer": "of the 1001010-9/9\n11110-30-39\n1.png",
+        "gt_answers": "Augusta",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1143.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which of the following fossils is younger? Select the more likely answer.\nOptions: ginkgo leaf\ninsect\nContext: This diagram shows fossils in an undisturbed sedimentary rock sequence.\n",
+        "answer": "The most likely",
+        "gt_answers": "insect",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1538.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which property do these three objects have in common?\nOptions: shiny\nrough\nfragile\nContext: Select the best answer.\n",
+        "answer": "Link to the first object in the web page\nAnswer: the question",
+        "gt_answers": "shiny",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1101.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Select the organism in the same species as the Indian rock python.\nOptions: Python molurus\nLacerta agilis\nNerodia cyclopion\nContext: This organism is an Indian rock python. Its scientific name is Python molurus.\n",
+        "answer": "The name of the snake\nPython 37 worm.",
+        "gt_answers": "Python molurus",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0309.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What is the capital of Maine?\nOptions: Augusta\nBoston\nTopeka\nGreen Bay\n",
+        "answer": "is a",
+        "gt_answers": "Augusta",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1635.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnitude of the magnetic force is smaller in Pair 2.\nThe magnitude of the magnetic force is the same in both pairs.\nThe magnitude of the magnetic force is smaller in Pair 1.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes.\n",
+        "answer": "The material of the magnets are different.",
+        "gt_answers": "The magnitude of the magnetic force is smaller in Pair 2.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0581.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What is the capital of Arkansas?\nOptions: Little Rock\nFayetteville\nTallahassee\nArlington\n",
+        "answer": "Little Rock\nWhat is the population of the city in the state of the United States with the smallest population of the 57. The city in the United States\nWhat is the 5.\nWhat is the population of the city in the United States.\nWhat is the population of the city in the United States.\nWhat is the population of the city in the United States.\nWhat is the population of the city in the United States.\nWhat is the population of the city in the United States.",
+        "gt_answers": "Little Rock",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0875.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: What is the capital of Arkansas?\nOptions: Carson City\nFayetteville\nJefferson City\nLittle Rock\n",
+        "answer": "Arkansas\nil, Arkansas\nW.\nil, the capital of the United States\nil, the United States\nil, the United States.\nil, in the United States\nil, in the United States.\nWas the capital of the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States.\nil, the United States\nil, the United States.\nil, the United States\nil, the United States. the United\nil, the United States\nil, the United States. the United\nil, the United States\nil, the United States\nil, the United States\nil, the United",
+        "gt_answers": "Little Rock",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0660.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnitude of the magnetic force is the same in both pairs.\nThe magnitude of the magnetic force is greater in Pair 1.\nThe magnitude of the magnetic force is greater in Pair 2.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes.\n",
+        "answer": "The material of the magnets are different.",
+        "gt_answers": "The magnitude of the magnetic force is greater in Pair 1.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0731.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnitude of the magnetic force is greater in Pair 1.\nThe magnitude of the magnetic force is greater in Pair 2.\nThe magnitude of the magnetic force is the same in both pairs.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes and shapes.\n",
+        "answer": "The magnets are repel each.",
+        "gt_answers": "The magnitude of the magnetic force is greater in Pair 2.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1560.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Is the wind through a tree a solid, a liquid, or a gas?\nOptions: a solid\na gas\na liquid\n",
+        "answer": "the two for the",
+        "gt_answers": "a gas",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1025.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Question: Which of the following could Duncan's test show?\nOptions: whether a parachute with a 1 m vent would swing too much at 400 km per hour\nif the spacecraft was damaged when using a parachute with a 1 m vent going 200 km per hour\nhow steady a parachute with a 1 m vent was at 200 km per hour\nContext: People can use the engineering-design process to develop solutions to problems. One step in the process is testing if a potential solution meets the requirements of the design.\nThe passage below describes how the engineering-design process was used to test a solution to a problem. Read the passage. Then answer the question below.\n\nDuncan was an aerospace engineer who was developing a parachute for a spacecraft that would land on Mars. He needed to add a vent at the center of the parachute so the spacecraft would land smoothly. However, the spacecraft would have to travel at a high speed before landing. If the vent was too big or too small, the parachute might swing wildly at this speed. The movement could damage the spacecraft.\nSo, to help decide how big the vent should be, Duncan put a parachute with a 1 m vent in a wind tunnel. The wind tunnel made it seem like the parachute was moving at 200 km per hour. He observed the parachute to see how much it swung.\nFigure: a spacecraft's parachute in a wind tunnel.\n",
+        "answer": "The vent size was too small.",
+        "gt_answers": "how steady a parachute with a 1 m vent was at 200 km per hour",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1590.png",
+        "model_name": "VPGTrans"
+    }
+]

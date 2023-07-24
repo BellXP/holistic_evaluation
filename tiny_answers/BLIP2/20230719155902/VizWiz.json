@@ -1,0 +1,902 @@
+[
+    {
+        "question": "what color is this?",
+        "answer": "blue",
+        "gt_answers": [
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "cup: blue keyboard: black",
+            "blue",
+            "shades blue",
+            "blue",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002441.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What color is the car in this photograph?",
+        "answer": "white",
+        "gt_answers": [
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001462.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this?",
+        "answer": "a keyboard on a desk",
+        "gt_answers": [
+            "wireless keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboards",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboard"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002451.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this bill?",
+        "answer": "it's a swazi shilling",
+        "gt_answers": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "$2",
+            "money",
+            "2",
+            "2",
+            "unanswerable",
+            "2"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002510.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What color is the shirt that I'm wearing, black or turquoise? Thank you.",
+        "answer": "turquoise",
+        "gt_answers": [
+            "turquoise",
+            "turquoise",
+            "turquoise",
+            "turquoise",
+            "turquoise",
+            "turquoise",
+            "blue",
+            "turquoise",
+            "turquoise",
+            "scratch mark"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002790.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What color is this? ",
+        "answer": "blue",
+        "gt_answers": [
+            "grey",
+            "blue",
+            "light grey",
+            "blue",
+            "blue",
+            "blue",
+            "light blue",
+            "white",
+            "blue",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002278.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is my color of what is color of my shirt?",
+        "answer": "grey t-shirt grey t-shirt grey t-shirt grey t-shirt grey t-shirt grey t-shirt",
+        "gt_answers": [
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "grey",
+            "white",
+            "grey"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003243.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What's in this box?",
+        "answer": "herbix chicken",
+        "gt_answers": [
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken broth",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002632.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What's our school mascot?",
+        "answer": "richmond spiders",
+        "gt_answers": [
+            "spider",
+            "richmond spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spider"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002437.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What color is this shirt?",
+        "answer": "yellow",
+        "gt_answers": [
+            "brown",
+            "maroon",
+            "brown",
+            "brown",
+            "black",
+            "brown",
+            "brown",
+            "brown",
+            "black",
+            "black little yellow"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00004126.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What movie is this poster for?",
+        "answer": "abraham lincoln vs. abraham lincoln",
+        "gt_answers": [
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire diaries",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003412.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is on the ceiling?",
+        "answer": "ceiling tiles",
+        "gt_answers": [
+            "fan",
+            "fan",
+            "ceiling fan",
+            "ceiling fan",
+            "dust",
+            "ceiling fan",
+            "fan",
+            "fan",
+            "fan",
+            "ceiling fan"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002368.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this thing?",
+        "answer": "a desk",
+        "gt_answers": [
+            "desk",
+            "computer",
+            "desk",
+            "desk",
+            "desk",
+            "desk",
+            "computer desk",
+            "desk",
+            "desk",
+            "desk computer on"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003923.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What does this screen say?",
+        "answer": "on the screen is a picture of a plane flying in the sky",
+        "gt_answers": [
+            "unsuitable",
+            "nothing",
+            "unsuitable",
+            "nothing",
+            "unanswerable",
+            "nothing",
+            "nothing",
+            "no words on screen",
+            "nothing",
+            "blank"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001655.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this CD?",
+        "answer": "it is a cd of woody herman",
+        "gt_answers": [
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002889.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Tell me if there's text what it says on this computer screen, please?",
+        "answer": "if there's text what it says on this computer screen, please",
+        "gt_answers": [
+            "startup repair",
+            "repair",
+            "startup repair",
+            "startup repair",
+            "unanswerable",
+            "unsuitable image",
+            "startup repair checking your system",
+            "startup repair",
+            "startup repair checking your system",
+            "startup repair"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000340.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is in this can?",
+        "answer": "milk",
+        "gt_answers": [
+            "sugar",
+            "soup",
+            "unanswerable",
+            "soup",
+            "soup",
+            "soup",
+            "unsuitable",
+            "soup",
+            "soup",
+            "soup"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003306.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this spice?",
+        "answer": "maryland & sea salt",
+        "gt_answers": [
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003307.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What kind of cigarettes are these?",
+        "answer": "american spirit",
+        "gt_answers": [
+            "american spirit",
+            "american spirit",
+            "american spirit",
+            "american spirit",
+            "american spirit",
+            "black packaged american spirits",
+            "american spirit",
+            "american spirit",
+            "american spirit",
+            "american spirit"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002046.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is there is a light on on this thing?",
+        "answer": "yes",
+        "gt_answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002763.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is it?",
+        "answer": "a computer keyboard",
+        "gt_answers": [
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "sdgsdfg",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "computer keyboard",
+            "keyboard"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003733.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Coffee is this?",
+        "answer": "genuina genuina genuina genuina genuina genuina",
+        "gt_answers": [
+            "gevalia",
+            "gevalia",
+            "gevalia",
+            "gevalia swiss hazelnut",
+            "gevalia",
+            "gevalia",
+            "gevalia",
+            "gevalia",
+            "gevalia",
+            "gevalia"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001818.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this?",
+        "answer": "a picture of a giraffe",
+        "gt_answers": [
+            "giraffe poster",
+            "giraffe",
+            "giraffe",
+            "giraffe",
+            "giraffe poster",
+            "giraffe",
+            "giraffe poster",
+            "poster",
+            "giraffe poster",
+            "giraffe"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002978.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is inside this canned good?",
+        "answer": "corn",
+        "gt_answers": [
+            "corn",
+            "corn",
+            "unanswerable",
+            "whole kernel corn",
+            "corn",
+            "corn",
+            "corn",
+            "corn",
+            "corn",
+            "corn kernels"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001446.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is it still checking for problems?",
+        "answer": "yes",
+        "gt_answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000948.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What flavor is this?",
+        "answer": "chinese chinese chinese chinese chinese chinese chinese chi",
+        "gt_answers": [
+            "beef",
+            "beef flavored",
+            "beef",
+            "beef flavored broth",
+            "beef",
+            "beef flavor",
+            "beef flavored broth",
+            "beef",
+            "this beef flavor",
+            "beef"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001513.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Do the clouds look like storm clouds?",
+        "answer": "yes",
+        "gt_answers": [
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "no",
+            "no",
+            "yes",
+            "yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000208.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this?",
+        "answer": "a bottle of wine next to a bowl",
+        "gt_answers": [
+            "wine",
+            "wine",
+            "bottle wine",
+            "sweet red wine",
+            "wine",
+            "unanswerable",
+            "wine",
+            "red wine",
+            "wine bottle guitar finger picks",
+            "wine"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003090.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Tell me about this color.",
+        "answer": "it's brown",
+        "gt_answers": [
+            "brunette",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "dark brown",
+            "brown",
+            "brown",
+            "brown"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00004282.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this?",
+        "answer": "a dog laying on the floor",
+        "gt_answers": [
+            "dog",
+            "unsuitable",
+            "dog",
+            "dog",
+            "dog",
+            "dog",
+            "dog",
+            "dog",
+            "unsuitable",
+            "dog on floor"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002879.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "whats in this can?",
+        "answer": "dr pepper diet",
+        "gt_answers": [
+            "diet dr pepper",
+            "diet dr pepper",
+            "diet dr pepper",
+            "diet dr pepper",
+            "dr pepper",
+            "diet dr pepper",
+            "diet dr pepper",
+            "diet dr pepper",
+            "dr pepper diet",
+            "diet dr pepper"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002798.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this item?",
+        "answer": "a box of dolmo sugar",
+        "gt_answers": [
+            "sugar",
+            "sugar",
+            "sugar",
+            "sugar",
+            "box sugar",
+            "domino sugar",
+            "sugar",
+            "sugar",
+            "sugar",
+            "sugar"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002654.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this item?",
+        "answer": "notebook",
+        "gt_answers": [
+            "notebook",
+            "notebook",
+            "notebook",
+            "paid",
+            "tablet",
+            "notepad",
+            "book",
+            "notebook",
+            "spiral bound notebook",
+            "notebook"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001374.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this product?",
+        "answer": "toffee cheesecake",
+        "gt_answers": [
+            "cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "cake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00004068.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What color is this shirt? ",
+        "answer": "blue",
+        "gt_answers": [
+            "grey",
+            "grey",
+            "blue jeans",
+            "blue",
+            "blue",
+            "blue",
+            "blue grey",
+            "blue",
+            "grey",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002213.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What color is this Polo shirt?",
+        "answer": "green",
+        "gt_answers": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green yellow logo",
+            "green",
+            "green",
+            "green",
+            "green"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003973.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this?",
+        "answer": "a nestle pure life water bottle",
+        "gt_answers": [
+            "nestle pure life water",
+            "nestle water",
+            "bottle",
+            "water",
+            "water bottle",
+            "water",
+            "water",
+            "nestle pure life water",
+            "water",
+            "water"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001181.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who can read this for me?",
+        "answer": "you can read this for me",
+        "gt_answers": [
+            "navigation app",
+            "unanswerable",
+            "navigation app",
+            "navigation app",
+            "navigation app",
+            "unanswerable",
+            "navigation app",
+            "unanswerable",
+            "navigation app for visually impaired smart phone user",
+            "navigation app"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000700.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What does it say on this coupon?",
+        "answer": "$5 avocado bacon tostada combo",
+        "gt_answers": [
+            "$5 avocado bacon tostada combo",
+            "5 combo",
+            "$5 avocado bacon tostada combo",
+            "5$ avocado bacon tostada combo",
+            "$5 avocado bacon tostada combo",
+            "$ avocado bacon tostada combo",
+            "$5",
+            "avocado bacon tostada combo",
+            "$5 avocado bacon tostada combo",
+            "$5 avocado bacon tostada combo"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000878.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What kind of food is this?",
+        "answer": "corn",
+        "gt_answers": [
+            "corn",
+            "corn",
+            "corn",
+            "unsuitable",
+            "corn",
+            "corn",
+            "corn",
+            "corn",
+            "corn",
+            "can"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001727.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What color are my pants?",
+        "answer": "black",
+        "gt_answers": [
+            "black white stripes",
+            "black",
+            "black white stripes",
+            "black",
+            "black white",
+            "black",
+            "black white stripes down sides",
+            "black",
+            "black",
+            "black"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003786.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What color is this?",
+        "answer": "brown",
+        "gt_answers": [
+            "grey",
+            "grey",
+            "grey",
+            "grey",
+            "brown",
+            "grey",
+            "tan",
+            "tan",
+            "grey",
+            "brown"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003587.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this bag black and white?",
+        "answer": "no",
+        "gt_answers": [
+            "yes",
+            "white black spots",
+            "yes white black polka dots",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "white black polka dots",
+            "yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001994.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this?",
+        "answer": "a bottle of wine",
+        "gt_answers": [
+            "wine",
+            "wine",
+            "wine bottle",
+            "wine",
+            "bottle red wine",
+            "wine",
+            "mostly empty wine bottle",
+            "wine",
+            "bottle",
+            "wine"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001268.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is on this picture? Thank you.",
+        "answer": "blood cells and erythrocytic cells",
+        "gt_answers": [
+            "prokaryotic eukaryotic cells",
+            "prokaryotic eukaryotic cells",
+            "prokaryotic eukaryotic cells",
+            "cells",
+            "prokaryotic eukaryotic cells",
+            "unanswerable",
+            "blood cells",
+            "blood cells",
+            "prokaryotic eukaryotic cells",
+            "flowers"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003762.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is this?",
+        "answer": "a logitech wireless mouse",
+        "gt_answers": [
+            "mouse",
+            "mouse",
+            "wireless mouse",
+            "mouse",
+            "mouse",
+            "computer mouse",
+            "logitech mouse",
+            "mouse",
+            "computer mouse",
+            "computer mouse"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001627.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What color is the sky?",
+        "answer": "blue",
+        "gt_answers": [
+            "blue",
+            "blue grey",
+            "blue",
+            "blue",
+            "grey",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue whispy clouds"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003348.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What's the name of this book?",
+        "answer": "cabin night before christmas",
+        "gt_answers": [
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003230.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What does this say?",
+        "answer": "harry potter and the deathly hallows",
+        "gt_answers": [
+            "harry potter",
+            "harry potter deathly hallows",
+            "harry potter",
+            "harry potter deathly hallows",
+            "harry potter deathly hallows",
+            "harry potter",
+            "harry potter",
+            "harry potter deathly hallows",
+            "harry potter deathly hallows",
+            "harry potter deathly hallows"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002882.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Okay, I held the camera further away. I think it should be black. Could you tell me if it's black or blue, please? Thank you.",
+        "answer": "black",
+        "gt_answers": [
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "grey"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003356.jpg",
+        "model_name": "BLIP2"
+    }
+]

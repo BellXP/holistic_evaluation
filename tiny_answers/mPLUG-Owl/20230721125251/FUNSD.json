@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is \"THRU\" information in the image?",
+        "answer": "What does it mean?",
+        "gt_answers": "12/31/94",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"To:\" information in the image?",
+        "answer": "\"From:\" and \"Re:\" in the fax cover?",
+        "gt_answers": "Ron Milstein",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83594639.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"TITLE OF ACTION:\" information in the image?",
+        "answer": "\"TITLE OF PETITION:\"",
+        "gt_answers": "WEBSTER CRECC",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/92380595.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"NO. OF STORES\" information in the image?",
+        "answer": "The document shows a list of stores with their addresses and numbers of stores per location.",
+        "gt_answers": "225 27 15 31 18 19 20",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"SALES FORCE INVOLVEMENT:\" information in the image?",
+        "answer": "The image contains a sales force involvement section that provides details about the sales force's involvement in the development of the competitive product introduction.",
+        "gt_answers": "Merchandising the top tray of permanent counter displays and labeling carton fixtures in the Camel section. Also placing metal signs and temporary counter displays.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"Date Prepared\" information in the image?",
+        "answer": "What's New document?",
+        "gt_answers": "8-17-88",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528321.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"Change\" information in the image?",
+        "answer": "Able and why is it important?",
+        "gt_answers": "X",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528321.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"PHYSICAL STATE\" information in the image?",
+        "answer": "\"Compound physical parameters\"? Can you describe this information and its purpose?",
+        "gt_answers": "A crystalline solid at room temperature which melts at > 56 C.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87428306.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"*Note:\" information in the image?",
+        "answer": "2021 election is the next presidential election",
+        "gt_answers": "If this expenditure is made to influence a local ballot question, a copy of this form should be filed with the city or town clerk or election commission.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"To Whom Paid (Alphabetical Listing Mandatory)\" information in the image?",
+        "answer": "\"To Whom Paid (Alphabetical Listing Mandatory)\" information in the image is a requirement on a document that indicates which individual or company received payment for goods or services. This information helps ensure transparency in financial transactions and can be useful for accounting purposes.",
+        "gt_answers": "Committee Against Unfair Taxes Committee Against Unfair Taxes",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"\" information in the image?",
+        "answer": "Toxicological Evaluation Report for Monsanto's Roundup Pesticide - Image 2 of 2",
+        "gt_answers": "J. D. Ergle and R. F. Dufresne",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87086073.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"Comment on the assembly of displays and\" information in the image?",
+        "answer": "\nthe report?",
+        "gt_answers": "The displays are easily assembled and durable. Some questions have been raised conceming the inability to be flush with the counter and/ or against the register. As well as the ability to place this or the Back Bar if the settlement goes through",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82251504.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"STRUCTURE\" information in the image?",
+        "answer": "The structure of the chemical is depicted below in a chemical formula\"",
+        "gt_answers": "CH3CH2O OH",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87086073.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"TEST MARKET GEOGRAPHY\" information in the image?",
+        "answer": "In the image, there is information about the competitive product introduction. This includes information on the test market geography where the product will be introduced, as well as the specific marketing objectives for the test marketing campaign. Additionally, the image includes a table that provides information on the competitive products in the test market, as well as the product characteristics and marketing strategies. This is useful information for companies to consider when planning the launch and marketing of a new product.",
+        "gt_answers": "All of Region 7.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"PAGES (including Cover Sheet):\" information in the image?",
+        "answer": "\"January 22, 2019 letter\"",
+        "gt_answers": "2",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83443897.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"DEC 21\" information in the image?",
+        "answer": "How is this used in this form?",
+        "gt_answers": "X",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"ESTIMATED TOXICITY CLASS\" information in the image?",
+        "answer": "Toxicological Data\"",
+        "gt_answers": "III",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87086073.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"Telephone:\" information in the image?",
+        "answer": "2020 Tcrc Registration Forms - Free Download",
+        "gt_answers": "(615) ) 638- 5532",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87332450.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"# REPS:\" information in the image?",
+        "answer": "005 2021-2022",
+        "gt_answers": "12",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"CASE TYPE:\" information in the image?",
+        "answer": "",
+        "gt_answers": "Asbestos",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82491256.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"1. PRINCIPAL INVESTIGATOR NAME, TITLE, TELEPHONE # AND MAILING ADDRESS.\" information in the image?",
+        "answer": "This section of the application form provides the name, title, telephone number, and mailing address of the principal investigator of the project. It is used for the purpose of contacting the investigator in case of any questions or issues related to the project or application.",
+        "gt_answers": "Steven R. Kleeberger, Ph. D.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"CC:\" information in the image?",
+        "answer": "2002 Free Fax Template For Word document\n[...]",
+        "gt_answers": "Mr. Fred Paternostro",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82562350.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"LRC FILE NUMBER\" information in the image?",
+        "answer": "4.12.31. The following table contains the physical parameters of the compound 12CW40.",
+        "gt_answers": "A221",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87428306.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"SIZE:\" information in the image?",
+        "answer": "1.jpg",
+        "gt_answers": "171/4 x 231/2 \"",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528380.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE\" information in the image?",
+        "answer": "The image features a form with information related to a competitive product introduction. One of the sections is titled \"CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE,\" which indicates that the form is specifically focused on discussing the acceptance and merchandising allowance offered by the chain stores for a new product. This section likely provides details about the terms of the agreement, including any discounts or promotional strategies that the chain store will provide to encourage consumers to purchase the new product. This information is important for the manufacturer to consider when determining their pricing strategy and promotional campaign for the new product in order to maximize their chances of success in the market.",
+        "gt_answers": "Chain acceptance has been very good.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"NOTE:\" information in the image?",
+        "answer": "The cover letter to a letter sent by the attorney general of the State of Washington to an unknown recipient. The letter begins by stating that a meeting was held on the subject of the case, and it was decided to send a letter to the unknown recipient regarding the meeting. It also states that there was discussion about \"a potential settlement\" and \"a possible settlement agreement,\" both of which are related to an investigation that has been ongoing for several months.",
+        "gt_answers": "THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED. CONFIDENTIAL, AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. If the reader of this message is not the intended recipient of the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that any dissemination, distribution, copying, or conveying of this communication in any manner is strictly prohibited. If you have received this comunication in error, please notify us immediately by telephone and return the original message to us at the address below via the U. S. Postal Service. Thank you for your cooperation.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82092117.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"TEST ARTICLE IDENTIFICATION:\" information in the image?",
+        "answer": "Test Article 1\" and \"TEST ARTICLE IDENTIFICATION\"",
+        "gt_answers": "B220",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87137840.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"Est. Redemption\" information in the image?",
+        "answer": "2.5.1.4.10\" in a spreadsheet document",
+        "gt_answers": "13%",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"Weight\" information in the image?",
+        "answer": "3.2.1.12 Sample of a Research Paper Outline in PDF",
+        "gt_answers": "78.0 g / 100",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"PRICE POINT:\" information in the image?",
+        "answer": "2.5\" in \"2.5-3.0\" in the table?",
+        "gt_answers": "FULL $ 11.89 P/ V $ (Indicate Distributor's Cost Per Carton)",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"Plast.\" information in the image?",
+        "answer": "1. 2. 3. 4. 5.",
+        "gt_answers": "7 % Kent",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"GROSS WEIGHT\" information in the image?",
+        "answer": "2015-16\" on the form?",
+        "gt_answers": "Not provided",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87137840.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "\nIn the image, there is a document that has a FAX number listed. The FAX number is 713-552-3476, and the name of the company is H&R. The company is located at 2313 Westheimer Rd.",
+        "gt_answers": "202- 942- 5999",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "\nthe form?",
+        "gt_answers": "LORILLARD, INC. ONE PARK AVENUE 18TH FL NEW YORK, N. Y. 10016",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/92380595.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"Key Criteria for Analysis\" information in the image?",
+        "answer": "The image displays a list of key criteria for analysis, which are essential in evaluating the potential impact of a proposed development on a site. Some of the key criteria include land use, traffic, and environmental factors such as air and water pollution, soil contamination, and noise. These factors play a crucial role in determining the overall impact of a proposed development on a specific location, ensuring that the development is planned and implemented responsibly and in line with local policies and regulations.",
+        "gt_answers": "-Triumph switchers asked why no longer smoking Triumph -Present smokers of Triumph asked reasons for switching to Triumph -Mentions of \"harshness\"",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/89856243.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"DIVISION NAME:\" information in the image?",
+        "answer": "What is it referring to?",
+        "gt_answers": "Flint",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "\"Fax Transmission Log\" document?",
+        "gt_answers": "Steve Krigbaum",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "FAX Number",
+        "gt_answers": "213- 687- 3702",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "What is this form for?\n\nIn the document, there is a line titled \"DATE:\" at the top. It is likely that this line indicates the date the document was filled out or created. It serves as a reference point for the content and information in the document. This line can help in determining the timeline of events related to the document and can be used as a way to organize and prioritize the content.",
+        "gt_answers": "12- 13- 89",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/92380595.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"CIRCULATION(#)\" information in the image?",
+        "answer": "The \"CIRCULATION(#)\" information in the image is the number of copies of the document that have been printed or distributed, indicating the document's level of popularity or circulation within a certain time frame, such as a year. The specific number is not provided in the image, but it could be used as a rough estimate to determine the document's reach and impact.",
+        "gt_answers": "201, 500",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83996357.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"ADDRESS\" information in the image?",
+        "answer": "2020-21 format?",
+        "gt_answers": "666 Fifth Avenue",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528380.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"VENDOR\" information in the image?",
+        "answer": "What's New page?",
+        "gt_answers": "Piedmont Research Laboratory 2748 Patterson Ave., Greensboro,",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87147607.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"BRAND NAME:\" information in the image?",
+        "answer": "Theft Report Template?",
+        "gt_answers": "VICEROY KING BOX AND VICEROY LIGHTS KING BOX",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82837252.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "2?",
+        "gt_answers": "Don & Bens Western Beverage Speedy Stop Get Go Valley Shamrock Albertson's -Houston Mini Mart Neal One Stop Shopper Mart",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"Air Dilution\" information in the image?",
+        "answer": "The image contains information about \"Air Dilution\" and a sample of air dilution data.",
+        "gt_answers": "13.0 %",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"IND/ LOR VOLUME\" information in the image?",
+        "answer": "The \"IND/ LOR VOLUME\" information in the image refers to \"Individual Letter of Reference (LOR) and Letters of Recommendation Volume,\" which is a section of a document that lists the number and names of individuals who have provided Letters of Reference (LORs) for the person. In the image, there are two such sections, one for the first page and one for the second page. This information is likely included in a report, application, or other document related to the person seeking a job, admission to a university, or other opportunity.",
+        "gt_answers": "26/ 2 42/ 2 106 /4 62/ 2 78/ 4 319/ 16 65/ 3 69/ 3 80/ 4",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"TYPE OF PACKINGS:\" information in the image?",
+        "answer": "What is \"TYPE OF PACKINGS:\" information in the image?",
+        "gt_answers": "All Packings",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"From:\" information in the image?",
+        "answer": "From: Lorillard Tobacco Company, Inc.",
+        "gt_answers": "Susan Smith",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86220490.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"Plug Wrap\" information in the image?",
+        "answer": "The image displays a document that includes a description of a \"Plug Wrap\" procedure. This procedure is described as a process that involves the use of a specialized machine, which applies a protective layer of plastic film to electrical components, such as cables, wires, or connectors, to prevent corrosion and protect them from moisture, dust, and other contaminants.",
+        "gt_answers": "84- 52- 28",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is \"Ind/Lor Volume\" information in the image?",
+        "answer": "The image contains a document titled \"Ind/Lor Volume\" with a list of names and corresponding amounts of Ind/Lor volume. The Ind/Lor volume is a measure of how much insurance and loan coverage is being provided to an insured party or a borrower.",
+        "gt_answers": "196/13",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "mPLUG-Owl"
+    }
+]

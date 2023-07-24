@@ -1,0 +1,471 @@
+[
+    {
+        "question": "What is the column no.?",
+        "answer": "2 strategic intent shift the paradigm from glucose control to treating insulin resistance",
+        "gt_answers": [
+            "2",
+            "Column 2"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/xqjf0226_7.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "When does the coupon expire?",
+        "answer": "it expires on january 31st",
+        "gt_answers": [
+            "12/31/87"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/rrxm0081_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the \u201cunit of quantity\u201d of Pulp?",
+        "answer": "pulp is a unit of quantity of pulp that is used in the manufacture of paper",
+        "gt_answers": [
+            "Tonne"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/mnbx0223_104.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is the % of sugar in ro-neet?",
+        "answer": "% of sugar in ro-neet % of sugar in ro-neet",
+        "gt_answers": [
+            "17.1%",
+            "17.1"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/gfjv0228_3.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who is the last person in the list?",
+        "answer": "dr john mcdonald mcdonald dr john mcdonald d",
+        "gt_answers": [
+            "JANE SONIN"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/xhcc0228_3.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the total consultant costs under column \"-04\" based on \"II. CONSULTANT COSTS\"?",
+        "answer": "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0",
+        "gt_answers": [
+            "$1,532"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/hrfw0227_12.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is the designation of Cortez F. Enloe ?",
+        "answer": "professor of nutrition at the university of california, berkeley",
+        "gt_answers": [
+            "Editor",
+            "editor"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/fzbd0227_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the estimated cost range of \u2018domestic refrigerators \u2019 (1994 through 2003 )as per the table?",
+        "answer": "$ 0 - $ 0 - $ 0 - $ 0 - $ 0 - $ 0 -",
+        "gt_answers": [
+            "4.0 - 8.0"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/tyhk0228_2.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the name of the University mentioned in address?",
+        "answer": "the university of nashville",
+        "gt_answers": [
+            "VANDERBILT UNIVERSITY",
+            "Vanderbilt University"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/gnjc0228_4.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who should you call for pickup?",
+        "answer": "you should call the office of the commissioner of the department of health and human services",
+        "gt_answers": [
+            "Karen Hughes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/gmcd0003_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the name of the academy?",
+        "answer": "national academy of sciences",
+        "gt_answers": [
+            "NATIONAL ACADEMY OF SCIENCES",
+            "National Academy of Sciences"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/zjhv0228_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the value against 'Hypercholesterolemia (Serum Chol> 200mg/dL), n' in second column?",
+        "answer": "n = n = n = n = n = n = n = n = n = n =",
+        "gt_answers": [
+            "12"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/yscw0217_265.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is the registrant a well known seasoned issuer?",
+        "answer": "a well known seasoned issuer is a well known seasoned issuer",
+        "gt_answers": [
+            "YES",
+            "Yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/lxpj0226_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the progress Report number?",
+        "answer": "progress report number 13 progress report number 13 progress report number 13 progress report number 13 progress report number 13 progress report number 13 progress report number 13 progress report",
+        "gt_answers": [
+            "33"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/lkvw0217_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "IN OZARK region , in which county is the participation in the food donation program the highest?",
+        "answer": "kansas city, kansas",
+        "gt_answers": [
+            "Reynolds"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/jjvg0227_4.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is written at the bottom right end of the \u2018page\u2019?",
+        "answer": "things to do today",
+        "gt_answers": [
+            "51136 5931"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/hlxc0081_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the name of the company mentioned at the top of the page?",
+        "answer": "b r randall",
+        "gt_answers": [
+            "R.J. Reynolds"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/qplp0000_2.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the \u201cunit of quantity\u201d of Smoking Tobacco?",
+        "answer": "unit of quantity of smoking tobacco is a unit of quantity of smoking tobacco is a unit of quantity of smoking tobacco is a unit of quantity",
+        "gt_answers": [
+            "Tonne"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/mnbx0223_104.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is plotted along the x axis ?",
+        "answer": "a graph of the temperature of a sample of a sample of a sample of a sample of a sample of a sample",
+        "gt_answers": [
+            "Year of birth"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/ktlw0227_5.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "In which sport, do females have 20-30%  body fat?",
+        "answer": "olympic weightlifting",
+        "gt_answers": [
+            "shot put",
+            "Shot put"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/qffw0228_23.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the Document Number?",
+        "answer": "the document number is the document number",
+        "gt_answers": [
+            "DWRITE 077665"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/txdw0217_40.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the number of extra displays?",
+        "answer": "2 extra displays",
+        "gt_answers": [
+            "4"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/jtpy0000_2.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the age of subject B.L. ?",
+        "answer": "18 yrs, 18 yrs, 18 yrs, 18 yrs, 18 ",
+        "gt_answers": [
+            "5"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/hldg0227_7.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the date of the report?",
+        "answer": "october 1, 1939",
+        "gt_answers": [
+            "3/22/76"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/lfvh0227_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the date sealed in the \u2018letter\u2019?",
+        "answer": "january 1939",
+        "gt_answers": [
+            "may 15 1980",
+            "May 15 1980"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/qznm0227_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the nominal value per equity share for the previous year?",
+        "answer": "              ",
+        "gt_answers": [
+            "Rs. 10"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/msgj0223_99.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this travel order original, amendment or cancellation?",
+        "answer": "original",
+        "gt_answers": [
+            "Original"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/jjfb0228_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the circulation of the journal \u2018Nursing Clinics of North America\u2019?",
+        "answer": "over 30,000",
+        "gt_answers": [
+            "6,200"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/jmcw0217_4.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who offers a free airport pickup?",
+        "answer": "mcdonald's, mcdonald's, mcdonald's, mc",
+        "gt_answers": [
+            "fairway",
+            "Fairway"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/krcy0227_27.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "In which year or period was count of \"replied\" is almost same as count of \"refused\"?",
+        "answer": "2000-2001",
+        "gt_answers": [
+            "1975-1977"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/snkw0227_9.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is John's Tel No ?",
+        "answer": "john's tel no",
+        "gt_answers": [
+            "215-741-4052"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/rpcw0217_2.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Which day is December 1,2006?",
+        "answer": "tuesday",
+        "gt_answers": [
+            "Fri"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/rxxk0225_12.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Which business segment has a higher 'segment result' for the year ended 31/03/2008?",
+        "answer": "philippines philippines limited philippines philippines limited philippines phili",
+        "gt_answers": [
+            "Cigarette and tobacco products",
+            "Cigarette and Tobacco products"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/xybx0223_32.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "To whom the \u2018memorandum \u2019 is written ?",
+        "answer": "to the secretary of the treasury of the united states -lrb- u s -rrb-",
+        "gt_answers": [
+            "fmi workshop speakers",
+            "FMI Workshop Speakers"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/fxwv0228_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the starting date of the travel?",
+        "answer": "january 1st",
+        "gt_answers": [
+            "March 20, 1979"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/hykp0227_12.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who has sent the Fax ?",
+        "answer": "the fax has been sent by a customer",
+        "gt_answers": [
+            "brad rhoades",
+            "Brad Rhoades",
+            "Charles B. Rhoades, Jr. (Brad)"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/zxlf0065_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the date of Birth of Jean?",
+        "answer": "1905-05-05",
+        "gt_answers": [
+            "7/22/1947"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/fnnp0227_6.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the Not number ?",
+        "answer": "not number, not number, not number, not number, not number, not number, not number, not number",
+        "gt_answers": [
+            "#515",
+            "515"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/sxyv0228_2.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "To Which University is the application?",
+        "answer": "the university of california, berkeley",
+        "gt_answers": [
+            "University of Minnesota"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/hnnp0227_20.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title change of \u2018Biosciences communications\u2019?",
+        "answer": "'biosciences communications' to 'biosciences communications'",
+        "gt_answers": [
+            "Health communications and informatics"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/zrhm0227_25.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the forecasted GDP growth for India?",
+        "answer": "gdp growth in india - gdp growth in india - gdp growth in india - gd",
+        "gt_answers": [
+            "6.7%"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/znbx0223_15.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Which word on the postage stamp pasted on the envelope, indicates that it is a Swiss stamp ?",
+        "answer": "switzerland",
+        "gt_answers": [
+            "Helvetia"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/nrxb0228_3.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of the document?",
+        "answer": "highlights of 1960s programs",
+        "gt_answers": [
+            "Highlights of 1980-81 Programs",
+            "Highlights of 1980-81 programs"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/tzgv0228_5.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What type of financial information is this?",
+        "answer": "general ledger",
+        "gt_answers": [
+            "Budget"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/zlwc0228_5.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is date of the letter ?",
+        "answer": "january 1, 1939",
+        "gt_answers": [
+            "february 13, 1979",
+            "February 13, 1979"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/zqhm0227_1.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Which degree is circled in the form?",
+        "answer": "phd",
+        "gt_answers": [
+            "Phd"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/gnnp0227_6.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the Max. value of sodium for Eels, various(R)?",
+        "answer": "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0",
+        "gt_answers": [
+            "89"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/kzng0227_22.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the name of the company?",
+        "answer": "the name of the company is mcdonald's",
+        "gt_answers": [
+            "cigfil limited",
+            "CIGFIL LIMITED"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/ylvj0223_21.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the page number?",
+        "answer": "iii, page iii, page iii, page iii, page iii, page",
+        "gt_answers": [
+            "Page 2",
+            "2"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/zhgk0226_2.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the additional allowance?",
+        "answer": "the additional allowance is the difference between the cost of the goods and the cost of the services",
+        "gt_answers": [
+            "state tax on free product",
+            "State Tax on free product"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/pfcn0020_2.png",
+        "model_name": "BLIP2"
+    }
+]

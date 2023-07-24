@@ -291,7 +291,7 @@ def load(name, llama_dir, device="cuda" if torch.cuda.is_available() else "cpu",
     elif os.path.isfile(name):
         model_path = name
     else:
-        return RuntimeError(f"Model {name} not found; available models = {available_models()}"), None
+        raise RuntimeError(f"Model {name} not found; available models = {available_models()}")
 
     # BIAS-7B or https://xxx/sha256_BIAS-7B.pth -> 7B
     llama_type = name.split('.')[0].split('-')[-1]

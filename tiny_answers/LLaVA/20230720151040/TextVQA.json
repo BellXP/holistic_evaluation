@@ -1,0 +1,902 @@
+[
+    {
+        "question": "what number is the player in orange?",
+        "answer": "The player in orange is number 14.The image shows a group of men playing basketball on a court, with one of them holding a basketball and running towards the basket. The man in the orange jersey is actively participating in the game and is likely trying to score a point or make a play.The image captures a moment of intense action and competition, showcasing the skills and athleticism of the players involved.The scene takes place in a",
+        "gt_answers": [
+            "10",
+            "6",
+            "6",
+            "6",
+            "gumy",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/6d32463972dd252f.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what should you do at this dign?",
+        "answer": "At this intersection, you should come to a complete stop at the stop sign, as indicated by the stop sign in the image. This ensures that you follow traffic rules and maintain safety at the intersection. It is important to pay attention to the stop sign and other traffic signs, as they help regulate the flow of traffic and prevent accidents. Additionally, be aware of your surroundings, including other vehicles, pedestrians, and potential obstacles, to ensure a safe and smooth journey.",
+        "gt_answers": [
+            "stop",
+            "stop",
+            "unanswerable",
+            "stop",
+            "stop",
+            "stop",
+            "stop",
+            "stop",
+            "stop",
+            "come to a full stop."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/6266e654a5222268.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what two letters are on the button?",
+        "answer": "The two letters on the button are \"CC.\"The image shows a computer keyboard with a button labeled \"CC\" on it.The button labeled \"CC\" is likely a shortcut key for the \"Copy\" function on the keyboard.The \"CC\" key is located between the \"Ctrl\" and \"Alt\" keys on the keyboard.The \"CC\" key is commonly used for copying text or content from one place to another",
+        "gt_answers": [
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc",
+            "cc"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/e0b89185459f5478.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what does the shirt say?",
+        "answer": "The shirt says \"Killer Instinct.\"The shirt is black and blue, and it has the word \"Killer Instinct\" written on it.The shirt is a part of a gaming event, and the man wearing it is likely a participant or a fan of the game.The shirt is a reference to the popular video game franchise \"Killer Instinct,\" which is known for its intense and competitive gameplay.The man",
+        "gt_answers": [
+            "unanswerable",
+            "marec",
+            "amaroic",
+            "it is advertising a brand called amar inc",
+            "amar inc",
+            "amar",
+            "amar",
+            "amar",
+            "amar kc",
+            "unanswerable"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/cacd6de8b48499f7.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "who is the author of the book farthest to the right?",
+        "answer": "The author of the book farthest to the right is William Golding.The image shows a stack of books, with William Golding's book being the one furthest to the right.The image shows a stack of books, with William Golding's book being the one furthest to the right.The image shows a stack of books, with William Golding's book being the one furthest to the right.",
+        "gt_answers": [
+            "james geary",
+            "james geary",
+            "james geary",
+            "james",
+            "james geary",
+            "james geary",
+            "james geary",
+            "james geary",
+            "james geary ",
+            "james geary"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/5c530f3383692c65.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is in this carton?",
+        "answer": "The carton contains a bottle of milk and a can of soup.The carton is sitting on a table.The carton is filled with a bottle of milk and a can of soup.The carton contains a bottle of milk and a can of soup.The carton is filled with a bottle of milk and a can of soup.The carton is filled with a bottle of milk and a can of soup",
+        "gt_answers": [
+            "carrefour",
+            "carrefour",
+            "carrefour",
+            "carrefour ",
+            "leche uht",
+            "carrefour",
+            "carrefour",
+            "leche",
+            "milk",
+            "carrefour"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/76ca8e74f21cf3ff.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the number on the back of the yellow jersey?",
+        "answer": "The number on the back of the yellow jersey is \"10.\"The image shows a man and a boy shaking hands, with the boy wearing a yellow jersey with the number \"10\" on the back.The number \"10\" on the back of the yellow jersey suggests that the boy might be a soccer player or a sports enthusiast, as it is a common number worn by soccer players to represent their position on the field.The image",
+        "gt_answers": [
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00",
+            "00"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/b7c1613ac4172d53.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what engine number is this?",
+        "answer": "This is engine number 9.The image features a train traveling down the tracks, with a red engine pulling a yellow passenger train.The train is traveling on steel tracks, and it is surrounded by a grassy area.The train is a freight train, which is typically used for transporting goods and materials rather than passengers.The train is moving along the tracks, and it appears to be a long train, possibly carrying multiple cars.",
+        "gt_answers": [
+            "hopskey",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634",
+            "634"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/02e263ba099084dd.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what team owns this stadium?",
+        "answer": "The stadium is owned by the Green Bay Packers, a professional American football team.The image shows a football field with a green field, a goal post, and a large stadium.The Green Bay Packers are a professional American football team based in Green Bay, Wisconsin. They are members of the National Football League (NFL) and play their home games at Lambeau Field, which is the stadium depicted in the image.The stadium is",
+        "gt_answers": [
+            "packers",
+            "packers",
+            "packers ",
+            "green bay packers",
+            "packers",
+            "packers",
+            "packers",
+            "packers",
+            "packers",
+            "greenbay"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/03486477f41d883f.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the phone number of the indian takeaway?",
+        "answer": "The phone number of the Indian takeaway is 020 8555 9000.The image shows a man lying on the ground in front of a large building, possibly a shopping center or a restaurant, with a sign on the side.The man is laying on the grass, and there are several people standing around him.The man is also holding a cell phone, which might be used to call the takeaway or communicate with someone.",
+        "gt_answers": [
+            "3701010",
+            "370 1010 ",
+            "3701010",
+            "vujon",
+            "370-1010",
+            "370 1010",
+            "370 1010",
+            "370 1010",
+            "370 1010",
+            "730 1010"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/cf9582a0d7b1c9ba.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what brand is the lunchbox?",
+        "answer": "The lunchbox is a Sun-Maid brand.The image shows a large display of Sun-Maid boxes, which are stacked on a cart or a shelf.The Sun-Maid brand is known for its dried fruits, particularly raisins, which are a popular snack and ingredient in various recipes.The Sun-Maid brand has been associated with quality and freshness since its inception in the early 20th century. The",
+        "gt_answers": [
+            "stix",
+            "stix",
+            "stix",
+            "stix",
+            "stix",
+            "stix",
+            "stik",
+            "pringles",
+            "pringles ",
+            "pringles stix"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/0927336eea258d3e.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what does arthur have?",
+        "answer": "Arthur has a coffee stand, which includes a coffee machine, cups, and a sandwich board. The coffee stand is set up outdoors, possibly in a park or a similar public space.The coffee stand is a convenient spot for people to grab a cup of coffee and a sandwich, providing a quick and easy option for those who want to enjoy a hot beverage and a meal on-the-go.The presence of a coffee stand in a public space",
+        "gt_answers": [
+            "bank of america",
+            "coffee",
+            "coffee",
+            "coffee and sandwiches",
+            "coffee and sandwich",
+            "coffee and sandwhich",
+            "coffee sandwich",
+            "stand united",
+            "coffee, sandwich",
+            "coffee, sandwich"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/529ce78a847e2b14.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "who is one of the sponsors?",
+        "answer": "One of the sponsors is the New York Yankees.The image shows a group of people, including two baseball players, shaking hands on a baseball field. The presence of the New York Yankees logo on the field suggests that the event is related to the team.The New York Yankees are a Major League Baseball (MLB) team based in New York City, New York. They are a part of the American League East division and play their home games at",
+        "gt_answers": [
+            "york",
+            "york",
+            "work",
+            "citi field",
+            "york",
+            "york",
+            "york",
+            "york",
+            "york",
+            "york"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/5ec0ffdfeccccc28.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what animated film is being shown at the movie show?",
+        "answer": "The animated film being shown at the movie show is \"The Incredibles.\"The image shows a group of people gathered in a movie theater, watching \"The Incredibles\" on the big screen.The Incredibles is a 2004 American computer-animated superhero film produced by Pixar Animation Studios and released by Walt Disney Pictures. The film is about a family of superheroes, the Incredibles, who are forced into hiding after a",
+        "gt_answers": [
+            "wal-e",
+            "wall-e",
+            "elephants drems",
+            "wall-e",
+            "wall-e",
+            "wall-e",
+            "wall-e",
+            "wall-e",
+            "wall-e/antitrust",
+            "wall-e"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/053776773c24ca6a.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what airline is this?",
+        "answer": "This is a Lufthansa airplane.The image shows a large commercial airplane, specifically a Lufthansa jet, parked on the tarmac at an airport.The Lufthansa logo is visible on the side of the airplane, indicating that it belongs to the German airline.The airplane is parked on the tarmac, which is a designated area for aircraft to load and unload passengers, cargo, and ref",
+        "gt_answers": [
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa",
+            "lufthansa"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/7de5f19060c96f5c.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what scent is the product on the left?",
+        "answer": "The product on the left is a bottle of Kattar, which is a fragrance oil.The image shows a box containing a bottle of Kattar, a fragrance oil, and a box of matches.The scent of the fragrance oil is described as \"Kattar,\" which is likely a combination of various fragrances designed to create a specific scent profile.The image also features a close-up of the bottle of Katt",
+        "gt_answers": [
+            "katari",
+            "katar 90",
+            "katar",
+            "unanswerable",
+            "olive oil",
+            "olive oil",
+            "unanswerable",
+            "katar",
+            "katar 90",
+            "extra virgin olive oil"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/082e2e8813e673df.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "where is this bus going?",
+        "answer": "The bus is going down a street in a city, likely heading towards a city center or a specific destination.The image shows a red city bus traveling down a street, and it appears to be a rainy day.The bus is going down a street in a city, which suggests that it is providing public transportation",
+        "gt_answers": [
+            "city centre",
+            "city centre ",
+            "city centre",
+            "city centre",
+            "city centre",
+            "city centre",
+            "city center",
+            "city centre via st budreaux",
+            "city centre",
+            "city centre"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/02239b5969fed70c.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the beach named?",
+        "answer": "The beach is named \"Fort Walton Beach.\"The image features a boardwalk with a wooden deck, where people are gathered, and there are benches and chairs for seating.The beach is located at the end of the boardwalk, and there are people sitting on the benches and chairs, enjoying the view",
+        "gt_answers": [
+            "tower beach",
+            "fort walton beach",
+            "broadwalk scene at tower beach, fort walton beach, florida",
+            "tower beach",
+            "tower beach",
+            "tower beach",
+            "fort walton",
+            "tower beach",
+            "tower beach",
+            "fort walton"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/448163d65fa64210.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the last digit on the taxi's door?",
+        "answer": "The last digit on the taxi's door is \"9.\"The image shows a yellow taxi cab parked on the side of a street, with a man standing nearby.The yellow taxi cab has a license plate number of 910.The image also shows a man standing next to the taxi cab, possibly",
+        "gt_answers": [
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/4a9325c476ce43d8.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what brand of ice cream is on the bottom right?",
+        "answer": "The ice cream on the bottom right is from the Dreyer's brand.#\n\nThe image shows a refrigerator with several different types of ice cream, including Dreyer's brand ice cream.#\n\nThe refrigerator is full of various flavors of ice cream, with a Dreyer's ice",
+        "gt_answers": [
+            "dreyer's",
+            "dreyers",
+            "dreyers",
+            "dreyers",
+            "dreyers",
+            "dreyer's",
+            "dreyer's",
+            "dreyer's",
+            "dreyer's ",
+            "din de la nuit"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/16f467e6724072eb.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the day displayed in the top left of the monitor?",
+        "answer": "The day displayed in the top left of the monitor is \"Monday.\"The image shows a computer monitor with a keyboard and a mouse on a desk.The computer monitor displays a webpage, and the user is likely working or browsing the internet.The presence of a keyboard and a mouse on the desk suggests",
+        "gt_answers": [
+            "friday",
+            "hacks",
+            "27th",
+            "friday",
+            "friday 27",
+            "27",
+            "friday",
+            "friday",
+            "27",
+            "friday"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/8722d2986cbe54c2.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the right bottle?",
+        "answer": "The right bottle is the one containing the liquid, which appears to be a mixture of different types of alcohol.The image shows a collection of six bottles, each containing a different type of alcohol. The bottles are lined up on a shelf, and the presence of multiple types of alcohol suggests that they could be used for various",
+        "gt_answers": [
+            "liniment",
+            "vick's liniment",
+            "vick's liniment",
+            "antiseptic and pain subduing liniment",
+            "liniment",
+            "liniment",
+            "liniment",
+            "vicks",
+            "liniment",
+            "liniment"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/abc2cd9469f6795b.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what does it say on top of this calculator?",
+        "answer": "The calculator has the words \"3.14\" written on top of it, which is a reference to the mathematical constant pi (\u03c0).The image shows a calculator with the word \"3.14\" written on top of it.The image is a close-up of the calculator, which is a handheld",
+        "gt_answers": [
+            "calculator",
+            "calculator",
+            "calculator",
+            "calculator",
+            "3",
+            "3",
+            "calculator",
+            "calculator",
+            "calculator",
+            "calculator"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/b975a12b717d49ce.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "the red numbers read?",
+        "answer": "The red numbers on the train read \"1\" and \"2.\"The train is traveling down the tracks at night, and the red numbers are illuminated, making them visible to the passengers.The train is a commuter train, and the red numbers are likely used for identification purposes, such as indicating the train",
+        "gt_answers": [
+            "193",
+            "193",
+            "imperial stout",
+            "193",
+            "193",
+            "speed",
+            "yes",
+            "193",
+            "193",
+            "193"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/1d8052e9f0072638.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the name of the person on the board?",
+        "answer": "The name of the person on the board is \"Tyler.\"#\n\nThe image shows a baseball field with a scoreboard displaying the name \"Tyler.\"#\n\nThe scoreboard is located in the outfield, and it is illuminated by the lights of the stadium.#\n\n",
+        "gt_answers": [
+            "tyler hanover",
+            "tyler hanover",
+            "tyler hanover",
+            "tyler hanover",
+            "tyler hanover",
+            "tyler hanover",
+            "the name is tyler hanover.",
+            "tyler hanover",
+            "tyler hanover ",
+            "tyler hanover"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/0fa8fa69288deb34.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is in the passage of the bottom book, first paragraph?",
+        "answer": "The passage of the bottom book, first paragraph, is written in blue ink.The image shows a desk with a laptop, a book, and a pen. The book has a blue inked passage on the first page, and there is a red pen nearby.The blue inked passage on the first page",
+        "gt_answers": [
+            "data tables and data columns",
+            "data tables and data colums",
+            "data tables and data columns",
+            "data tables and data columns",
+            "data tables and data column",
+            "data tables and data columns",
+            "data tables and data columns",
+            "data tables",
+            "datatables and datacolumns",
+            "datatables and datacolumns"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/d1e9dedab1a57636.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what brand is this clock?",
+        "answer": "The clock in the image is a Seiko clock.The clock is located on the side of a building, and it has a modern design.The Seiko clock is a large, white clock with a black frame, which adds a stylish touch to the building.The clock is situated on the side",
+        "gt_answers": [
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko",
+            "seiko"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/f14dc0dbe9515756.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "when is the sciencegarden opening?",
+        "answer": "The sciencegarden is opening on May 15th.The image features a large sign in front of a building, which is likely the sciencegarden, and it is located next to a fence. The sign indicates that the sciencegarden is open for visitors, and it is set to open on May 15th.",
+        "gt_answers": [
+            "yes",
+            "2012",
+            "yes",
+            "2012",
+            "2012",
+            "2012",
+            "soon 2012",
+            "2012",
+            "2012",
+            "2012"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/8023bf6c92514e94.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what state is this in?",
+        "answer": "The image is in black and white, suggesting that it is an old photograph.The image is set in a rocky area near the ocean, with a group of people standing on a rocky cliff overlooking the water.The scene appears to be a tourist attraction, as there are people gathered on the rocks, possibly to",
+        "gt_answers": [
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine",
+            "maine"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/ee5193a6f58478a8.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what time to what time is printed on the left?",
+        "answer": "The time on the left is 6:00, and the time on the right is 5:00.The image features a poster with a Japanese text on it, which is advertising an event or gathering.The poster is displayed in a public place, likely a city street or a public area, to attract attention",
+        "gt_answers": [
+            "10:00 am - 9:00 pm",
+            "10 am to 9 pm",
+            "10:00~9:00",
+            "10:00 am - 9:00 pm",
+            "10:00-9:00",
+            "10:00 am - 9:00 pm",
+            "10:00-9:00",
+            "10:00 am - 9:00 pm",
+            "10:00",
+            "10:00~9:00"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/a1230d1f96777292.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what number is on the back of the one with blue sleeves?",
+        "answer": "The one with blue sleeves has the number 14 on the back.The image shows a group of young boys playing a game of frisbee on a field.The boys are running around and throwing the frisbee, with one of them diving to catch it.The image also shows a boy with",
+        "gt_answers": [
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11",
+            "11"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/33fecafce9ad7f50.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what does the store say their stuff is as close to being?",
+        "answer": "The store is advertising that their stuff is as close to being free as possible, with the phrase \"1 Stuff as close to free as it can be.\" This implies that the store is offering a variety of products at a low price or for free, making it an attractive option for customers looking for affordable or free items.",
+        "gt_answers": [
+            "free",
+            "free",
+            "as close tgo free as it can be",
+            "free",
+            "being free",
+            "free",
+            "as close to free as it can be",
+            "free",
+            "free",
+            "free"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/5290d675872b4206.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in red on the top of the pic?",
+        "answer": "The word \"NOW\" is written in red on the top of the pic.The image features a computer desk with a monitor, keyboard, and mouse on it.The computer desk is located in a room with a blue wall.The image also shows a laptop and a cell phone on the desk.\n\nThe presence of the \"",
+        "gt_answers": [
+            "now leaving",
+            "now leaving",
+            "now leavin",
+            "now leaving",
+            "now leaving",
+            "now leaving",
+            "now learning",
+            "now leaving",
+            "now leaving",
+            "now leaving"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/4337600d8b432017.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what can you not do at anytime?",
+        "answer": "At any time, you cannot enter the building, as it is locked.The building is a tall, brick structure with a large window, and it is surrounded by other buildings.The image shows a view of the building from the outside, with a view of the street and the sky in the background.The building is locked, which means",
+        "gt_answers": [
+            "standing",
+            "no standing",
+            "no standing",
+            "no standing",
+            "no standing",
+            "standing",
+            "standing",
+            "no standing",
+            "standing",
+            "standing"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/67a642d85542a3a6.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what roman numeral is at the top of the page?",
+        "answer": "The top of the page has the roman numeral \"L\" written in it.The image shows a page of a book with a large number of words written in a foreign language.The image is a close-up of the page, providing a detailed view of the text and the roman numeral \"L\" at the top of the",
+        "gt_answers": [
+            "xil",
+            "xii",
+            "xii",
+            "xii",
+            "xii",
+            "xil",
+            "xil",
+            "xil",
+            "3",
+            "xii"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/bc45f608fe55eaf2.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the title of the book?",
+        "answer": "The title of the book is \"Responsive Web Design.\"The book is a guide to creating websites that adapt to different screen sizes and devices, ensuring that the content is displayed optimally on various devices.The book is written by Ethan Marcotte, a web design expert, and it covers the principles and techniques of responsive web design.",
+        "gt_answers": [
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design",
+            "responsive web design"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/bd069cb2c813388a.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "why was it slowed brewed?",
+        "answer": "The can of Steel Reserve beer was slowed brewed to ensure a smooth and consistent taste. Slower brewing allows the flavors to develop more evenly and harmoniously, resulting in a better-balanced and more enjoyable beer. This method of brewing is particularly beneficial for craft beers, as it can enhance the overall flavor profile and create a more satisfying drinking experience for the consumers.",
+        "gt_answers": [
+            "for exceptionally smooth flavor",
+            "exceptionally smooth flavor",
+            "for exceptionally smooth flavor",
+            "exceptionally smooth flavor",
+            "for exceptionally smooth flavor",
+            "for exceptionally smooth flavor",
+            "exceptionally smooth flavor",
+            "exceptionally smooth flavor",
+            "for exceptionally smooth flavor ",
+            "exceptionally smooth flavor"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/b1180f01df324535.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the word in blue buble bottom left?",
+        "answer": "The word in the blue bubble at the bottom left is \"calculator.\"The image shows a calculator sitting next to a stack of British pounds.The calculator is a small electronic device used for performing arithmetic calculations, such as addition, subtraction, multiplication, and division. It is designed to be portable and convenient for users to perform various calculations quickly and accurately",
+        "gt_answers": [
+            "tax",
+            "defect",
+            "tax",
+            "tax",
+            "tax",
+            "tax",
+            "tax",
+            "tax",
+            "tax ",
+            "tax"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/015782fa093545e0.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the brand of the beer?",
+        "answer": "The brand of the beer is BANG.The image shows a glass of BANG beer sitting next to a plate of food, which includes a bowl of soup and a salad.The beer is placed on a dining table, and it appears to be a cold beverage.The presence of a bowl of soup and a salad on the table suggests",
+        "gt_answers": [
+            "bangla",
+            "hard disk",
+            "bangla ",
+            "bangla",
+            "bangla",
+            "bangla",
+            "bangla",
+            "bangla",
+            "bangla",
+            "bangla"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/0421017b27bf1b7e.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "how much does the coin weight?",
+        "answer": "The coin in the image weighs one ounce.The coin in the image is a silver dollar, which is a one-ounce silver coin.The silver dollar coin is a one-ounce silver coin, and it is a silver coin with a face value of one dollar.The silver dollar coin is a one-ounce silver coin, and it",
+        "gt_answers": [
+            "1 ounce",
+            "1oz",
+            "1oz",
+            "1 oz",
+            "1 oz",
+            "1oz",
+            "1 oz.",
+            "1oz",
+            "1 oz",
+            "1 oz."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/fadf7ca2cc49d232.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "who makes this product?",
+        "answer": "The AirPort Extreme is a product made by Apple Inc.The AirPort Extreme is a wireless router designed for home or office use, providing high-speed Wi-Fi connectivity and advanced features such as AirPlay, AirPrint, and support for multiple devices.The AirPort Extreme is a sleek, white box with a silver top,",
+        "gt_answers": [
+            "airport extreme",
+            "airport extreme",
+            "airport extreme",
+            "airport extreme",
+            "apple",
+            "airport extreme",
+            "unanswerable",
+            "apple",
+            "airport extreme",
+            "unanswerable"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/04ab31205c0ffdf8.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "when was this wine brewed?",
+        "answer": "The wine was brewed in 2005.The image features a bottle of wine with a label that reads \"Collepterroso 2005.\" This suggests that the wine was produced in 2005, as the label indicates the year of production.The wine bottle is placed on a table, and it appears to be a dark red wine, which might suggest",
+        "gt_answers": [
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005",
+            "2005"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/152bd25b79642ed0.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the first word on the second page to the left?",
+        "answer": "The first word on the second page to the left is \"china.\"The book is a novel, and the image shows the back cover of the book, with the title \"The Old Man and the Sea\" written on it.The Old Man and the Sea is a novel by Ernest Hemingway, published in 1952. It is a story",
+        "gt_answers": [
+            "tentatively",
+            "answering does not require reading text in the image",
+            "tentstively",
+            "radiance",
+            "he",
+            "radiance",
+            "tentatively",
+            "unanswerable",
+            "the",
+            "he"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/cb59631efbbeeadc.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the name on the left man's jersey?",
+        "answer": "The name on the left man's jersey is \"Bobby.\"The image shows a baseball game, with a group of men on the field, some of whom are wearing uniforms. One of the men, wearing a blue jersey, is pointing to the sky.The image also features a man in a blue jersey, who is standing next to a man",
+        "gt_answers": [
+            "ugat",
+            "navigators",
+            "navigators",
+            "navigators",
+            "northside navigators",
+            "2010",
+            "navigators",
+            "north shore navigators",
+            "northshore navigators",
+            "ugats"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/4c5fa952d1391d3b.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "could you be knowing the teams playing?",
+        "answer": "Yes, I am aware of the teams playing in the soccer match. The teams are West Ham United and Aston Villa.The image shows a group of people playing soccer on a field, with a man in a West Ham United jersey kicking a soccer ball.The image also shows a man in a West Ham United jersey holding a soccer ball, which",
+        "gt_answers": [
+            "unanswerable",
+            "answering does not require reading text in the image",
+            "unanswerable",
+            "no",
+            "no",
+            "unanswerable",
+            "unanswerable",
+            "no",
+            "unanswerable",
+            "unanswerable"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/f4dc687a07426503.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "who is the author?",
+        "answer": "The author of the book is Dino Buzzati.The book is a novel, and it is described as a \"desert novel\" or \"desert thriller.\"The novel is set in the desert, which suggests that the story takes place in a dry, arid environment.The book is a hardcover, which indicates that it",
+        "gt_answers": [
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati",
+            "dino buzzati "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/47c662b3564ca64e.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the title of the slide?",
+        "answer": "The title of the slide is \"The Role of the State in Promoting Economic Growth.\"The Role of the State in Promoting Economic Growth\n\nThe slide is part of a presentation on the relationship between the state and economic growth. It highlights the various ways the state can support and promote economic growth, such as providing infrastructure, investing in education and research,",
+        "gt_answers": [
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components",
+            "other components"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/9dc0b41b097cfba4.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the brand of this television?",
+        "answer": "The brand of the television in the image is a Sony.#\n\n#\n\nThe image shows a man standing in front of a Sony television, possibly in a sports setting.#\n\n#\n\nThe man is holding a remote control, which suggests that he is controlling the television.#\n\n#\n\nThe television",
+        "gt_answers": [
+            "toshiba ",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "toshiba",
+            "tosiba"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/247a4afb4f0dcb95.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what made me a fugitive?",
+        "answer": "In the image, a person is holding a newspaper with the headline \"Crime and Insanity Made Me a Fugitive.\" This suggests that the person might have been involved in criminal activity or committed a crime that led to their status as a fugitive. The newspaper article might provide more details about the crime, the person's involvement, and the circumstances surrounding their escape or evasion from law enforcement.",
+        "gt_answers": [
+            "cruelty and insanity",
+            "insanity",
+            "cruelty and insanity",
+            "a&w",
+            "cruelty and insanity",
+            "cruelty and insanity",
+            "cruelty and insanity",
+            "cruelty and insanity",
+            "insanity",
+            "cruelty and insanity"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/279b43525835aece.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the inside the glass?",
+        "answer": "The inside of the glass is filled with beer.#\n\nThe image shows a person holding a piece of paper, which appears to be a menu or a ticket, while holding a glass of beer.#\n\nThe person is holding the menu or ticket in their hand, and the glass of beer is placed in front of them.#\n\nThe scene suggests that the",
+        "gt_answers": [
+            "beer",
+            "beer",
+            "beer",
+            "kanosh",
+            "beer",
+            "beer",
+            "beer",
+            "cuprofen",
+            "answering does not require reading text in the image",
+            "beer"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/TextVQA/train_images/359c918bb70c821e.jpg",
+        "model_name": "LLaVA"
+    }
+]

@@ -1,0 +1,455 @@
+[
+    {
+        "question": "What does the red sign on the far left say?",
+        "answer": "The red sign on the far left says \"baggage claim\".",
+        "gt_answers": [
+            "Danger"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000434357.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Which way does the sign say to merge?",
+        "answer": "The traffic light on the corner says \"Merge\". The street on the left goes straight ahead, while the street on the right goes straight ahead and then turns right at the next intersection.",
+        "gt_answers": [
+            "LEFT"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000447607.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the number on the yellow players shirt?",
+        "answer": "The number on the yellow player's shirt is 10.",
+        "gt_answers": [
+            "19"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2339683.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is on the man's head?",
+        "answer": "I'm sorry, but as an AI language model I don't have the ability to see images. I can only respond to text-based prompts. Can you please provide a text prompt?",
+        "gt_answers": [
+            "glasses"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2362748.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Who created this picture?",
+        "answer": "I am sorry, but I cannot answer this question since I am not able to view images or access the internet. Please provide me with text-based information or ask a different question that does not require visual input.",
+        "gt_answers": [
+            "mydoggie"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n02094433_6520.JPEG",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What does the red text say?",
+        "answer": "The red text says, \" Coke\".",
+        "gt_answers": [
+            "open happiness"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/IIIT_text/img_000324.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the brand name on the bottle?",
+        "answer": "The brand name on the bottle is Playtex.",
+        "gt_answers": [
+            "Playtex"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n03825788_20290.JPEG",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What does it says in the banner?",
+        "answer": "The banner in the image says \"Grand Slam Finals\".",
+        "gt_answers": [
+            "Grand Sla return"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000465090.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the website address?",
+        "answer": "It looks like the image you provided is of a man sitting at a table with a bowl of apples in front of him. The man is wearing an orange shirt and is smiling at the camera. It is not clear what the website address is that you are asking for.",
+        "gt_answers": [
+            "fotosearch.com"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n07742313_20816.JPEG",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the name of the restaurant?",
+        "answer": "The restaurant name is'Hamburgers'as described in the image.",
+        "gt_answers": [
+            "The Soup Spoon"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/test_img_340.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the number of the red bus?",
+        "answer": "The number of the red bus is not visible in the image. It is a red double decker bus that is driving down the street, and there are other vehicles, including a white van, in the background.",
+        "gt_answers": [
+            "6160"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000352185.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "How many vases are visible?",
+        "answer": "There are six vases visible in the image.",
+        "gt_answers": [
+            "six",
+            "{}"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2340271.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What activity is offered at the apple orchard?",
+        "answer": "The activity offered at the apple orchard is picking apples from the trees. There are no other activities offered at the orchard.",
+        "gt_answers": [
+            "HEDGE MAZE"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000506256.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Who is depicted on the cover holding a stick with fire?",
+        "answer": "The cover of the comic book \"Tip Top Comics\" shows a man holding a stick with fire in the middle of a jungle. He appears to be standing next to a rhino, which is also shown in the image. The cover also has a large title, \"Tip Top Comics\", and a logo with a character holding a cape and a shield.\n\nThere are also several other characters and animals in the image, including lions, monkeys, and snakes, which add to the sense of adventure and excitement in the story. The cover is likely meant to evoke a sense of danger and action, with the man and rhino standing in the midst of the jungle.\n\nOverall, the cover of \"Tip Top Comics\" is a visually striking and engaging image that is likely to capture the attention of readers and entice them to pick up the comic and dive into the adventure.",
+        "gt_answers": [
+            "Tarzan"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n06596364_16096.JPEG",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Where is the bus headed?",
+        "answer": "It appears to be a large bus traveling down a city street. The building in the background is tall and has many floors.\n\nI don't know where the bus is headed, but it looks like it is on a city street with tall buildings in the background. It appears to be a busy city with lots of traffic.",
+        "gt_answers": [
+            "Georgetown"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2368670.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What military branch is this airplane?",
+        "answer": "This is a photo of a military airplane on an aircraft carrier. The airplane is a military transport plane, likely a C-130 Hercules or a similar model. The airplane is parked on the deck of the aircraft carrier, which is a large ship with a flight deck for landing and taking off aircraft. The aircraft carrier is likely a US Navy ship, as it has the American flag and US Navy markings on the deck.",
+        "gt_answers": [
+            "Navy"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000085488.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What color are the window coverings?",
+        "answer": "The window coverings in the building appear to be white and blue.",
+        "gt_answers": [
+            "Blue/",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/IIIT_text/2757.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the second credit card accepted at this payment station?",
+        "answer": "The image appears to be a parking meter on a sidewalk with a green credit card symbol on the front. The meter has a coin slot on the top, a display screen on the front, and a receipt dispenser on the back. It's possible that the meter accepts credit cards for payment, but without more information about the location or context, it's impossible to say for sure.",
+        "gt_answers": [
+            "visa"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000078716.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What does the sign say?",
+        "answer": "I'm sorry, I'm an AI language model and I don't have the ability to see images. I can only process text based inputs. Can you please provide me with the text of the sign?",
+        "gt_answers": [
+            "Barber shop parking"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/2/2413763.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What color is the bat?",
+        "answer": "The bat is black.",
+        "gt_answers": [
+            "Black"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2349497.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What does the red sign in the picture say?",
+        "answer": "The red sign in the picture says \"Stop\".",
+        "gt_answers": [
+            "STOP"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2346678.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What does the glove have handwritten on it?",
+        "answer": "It is difficult to see the glove from the image you have provided. If you would like to see the image, you can provide it to me and I will be able to see it.",
+        "gt_answers": [
+            "Mom Hates You!!!"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000145593.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the name of the retailer that is advertised in green?",
+        "answer": "The retailer advertised in green on the wall is called ''Shoppers Drug Mart''.",
+        "gt_answers": [
+            "THE BODY SHOP"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/img_953.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is the phone number of River Ride?",
+        "answer": "The image shows a yellow tour bus driving through a body of water. The bus is carrying tourists and is equipped with a large advertisement on the side that says \"River Ride.\" There is a phone number on the advertisement, but it is not clear what it says.",
+        "gt_answers": [
+            "33-22-555"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000443764.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What month abbreviation appears at the bottom of the picture?",
+        "answer": "The image shows the interior of an airport lounge, with a person holding an apple in front of a window that has a red and white patterned exterior. There is also a blue and white banner that says \"CORONAVIRUS\".\n\nCan you provide more information about what you are trying to find out from this image?",
+        "gt_answers": [
+            "Feb"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2342238.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the name of the road going east to west?",
+        "answer": "The street is called Sunset Hill Boulevard.",
+        "gt_answers": [
+            "SNOB HILL RD"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2318180.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is written on the side of the train?",
+        "answer": "The image appears to be of a black locomotive with the words \"Pollson Logging Co.\" written on the side of the train.",
+        "gt_answers": [
+            "Polson Logging co"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2341912.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the date in yellow font?",
+        "answer": "The date on the nut in the image is February 7, 2022.",
+        "gt_answers": [
+            "2003/01/07"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n04153751_10063.JPEG",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What word is on the warning sign?",
+        "answer": "The word on the warning sign appears to be \"Zone\" with a line through it. This could mean that there is a \"No Parking\" or \"No Standing\" zone in the area. The bicycles in the background suggest that this is a public area, and the sign is likely there to remind people not to park or stand in the designated zone.",
+        "gt_answers": [
+            "ZONE"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/2/2407077.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What color is the largest dress?",
+        "answer": "The largest dress appears to be a brown color.",
+        "gt_answers": [
+            "Dark Olive"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n02667093_5040.JPEG",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is that brown sweet with white icing?",
+        "answer": "The image shows a cupcake with white icing sitting on a table next to a glass of milk.",
+        "gt_answers": [
+            "CUPCAKES"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000186703.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What does the yellow signal say?",
+        "answer": "The yellow traffic signal says \"Caution\", indicating that there may be a hazard ahead.",
+        "gt_answers": [
+            "BUMPS"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2335084.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is written in black on the parasail?",
+        "answer": "It looks like the word \"Parasail\" is written in black on the parasail.",
+        "gt_answers": [
+            "GUN"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2325956.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the photographers name?",
+        "answer": "The photographer's name is unknown.",
+        "gt_answers": [
+            "Jordan Light"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n03956157_7164.JPEG",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Where are there more shops?",
+        "answer": "In the image provided, there is a large poster in the lobby of a shopping center displaying various items for sale, including honey, cereal, and snacks. There are several shops in the mall, including a pharmacy, a gift shop, and a coffee shop.",
+        "gt_answers": [
+            "Level 2"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/test_img_72.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What does it say in white?",
+        "answer": "The red and white sign says \"Stop\" in white letters.",
+        "gt_answers": [
+            "STOP"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2338783.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What number is under the Red Wagon sign?",
+        "answer": "769 is under the Red Wagon sign.",
+        "gt_answers": [
+            "175"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000458970.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of the grey book?",
+        "answer": "I'm sorry, I can't see the image you provided. Please provide the image so I can help you with your question.\n\nPlease provide the image you want me to evaluate.",
+        "gt_answers": [
+            "THE handbuilt bicycle"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000579053.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What does the top sign say?",
+        "answer": "The top sign says, 'Theatre Royal.'",
+        "gt_answers": [
+            "A Modern Classic"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/IIIT_text/3675.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the name of this item?",
+        "answer": "The item in the image is a metal basket. The basket has a metal handle and a rectangular shape with a handle on top. The basket has a label on it that reads \"Baskets\". The label is attached to the basket with a piece of tape. The basket appears to be made of metal and has an open top.",
+        "gt_answers": [
+            "Basket"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n04204238_4763.JPEG",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the license plate number on the bus?",
+        "answer": "The license plate number on the bus is M123 NVH.",
+        "gt_answers": [
+            "YX60 DWY"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000289231.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What type of beer is on the can?",
+        "answer": "Based on the image you provided, the type of beer on the can appears to be a light-colored beer.\n\nIt's difficult to say for sure without more context, but it could be a domestic beer such as a lager or a pale ale.",
+        "gt_answers": [
+            "Coors"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n02795169_72041.JPEG",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Who is the manufacturer of the camera?",
+        "answer": "The manufacturer of the camera is Canon.",
+        "gt_answers": [
+            "Canon"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n04069434_21423.JPEG",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the route number of the red bus?",
+        "answer": "I'm sorry, but I cannot provide an answer to your question since you have not specified where the bus is located or what route it is taking. Please provide more context to make it easier for me to assist you.",
+        "gt_answers": [
+            "48"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2317112.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the street name on the top sign?",
+        "answer": "There is no street name on the sign. It is just a sign that says \"Dead End\" and a crosswalk.",
+        "gt_answers": [
+            "Partridge St"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2342515.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is printed on the car door?",
+        "answer": "The image shows a large aircraft on a runway. The aircraft is a military aircraft, specifically an Antonov An-225, which is a cargo transport aircraft. It is parked on the runway with a police car next to it. The police car has a blue and white livery and is parked on the tarmac next to the Antonov An-225. The tarmac is a hardened surface made from asphalt and is often used for landing and takeoff at airports.",
+        "gt_answers": [
+            "GENDARMERIE"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000517881.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what kind of pillow is mentioned?",
+        "answer": "The image is not showing, but assuming the pillow mentioned is a \"Downy soft\".",
+        "gt_answers": [
+            "Travel Neck Pillow",
+            "neck"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/img_92.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the brand of the Chili Sauce?",
+        "answer": "I'm sorry, I'm an AI language model and don't have the capability to see images. Can you please provide me with text-based information?",
+        "gt_answers": [
+            "Kikkoman"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2356883.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the brand of the phone?",
+        "answer": "The brand of the phone is Nokia.",
+        "gt_answers": [
+            "Nokia"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000552440.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the first name of the image tag?",
+        "answer": "The first name of the image tag is \"img\".",
+        "gt_answers": [
+            "mark"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000536204.jpg",
+        "model_name": "MiniGPT-4"
+    }
+]

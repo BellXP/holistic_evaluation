@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a signature on a piece of paper.",
+        "gt_answers": "wear.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_769.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue circle with the letters \"DI\" written in white inside it. It also displays a blue background and some text below the circle.",
+        "gt_answers": "Di",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_744.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the words \"Strange\" and \"Games\" written on it.",
+        "gt_answers": "Orange",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_168.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of a DU logo on a blue background.",
+        "gt_answers": "GRADUATE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_646.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a close-up picture of a letter A painted on a sidewalk, likely made from metal or another material that can withstand weather and wear.",
+        "gt_answers": "BAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_265.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow and pink striped banner with a black font that reads \"ATA,\" which stands for the American Taekwondo Association or American Tae Kwon Do Association.",
+        "gt_answers": "WHATEVER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_368.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a close-up of a piece of paper with a word \"W9,\" likely written with a black marker or pen.",
+        "gt_answers": "we",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_730.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the name \"HOI\" in yellow letters, which is the logo for Home of the Internet (HOTI) in the background.",
+        "gt_answers": "SHOPS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_801.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red heart symbol written on top of a white background.",
+        "gt_answers": "Colchester",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_655.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the word \"is\" in blue text.",
+        "gt_answers": "is",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_623.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"P and L\" in large letters on a black surface or a wall.",
+        "gt_answers": "B&H",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_304.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a close-up of a piece of paper with a white O written on it.",
+        "gt_answers": "FLOOR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_816.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a word \"be\" written on a black background.",
+        "gt_answers": "labels",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_54.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white car parked on the street in front of a blue building. The car has a blue sticker or decal on it, with white text that says \"VAN.\"",
+        "gt_answers": "iiyama",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_838.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a close-up of a blue and green sign that is written on a piece of paper or cardboard.",
+        "gt_answers": "CIGAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_710.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a red sign with a white logo reading \"IEA.\"",
+        "gt_answers": "AHEAD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_540.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a pink sign with white lettering that reads \"Life.\"",
+        "gt_answers": "LIFE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_595.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a black and white photo of a woman with a name written on her shirt, possibly as a label or a tag. It appears to have a black background.",
+        "gt_answers": "THESE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_142.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a blue sign that reads \"Murder\" on it.",
+        "gt_answers": "Februar",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_737.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large black and white logo with the words \"IXC\" written inside.",
+        "gt_answers": "Dixon",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_645.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brick wall with a large \"MUSIC\" sign on it.",
+        "gt_answers": "PENSIONS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_159.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white text written on a dark surface with the words \"Jillian\" in it.",
+        "gt_answers": "Philips",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_182.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"EV\" written in red on it.",
+        "gt_answers": "NEW",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_537.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the phrase \"Google\" written in cursive in red on a white background.",
+        "gt_answers": "Homogenic",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_745.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a close-up of a white letter on a black background, possibly a word or a number.",
+        "gt_answers": "need.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_206.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a small white sticker with the words \"MADE IN ITALY\" printed on it.",
+        "gt_answers": "ORANGE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_822.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white text logo that reads \"ENT\". The logo is located at the top left portion of the image.",
+        "gt_answers": "Centre",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_545.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue t-shirt with the words \"U.N. Peace\" written across the chest.",
+        "gt_answers": "MONUMENT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_404.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with the word \"atite\" written in black text on a white background. There are also two smaller signs, one on either side of the main sign.",
+        "gt_answers": "Station",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_421.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, I can only provide you with an image and no text description. Please provide me with more information about the image so that I can assist you better.",
+        "gt_answers": "LION",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_799.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a large white letter \"ROCK\" written across the top and a smaller letter \"NY\" written to the bottom left of the white background. It also displays a red background around the white letters.",
+        "gt_answers": "POCKET",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_187.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a white sign on a wall. The sign has a word, \"Envy,\" on it.",
+        "gt_answers": "Greenwood",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_690.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a text that reads \"idb.co.\"",
+        "gt_answers": "Ride",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_827.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a small blue word, which is possibly the brand name \"Sea.\" However, without more context, it's difficult to definitively determine the exact word written on the blue background.",
+        "gt_answers": "Research",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_633.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a text message on a cell phone screen that says \"thth\".",
+        "gt_answers": "Arthur",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_653.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up photo of a sticker with a black and white logo.",
+        "gt_answers": "RYANAIR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_125.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white background and the word \"Red\" printed in black. The word \"Red\" is written in capital letters with some letters being bold.",
+        "gt_answers": "Red",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_285.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is writing in blue on a white surface.",
+        "gt_answers": "Management",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_151.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that is written in German. The sign is yellow with orange writing and has the word \"Eig\" written on it, possibly in all capital letters.",
+        "gt_answers": "Height",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_132.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a metal beer bottle with the letter \"F\" on it, which is the logo for Foster's.",
+        "gt_answers": "O",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_33.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a small black text that is partially obscured by a gray background on the right side of the frame.",
+        "gt_answers": "Bostock",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_643.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white shirt or sweater emblazoned with the words \"Dear Leaders\" in black lettering.",
+        "gt_answers": "ESPANOL-INGLES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_24.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a black text that reads, \"Made in USA.\"",
+        "gt_answers": "LISTERINE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_511.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains an advertising sign for the Joy of Pets store, which is located at the corner of the street.",
+        "gt_answers": "YOU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_384.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a large, red and white R in the middle of a blue background.",
+        "gt_answers": "R",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_435.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"IS\" written in white text on a blue background, which is the abbreviation for the Islamic State.",
+        "gt_answers": "ls",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_51.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a small piece of paper with writing on it.",
+        "gt_answers": "Canon",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_601.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a darkened room with a large black text reading \"THE\" on a green background.",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_165.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close up of an old one dollar bill, with the number \"1\" written in blue ink on the front side.",
+        "gt_answers": "2.17",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_237.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a close-up of a piece of paper, showing the text \"stars\" written in blue.",
+        "gt_answers": "Rostanin",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_771.png",
+        "model_name": "mPLUG-Owl"
+    }
+]

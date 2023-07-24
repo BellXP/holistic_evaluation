@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"G\" written in white.The word \"G\" is written in white",
+        "gt_answers": "&",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/948.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Hunt\" written on it.#\n\nThe sign",
+        "gt_answers": "HAUNTED",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1555.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black shirt with white lettering that says \"I am my own my.\"The shirt",
+        "gt_answers": "free",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2142.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"shh\" written in yellow letters.#shh #shush #",
+        "gt_answers": "Shut",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/788.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"I is.\"The sign is written in black ink on a black",
+        "gt_answers": "is",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1670.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"LaLa.\"The sign is in a yellow and blue color scheme",
+        "gt_answers": "LA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1114.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"WOLF TUITION\" written on it.The",
+        "gt_answers": "EVOLUTION",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/406.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"The\" with a black and white background.#\n\nThe",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/583.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"Follow the trail\" written on it.The sign is held",
+        "gt_answers": "follow",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/911.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign or a piece of paper with the words \"Happy Birthday\" written on it.",
+        "gt_answers": "Happy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1419.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"It's It.\"The sign is written in blue and yellow letters",
+        "gt_answers": "IT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1457.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a metal sign with the word \"ZITZ\" written on it.#ZIT",
+        "gt_answers": "SCHWARTZKOPFF",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1522.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Baily\" in white letters.#\n\nThe sign is",
+        "gt_answers": "Baileys",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1767.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white piece of paper with the word \"backache\" written on it.The word",
+        "gt_answers": "FISCHBACHAU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/981.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"nong\" written on it.The image also shows a",
+        "gt_answers": "NO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2062.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a patch with the word \"PATCH\" written on it.#1: The patch",
+        "gt_answers": "PATCH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1106.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"1000.\"#\n\nThe sign is located on a blue wall, and it is accompanied",
+        "gt_answers": "GOOD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/754.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a handwritten word \"Be\" written in gold ink.The word \"Be\" is written in a cursive",
+        "gt_answers": "BE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1819.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Rammo\" written on it.#\n\nThe image also has a close",
+        "gt_answers": "PARAMORE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1789.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"The.\"The sign is located on a building, possibly a hotel, and it is illuminated",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1935.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"2018\" written in gold or metallic letters.The word \"2018\" is written in gold or metallic",
+        "gt_answers": "2018",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1090.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white and blue design with the words \"Breakfast can be sneaky,\" written in a creative and artistic manner.",
+        "gt_answers": "Breakfast",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1359.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"NL.\".......",
+        "gt_answers": "ONLY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/604.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black hat with the word \"Bills\" written on it.The word \"Bills\" is a reference",
+        "gt_answers": "Bills",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1741.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Aladdin\" written in gold letters.The image features a close-up of the word \"",
+        "gt_answers": "HALI",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/459.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a t-shirt with the words \"Metro Currupt\" written on it.The t-shirt is green",
+        "gt_answers": "METRICUP",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/412.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper with the word \"Dilworth\" written on it.#\n\nThe word \"Dilworth",
+        "gt_answers": "DID",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1163.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a pink background with the word \"Ident\" written in black ink.The word \"Ident\" is written in a",
+        "gt_answers": "valenlines",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/633.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a colorful and artistic design, with the words \"I is Vital\" written in it.#\n\nThe",
+        "gt_answers": "Vital",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1680.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Like This\" in white letters.The sign is located on a black background.",
+        "gt_answers": "Like",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/582.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Mom's.\"The sign is located on a building, possibly a store or a business,",
+        "gt_answers": "MOMS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1933.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Welcome\" written in graffiti.The sign is located on a wall, possibly in a",
+        "gt_answers": "welcome",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2094.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"John\" written on it.#\n\nThe sign",
+        "gt_answers": "DUCHESS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1752.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"It's a great day to be alive.\"The sign is",
+        "gt_answers": "it's",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1548.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Bristol.\"The sign is located on a building, and",
+        "gt_answers": "BRISTOL'S",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2096.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, bold, and fancy lettering design that says \"FAMILY TIME.\"",
+        "gt_answers": "time",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1378.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Act It Out.\"The sign is green and white, and",
+        "gt_answers": "CACTUS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1979.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a handwritten sign that says \"Galaor.\"The image also includes a hand",
+        "gt_answers": "Calories",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/471.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Kern\" written in white letters on a black background.#1",
+        "gt_answers": "KERN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/654.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Water is life.\"The sign is written in white paint on",
+        "gt_answers": "Wafer",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1848.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Shin\" written on it.The sign is blue",
+        "gt_answers": "FISHING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/483.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Ee.\"#\n\nThe sign is made of wood",
+        "gt_answers": "BEES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/347.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"Mugget\" written in green paint.The sign is",
+        "gt_answers": "NUGGETS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/724.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HON\" written in yellow and black.The word \"HON",
+        "gt_answers": "Hom\u025b",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1556.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Ranger\" written in brown ink.The image also shows a brown",
+        "gt_answers": "LIBRARY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/563.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a handwritten word, \"Fantasy,\" written in blue ink.The word",
+        "gt_answers": "santasy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/665.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white lettering design, which is written in blue ink.The letter",
+        "gt_answers": "HERO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1277.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"castaway\" written on it.#\n\nThe",
+        "gt_answers": "Costa",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/662.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man's leg, with the word \"LLaVA\" written on it.",
+        "gt_answers": "KIDS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/957.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Beast\" written in gold letters.The image also has a picture of a bear on it",
+        "gt_answers": "ME\u0414BE\u0414\u042a",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1539.png",
+        "model_name": "LLaVA"
+    }
+]

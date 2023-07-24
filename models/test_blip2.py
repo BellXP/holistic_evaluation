@@ -7,6 +7,7 @@ from . import get_image
 
 
 def new_maybe_autocast(self, dtype=None):
+    return contextlib.nullcontext()
     enable_autocast = self.device != torch.device("cpu")
     if not enable_autocast:
         return contextlib.nullcontext()
@@ -31,9 +32,9 @@ class TestBlip2:
 
     def move_to_device(self, device):
         if device is not None and 'cuda' in device.type:
-            self.dtype = torch.float16
+            self.dtype = torch.float32 # torch.float16
             self.device = device
-            convert_weights_to_fp16(self.model.visual_encoder)
+            # convert_weights_to_fp16(self.model.visual_encoder)
         else:
             self.dtype = torch.float32
             self.device = 'cpu'

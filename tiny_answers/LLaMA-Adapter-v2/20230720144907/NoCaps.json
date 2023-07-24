@@ -1,0 +1,952 @@
+[
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a field of purple flowers with bees flying around them.",
+        "gt_answers": [
+            "An insect lands on the petal of a lavender flower in a field.",
+            "Two bees landed on the flower of the plant ",
+            "Some butterflies sit on tufts of lavender in a garden.",
+            "Two bees on top of lavender flowers in a field\u00ac",
+            "A couple of bees search for nectar in a field of purple flowers.",
+            "A field of lavender flowers and two small insects on the flowers.",
+            "Two bees are sitting on lavender with more lavender around them. ",
+            "Bees in a field sit atop several purple flowers.",
+            "Two honeybees resting on lavender flowers in a field",
+            "a large field of lavender with bees nearby. "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/9cbab3198456f856.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.5682056642558824
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a leopard resting on a tree branch.",
+        "gt_answers": [
+            "a leopard hanging on a tree branch with tongue hanging",
+            "The leopard has a long tongue hanging out of his mouth as he hangs on a tree branch.",
+            "A young tired leopard is hanging on to a tree limb.",
+            "A cheetah yawns and lazily hangs on a tree limb.",
+            "A beautiful leopard is relaxing and draped over a branch.",
+            "A cheetah has it's tongue out while hanging on a tree branch",
+            "a cheetah is hanging on to a tree with its tongue out.",
+            "A large predatory cat perched in a tree with orange and black spots.",
+            "A leopard in a tree with an open mouth and its tongue visibly hanging.",
+            "A young leopard in the tree with tongue outL "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/bb01794908cb259a.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.8285578203162376
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a wooden staircase leading up to a house, with a",
+        "gt_answers": [
+            "This house in the woods is half log cabin half brick.",
+            "A house with a bunch of stairs. ",
+            "A multi level deck spans the back of the house ",
+            "The stiars going upstairs are there in the houe.",
+            "An outdoors stairway to the second story of a house next to trees.",
+            "The stairs lead to an upper deck with trees behind it.",
+            "Wooden stairs lead up to the door of a cabin.",
+            "A house with a wooden deck with trees in front of it",
+            "A log cabin home with a set of stairs and trees in the background.",
+            "A house with wooden stairs and surrounded by trees "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/7c7c0e2bb9ea0927.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.08461941765753722
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a close-up view of a dish consisting of a variety",
+        "gt_answers": [
+            "A plate of tomatoes topped with cheese and fresh herbs.",
+            "Tomatoes,cheese and greens placed together with a green sauce over the top.",
+            "Several sliced tomatos have cheese and green herbs on it.",
+            "A large plate of many tomatoes and sour cream on top. ",
+            "A tomato salad with mozzarella cheese and basil.",
+            "A plate full of tomato, cheese, and basil. ",
+            "Several sliced tomatoes lie arranged in a circle with some garnish on them. ",
+            "A circular arrangement of tomato slices is topped off seasonings and some cheese chunks.",
+            "A close up of tomato slices with cheese and greens on them.",
+            "Tomatoes, cheese, and pesto arranged in circular pattern."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/34b89b7c253bc909.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.0008048803966161687
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a dessert dish with a glass bowl filled with wh",
+        "gt_answers": [
+            "A dessert in a glass is covered with blueberries and a spoon is inside it.",
+            "A spoon is in a snall glass cut fileld with some white desert containing blueberries.",
+            "a beautifully present blueberry dessert is plated and sitting on a table.",
+            "A spoon is inside of a desert cup with blueberries.",
+            "A small glass of ice cream or yogurt is topped off with raisins, and a spoon rests in the treat.",
+            "An ice cream dessert with blueberries in a glass on top of a white plate with a spoon inside of the glass.",
+            "A little cup with some blueberries and dessert has a spoon in it.",
+            "Vanilla ice cream with blueberries has a spoon in it.",
+            "A glass is filled with ice cream and blueberries for a nice dairy dessert is sitting on a white plate.",
+            "A desert snack with a spoon sticking out of it."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/3cfd659e242be6f8.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.21502235630461417
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a black BMW parked on a city street.",
+        "gt_answers": [
+            " A black car is parked on a road and a bicycle is parked nearby.",
+            "A hood of a black car is on a street. ",
+            "A black sports car is driving down the road.",
+            "A black BMW parked on the road with a bike behind it.",
+            "A black car is on the street with a license plate of TRIMODE.",
+            "On the street, the front of a black car showing a plate with the word Trimode on it.",
+            "A black car in the street with personalized license plates.",
+            "A person on a bicycle sits next to a black car with a British license plate.",
+            "A black car has a plate that says trimode and a BMW emblem.",
+            "A shiny black car with a license plate that says Trimode. "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/4fa24c1abe969cb7.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.5214906270449331
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features two snow leopards sitting on rocks in a zoo enclosure",
+        "gt_answers": [
+            "Two lynxes sitting next to each other on a rock",
+            "Two leopards sitting on a rocky ledge in zoo enclosure surrounded by trees.",
+            "The two leopards are resting on top of a  rock ledge.",
+            "The carnivore is large with the lynx there now.",
+            "Two leopards sit on rocks inside a fenced off area.",
+            "Two cheetahs lounge on the rocks in a zoo setting.",
+            "two leopards sitting on a stone ledge outside in the sun",
+            "Two leopards are on the surface of a large, flat rock.",
+            "Two leopards, in a cage, laying a top some rocks.",
+            "Two leopards are sitting on top of a rock. "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/00db41a79f8def5b.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.7499647920541584
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a large brown bear laying down in a grassy area.",
+        "gt_answers": [
+            "The brown wear is there and that is it.",
+            "A bear sitting down in a forest behind a wall.",
+            "A large brown bear is resting on the ground near many plants.",
+            "Grizzly bear looks away as it sits on the ground among trees. ",
+            "A large brown bear laying in a wooded area.",
+            "A large brown bear that is laying down in a tree and plant filled enclosure.",
+            "A bear rests on the ground in front of a body of water.",
+            "Brown bear sitting among green plants on the ground.",
+            "A brown bear sits on the ground surrounded by plants. ",
+            "A bear is laying down surrounded by plants."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/d76c4164c1a905a7.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 1.1698915981565894
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a large, tall building with many windows, located in a city",
+        "gt_answers": [
+            "A tower so tall it reaches up to the cloudy sky. ",
+            "a tall skyscraper with lots of outside windows",
+            "A tall building is set against the backdrop of cloudy skies.",
+            "A skyscraper looms over other buildings in a city. ",
+            "A skyscraper sits in front of a cloudy sky.",
+            "Two skyscrapers are in a city with trees nearby. ",
+            "The two tall skyscrapers have many windows and trees below them.",
+            "A large tower skyscraper reaching into the sky.",
+            " two tall tower skyscraper buildings beside each other with smaller buildings surrounding ",
+            "Twin buildings reach up into the cloudy sky."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/9ba50cb2198a23d8.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.19872814623352003
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a man riding a horse, jumping over a barrier",
+        "gt_answers": [
+            "A person on a brown horse jumping over a jump.",
+            "A man rides a horse over jumps in a competition with spectators.",
+            "A person rides a horse that is leaping over a fence-like barrier.",
+            "A man riding a brown horse jumping a barrier at a competition. ",
+            "A woman jockey rides and jumps on a horse.",
+            "The horse being ride by a woman jumps over an obstacle.",
+            "A person is sitting on top of a brown horse that is jumping over a green and red barrier.",
+            "A jockey on a brown horse jumping over a barrier.",
+            "A person rides a horse as it jumps over a barrier.",
+            "Horse and rider jumping at a competitive horse show. "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/b5730a42515dad94.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.6295829487908833
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a birthday cake with candles on it.",
+        "gt_answers": [
+            "white cake with chocolate strawberries and colorful candles",
+            "A birthday cake with strawberries in candles on it. ",
+            "A birthday cake that has chocolate covered strawberries and candles.",
+            "A birthday cake with strawberries on the corners. ",
+            "A birthday cake with chocolate covered strawberries is in a box. ",
+            "A BIRTHDAY CAKE WITH STRAWBERRY TOPPINGS IS DECORATED WITH CANDLES.",
+            "The birthday cake with eight candles adorned with chocolate dipped strawberries is frosted white and sitting on the table.",
+            "A birthday cake in foil has strawberries on it.",
+            "A birthday cake with dipped strawberries on it.",
+            "A cake says happy birthday in blue icing."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/302f4e12ac89a45d.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 1.3686343437628796
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a butterfly flying over a field of purple flowers,",
+        "gt_answers": [
+            "A field of green stems with purple flowers on it.",
+            "a field of purple flowers and orange butterflies",
+            "A field of purple flowers growing out of a grassy area.",
+            "A group of purple flowers in high grass.",
+            "Orange butterflies feed on a bunch of lavender plants.",
+            "A bunch of beautiful orange butterflies on a butterfly bush.",
+            "Orange butterflies land on a bunch of lavender flowers.",
+            "A field is full of purple lavender flowers and butterflies.",
+            "beautiful lavender flowers growing in green leaves with butterflies in them\u00ac\u00ac",
+            "Butterflies feed on pollen from a lavender bush on a sunny day."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/0f17235949709331.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.48940336495505676
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a man riding a bicycle, possibly participating in",
+        "gt_answers": [
+            "A PERSON IN SPORTS WEAR AND HELMET IS HOLDING THE CYCLE.",
+            "A man is running down a muddy hill carrying a bicycle.",
+            "A man carries his bicycle over rocky terrain.",
+            "A bicycle racer wearing a pointy helmet walking her bike along the trail. ",
+            "A man in a bicycle helmet carrying a bike up a hill during a race. ",
+            "A man wearing a helmet and sports uniform carries his bike up a muddy hill.",
+            "A guy in grey is carrying his bike up a hill.",
+            "Bicyclists push their bikes uphill next to a sponsor's logo.",
+            "Men wearing helmets and sports clothing carrying bicycles.",
+            "A man wearing a helmet is carrying a bicycle over the rocks."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/3bbedd517e851024.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.0466389393564236
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a hot air balloon flying high in the sky, with",
+        "gt_answers": [
+            "purple color balloon is flying in the sky with three animated person",
+            "Three cartoon people ride a purple cartoon hot air balloon.",
+            "A cartoon hot air balloon hovering over the ocean\u00ac",
+            "A clip art hot air balloon is above clouds. ",
+            "A purple cartoon balloon with three smiling people riding in it is floating over the clouds.",
+            "Three cartoon people are in a hot air balloon over the ocean.",
+            "A cartoon picture of three people in a hot air balloon is shown. ",
+            "A balloon is in the air during a sunset.",
+            "A hot air balloon flying in the sky with cartoon characters inside.",
+            "A group of people that are riding in a hot air balloon."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/ce968272a6353f8f.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 1.4691775711616295
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a white cockatoo with a large crest on its",
+        "gt_answers": [
+            "The white bird has a large plume of feathers on the top of its head.",
+            "A cockatoo is perched on a person's hand.",
+            "A person holding a white fluffy parrot in their hand.",
+            "A parrot has big feathers on its head and a black beak.",
+            "A white, large bird perched on someone's hand.",
+            "A large parrot with white feathers and tiny eyes is sitting on someone's hand. ",
+            "White parrot with feathers bloomed on top of head, sitting in a person's hand.",
+            "A cute white parrot sitting on a person's hand.",
+            "A white cockatoo puffs up its feather as it stands on someone's hand. ",
+            "A parrot perched on a person's hand with the feathers around its head ruffled. "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/02c94402476ac94c.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.2476711071990198
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a woman and a young girl posing together in a forest,",
+        "gt_answers": [
+            "A woman and a child standing in a forest. ",
+            "A woman is helping a girl off of a log.",
+            "A women with a girl who is standing on a tree.",
+            "A woman assisting a child who is walking along the trunk of a downed tree.",
+            "A woman holds a child walking on a log.",
+            "A woman helps a little girl climb a branch on a tree.",
+            "A woman and a child in the forest climbing on tree branches.",
+            "A woman is helping a girl get off a fallen log in the woods.",
+            "A woman helps a little girl walk on a log.",
+            "A woman wearing a yellow jacket and sunglasses is holding a girl who is climbing a tree smiling"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/b22b89073480191e.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.25998250750121493
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a glass of orange juice with a straw in it.",
+        "gt_answers": [
+            "A vegetable cocktail in a glass with a straw. ",
+            "A glass of tomato juice with a white straw in it next to a glass of water.",
+            "Some orange juice and a white straw is in a clear glass.",
+            "A glass of tomato juice is sitting on a table.",
+            "A red cocktail in a clear glass with a white straw.",
+            "A cocktail with a white straw in a glass near a green plate.",
+            "A cocktail sitting on top of a counter in a bar.",
+            "The glass of thick, red juice has a white straw in it.",
+            "A large glass of juice is one of many dishes on this table.",
+            "A cup of juice is on a counter with a straw."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/9a1d52bdefd8056a.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 1.0923532022937816
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a large, empty restaurant with a wooden floor, tables, and",
+        "gt_answers": [
+            "Several wooden tables and chairs in a room with hardwood floors.",
+            "a large dining area with many table and chairs ",
+            "The room is full of wooden chairs and tables with a plaid cloth. ",
+            "A room with many tables and chairs and light shining through the window.",
+            "A building with tables and chairs in it in a dining room.",
+            "A large area with wooden tables and chairs is in a barroom. ",
+            "a large open bar bull of chairs and tables.",
+            "A old looking restaurant with many wooden tables and chairs sits empty. ",
+            "A pub looking room has a lot of wooden chairs and tables in it.",
+            "A large well-lit room with several tables and chairs set up in it, with a side door open to the outside. "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/4dd4010e95454176.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.1304978639823525
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a close-up view of a cake with white frost",
+        "gt_answers": [
+            "A strawberry short cake with fresh strawberries sitting on a white dish.",
+            "A cake with icing, walnuts and strawberries on top.",
+            "Strawberries, cream and almonds on top of a baked yellow cake.",
+            "A layered cake is topped with cut strawberries and set on a plate.",
+            "The dessert looks really good and has something on ti.",
+            "A strawberry shortcake made with two layers and topped with nuts.",
+            "A two layer cake topped with  strawberries that have been sliced in half. ",
+            "A double layer cake with white frosting and strawberries on top.",
+            "A double layered cake has frosting and strawberry slices.",
+            "Two-layer strawberry cake with frosting and chopped pecans."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/728a1f4efcfb74e0.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.29302330935603366
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a purple Audi A4 sedan parked on a car",
+        "gt_answers": [
+            "A blue sports car is on display with people behind it. ",
+            "A bright purple car is sitting inside at a car show",
+            "A blue audi sports car is on the display. ",
+            "The purple car is parked next to a black one.",
+            "A blue, shiny sports car on a display.",
+            "A blue car sitting on a wood floor with two men beside it.",
+            "A purple shiney car is on display in a building",
+            "A blue sports car sitting in the showroom.",
+            "Men stand beside a purple car sitting in the showroom.",
+            "Men are walking around a show room looking at the cars on display."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/eae4b7d3f61585f5.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.2941575755605559
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a beekeeper wearing protective gear, such as",
+        "gt_answers": [
+            "A person in a beekeeper suit is tending to the bees.",
+            "A person in protective cloth handling a beehive ",
+            "A beekeeper in full suit opening up a man-made beehive.",
+            "A man in protective gear carrying a box of honey with bees on it.",
+            "A man in a bee suit opening up a beehive. ",
+            "Beekeeper in white suit holding beehive drawer covered in bees. ",
+            "A man tends to his bees and behive.",
+            "A person in a bee suit is tending the bees. ",
+            "A person is wearing a bee keeper outfit handling a bee hive. ",
+            "A person next to a beehive holding one of them."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/501bfb90bd19b008.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.20953680789849066
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a laboratory setting with a table, a counter, and a",
+        "gt_answers": [
+            "The white table is trimmed in yellow and next to a fiberglass window.",
+            "A room with a white table and shelves with glass doors. ",
+            "The white cabinetry looks modern and very high tech.",
+            "A small white counter in front of several glass doored cabinets.",
+            "A piece of furniture sitting behind a big white table next to shelves in room.",
+            "A counter sits in front of a variety of different styles of cabinets.",
+            "A white and yellow table with blue legs with cabinetry with clear doors behind it.",
+            "A room with cabinets that are white with glass doors.",
+            "An empty table and cabinets in a sterile looking laboratory.",
+            "A white cabinet with a white countertop on it."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/d028a66a66300461.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.006908146936414089
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a person on a bicycle who has fallen off and is",
+        "gt_answers": [
+            "A boy in a helmet crashed his bike in the street. ",
+            "A MAN WITH HELMET SKID DOWN FROM A BICYCLE.",
+            "A man riding a bike has fallen down in the road.",
+            "A person wearing a white bicycle helmet is lying on the road with a bicycle on top of them while another bicyclist is riding towards them to make sure they are okay",
+            "A cyclist wearing a helmet who has just fallen on the road begins to get up",
+            "A person wearing black with a white helmet is in a yellow sitting three wheeled bike laying on its side in the street.",
+            "Someone in a white helmet is next to a bicycle.",
+            "Man wearing white helmet and black clothing laying on ground after falling off tricycle, with another man riding a bike riding towards him.",
+            "A rider who was on a yellow bike has fallen to the ground.",
+            "A man that just fell from a bicycle on a rode."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/c6324f32dbc3a847.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.2960491288180014
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a group of alligators or crocodiles laying on",
+        "gt_answers": [
+            "wood plank floor covered by crocodiles or various parts of crocodiles.",
+            "Three crocodiles are laying next to each other.",
+            "A group of dry looking crocodiles sit on a wooden platform.",
+            "Three crocodiles, one of which has teeth visible, lying on a weathered wooden deck.",
+            "Several smaller crocodiles laying on a wood deck beside each other.",
+            "Several large reptiles are on a wooden dock.",
+            "Three crocodiles are on a wooden slatted floor.",
+            "several crocodiles laying together on the cold concrete",
+            "Crocodiles are beside each other on a wooden surface.",
+            "Several large crocodiles sitting on a wooden floor."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/ac06dd4b9ae41c80.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.5825764233488772
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a car interior that is being worked on, with a car seat",
+        "gt_answers": [
+            "A truck with the doors missing and a tool on the floor.",
+            "The all-terrain vehicle is missing the front passenger seat and both doors.",
+            "The interior of a vintage green metallic jeep",
+            "dirty truck with lots of junk in it is missing a seat on the passenger side",
+            "An open truck with no doors and run down looking.",
+            "The inside of a vehicle is missing the passenger seat.",
+            "An old car is being repaired in a garage.",
+            "A beaten down vehicle missing the passenger side front seat.",
+            "Inside the cab of an old rusty truck.",
+            "A green truck that's missing its front doors. "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/964189924d1c0722.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.12474916307585975
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a room with a large bookshelf, a desk,",
+        "gt_answers": [
+            "A empty white shelving unit in an empty white room.",
+            "A shelf is pushed up against the wall. ",
+            "A large white bookcase with self are near a wall.",
+            "A white multi-shelved bookcase in corner of room. ",
+            "Am empty shelf placed close to a white wall. ",
+            "Empty shelves sit in the corner of a bare kitchen.",
+            "A white shelf and cabinet is placed against a white wall on a wood floor.",
+            "A white desk and cabinet on one wall of a room.",
+            "A room with some empty cabinets and drawers.",
+            "A plain cabinet is sitting in a very empty room. "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/2a01e70f29050072.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.035214859987242476
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a woman wearing a green shirt and a towel around",
+        "gt_answers": [
+            "A woman wearing a very small green shirt and jeans. ",
+            "An ugly girl wears a green top, blue jeans and a large belt. ",
+            "A girl wearing a revealing green shirt with a blue glove\u00ac",
+            "A woman wearing blue jeans and a belt has a cloth covering her chest.",
+            "A woman is wearing a skimpy green shirt, jeans, and a belt.",
+            "Woman with long dark hair wearing green off the shoulder top and jeans with a belt standing in an area with a lighted background.",
+            "A woman with green top and jeans smiles and looks forward.",
+            "A slender woman is wearing a green top that covers her chest and leaves her stomach bare.",
+            "A girl wearing jeans and small shirt for a top.",
+            "A woman wearing a green top and blue jeans with wide belt."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/26d3e6efda2035c0.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.5491512368067405
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a collection of teapots, including a teapot with",
+        "gt_answers": [
+            "Assorted white teapots have cute pictures on them.",
+            "A set of 5 teapots, all covered in different designs.",
+            "A group of teapots and kettles with different patterns.",
+            "A teapot for each month with different designs.",
+            "Five whimsically painted teapots depicting a fox, blue dots, foilege, and a city scape.",
+            "Several teapots are displayed with different designs on them.",
+            "5 different types of teapots facing the left ",
+            "A set of fun and different pots are next to each other.",
+            "Several colorful teapots on display with text underneath.",
+            "Set of teapot with different designs on it."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/37052661d85d40b2.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.16679948570766126
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a young boy holding a kite and running through a field of",
+        "gt_answers": [
+            "A BOY RUNNING WITH A FLAG IN THE FLOWER GARDEN.",
+            "A boy carries a green and red flag in a field of yellow flowers",
+            "A young bangladeshi boy is holding a flag in a field of yellow flowers",
+            "A boy carrying a large green flag through a field of flowers.",
+            "A boy s holding a big flag and is running through field of yellow flowers. ",
+            "A boy is carrying a flag running through a field of plants. ",
+            "A young boy runs while carrying a large flag.",
+            "A young man in a blue shirt holding green flags runs through a field of yellow flowers.",
+            "A boy carries the flag of Bangladesh through a field of yellow flowers.",
+            "Male boy with light blue shirt and white shorts running through a field of yellow flowers carrying two dark green flags with large red circles."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/eb57c0aece83cc1a.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 1.1702249818712922
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a guinea pig being dried off with a towel",
+        "gt_answers": [
+            "The two guinea pigs are getting dried off in a yellow towel.",
+            "hamster being held inside of a cloth with matted fur",
+            "Cute little hamster is wrapped on a yellow towel.",
+            "A wet hamster is being held in a towel by a person drying it off.",
+            "A wet hamster being dried in a towel by its owner.",
+            "An mouse in a towel held by human ",
+            "an animal wrapped in a yellow towel which someone is holding.",
+            "A person dries off a wet hamster with a towel. ",
+            "A wet hamster wrapped in a fuzzy yellow blanket\u00ac",
+            " A cute picture of a rat  in the towel"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/f0288618004607e8.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.5039442532243507
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a blue and yellow boat, which is a jet ski, sitting",
+        "gt_answers": [
+            "A blue and white jetski sits on a  trailer that is tipped up.",
+            "A blue and white jetski is shown on it's lift and out of the water.",
+            "A jet ski is on the land with people in the background.",
+            "Jet ski sits on a trailer with a man sanding behind it. ",
+            "A ski runner is on a stand near some steps in the sand.",
+            "A jet ski sits on a trailer near a dock. ",
+            "A jet ski is parked on land while fastened to a metal frame.",
+            "A jet ski named IGUANA I sits parked on a sandy beach.",
+            "A jet ski on a trailer being pulled up.",
+            "A jet ski being towed by a boat on shore\u00ac"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/39d9a6ffcc7af043.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.27955751756160074
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a close-up of a pink flower with green leaves,",
+        "gt_answers": [
+            "Pink lilies that are in the middle of a tall grassy area.",
+            "Pink trumpet lilies on long stalks surrounded by grass in a garden.",
+            "A cluster of pink and dark pink bell shaped flowers hang from its brown stem among other flowers and grasses.",
+            "Pink flowers grow from stems and have bloomed.",
+            "Flowers on stems with pink pedals in a garden.",
+            "Close up of pointy pink flowers in a field ",
+            "A few lily flowers that are in the garden.",
+            "Bright pink lily flowers on long stalks. ",
+            "Bright pink flower growing in a area with a lot of greenery.",
+            "Several pink flowers are blooming on a stem of a plant. "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/261fdd2d609314e0.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.17865411376665813
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a mannequin wearing a purple shirt and a",
+        "gt_answers": [
+            "A purple shirt with jewelry is hanging on a rack.",
+            "A maroon shirt has a necklace hung over it.",
+            "A burgundy button up shirt with a chain and necklace. ",
+            "A dark red shirt on a coat hanger with two different necklaces. ",
+            "A shirt has some necklaces attached to it.",
+            "A shirt is hanging on a hanger with a necklace.",
+            "A purple blouse hanging on a hanger with a silver necklace and beaded necklace.",
+            "A purple shirt with a silver necklace hangs off a black hanger. ",
+            "A purple shirt is hanging on a clothes hanger. ",
+            "A purple button up shirt with two necklaces."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/2bfdcb503ed1d7f5.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.38388496771571645
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a bride and groom posing for a picture in front",
+        "gt_answers": [
+            "A woman is wearing a dress and standing next to a man and a white car.",
+            "A bride and a groom standing beside a car l",
+            "A woman in a dress stands in front of a man next to a car.",
+            "A woman and a man standing next to a car",
+            "A bride andgroom are standing next to their wedding car.",
+            "a couple with a car on a black and white  picture",
+            "A bride and groom resting on a car on their wedding day .",
+            "A bride and groom pose outside of a vintage car.",
+            "A bride in a beautiful gown and her groom lean against their gayly decorated luxury car.",
+            "A man and a woman dressing in wedding clothes lean against a vintage car."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/5993ec2b3489bcea.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.5760573769005914
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a man wearing a suit and tie, with a Superman",
+        "gt_answers": [
+            "Man in black suit white inner shirt and a necklace with pink pendant.",
+            "A superman logo ona shirt on a chain.",
+            "a person is dressed in a suit with a superman necklace",
+            "A person wearing a blue and pink necklace with the letter S.",
+            "A man in black suit blue necklace and pink pendant ",
+            "A person is wearing a superman necklace instead of a tie with his suit.",
+            "A person is wearing a pink lettered necklace.",
+            "A red and blue necklace with a Superman logo is worn outside of a white button down shirt.",
+            "a necklace with the symbol for superman on it.",
+            "A necklace over a person's chest holds the Superman logo."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/4de30322c245ab97.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.30181112781153974
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a wine cellar with a wooden rack holding a large collection",
+        "gt_answers": [
+            "Bottles of wine sit on racks in a wine cellar.",
+            "Fancy wooden shelves hold bottles of wine in a room.",
+            "A wine cellar with wine displayed on wooden shelves.",
+            "A collection of racks contain many bottles of wine.",
+            "A wine cellar has several bottles of wine shelved.",
+            "The wine rack has slanted shelves with many bottles of wine on them. ",
+            "A room with wine racks with bottle of wine on the racks. ",
+            "The wooden wine cellar has a number of bottles on the various shelves. ",
+            "A wine cellar full of different wines. ",
+            "A wine cellar with many shelves with wine bottles."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/e3a9a7bcaa072079.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.885672946472315
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a large jellyfish swimming in a tank of water.",
+        "gt_answers": [
+            "A jellyfish floats in the tranquil blue water ",
+            "A jelly fish swimming deep in the ocean. ",
+            "A large jellyfish is swimming in dark blue water.",
+            "A jellyfish floats through clear, dark blue water.",
+            "A strange looking jellyfish swimming in very clear blue water.",
+            "A large jellyfish swimming in a tank if vibrant blue water.",
+            "A orange and white jellyfish floating in a blue tank.",
+            "A jellyfish hanging out in the blue water.",
+            "A jellyfish floats alone in some blue water.",
+            "A jelly fish with a lot tentacles in water. "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/e604eafdda135226.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 1.2102233491315364
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a red telephone booth, also known as a phone box",
+        "gt_answers": [
+            "A telephone sits inside a pink telephone booth. ",
+            "A red telephone booth next to a plant and flowers.",
+            "A telephone booth that is near a building.",
+            "A red telephone booth is next to a bush.",
+            "A few telephone booths stand in a park.",
+            "A telephone booth placed beside a house ",
+            "A red phone booth is shown with a blue Dr. Who looking Tardis in the background.",
+            "Two telephone booths are outside near a building. ",
+            "A red telephone booth sitting on the pavement in front of shrubs.",
+            "The red telephone booth and blue telephone booths are on display passed the brick wall and shrubs."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/aed59fc1d72f575d.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.4998301966887798
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a group of people riding in a small boat down a narrow",
+        "gt_answers": [
+            "Two gondolas moving between buildings on the water.",
+            "Two gondolas float towards the camera down a thin waterway between two buildings. ",
+            "Two boats with people are sailing on a waterway. ",
+            "People are in gondolas riding through a canal.",
+            "Women and men are in two boats coming through a channel with buildings on both sides.",
+            "Two gondolas are travelling a narrow waterway between buildings.",
+            "Two men on gondolas in a canal with passengers.",
+            "Two gondolas drifting down a canal in the city\u00ac",
+            "Two gondolas passing through an alley with men and women in them.",
+            "Several people on a gondola traveling between brick buildings."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/b809013feee5805a.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.09636035839768672
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a woman wearing a blue dress, standing on a red car",
+        "gt_answers": [
+            "A tall woman with dark hair wearing a blue dress is walking down a runway.",
+            "A young model is wearing high heels and a black dress. ",
+            "A woman in a blue dress is walking a catwalk.",
+            "A woman poses with a short dress and high heels.",
+            "A woman showing off a short black dress that she is wearing. ",
+            "A woman is wearing a blue dress and white shoes.",
+            "A girl in a navy dress walking in heels on a runway.",
+            "A woman in a black dress, with silver shoes and black and silver handbag.",
+            "A woman poses on a catwalk in a navy blue dress.",
+            "a woman in a dark dress and heels walks down a runway while people watch her from the audience "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/150b62ad17c7c025.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.2464629115403222
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a close-up view of a coffee machine pouring coffee into",
+        "gt_answers": [
+            "A coffee maker with two white mugs under it.",
+            "A sink with a faucet that pours water into two cups at once.",
+            "With two mugs to fill, the espresso maker works quickly.",
+            "A capachino machine is dripping coffee into two cups at once.",
+            "Two white coffee mugs with some liquid inside.",
+            "Two white sauce cups underneath a silver spout.",
+            "A coffee maker pouring coffee into two white cups.",
+            "Two small coffee cups being filled by a coffee machine.",
+            "Two small cups of expresso being made by an expensive machine.",
+            "A coffee machine sits above two white coffee mugs and is pouring coffee into them. "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/460475ca9d34e13e.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.7248251939072781
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a woman playing tennis on a court, holding a tennis racket",
+        "gt_answers": [
+            "A woman with a racket is playing tennis. ",
+            "A woman holding her racket in the air and getting ready to hit a ball.",
+            "woman with a tennis racket preparing to serve a shot",
+            "A female tennis player stretches her arms up in the air while holding a racket.",
+            "A woman that is swinging a tennis racket.",
+            "The woman is standing with a racket on the court.",
+            "a woman in an orange athletic shirt is raising a tennis racquet",
+            "The woman is holding both hands over her head while holding a tennis racket.  ",
+            "A woman reaching up high toward her tennis racket in another hand.",
+            "A woman wearing orange shirt holding a a racket upward."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/9c14fbd510d0584c.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.7157627319974178
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a large indoor space filled with various cars, including classic and",
+        "gt_answers": [
+            "A room with a bunch of cars and people in it.",
+            "A car show with many classic vehicles and lots of people admiring the cars. ",
+            " The building has cars from many different time periods.",
+            "A warehouse filled with expensive antique and sports cars. ",
+            "A car show that is indoors with lots of antique cars.",
+            "a showroom full of exhibit cars and people",
+            "many people in a large open space filled with classic cars",
+            "An indoor car show with many different styles and colors of vehicles and many people looking at them.",
+            "A large building is full of cars and people walking around viewing them.",
+            "Several old and nice looking cars at a show."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/d1e89276a59b2c8c.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.2564871426698663
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a close-up of a car's license plate, which",
+        "gt_answers": [
+            "A car sits next to a wall and the snowy ground.",
+            "A black vehicle with a green registration plate. ",
+            "A black honda with a green dealer license plate sits on a snowy lot.",
+            "A black car parked in the snow with the back end showing.",
+            "Back of a black car parked in the snow and dirt. ",
+            "A black car parked in the snow with new dealer license plates",
+            "A black car with a green registration plate, parked in the snow.",
+            "A black car with no license plate is parked in the snow.",
+            "A black car is parked in the snow.",
+            "A black car with a green license plate is parked in the snow."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/54ebca2064066a49.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.17480446161461302
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a woman working out on a treadmill in a gym",
+        "gt_answers": [
+            "A woman exercising on an elliptical at the gym. ",
+            "A lady using a stationary bicycle in the gym ",
+            "A woman wearing fitness clothing exercises on an elliptical trainer. ",
+            "A woman in black pants and a white and blue bra is exercising.",
+            "A woman wearing workout clothes on a stationary workout machine.",
+            "A thin woman is on a fitness machine in a gym ",
+            "Slim attractive woman wearing skimpy clothes on an exercise machine. ",
+            "A women on a stationary bike looking to her right.",
+            "A woman exercising while wearing black pants and a halter top.",
+            "An attractive asian woman is exercising on a stationary bicycle."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/1df42bba81229d7d.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.2231848345185481
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a sandwich with a chicken patty, pickles,",
+        "gt_answers": [
+            "A chicken patty on a bun with shredded lettuce and ketchup.",
+            "A fish patty with red sauce sits on top of shredded cabbage inside of a bun.",
+            "A crab cake sandwich on a hamburger bun.",
+            "A breaded patty topped with tomato sits on lettuce on a bun.",
+            "A sandwich with lettuce, chicken and ketchup and mustard.",
+            "A breaded fast food sandwich has ketchup and lettuce, and is on a white bun.",
+            "A sandwich containing a deep fried patty and condiments and lettuce sits on a plate.",
+            "A fried food is on a bun of lettuce with ketchup and mustard.",
+            "Sandwich with a breaded center, greens and sauce on a bun.",
+            "Hamburger bun with a baked patty on it."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/96480d649bc9cc30.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.2624304555564668
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a man sitting on a chair, holding a saxophone",
+        "gt_answers": [
+            "A man is sitting in a dark room holding a flute in front of him.",
+            "A young man contemplates his performance while holding an oboe.",
+            "A man sits holding an oboe between his knees as he looks down at it.",
+            "a man sitting down wearing jeans and a dark top with a saxophone",
+            "A man with glasses sitting down holding an oboe.",
+            "A man wearing a black sweater and blue jeans is sitting while holding a soprano saxaphone.",
+            "A man in a black shirt and blue jeans sitting holding an oboe.",
+            "A man holding a oboe while looking down.",
+            "A man sitting and holding an oboe ",
+            "A man wearing a black shirt holding an oboe. "
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/897b8f010cd0869e.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.49670262334996795
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a woman with a smile on her face, wearing a black",
+        "gt_answers": [
+            "A woman with blue tank top red scarf and a black bonnet.",
+            "A blonde with pigtails and a black ski cap smiling for the camera.",
+            "A woman in a black hat with blonde braids with a gold necklace dressed in a blue shirt and pink scarf with sunglasses hanging on shirt.",
+            "A woman wearing a black cap is smiling with her mouth open.",
+            "A woman with a black hat and braids is smiling.",
+            "A woman with blond braids in a black hat is smiling. ",
+            "A girl with long blonde braids who is smiling.",
+            "A person wearing a black hat has his mouth wide opened ",
+            "A woman is wearing a black hat and a blue shirt.",
+            "A woman wearing a black beanie opens her mouth wide in a big smile."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/ed1602cddf8fe02d.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.3418552193661573
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a woman sitting on a bicycle with a large basket on",
+        "gt_answers": [
+            "A woman is riding in a long, narrow blue bicycle holding a folding table smiling next to a car in a parking lot",
+            "A woman is carrying a board on the bicycle. ",
+            "A person pushing a pedal tricycle carrying a metal table ",
+            "A table has been placed on top of the bicycle's cart.",
+            "A woman in a three wheel bike with a table balanced on it.",
+            "A woman is sit in a blue tricycle that has a black platform.",
+            "A woman in a bicycle with a table on it.",
+            "A woman holding a wooden table on top of a longer-than-usual bike.",
+            "A person is standing in a blue cart in the street. ",
+            "Woman loading a table onto a cargo bike on a street."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/ef1bd7b718a3f6e8.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.23781621360161886
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a wooden cabinet with two drawers, which is described as a",
+        "gt_answers": [
+            "A wooden filing cabinet with two drawers and a lock. ",
+            "The box is sitting on the carpet there now.",
+            "A wooden filing cabinet with a lock on the top. ",
+            "small chest of drawers made of wood with a key lock in the middle of the top drawer",
+            "A wooden nightstand cabinet with two drawers. ",
+            "A brown wood filing cabinet that has two drawers and looks like a nightstand.",
+            "A brown wood night stand sitting on the floor",
+            "A wooden box that have closed drawers. ",
+            "A wood filing cabinet with a lock and two drawers.",
+            "A brown wood filing cabinet with a lock on the front."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/NoCaps/val_imgs/3d93458d9b114321.jpg",
+        "model_name": "LLaMA-Adapter-v2",
+        "cider_score": 0.31908648764184777
+    }
+]

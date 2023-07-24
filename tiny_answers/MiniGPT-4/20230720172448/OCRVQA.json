@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Is this a crafts or hobbies related book?",
+        "answer": "This appears to be an image of a book cover with a title of Street Artes, and the subtitle is Central Eastern Connect. It is not clear what the book is about or what content it contains.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51FBJ309S6L.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The book title is The Travels of Tapann Adeney, 1869-1890.",
+        "gt_answers": "The Travel Journals of Tappan Adney, 1887-1890",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51Z9qRQwPrL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is The Rise of the Zombie.",
+        "gt_answers": "Resist (The Resistance Series)",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51ZD5lltJwL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "The image is of a painting depicting a group of figures in a garden or park. They appear to be nude and engaged in various sexual activities, including kissing and embracing. The image is not appropriate for public viewing.",
+        "gt_answers": "Terry Wier",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51PfRWTD-ZL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this book related to Law?",
+        "answer": "Yes, the book is related to psychiatry and law.\n\nCopyright \u00a92022 Midwest Pharmacists Association\n\n All rights reserved.\nNo portion of this material may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying, recording, scanning, or by any information storage and retrieval system without the written permission of the copyright holder.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41WSB2WCBKL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this a recipe book?",
+        "answer": "Yes, the book appears to be a recipe book.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51mIMcC0u9L.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "I'm sorry, but as a language model AI, I am unable to provide an image or any other visual content. I can only provide text based information. Is there anything else I can assist you with?",
+        "gt_answers": "Delia Smith",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41CYVG33VRL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Who wrote this book?",
+        "answer": "This book was likely written by a person named Harry Thomas Frank.",
+        "gt_answers": "Harry Thomas Frank",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51B5ZEFZSKL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "I'm sorry, I am an AI language model and do not have the capability to see images or read books. I am not able to provide a specific answer to your question.",
+        "gt_answers": "National Geographic Society",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/61VhvEo2sAL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this book related to Sports & Outdoors?",
+        "answer": "Yes, this book is related to Sports & Outdoors as it covers various sports and outdoor activities in North America.\n\nThe book features stunning images of scenic views, outdoor landscapes, and various activities such as skiing, hiking, and mountain biking. The cover image shows a ski resort with a ski lift, skiers, and snowy mountains in the background.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/518BgANf2EL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this book related to Politics & Social Sciences?",
+        "answer": "The cover of the book \"The Pain Relief Bible\" appears to be a picture of a person holding their hand over their chest, as if experiencing chest pain or discomfort. The title of the book \"The Pain Relief Bible\" suggests that it is a guide for people experiencing chronic pain.\n\nThe image appears to be a photograph of a person in pain, with the title of the book prominently displayed on the cover. The font used for the title is bold and prominent, which could be intended to draw attention to the book's title. The overall design of the cover is simple and straightforward, with a single image and bold text.\n\nThe image could be related to the book's content, which is likely to be focused on chronic pain management and the various methods for relieving pain. The image may be intended to be symbolic or metaphorical, representing the experience of chronic pain or the idea of finding relief from pain. However, it is difficult to determine the exact meaning of the image without more context about the book's content and author.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51pZu589ACL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this book related to Arts & Photography?",
+        "answer": "The image is a book cover for a book titled \"Tai Chi Chuan Martial Applications\" by Xiaoyong Chen. It shows a man in a white t-shirt performing a martial move on another man in a black t-shirt. The book is likely about the application of Tai Chi Chuan, a Chinese martial art form that focuses on slow and fluid movements. The image shows the two men practicing the form together, which implies that the book is intended for readers who want to learn Tai Chi Chuan and apply it in their training.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41vD8wGmNcL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is \"Psychological Knowledge in Court.\"",
+        "gt_answers": "Psychological Knowledge in Court: PTSD, Pain, and TBI",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41mOC3MGsJL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book appears to be Government, Administration, and Regulation.",
+        "gt_answers": "Law",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41xP37BfonL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is \"the beatles piano solos.\"",
+        "gt_answers": "The Beatles Piano Solos",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51q89jOPOmL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is Halston and Warhol: The Art of the Image.",
+        "gt_answers": "Halston and Warhol: Silver and Suede",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51Dxm02LPyL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "This image is of a scene from the novel Ancient Greece by Valerie Sherwood, an historical fiction book set in ancient Greece during the time of Alexander the Great. In this scene, Alexander and his army are shown in battle against the Persians. The genre of this book is historical fiction.",
+        "gt_answers": "Children's Books",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/61%2BHWEKfyDL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is a reference book or nonfiction. The image shows the cover of a book with the title \"Nuts and Bolts of Cardiac Pacemakers Second Edition\" and a subtitle \"Technical and Practical Aspects of Pacemaker Implantation and Management\". The image also shows an illustration of a heart with a pacemaker inside it. The image is of a medical nature and shows the technical aspects of implanting and managing pacemakers in the heart.",
+        "gt_answers": "Medical Books",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41OPsTieeAL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is 52 Slow Cooker Suppers.",
+        "gt_answers": "365 Slow Cooker Suppers",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/61lkuFyHymL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What type of book is this?",
+        "answer": "Based on the image provided, it appears to be a cookbook. The woman in the image is eating a plate of food, and there are vegetables and fruit on the plate. The pink background suggests that this is a cookbook.\n\nIt is likely that this book is a recipe book or a cookbook that focuses on vegetarian or healthy eating. The cover image shows a woman who is eating, suggesting that the book is focused on providing healthy and delicious meals.\n\nOverall, the image appears to be a cookbook or recipe book with a focus on healthy eating and delicious food.",
+        "gt_answers": "Health, Fitness & Dieting",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41iOilUMkVL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of the book is'The Glorious Islands of Western Polynesia'compiling the'Bohio Group'of the Loyal New Zealand Company'.\n\nThe book is written by William Hall, an English explorer and surveyor who was sent to explore the Cook Islands in 1830 by the New Zealand Company, which was formed in 1831. The company was formed to establish settlements in the Pacific Islands and establish trade relationships with local inhabitants. The book is a collection of journal entries and letters written by William Hall and other members of the company, describing their travels and observations in the Cook Islands. It includes information on the culture, history, and geography of the islands, as well as descriptions of the natural resources and the local population. The book also provides insight into the challenges and obstacles faced by the company and its members as they tried to establish a foothold in the islands.",
+        "gt_answers": "Gems from the Coral Islands: Western Polynesia: comprising the New Hebrides group, the Loyalty group, New Caledonia group",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41eoGJB3BqL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is action and adventure.",
+        "gt_answers": "Comics & Graphic Novels",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/512bCWzIlTL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this book related to Science Fiction & Fantasy?",
+        "answer": "No, the image provided is a scene from the Lord of the Rings movie series, specifically from The Fellowship of the Ring. The image shows a group of dwarves and an elf standing in front of a cave entrance. The characters are dressed in medieval clothing and are armed with swords, shields, and other weapons. The scene is set in Middle Earth, the fictional world created by J.R.R. Tolkien.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51HTNAT0JVL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this a romantic book?",
+        "answer": "I'm sorry, but I am a text-based language model and do not have the ability to display images. Can you please provide me with the text of the cover of the book?",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51GWWYk%2BqyL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Who wrote this book?",
+        "answer": "The book is titled \"The Property\" by Rutu Modan.\n\nThe cover of the book features two women walking through a cemetery at night. The image is depicted in black and white and the title and author's name are written in a bold font on top of the image. The cover suggests that the book is a mystery or a thriller.",
+        "gt_answers": "Rutu Modan",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51pxfRvYO3L.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is marketing.",
+        "gt_answers": "Business & Money",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51CWTYP4E7L.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this book related to Reference?",
+        "answer": "Yes, the image of a stack of books with a clock tower in the background is related to the topic of reference. The stack of books is a reference to a library, and the clock tower is a reference to the concept of time. The clock tower can be seen as a symbol of the passage of time, which is a key concept in many types of reference material, including encyclopedias, dictionaries, and almanacs. The image suggests the vastness of knowledge and the importance of referencing information to gain a broader understanding of the world.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41koRjimufL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this book related to Business & Money?",
+        "answer": "No, the book is not related to business or money. The book appears to be an academic text on principles of psychological speaking systems.\n\nThis book is not related to business and money. It appears to be an academic text on principles of psychological speaking systems. The text is not about business strategies or financial matters. It is likely that the text is used for academic purposes, such as in a psychology or linguistics course.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51KJ27GwiUL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is Return to Paradise.",
+        "gt_answers": "Return to Paradise",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/518rhWKqniL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this a financial book?",
+        "answer": "Yes, the image is a cover of a book titled Business Writing: What Works, What Doesn't by William E C. Simpson. The cover is a blue and white design with the title of the book in bold white letters on a blue background, with the subtitle in smaller white letters underneath it.\n\n\nThe book's title suggests that it is a guide for business professionals on how to write effectively in a professional setting, including what strategies and tactics work and what does not. The author's name, William E. Simpson, is also prominently displayed.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51ofItuRZRL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "It is a mystery novel.",
+        "gt_answers": "Literature & Fiction",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51lLoREuzaL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is science fiction. The cover image shows a futuristic city skyline with skyscrapers and flying vehicles in the background, suggesting a science fiction theme. Additionally, the image has a metallic and futuristic feel to it, which is another indication of the science fiction genre.",
+        "gt_answers": "Science & Math",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41Imavo51GL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this a kids book?",
+        "answer": "The image you provided is a cover for the book \"Outcasting the Gay Revolution where Homosexual Activism is Really Going and How to Turn the Tide\" by Richard A. Wilson, Ph.D. The book focuses on the topic of homosexual activism, its impact on society and how to turn the tide of the movement. The cover image appears to show a rocky coastline with a rainbow in the sky, symbolizing the idea of the book's theme.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41poKXkJnJL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this book related to Test Preparation?",
+        "answer": "Yes, the cover of this book is related to test preparation. The image shows a number of small boats floating on the water in front of a rocky coastline. This image conveys the idea of taking a test to prepare for a certain subject or activity. The image could be interpreted as a metaphor for the process of studying and preparing for a test.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41pVY-d5Y5L.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is The Caged Warrior.",
+        "gt_answers": "Caged Warrior",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51pjVYwBeXL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this book related to Law?",
+        "answer": "The image shows a group of sailing ships in a harbor. The title, \"Landscape at the mouth of the Maine coast,\" suggests that the image depicts a coastal scene.\n\nThe image is likely a painting or drawing, rather than a photograph, as it captures the changing light and shadows of the scene over time.\n\nAs for the relationship to the subject of law, it is difficult to determine from the image alone. The title of the book it appears in, \"Landscape at the mouth of the Maine coast,\" could be related to the study of landscape or environmental law, but it is not immediately clear.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51Y3BS8H9NL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is the enlightened cyclist: compassionate, dangerous drivers, and other obstacles on the road to transcendence.",
+        "gt_answers": "The Enlightened Cyclist: Commuter Angst, Dangerous Drivers, and Other Obstacles on the Path to Two-Wheeled Trancendence",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/514DVOOfUOL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this a reference book?",
+        "answer": "Yes, this is a reference book. It is a collection of quotations, sayings, and expressions from famous people and notable figures throughout history. It may contain quotes on various topics, such as love, life, death, and happiness.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51Odn3OpcQL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "The book titled, \"Think, Think, Learning about Your Brain,\" is written by Dr. Maria Sotomayor.",
+        "gt_answers": "Pamela Hill Nettleton",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/31uNgZ1QsfL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this book related to Medical Books?",
+        "answer": "The cover image shows a book titled,'Teaching Children with Speech and Language Difficulties'. The book is likely about providing guidance and support to teachers and parents who work with children who have speech and language difficulties.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41j7UTluaSL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is fiction.",
+        "gt_answers": "Medical Books",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51n63jzabmL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "This book is titled \"200 Years of the Rule of Law in Australia.\"\n\nThe cover of the book shows a line of people walking towards a building, with the words \"200 Years of the Rule of Law in Australia\" written in black ink on a white background.\n\nIt is likely that this book explores the history of the rule of law in Australia, tracing its development over the past 200 years and examining its impact on the country and its people. It may also provide insights into the challenges faced by the legal system in Australia and how they have been overcome over time.",
+        "gt_answers": "Entick v Carrington: 250 Years of the Rule of Law (Hart Studies in Comparative Public Law)",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51VYUu73SML.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of the book is cookbook. The book provides recipes and cooking tips for a variety of healthy, easy, everyday meals that inspire diet, spiritual development, and healthy eating habits.\n\nThe cover image of the book shows a woman holding a book with the title \"The Healthy Mediterranean Diet Cookbook\" written on it. The woman is standing in a kitchen with a stove, oven, and a variety of cooking utensils nearby.\n\nOverall, the book appears to be focused on providing healthy and easy recipes for individuals interested in adopting the Mediterranean diet, which emphasizes whole foods, fruits, vegetables, and healthy fats.",
+        "gt_answers": "Cookbooks, Food & Wine",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51cnhzYsfrL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What type of book is this?",
+        "answer": "This book is a fiction novel titled \"Living with epilepsy\" by Judi Denman. The book is about a boy named Tim, who has epilepsy and is struggling with managing his condition and fitting in with his peers. The cover of the book shows a young boy smiling at the camera. The image is not of a specific object, it is simply a picture of a child's face.",
+        "gt_answers": "Health, Fitness & Dieting",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51QSBR7V23L.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is nonfiction, specifically travel writing.\n\nThe book's title, <Img>The Road to Hana: One Family's Journey Through Paradise and Beyond</Img>, suggests that it is a travel guide or memoir about a family's journey through the island of Maui, specifically along the Road to Hana. This genre is common for travel books, as they often document the author's personal experiences and recommendations for traveling to a particular location.\n\nIn addition, the book's cover image features two photos of golf courses, which may indicate that golf is an important aspect of the author's travels and experiences on the island.\n\nOverall, the genre of this book is nonfiction, specifically travel writing.",
+        "gt_answers": "Travel",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41p5IJaB-wL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this book related to Travel?",
+        "answer": "Yes, the book is related to travel. The cover image shows a man in a gondola, which is a traditional boat used in Venice, Italy. This suggests that the book is about traveling to Venice and exploring the city's culture and history.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51MQQQvTl-L.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Who wrote this book?",
+        "answer": "The book is called The Under Dog by Mike Lupica.",
+        "gt_answers": "Mike Lupica",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41bbo%2BBCrjL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is Anselin's Anatomy & Physiology.\n\n<Img>ImageContent</Img>",
+        "gt_answers": "Saunders Q&A Review Cards for the NCLEX-PN\u00ae Examination, 2e",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51%2BfUXIzvNL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What type of book is this?",
+        "answer": "This book is a guidebook to cultural anthropology.",
+        "gt_answers": "Science & Math",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51y-z2LL6jL.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "I'm sorry, I can't give you an image as you have requested. However, if you have a specific question related to a book or author, I would be happy to try and help you with that.",
+        "gt_answers": "Gil Bettman",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51vRGL98qjL.jpg",
+        "model_name": "MiniGPT-4"
+    }
+]

@@ -1,0 +1,902 @@
+[
+    {
+        "question": "what color is this?",
+        "answer": "The keyboard in the image is blue.",
+        "gt_answers": [
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "cup: blue keyboard: black",
+            "blue",
+            "shades blue",
+            "blue",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002441.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color is the car in this photograph?",
+        "answer": "The car in the photograph is white.",
+        "gt_answers": [
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001462.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this?",
+        "answer": "This is a close-up view of a silver Apple keyboard with the bottom side visible. The keyboard appears to be clean and well-maintained.",
+        "gt_answers": [
+            "wireless keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboards",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboard"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002451.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this bill?",
+        "answer": "The bill is a foreign currency, specifically a South African Rand banknote.",
+        "gt_answers": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "$2",
+            "money",
+            "2",
+            "2",
+            "unanswerable",
+            "2"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002510.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color is the shirt that I'm wearing, black or turquoise? Thank you.",
+        "answer": "As the image shows a close-up of a blue shirt with stains on it, it cannot be definitively determined as either black or Turquoize without further context or a larger view of the actual shirt.",
+        "gt_answers": [
+            "turquoise",
+            "turquoise",
+            "turquoise",
+            "turquoise",
+            "turquoise",
+            "turquoise",
+            "blue",
+            "turquoise",
+            "turquoise",
+            "scratch mark"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002790.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color is this? ",
+        "answer": "The color of the fabric in the image is blue.",
+        "gt_answers": [
+            "grey",
+            "blue",
+            "light grey",
+            "blue",
+            "blue",
+            "blue",
+            "light blue",
+            "white",
+            "blue",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002278.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is my color of what is color of my shirt?",
+        "answer": "The color of the shirt in the image is grey.",
+        "gt_answers": [
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "grey",
+            "white",
+            "grey"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003243.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What's in this box?",
+        "answer": "In the image, there is a box filled with a variety of food items, including several pieces of broccoli and a piece of bread. The presence of these items suggests that the box may contain a meal or a combination of ingredients to be used in a recipe, such as a sandwich or a salad.",
+        "gt_answers": [
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken broth",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002632.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What's our school mascot?",
+        "answer": "\"In the image, it appears to be a bird, but the focus of the conversation is on the school sweatpants, which have \"\"Spartan\"\" written on them.\".",
+        "gt_answers": [
+            "spider",
+            "richmond spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spider"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002437.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color is this shirt?",
+        "answer": "The shirt is brown.",
+        "gt_answers": [
+            "brown",
+            "maroon",
+            "brown",
+            "brown",
+            "black",
+            "brown",
+            "brown",
+            "brown",
+            "black",
+            "black little yellow"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00004126.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What movie is this poster for?",
+        "answer": "The poster is for the movie Abraham Lincoln: Vampire Hunter.",
+        "gt_answers": [
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire diaries",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003412.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is on the ceiling?",
+        "answer": "The ceiling has spots and patches, which indicates that it is a part of an older building or has experienced some wear and tear.",
+        "gt_answers": [
+            "fan",
+            "fan",
+            "ceiling fan",
+            "ceiling fan",
+            "dust",
+            "ceiling fan",
+            "fan",
+            "fan",
+            "fan",
+            "ceiling fan"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002368.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this thing?",
+        "answer": "This is a computer monitor sitting on top of a desk, surrounded by various other items. It appears to be placed on a stand and is positioned next to a window. The monitor is connected to a laptop, which is also on the desk.",
+        "gt_answers": [
+            "desk",
+            "computer",
+            "desk",
+            "desk",
+            "desk",
+            "desk",
+            "computer desk",
+            "desk",
+            "desk",
+            "desk computer on"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003923.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What does this screen say?",
+        "answer": "The screen displays a picture of the sky with a blue color filled with clouds, giving the scene a somewhat blurry appearance. The sky appears to be cloudy, and the sun seems to be peeking through, creating an interesting backdrop for the photo.",
+        "gt_answers": [
+            "unsuitable",
+            "nothing",
+            "unsuitable",
+            "nothing",
+            "unanswerable",
+            "nothing",
+            "nothing",
+            "no words on screen",
+            "nothing",
+            "blank"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001655.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this CD?",
+        "answer": "\"This is a CD with a picture of a man on the cover and the name \"\"Woody Guthrie\"\" written on it. The CD contains a collection of music performed by various artists.\".",
+        "gt_answers": [
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002889.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Tell me if there's text what it says on this computer screen, please?",
+        "answer": "\"In the image, there is a computer screen with a message that says \"\"computer system properties.\"\"\".",
+        "gt_answers": [
+            "startup repair",
+            "repair",
+            "startup repair",
+            "startup repair",
+            "unanswerable",
+            "unsuitable image",
+            "startup repair checking your system",
+            "startup repair",
+            "startup repair checking your system",
+            "startup repair"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000340.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is in this can?",
+        "answer": "The can is filled with a white liquid, which is most likely cream soup or a similar food item.",
+        "gt_answers": [
+            "sugar",
+            "soup",
+            "unanswerable",
+            "soup",
+            "soup",
+            "soup",
+            "unsuitable",
+            "soup",
+            "soup",
+            "soup"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003306.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this spice?",
+        "answer": "\"This spice is a seasoning blend called \"\"Salt and Pepper Seasoning.\"\" It is typically used to enhance the flavor of foods during cooking or as a table condiment.\".",
+        "gt_answers": [
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003307.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What kind of cigarettes are these?",
+        "answer": "\" These are American Spirits cigarets, which are known for their natural tobacco flavor.\".",
+        "gt_answers": [
+            "american spirit",
+            "american spirit",
+            "american spirit",
+            "american spirit",
+            "american spirit",
+            "black packaged american spirits",
+            "american spirit",
+            "american spirit",
+            "american spirit",
+            "american spirit"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002046.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is there is a light on on this thing?",
+        "answer": "The image does not show the front of the remote control with the light on; however, it is a dark-colored remote so it may have a LED light that is not visible in the photo.",
+        "gt_answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002763.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is it?",
+        "answer": "This is a close-up view of a computer keyboard with the \"control\" and \"enter\" keys covered up.",
+        "gt_answers": [
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "sdgsdfg",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "computer keyboard",
+            "keyboard"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003733.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Coffee is this?",
+        "answer": "Yes, the image shows a cup of coffee along with the coffee beans in the background, indicating that it is indeed coffee.",
+        "gt_answers": [
+            "gevalia",
+            "gevalia",
+            "gevalia",
+            "gevalia swiss hazelnut",
+            "gevalia",
+            "gevalia",
+            "gevalia",
+            "gevalia",
+            "gevalia",
+            "gevalia"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001818.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this?",
+        "answer": "The image features a close-up of a giraffe's head peeking over a wall or a fence. The photo is overexposed, making the image appear washed out, and it appears to be a black and white photograph. Despite the overexposure, the viewer can see the distinctive pattern of the giraffes' skin and its eyes, capturing a unique perspective of the animal in its natural habitat.",
+        "gt_answers": [
+            "giraffe poster",
+            "giraffe",
+            "giraffe",
+            "giraffe",
+            "giraffe poster",
+            "giraffe",
+            "giraffe poster",
+            "poster",
+            "giraffe poster",
+            "giraffe"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002978.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is inside this canned good?",
+        "answer": "inside the can, there is a bag of corn.",
+        "gt_answers": [
+            "corn",
+            "corn",
+            "unanswerable",
+            "whole kernel corn",
+            "corn",
+            "corn",
+            "corn",
+            "corn",
+            "corn",
+            "corn kernels"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001446.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is it still checking for problems?",
+        "answer": "Yes, the computer screen is still displaying the message that it is checking for problem errors.",
+        "gt_answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000948.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What flavor is this?",
+        "answer": "This is a flavor of broccoli souffl\u00e9, likely a side dish or meal.",
+        "gt_answers": [
+            "beef",
+            "beef flavored",
+            "beef",
+            "beef flavored broth",
+            "beef",
+            "beef flavor",
+            "beef flavored broth",
+            "beef",
+            "this beef flavor",
+            "beef"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001513.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Do the clouds look like storm clouds?",
+        "answer": "Yes, the clouds in the image appear to be storm clouds, suggesting the possibility of bad weather or a storm approaching the area.",
+        "gt_answers": [
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "no",
+            "no",
+            "yes",
+            "yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000208.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this?",
+        "answer": "\"This image features a wooden dining table with a bowl sitting on it. The bowl is filled with water, and it appears to be empty. On top of the water, there is a small wooden spoon. Surrounding the bowl, there are several oranges scattered on the table. In the background, a person can be seen partially, likely observing the scene or engaging with the arrangement of fruits and the water-filled bowl.\".",
+        "gt_answers": [
+            "wine",
+            "wine",
+            "bottle wine",
+            "sweet red wine",
+            "wine",
+            "unanswerable",
+            "wine",
+            "red wine",
+            "wine bottle guitar finger picks",
+            "wine"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003090.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Tell me about this color.",
+        "answer": "This color is a light blonde shade, which can be described as a natural-looking hair color.",
+        "gt_answers": [
+            "brunette",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "dark brown",
+            "brown",
+            "brown",
+            "brown"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00004282.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this?",
+        "answer": "The image depicts a large brown dog lying down on a wooden floor, likely resting or sleeping. The dog occupies a significant portion of the image, stretching from the middle of the floor towards the right side. The room appears to be dimly lit, adding a sense of relaxation and coziness to the scene.",
+        "gt_answers": [
+            "dog",
+            "unsuitable",
+            "dog",
+            "dog",
+            "dog",
+            "dog",
+            "dog",
+            "dog",
+            "unsuitable",
+            "dog on floor"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002879.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "whats in this can?",
+        "answer": "\"This can contains soda, specifically Diet Dr Pepper, which is a carbonated beverage. The can has a \"\"Diet\"\" label on it, indicating that it is a low-calorie version of the drink.\".",
+        "gt_answers": [
+            "diet dr pepper",
+            "diet dr pepper",
+            "diet dr pepper",
+            "diet dr pepper",
+            "dr pepper",
+            "diet dr pepper",
+            "diet dr pepper",
+            "diet dr pepper",
+            "dr pepper diet",
+            "diet dr pepper"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002798.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this item?",
+        "answer": "\"This is a picture of a box containing a small quantity of Domino sugar. The box displays the Domino brand and the word \"\"Sugar\"\" written on it. Inside the box, there is a single sugar lump, making it easy to identify the type and amount of sugar present. The packaging suggests that the sugar is meant to be used as a single serving for various purposes, such as sweetening beverages or preparing food items that require sugar as an ingredient.\".",
+        "gt_answers": [
+            "sugar",
+            "sugar",
+            "sugar",
+            "sugar",
+            "box sugar",
+            "domino sugar",
+            "sugar",
+            "sugar",
+            "sugar",
+            "sugar"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002654.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this item?",
+        "answer": "\"This item is a small notebook with a picture of a dog on the front and the words \"\"life is a adventure\"\" written on the cover. Inside the notebook, there are several lines of writing, possibly meant for taking notes or jotting down ideas. The notebook is being held by a person in their lap.\".",
+        "gt_answers": [
+            "notebook",
+            "notebook",
+            "notebook",
+            "paid",
+            "tablet",
+            "notepad",
+            "book",
+            "notebook",
+            "spiral bound notebook",
+            "notebook"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001374.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this product?",
+        "answer": "\"This is a box containing a cheesecake topped with chocolate and raspberries. The box features a picture of the cake on the lid, and the product is labeled \"\" Afternoon Treat.\"\" The cake appears to be a delicious and indulgent dessert that offers a delightful combination of flavors.\".",
+        "gt_answers": [
+            "cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "cake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00004068.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color is this shirt? ",
+        "answer": "The shirt is blue with white pinstripes.",
+        "gt_answers": [
+            "grey",
+            "grey",
+            "blue jeans",
+            "blue",
+            "blue",
+            "blue",
+            "blue grey",
+            "blue",
+            "grey",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002213.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color is this Polo shirt?",
+        "answer": "The Poloshirt is blue in color, with a small yellow logo on the left side of the collar.",
+        "gt_answers": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green yellow logo",
+            "green",
+            "green",
+            "green",
+            "green"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003973.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this?",
+        "answer": "\"This is a picture of a Nestle water bottle with a \"\"Pure Life\"\" label, sitting on a table. The bottle appears to be nearly empty, with only a small amount of water remaining at the bottom.\".",
+        "gt_answers": [
+            "nestle pure life water",
+            "nestle water",
+            "bottle",
+            "water",
+            "water bottle",
+            "water",
+            "water",
+            "nestle pure life water",
+            "water",
+            "water"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001181.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Who can read this for me?",
+        "answer": "This image shows a piece of paper with a navigation app on it, placed on a table. It is likely that someone who is familiar with using the navigation app can read it for you. The paper likely contains directions or guidance for using the app to navigate to a specific destination or find specific locations.",
+        "gt_answers": [
+            "navigation app",
+            "unanswerable",
+            "navigation app",
+            "navigation app",
+            "navigation app",
+            "unanswerable",
+            "navigation app",
+            "unanswerable",
+            "navigation app for visually impaired smart phone user",
+            "navigation app"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000700.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What does it say on this coupon?",
+        "answer": "\"This coupon is for a free 5-ounce bag of tortilla chips. The offer is valid at Chipotle Mexican Grill.\".",
+        "gt_answers": [
+            "$5 avocado bacon tostada combo",
+            "5 combo",
+            "$5 avocado bacon tostada combo",
+            "5$ avocado bacon tostada combo",
+            "$5 avocado bacon tostada combo",
+            "$ avocado bacon tostada combo",
+            "$5",
+            "avocado bacon tostada combo",
+            "$5 avocado bacon tostada combo",
+            "$5 avocado bacon tostada combo"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000878.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What kind of food is this?",
+        "answer": "The image shows a can of soup, which is a food product containing broth, vegetables, or other ingredients that are heated and consumed as a meal.",
+        "gt_answers": [
+            "corn",
+            "corn",
+            "corn",
+            "unsuitable",
+            "corn",
+            "corn",
+            "corn",
+            "corn",
+            "corn",
+            "can"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001727.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color are my pants?",
+        "answer": "The pants that the person is wearing are black.",
+        "gt_answers": [
+            "black white stripes",
+            "black",
+            "black white stripes",
+            "black",
+            "black white",
+            "black",
+            "black white stripes down sides",
+            "black",
+            "black",
+            "black"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003786.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color is this?",
+        "answer": "\"If the image is blurry or unclear, the color of the object cannot be determined with certainty. However, the object is described as a \"\"brownish object.\"\"\".",
+        "gt_answers": [
+            "grey",
+            "grey",
+            "grey",
+            "grey",
+            "brown",
+            "grey",
+            "tan",
+            "tan",
+            "grey",
+            "brown"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003587.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Is this bag black and white?",
+        "answer": "Yes, the bag is black and White in color.",
+        "gt_answers": [
+            "yes",
+            "white black spots",
+            "yes white black polka dots",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "white black polka dots",
+            "yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001994.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this?",
+        "answer": "This is a picture of a bottle of wine sitting on a table. The bottle is sealed and has a label on it.",
+        "gt_answers": [
+            "wine",
+            "wine",
+            "wine bottle",
+            "wine",
+            "bottle red wine",
+            "wine",
+            "mostly empty wine bottle",
+            "wine",
+            "bottle",
+            "wine"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001268.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is on this picture? Thank you.",
+        "answer": "The image features a detailed illustration of human blood cells, specifically two white blood cells (WBCs) interacting with a red blood cell (RBC). The WBCs are engaging with the RBC in a cell-to-cell interaction, showcasing their natural behavior within the human body. The image provides information on the various types of blood cells present in the bloodstream and their interactions with one another.",
+        "gt_answers": [
+            "prokaryotic eukaryotic cells",
+            "prokaryotic eukaryotic cells",
+            "prokaryotic eukaryotic cells",
+            "cells",
+            "prokaryotic eukaryotic cells",
+            "unanswerable",
+            "blood cells",
+            "blood cells",
+            "prokaryotic eukaryotic cells",
+            "flowers"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003762.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is this?",
+        "answer": "A black computer mouse sitting on top of a wooden table.",
+        "gt_answers": [
+            "mouse",
+            "mouse",
+            "wireless mouse",
+            "mouse",
+            "mouse",
+            "computer mouse",
+            "logitech mouse",
+            "mouse",
+            "computer mouse",
+            "computer mouse"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001627.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color is the sky?",
+        "answer": "The sky is a big, blue color in the image.",
+        "gt_answers": [
+            "blue",
+            "blue grey",
+            "blue",
+            "blue",
+            "grey",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue whispy clouds"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003348.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What's the name of this book?",
+        "answer": "\"The name of the book is \"\"Crocodile Crossing.\"\"\".",
+        "gt_answers": [
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003230.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What does this say?",
+        "answer": "The image displays a DVD cover featuring a man wearing glasses and holding a wand, likely a Harry Potter movie. The man is positioned in the center of the cover, surrounded by various elements associated with the wizarding world. There are two other people in the background, one on the left side and the other on the right side of the image. In addition to the main character, there are several other people present in the scene, some of which appear to be engaged in witchcraft or magical activities. The presence of multiple people and wands suggests that the DVD may be related to a magical theme or a story involving wizards and their adventures.",
+        "gt_answers": [
+            "harry potter",
+            "harry potter deathly hallows",
+            "harry potter",
+            "harry potter deathly hallows",
+            "harry potter deathly hallows",
+            "harry potter",
+            "harry potter",
+            "harry potter deathly hallows",
+            "harry potter deathly hallows",
+            "harry potter deathly hallows"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002882.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Okay, I held the camera further away. I think it should be black. Could you tell me if it's black or blue, please? Thank you.",
+        "answer": "The image is blurry, making it difficult to discern the color of the sock with certainty. However, it appears to be a black sock.",
+        "gt_answers": [
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "grey"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003356.jpg",
+        "model_name": "Otter"
+    }
+]

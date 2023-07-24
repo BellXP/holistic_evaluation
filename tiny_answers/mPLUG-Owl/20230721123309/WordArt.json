@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white, number three on a black background, which can either represent a three-dimensional object (e.g., a three-leaf clover) or a flat design (e.g., a number three drawn on a piece of paper or canvas).",
+        "gt_answers": "&",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/948.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and orange logo that reads \"NY\" or \"NYC,\" with a small \"N\" and a capital \"Y\" inside the letters. It's located at the top-right corner of the logo.",
+        "gt_answers": "HAUNTED",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1555.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a black text written on a white background, which reads, \"Fear is my motivation.\"",
+        "gt_answers": "free",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2142.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a close-up of a car with a yellow and black sign, which reads \"Shut up and drive.\"",
+        "gt_answers": "Shut",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/788.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, a sign is written on a blackboard. The sign says \"I is.\"",
+        "gt_answers": "is",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1670.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large yellow and blue lettering sign that reads, \"LA LA LA.\"",
+        "gt_answers": "LA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1114.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a close-up shot of a metal sign with a blue and silver design. The sign reads, \"The Wolves of the North.\"",
+        "gt_answers": "EVOLUTION",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/406.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a cup of coffee with the word \"Like the Thing\" written on it in a bold script.",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/583.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a hand holding a colorful book titled \"Follow The Nose.\" The hand is placed on a blue background.",
+        "gt_answers": "follow",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/911.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a sign with the phrase \"Happy New Year 2021\" written on it.",
+        "gt_answers": "Happy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1419.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows an old sign that says \"Fit It.\" It is written on a blue background.",
+        "gt_answers": "IT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1457.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a close-up of a metal letter \"T\" with a chain and a key attached to it.",
+        "gt_answers": "SCHWARTZKOPFF",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1522.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a sign with a personalized name written on it.",
+        "gt_answers": "Baileys",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1767.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a piece of paper with a drawing of a person on it, and the words \"Sorry for the wait\" written on it.",
+        "gt_answers": "FISCHBACHAU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/981.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the word \"ON\" displayed on a golden background with the letters \"ON\" written in different sizes and styles.",
+        "gt_answers": "NO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2062.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a patch that reads \"PATCH.\"",
+        "gt_answers": "PATCH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1106.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign that reads \"1000\" in blue.",
+        "gt_answers": "GOOD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/754.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Be,\" written in gold letters, which appear to be made of paint or other decorative material.",
+        "gt_answers": "BE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1819.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a purple text on a white background with the word \"ramos\" written in the middle. There is also a small logo below the text.",
+        "gt_answers": "PARAMORE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1789.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the phrase \"The End,\" written in white lettering on a brown wood sign.",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1935.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a gold and black poster with a design featuring the words \"HAPPY NEW YEAR 2018\" written in large black letters.",
+        "gt_answers": "2018",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1090.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"butter and eggs make a breakfast can't go wrong.\" These words are printed in a blue background, creating a vintage-style design.",
+        "gt_answers": "Breakfast",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1359.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a wooden letter \"N\" with a white background. The \"N\" is written in bold black letters, with each letter appearing in a slightly different position. This creates a unique design and makes the letter stand out.",
+        "gt_answers": "ONLY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/604.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a man wearing a white hat with the word \"Bills\" embroidered in it.",
+        "gt_answers": "Bills",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1741.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a gold-colored letter \"A\" with an arrow on it.",
+        "gt_answers": "HALI",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/459.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a grey t-shirt with a large logo in the center. The logo consists of the word \"Metricup\" in bold white lettering.",
+        "gt_answers": "METRICUP",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/412.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, ornate letter \"V\" with gold and silver accents, which serves as the main focus.",
+        "gt_answers": "DID",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1163.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, ornate pink text that says \"Valentine.\" The text is written in a bold, decorative style, which adds a sense of artistry and flair to the design.",
+        "gt_answers": "valenlines",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/633.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brightly colored text that reads \"Vitalize.\"",
+        "gt_answers": "Vital",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1680.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, white button with black letters that read \"LIKE THIS.\"",
+        "gt_answers": "Like",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/582.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a wooden block with a white sign that says \"Moms.\" The sign appears to be made of wood or another natural material and is placed on a white background.",
+        "gt_answers": "MOMS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1933.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, the word \"welcome\" is written in big letters across the side of a wall.",
+        "gt_answers": "welcome",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2094.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CHI\" written in a bold font.",
+        "gt_answers": "DUCHESS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1752.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white wooden frame with a black lettering that reads, \"It's a party and I want you here.\"",
+        "gt_answers": "it's",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1548.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a closeup of a vintage-style sign that reads \"Bristo's.\"",
+        "gt_answers": "BRISTOL'S",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2096.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white drawing of a letter \"F\" with an orange gradient. The letter appears three-dimensional and has some shading.",
+        "gt_answers": "time",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1378.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the words \"ACTIVITY\" written in green letters on a wooden sign.",
+        "gt_answers": "CACTUS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1979.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of the word \"calorie\" painted onto a canvas. The lettering is bold, and the text appears to be hand painted, giving the word an artistic touch.",
+        "gt_answers": "Calories",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/471.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image depicts a white text on a black background, which reads, \"The Kerns.\"",
+        "gt_answers": "KERN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/654.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign with the word \"Safety\" written in large capital letters.",
+        "gt_answers": "Wafer",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1848.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white and blue sign that reads \"SHI\" in blue lettering. The logo is accompanied by a red and blue background.",
+        "gt_answers": "FISHING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/483.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a yellow brick with the letter \"E\" written on it.",
+        "gt_answers": "BEES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/347.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign written in white on a red background that says \"Nugget\" in large capital letters.",
+        "gt_answers": "NUGGETS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/724.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a sign or a lettering with the words \"Honey\" on it.",
+        "gt_answers": "Hom\u025b",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1556.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red R logo, with an orange background, which is placed on a dark brown rug.",
+        "gt_answers": "LIBRARY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/563.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a piece of paper with a word written on it. It appears to be the word \"FANTASTIC.\"",
+        "gt_answers": "santasy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/665.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a handwritten sign that reads \"Her Royal Highness, Queen Elizabeth, The Second.\"",
+        "gt_answers": "HERO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1277.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign with the word \"ASTA\" written across it in gold lettering. The sign is placed on top of a wooden table.",
+        "gt_answers": "Costa",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/662.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a darkened scene with a black and white check design on a white background.",
+        "gt_answers": "KIDS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/957.png",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features an embroidered text on a black and golden background with a gold frame.",
+        "gt_answers": "ME\u0414BE\u0414\u042a",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1539.png",
+        "model_name": "mPLUG-Owl"
+    }
+]

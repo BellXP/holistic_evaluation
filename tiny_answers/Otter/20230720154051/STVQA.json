@@ -1,0 +1,455 @@
+[
+    {
+        "question": "What does the red sign on the far left say?",
+        "answer": "\"This is not an exhaustive list of all the signs that are present in the airport terminal. The image focuses primarily on the person walking with luggage near the red \"\"Do Not Enter\"\" sign.\".",
+        "gt_answers": [
+            "Danger"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000434357.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Which way does the sign say to merge?",
+        "answer": "The sign says to merge to the right.",
+        "gt_answers": [
+            "LEFT"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000447607.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the number on the yellow players shirt?",
+        "answer": "The yellow player's shirt has the number 12 on it.",
+        "gt_answers": [
+            "19"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2339683.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is on the man's head?",
+        "answer": "The man has a hat on his head while he is using his cell phone.",
+        "gt_answers": [
+            "glasses"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2362748.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Who created this picture?",
+        "answer": "The picture was created by a photographer who took a photo of the two small dogs sitting next to each other.",
+        "gt_answers": [
+            "mydoggie"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n02094433_6520.JPEG",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What does the red text say?",
+        "answer": "\"The red text says \"\"Coca-Cola.\"\"\".",
+        "gt_answers": [
+            "open happiness"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/IIIT_text/img_000324.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the brand name on the bottle?",
+        "answer": "It is the Propel Fizzics water bottle, made by the same company that makes the Splash water brand.",
+        "gt_answers": [
+            "Playtex"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n03825788_20290.JPEG",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What does it says in the banner?",
+        "answer": "\"It says \"\"is back.\"\"\".",
+        "gt_answers": [
+            "Grand Sla return"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000465090.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the website address?",
+        "answer": "The website address displayed in the image is www.carnival.com.",
+        "gt_answers": [
+            "fotosearch.com"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n07742313_20816.JPEG",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the name of the restaurant?",
+        "answer": "\"The restaurant's name is \"\"The Waffle Shop.\"\"\".",
+        "gt_answers": [
+            "The Soup Spoon"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/test_img_340.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the number of the red bus?",
+        "answer": "The red bus has the number 40 on it.",
+        "gt_answers": [
+            "6160"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000352185.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "How many vases are visible?",
+        "answer": "There are several handmade pottery vases visible in the image.",
+        "gt_answers": [
+            "six",
+            "{}"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2340271.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What activity is offered at the apple orchard?",
+        "answer": "An activity being offerred at the Apple orchard is tasting apples. In the image, a person is holding up and eating an apple in front of a tree. This suggests that visitors have the opportunity to sample apples directly from the trees and enjoy the fresh fruit at the orchard. This activity is a common and enjoyable way for people to learn about and experience the flavors and quality of the apples grown at the farm.",
+        "gt_answers": [
+            "HEDGE MAZE"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000506256.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Who is depicted on the cover holding a stick with fire?",
+        "answer": "\"On the cover, a caveman or prehistoric man is holding a large club with fire emanating from it, possibly indicating a dinosaur or a fearsome creature he is about to encounter.\".",
+        "gt_answers": [
+            "Tarzan"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n06596364_16096.JPEG",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Where is the bus headed?",
+        "answer": "The bus is headed for Silver Spring.",
+        "gt_answers": [
+            "Georgetown"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2368670.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What military branch is this airplane?",
+        "answer": "The airplane belongs to the Navy, as indicated by the markings and symbols on it.",
+        "gt_answers": [
+            "Navy"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000085488.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color are the window coverings?",
+        "answer": "The windowcoverings in the image are blue.",
+        "gt_answers": [
+            "Blue/",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/IIIT_text/2757.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the second credit card accepted at this payment station?",
+        "answer": "The payment station accepts both Visa and Mastercard credit cards.",
+        "gt_answers": [
+            "visa"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000078716.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What does the sign say?",
+        "answer": "\"The sign says \"\"barber shop.\"\"\".",
+        "gt_answers": [
+            "Barber shop parking"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/2/2413763.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color is the bat?",
+        "answer": "The bat is red.",
+        "gt_answers": [
+            "Black"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2349497.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What does the red sign in the picture say?",
+        "answer": "\"The red signs says \"\"Stop\"\" in another language, and it is displayed on the side of a wall.\".",
+        "gt_answers": [
+            "STOP"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2346678.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What does the glove have handwritten on it?",
+        "answer": "\"The glove has \"\"Astros\"\" hand-witten on it, indicating that the child is a fan of the Houston Astros baseball team.\".",
+        "gt_answers": [
+            "Mom Hates You!!!"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000145593.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the name of the retailer that is advertised in green?",
+        "answer": "\"The retailser advertised is \"\"The Body Shop.\"\"\".",
+        "gt_answers": [
+            "THE BODY SHOP"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/img_953.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is the phone number of River Ride?",
+        "answer": "\"If you would like the number of the boat rides company, it is \"\"(512) 339-4300.\"\"\".",
+        "gt_answers": [
+            "33-22-555"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000443764.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What month abbreviation appears at the bottom of the picture?",
+        "answer": "\"The month abbreviations \"\"jan\"\" and \"\"feb\"\" appear at the lower part of the image, suggesting that the photo was taken during the months of January or February.\".",
+        "gt_answers": [
+            "Feb"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2342238.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the name of the road going east to west?",
+        "answer": "\"Road signs in the image indicate that the road is called \"\"Sonora Road.\"\"\".",
+        "gt_answers": [
+            "SNOB HILL RD"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2318180.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is written on the side of the train?",
+        "answer": "\"The words \"\"Pollins Railroad Co.\"\" are written onto the train. This suggests that the train belongs to a specific railroad company or is possibly branded with the company's name.\".",
+        "gt_answers": [
+            "Polson Logging co"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2341912.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the date in yellow font?",
+        "answer": "In the image, there is a small nut with the date 2019 engraved on it.",
+        "gt_answers": [
+            "2003/01/07"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n04153751_10063.JPEG",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What word is on the warning sign?",
+        "answer": "\"The word \"\" Children \"\" is visible on the pedestrian warning sign.\".",
+        "gt_answers": [
+            "ZONE"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/2/2407077.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What color is the largest dress?",
+        "answer": "The largest dress is grey in color.",
+        "gt_answers": [
+            "Dark Olive"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n02667093_5040.JPEG",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is that brown sweet with white icing?",
+        "answer": "\"This brown sugar cookie with white frosting can be described as a \"\"ice cream sandwich,\"\" which is a popular dessert that consists of two cookies with a frozen treat, such as ice cream, in the middle. In this image, the cookie is placed next to a small bottle of milk on the table, creating a visually appealing and appetizing combination.\".",
+        "gt_answers": [
+            "CUPCAKES"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000186703.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What does the yellow signal say?",
+        "answer": "\"The yellow signal says \"\"Bumps.\"\"\".",
+        "gt_answers": [
+            "BUMPS"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2335084.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is written in black on the parasail?",
+        "answer": "\"The word \"\"Water\"\" is written on theparasail in black.\".",
+        "gt_answers": [
+            "GUN"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2325956.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the photographers name?",
+        "answer": "The photographer's name is Polaroid.",
+        "gt_answers": [
+            "Jordan Light"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n03956157_7164.JPEG",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Where are there more shops?",
+        "answer": "\"There is another shop nearby that is also selling sweets.\"\" The image does not provide specific details about the type of sweets sold in the additional shop.",
+        "gt_answers": [
+            "Level 2"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/test_img_72.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What does it say in white?",
+        "answer": "The word stop is written on the bottom of the stop sign.",
+        "gt_answers": [
+            "STOP"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2338783.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What number is under the Red Wagon sign?",
+        "answer": "\"The number under the \"\"Red Wagon\"\" sign is 79.\".",
+        "gt_answers": [
+            "175"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000458970.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the title of the grey book?",
+        "answer": "\"The grey book has the title \"\"Bicycle Maintenance.\"\"\".",
+        "gt_answers": [
+            "THE handbuilt bicycle"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000579053.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What does the top sign say?",
+        "answer": "\"The top sign says \"\"No Parking.\"\"\".",
+        "gt_answers": [
+            "A Modern Classic"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/IIIT_text/3675.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the name of this item?",
+        "answer": "\"This item is called a \"\"basket handle.\"\"\".",
+        "gt_answers": [
+            "Basket"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n04204238_4763.JPEG",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the license plate number on the bus?",
+        "answer": "The bus has a license plate from India, which indicates its origin and the country in which it operates.",
+        "gt_answers": [
+            "YX60 DWY"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000289231.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What type of beer is on the can?",
+        "answer": "\"It is a case of Coors beer, which is visible in the image as the cowgirl drinks from it during the rodeo performance.\".",
+        "gt_answers": [
+            "Coors"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n02795169_72041.JPEG",
+        "model_name": "Otter"
+    },
+    {
+        "question": "Who is the manufacturer of the camera?",
+        "answer": "The camera is manufactured by Canon.",
+        "gt_answers": [
+            "Canon"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n04069434_21423.JPEG",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the route number of the red bus?",
+        "answer": "The red bus is on route 52, which takes passengers through the area to deliver them to their destinations.",
+        "gt_answers": [
+            "48"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2317112.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the street name on the top sign?",
+        "answer": "\"The street name displayed on thetop sign is \"\"Park Drive.\"\"\".",
+        "gt_answers": [
+            "Partridge St"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2342515.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is printed on the car door?",
+        "answer": "\"The car door reads \"\"police.\"\"\".",
+        "gt_answers": [
+            "GENDARMERIE"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000517881.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what kind of pillow is mentioned?",
+        "answer": "\"The pillow described in the ad is a travel pillow, which is designed to provide comfort and support for passengers during their journey.\".",
+        "gt_answers": [
+            "Travel Neck Pillow",
+            "neck"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/img_92.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the brand of the Chili Sauce?",
+        "answer": "\"It is not specific to a particular brand, but the chili sauce is described as \"\"store-bought.\"\"\".",
+        "gt_answers": [
+            "Kikkoman"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2356883.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the brand of the phone?",
+        "answer": "The phone is a Motorola brand.",
+        "gt_answers": [
+            "Nokia"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000552440.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "What is the first name of the image tag?",
+        "answer": "\"The image tag states that the bird's first name is \"\"Rocco.\"\"\".",
+        "gt_answers": [
+            "mark"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000536204.jpg",
+        "model_name": "Otter"
+    }
+]

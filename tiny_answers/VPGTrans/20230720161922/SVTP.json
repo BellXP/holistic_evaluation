@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Museum.\"",
+        "gt_answers": "MUSEUM",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/20.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says,'Chase.'",
+        "gt_answers": "CHASE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/138.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"ASU.\"",
+        "gt_answers": "ASU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/488.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign with the word \"WOW\" written on it.",
+        "gt_answers": "WAREHOUSE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/455.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"design.\"",
+        "gt_answers": "DESIGN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/391.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that says \"Happiness is a warm gun.\"",
+        "gt_answers": "HAPPINESS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/161.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Scooters.\"",
+        "gt_answers": "SCOOTERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/522.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"art.\"",
+        "gt_answers": "ART",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/21.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Hatsu\".",
+        "gt_answers": "HATSU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/471.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is written in a font that appears to be a combination of letters and numbers. It is difficult to read the exact words, but it appears to be some sort of code or cipher.",
+        "gt_answers": "MARLBORO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/61.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"Parkmount.\"",
+        "gt_answers": "PARAMOUNT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/110.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"VIA\" is written in the image.",
+        "gt_answers": "VIA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/288.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says \"Hard Rock Cafe.\"",
+        "gt_answers": "HARD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/80.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Posters.\"",
+        "gt_answers": "POSTERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/447.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign on the building says \"Murphy's Pub\"",
+        "gt_answers": "MURPHY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/612.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a group of people standing on a beach, with the words \"university\" written in the background.",
+        "gt_answers": "UNIVERSITY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/486.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that says \"Theater\" on it.",
+        "gt_answers": "THEATER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/358.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"textiles.\"",
+        "gt_answers": "TEXTILES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/559.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"hotel.\"",
+        "gt_answers": "HOTEL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/567.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"Sushi House.\"",
+        "gt_answers": "SUSHI",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/241.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that says \"Warwick.\"",
+        "gt_answers": "WARWICK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/528.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Zula.\"",
+        "gt_answers": "ZULA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/238.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a person standing in front of a wall with the words \"The End\" written on it in bold letters. The person is wearing a black shirt and black pants, and is holding a bag in one hand. The background is a dark purple color.",
+        "gt_answers": "THEATER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/248.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Fuddruckers.\"",
+        "gt_answers": "FUDDRUCKERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/588.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"Sun Dial.\"",
+        "gt_answers": "UNDER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/91.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word Colorado is written in the image.",
+        "gt_answers": "COLORADO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/628.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is from the website of the University of Louisiana at Monroe. It reads, \"Welcome to the University of Louisiana at Monroe.\"",
+        "gt_answers": "LAURENCE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/133.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Lenscrafters.\"",
+        "gt_answers": "LENSCRAFTERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/535.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Cay.\"",
+        "gt_answers": "CAFE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/86.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Grandstand.\"",
+        "gt_answers": "GRANDSTAND",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/50.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"public\".",
+        "gt_answers": "PUBLIC",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/113.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Speed Zone.\"",
+        "gt_answers": "SPEED",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/313.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word street is written in the image.",
+        "gt_answers": "STREET",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/583.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is written in the word \"Eager.\"",
+        "gt_answers": "EAGER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/302.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Windbrook.\"",
+        "gt_answers": "WINBRO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/325.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Quiznos.\"",
+        "gt_answers": "QUIZNOS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/328.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a woman wearing a red dress and holding a bouquet of flowers. The woman is standing in front of a white background with a yellow border. The image is of medium quality and has a bright and colorful appearance.",
+        "gt_answers": "CAFE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/85.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"The Best Inn.\"",
+        "gt_answers": "INN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/633.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Goodwill.\"",
+        "gt_answers": "GOODWILL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/298.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"sentimental\" is written in the image.",
+        "gt_answers": "SENTINEL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/538.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"PALACE.\"",
+        "gt_answers": "PALACE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/151.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"restaurant.\"",
+        "gt_answers": "RESTAURANT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/623.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"Chinese Food\"",
+        "gt_answers": "CHERRY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/67.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a person standing in front of a wall with the word \"school\" written on it.",
+        "gt_answers": "SCHOOL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/552.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that says \"Sacramento.\"",
+        "gt_answers": "SAIGON",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/640.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"bar.\"",
+        "gt_answers": "BAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/435.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"Central Bank of Nigeria.\"",
+        "gt_answers": "CENTRE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/457.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"fox\" is written in the image.",
+        "gt_answers": "FOX",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/294.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that says \"University\" on it.",
+        "gt_answers": "UNIVERSITY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/484.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"OSCO.\"",
+        "gt_answers": "OSCO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/440.jpg",
+        "model_name": "VPGTrans"
+    }
+]

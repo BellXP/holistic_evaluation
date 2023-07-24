@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Congratulations\"\" appears in the middle of the image, congratulating someone on an achievement or a special occasion.\".",
+        "gt_answers": "PAWN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000857.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image reads \"\"andy.\"\"\".",
+        "gt_answers": "Denny's",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001498.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"Sport\"\" written or displayed in the sand.\".",
+        "gt_answers": "LIGHT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000582.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\"Alaska Airlines\"\" written on a surface.\".",
+        "gt_answers": "MILAW",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000601.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"HG\"\" is written within the image, and it is surrounded by a blue circle.\".",
+        "gt_answers": "H",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001435.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows a sign that has the word \"\"pipit\"\" written on it.\".",
+        "gt_answers": "CAPITOL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000329.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows a sign with the word \"\"Gift\"\" written on it.\".",
+        "gt_answers": "MUFFLER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001208.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\"read more\"\" written on top of a newspaper.\".",
+        "gt_answers": "SUNDRIES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001526.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"Dell\"\" written in white letters on a blue background.\".",
+        "gt_answers": "BUDLIGHT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000360.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"coffee\"\" written or painted on a sign or a board.\".",
+        "gt_answers": "LaCocina",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000997.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Crisis\"\" or \"\"Crize\"\" written inside a word circle, which could be a puzzle or a word game, with letters arranged like a jigsaw puzzle.\".",
+        "gt_answers": "LEEDS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000957.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Congratulations\"\" appears in the middle of the image, congratulating someone on an achievement or a special occasion.\".",
+        "gt_answers": "Opep",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001079.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows a sign with the word \"\"Frisco\"\" written on it.\".",
+        "gt_answers": "ESCONDIDO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000413.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"cheddar\"\" written on a chalkboard or a sign.\".",
+        "gt_answers": "ICHEDDAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000293.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the number \"\"23\"\" written on a piece of paper or a chalkboard.\".",
+        "gt_answers": "$2.50",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000726.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"Congratulations\"\" written in red ink on a piece of paper or a sign.\".",
+        "gt_answers": "EST.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001557.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows a sign that has writing on it. The words on the sign read \"\"farm fresh eggs.\"\"\".",
+        "gt_answers": "STONE'STHROW",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000236.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows a sign that has writing on it. The words say \"\"The Oasis Bar.\"\"\".",
+        "gt_answers": "Tropics",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000616.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image displays the word \"\"war\"\" written on a chalkboard.\".",
+        "gt_answers": "20.40",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000838.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows a small sign that reads \"\"Philadelphia.\"\"\".",
+        "gt_answers": "Colman'S",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001426.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"war\"\" is written across the image in a smaller typeface.\".",
+        "gt_answers": "E",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001108.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\"rich girl\"\" written on a sign.\".",
+        "gt_answers": "THIS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001178.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows a sign that reads \"\"Main Street.\"\"\".",
+        "gt_answers": "CINEMA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001338.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image displays the words \"\" Cultural Events \"\" written on it.\".",
+        "gt_answers": "Healthy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000736.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"In the image, there is the word \"\"Happy\"\" written, which is attached to a red cap.\".",
+        "gt_answers": "DEPT.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000374.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Lucid\"\" is written across the image, likely on a piece of paper or a chalkboard.\".",
+        "gt_answers": "CLUB",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000716.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image displays the words \"\"isolation door\"\" written on a sign.\".",
+        "gt_answers": "10",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001205.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Clubhouse\"\" is written within the image, likely on a sign or a board located outside of the tennis court.\".",
+        "gt_answers": "Maraka's",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000893.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image features the words \"\"Low Pressure\"\" written in a graffiti design, likely a t-shirt design or a logo.\".",
+        "gt_answers": "DEATHPRESSO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000744.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image features the number \"\"666\"\" written on a white surface.\".",
+        "gt_answers": "66",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001053.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The words \"\"Main Pizza & Co\"\" are written in white letters on a red background, likely on a sign.\".",
+        "gt_answers": "compAnY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000033.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The words \"\"Crude Oil\"\" are written in type, and they are positioned on top of an oil barrel.\".",
+        "gt_answers": "CRIOLLA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001377.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Durham\"\" is written within the word \"\"Supersonics\"\", which is painted on the surface of a baseball glove.\".",
+        "gt_answers": "CRASH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000998.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image features the words \"\"Laundry Fayre\"\" written in a large typeface, likely at the top of the picture or on a sign.\".",
+        "gt_answers": "RESTAURANT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000752.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\"Homestead Farm\"\" written on a sign.\".",
+        "gt_answers": "HOMESTEAD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000704.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\"TFG\"\" written on the surface, which appears to be a chalkboard or a sign.\".",
+        "gt_answers": "O.J.F.C.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000623.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"3-2-1\"\" is displayed in the center of the image.\".",
+        "gt_answers": "TA3-21",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001352.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\" lapine market \"\" written on the sign.\".",
+        "gt_answers": "KALAPAWAI",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000259.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The words \"\"Fresh TV\"\" are written in a contrasting color, making them stand out against the background. The phrase is likely related to a television show or advertisement.\".",
+        "gt_answers": "FRESH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001032.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows a close-up of a license plate with the words \"\"CLINT\"\" visible on it.\".",
+        "gt_answers": "917-HKX",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000122.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"United\"\" is written across the bottom of the image.\".",
+        "gt_answers": "GENUINE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001034.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The words \"\"McDonald's\"\" are visible in the close-up image.\".",
+        "gt_answers": "D.McKENZIE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001550.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Ghana\"\" is spray-painted on the image.\".",
+        "gt_answers": "C",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001075.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\"Cheese Aisle\"\" written in front of a large cheese wheel.\".",
+        "gt_answers": "CHEESE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000496.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"B\"\" is written inside a red circle, and it has a baseball emblem on top of it.\".",
+        "gt_answers": "B",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000732.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"The Bite\"\" written on a sign.\".",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000982.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"CENTRAL\"\" written in lighted letters on the side of a building.\".",
+        "gt_answers": "Centnal",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000845.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\"Coca-Cola\"\" written on the side of a surfboard.\".",
+        "gt_answers": "BEER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000576.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image features the word \"\"Sievert\"\" written or displayed in some form.\".",
+        "gt_answers": "Erweitert",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001410.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the numbers \"\"85\"\" and \"\"97\"\" written on a sign.\".",
+        "gt_answers": "826-8922",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001290.jpg",
+        "model_name": "Otter"
+    }
+]

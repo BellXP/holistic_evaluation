@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a sign that says, \"SEO.\"",
+        "gt_answers": "MUSEUM",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/20.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a black and white photograph of a woman wearing a blue dress with a blue scarf around her neck, holding a book. She is looking at something on either the right or left side of the frame.",
+        "gt_answers": "CHASE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/138.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white sign with a large \"19\" printed on it, possibly indicating a number or a date.",
+        "gt_answers": "ASU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/488.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a close-up of the back cover of a book.",
+        "gt_answers": "WAREHOUSE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/455.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a white and gray design with black text, which is likely a logo.",
+        "gt_answers": "DESIGN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/391.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red sign that says, \"POPPING.\"",
+        "gt_answers": "HAPPINESS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/161.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"1000\" written out in red.",
+        "gt_answers": "SCOOTERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/522.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows an R on a black background.",
+        "gt_answers": "ART",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/21.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red and white striped awning, with the words \"Hatsu Sushi\" written in white letters above it.",
+        "gt_answers": "HATSU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/471.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a woman's hand wearing a ring.",
+        "gt_answers": "MARLBORO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/61.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a large neon sign for the hotel chain Quality Inn.",
+        "gt_answers": "PARAMOUNT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/110.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays an old newspaper, possibly a copy of the \"Via\" newspaper, which has a headline that reads \"Via 1960s.\"",
+        "gt_answers": "VIA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/288.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a close-up of a brown and red textured piece of wood, with some writing or a label on it.",
+        "gt_answers": "HARD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/80.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a wine bottle, with the word \"WINE\" written across the top.",
+        "gt_answers": "POSTERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/447.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a wooden sign, which is a part of a building. It is a wooden sign for the \"P.H.\" store, which is a restaurant.",
+        "gt_answers": "MURPHY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/612.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a black and white photograph of two people standing together, likely in front of a wall of books. One person is wearing a tie, and the other person is wearing a shirt.",
+        "gt_answers": "UNIVERSITY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/486.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a close-up of a theater marquee, featuring a red curved letter \"E,\" which appears to spell \"Theater.\"",
+        "gt_answers": "THEATER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/358.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a close-up of a piece of paper with writing on it, which appears to be a contract. The paper has a green background and the text is written in black ink. The writing on the document is not legible enough for me to provide further details, but the contract likely contains important terms and conditions related to a specific business or legal transaction.",
+        "gt_answers": "TEXTILES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/559.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large wooden plaque with the letters \"VOTE\" written in capital letters. The plaque is mounted on a wall and is surrounded by other objects, such as a clock.",
+        "gt_answers": "HOTEL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/567.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden board with \"Fish\" written on it in blue lettering.",
+        "gt_answers": "SUSHI",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/241.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of a gold ring. It appears to be made of a solid, gold material with a smooth surface and an engraving on it.",
+        "gt_answers": "WARWICK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/528.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is of a building sign for a restaurant called Tula.",
+        "gt_answers": "ZULA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/238.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a close-up photo of a piece of cake with frosting, placed on a white table.",
+        "gt_answers": "THEATER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/248.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a wooden sign that reads \"DRUGS\" in black text against a white background.",
+        "gt_answers": "FUDDRUCKERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/588.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "There is a large sign with a white background that says \"Redeem your points for rewards.\"",
+        "gt_answers": "UNDER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/91.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a dark wood panel with the word \"Gloria\" written in a brownish-orange color, likely hand painted.",
+        "gt_answers": "COLORADO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/628.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "A sign that reads \"Lourenco Marques City Hall\" is displayed on a building.",
+        "gt_answers": "LAURENCE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/133.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that displays the name \"Craft.\" The name is written in a large font, and the sign also includes a logo of some sort.",
+        "gt_answers": "LENSCRAFTERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/535.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a group of people sitting at a table in a bar, with a man in a suit and tie sitting in one position and another person in a suit and tie sitting across from him at the other end of the table. The scene is set with multiple wine glasses on the table, and some wine cups are scattered on the table as well.",
+        "gt_answers": "CAFE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/86.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a sign, which is written in black text on a white background. The sign is a warning that says \"Dangerous Area - Do Not Enter\" in bold letters. The sign is placed near the bottom left corner of the image and occupies a significant portion of the space.",
+        "gt_answers": "GRANDSTAND",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/50.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a brown and green striped bag with a white letter J printed on it.",
+        "gt_answers": "PUBLIC",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/113.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign written in a script font, with \"Peeps\" as its prominent word. There is a large amount of yellow lettering in the sign, and the word \"Peep\" is written in a bold font.",
+        "gt_answers": "SPEED",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/313.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Tire\" in bold letters.",
+        "gt_answers": "STREET",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/583.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "An old man is seen sitting in front of a television set. The television is displaying a green background with a white and green image in the middle.",
+        "gt_answers": "EAGER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/302.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the logo of the National Black Business Council, which is a black and white symbol with a red star on it. The logo appears to be placed on a dark background.",
+        "gt_answers": "WINBRO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/325.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a white text written on a green screen.",
+        "gt_answers": "QUIZNOS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/328.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow-orange wall with a large window, possibly displaying a sunset, and a potted plant on the windowsill.",
+        "gt_answers": "CAFE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/85.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue and white sign with the words \"The Inn\" on it.",
+        "gt_answers": "INN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/633.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large red text on a white background that says, \"VDOV.\"",
+        "gt_answers": "GOODWILL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/298.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man and a woman standing next to each other.",
+        "gt_answers": "SENTINEL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/538.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features an old palace, likely a historical or cultural monument. It is surrounded by trees, which add an additional element to the scene and provide a pleasant atmosphere.",
+        "gt_answers": "PALACE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/151.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue sky and a large body of water, possibly an ocean or a large lake.",
+        "gt_answers": "RESTAURANT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/623.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and yellow sign with the words \"Therapy Window.\"",
+        "gt_answers": "CHERRY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/67.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "There is an empty white wall with a few words written in chalk on it.",
+        "gt_answers": "SCHOOL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/552.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows several words written in the storefront window, which are difficult to read individually.",
+        "gt_answers": "SAIGON",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/640.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a large white sign that reads, \"Welcome to our city.\"",
+        "gt_answers": "BAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/435.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a large sign with the word \"ENT\" written prominently in bold letters on its white background.",
+        "gt_answers": "CENTRE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/457.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a wooden sign with the word \"Fox\" written on it in green.",
+        "gt_answers": "FOX",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/294.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, a large sign is displayed with the word \"Over\" written on it. This large sign is likely placed on an overpass, indicating that it is over the road below.",
+        "gt_answers": "UNIVERSITY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/484.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that reads \"OSCL.\"",
+        "gt_answers": "OSCO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/440.jpg",
+        "model_name": "mPLUG-Owl"
+    }
+]

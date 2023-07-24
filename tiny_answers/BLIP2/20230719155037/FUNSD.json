@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is \"THRU\" information in the image?",
+        "answer": "thursday, october 1st",
+        "gt_answers": "12/31/94",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"To:\" information in the image?",
+        "answer": "to: dr stacy stacy, dr stacy stacy, dr ",
+        "gt_answers": "Ron Milstein",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83594639.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TITLE OF ACTION:\" information in the image?",
+        "answer": "san francisco california california california california",
+        "gt_answers": "WEBSTER CRECC",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NO. OF STORES\" information in the image?",
+        "answer": "no of stores",
+        "gt_answers": "225 27 15 31 18 19 20",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SALES FORCE INVOLVEMENT:\" information in the image?",
+        "answer": "sales force involvement form - salesforceinvolvementform - salesforceinvolvementform - salesforceinvolvement",
+        "gt_answers": "Merchandising the top tray of permanent counter displays and labeling carton fixtures in the Camel section. Also placing metal signs and temporary counter displays.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date Prepared\" information in the image?",
+        "answer": "the date the document was prepared",
+        "gt_answers": "8-17-88",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Change\" information in the image?",
+        "answer": "change information in the image is change information in the image is change information in the image is change information in the image is change information in the image is",
+        "gt_answers": "X",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PHYSICAL STATE\" information in the image?",
+        "answer": "physical state information in the image",
+        "gt_answers": "A crystalline solid at room temperature which melts at > 56 C.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87428306.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"*Note:\" information in the image?",
+        "answer": "*Note: *Note: *Note: *Note: *Note: *Note: *Note: *Not",
+        "gt_answers": "If this expenditure is made to influence a local ballot question, a copy of this form should be filed with the city or town clerk or election commission.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"To Whom Paid (Alphabetical Listing Mandatory)\" information in the image?",
+        "answer": "to whom paid (alphabetical listing mandatory)",
+        "gt_answers": "Committee Against Unfair Taxes Committee Against Unfair Taxes",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"\" information in the image?",
+        "answer": "the information in the image is the name of the drug, the name of the manufacturer, the name of the distributor, and the name of the distributor",
+        "gt_answers": "J. D. Ergle and R. F. Dufresne",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87086073.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Comment on the assembly of displays and\" information in the image?",
+        "answer": "the assembly of displays and assembly of displays and assembly of displays and assembly of displays and assembly of displays and assembly of displays and assembly of displays and assembly",
+        "gt_answers": "The displays are easily assembled and durable. Some questions have been raised conceming the inability to be flush with the counter and/ or against the register. As well as the ability to place this or the Back Bar if the settlement goes through",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82251504.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"STRUCTURE\" information in the image?",
+        "answer": "structure information in the image",
+        "gt_answers": "CH3CH2O OH",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87086073.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TEST MARKET GEOGRAPHY\" information in the image?",
+        "answer": "california california california california california",
+        "gt_answers": "All of Region 7.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PAGES (including Cover Sheet):\" information in the image?",
+        "answer": "- - - - - - - - - - - - - - -",
+        "gt_answers": "2",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83443897.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DEC 21\" information in the image?",
+        "answer": "the date of the last day of the month",
+        "gt_answers": "X",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ESTIMATED TOXICITY CLASS\" information in the image?",
+        "answer": "etizolam etizolam etizolam etizolam etizolam",
+        "gt_answers": "III",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87086073.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Telephone:\" information in the image?",
+        "answer": "the telephone number of the person who is filling out the form",
+        "gt_answers": "(615) ) 638- 5532",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87332450.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"# REPS:\" information in the image?",
+        "answer": "the number of steps required to complete the task",
+        "gt_answers": "12",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CASE TYPE:\" information in the image?",
+        "answer": "case type iii",
+        "gt_answers": "Asbestos",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82491256.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"1. PRINCIPAL INVESTIGATOR NAME, TITLE, TELEPHONE # AND MAILING ADDRESS.\" information in the image?",
+        "answer": "the name, title, telephone # and mailing address of the principal investigator",
+        "gt_answers": "Steven R. Kleeberger, Ph. D.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CC:\" information in the image?",
+        "answer": "cc cc cc cc cc cc cc cc cc cc",
+        "gt_answers": "Mr. Fred Paternostro",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82562350.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"LRC FILE NUMBER\" information in the image?",
+        "answer": "lrc file number lrc file number lrc file number lrc file number lrc file number",
+        "gt_answers": "A221",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87428306.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SIZE:\" information in the image?",
+        "answer": "the size of the stout industries, inc stout industries, inc stout industries, inc s",
+        "gt_answers": "171/4 x 231/2 \"",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE\" information in the image?",
+        "answer": "              ",
+        "gt_answers": "Chain acceptance has been very good.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NOTE:\" information in the image?",
+        "answer": "note: information in the image is a note from the u s department of health and human services to the u s department of",
+        "gt_answers": "THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED. CONFIDENTIAL, AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. If the reader of this message is not the intended recipient of the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that any dissemination, distribution, copying, or conveying of this communication in any manner is strictly prohibited. If you have received this comunication in error, please notify us immediately by telephone and return the original message to us at the address below via the U. S. Postal Service. Thank you for your cooperation.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82092117.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TEST ARTICLE IDENTIFICATION:\" information in the image?",
+        "answer": "tai tai tai tai tai tai tai t",
+        "gt_answers": "B220",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Est. Redemption\" information in the image?",
+        "answer": "it is the amount of money that is owed to a person who has been convicted of a crime",
+        "gt_answers": "13%",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Weight\" information in the image?",
+        "answer": "weight is 0 lb 0 oz 0 lb 0 oz 0 lb 0 ",
+        "gt_answers": "78.0 g / 100",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PRICE POINT:\" information in the image?",
+        "answer": "the price of the product",
+        "gt_answers": "FULL $ 11.89 P/ V $ (Indicate Distributor's Cost Per Carton)",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Plast.\" information in the image?",
+        "answer": "plast, plast, plast, plast, plast, plast, plast, p",
+        "gt_answers": "7 % Kent",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"GROSS WEIGHT\" information in the image?",
+        "answer": "0 lb 0 oz 0 lb 0 oz 0 lb 0 oz",
+        "gt_answers": "Not provided",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image is fax nov information in the image is fax nov information in",
+        "gt_answers": "202- 942- 5999",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "to: san francisco california california california californ",
+        "gt_answers": "LORILLARD, INC. ONE PARK AVENUE 18TH FL NEW YORK, N. Y. 10016",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Key Criteria for Analysis\" information in the image?",
+        "answer": "iii iv iv iv iv iv iv iv iv i",
+        "gt_answers": "-Triumph switchers asked why no longer smoking Triumph -Present smokers of Triumph asked reasons for switching to Triumph -Mentions of \"harshness\"",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION NAME:\" information in the image?",
+        "answer": "division name: division name: division name: division name: division name: division name: division name: division name: division name: division name:",
+        "gt_answers": "Flint",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person who is a member of the u s armed forces or a member of the u s",
+        "gt_answers": "Steve Krigbaum",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image is fax nov information in the image is fax nov information in",
+        "gt_answers": "213- 687- 3702",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "january 1st",
+        "gt_answers": "12- 13- 89",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CIRCULATION(#)\" information in the image?",
+        "answer": "the number of times a person has been convicted of a crime, and the number of times a person has been convicted of ",
+        "gt_answers": "201, 500",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ADDRESS\" information in the image?",
+        "answer": "stout industries, inc",
+        "gt_answers": "666 Fifth Avenue",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"VENDOR\" information in the image?",
+        "answer": "mcdonald's, lloyd's, mcdonald's, mc",
+        "gt_answers": "Piedmont Research Laboratory 2748 Patterson Ave., Greensboro,",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87147607.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"BRAND NAME:\" information in the image?",
+        "answer": "mcdonald's mcdonald's mcdonald's mcdonald",
+        "gt_answers": "VICEROY KING BOX AND VICEROY LIGHTS KING BOX",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82837252.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "the name of the account",
+        "gt_answers": "Don & Bens Western Beverage Speedy Stop Get Go Valley Shamrock Albertson's -Houston Mini Mart Neal One Stop Shopper Mart",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Air Dilution\" information in the image?",
+        "answer": "air dilution information in the image is air dilution information in the image is air dilution information in the image is",
+        "gt_answers": "13.0 %",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"IND/ LOR VOLUME\" information in the image?",
+        "answer": "IND/ LOR VOLUME IND/ LOR VOLUME IND/ LOR VOLUME IND/",
+        "gt_answers": "26/ 2 42/ 2 106 /4 62/ 2 78/ 4 319/ 16 65/ 3 69/ 3 80/ 4",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TYPE OF PACKINGS:\" information in the image?",
+        "answer": "- type of packings - type of packings - type of packings - type of packings - type of packings",
+        "gt_answers": "All Packings",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"From:\" information in the image?",
+        "answer": "from the u s attorney's office for the district of columbia, california",
+        "gt_answers": "Susan Smith",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86220490.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Plug Wrap\" information in the image?",
+        "answer": "plug wrap is a term used to describe the wrapping of a plug in a circuit breaker",
+        "gt_answers": "84- 52- 28",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Ind/Lor Volume\" information in the image?",
+        "answer": "ind/lor volume information in the image is ind/lor volume information in the image is ind/lor volume information in the image is",
+        "gt_answers": "196/13",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    }
+]

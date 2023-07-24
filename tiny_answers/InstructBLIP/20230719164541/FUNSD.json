@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is \"THRU\" information in the image?",
+        "answer": "information in the image is \"THRU\"",
+        "gt_answers": "12/31/94",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"To:\" information in the image?",
+        "answer": "to whom it may concern",
+        "gt_answers": "Ron Milstein",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83594639.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"TITLE OF ACTION:\" information in the image?",
+        "answer": "princeton hall corporate services receipt",
+        "gt_answers": "WEBSTER CRECC",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/92380595.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"NO. OF STORES\" information in the image?",
+        "answer": "no of stores",
+        "gt_answers": "225 27 15 31 18 19 20",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"SALES FORCE INVOLVEMENT:\" information in the image?",
+        "answer": "sales force involvement",
+        "gt_answers": "Merchandising the top tray of permanent counter displays and labeling carton fixtures in the Camel section. Also placing metal signs and temporary counter displays.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"Date Prepared\" information in the image?",
+        "answer": "1972",
+        "gt_answers": "8-17-88",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528321.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"Change\" information in the image?",
+        "answer": "change information",
+        "gt_answers": "X",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528321.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"PHYSICAL STATE\" information in the image?",
+        "answer": "physical state",
+        "gt_answers": "A crystalline solid at room temperature which melts at > 56 C.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87428306.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"*Note:\" information in the image?",
+        "answer": "name and address of the applicant",
+        "gt_answers": "If this expenditure is made to influence a local ballot question, a copy of this form should be filed with the city or town clerk or election commission.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"To Whom Paid (Alphabetical Listing Mandatory)\" information in the image?",
+        "answer": "state of connecticut department of motor vehicles",
+        "gt_answers": "Committee Against Unfair Taxes Committee Against Unfair Taxes",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"\" information in the image?",
+        "answer": "information in the image is on a piece of paper",
+        "gt_answers": "J. D. Ergle and R. F. Dufresne",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87086073.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"Comment on the assembly of displays and\" information in the image?",
+        "answer": "comment on the assembly of displays and",
+        "gt_answers": "The displays are easily assembled and durable. Some questions have been raised conceming the inability to be flush with the counter and/ or against the register. As well as the ability to place this or the Back Bar if the settlement goes through",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82251504.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"STRUCTURE\" information in the image?",
+        "answer": "structure of a molecule",
+        "gt_answers": "CH3CH2O OH",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87086073.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"TEST MARKET GEOGRAPHY\" information in the image?",
+        "answer": "test market geography",
+        "gt_answers": "All of Region 7.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"PAGES (including Cover Sheet):\" information in the image?",
+        "answer": "2",
+        "gt_answers": "2",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83443897.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"DEC 21\" information in the image?",
+        "answer": "12/21/2013",
+        "gt_answers": "X",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"ESTIMATED TOXICITY CLASS\" information in the image?",
+        "answer": "toxic",
+        "gt_answers": "III",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87086073.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"Telephone:\" information in the image?",
+        "answer": "yes",
+        "gt_answers": "(615) ) 638- 5532",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87332450.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"# REPS:\" information in the image?",
+        "answer": "a document with information on it that is in black and white",
+        "gt_answers": "12",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"CASE TYPE:\" information in the image?",
+        "answer": "case type",
+        "gt_answers": "Asbestos",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82491256.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"1. PRINCIPAL INVESTIGATOR NAME, TITLE, TELEPHONE # AND MAILING ADDRESS.\" information in the image?",
+        "answer": "principal investigator name, title, telephone number, and mailing address",
+        "gt_answers": "Steven R. Kleeberger, Ph. D.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"CC:\" information in the image?",
+        "answer": "fax number",
+        "gt_answers": "Mr. Fred Paternostro",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82562350.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"LRC FILE NUMBER\" information in the image?",
+        "answer": "file number",
+        "gt_answers": "A221",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87428306.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"SIZE:\" information in the image?",
+        "answer": "8 1/2 x 11",
+        "gt_answers": "171/4 x 231/2 \"",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528380.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE\" information in the image?",
+        "answer": "acceptance/ merchandising allowance",
+        "gt_answers": "Chain acceptance has been very good.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"NOTE:\" information in the image?",
+        "answer": "white paper with black writing on it",
+        "gt_answers": "THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED. CONFIDENTIAL, AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. If the reader of this message is not the intended recipient of the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that any dissemination, distribution, copying, or conveying of this communication in any manner is strictly prohibited. If you have received this comunication in error, please notify us immediately by telephone and return the original message to us at the address below via the U. S. Postal Service. Thank you for your cooperation.",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82092117.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"TEST ARTICLE IDENTIFICATION:\" information in the image?",
+        "answer": "123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676",
+        "gt_answers": "B220",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87137840.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"Est. Redemption\" information in the image?",
+        "answer": "redemption",
+        "gt_answers": "13%",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"Weight\" information in the image?",
+        "answer": "weight",
+        "gt_answers": "78.0 g / 100",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"PRICE POINT:\" information in the image?",
+        "answer": "price point",
+        "gt_answers": "FULL $ 11.89 P/ V $ (Indicate Distributor's Cost Per Carton)",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"Plast.\" information in the image?",
+        "answer": "plastic surgery",
+        "gt_answers": "7 % Kent",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"GROSS WEIGHT\" information in the image?",
+        "answer": "100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "gt_answers": "Not provided",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87137840.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax number",
+        "gt_answers": "202- 942- 5999",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "princeton hall corporate services",
+        "gt_answers": "LORILLARD, INC. ONE PARK AVENUE 18TH FL NEW YORK, N. Y. 10016",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/92380595.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"Key Criteria for Analysis\" information in the image?",
+        "answer": "key criteria for analysis",
+        "gt_answers": "-Triumph switchers asked why no longer smoking Triumph -Present smokers of Triumph asked reasons for switching to Triumph -Mentions of \"harshness\"",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/89856243.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"DIVISION NAME:\" information in the image?",
+        "answer": "division name",
+        "gt_answers": "Flint",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676",
+        "gt_answers": "Steve Krigbaum",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax number",
+        "gt_answers": "213- 687- 3702",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "1960",
+        "gt_answers": "12- 13- 89",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/92380595.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"CIRCULATION(#)\" information in the image?",
+        "answer": "circulation",
+        "gt_answers": "201, 500",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83996357.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"ADDRESS\" information in the image?",
+        "answer": "name and address of stout industries inc",
+        "gt_answers": "666 Fifth Avenue",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87528380.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"VENDOR\" information in the image?",
+        "answer": "vendor information",
+        "gt_answers": "Piedmont Research Laboratory 2748 Patterson Ave., Greensboro,",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87147607.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"BRAND NAME:\" information in the image?",
+        "answer": "brand name",
+        "gt_answers": "VICEROY KING BOX AND VICEROY LIGHTS KING BOX",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82837252.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "1099-misc",
+        "gt_answers": "Don & Bens Western Beverage Speedy Stop Get Go Valley Shamrock Albertson's -Houston Mini Mart Neal One Stop Shopper Mart",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"Air Dilution\" information in the image?",
+        "answer": "air dilution",
+        "gt_answers": "13.0 %",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"IND/ LOR VOLUME\" information in the image?",
+        "answer": "100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "gt_answers": "26/ 2 42/ 2 106 /4 62/ 2 78/ 4 319/ 16 65/ 3 69/ 3 80/ 4",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"TYPE OF PACKINGS:\" information in the image?",
+        "answer": "type of packing",
+        "gt_answers": "All Packings",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"From:\" information in the image?",
+        "answer": "name and address of the person sending the document",
+        "gt_answers": "Susan Smith",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/86220490.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"Plug Wrap\" information in the image?",
+        "answer": "it's not in the image",
+        "gt_answers": "84- 52- 28",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "InstructBLIP"
+    },
+    {
+        "question": "what is \"Ind/Lor Volume\" information in the image?",
+        "answer": "100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "gt_answers": "196/13",
+        "image_path": "/nvme/share/leimeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "InstructBLIP"
+    }
+]

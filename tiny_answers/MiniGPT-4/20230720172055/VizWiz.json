@@ -1,0 +1,902 @@
+[
+    {
+        "question": "what color is this?",
+        "answer": "The color of this object appears to be blue and black.",
+        "gt_answers": [
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "cup: blue keyboard: black",
+            "blue",
+            "shades blue",
+            "blue",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002441.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What color is the car in this photograph?",
+        "answer": "The car in this photograph appears to be white.",
+        "gt_answers": [
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001462.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this?",
+        "answer": "This is a computer keyboard.",
+        "gt_answers": [
+            "wireless keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboards",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboard"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002451.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this bill?",
+        "answer": "This is a $20 bill.",
+        "gt_answers": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "$2",
+            "money",
+            "2",
+            "2",
+            "unanswerable",
+            "2"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002510.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What color is the shirt that I'm wearing, black or turquoise? Thank you.",
+        "answer": "The shirt you're wearing is blue.",
+        "gt_answers": [
+            "turquoise",
+            "turquoise",
+            "turquoise",
+            "turquoise",
+            "turquoise",
+            "turquoise",
+            "blue",
+            "turquoise",
+            "turquoise",
+            "scratch mark"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002790.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What color is this? ",
+        "answer": "This is a blue fabric.",
+        "gt_answers": [
+            "grey",
+            "blue",
+            "light grey",
+            "blue",
+            "blue",
+            "blue",
+            "light blue",
+            "white",
+            "blue",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002278.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is my color of what is color of my shirt?",
+        "answer": "This image shows a gray shirt with no apparent texture or texture. The shirt appears to be a plain, smooth, and flat fabric.",
+        "gt_answers": [
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "grey",
+            "white",
+            "grey"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003243.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What's in this box?",
+        "answer": "I'm sorry, but I can't see the image you've provided. However, from the text description, it sounds like a box of natural food products that could be used as a healthy snack or meal supplement.",
+        "gt_answers": [
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken broth",
+            "chicken bouillon",
+            "chicken bouillon",
+            "chicken bouillon"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002632.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What's our school mascot?",
+        "answer": "As an AI language model, I am not able to see images or clothing that is not in front of me. However, I can tell you that the University of Miami's mascot is the U. The image you provided shows a sweatshirt with the U.S. flag and the word \"Sonic\" on it. The U.S. flag is displayed in the upper left corner, and the word \"Sonic\" is displayed in the lower left corner. The letters are written in red and blue.",
+        "gt_answers": [
+            "spider",
+            "richmond spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spiders",
+            "spider"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002437.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What color is this shirt?",
+        "answer": "This shirt appears to be yellow and black.",
+        "gt_answers": [
+            "brown",
+            "maroon",
+            "brown",
+            "brown",
+            "black",
+            "brown",
+            "brown",
+            "brown",
+            "black",
+            "black little yellow"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00004126.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What movie is this poster for?",
+        "answer": "I'm sorry, but I cannot see the image you have provided, as it is not visible. Can you provide the image again?",
+        "gt_answers": [
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire diaries",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter",
+            "abraham lincoln vampire hunter"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003412.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is on the ceiling?",
+        "answer": "This is a photo of a ceiling with white tiles.",
+        "gt_answers": [
+            "fan",
+            "fan",
+            "ceiling fan",
+            "ceiling fan",
+            "dust",
+            "ceiling fan",
+            "fan",
+            "fan",
+            "fan",
+            "ceiling fan"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002368.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this thing?",
+        "answer": "It is a black and white television set.",
+        "gt_answers": [
+            "desk",
+            "computer",
+            "desk",
+            "desk",
+            "desk",
+            "desk",
+            "computer desk",
+            "desk",
+            "desk",
+            "desk computer on"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003923.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What does this screen say?",
+        "answer": "</Img>Image>.",
+        "gt_answers": [
+            "unsuitable",
+            "nothing",
+            "unsuitable",
+            "nothing",
+            "unanswerable",
+            "nothing",
+            "nothing",
+            "no words on screen",
+            "nothing",
+            "blank"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001655.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this CD?",
+        "answer": "This is a CD case. It is a transparent case with the image of a man's face on the front of it.",
+        "gt_answers": [
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman",
+            "woody herman"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002889.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Tell me if there's text what it says on this computer screen, please?",
+        "answer": "I am sorry, but I cannot see the image you have provided as it appears to be empty. However, if you have any questions or concerns, I would be happy to try to help.",
+        "gt_answers": [
+            "startup repair",
+            "repair",
+            "startup repair",
+            "startup repair",
+            "unanswerable",
+            "unsuitable image",
+            "startup repair checking your system",
+            "startup repair",
+            "startup repair checking your system",
+            "startup repair"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000340.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is in this can?",
+        "answer": "It is difficult to determine what is in the can from the image alone. The image is of a person holding a can of soup, but it is unclear what type of soup it is or what is inside the can. The only information that can be gleaned from the image is that the can is made of metal and has a blue label with white text.",
+        "gt_answers": [
+            "sugar",
+            "soup",
+            "unanswerable",
+            "soup",
+            "soup",
+            "soup",
+            "unsuitable",
+            "soup",
+            "soup",
+            "soup"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003306.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this spice?",
+        "answer": "It looks like this is a label for a bottle of sea salt. The label has the word \"sea salt\" written in large letters on top, and below it there are various other words and phrases describing the salt, such as \"hand harvested,\" \"natural,\" and \"flake.\"",
+        "gt_answers": [
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt",
+            "onion sea salt"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003307.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What kind of cigarettes are these?",
+        "answer": "The image shows a person holding a pack of cigarettes in their hand. The packaging appears to be a black and white design with an image of a Native American man holding a stick in his hand, possibly representing a totem or symbol. The brand name on the packaging appears to be \"Spirit\".",
+        "gt_answers": [
+            "american spirit",
+            "american spirit",
+            "american spirit",
+            "american spirit",
+            "american spirit",
+            "black packaged american spirits",
+            "american spirit",
+            "american spirit",
+            "american spirit",
+            "american spirit"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002046.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is there is a light on on this thing?",
+        "answer": "No, there is no light on the object in the image. The image shows a cellphone with a screen displaying a keyboard and several buttons, but there is no indication of any light being present.",
+        "gt_answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002763.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is it?",
+        "answer": "I'm sorry, but I cannot see the image you provided as you have blocked it. Can you please provide it again so that I can assist you with your questions?",
+        "gt_answers": [
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "sdgsdfg",
+            "keyboard",
+            "keyboard",
+            "keyboard",
+            "computer keyboard",
+            "keyboard"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003733.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Coffee is this?",
+        "answer": "Yes, this is a bag of coffee beans. Coffee beans are the seeds of the coffee plant, which are typically roasted and ground to make coffee. They can be brewed into various types of coffee, including drip, espresso, and French press. The quality of the coffee beans can vary depending on the region of the world they are grown in and the methods used to harvest and process them.",
+        "gt_answers": [
+            "gevalia",
+            "gevalia",
+            "gevalia",
+            "gevalia swiss hazelnut",
+            "gevalia",
+            "gevalia",
+            "gevalia",
+            "gevalia",
+            "gevalia",
+            "gevalia"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001818.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this?",
+        "answer": "This is a picture of a giraffe with its head peeking out from behind some leaves.",
+        "gt_answers": [
+            "giraffe poster",
+            "giraffe",
+            "giraffe",
+            "giraffe",
+            "giraffe poster",
+            "giraffe",
+            "giraffe poster",
+            "poster",
+            "giraffe poster",
+            "giraffe"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002978.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is inside this canned good?",
+        "answer": "The image you provided is a can of vegetables, likely corn. The image shows a can of corn sitting on top of a cell phone.\n\nIn general, canned goods are food items that are packaged in cans made of metal or plastic. They are often used for items such as fruits and vegetables, soups and stews, and other types of food that are easy to store and transport. Canned goods are popular because they are convenient and long-lasting, making them a good option for emergency food supplies or for people who want to store food for a long period of time.",
+        "gt_answers": [
+            "corn",
+            "corn",
+            "unanswerable",
+            "whole kernel corn",
+            "corn",
+            "corn",
+            "corn",
+            "corn",
+            "corn",
+            "corn kernels"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001446.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is it still checking for problems?",
+        "answer": "It appears that the computer is checking for problems with the operating system.",
+        "gt_answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000948.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What flavor is this?",
+        "answer": "It is a box of Progresso beef flavored soup.",
+        "gt_answers": [
+            "beef",
+            "beef flavored",
+            "beef",
+            "beef flavored broth",
+            "beef",
+            "beef flavor",
+            "beef flavored broth",
+            "beef",
+            "this beef flavor",
+            "beef"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001513.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Do the clouds look like storm clouds?",
+        "answer": "Yes, the clouds in the image appear to be storm clouds. They are dark and ominous, indicating the possibility of a thunderstorm or other severe weather event.",
+        "gt_answers": [
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "no",
+            "no",
+            "yes",
+            "yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000208.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this?",
+        "answer": "This is a wine bottle and a bowl of food next to it. It appears to be a sweet or dessert-like food item in the bowl.",
+        "gt_answers": [
+            "wine",
+            "wine",
+            "bottle wine",
+            "sweet red wine",
+            "wine",
+            "unanswerable",
+            "wine",
+            "red wine",
+            "wine bottle guitar finger picks",
+            "wine"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003090.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Tell me about this color.",
+        "answer": "The color of the hair in the image is blonde.",
+        "gt_answers": [
+            "brunette",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "dark brown",
+            "brown",
+            "brown",
+            "brown"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00004282.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this?",
+        "answer": "This is a dog laying on its side in a room with a hardwood floor.",
+        "gt_answers": [
+            "dog",
+            "unsuitable",
+            "dog",
+            "dog",
+            "dog",
+            "dog",
+            "dog",
+            "dog",
+            "unsuitable",
+            "dog on floor"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002879.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "whats in this can?",
+        "answer": "The image you provided shows a can of diet soda labeled with the words \"dr pepper\" on the front.",
+        "gt_answers": [
+            "diet dr pepper",
+            "diet dr pepper",
+            "diet dr pepper",
+            "diet dr pepper",
+            "dr pepper",
+            "diet dr pepper",
+            "diet dr pepper",
+            "diet dr pepper",
+            "dr pepper diet",
+            "diet dr pepper"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002798.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this item?",
+        "answer": "This is a box of Cap'n Crunch cereal, a breakfast cereal made by Kellogg's. The box features an image of a cartoon character named Cap'n Crunch, who is shown holding a bowl of cereal and looking directly at the viewer. The back of the box lists the ingredients and nutritional information.",
+        "gt_answers": [
+            "sugar",
+            "sugar",
+            "sugar",
+            "sugar",
+            "box sugar",
+            "domino sugar",
+            "sugar",
+            "sugar",
+            "sugar",
+            "sugar"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002654.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this item?",
+        "answer": "The image is a notebook with a zebra print cover and a cartoon dog on the front. The notebook has a white interior with a large zebra print on the cover. The dog on the cover looks like it is holding a leash with a tag that says 'my happy notebook' in black ink.",
+        "gt_answers": [
+            "notebook",
+            "notebook",
+            "notebook",
+            "paid",
+            "tablet",
+            "notepad",
+            "book",
+            "notebook",
+            "spiral bound notebook",
+            "notebook"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001374.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this product?",
+        "answer": "The product in the image is a box of chocolate cake. The box is made of cardboard and has a pink ribbon tied around it. The front of the box reads, \"Orange You Love Tofteesake?\"",
+        "gt_answers": [
+            "cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "cake",
+            "toffee cheesecake",
+            "toffee cheesecake",
+            "toffee cheesecake"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00004068.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What color is this shirt? ",
+        "answer": "This shirt is a light blue color.",
+        "gt_answers": [
+            "grey",
+            "grey",
+            "blue jeans",
+            "blue",
+            "blue",
+            "blue",
+            "blue grey",
+            "blue",
+            "grey",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002213.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What color is this Polo shirt?",
+        "answer": "This Polo shirt is green.",
+        "gt_answers": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green yellow logo",
+            "green",
+            "green",
+            "green",
+            "green"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003973.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this?",
+        "answer": "This is a bottle of water with the label for Nestle pure life water on it.",
+        "gt_answers": [
+            "nestle pure life water",
+            "nestle water",
+            "bottle",
+            "water",
+            "water bottle",
+            "water",
+            "water",
+            "nestle pure life water",
+            "water",
+            "water"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001181.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Who can read this for me?",
+        "answer": "This is an image of a computer screen with an app called navigation displayed on it. The app appears to have a map interface with a pinned location and a list of nearby places. There is also a button that says \"call me\" on it.",
+        "gt_answers": [
+            "navigation app",
+            "unanswerable",
+            "navigation app",
+            "navigation app",
+            "navigation app",
+            "unanswerable",
+            "navigation app",
+            "unanswerable",
+            "navigation app for visually impaired smart phone user",
+            "navigation app"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000700.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What does it say on this coupon?",
+        "answer": "The coupon says \"$5 off at Avocado Bars.\"",
+        "gt_answers": [
+            "$5 avocado bacon tostada combo",
+            "5 combo",
+            "$5 avocado bacon tostada combo",
+            "5$ avocado bacon tostada combo",
+            "$5 avocado bacon tostada combo",
+            "$ avocado bacon tostada combo",
+            "$5",
+            "avocado bacon tostada combo",
+            "$5 avocado bacon tostada combo",
+            "$5 avocado bacon tostada combo"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00000878.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What kind of food is this?",
+        "answer": "This is a tin of baked beans.",
+        "gt_answers": [
+            "corn",
+            "corn",
+            "corn",
+            "unsuitable",
+            "corn",
+            "corn",
+            "corn",
+            "corn",
+            "corn",
+            "can"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001727.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What color are my pants?",
+        "answer": "The pants in the image appear to be black.",
+        "gt_answers": [
+            "black white stripes",
+            "black",
+            "black white stripes",
+            "black",
+            "black white",
+            "black",
+            "black white stripes down sides",
+            "black",
+            "black",
+            "black"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003786.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What color is this?",
+        "answer": "This image appears to be a brown color.",
+        "gt_answers": [
+            "grey",
+            "grey",
+            "grey",
+            "grey",
+            "brown",
+            "grey",
+            "tan",
+            "tan",
+            "grey",
+            "brown"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003587.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Is this bag black and white?",
+        "answer": "Yes, the bag is black and white with polka dots on it.",
+        "gt_answers": [
+            "yes",
+            "white black spots",
+            "yes white black polka dots",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "white black polka dots",
+            "yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001994.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this?",
+        "answer": "The image shows a bottle of wine on a table.",
+        "gt_answers": [
+            "wine",
+            "wine",
+            "wine bottle",
+            "wine",
+            "bottle red wine",
+            "wine",
+            "mostly empty wine bottle",
+            "wine",
+            "bottle",
+            "wine"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001268.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is on this picture? Thank you.",
+        "answer": "The image is a page from a scientific journal that contains a graphical representation of red blood cells. The graphical representation shows the shape of red blood cells, which are typically disc shaped and have a round nucleus. The cells are shown in different stages of development and in different forms, including normal, deformed, and sickle cells.",
+        "gt_answers": [
+            "prokaryotic eukaryotic cells",
+            "prokaryotic eukaryotic cells",
+            "prokaryotic eukaryotic cells",
+            "cells",
+            "prokaryotic eukaryotic cells",
+            "unanswerable",
+            "blood cells",
+            "blood cells",
+            "prokaryotic eukaryotic cells",
+            "flowers"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003762.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What is this?",
+        "answer": "This is a Logitech wireless mouse with a black and silver finish. The device has a USB receiver attached to the bottom. The mouse is sitting on a wooden table.",
+        "gt_answers": [
+            "mouse",
+            "mouse",
+            "wireless mouse",
+            "mouse",
+            "mouse",
+            "computer mouse",
+            "logitech mouse",
+            "mouse",
+            "computer mouse",
+            "computer mouse"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001627.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What color is the sky?",
+        "answer": "The sky in the image is blue.",
+        "gt_answers": [
+            "blue",
+            "blue grey",
+            "blue",
+            "blue",
+            "grey",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue whispy clouds"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003348.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What's the name of this book?",
+        "answer": "The name of this book appears to be The Cabin Night Before Christmas.",
+        "gt_answers": [
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas",
+            "cajun night before christmas"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003230.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "What does this say?",
+        "answer": "Harry Potter and the Half Blood Prince.",
+        "gt_answers": [
+            "harry potter",
+            "harry potter deathly hallows",
+            "harry potter",
+            "harry potter deathly hallows",
+            "harry potter deathly hallows",
+            "harry potter",
+            "harry potter",
+            "harry potter deathly hallows",
+            "harry potter deathly hallows",
+            "harry potter deathly hallows"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00002882.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "Okay, I held the camera further away. I think it should be black. Could you tell me if it's black or blue, please? Thank you.",
+        "answer": "It looks like the image is black.",
+        "gt_answers": [
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "grey"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00003356.jpg",
+        "model_name": "MiniGPT-4"
+    }
+]

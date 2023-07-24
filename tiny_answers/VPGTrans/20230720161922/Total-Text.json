@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"33%.\"",
+        "gt_answers": "3638",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img1549-41.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"DIGITAL\".",
+        "gt_answers": "Digi",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img791-23.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Be safe fire.\"",
+        "gt_answers": "FIRE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img558-10.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"at t.\"",
+        "gt_answers": "at",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img671-8.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is written in Arabic and it says \"Al-Jazeera.\"",
+        "gt_answers": "JEJAK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img535-4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"HAN\"",
+        "gt_answers": "HAN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img498-4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"AN\".",
+        "gt_answers": "AN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img596-1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"Carnaby\" on it.",
+        "gt_answers": "CARNABY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img292-3.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Crunchy Chocolate.\"",
+        "gt_answers": "Crunchy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img664-29.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"The world's most popular search engine.\"",
+        "gt_answers": "et",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img659-4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"Spreadable Cream.\"",
+        "gt_answers": "SPREADABLE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img897-5.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word creation is written in the image.",
+        "gt_answers": "CREATION",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img800-0.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a man standing in front of a store with a sign that says \"Happy Shopping.\"",
+        "gt_answers": "SHOP",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img1296-10.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"Beach\"",
+        "gt_answers": "Beach",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img654-6.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is written in Turkish and it says \"Kermogul'ur Restaurant.\"",
+        "gt_answers": "KERIMOGULLARI",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img499-1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"Support the troops.\"",
+        "gt_answers": "SUPPORT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img611-13.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"Seafood\"",
+        "gt_answers": "SEAFOOD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img652-4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"World.\"",
+        "gt_answers": "WORLD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img531-5.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"What is the meaning of life?\"",
+        "gt_answers": "EXCHANGE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img605-4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a bottle of beer with the words \"Bottle of Beer\" written on it.",
+        "gt_answers": "BOTTLE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img569-2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"rock.\"",
+        "gt_answers": "Rock",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img1293-6.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"Village Bakery\"",
+        "gt_answers": "Valley",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img291-1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"1960.\"",
+        "gt_answers": "1960",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img584-4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"Comedores.\"",
+        "gt_answers": "COMEOORES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img567-4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"seafood\" is written in the image.",
+        "gt_answers": "seafood",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img92-4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The logo on the image is for Jeep Powerhouse, which is a company that sells Jeep parts and accessories.",
+        "gt_answers": "JeepPowerHouse.com",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img571-0.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word yacht is written in the image.",
+        "gt_answers": "YACHT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img570-2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"bar\" is written in the image.",
+        "gt_answers": "BAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img651-5.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The price is $100.",
+        "gt_answers": "PRICE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img6-6.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"POKKA.\"",
+        "gt_answers": "POKKA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img8-0.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says,'Golden Center.'",
+        "gt_answers": "CENTER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img1299-6.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"MAY\" is written in the image.",
+        "gt_answers": "MA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img622-38.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"weight.\"",
+        "gt_answers": "WEIGHT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img1549-2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is written in Chinese and it says,'\u4e2d\u56fd\u536b\u751f\u534f\u4f1a\u3002",
+        "gt_answers": "CHINESE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img997-6.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says \"London Bakers.\"",
+        "gt_answers": "LONDON",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img866-0.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Brewing Co.\"",
+        "gt_answers": "WING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img614-1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"Sports.\"",
+        "gt_answers": "SPORT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img611-4.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"Take a look at this beautiful sunset.\"",
+        "gt_answers": "Take",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img993-0.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word Paratha is written in the image.",
+        "gt_answers": "PARATHA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img584-5.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"The Best of the Best.\"",
+        "gt_answers": "FOR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img892-20.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a person sitting on a chair with a laptop on their lap. The person is wearing a red shirt and black pants. The laptop has a white screen with the words \"Sotfenter\" written on it.",
+        "gt_answers": "Softener",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img1546-3.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red and black sign that says \"Vogue\" in white letters.",
+        "gt_answers": "QUE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img596-6.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"Coffee and Juice\"",
+        "gt_answers": "COFFEE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img395-1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Cinco de Mayo.\"",
+        "gt_answers": "CINC",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img1543-2.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"daily\" is written in the image.",
+        "gt_answers": "DAILY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img555-0.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"delight.\"",
+        "gt_answers": "Delight",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img493-1.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Bridge Street.\"",
+        "gt_answers": "BRIDG",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img666-3.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"little\" is written in the image.",
+        "gt_answers": "Little",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img195-3.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Cross.\"",
+        "gt_answers": "Cross",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img894-0.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"All In.\"",
+        "gt_answers": "ALL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img1397-9.png",
+        "model_name": "VPGTrans"
+    }
+]

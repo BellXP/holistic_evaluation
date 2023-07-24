@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a text message with the subject line \"Sounds like jazz.\"",
+        "gt_answers": "PAWN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000857.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image depicts a yellow and red sign with the words, \"Envy\" and \"Sales.\"",
+        "gt_answers": "Denny's",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001498.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo with a red and white background and the words \"GI\" and \"Jaguar\" in the center.",
+        "gt_answers": "LIGHT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000582.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black-and-white photograph of a man and a young woman, sitting on chairs and holding each other.",
+        "gt_answers": "MILAW",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000601.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the text \"Harvey High School\" written in blue.",
+        "gt_answers": "H",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001435.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a sign with the word \"Pit\" written on it.",
+        "gt_answers": "CAPITOL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000329.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a gold-colored metal license plate with a black font that reads \"FF.\" It also has a reflector strip around the plate, which enhances its visibility and makes it more readable in low-light conditions.",
+        "gt_answers": "MUFFLER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001208.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a large, bold text written in the middle of the page, which reads \"HDR - The Ultimate in Digital Photography.\"",
+        "gt_answers": "SUNDRIES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001526.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a computer screen displaying a website. The website appears to be a search engine with the word Google written in large, bold letters at the top of the page.",
+        "gt_answers": "BUDLIGHT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000360.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large green letter C with the words \"Coconut Oil\" underneath.",
+        "gt_answers": "LaCocina",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000997.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a white and blue text that reads, \"Feed your brain with knowledge.\"",
+        "gt_answers": "LEEDS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000957.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red circle with an image of an eye inside of it, along with the words \"Eye of the Day.\"",
+        "gt_answers": "Opep",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001079.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows an exterior sign for a restaurant or bar called \"The Escondido\" with its address. The words \"Escondido\" and \"Restaurant\" are written in large text. The address is displayed on the sign as \"2201 E. 7th St. #102.\"",
+        "gt_answers": "ESCONDIDO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000413.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign on a black background, which reads \"Heed & Heeded.\"",
+        "gt_answers": "ICHEDDAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000293.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white piece of paper with black numbers printed on it, specifically the number \"2.65.\"",
+        "gt_answers": "$2.50",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000726.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red text with the word \"STS\" written across it.",
+        "gt_answers": "EST.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001557.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign that reads \"Nes's The Farm.\"",
+        "gt_answers": "STONE'STHROW",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000236.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a neon sign that reads, \"Topi Cocktail Lounge.\"",
+        "gt_answers": "Tropics",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000616.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a small black dot on a white background. The dot has a circular shape and appears to be located in the center of the frame.",
+        "gt_answers": "20.40",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000838.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a store called \"Hullman's of Norwich\" with the words \"Fresh Fish\" written on the sign.",
+        "gt_answers": "Colman'S",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001426.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white letter \"E\" written on a black background, with a slight yellow tint to it, possibly indicating a vintage or retro style.",
+        "gt_answers": "E",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001108.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a close-up of a red-and-white sign with the words \"Hitachi\" and \"Safety First\" printed on them.",
+        "gt_answers": "THIS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001178.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a large red and white sign that says \"Market Street Candy Store.\"",
+        "gt_answers": "CINEMA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001338.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a piece of metal with a gold finish that has a letter 'A' written on it.",
+        "gt_answers": "Healthy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000736.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red sign with the word \"dept\" on it.",
+        "gt_answers": "DEPT.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000374.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image depicts a set of two silver spoons with the word \"U\" engraved on them. The spoons are placed on a white background, making them stand out.",
+        "gt_answers": "CLUB",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000716.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a clock displaying the time 10:20 PM.",
+        "gt_answers": "10",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001205.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a painted wall with the words \"Club Barakah,\" which could be a bar or a nightclub.",
+        "gt_answers": "Maraka's",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000893.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black shirt with white text on it. The text is written in German, but it translates into English as \"Death Press - The Power to Kill.\"",
+        "gt_answers": "DEATHPRESSO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000744.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of the face of a man who is smiling and looking into the camera, with the text \"666\" written in his forehead.",
+        "gt_answers": "66",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001053.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden plaque that has the words \"Jimmy's Farm Pizza\" written on it.",
+        "gt_answers": "compAnY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000033.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a sign that reads \"JD 2000.\"",
+        "gt_answers": "CRIOLLA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001377.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains an artistic graffiti design that is sprayed across the wall. It is red and white, creating a bold visual effect. There are several words written in the graffiti, including \"trash,\" \"love,\" \"grace,\" and \"fearless.\"",
+        "gt_answers": "CRASH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000998.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, a large black and silver sign with the word \"Aurora\" written in white is displayed.",
+        "gt_answers": "RESTAURANT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000752.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features two yellow signs with white lettering. One sign says \"HOMESTEAD FARM,\" while the other says \"PETTING ZOO\" with a picture of a dog and the lettering \"DOGS\" below.",
+        "gt_answers": "HOMESTEAD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000704.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a sign with the text \"J.G.F.C.\" written in yellow on a black background or a black sign.",
+        "gt_answers": "O.J.F.C.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000623.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, a black and white image of a sign is visible that says \"3 + 5 = 8.\" The sign is placed on the floor in front of some furniture.",
+        "gt_answers": "TA3-21",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001352.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a wooden market sign with the words \"Allapala Market\" written on it.",
+        "gt_answers": "KALAPAWAI",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000259.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Fresh\" written on it in red letters.",
+        "gt_answers": "FRESH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001032.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue and white book with the word \"Treat\" written on the front cover.",
+        "gt_answers": "917-HKX",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000122.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the logo for Nutella, which is a chocolate hazelnut spread.",
+        "gt_answers": "GENUINE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001034.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large red and black sign with McKenzies printed across it. The sign is attached to a brick building and is located on a corner of a street.",
+        "gt_answers": "D.McKENZIE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001550.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large metal letter \"G\" with the word \"green\" printed on it.",
+        "gt_answers": "C",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001075.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"JUST CHEESE\" written on a white background.",
+        "gt_answers": "CHEESE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000496.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image depicts a silver and red pin with a letter B engraved in it.",
+        "gt_answers": "B",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000732.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"THE\" in black and white, which has been stamped or engraved on the surface of a license plate.",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000982.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a large, colorful, and vibrant neon sign with a red, white and green color scheme. The word \"Centro,\" written in a large font, is prominently displayed in the center.",
+        "gt_answers": "Centnal",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000845.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a drawing of a man wearing a green shirt, which has a large, colorful design on it, and is holding up a sign that reads \"Siris.\"",
+        "gt_answers": "BEER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000000576.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white board with a list written on it. There are multiple words written on the board, but they cannot be fully identified.",
+        "gt_answers": "Erweitert",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001410.jpg",
+        "model_name": "mPLUG-Owl"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a vintage 1960's gas pump with the number \"686\" on it, along with a banner that reads, \"6686.\"",
+        "gt_answers": "826-8922",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CTW/imgs/000001290.jpg",
+        "model_name": "mPLUG-Owl"
+    }
+]

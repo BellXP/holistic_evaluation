@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image features the words \"\"Crossing Boundaries\"\" written on it.\".",
+        "gt_answers": "MUSEUM",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/20.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image displays the words \"\"isolation\"\" written or shown in some form.\".",
+        "gt_answers": "CHASE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/138.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image displays the words \"\"isolation\"\" written or shown in some form.\".",
+        "gt_answers": "ASU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/488.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image features the word \"\"H2O\"\" written, which appears to be a stencilled or typewritten message.\".",
+        "gt_answers": "WAREHOUSE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/455.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\" Design  -  a word in the center of the image -  with a circle around it.\".",
+        "gt_answers": "DESIGN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/391.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image has the words \"\"joy division\"\" written in it.\".",
+        "gt_answers": "HAPPINESS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/161.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image features the words \"\"coffee break\"\" written in a large typeface, emphasizing the coffee-related message.\".",
+        "gt_answers": "SCOOTERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/522.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Purdue\"\" is spray-painted on the surface where the cat is sitting.\".",
+        "gt_answers": "ART",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/21.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The words \"\"Hatsugama DVD\"\" are written in Japanese and appear to be on a label or packaging.\".",
+        "gt_answers": "HATSU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/471.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The words \"\"Sex and the City\"\" are written in black lettering on the image.\".",
+        "gt_answers": "MARLBORO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/61.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"amusement\"\" is written underneath the neon sign.\".",
+        "gt_answers": "PARAMOUNT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/110.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"rivista\"\" written on a sign or a paper.\".",
+        "gt_answers": "VIA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/288.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image says \"\" Hard working \"\" written in sand.\"\"\".",
+        "gt_answers": "HARD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/80.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\"Sportsmanship\"\" written on a surface, possibly a sign or a piece of paper.\".",
+        "gt_answers": "POSTERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/447.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows a sign with the word \"\"The Spire Hotel\"\" written on it.\".",
+        "gt_answers": "MURPHY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/612.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Friday\"\" is written across the image.\".",
+        "gt_answers": "UNIVERSITY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/486.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\"creative eye.\"\"\".",
+        "gt_answers": "THEATER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/358.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image displays the word \"\"axial\"\" written on a sign.\".",
+        "gt_answers": "TEXTILES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/559.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The words \"\"Cold Front\"\" are written in type, appearing as white letters on a black background.\".",
+        "gt_answers": "HOTEL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/567.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The words \"\"Sushi Buzz\"\" are written in black lettering on the surface of a red sign.\".",
+        "gt_answers": "SUSHI",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/241.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image has the words \"\"Gladiators\"\" written in it.\".",
+        "gt_answers": "WARWICK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/528.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"LUNA\"\" is written on the sign in the store.\".",
+        "gt_answers": "ZULA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/238.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The words \"\"Wish you were here\"\" are written in ink on the surface of the photo.\".",
+        "gt_answers": "THEATER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/248.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The words \"\"Druid Performances\"\" are written in white lettering on the image.\".",
+        "gt_answers": "FUDDRUCKERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/588.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Crisis\"\" is written on the sign in black and red letters.\".",
+        "gt_answers": "UNDER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/91.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image displays the words \"\" Colorado Christian University \"\" written in white letters on a blue background.\"\" The university's name is visible on a building or a sign.\".",
+        "gt_answers": "COLORADO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/628.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image says \"\"Liberty Mutual.\"\"\".",
+        "gt_answers": "LAURENCE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/133.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image features the words \"\"Crazy about crafts\"\" written in a handwritten style, emphasizing the creative nature of the photograph.\".",
+        "gt_answers": "LENSCRAFTERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/535.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\"ray trace\"\" written on a surface, possibly a chalkboard or a sign.\".",
+        "gt_answers": "CAFE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/86.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"Crisis\"\" written on a sign or paper.\".",
+        "gt_answers": "GRANDSTAND",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/50.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Public\"\" is written inside the cloudy glass window of the store or building.\".",
+        "gt_answers": "PUBLIC",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/113.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\"peep jam\"\" written on a sign or paper.\".",
+        "gt_answers": "SPEED",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/313.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image displays the words \"\"Cross Training\"\" written on a small chalkboard or a piece of paper.\".",
+        "gt_answers": "STREET",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/583.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"Lance\"\" written on a street sign.\".",
+        "gt_answers": "EAGER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/302.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Driven\"\" is spray-painted on the surface where the logo for the \"\"DirecTV\"\" brand is displayed.\".",
+        "gt_answers": "WINBRO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/325.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image displays the words \"\"Suzlon\"\" written on a sign.\".",
+        "gt_answers": "QUIZNOS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/328.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image has the words \"\"Crisis Now\"\" written on it.\".",
+        "gt_answers": "CAFE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/85.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the words \"\" Minnie \"\" written or carved on a surface.\".",
+        "gt_answers": "INN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/633.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The words \"\"Crowned Esthetics\"\" are written in white lettering on the top of the image.\".",
+        "gt_answers": "GOODWILL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/298.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image has the words \"\"written in dust\"\" at the bottom, indicating that the words are visible on the surface of the table where the items are placed.\".",
+        "gt_answers": "SENTINEL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/538.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The words \"\" Palace Entertainment \"\" are written in front of the building.\".",
+        "gt_answers": "PALACE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/151.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"isolation\"\" written or shown in the picture.\".",
+        "gt_answers": "RESTAURANT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/623.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows a sign with the words \"\"richter 12\"\" written on it.\".",
+        "gt_answers": "CHERRY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/67.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image features the words \"\"Congratulations\"\" written in ink on a piece of paper or a chalkboard.\".",
+        "gt_answers": "SCHOOL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/552.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"Alcohol\"\" written on the side of a building.\".",
+        "gt_answers": "SAIGON",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/640.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Battles\"\" is displayed in the center of the image.\".",
+        "gt_answers": "BAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/435.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows a sign with the word \"\"centennial\"\" written on it.\".",
+        "gt_answers": "CENTRE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/457.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"FOX\"\" is visible in the picture, and it is lit up in the dark.\".",
+        "gt_answers": "FOX",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/294.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The image shows the word \"\"overall\"\" written, which could be on a sign or a piece of paper.\".",
+        "gt_answers": "UNIVERSITY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/484.jpg",
+        "model_name": "Otter"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"The word \"\"Directions\"\" written in graffiti is visible on the side of a white building.\".",
+        "gt_answers": "OSCO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/SVTP/image/440.jpg",
+        "model_name": "Otter"
+    }
+]

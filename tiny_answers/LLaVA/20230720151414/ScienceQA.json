@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Question: What is the name of the colony shown?\nOptions: New York\nRhode Island\nNorth Carolina\nNew Jersey\n",
+        "answer": "The name of the colony shown in the image is New York.The map displays a large green area, which could be a part of the state of New York.The map shows a large green area, which could be a part of the state of New York.The image features a map of the United States with a large green area, which is likely the state of New York.The large green area on the map is likely a part of the state of",
+        "gt_answers": "Rhode Island",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0131.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: In this food web, which organism contains matter that eventually moves to the mushroom?\nOptions: brown lemming\nbilberry\nContext: Below is a food web from a tundra ecosystem in Nunavut, a territory in Northern Canada.\nA food web models how the matter eaten by organisms moves through an ecosystem. The arrows in a food web represent how matter moves between organisms in an ecosystem.\n",
+        "answer": "In this food web, the bear is the primary consumer, consuming plants and small animals like berries and insects. The plants and insects are the primary producers in the ecosystem, providing food for the bear. The bear's presence in the ecosystem also affects the distribution of the plants and insects, as it may help shape the landscape and create a food source for other organisms. The food web illustrates the interconnected relationships between different species in the ecosystem, and the bear plays a crucial role as a top predator.",
+        "gt_answers": "bilberry",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0778.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Jamaica\nSaint Lucia\nBarbados\nSaint Vincent and the Grenadines\n",
+        "answer": "The image highlights the Caribbean island of Saint Lucia.The image features a map of Saint Lucia with a green and blue color scheme, which is a common representation of the island's natural beauty and landscape.The map also shows a small island with a green and blue color scheme, which could be an island or a part of the larger Saint Lucia island.The image is a map of Saint Lucia, which is an island in the Caribbean.A map of Saint Lucia",
+        "gt_answers": "Saint Lucia",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0281.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which of these states is farthest east?\nOptions: New York\nOhio\nColorado\nMississippi\n",
+        "answer": "The state that is farthest east in the United States is New York.The image shows a map of the United States with the states labeled.The state that is farthest east is New York.The map shows the states of the United States, with New York being the one on the far eastern edge.The image is a map of the United States with the states labeled, and it shows New York as the state furthest east.The",
+        "gt_answers": "New York",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1108.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: According to the map, which of the following statements is true about North America in the early colonial era?\nOptions: England claimed most of the Atlantic coast of North America.\nThe Dutch controlled the most territory in eastern North America.\nContext: Look at the map of North America in the early colonial era, or the 1600s and early 1700s. Then answer the question below.\n",
+        "answer": "In the image, there is a map of North America in the early colonial era, with the United States, Canada, and Mexico. The map shows that England claimed most of the Atlantic coast, while the Dutch controlled the most territory in eastern North America. This indicates that the map was created during the time when these countries were competing for land and resources in the New World.The map also shows the presence of Native American tribes, which suggests that the region was inhabited by various indigenous groups.",
+        "gt_answers": "England claimed most of the Atlantic coast of North America.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1305.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What is the expected ratio of offspring with a yellow ground spot to offspring with a white ground spot? Choose the most likely ratio.\nOptions: 4:0\n3:1\n1:3\n0:4\n2:2\nContext: This passage describes the ground spot color trait in watermelon plants:\nWatermelon plants grow with their fruit resting on the ground. Over time, the bottom of each fruit develops a white or yellow spot called a ground spot. In some types of watermelon plants, the color of the ground spot is an inherited trait.\nIn a group of watermelon plants, some individuals have a yellow ground spot and others have a white ground spot. In this group, the gene for the ground spot color trait has two alleles. The allele for a white ground spot (g) is recessive to the allele for a yellow ground spot (G).\nThis Punnett square shows a cross between two watermelon plants.\n",
+        "answer": "The most likely ratio of offspring with a yellow ground spot to offspring with a white ground spot is 1:3. This is because the image shows a cross between two watermelon plants, and the Punnett square indicates that the offspring will have a 1:3 ratio of yellow ground spot to white ground spot. The offspring will have a mix of both traits, with the majority having a yellow ground spot and a smaller percentage having a white ground spot.COVID-19 Vaccine Distribution:",
+        "gt_answers": "4:0",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1393.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Is a T-shirt a solid, a liquid, or a gas?\nOptions: a liquid\na gas\na solid\n",
+        "answer": "A T-shirt is a solid, not a liquid or a gas.The image shows a blue and yellow T-shirt.The image is a close-up of the T-shirt, which is a solid piece of clothing.The T-shirt is not a liquid or a gas, as it is a solid object.The T-shirt is a piece of clothing made from fabric, typically worn by people to cover their upper body.The",
+        "gt_answers": "a solid",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1511.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Does Rhizophora mangle have cells that have a nucleus?\nOptions: yes\nno\nContext: This organism is Rhizophora mangle. It is a member of the plant kingdom.\nRhizophora mangle is commonly called a red mangrove. Red mangrove trees grow in or near water. They have strong roots that help prop, or hold, them up. These roots are also aerial, which means that they can grow above the ground. So, the red mangrove roots are called aerial prop roots.\n",
+        "answer": "Yes, the red mangrove tree in the image has cells that have a nucleus.The red mangrove tree, also known as Rhizophora mangle, is a type of mangrove tree that grows in or near water. It has aerial prop roots, which are long, thin roots that extend above the water level and help the tree anchor itself to the ground. These aerial roots are essential for the tree's survival, as they provide support and stability in the waterlogged and",
+        "gt_answers": "yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1169.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Look at the models of molecules below. Select the elementary substance.\nOptions: bromine\nhydrazine\ntrichlorofluoromethane\n",
+        "answer": "The image shows a table with four different types of substances: bromine, hydrogen, chlorine, and trichlorofluoromethane. The substances are arranged in a row, and each has a distinct color. The presence of these substances suggests that they might be used in various applications, such as cleaning, sanitizing, or chemical production. The different colors and the presence of bromine and trichlorofluoromethane indicate that they have different properties and uses.The image shows a close",
+        "gt_answers": "bromine",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1078.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What is the capital of Minnesota?\nOptions: Saint Paul\nMinneapolis\nJefferson City\nPierre\n",
+        "answer": "The capital of Minnesota is Saint Paul.The image shows a map of the United States with the state of Minnesota highlighted.The capital of Minnesota is Saint Paul, which is located in the northern part of the state.The map shows the state of Minnesota with its capital city, Saint Paul, marked as the capital.The capital of Minnesota is Saint Paul, which is a city located in the northern part of the state.The capital of Minnesota is Saint",
+        "gt_answers": "Saint Paul",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1426.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Saint Kitts and Nevis\nBarbados\nHaiti\nAntigua and Barbuda\n",
+        "answer": "The image highlights Barbados, a Caribbean island nation.The image features a map of the Caribbean with a green dot representing Barbados.The green dot on the map is the location of Barbados, which is an island country in the Caribbean.The image is a close-up of the map, providing a clear view of the green dot representing Barbados.The green dot on the map represents the location of Barbados, which is an island nation in the",
+        "gt_answers": "Antigua and Barbuda",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0460.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What is the capital of Delaware?\nOptions: Harrisburg\nDover\nWilmington\nGeorgetown\n",
+        "answer": "The capital of Delaware is Dover.The image shows a map of the United States with a green state outlined in white, which is Delaware.The capital of Delaware is Dover.The capital of Delaware is Dover.The capital of Delaware is Dover.The capital of Delaware is Dover.The capital of Delaware is Dover.The capital of Delaware is Dover.The capital of Delaware is Dover.The capital of Delaware is",
+        "gt_answers": "Dover",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0574.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which property do these three objects have in common?\nOptions: fragile\nsticky\ncolorful\nContext: Select the best answer.\n",
+        "answer": "The three objects in the image are socks, a shoe, and a pair of pants. They are all made of fabric and are hanging on a clothesline.The objects are described as colorful, which suggests that they have vibrant or eye-catching colors.The objects are hanging on a clothesline, which is a common method for drying clothes or other items outdoors.The objects are likely to be used for personal hygiene purposes, such as socks and pants, as they",
+        "gt_answers": "colorful",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1211.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What is the capital of Idaho?\nOptions: Oklahoma City\nBoise\nBaton Rouge\nNampa\n",
+        "answer": "The capital of Idaho is Boise.The image shows a map of the United States with a green state highlighted, which is Idaho.The green state is the state of Idaho, and its capital is Boise.The capital of Idaho is Boise, which is a city located in the center of the state.The image shows a map of the United States with a green state highlighted, which is Idaho.The capital of Idaho is Boise,",
+        "gt_answers": "Boise",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1163.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnetic force is weaker in Pair 1.\nThe strength of the magnetic force is the same in both pairs.\nThe magnetic force is weaker in Pair 2.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material.\n",
+        "answer": "The statement that the magnetic force is weaker in Pair 2 is incorrect. In the image, the magnets in both pairs are of the same size and strength, and they are all holding up the same object. The difference between the pairs is that one pair has a blue and white color scheme, while the other pair has a red and white color scheme. The magnets are not weaker in Pair 2; they are simply different in color.The image shows two pairs of magnets, each with a different",
+        "gt_answers": "The magnetic force is weaker in Pair 2.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1880.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Identify the question that Kira's experiment can best answer.\nOptions: Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?\nDoes fabric turn darker when soaked in a mixture of black dye and water for 15 minutes compared to 30 minutes?\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nKira prepared ten buckets, each with one gallon of boiling water and three tablespoons of black fabric dye. Kira soaked white linen fabric squares in five of the buckets, and white cotton fabric squares in the other five buckets. All of the fabric squares were soaked for 15 minutes. After the fabric dried, Kira scored the darkness of the squares on a scale from light to dark. She compared the darkness of the linen fabric to the darkness of the cotton fabric.\nFigure: fabric that has been dyed black.\n",
+        "answer": "The question that Kira's experiment can best answer is whether linen fabric turns darker than cotton fabric when soaked in a mixture of black dye and water for 15 minutes compared to 30 minutes. The experiment involves soaking both white linen and white cotton fabric squares in boiling water with black dye for 15 and 30 minutes, respectively. By comparing the darkness of the fabric after drying, Kira can determine if the dyeing process affects the fabric differently based on the duration of the soaking.The passage",
+        "gt_answers": "Does linen fabric turn darker than cotton fabric when soaked in a mixture of black dye and water?",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0124.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which term matches the picture?\nOptions: operant conditioning\nclassical conditioning\nContext: Read the text.\nA conditioned response occurs when an animal learns to associate two events that were not originally related. For example, a dog will naturally salivate at the smell of food (an unconditioned response). However, if a dog learns that the sound of a ringing bell is a sure sign that dinner is coming, it will begin to react to the sound of that bell the same way it reacts to the smell of food (a conditioned response). This is called classical conditioning.\nOperant conditioning is a process like classical conditioning. However, in classical conditioning, the events that an animal learns to associate are not under the animal's voluntary control. In operant conditioning, an external event that is either a reward or punishment becomes linked with a voluntary behavior. For example, a student who receives a gold star for sitting quietly is more likely to choose to sit quietly in the future. The behavior (sitting quietly) has become linked in the student's mind with the reward that it produced in the past. Animal trainers rely on operant conditioning to encourage desired behaviors and discourage unwanted ones.\n",
+        "answer": "The term that matches the picture is operant conditioning.The image shows a woman sitting on the floor with a dog, and the dog is being trained to perform a trick. The woman is holding a treat in her hand, which is a reward for the dog's behavior. This is an example of operant conditioning, where the dog learns to associate a specific behavior with a reward, such as the treat, and eventually performs the trick in response to the reward.The image shows a woman sitting on",
+        "gt_answers": "operant conditioning",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0805.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Select the organism in the same genus as the spot-billed pelican.\nOptions: Ardea herodias\nPelecanus philippensis\nBubo scandiacus\nContext: This organism is a spot-billed pelican. Its scientific name is Pelecanus philippensis.\n",
+        "answer": "The organism in the image is a pelican.The pelican is a large bird with a white body and a long, hooked beak. It is known for its ability to catch fish in the water, which it does by diving and snatching them from the water's surface.The pelican is a large bird of prey, typically found in coastal regions, and is known for its distinctive white plumage and large, hooked beak.The pelican is a large, long-",
+        "gt_answers": "Pelecanus philippensis",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0779.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Is plagioclase a mineral or a rock?\nOptions: rock\nmineral\nContext: Plagioclase has the following properties:\nwhite streak\nfixed crystal structure\npure substance\nnaturally occurring\nnot made by organisms\nsolid\n",
+        "answer": "Plagioclase is a mineral, not a rock. It is a type of feldspar, which is a common mineral found in igneous and metamorphic rocks.The image shows a rock with a white streak, which could be a piece of plagioclase.The rock is not made by organisms, as it is described as a \"rocks and minerals\" collection.The rock in the image is a piece of plagioclase, which is a type of",
+        "gt_answers": "mineral",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1706.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Select the mammal below.\nOptions: wombat\nbarn owl\nflamingo\nocean sunfish\nContext: Mammals have hair or fur and feed their young milk.\nMammals are warm-blooded. Warm-blooded animals can control their body temperature.\nA rabbit is an example of a mammal.\n",
+        "answer": "The mammal in the image is a rabbit.The image features a rabbit sitting in a grassy field, surrounded by tall grass and a forest in the background.The rabbit is a small, furry mammal that belongs to the family Leporidae, which includes hares and other small herbivorous animals. Rabbits are known for their agility, speed, and ability to burrow, which allows them to thrive in various environments, such as grasslands, forests, and",
+        "gt_answers": "wombat",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0572.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What is the capital of Nebraska?\nOptions: Providence\nSaint Paul\nLincoln\nKansas City\n",
+        "answer": "The capital of Nebraska is Lincoln.The image shows a map of the United States with a green state highlighted, which is Nebraska.The map also includes a picture of a city with a green background, which is likely Lincoln.The capital of the state of Nebraska is Lincoln, which is a city located in the center of the state.The image features a map of the United States with a green state highlighted, which is Nebraska.The capital of the state of Nebraska is",
+        "gt_answers": "Lincoln",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1008.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnetic force is stronger in Pair 1.\nThe strength of the magnetic force is the same in both pairs.\nThe magnetic force is stronger in Pair 2.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material.\n",
+        "answer": "The statement that is true is that the magnets in Pair 1 are stronger than the magnets in Pair 2.The image shows two sets of magnets, each with a blue and a red side, sitting next to each other. The magnets in Pair 1 are stronger than the ones in Pair 2, as indicated by the blue side of the magnets being closer together.The image shows a close-up view of the two sets of magnets, allowing us to see the differences in strength between the two pairs.",
+        "gt_answers": "The strength of the magnetic force is the same in both pairs.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0372.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What is the capital of California?\nOptions: Sacramento\nReno\nLos Angeles\nSan Francisco\n",
+        "answer": "The capital of California is Sacramento.The image shows a map of the United States with a green state highlighted, which is California.The capital of California is Sacramento.The capital of California is Sacramento.The capital of California is Sacramento.The capital of California is Sacramento.The capital of California is Sacramento.The capital of California is Sacramento.The capital of California is Sacramento.The capital of California is Sacramento.The capital",
+        "gt_answers": "Sacramento",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0155.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which property do these three objects have in common?\nOptions: blue\nsticky\nfuzzy\nContext: Select the best answer.\n",
+        "answer": "The three objects in the image have a common characteristic: they are all socks.The image features a pair of purple and green striped socks, a pair of white socks, and a pair of blue socks. These socks are all placed on a table or a counter, and they share the same color scheme.The common characteristic among these socks is that they are all pairs of socks, and they are likely to be worn or used for various purposes, such as for walking, running, or keeping feet",
+        "gt_answers": "fuzzy",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0359.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What is the capital of Idaho?\nOptions: Boise\nBaton Rouge\nAtlanta\nNampa\n",
+        "answer": "The capital of Idaho is Boise.The image shows a map of the United States with a green state highlighted, which is Idaho.The capital of Idaho is Boise.The capital of Idaho is Boise.The capital of Idaho is Boise.The capital of Idaho is Boise.The capital of Idaho is Boise.The capital of Idaho is Boise.The capital of Idaho is Boise.The capital of",
+        "gt_answers": "Boise",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1407.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What is the capital of Ohio?\nOptions: Cleveland\nColumbus\nCincinnati\nFargo\n",
+        "answer": "The capital of Ohio is Columbus.The image shows a map of the United States with a green state highlighted, which is Ohio.The green state is the state of Ohio, and the capital city is Columbus.The capital of Ohio is Columbus, which is a city located in the central part of the state.The capital of Ohio is Columbus, which is a city in the central part of the state.The capital of Ohio is Columbus, which is a city located in",
+        "gt_answers": "Columbus",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1289.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which of these cities is marked on the map?\nOptions: Omaha\nChicago\nSt. Louis\nCleveland\n",
+        "answer": "The map shows the states of Illinois, Indiana, and Wisconsin.The map is a green map, which indicates that it is a digital map or a map with a green background.The map shows the outline of the states, with the borders clearly marked.The map is a colorful map of the United States, with the states of Illinois, Indiana, and Wisconsin highlighted.The map shows the outline of the states, with their names and boundaries clearly visible.The map is",
+        "gt_answers": "St. Louis",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1322.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Complete the text to describe the diagram.\nSolute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.\nOptions: to the left than to the right\nto the right than to the left\nContext: The diagram below shows a solution with one solute. Each solute particle is represented by a yellow ball. The solution fills a closed container that is divided in half by a membrane. The membrane, represented by a dotted line, is permeable to the solute particles.\nThe diagram shows how the solution can change over time during the process of diffusion.\n",
+        "answer": "The image shows a solution containing yellow particles, which are likely to be solute particles, moving in both directions across a permeable membrane. The membrane is dividing the solution into two distinct areas. The solute particles are moving from one side of the membrane to the other, indicating that the solution is in a state of equilibrium. This could be a result of the balance between the forces of attraction and repulsion between the solute and solvent molecules, which allows the particles to flow through the membrane without being trapped.",
+        "gt_answers": "to the left than to the right",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0910.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Haiti\nSaint Lucia\nBarbados\nSaint Vincent and the Grenadines\n",
+        "answer": "The country highlighted in the image is Saint Lucia.The image features a map of Saint Lucia, with a green island and a blue ocean in the background.The map is a satellite map, which provides a clear view of the island and its surrounding area.The map shows the location of Saint Lucia, an island in the Caribbean, with its capital city, Castries, located on the western coast.The map also highlights the location of the country's main airport, Hewanor",
+        "gt_answers": "Saint Lucia",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0858.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which country is highlighted?\nOptions: Antigua and Barbuda\nJamaica\nSaint Lucia\nSaint Kitts and Nevis\n",
+        "answer": "The image highlights the Caribbean island of Antigua and Barbuda.The image features a map of Antigua and Barbuda, which is an island country in the Caribbean.The map shows the country's outline, including its coastline, and the surrounding ocean.The image also features a green and blue flag, which is the national flag of Antigua and Barbuda.The image is a map of Antigua and Barbuda, which is a small island country",
+        "gt_answers": "Saint Kitts and Nevis",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1756.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What can Mark and Valeria trade to each get what they want?\nOptions: Mark can trade his tomatoes for Valeria's broccoli.\nValeria can trade her broccoli for Mark's oranges.\nMark can trade his tomatoes for Valeria's sandwich.\nValeria can trade her almonds for Mark's tomatoes.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nMark and Valeria open their lunch boxes in the school cafeteria. Both of them could be happier with their lunches. Mark wanted broccoli in his lunch and Valeria was hoping for tomatoes. Look at the images of their lunches. Then answer the question below.\n",
+        "answer": "In the image, there are two lunch boxes on a table, each containing a sandwich and a side of broccoli. Mark and Valeria are looking at their lunches, and they can trade their food items to get what they want. Mark can trade his tomatoes for Valeria's broccoli, while Valeria can trade her almonds for Mark's tomatoes. This exchange allows them to enjoy their preferred food items while also sharing and enjoying the variety of food options available at the cafeteria.The image",
+        "gt_answers": "Mark can trade his tomatoes for Valeria's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0823.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which month has the lowest average precipitation in London?\nOptions: November\nJuly\nMay\nContext: Use the graph to answer the question below.\n",
+        "answer": "The month with the lowest average precipitation in London is July.The image shows a bar graph with a line representing the average precipitation for each month. The lowest line on the graph is for July, indicating that it has the lowest average precipitation among the months.The image shows a bar graph with a line for each month, indicating the average precipitation for that month. The months with the highest precipitation are typically associated with higher rainfall, while the months with the lowest precipitation have lower rainfall. In this case,",
+        "gt_answers": "July",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0598.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What can Sadie and Kira trade to each get what they want?\nOptions: Kira can trade her almonds for Sadie's tomatoes.\nSadie can trade her tomatoes for Kira's broccoli.\nKira can trade her broccoli for Sadie's oranges.\nSadie can trade her tomatoes for Kira's sandwich.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nSadie and Kira open their lunch boxes in the school cafeteria. Both of them could be happier with their lunches. Sadie wanted broccoli in her lunch and Kira was hoping for tomatoes. Look at the images of their lunches. Then answer the question below.\n",
+        "answer": "In the image, Sadie and Kira are both eating lunch in the school cafeteria. Sadie has a sandwich and carrots in her lunch box, while Kira has a sandwich and broccoli. They can trade their lunches to get what they want. Sadie can trade her sandwich for Kira's broccoli, and Kira can trade her broccoli for Sadie's sandwich. This way, both girls can enjoy their preferred food items without having to eat the other's lunch.The image shows two lunchboxes with different food items, and the two girls are sitting",
+        "gt_answers": "Sadie can trade her tomatoes for Kira's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0785.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What can Turner and Mona trade to each get what they want?\nOptions: Turner can trade his tomatoes for Mona's broccoli.\nTurner can trade his tomatoes for Mona's carrots.\nMona can trade her broccoli for Turner's oranges.\nMona can trade her almonds for Turner's tomatoes.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nTurner and Mona open their lunch boxes in the school cafeteria. Neither Turner nor Mona got everything that they wanted. The table below shows which items they each wanted:\n\nLook at the images of their lunches. Then answer the question below.\nTurner's lunch Mona's lunch\n",
+        "answer": "In the image, both Turner and Mona have lunch boxes with various items such as tomatoes, broccoli, oranges, and almonds. They can trade these items to get what they want. For example, Turner can trade his tomatoes for Mona's broccoli, and Mona can trade her broccoli for Turner's oranges. Alternatively, Mona can trade her almonds for Turner's tomatoes. By engaging in this trade, they can satisfy their preferences and enjoy their lunches.The image shows a school cafeteria setting, which suggests that the students are participating in",
+        "gt_answers": "Turner can trade his tomatoes for Mona's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0117.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which of these states is farthest south?\nOptions: Maine\nMassachusetts\nMichigan\nDelaware\n",
+        "answer": "The state that is farthest south in the United States is Florida.The image shows a map of the United States with a green state highlighted, which is Florida.The map is a black and white map of the United States, with the green state being Florida.The map is a black and white map of the United States, with the green state being Florida.The image shows a map of the United States with a green state highlighted, which is Florida.The map is a black and white map of the United States, with Florida being the green",
+        "gt_answers": "Delaware",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0387.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nOptions: sample A\nsample B\nneither; the samples have the same temperature\nContext: The diagrams below show two pure samples of gas in identical closed, rigid containers. Each colored ball represents one gas particle. Both samples have the same number of particles.\n",
+        "answer": "In the image, there are two identical jars filled with green and blue balls. The jars are placed next to each other, and the balls appear to be of different sizes. One jar contains a larger number of green balls, while the other jar has a smaller number of blue balls. The presence of both green and blue balls in the jars suggests that they are samples of the same substance, possibly representing different stages of the substance's decomposition or preparation. The fact that the jars contain the same number of particles and are identical in appearance indicates that the samples are being compared for their properties or characteristics.",
+        "gt_answers": "sample B",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1467.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Identify the question that Mike's experiment can best answer.\nOptions: Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon?\nDoes temperature affect how much bacteria can grow in liquid?\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nMike mixed bacteria into a nutrient-rich liquid where the bacteria could grow. He poured four ounces of the mixture into each of ten glass flasks. In five of the ten flasks, he also added one teaspoon of cinnamon. He allowed the bacteria in the flasks to grow overnight in a 37\u00b0C room. Then, Mike used a microscope to count the number of bacteria in a small sample from each flask. He compared the amount of bacteria in the liquid with cinnamon to the amount of bacteria in the liquid without cinnamon.\nFigure: flasks of liquid for growing bacteria.\n",
+        "answer": "The question that Mike's experiment can best answer is whether cinnamon has any effect on the growth of bacteria in the nutrient-rich liquid. By comparing the amount of bacteria in the liquid with cinnamon to the amount of bacteria in the liquid without cinnamon, the experiment can determine if cinnamon has any impact on the bacteria's growth or survival.The image shows four identical beakers filled with the same nutrient-rich liquid, with one beaker containing cinnamon. The beakers are placed on a white surface, and the experiment is taking place in a room with a 37\u00b0C temperature.The",
+        "gt_answers": "Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon?",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1097.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What can Ian and Joseph trade to each get what they want?\nOptions: Joseph can trade his almonds for Ian's tomatoes.\nIan can trade his tomatoes for Joseph's carrots.\nIan can trade his tomatoes for Joseph's broccoli.\nJoseph can trade his broccoli for Ian's oranges.\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nIan and Joseph open their lunch boxes in the school cafeteria. Neither Ian nor Joseph got everything that they wanted. The table below shows which items they each wanted:\n\nLook at the images of their lunches. Then answer the question below.\nIan's lunch Joseph's lunch\n",
+        "answer": "In the image, Ian and Joseph are both missing one item from their lunches. Ian wants tomatoes, and Joseph wants water. They can trade their items to get what they want. Ian can trade his tomatoes for Joseph's water, and Joseph can trade his water for Ian's tomatoes. This way, both parties get what they need while also exchanging items they have available.The image shows a table with various items, including a sandwich, a hot dog, and a bowl of water. The table also displays the items that each person wants, with Ian and Joseph each missing one item from",
+        "gt_answers": "Ian can trade his tomatoes for Joseph's broccoli.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1042.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What is the capital of Maine?\nOptions: Montpelier\nProvidence\nAugusta\nPortland\n",
+        "answer": "The capital of Maine is Augusta.The image shows a map of the United States with a green state highlighted, which is Maine.The capital of Maine is Augusta.The capital of Maine is Augusta.The capital of Maine is Augusta.The capital of Maine is Augusta.The capital of Maine is Augusta.The capital of Maine is Augusta.The capital of Maine is Augusta.The capital of Maine is Augusta.The capital of Maine is Augusta.",
+        "gt_answers": "Augusta",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1143.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which of the following fossils is younger? Select the more likely answer.\nOptions: ginkgo leaf\ninsect\nContext: This diagram shows fossils in an undisturbed sedimentary rock sequence.\n",
+        "answer": "The image shows a variety of fossils, including a leaf, a feather, and a bone, all preserved in a rock formation. The leaf is the most likely to be younger, as it is a more delicate and fragile object compared to the bone or the feather. The bone and feather are more likely to be older and more weathered, as they are more robust and have undergone a longer period of decomposition. The leaf, on the other hand, is more delicate and has not undergone the same amount of wear and tear, making it appear younger in comparison.The image shows a close",
+        "gt_answers": "insect",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1538.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which property do these three objects have in common?\nOptions: shiny\nrough\nfragile\nContext: Select the best answer.\n",
+        "answer": "The three objects in the image are a golden ring, a golden watch, and a golden necklace. They all share the common property of being made of gold.The golden ring, watch, and necklace are all valuable and precious items, likely to be worn or displayed as symbols of wealth, status, or sentimental value.The golden ring, watch, and necklace in the image are all made of gold, which is a precious metal known for its durability, luster, and rarity. These items are often worn or displayed as symbols of wealth, success, or as gifts",
+        "gt_answers": "shiny",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1101.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Select the organism in the same species as the Indian rock python.\nOptions: Python molurus\nLacerta agilis\nNerodia cyclopion\nContext: This organism is an Indian rock python. Its scientific name is Python molurus.\n",
+        "answer": "The organism in the image is a snake, specifically an Indian rock python.The Indian rock python is a large, non-venomous constrictor snake native to the Indian subcontinent. It is known for its distinctive black and white striped pattern and its ability to climb trees and rocks.The Indian rock python is a large, non-venomous constrictor snake native to the Indian subcontinent. It is known for its unique striped pattern and its ability to climb trees and rocks.The Indian rock python is a large, non-",
+        "gt_answers": "Python molurus",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0309.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What is the capital of Maine?\nOptions: Augusta\nBoston\nTopeka\nGreen Bay\n",
+        "answer": "The capital of Maine is Augusta.The image shows a map of the United States with a green state highlighted, which is Maine.The green state is bordered by the red states of New Hampshire and Vermont.The capital of Maine is Augusta, which is located in the center of the state.The map shows the location of the capital city, Augusta, within the state of Maine.The capital of Maine is Augusta, which is a city located in the center of the state.The capital city of Maine is Augusta",
+        "gt_answers": "Augusta",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1635.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnitude of the magnetic force is smaller in Pair 2.\nThe magnitude of the magnetic force is the same in both pairs.\nThe magnitude of the magnetic force is smaller in Pair 1.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes.\n",
+        "answer": "In the image, there are two pairs of magnets with different sizes and shapes. The magnets in Pair 1 are larger and have a more rectangular shape, while the magnets in Pair 2 are smaller and have a more rounded shape. The magnets in Pair 2 have a smaller magnetic force compared to the ones in Pair 1. This suggests that the magnetic force is stronger in Pair 1, as the larger magnets attract more objects than the smaller ones.The image shows a close-up of the magnets, which highlights the differences in size and shape between the two pairs.The image is a close",
+        "gt_answers": "The magnitude of the magnetic force is smaller in Pair 2.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0581.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What is the capital of Arkansas?\nOptions: Little Rock\nFayetteville\nTallahassee\nArlington\n",
+        "answer": "The capital of Arkansas is Little Rock.The image shows a map of the United States with a green state highlighted, which is Arkansas.The green state is Arkansas, and the capital city is Little Rock.The capital of Arkansas is Little Rock, which is a city located in the central part of the state.The capital of Arkansas is Little Rock, which is a city located in the central part of the state.The capital city of Arkansas is Little Rock, which is a city located in the central part of the state.The capital city",
+        "gt_answers": "Little Rock",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0875.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: What is the capital of Arkansas?\nOptions: Carson City\nFayetteville\nJefferson City\nLittle Rock\n",
+        "answer": "The capital of Arkansas is Little Rock.The image shows a map of the United States with a green state highlighted, which is Arkansas.The capital of Arkansas is Little Rock, which is located in the center of the state.The capital of Arkansas is Little Rock, which is a city located in the central part of the state.The capital of Arkansas is Little Rock, which is a city located in the central part of the state.The capital of Arkansas is Little Rock, which is a city situated in the central part of the state.",
+        "gt_answers": "Little Rock",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0660.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnitude of the magnetic force is the same in both pairs.\nThe magnitude of the magnetic force is greater in Pair 1.\nThe magnitude of the magnetic force is greater in Pair 2.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes.\n",
+        "answer": "In the image, there are two pairs of magnets with different sizes. The statement that the magnets in Pair 1 have a stronger magnetic force than those in Pair 2 is not true. Both pairs of magnets have the same magnetic force.The image shows a group of magnets with different sizes, but they all have the same magnetic force.The image displays a group of magnets with varying sizes, but they all have the same magnetic force.The image shows a group of magnets with different sizes, but they all have the same magnetic force.The image displays a group of",
+        "gt_answers": "The magnitude of the magnetic force is greater in Pair 1.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0731.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nOptions: The magnitude of the magnetic force is greater in Pair 1.\nThe magnitude of the magnetic force is greater in Pair 2.\nThe magnitude of the magnetic force is the same in both pairs.\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes and shapes.\n",
+        "answer": "The statement that the magnets in Pair 1 have a stronger magnetic force than the magnets in Pair 2 is not true. Both pairs of magnets have the same magnetic force. The image shows two pairs of magnets with the same size and shape, and they are placed on a white surface.The image shows two pairs of magnets with the same size and shape, but they are placed on opposite sides of the white surface. This arrangement suggests that the magnets have equal magnetic force on both sides, and the statement about the magnets in Pair 1 having a stronger magnetic force than those in Pair 2 is incorrect.",
+        "gt_answers": "The magnitude of the magnetic force is greater in Pair 2.",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1560.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Is the wind through a tree a solid, a liquid, or a gas?\nOptions: a solid\na gas\na liquid\n",
+        "answer": "The wind blowing through the tree is a gas, as it is described as a \"gust of wind\" and \"a gust of wind.\"The image shows a tree with leaves blowing in the wind, indicating that the wind is strong enough to create a noticeable effect on the leaves.The wind blowing through the tree is not a solid or liquid, but rather a gas",
+        "gt_answers": "a gas",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1025.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Question: Which of the following could Duncan's test show?\nOptions: whether a parachute with a 1 m vent would swing too much at 400 km per hour\nif the spacecraft was damaged when using a parachute with a 1 m vent going 200 km per hour\nhow steady a parachute with a 1 m vent was at 200 km per hour\nContext: People can use the engineering-design process to develop solutions to problems. One step in the process is testing if a potential solution meets the requirements of the design.\nThe passage below describes how the engineering-design process was used to test a solution to a problem. Read the passage. Then answer the question below.\n\nDuncan was an aerospace engineer who was developing a parachute for a spacecraft that would land on Mars. He needed to add a vent at the center of the parachute so the spacecraft would land smoothly. However, the spacecraft would have to travel at a high speed before landing. If the vent was too big or too small, the parachute might swing wildly at this speed. The movement could damage the spacecraft.\nSo, to help decide how big the vent should be, Duncan put a parachute with a 1 m vent in a wind tunnel. The wind tunnel made it seem like the parachute was moving at 200 km per hour. He observed the parachute to see how much it swung.\nFigure: a spacecraft's parachute in a wind tunnel.\n",
+        "answer": "The test that Duncan conducted involved placing a parachute with a 1 m vent in a wind tunnel and observing how it responded to the wind. This allowed him to determine if the parachute was too big or too small for the spacecraft, which would land on Mars. The test provided valuable information about the parachute's performance and helped him make adjustments to ensure a safe landing on Mars.",
+        "gt_answers": "how steady a parachute with a 1 m vent was at 200 km per hour",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/ScienceQA/test_imgs/1590.png",
+        "model_name": "LLaVA"
+    }
+]

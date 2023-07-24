@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a logo for the brand Coca-Cola. The logo features the company's name written in gold on a black background with a triangle shape in the center of the word.",
+        "gt_answers": "SOLARIS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000000670.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a sign that says \"T H.\" It is illuminated by blue light.",
+        "gt_answers": "TC",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000000328.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue bird perched on a branch with its wings spread open. The bird is in the center of the image, surrounded by leaves and stems, and there are no other objects or text in the image. The bird has a black head and body with blue feathers, and its eyes are closed. The image has a high resolution and is well-composed with a good balance of light and dark tones. The image has good color saturation and contrast. The image has good composition, with the bird being the focal point of the image. The image is well lit and the lighting is even, creating a good sense of depth. The image is well-posed, with the bird being positioned in a natural and realistic way. The image has good composition, with the bird being the focal point of the image. The image is well-lit and the lighting is even, creating a good sense of depth.",
+        "gt_answers": "PASSWORD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000000904.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red and white striped cloth with the word 'MERCHYNT' written on it in white letters.",
+        "gt_answers": "SALE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001334.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white and blue splatter pattern with the word 'explore' written in it. It looks like it has been painted on a canvas or wall.",
+        "gt_answers": "EXPLORE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001845.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a group of people standing in a line, holding hands and smiling. They are standing in a dimly lit room with wood floor and walls. There are several people in the image, but only one person is visible in the image. The person is wearing a white shirt and blue jeans. The person is standing in front of a white wall with several holes in it. The holes are not big enough to see through. There is a small piece of wood hanging from one of the holes. There are some small pieces of wood scattered on the ground in front of the person. There are some lights hanging from the ceiling, but they are not bright enough to light up the entire room. There is a door in the background of the image, but it is not visible.",
+        "gt_answers": "CAFE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000002134.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is of a book with the title The Giving Tree on the cover.\n\nThe book is about a tree that gives and grows as a child grows. The tree starts as a small seed, and as the child becomes older, the tree provides the child with branches to climb on, leaves to play in, a trunk to hug, and a sturdy trunk to lean against. When the child becomes an adult, the tree provides the adult with a place to sit and rest, shade to protect from the sun, and a place to hang things. The tree is a symbol of love and growth, and the story teaches children about the importance of giving and receiving love throughout their lives.",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001868.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "This image is a photograph of a piece of paper with a printed text on it that says, 'SALE'. The paper appears to be a piece of advertising material for a sale or discount event. The text is in black ink, with the word 'SALE' written in bold letters. The background of the image appears to be a light colored surface with some sort of pattern on it. The overall effect of the image is one of professionalism and business. The text is easy to read, and the image is well composed.",
+        "gt_answers": "SALE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001451.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"brew\" is written in the image.",
+        "gt_answers": "BEERS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000000110.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a person sitting on a chair, looking up at the camera. The person has dark hair and is wearing a white shirt and black pants. There is a brown background behind the person. The writing on the image reads, \"You don't know me. And I don't know you either. But we sit together.\"",
+        "gt_answers": "TREE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001578.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a blue text on a white background that says, `><img src=\"https://cdn.sparkfun.com/datasheets/Dev/Arduino/Arduino%20Nano%2033%20v3/38pin.svg\" alt=\"Arduino Nano 33 v3 on breadboard\"/>'. The image is a graphic of the Arduino Nano 33 v3 microcontroller on a breadboard. The image is displayed on a blue background with white text.",
+        "gt_answers": "MEADOWS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000000221.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"The onion falls forever and forever. \"",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001290.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a small piece of cardboard with the words 'HOT CAKES' written on it in black ink. It is folded in half and appears to have been torn from a larger piece of paper or cardboard. There is a small piece of tape on the back of the cardboard, likely to secure it to a surface. The cardboard has a rough, textured surface and appears to be made of a heavy, brown paper material.",
+        "gt_answers": "HALL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000000373.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of a person's hand holding a letter with the word 'SOLVED' written on it. The hand appears to be holding the letter with a pen or pencil. The person's hand is brown and the letter appears to be written in black ink.",
+        "gt_answers": "LOST",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001859.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I cannot see the image, as it is not provided in the text you have provided. Please provide the image.",
+        "gt_answers": "east",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001220.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a glass window with a sign that says \"fruit basket\" in orange letters on it. The sign is attached to the glass and there are some reflections of the room on the glass. The room appears to be a modern, clean space with a white wall, white floor, and some plants in the background. The sign is lit by an artificial light source, but the room is not.",
+        "gt_answers": "ESPLANADE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001294.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is the word \"ZAPP\".",
+        "gt_answers": "pizza",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001208.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a brown-colored starbucks logo with white text that reads \"starbucks\".",
+        "gt_answers": "STARBUCKS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000002084.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a black and white graphic of the word 'fake' written in white letters against a black background.",
+        "gt_answers": "BEANZ",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000002368.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a wooden sign with a red background and a yellow leaf design. The text on the sign reads \"Apple\" in white letters.",
+        "gt_answers": "MAPLES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000002386.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black background with the words'sparklers'written in white letters on top of it. The font used is simple and modern. The letters are spaced evenly and the kerning is consistent. There is no drop shadow or gradients. The overall design is clean and easy to read.",
+        "gt_answers": "competence",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001039.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "This is the text of an image that has been written in the image. It says,'Say Yes To The Dress'. The text appears in black on a white background.",
+        "gt_answers": "WEN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001621.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a brown piece of paper with a list of items written on it. The list includes things like \"books\", \"pencils\", \"pens\", \"paper\", and \"notebooks\". There is also an item that says \"computer\" on it. The list appears to be incomplete, as some items are missing.",
+        "gt_answers": "CITY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001852.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image reads \"dodo.\" The image is a black and white photograph of a sign with the word \"dodo\" written in white letters on a black background. The sign is not clearly visible, but it appears to be affixed to a wall or other surface. The image is not clear, but it appears to be a grainy black and white photograph.",
+        "gt_answers": "geldruckgabe",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001074.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "This is a red, white, and blue American flag made of paper. It has 13 stripes and 20 white stars. The red stripes are at the top and bottom, and the white stripes are in the middle. The blue is the background color. The flag has a canton, which is a rectangle at the top that has a white stripe on the left and the red, white, and blue stripes on the right. The canton has 50 stars in it. This flag is the national flag of the United States of America.",
+        "gt_answers": "HEUER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001707.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white photograph of a person standing in front of a large stone building. The person is facing the camera and is holding a small bag. The building appears to be made of stone, with large arched windows on the top floor and a small balcony with a railing on the lower floor. There are trees in the foreground and a mountain range in the background.\n\nThe building in the image is the Parish of St. Michael and All Angels, located in the town of Paxford, Oxfordshire, England. It was built in the 12th century as a church and was later remodeled in the 15th century. The church is a grade II listed building and is now used as a wedding venue.",
+        "gt_answers": "LEVEL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001857.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a logo of a company named Radiant Solutions, Inc. The logo consists of a stylized letter \"R\" in red and black, with the word \"Radiant Solutions\" below it in smaller font. The image has a modern and professional look, with clean lines and sharp edges.",
+        "gt_answers": "ladies",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001156.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"sixty\" written in white letters on a blue background. The letters are arranged in a circular shape with the number six in the center. There is no further information or context provided for the image.",
+        "gt_answers": "SIXTH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000002000.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a reflection of a person standing in front of a window. The person is wearing a black and white checkered shirt, black pants, and black shoes. The person has a black and white checkered backpack on their back, and is holding a phone in their right hand. The phone has a white screen with black letters that read, \"Oxford\". The reflection is fuzzy, and there is a small piece of white paper on the person's back. There is a brown curtain in the background, and a dark brown carpet on the floor.",
+        "gt_answers": "OPEN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001840.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a large stone monument with the words \"TAX\" written in capital letters on the top of it.",
+        "gt_answers": "TITANIC",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000000652.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image reads, \"For all the latest news and events, follow us at:<Img> twitter.com/ </Img>?tw=t </Img>tw=t </Img>?tw=t </Img>tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t </Img>?tw=t",
+        "gt_answers": "VOUCHER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001509.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is written in gold on a black background and says \"Clark's Shoes.\"",
+        "gt_answers": "CLAIRE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000002296.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a red sticker with the words \"Human\" written in white on it.",
+        "gt_answers": "criminal",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001020.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"Penn Street\".",
+        "gt_answers": "greenstead",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001176.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a photograph of a man sitting in a chair with a book in his lap. The man is wearing a black suit and white shirt with a blue and white striped tie. The background of the image appears to be a dark, wood panelled wall with a small window in the corner. There is a lamp on the table next to the man and a vase of flowers on the table in front of him. The writing on the image appears to be in Arabic.",
+        "gt_answers": "THEATRE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001889.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a white text on a blue background that reads \"RIGHT\".",
+        "gt_answers": "RIGHT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000000814.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a sign with the words \"RANCHESTER WATER COMPANY\" written on it in white letters. The letters are large and prominent, and the overall design of the sign is modern and sleek. The background of the sign is a light gray color.",
+        "gt_answers": "GARDENS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000002235.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a large blue letter \"E\" with white text on it. The letter \"E\" is the first letter of the word \"exit,\" and the text \"what is written in the image?\" is written underneath it. The background is a plain blue.",
+        "gt_answers": "EXIT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001320.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written in the image says \"stamp collector.\"",
+        "gt_answers": "VISTA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000000422.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is difficult to make out the text in the image as it is partially obscured by the object in the foreground. The text appears to be written in white ink on a transparent surface. It is possible that it says \"Happy anniversary\" in some language.",
+        "gt_answers": "VILLAGE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000002097.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white photograph of a man standing on a rocky beach with waves in the background. The man is wearing a black shirt and has his arms folded, looking out to sea. There is a small piece of seaweed on his shoulder. The words \"Life is a journey. Not a destination\" are written on a rock in the foreground.",
+        "gt_answers": "DE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000000772.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a dark black t-shirt with the words \"Banana Republic\" written in golden letters on the front. The t-shirt has a button down collar and short sleeves. The text is written in a bold and modern font. There is no image or other details visible in the image.",
+        "gt_answers": "BOOK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001340.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a text \"Praying Hands\" written in the Roman alphabet.",
+        "gt_answers": "BRISTOL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000000997.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "This image appears to be a photograph of a wooden shelf with several items placed on it, including a small wooden birdhouse, a wooden owl, and several small wooden figurines. The shelf is made of rough, wooden planks, and is positioned on top of a wooden surface. The background of the image appears to be a wooden wall, with a series of wooden planks running vertically down the center. The planks are uneven and rough, with some gaps between them. The image appears to be lit from the side, casting shadows on the wall behind it.",
+        "gt_answers": "LEVIS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001460.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"audience\" is written in the image.",
+        "gt_answers": "studios",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001111.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign reading \"theatre\" with an arrow pointing to the right. The arrow is pointing to a building with a sign that reads \"theatre\" on the top of it. The building has several windows and balconies on the upper floor. The sign has white letters on a blue background. The background is blue and has some small clouds in the sky. There are no people in the image.",
+        "gt_answers": "THEATRE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001360.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "This image shows a sign that reads \"Korea\" in red letters. It is likely a sign indicating that the location is in Korea.",
+        "gt_answers": "WORLD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001922.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign on a wall that reads \"tiki bar\" in blue and white letters. The sign appears to be attached to the wall, and the writing appears to be handwritten. There is a white background behind the sign, with no other visible details in the image.",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000002318.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a blue and white sticker with the words \"Give\" in white and blue letters on it. The sticker has a circle shape with the words \"Image Content\" written inside it in white. The sticker has a white border around it with a thin white outline.",
+        "gt_answers": "SATIS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000002327.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is of a gray and white checkerboard pattern. It appears to be a tile or floor surface. The pattern is arranged in a diagonal layout with black squares alternating with white squares. The image is small and blurred, making it difficult to discern any details.\n\nIt's difficult to determine the context or purpose of the image without more information. Could you please provide more context about the image?",
+        "gt_answers": "REKING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/HOST/imgs/000001680.jpg",
+        "model_name": "MiniGPT-4"
+    }
+]

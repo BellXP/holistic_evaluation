@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "paris",
+        "gt_answers": "PARIS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1232.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "singapore",
+        "gt_answers": "Singapore",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_887.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "service",
+        "gt_answers": "service",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1901.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word'card'in the middle of a black background",
+        "gt_answers": "CARD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1672.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "wee",
+        "gt_answers": "Wee",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_120.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word mrt",
+        "gt_answers": "MRT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_916.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "holiday platter",
+        "gt_answers": "PLATTER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1650.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "no parking",
+        "gt_answers": "PARKING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1463.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "post christmas sale",
+        "gt_answers": "CHRISTMAS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_265.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the name of a television show",
+        "gt_answers": "after",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1757.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "theatres",
+        "gt_answers": "Theatres",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_978.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "everyday''",
+        "gt_answers": "everyday!",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_390.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "doraeman",
+        "gt_answers": "Doraeman",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_254.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "forever's victoria",
+        "gt_answers": "FOREVER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1494.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "for the love of storewide",
+        "gt_answers": "STOREWIDE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_341.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "omega",
+        "gt_answers": "OMEGA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1242.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "sale''",
+        "gt_answers": "SALE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1514.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the way''",
+        "gt_answers": "WAY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_304.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "candy",
+        "gt_answers": "CANDY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1694.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "reshaping a woman's life",
+        "gt_answers": "Refishing",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_397.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "scottish amsterdam",
+        "gt_answers": "SCOTCH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1285.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word deals is written on a black background",
+        "gt_answers": "deals",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_548.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the name of a train station",
+        "gt_answers": "Station",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_490.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "parking entrance",
+        "gt_answers": "ENTRANCE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1465.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "person's secret",
+        "gt_answers": "SECRET",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1616.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "person's house for sale in san diego california 0",
+        "gt_answers": "SALE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1741.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "robinson",
+        "gt_answers": "ROBINSO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_708.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "lee",
+        "gt_answers": "LEE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1122.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the name of a restaurant is written on a black background",
+        "gt_answers": "Kitchen",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_890.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "citizen bank",
+        "gt_answers": "citibank",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1678.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "manolo spencer",
+        "gt_answers": "SPENCER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_440.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the bay",
+        "gt_answers": "BAY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1036.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "forever",
+        "gt_answers": "OREVER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1500.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "dariel",
+        "gt_answers": "DARUE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_229.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "samsung",
+        "gt_answers": "SAMSUNG",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1690.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word paparon",
+        "gt_answers": "Peperor",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1107.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "victoria's",
+        "gt_answers": "VICTORIA'S",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1613.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the fish''",
+        "gt_answers": "The",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1008.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ocbc",
+        "gt_answers": "OCBC",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1920.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word'off'",
+        "gt_answers": "OFF",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1972.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "boss tees, boss tees, boss tees, boss tees, boss ",
+        "gt_answers": "BOSS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1421.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tscc tscc tscc tscc tscc tscc",
+        "gt_answers": "TSC",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1344.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "store",
+        "gt_answers": "STOR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1576.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "final",
+        "gt_answers": "FINAL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_523.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "exit",
+        "gt_answers": "EXIT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_236.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word stage''",
+        "gt_answers": "STAGE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1201.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fashioning the future''",
+        "gt_answers": "Fashi",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_293.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "infocomm",
+        "gt_answers": "INFOCOMM",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_859.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "london london london london london london london l",
+        "gt_answers": "LONDON",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_817.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word'gold coast'in gold lettering on a black background",
+        "gt_answers": "GOLD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC15/images/word_1132.png",
+        "model_name": "BLIP2"
+    }
+]

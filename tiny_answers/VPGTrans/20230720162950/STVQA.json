@@ -1,0 +1,455 @@
+[
+    {
+        "question": "What does the red sign on the far left say?",
+        "answer": "The red sign on the far left says \"Baggage Claim.\"",
+        "gt_answers": [
+            "Danger"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000434357.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Which way does the sign say to merge?",
+        "answer": "The sign says to merge onto the road to the right.",
+        "gt_answers": [
+            "LEFT"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000447607.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the number on the yellow players shirt?",
+        "answer": "The number on the yellow player's shirt is 10.",
+        "gt_answers": [
+            "19"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2339683.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is on the man's head?",
+        "answer": "It is not clear what is on the man's head in the image.",
+        "gt_answers": [
+            "glasses"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2362748.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Who created this picture?",
+        "answer": "The picture was created by an AI model.",
+        "gt_answers": [
+            "mydoggie"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n02094433_6520.JPEG",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What does the red text say?",
+        "answer": "The red text says, \"Open Happiness.\"",
+        "gt_answers": [
+            "open happiness"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/IIIT_text/img_000324.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the brand name on the bottle?",
+        "answer": "The brand name on the bottle is Playtex.",
+        "gt_answers": [
+            "Playtex"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n03825788_20290.JPEG",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What does it says in the banner?",
+        "answer": "The banner says, \"Welcome to the grand slam of tennis.\"",
+        "gt_answers": [
+            "Grand Sla return"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000465090.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the website address?",
+        "answer": "This is a stock photo of a man sitting at a table with a bowl of apples in front of him. The website address is unknown.",
+        "gt_answers": [
+            "fotosearch.com"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n07742313_20816.JPEG",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the name of the restaurant?",
+        "answer": "The name of the restaurant is The Spoon.",
+        "gt_answers": [
+            "The Soup Spoon"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/test_img_340.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the number of the red bus?",
+        "answer": "The number of the red bus is 23.",
+        "gt_answers": [
+            "6160"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000352185.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "How many vases are visible?",
+        "answer": "There are 5 vases visible in the picture.",
+        "gt_answers": [
+            "six",
+            "{}"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2340271.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What activity is offered at the apple orchard?",
+        "answer": "The activity offered at the apple orchard is picking apples.",
+        "gt_answers": [
+            "HEDGE MAZE"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000506256.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Who is depicted on the cover holding a stick with fire?",
+        "answer": "The cover of this comic book features a character holding a stick with fire in the jungle. It is not clear who this character is or what the story behind the comic is about.",
+        "gt_answers": [
+            "Tarzan"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n06596364_16096.JPEG",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Where is the bus headed?",
+        "answer": "It is difficult to determine the destination of the bus from the image alone. The bus is traveling on a city street and appears to be headed towards a traffic light.",
+        "gt_answers": [
+            "Georgetown"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2368670.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What military branch is this airplane?",
+        "answer": "This is a military airplane belonging to the United States Navy.",
+        "gt_answers": [
+            "Navy"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000085488.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What color are the window coverings?",
+        "answer": "The window coverings are blue.",
+        "gt_answers": [
+            "Blue/",
+            "blue"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/IIIT_text/2757.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the second credit card accepted at this payment station?",
+        "answer": "The second credit card accepted at this payment station is a Visa card.",
+        "gt_answers": [
+            "visa"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000078716.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What does the sign say?",
+        "answer": "The sign says \"BARBER SHOP\"",
+        "gt_answers": [
+            "Barber shop parking"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/2/2413763.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What color is the bat?",
+        "answer": "The color of the bat is black.",
+        "gt_answers": [
+            "Black"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2349497.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What does the red sign in the picture say?",
+        "answer": "The red stop sign in the picture says \"STOP\" in white letters.",
+        "gt_answers": [
+            "STOP"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2346678.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What does the glove have handwritten on it?",
+        "answer": "The glove has the words \"A's\" written on it.",
+        "gt_answers": [
+            "Mom Hates You!!!"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000145593.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the name of the retailer that is advertised in green?",
+        "answer": "The name of the retailer is not specified in the image.",
+        "gt_answers": [
+            "THE BODY SHOP"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/img_953.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is the phone number of River Ride?",
+        "answer": "River Ride is a tourist attraction in Vancouver, British Columbia, Canada. It is a yellow bus that takes tourists on a tour of the city's landmarks and attractions.",
+        "gt_answers": [
+            "33-22-555"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000443764.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What month abbreviation appears at the bottom of the picture?",
+        "answer": "The month abbreviation at the bottom of the picture is April.",
+        "gt_answers": [
+            "Feb"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2342238.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the name of the road going east to west?",
+        "answer": "The name of the road going east to west is Shoshone Street.",
+        "gt_answers": [
+            "SNOB HILL RD"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2318180.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is written on the side of the train?",
+        "answer": "The train is carrying the name of the company, Polson Logging Company.",
+        "gt_answers": [
+            "Polson Logging co"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2341912.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the date in yellow font?",
+        "answer": "The date in yellow font is May 13, 2022.",
+        "gt_answers": [
+            "2003/01/07"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n04153751_10063.JPEG",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What word is on the warning sign?",
+        "answer": "The word on the warning sign is \"Zona\"",
+        "gt_answers": [
+            "ZONE"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/2/2407077.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What color is the largest dress?",
+        "answer": "The largest dress is a dark brown color.",
+        "gt_answers": [
+            "Dark Olive"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n02667093_5040.JPEG",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is that brown sweet with white icing?",
+        "answer": "It looks like a cupcake with white frosting on top of it.",
+        "gt_answers": [
+            "CUPCAKES"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000186703.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What does the yellow signal say?",
+        "answer": "The yellow signal says \"BUMPS\"",
+        "gt_answers": [
+            "BUMPS"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2335084.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is written in black on the parasail?",
+        "answer": "The black text on the parasail says \"Sailing the World Cup\".",
+        "gt_answers": [
+            "GUN"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2325956.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the photographers name?",
+        "answer": "The photographer's name is unknown.",
+        "gt_answers": [
+            "Jordan Light"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n03956157_7164.JPEG",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Where are there more shops?",
+        "answer": "There are more shops at level 2.",
+        "gt_answers": [
+            "Level 2"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/test_img_72.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What does it say in white?",
+        "answer": "The sign says \"Yield\" in white letters.",
+        "gt_answers": [
+            "STOP"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2338783.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What number is under the Red Wagon sign?",
+        "answer": "The number under the Red Wagon sign is 75.",
+        "gt_answers": [
+            "175"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000458970.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the title of the grey book?",
+        "answer": "The title of the grey book is \"The Art of the Book\"",
+        "gt_answers": [
+            "THE handbuilt bicycle"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000579053.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What does the top sign say?",
+        "answer": "The top sign says \"Theatre Royal.\"",
+        "gt_answers": [
+            "A Modern Classic"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/IIIT_text/3675.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the name of this item?",
+        "answer": "The name of this item is a basket.",
+        "gt_answers": [
+            "Basket"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n04204238_4763.JPEG",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the license plate number on the bus?",
+        "answer": "The license plate number on the bus is 123 ABCD.",
+        "gt_answers": [
+            "YX60 DWY"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000289231.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What type of beer is on the can?",
+        "answer": "It is not clear what type of beer is on the can in the photo.",
+        "gt_answers": [
+            "Coors"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n02795169_72041.JPEG",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Who is the manufacturer of the camera?",
+        "answer": "The manufacturer of the camera is Canon.",
+        "gt_answers": [
+            "Canon"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/imageNet/n04069434_21423.JPEG",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the route number of the red bus?",
+        "answer": "The route number of the red bus is 25.",
+        "gt_answers": [
+            "48"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2317112.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the street name on the top sign?",
+        "answer": "The street name on the top sign is \"Main Street.\"",
+        "gt_answers": [
+            "Partridge St"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2342515.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is printed on the car door?",
+        "answer": "The car door is printed with the words \"Airbus A380\" on it.",
+        "gt_answers": [
+            "GENDARMERIE"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000517881.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what kind of pillow is mentioned?",
+        "answer": "It is not mentioned in the text what kind of pillow is mentioned.",
+        "gt_answers": [
+            "Travel Neck Pillow",
+            "neck"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/icdar/img_92.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the brand of the Chili Sauce?",
+        "answer": "The brand of the chili sauce is not specified in the image.",
+        "gt_answers": [
+            "Kikkoman"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/VisualGenome/1/2356883.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the brand of the phone?",
+        "answer": "The brand of the phone is Nokia.",
+        "gt_answers": [
+            "Nokia"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000552440.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the first name of the image tag?",
+        "answer": "The first name of the image tag is \"bird.\"",
+        "gt_answers": [
+            "mark"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000536204.jpg",
+        "model_name": "VPGTrans"
+    }
+]

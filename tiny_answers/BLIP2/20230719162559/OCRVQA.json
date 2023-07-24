@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Is this a crafts or hobbies related book?",
+        "answer": "no",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51FBJ309S6L.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "the travel journals of tappan adney",
+        "gt_answers": "The Travel Journals of Tappan Adney, 1887-1890",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51Z9qRQwPrL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "resist",
+        "gt_answers": "Resist (The Resistance Series)",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51ZD5lltJwL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "terry wier",
+        "gt_answers": "Terry Wier",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51PfRWTD-ZL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this book related to Law?",
+        "answer": "yes",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41WSB2WCBKL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this a recipe book?",
+        "answer": "yes",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51mIMcC0u9L.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "delila smith",
+        "gt_answers": "Delia Smith",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41CYVG33VRL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who wrote this book?",
+        "answer": "atlas of the bible lands an illustrated atlas of the bible lands an illustrated atlas of the bible lands",
+        "gt_answers": "Harry Thomas Frank",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51B5ZEFZSKL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "michael mcdonald",
+        "gt_answers": "National Geographic Society",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/61VhvEo2sAL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this book related to Sports & Outdoors?",
+        "answer": "yes",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/518BgANf2EL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this book related to Politics & Social Sciences?",
+        "answer": "no",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51pZu589ACL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this book related to Arts & Photography?",
+        "answer": "no",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41vD8wGmNcL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "psychological knowledge in court ptsd, pain and tbi",
+        "gt_answers": "Psychological Knowledge in Court: PTSD, Pain, and TBI",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41mOC3MGsJL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "encyclopedia",
+        "gt_answers": "Law",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41xP37BfonL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "the beatles piano solos",
+        "gt_answers": "The Beatles Piano Solos",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51q89jOPOmL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "halston and warhol",
+        "gt_answers": "Halston and Warhol: Silver and Suede",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51Dxm02LPyL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "life in ancient greece",
+        "gt_answers": "Children's Books",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/61%2BHWEKfyDL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "book on cardiac pacing",
+        "gt_answers": "Medical Books",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41OPsTieeAL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "365 slow cooker suppers",
+        "gt_answers": "365 Slow Cooker Suppers",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/61lkuFyHymL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What type of book is this?",
+        "answer": "how to heal yeast infections naturally",
+        "gt_answers": "Health, Fitness & Dieting",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41iOilUMkVL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "gems from the coral islands of okinawa",
+        "gt_answers": "Gems from the Coral Islands: Western Polynesia: comprising the New Hebrides group, the Loyalty group, New Caledonia group",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41eoGJB3BqL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "manga",
+        "gt_answers": "Comics & Graphic Novels",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/512bCWzIlTL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this book related to Science Fiction & Fantasy?",
+        "answer": "yes",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51HTNAT0JVL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this a romantic book?",
+        "answer": "yes",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51GWWYk%2BqyL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who wrote this book?",
+        "answer": "rutu modan",
+        "gt_answers": "Rutu Modan",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51pxfRvYO3L.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "direct marketing",
+        "gt_answers": "Business & Money",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51CWTYP4E7L.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this book related to Reference?",
+        "answer": "yes",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41koRjimufL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this book related to Business & Money?",
+        "answer": "no",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51KJ27GwiUL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "return to paradise",
+        "gt_answers": "Return to Paradise",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/518rhWKqniL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this a financial book?",
+        "answer": "no",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51ofItuRZRL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "extreme metaphors by j g ballard",
+        "gt_answers": "Literature & Fiction",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51lLoREuzaL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "photonic structures inspired by nature",
+        "gt_answers": "Science & Math",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41Imavo51GL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this a kids book?",
+        "answer": "no",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41poKXkJnJL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this book related to Test Preparation?",
+        "answer": "no",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41pVY-d5Y5L.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "caged warrior",
+        "gt_answers": "Caged Warrior",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51pjVYwBeXL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this book related to Law?",
+        "answer": "yes",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51Y3BS8H9NL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "the enlightened cyclist",
+        "gt_answers": "The Enlightened Cyclist: Commuter Angst, Dangerous Drivers, and Other Obstacles on the Path to Two-Wheeled Trancendence",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/514DVOOfUOL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this a reference book?",
+        "answer": "yes",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51Odn3OpcQL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "elizabeth mcdaniel",
+        "gt_answers": "Pamela Hill Nettleton",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/31uNgZ1QsfL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this book related to Medical Books?",
+        "answer": "yes",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41j7UTluaSL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "family experiences of bipolar disorder",
+        "gt_answers": "Medical Books",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51n63jzabmL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "200 years of the rule of law",
+        "gt_answers": "Entick v Carrington: 250 Years of the Rule of Law (Hart Studies in Comparative Public Law)",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51VYUu73SML.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "the rice diet cookbook",
+        "gt_answers": "Cookbooks, Food & Wine",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51cnhzYsfrL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What type of book is this?",
+        "answer": "living with epilepsy",
+        "gt_answers": "Health, Fitness & Dieting",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51QSBR7V23L.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "a guide to south carolina's best beaches",
+        "gt_answers": "Travel",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41p5IJaB-wL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Is this book related to Travel?",
+        "answer": "yes",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51MQQQvTl-L.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who wrote this book?",
+        "answer": "mike lupica",
+        "gt_answers": "Mike Lupica",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41bbo%2BBCrjL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "a review cards for the nclex-pn examination",
+        "gt_answers": "Saunders Q&A Review Cards for the NCLEX-PN\u00ae Examination, 2e",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51%2BfUXIzvNL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "What type of book is this?",
+        "answer": "social and cultural anthropology",
+        "gt_answers": "Science & Math",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51y-z2LL6jL.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "julia taylor",
+        "gt_answers": "Gil Bettman",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51vRGL98qjL.jpg",
+        "model_name": "BLIP2"
+    }
+]

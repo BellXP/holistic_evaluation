@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The logo on the tire reads \"CHELL'S. \"",
+        "gt_answers": "MICHELIN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/220.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a stamp with the text \"USPS\" written in black on a yellow background.",
+        "gt_answers": "VINYL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/093.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is an orange and blue inflatable ring that says \"finish\" on it.",
+        "gt_answers": "FINISH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/121.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign reading \"Ontario\" in gold letters on a red background.",
+        "gt_answers": "MAPLES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/197.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image reads \"NANCY\" in bold green letters with stars in the background.",
+        "gt_answers": "SNACK",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/280.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a person standing on the edge of a cliff, with the ocean in the background. The person is wearing a white shirt, blue pants and sneakers. The person is holding a black camera in their hand. The water in the background is turquoise and the sky is blue. The words \"taking a photo\" are written on the image in white text.",
+        "gt_answers": "STATION",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/256.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a sign that says \"start\" in red and blue letters on a white background.\n\nThe sign could be used to indicate the start of a race, or it could be a sign indicating the beginning of a project or a new venture. It could also be a sign for a new business or organization that is starting up.",
+        "gt_answers": "START",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/120.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a sign that reads \"loka\" in a neon green and red font, hanging above a dark, shadowy area. The sign appears to be suspended in the air, with no visible support or structure beneath it. The text appears to be lit up from within, with a warm, pulsating glow emanating from the sign. The overall effect is one of mystery and intrigue, with the neon colors and shadowy setting adding to the sense of mystery and danger.",
+        "gt_answers": "LOKA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/086.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a sign that reads \"mall\". The sign is white and reads \"mall\" in bold letters. The background of the sign is red.",
+        "gt_answers": "WALCOTT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/042.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image depicts a red and blue brick sidewalk with the words \"West\" written on it in white paint.",
+        "gt_answers": "WEST",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/130.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that reads \"dub\" in bold, black letters against a clear blue sky background.",
+        "gt_answers": "du",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/286.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a soccer ball with the words \"Chelsea F.C.\" written on it in blue and white lettering. The ball is surrounded by a white circle with a blue background. The circle is made of four smaller circles of the same size and color, each containing the words \"Chelsea F.C.\" in the same blue and white lettering. There is no other text or imagery visible on the ball or in the surrounding circle. The overall design is simple and straightforward, making it easy to recognize the team's name and logo.",
+        "gt_answers": "CHELSEA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/083.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"envy\" is written in the image.",
+        "gt_answers": "Grenier",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/234.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"adventure\" is written in blue on a sign on the side of a building.",
+        "gt_answers": "academy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/015.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a stylized blue and white logo with the words \"Earth Day\" written in white letters on a blue background. The logo features an abstract representation of the Earth with clouds and water.",
+        "gt_answers": "DAY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/179.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a purple sign with white letters that says 'choco-lato' in it.",
+        "gt_answers": "chocolates",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/262.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a badge or emblem of Chelsea Football Club, a professional football club based in London, England. It is made of blue and white colors and has the club's crest on it. The crest has a blue background with a white and blue ribbon hanging from it, and the words \"Chelsea Football Club\" written in white letters. The crest also has a white soccer ball in the center of it.",
+        "gt_answers": "CHELSEA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/061.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a man in a hat and glasses, standing in front of a wooden wall with a large image of a fish on it. The words \"Remember\" are written above the image in bold, red letters.",
+        "gt_answers": "TAGINE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/281.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 23 is written in the image.",
+        "gt_answers": "32",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/052.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue and white sign with the word ` protected 'written on it.",
+        "gt_answers": "Protect",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/191.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a person wearing a black cap with a white lettering that says 'house' on it. The person is wearing dark sunglasses and is looking at the camera. The image is likely taken from a front view, with the cap on the right side of the image and the person's face visible on the left side.",
+        "gt_answers": "HOUSE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/104.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a sign for the restaurant Tripk, located in a rural area. The sign features the words \"Tripk\" in large, rusty letters, with the letters \"t\" and \"k\" missing. The sign is mounted on a large wooden archway with two smaller, rusty arches on either side. In the background, there are trees and the sky.",
+        "gt_answers": "Frikkie",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/285.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a small building with the words \"london\" written on it. It is not clear what the building is used for or what it represents. The image appears to have been taken from a distance, with a blue sky visible in the background. There is a small tree in the foreground, and a few cars parked nearby. The building itself appears to be made of white stone or concrete, and has a steep roof and several windows. It is not clear what the building is used for or what its purpose is.",
+        "gt_answers": "KINGDOM",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/165.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red jersey with the number 7 on it, written in white.",
+        "gt_answers": "RONALDO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/001.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says,'Bruce'.",
+        "gt_answers": "CAROUSEL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/227.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up view of a person's hand holding a glass of water. The person's hand is partially obscured by the glass, but their fingers are visible. The background is a dark, solid color.",
+        "gt_answers": "1886",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/038.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a green and black starbucks logo on a silver background.",
+        "gt_answers": "STARBUCKS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/273.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a yellow sign with the words \"No Swimming\" written in black letters.",
+        "gt_answers": "SWIMMING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/203.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue background with white text that reads \"Ecclesia\".",
+        "gt_answers": "Exclusive",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/264.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a black and white photograph of a group of people standing on a beach. The people are standing in a line and are facing the camera. Some of the people are holding surfboards and others are standing with their arms raised in the air. The sky is blue and there is a cloud in the distance. The water is turquoise and there is a wave breaking on the shore. The words \"Ocean Surf\" are written in the sky in white letters.",
+        "gt_answers": "HISTORIC",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/231.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a clear glass ball with the word 'world' written on it in a white font.",
+        "gt_answers": "World",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/267.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a logo for the American Red Cross. The words \"American Red Cross\" are written in white letters on a red background.",
+        "gt_answers": "IPA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/106.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that reads \"RANCH\" in white letters on a brown background. The letters are raised, and the edges are trimmed with white paint. The image is of a sign that is mounted on a building wall and is intended to be read from a distance. The letters are clear and easy to read, and the white paint gives them a clean, professional look. The image is of a sign that is intended to be seen from a distance and to provide information about the place it is located.",
+        "gt_answers": "entrance",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/016.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"no\" is written in the image.",
+        "gt_answers": "MOD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/221.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It appears that the word \"toronto\" is written on the back of the jersey in black letters. The jersey is a blue color with white and black accents, and the word \"toronto\" is written in a modern font. It appears to be the official jersey of the Toronto Blue Jays.",
+        "gt_answers": "TORRES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/078.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is an advertisement for a product called satin, which is a type of fabric. The word \"satin\" is written in blue and white lettering on a yellow background.",
+        "gt_answers": "SATIS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/020.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red and yellow emblem with the words `Manchester United` on it. It appears to be attached to a brick wall.",
+        "gt_answers": "MANCHESTER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/100.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It appears to be a blue and white sticker with the words \"nili\" written on it. The sticker is not visible in the image, but it is likely the logo for Nili, a company or organization.",
+        "gt_answers": "NIL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/019.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red sign with the word \"Restaurant\" written in it.",
+        "gt_answers": "GEMBIRA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/085.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number 7 written in white on a red background. The number 7 is a common number in sports, including football, cricket, and other sports. It is often associated with luck and success. In the image, the number 7 is written in white on a red background, which adds a bold and vibrant touch to the design. The red background also adds a bold and energetic feel to the number, making it stand out. The white writing adds a clear and crisp contrast to the red background, making it easy to read. Overall, the image is visually appealing and effectively conveys the number 7.",
+        "gt_answers": "7",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/002.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is the name of a website, \"<http://www.flying.org/>\", which is a website that provides information on flying and related subjects. The text is written in gold lettering against a purple background. The website likely provides information on different types of flying, such as airplanes, hot air balloons, and other forms of flight.",
+        "gt_answers": "FLYING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/223.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is of an embroidered crest on a black shirt that reads Arsenal Football Club. The crest features a wreath of laurel leaves and the team's emblem, a shield with two gules lions passant gardant or and a chief azure.",
+        "gt_answers": "ARSENAL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/033.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the words,'milk'written in blue on a white background.",
+        "gt_answers": "DAIRY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/268.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Blog\" is written in the image.",
+        "gt_answers": "aishahaleyesblogspotcom",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/263.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a close-up of a red and white striped shirt with a collar and buttons.\n\nThere is no text or other visible information in the image.",
+        "gt_answers": "1",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/041.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number 5 in white with a black border and a white outline.",
+        "gt_answers": "5",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/068.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue and white sign that reads, `pantaloons'in white letters. The sign is mounted on a blue background with white and blue lettering, and the letters are written in white and blue. The sign has a white border around it, and there are no other visible details in the image.",
+        "gt_answers": "ARTETA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/045.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a stylized representation of the word \"family\" written in the shape of a circle. The circle is filled with green and white stripes, with a white letter \"f\" in the center of the circle.",
+        "gt_answers": "FAMILY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/193.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a shirt with the word \"knight\" written on it in white letters.",
+        "gt_answers": "KNIGHT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/049.jpg",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a stylized representation of a whale jumping out of the water. The whale is surrounded by blue and white waves, and the words \"Naval\" are written above it in white. The image is also accompanied by a tagline reading \"Discover the Wonders of the Sea\" in white.",
+        "gt_answers": "NAVAL",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/CUTE80/timage/177.jpg",
+        "model_name": "MiniGPT-4"
+    }
+]

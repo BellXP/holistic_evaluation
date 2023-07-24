@@ -1,0 +1,702 @@
+[
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a man dressed in traditional clothing standing near a street,",
+        "gt_answers": [
+            "A man in a green hat playing bagpipes standing in front of a table displaying framed pictures .",
+            "A man playing the bagpipes in traditional garb plays while walking down a wet stone street .",
+            "An old man dressed in black with white stockings is holding a bagpipe .",
+            "A gentleman is walking along playing the bagpipes .",
+            "A man in traditional attire plays the bagpipes ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/314976887.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.37044584154920074
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features an outdoor train station with multiple people waiting to board a",
+        "gt_answers": [
+            "An elderly woman wearing glasses has her hand on her chin , as she and other people wait at a train station .",
+            "Some people are waiting for a train to pull in , some people are leaving while most are staying .",
+            "A gray-haired women with a white shirt looking while other women sitting",
+            "People standing outside waiting for the graffiti covered train to pass .",
+            "People gather at a train station ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/576875301.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.267744168377189
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The scene depicts a black dog leaping into the air and catch",
+        "gt_answers": [
+            "A black dog leaps from the water near a wooded shoreline",
+            "A black dog jumping in water in the woods .",
+            "A black dog is jumping out of water .",
+            "Animal jumping up from the pond .",
+            "A dog playing in water ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/3708839890.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.47977105070954607
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "In the image, a small child is lying on a large inflatable foot",
+        "gt_answers": [
+            "A sleepy looking woman holding a baby who seems to be in a state of awe .",
+            "A sleepy mother tries to keep up with her kid .",
+            "Mother lifting her child onto a spin roll toy .",
+            "A woman is helping a baby stand up .",
+            "A lady is taking care of her child ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2119206841.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.05285739725179513
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a snowy scene in a city where a man is carrying",
+        "gt_answers": [
+            "A man wearing coat and holding a briefcase in walking on the street in winter .",
+            "a town with a person walking down the street with a briefcase",
+            "man walking with briefcase down street in city",
+            "Walking home on a cold winters day .",
+            "The view of a few buildings ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/4351426633.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.06085179420635855
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a mother, daughter, and a little boy standing in line",
+        "gt_answers": [
+            "A man and woman with a child are looking through the windows of a shop that sells , at least , sandwiches .",
+            "A couple and their baby are looking at food through a glass window at a store .",
+            "A young man and a woman carrying a toddler and browsing an outdoor food shop .",
+            "a young couple with child shops at a small sandwich and coffee shop .",
+            "A family is standing at the counter of an outdoor sandwich shop ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/4833687683.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.018425884419013643
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a beautiful, brick-paved street in Oxford, England",
+        "gt_answers": [
+            "A bicycle rider is about to go under an enclosed , arching overpass which attaches one brick-and-mortar building to another and is built of the same tan colored material .",
+            "A cyclist approaches the underside of a bridge between buildings .",
+            "A man rides a bicycle towards a European-style skywalk .",
+            "A man riding a bike on a street with an overhead arch .",
+            "A man in a bicycle on a street with a bridge ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/4443434749.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.054634596271750824
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features two smiling young women wearing white and red t-",
+        "gt_answers": [
+            "One girl is wearing a white t-shirt with red sleeves ; the other has words on hers .",
+            "Two girls with long hair are smiling and one is hold something white and green .",
+            "Two girls with dark hair and white shirts .",
+            "Two women in white shirts talking .",
+            "two asian girls laughing together"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/3135504530.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.21332444132171619
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a young girl looking out from the window of a blue and",
+        "gt_answers": [
+            "A little girl is peeking out from behind a blue wall .",
+            "A little girl that is hiding behind a blue barrier .",
+            "A little girl is peeking from behind a wall .",
+            "A child is standing behind a blue wall .",
+            "A little girl peering over a blue wall ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/4491246659.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.41397917275333923
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a baseball game with a woman sliding into home plate.",
+        "gt_answers": [
+            "A female softball player wearing a pink jersey is trying to tag out a softball player who is sliding back into first base .",
+            "A first basemen in a women 's softball game attempts to tag the runner out at the end of a pickoff play .",
+            "A woman in a pink shirt is trying to catch another woman as she slides into a baseball base .",
+            "A woman is hoping that she has tagged the runner to take her out of the play .",
+            "A player sliding in to base as another tries to tag her ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/7113951085.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.18553057810523654
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a woodworking shop where a man is working on a wooden",
+        "gt_answers": [
+            "A man holding a wood working power tool , standing in front of a hand made banister .",
+            "A man in blue pants and a blue sweatshirt makes a railing out of wood .",
+            "A man in a cap , sweatshirt , and jeans works on wooden banisters .",
+            "A man is working on a piece of furniture with a power tool .",
+            "A man in a purple shirt is carving wood ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2441818133.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.5670806351778275
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a woman standing in front of an outdoor market with a",
+        "gt_answers": [
+            "An oriental woman wearing a black tunic , leggings and boots , stands outside a produce store .",
+            "A woman wearing black with a white handbag is standing on the sidewalk in front of a market .",
+            "The young lady is waiting on the sidewalk in front of a produce stand .",
+            "A woman in a black coat stands on a curb outside a market .",
+            "Asian woman standing on sidewalk holding a bag ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/3391453209.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.4329782001416761
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image depicts a city street with a man standing next to a",
+        "gt_answers": [
+            "Man standing in the foreground with taxi behind with lights on and buildings in the background and light filtering down from above .",
+            "A young man in a vest with a rosary stands by a taxi and another young man with a baggy shirt .",
+            "Men in baggy clothes hang out on a sidewalk while a cab sits nearby .",
+            "A hispanic man wearing a rosary is waiting for a cab .",
+            "A man in a vest stands near a taxi cab ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/4488908417.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.0241623313457507
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a group of people standing in front of a police van or",
+        "gt_answers": [
+            "A group of three men in white shirts stand near a police van while a man in a black jacket with a white stripe sits on the curb .",
+            "A man with an injured arm watches three policemen as one addresses the police van driver and two others walk away from the van .",
+            "The police are on the scene of what ever happened , with a handcuffed man .",
+            "The men are talking to the person in the police van .",
+            "A police vehicle in an urban area ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/152979089.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.4259121688981363
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image depicts a skateboarder performing a jump over a",
+        "gt_answers": [
+            "A man is doing a skateboarding trick , known as the ollie , over a staircase .",
+            "Young male in a hoodie is doing a skateboard stunt on a flight of stairs .",
+            "A skateboarder is attempting to jump down a set of concrete stairs .",
+            "A skater is jumping down a huge staircase on his board .",
+            "A skater is jumping down the stairs on his skateboard ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2974798723.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.15077152392453197
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a man standing next to a blue and white recreational vehicle",
+        "gt_answers": [
+            "A man dressed in a brown shirt and tan shorts is down on one knee looking at some type of machinery .",
+            "A man in shorts and a brown t-shirt is looking closely at an air compressor .",
+            "Man in camouflage shorts bending over red and black air compressor .",
+            "A man kneeling before a machine .",
+            "A man kneels down by a machine ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/3773298212.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.01991467791177489
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image depicts a man wearing a yellow mask with a sun",
+        "gt_answers": [
+            "A man wears a golden mask with his hair spiked and a yellow shirt .",
+            "A man with a yellow shirt and gold sun mask on his face .",
+            "A man in a yellow shirt wears a gold , sun-shaped mask .",
+            "A yellow shirted man wearing a golden sun mask .",
+            "A man wears a gold sun mask ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/3047264032.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 1.2747988703545259
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a group of men standing together outside in a field. One",
+        "gt_answers": [
+            "Three men in white shirts , one with a blue cap , glasses and holding a book amongst a crowd .",
+            "Two men are speaking with another man who is wearing a blue cap and carrying a book .",
+            "Three men are standing in a crowd talking .",
+            "Three men in white button-up shirts chat .",
+            "Three men converse in a crowd ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/3530504007.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.11552058741008107
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows two people standing on a sidewalk outside a building with an",
+        "gt_answers": [
+            "Two females are getting ready to walk upstairs in front of graffiti and behind a station announcing \" downtown \" .",
+            "Two women standing in front of a building with bright graffiti underneath a sign that reads \" downtown . \"",
+            "Two women walking next to a sign that reads \" DOWNTOWN \" .",
+            "Two women wait at a Downtown train station .",
+            "Two females interacting with one another ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/4734253582.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.08679229318017509
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features five people, both young and older, in a white ra",
+        "gt_answers": [
+            "Four people in orange vests in a blue inflatable boat with yellow paddles .",
+            "a group of girls in a small blue and red boat with yellow oars",
+            "Four people in life jackets float on a raft .",
+            "A group of four women raft along a river .",
+            "Kids rafting down the river ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/529198549.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.00402175523523816
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features two children posing together in their swimming gogg",
+        "gt_answers": [
+            "A little boy and a little girl wearing goggles pose next to a swimming pool .",
+            "A girl and boy wearing swimming goggles have their arms around each other .",
+            "Two children in goggles standing beside a pool .",
+            "The boy and girl are wearing swimming goggles .",
+            "Two children with goggles stand before a pool ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2782850287.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.3130455048708519
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a man standing in the middle of a sidewalk, surrounded",
+        "gt_answers": [
+            "A street vendor is standing in front of a sign , and whatever he is selling is on the ground in front of him .",
+            "a man in a t-shirt and shorts is trying to sell some paper fans on a sidewalk .",
+            "A man on street , standing over some artwork , while several people pass by .",
+            "A man making artwork with fans is trying to get a lady 's attention .",
+            "a man selling handmade fans that are spread out on the sidewalk"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/4865742217.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.06435761443518842
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features an older man wearing a dark brown coat and a black",
+        "gt_answers": [
+            "A person in heavy clothing and a plastic \" hood \" around the neck carries a second plastic bag in front of a large stone column .",
+            "Man in a coat , walking with plastic wrapped around shoulders , shielding himself from the cold .",
+            "Person in old heavy coat with a bag around their head tied like a scarf .",
+            "A black man standing alone outside in a long overcoat .",
+            "A man in very warm clothing ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2252722473.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.08146851645570544
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image captures a person on a city street standing on the sidewalk",
+        "gt_answers": [
+            "A man in jacket , hat , and hood , facing away from the camera holds his hands up and together .",
+            "A man wearing a gray jacket has his fingers up in the air in the middle of a street .",
+            "A black man is holding is hands to the sky in a city .",
+            "A closeup of a man holding his hands up in the air .",
+            "man making hand signals in the air"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/1410849159.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.13378515362905657
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a young boy sitting in a captain's seat atop",
+        "gt_answers": [
+            "A small child in a cap is sitting on a large seat with hands through a steering wheel .",
+            "A little kid dressed in blue , playing in a boat .",
+            "A child in a green cap sits at a boats controls .",
+            "The boy has his arms through the steering wheel",
+            "A small child in a pretend car ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/420355149.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.10903466873929486
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a man sitting on a wooden bench in the middle of",
+        "gt_answers": [
+            "A man sits on a wooden bench in front of purple flowers while reading the paper .",
+            "A man is sitting on a bench in front of some purple plants .",
+            "A man reads a newspaper while sitting on a wooden bench .",
+            "A man reading a newspaper on a wooden outdoor bench .",
+            "Man reading magazine on bench ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2038335029.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 1.619025777802721
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image captures a beautiful scene with a group of people enjoying an",
+        "gt_answers": [
+            "A landscape picture of a motorcyclist and a person flying kites .",
+            "Kites attached to wheeled devices in a field",
+            "A kid is riding a bike in an open field .",
+            "A bike in a field and two kites",
+            "two people fly kites in a field"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/3726019124.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.027357773524252567
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image depicts a street scene with several people and a couple of",
+        "gt_answers": [
+            "Two men wearing hats play accordions while standing between two burgundy and black pre-World War II automobiles .",
+            "Two accordion players in period costumes perform between two maroon-colored antique cars .",
+            "Two old men with hats are standing in between cars with their accordions .",
+            "two men between 2 classic cars playing accordions .",
+            "Two men playing music and displaying old cars ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2658944258.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.005098519556069487
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image captures a man driving a sand-colored all-ter",
+        "gt_answers": [
+            "Extreme sports enthusiast is riding an ATV on a sand dune .",
+            "A experienced quad rider , speeding up some sand dunes .",
+            "A driver makes a tight turn on an ATV on a sand dune .",
+            "A person is riding a dune buggy up a sandy hill .",
+            "a dune buggy racer in the desert ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/7503647902.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 8.573251165389071e-05
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image depicts a young boy standing next to a skateboard",
+        "gt_answers": [
+            "A skateboarder getting ready to perform on a half-tube rink where there are trees in the background .",
+            "A young man in a gray shirt and tight fitting jeans is about to ride his skateboard over a ledge .",
+            "man with a kitty on his gray shirt waiting to go on his skateboard .",
+            "A young man raises his skateboard at the crest of a skating ramp .",
+            "A boy with a skateboard is standing on top of a ramp ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/8077305139.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.3672015084117799
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image captures an outdoor street celebration with a group of people",
+        "gt_answers": [
+            "A group of young people dressed in red are attending an event at night .",
+            "A group of people with torches are standing outside at night .",
+            "A crowd of people are in the streets and some have torches .",
+            "People dressed in colorful outfits are gathered together .",
+            "People in red hold flaming torches at night ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2250713748.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.25759502726487304
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image portrays an outdoor scene on a rocky beach,",
+        "gt_answers": [
+            "A woman with a child in her arms and a boy at her side facing towards a body of water .",
+            "A woman walks near a beach with a young child in her hand while someone sits nearby .",
+            "A woman holding a baby standing in front of a body of water .",
+            "A woman in white pants holding a baby looking at the ocean .",
+            "A woman holding a child looks out over some water ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/4971946200.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 6.362418706417087e-05
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image captures a woman in a black tank top and shorts holding",
+        "gt_answers": [
+            "A young woman tennis player dressed in black carries many tennis balls on her racket .",
+            "A woman tennis player wearing black holds a bunch of tennis balls with her racket .",
+            "A woman wearing a white hat is holding a tennis racket full of tennis balls .",
+            "A tennis player collecting tennis balls in a tennis court .",
+            "A woman practicing for tennis ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/23015660.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.061059485414164894
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a bus filled with passengers, with a woman standing on the",
+        "gt_answers": [
+            "A woman is reading the Metro newspaper on a crowded subway train .",
+            "A woman is reading a newspaper on the subway .",
+            "A woman on the bus is reading the newspaper .",
+            "women standing on a bus reading a newspaper .",
+            "A group of people are on a crowded subway ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/63960895.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.36241764887319927
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features an Olympic event, with many people participating in it,",
+        "gt_answers": [
+            "The people passing by in the parade are wearing yellow jackets .",
+            "The parade of nations at the opening games of the Olympics .",
+            "Various groups are pictured in uniforms at a major event .",
+            "A parade with several groups marching .",
+            "A parade of some sort is taking place ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/4928359809.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.04888153968676229
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image captures a group of people gathered in an indoor space,",
+        "gt_answers": [
+            "Woman performing with hula hoops wearing a red dress in front of an audience .",
+            "A girl in a red costume performs a hula-hoop routine for onlookers .",
+            "A woman with two hula hoops performs in front of a crowd .",
+            "A woman performs with two hula hoops for a crowd .",
+            "A female hula hooping in front of a crowd ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/6785884778.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.012117876766760773
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a person standing on a street corner, dressed in a fl",
+        "gt_answers": [
+            "A man in a floral shirt unbuttoned over a white t-shirt stands in the street in front of a building and a telephone pole .",
+            "A man in a colorful shirt and sunglasses stares off into the distance .",
+            "A man in black sunglasses is standing in a road looking to the side .",
+            "A gentleman overlooking a neighborhood situation .",
+            "A man stands in a run-down looking area ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2528076469.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.014453712292217641
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a man and a woman sitting on the grass, each holding",
+        "gt_answers": [
+            "A woman is sitting on a lawn chair holding a blown up of Incredible Hulk .",
+            "A lady sitting in a chair is inflating a child 's \" Hulk \" toy .",
+            "A woman is filling air up into an Incredible Hulk balloon .",
+            "A lady is inflating an Incredible Hulk toy .",
+            "Seller of blow up balloon characters ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/202233774.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.09254052834301418
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a group of people standing on a sandy beach with the",
+        "gt_answers": [
+            "Four young girls , one of which is wearing a skirt , or standing at the beach while an older adult looks on .",
+            "A girl with glasses is joined by her family on the beach .",
+            "Young women chat after a stroll along the beach line .",
+            "Group of girls hanging out on a wet sandy beach .",
+            "Four girls on the beach on a cool summer night ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2256447557.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.43835998763221246
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows a group of people sitting and standing around a park, likely",
+        "gt_answers": [
+            "Several military men surrounding women who are sitting on the ground with flags .",
+            "A group of people holding flags and signs in front of a building .",
+            "A group of police officers surround peaceful protesters .",
+            "people sitting and standing outside .",
+            "Protesters surrounded by police ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2398922618.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.4036779085583868
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image captures a woman sitting at a table, enjoying a cup",
+        "gt_answers": [
+            "An Asian woman looks out the window of a coffee shop while clutching her drink , next to a basket of poinsettias and a newspaper .",
+            "An Asian girl is drinking a cup of coffee in a restaurant sitting next to a bunch of red flowers in a pot .",
+            "A woman drinks hot chocolate at a table near flowers while looking outside .",
+            "An Asian women looks out the window of a cafe while she drinks coffee .",
+            "Asian girl is enjoying a cappuccino in a quiet coffee shop ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/386640177.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.1971570813483679
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image depicts a lively scene of a family having a fun",
+        "gt_answers": [
+            "Six people are sitting in a shallow creek making mud castles .",
+            "A group of children play in the muddy water near the woods .",
+            "Six people in bathing suits are playing around in a creek .",
+            "Some children are playing in a woodland stream .",
+            "a group of children playing in a stream"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/3162095736.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.0017739612676797637
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a city sidewalk where a man is standing on a cell",
+        "gt_answers": [
+            "An older man with graying hair talks on his cellular phone as he walks out of a Jewelry store while a woman in a black coat with furry fringes stands outside .",
+            "A man is walking outside of a jewelry store while on his phone .",
+            "Man talking on cellphone outside of a jewelry store .",
+            "A man walking out of a store talking on a cellphone .",
+            "The man is walking out of the store ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2273650537.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.09646568448831694
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a small dog with floppy ears, which is standing on",
+        "gt_answers": [
+            "A dog with big ears is holding a small stick in its mouth .",
+            "A brown dog picks up a twig from a stone surface .",
+            "A puppy with big ears chewing on a stick .",
+            "A brown puppy chewing on a stick .",
+            "A puppy has a stick in its mouth ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/861661418.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.18743752332068275
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image shows two young boys in a pool with a lifeguard nearby",
+        "gt_answers": [
+            "Two young children , one in an inflatable life vest , swim in a pool .",
+            "Two young boys are playing in the water .",
+            "Two children , boys , in pool swimming .",
+            "Brothers swim together in their pool .",
+            "Two little boys swimming in the pool ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/3555086376.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.6537174220327934
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image captures a playful golden retriever running through a grass",
+        "gt_answers": [
+            "A golden haired dog is turning direction through low straw grass .",
+            "A blond dog with floppy ears runs toward the camera .",
+            "The dog runs towards the camera in a field .",
+            "A blond dog runs through the grass .",
+            "A dog is running toward the camera ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2116316160.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.37473234256455645
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features three young men sitting on the ground, likely enjoying a",
+        "gt_answers": [
+            "Three people , two males and a female , are sitting in front of a tall tree on the ground during a rest from a hike .",
+            "Three people sitting outside on small rocks behind a big bush , wearing long pants .",
+            "Three men pose sitting in the shade on a hillside next to a backpack .",
+            "Two men and a woman sit in front of a tree and have a snack .",
+            "Three hikers rest in the shade of a tree in the desert ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/1152274630.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.08545456744839018
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image captures a group of cyclists riding down the road together",
+        "gt_answers": [
+            "A group of men in a bike race on a city street with a man in a gray and red Speedo outfit and helmet happily in the lead .",
+            "A male cyclist pulls ahead of the pack wearing gray , white and red riding gear , a helmet and sunglasses .",
+            "A man in a silver helmet enthusiastically participates in a bike race .",
+            "A strained bicyclist pedals in front of his fellow racers .",
+            "Two cyclists competing in a race ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/7053160293.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.09236888714827003
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image features a football player in action on the field, running with the",
+        "gt_answers": [
+            "A football player in an orange jersey tries to escape with the ball from the tackler .",
+            "The football player in the orange uniform has the ball in his arms .",
+            "A football player catches the ball as another tries to tackle him .",
+            "A football player carries the ball during a game .",
+            "A football player is getting tackled ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/2893515010.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.9265621892487685
+    },
+    {
+        "question": "what is described in the image?",
+        "answer": "The image showcases a man surfing in the water, performing a",
+        "gt_answers": [
+            "a young man on a white surfboard jumping over a huge wave",
+            "A tanned wakeboarder is leaping high in the air .",
+            "A male surfer in the air , leaving the water .",
+            "An airborne man on a surfboard .",
+            "A guy surfing ."
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/Caption_Datasets/Flickr_30k/flickr30k-images/3493844822.jpg",
+        "model_name": "mPLUG-Owl",
+        "cider_score": 0.10484539047593637
+    }
+]

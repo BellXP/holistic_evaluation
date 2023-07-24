@@ -1,0 +1,902 @@
+[
+    {
+        "question": "What is the model of the motorcycle in the front of the motorcycle pack?",
+        "answer": "The motorcycle in the front of the motorcycle pack is a Harley-Davidson.",
+        "gt_answers": [
+            "harley davidson",
+            "harley davidson",
+            "harley davidson",
+            "harley davidson",
+            "harley davidson",
+            "harley davidson",
+            "harley",
+            "harley",
+            "suzuki",
+            "suzuki"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000271565.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What causes auras around traffic lights when photos are taken at night?",
+        "answer": "The bright spots around traffic lights at night are caused by the reflection of the streetlights on the camera lens. The bright spots are caused by the reflection of the streetlights on the camera lens. This can cause a bright spot to appear on the photo, which can be distracting.",
+        "gt_answers": [
+            "glare",
+            "glare",
+            "lens",
+            "lens",
+            "glare",
+            "glare",
+            "reflect",
+            "reflect",
+            "lens",
+            "lens"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000281317.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Why would we suspect that this is not a summer time scene?",
+        "answer": "There are several reasons why we might suspect that this is not a summer time scene. For example, the clothing the woman is wearing appears to be appropriate for the winter season, with a sweater and boots. Additionally, the weather in the scene appears to be cool and overcast, which is not typical for a warm summer day. Finally, the store in the background appears to be a shopping center, which is more commonly associated with the winter season when people are looking for gifts and holiday items.",
+        "gt_answers": [
+            "coat",
+            "coat",
+            "coat",
+            "coat",
+            "shes wear coat",
+            "shes wear coat",
+            "cloth",
+            "cloth",
+            "woman is wear sweater",
+            "woman is wear sweater"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000190313.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is under the eggs?",
+        "answer": "The eggs are on top of a bed of fried potatoes.",
+        "gt_answers": [
+            "ham",
+            "ham",
+            "ham",
+            "ham",
+            "ham",
+            "ham",
+            "meat",
+            "meat",
+            "toast",
+            "toast"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000260105.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is this orange being used for?",
+        "answer": "This orange is being used as a decorative object on a table.",
+        "gt_answers": [
+            "decoration",
+            "decoration",
+            "decoration",
+            "decoration",
+            "decoration",
+            "decoration",
+            "breakfast",
+            "breakfast",
+            "make orange juice",
+            "make orange juice"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000260510.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "The sharp objects are doing what?",
+        "answer": "It is difficult to determine what the sharp objects are being used for without more context.",
+        "gt_answers": [
+            "cut",
+            "cut",
+            "cut",
+            "cut",
+            "cut",
+            "cut",
+            "cut",
+            "cut",
+            "cut",
+            "cut"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000255483.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What are the ingredients of the muffins?",
+        "answer": "The muffins in the image appear to be made with flour, sugar, eggs, and bananas.",
+        "gt_answers": [
+            "flour",
+            "flour",
+            "flour",
+            "flour",
+            "banana",
+            "banana",
+            "dough",
+            "dough",
+            "blueberry",
+            "blueberry"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000313337.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Which item shown here would beach goers have to refrain from using for the sun to produce extra melanin in their skin resulting in browning?",
+        "answer": "The beach umbrellas.",
+        "gt_answers": [
+            "umbrella",
+            "umbrella",
+            "umbrella",
+            "umbrella",
+            "umbrella",
+            "umbrella",
+            "umbrella",
+            "umbrella",
+            "sunblock",
+            "sunblock"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000092134.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What kind of sandwich is this?",
+        "answer": "This is a grilled cheese sandwich.",
+        "gt_answers": [
+            "veggie",
+            "veggie",
+            "veggie",
+            "veggie",
+            "veggie",
+            "veggie",
+            "veggie",
+            "veggie",
+            "deli",
+            "deli"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000549112.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Is this the amazon or sahara?",
+        "answer": "I'm sorry, I'm not sure which location you are referring to. Can you please provide more context or information?",
+        "gt_answers": [
+            "amazon",
+            "amazon",
+            "amazon",
+            "amazon",
+            "amazon",
+            "amazon",
+            "amazon",
+            "amazon",
+            "amazon",
+            "amazon"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000547738.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What material is the jacket made from?",
+        "answer": "The jacket appears to be made of denim.",
+        "gt_answers": [
+            "denim",
+            "denim",
+            "denim",
+            "denim",
+            "denim",
+            "denim",
+            "jean",
+            "jean",
+            "leather",
+            "leather"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000397587.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Why are these animals here?",
+        "answer": "These animals are likely in the water for a variety of reasons. Some may be seeking food, water, or shelter, while others may be migrating to a new location.",
+        "gt_answers": [
+            "drink",
+            "drink",
+            "drink",
+            "drink",
+            "to drink",
+            "to drink",
+            "drink water",
+            "drink water",
+            "zoo",
+            "zoo"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000070685.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What time of year is this picture captured in?",
+        "answer": "I'm sorry, I don't have the information about the time of year the picture was taken.",
+        "gt_answers": [
+            "fall",
+            "fall",
+            "fall",
+            "fall",
+            "fall",
+            "fall",
+            "fall",
+            "fall",
+            "winter",
+            "winter"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000069860.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What time period was this taken during?",
+        "answer": "I'm sorry, but I don't have enough information to determine the time period this photo was taken.",
+        "gt_answers": [
+            "1950s",
+            "1950s",
+            "1950s",
+            "1950s",
+            "1940s",
+            "1940s",
+            "30s",
+            "30s",
+            "fifty",
+            "fifty"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000292082.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What model of computer is this?",
+        "answer": "This is a MacBook Pro laptop.",
+        "gt_answers": [
+            "apple",
+            "apple",
+            "apple",
+            "apple",
+            "apple",
+            "apple",
+            "mac",
+            "mac",
+            "mac",
+            "mac"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000001503.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What kind of performance is happening?",
+        "answer": "It is difficult to determine the type of performance without more context.",
+        "gt_answers": [
+            "concert",
+            "concert",
+            "concert",
+            "concert",
+            "music",
+            "music",
+            "sing",
+            "sing",
+            "musical",
+            "musical"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000400265.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Why would we suspect that these bears are male and female?",
+        "answer": "The size of the bears, the color of their fur, and the fact that they are standing on top of each other suggest that they are a mated pair.",
+        "gt_answers": [
+            "kiss",
+            "kiss",
+            "kiss",
+            "kiss",
+            "about to mate",
+            "about to mate",
+            "investigating each other",
+            "investigating each other",
+            "love",
+            "love"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000399921.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the main color tint of this photo?",
+        "answer": "The main color tint of this photo is black and white.",
+        "gt_answers": [
+            "sepia",
+            "sepia",
+            "sepia",
+            "sepia",
+            "sepai",
+            "sepai",
+            "gray",
+            "gray",
+            "black",
+            "black"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000123570.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What species of elephant is this?",
+        "answer": "This is a baby Asian elephant.",
+        "gt_answers": [
+            "indian",
+            "indian",
+            "indian",
+            "indian",
+            "elephant",
+            "elephant",
+            "asian",
+            "asian",
+            "grey",
+            "grey"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000457217.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What do people use this for?",
+        "answer": "This truck is likely used for transporting goods and materials. It has a large open space in the back for loading items and a canvas cover to protect them from the elements.",
+        "gt_answers": [
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "move",
+            "transport shoe",
+            "transport shoe"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000398220.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What city is famous for this type of sandwich?",
+        "answer": "The city that is famous for the Philly cheesesteak sandwich is Philadelphia, Pennsylvania. The sandwich is made with thinly sliced beef, saut\u00e9ed onions, and melted cheese on a hoagie roll. It is often served with peppers and onions on top.",
+        "gt_answers": [
+            "philadelphia",
+            "philadelphia",
+            "philadelphia",
+            "philadelphia",
+            "philadelphia",
+            "philadelphia",
+            "philidelphia",
+            "philidelphia",
+            "philly",
+            "philly"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000054517.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What type of cake is this?",
+        "answer": "This is a rainbow cake.",
+        "gt_answers": [
+            "rainbow",
+            "rainbow",
+            "rainbow",
+            "rainbow",
+            "rainbow",
+            "rainbow",
+            "birthday",
+            "birthday",
+            "birthday",
+            "birthday"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000021639.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What season is it?",
+        "answer": "It is difficult to determine the season based on the image alone. The image appears to be a sunny day with tall trees and a clear blue sky. The horses are in a field with tall grass and flowers.",
+        "gt_answers": [
+            "summer",
+            "summer",
+            "summer",
+            "summer",
+            "summer",
+            "summer",
+            "summer",
+            "summer",
+            "spring",
+            "spring"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000213432.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What city is this?",
+        "answer": "This is a street in Ho Chi Minh City, Vietnam.",
+        "gt_answers": [
+            "tokyo",
+            "tokyo",
+            "tokyo",
+            "tokyo",
+            "new delhi",
+            "new delhi",
+            "los angeles",
+            "los angeles",
+            "seoul",
+            "seoul"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000567944.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "How come we know this is the ground floor?",
+        "answer": "The image appears to be taken from a window looking into a living room. The furniture and rug are clearly visible, and the view outside the window shows a large expanse of grass and trees. The rug is likely placed on the floor, and the furniture is arranged around it. The large windows provide a view of the outdoors, which is likely a backyard or a garden. The room appears to be well-lit, with natural light coming in from the windows and possibly some artificial lighting as well. The overall atmosphere of the room is cozy and inviting, with a mix of modern and traditional furniture and decor.",
+        "gt_answers": [
+            "walk outside",
+            "walk outside",
+            "window",
+            "window",
+            "view",
+            "view",
+            "tree",
+            "tree",
+            "window",
+            "window"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000410587.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What breed of cat is the one laying indoors?",
+        "answer": "The cat in the photo is a black and white cat.",
+        "gt_answers": [
+            "house cat",
+            "house cat",
+            "house cat",
+            "house cat",
+            "mediumhaired",
+            "mediumhaired",
+            "mixed",
+            "mixed",
+            "feline",
+            "feline"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000181586.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What do giraffes like to eat?",
+        "answer": "Giraffes are herbivores, meaning they only eat plants. They prefer to eat grasses, leaves, and fruits. They also enjoy browsing on low-hanging branches.",
+        "gt_answers": [
+            "grass",
+            "grass",
+            "grass",
+            "grass",
+            "leaf and twig of acacia or mimosa",
+            "leaf and twig of acacia or mimosa",
+            "hay and leaf",
+            "hay and leaf",
+            "hay",
+            "hay"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000401123.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Is this a private or public room?",
+        "answer": "This appears to be a public room, as there are multiple people in the room using computers.",
+        "gt_answers": [
+            "public",
+            "public",
+            "public",
+            "public",
+            "public",
+            "public",
+            "public",
+            "public",
+            "public",
+            "public"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000530706.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the profession of the men in this photo?",
+        "answer": "The men in this photo are likely monks. They are dressed in traditional Buddhist robes and are carrying umbrellas. They are standing in front of a row of bicycles.",
+        "gt_answers": [
+            "monk",
+            "monk",
+            "monk",
+            "monk",
+            "monk",
+            "monk",
+            "monk",
+            "monk",
+            "gigilo",
+            "gigilo"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000497960.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Why are they carving pumpkins?",
+        "answer": "It is likely that they are carving pumpkins for Halloween. Carving pumpkins is a popular activity during the Halloween season.",
+        "gt_answers": [
+            "halloween",
+            "halloween",
+            "halloween",
+            "halloween",
+            "halloween",
+            "halloween",
+            "make jack o lantern",
+            "make jack o lantern",
+            "hallowen",
+            "hallowen"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000298629.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What types of transportation are shown?",
+        "answer": "The transportation shown in the image is a white truck with a yellow boat on the back.",
+        "gt_answers": [
+            "truck and boat",
+            "truck and boat",
+            "truck and boat",
+            "truck and boat",
+            "boat and truck",
+            "boat and truck",
+            "truck",
+            "truck",
+            "boat truck",
+            "boat truck"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000267363.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What kind of craft is this?",
+        "answer": "This is a white boat with a red and blue stripe on the side. It appears to be a small vessel, possibly a yacht or a sailboat.",
+        "gt_answers": [
+            "boat",
+            "boat",
+            "boat",
+            "boat",
+            "boat",
+            "boat",
+            "boat",
+            "boat",
+            "boat",
+            "boat"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000262985.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What utensil is being used to eat this meal?",
+        "answer": "It's difficult to tell from the image alone, but it appears to be a fork.",
+        "gt_answers": [
+            "fork",
+            "fork",
+            "fork",
+            "fork",
+            "fork",
+            "fork",
+            "fork",
+            "fork",
+            "fork",
+            "fork"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000395452.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is in the glass on the left?",
+        "answer": "It is difficult to determine what is in the glass on the left without more information.",
+        "gt_answers": [
+            "orange juice",
+            "orange juice",
+            "orange juice",
+            "orange juice",
+            "orange juice",
+            "orange juice",
+            "juice",
+            "juice",
+            "water",
+            "water"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000076384.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What year was this plane made?",
+        "answer": "This plane appears to be a vintage airplane, likely from the 1940s or 1950s.",
+        "gt_answers": [
+            "1945",
+            "1945",
+            "1945",
+            "1945",
+            "1940",
+            "1940",
+            "1930",
+            "1930",
+            "1950",
+            "1950"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000137950.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What type of cattle are these?",
+        "answer": "These are Holstein cows. They are a breed of dairy cattle that is known for their black and white coloring. They are commonly used for milk production and are known for their high milk production and docile temperament.",
+        "gt_answers": [
+            "brahman",
+            "brahman",
+            "cow",
+            "cow",
+            "cow",
+            "cow",
+            "angus",
+            "angus",
+            "hereford",
+            "hereford"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000223005.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What type of water is this?",
+        "answer": "This is an ocean.",
+        "gt_answers": [
+            "salt",
+            "salt",
+            "salt",
+            "salt",
+            "salt",
+            "salt",
+            "sea",
+            "sea",
+            "ocean",
+            "ocean"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000431996.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What kind of bed is this in the photo?",
+        "answer": "This is a car-themed bed in a child's room. The bed is made to look like a race car, with a blue and yellow color scheme and racing decals on the walls. The bed also has a race car-style steering wheel and pedals.",
+        "gt_answers": [
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "car",
+            "racecar",
+            "racecar",
+            "race",
+            "race"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000384111.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What kind of dog is featured in this photo?",
+        "answer": "This is a black and white German Shepherd dog.",
+        "gt_answers": [
+            "dalmation",
+            "dalmation",
+            "dalmation",
+            "dalmation",
+            "great dane",
+            "great dane",
+            "great dane",
+            "great dane",
+            "dalmations",
+            "dalmations"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000075283.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What are some reasons people spend time in this room?",
+        "answer": "This is a bedroom with a fireplace, a television, and a desk. It is likely that people spend time in this room to relax, read, and watch TV.",
+        "gt_answers": [
+            "to sleep",
+            "to sleep",
+            "to sleep",
+            "to sleep",
+            "go to sleep",
+            "go to sleep",
+            "sleep",
+            "sleep",
+            "sleep watch to relax",
+            "sleep watch to relax"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000270603.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the company that designs the television?",
+        "answer": "The company that designs the television is Sony.",
+        "gt_answers": [
+            "samsung",
+            "samsung",
+            "samsung",
+            "samsung",
+            "samsung",
+            "samsung",
+            "lg",
+            "lg",
+            "sony",
+            "sony"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000000139.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the purpose of this vehicle?",
+        "answer": "This vehicle is a tour bus. It is likely transporting tourists to various destinations along the highway.",
+        "gt_answers": [
+            "transport good",
+            "transport good",
+            "transportation",
+            "transportation",
+            "horse transport",
+            "horse transport",
+            "animal transportation",
+            "animal transportation",
+            "transport",
+            "transport"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000403919.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Name the type of house where these windows are seen?",
+        "answer": "The house is a prison cell.",
+        "gt_answers": [
+            "jail",
+            "jail",
+            "jail",
+            "jail",
+            "jail",
+            "jail",
+            "beach house",
+            "beach house",
+            "old",
+            "old"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000398362.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What is the title of the boss of this object?",
+        "answer": "The title of the boss of this object is unknown.",
+        "gt_answers": [
+            "conductor",
+            "conductor",
+            "conductor",
+            "conductor",
+            "train operator",
+            "train operator",
+            "engineer",
+            "engineer",
+            "2",
+            "2"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000155736.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What kind of beer is in the photo?",
+        "answer": "It is difficult to tell what kind of beer is in the photo without more information. The photo appears to be of a sandwich and a bottle of beer on a table. The sandwich appears to have a meat filling and the beer appears to be a bottle of beer. It is not possible to determine the specific brand or type of beer without more information.",
+        "gt_answers": [
+            "craft",
+            "craft",
+            "craft",
+            "craft",
+            "dos equis",
+            "dos equis",
+            "ipa",
+            "ipa",
+            "pabst",
+            "pabst"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000197398.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What kinds of dogs are those?",
+        "answer": "It is difficult to tell what kind of dogs those are from the picture alone. The dogs appear to be small and brown, but it is not possible to determine their breed without seeing them in person.",
+        "gt_answers": [
+            "chihuahua",
+            "chihuahua",
+            "chihuahua",
+            "chihuahua",
+            "chihuahua",
+            "chihuahua",
+            "chihuahua",
+            "chihuahua",
+            "chihauhaus",
+            "chihauhaus"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000370701.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "What breed of dog is shown?",
+        "answer": "The breed of dog shown is a beige and white dog with brown patches on its face and legs.",
+        "gt_answers": [
+            "beagle",
+            "beagle",
+            "beagle",
+            "beagle",
+            "beagle",
+            "beagle",
+            "begal",
+            "begal",
+            "labrador",
+            "labrador"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000524382.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Which city is this?",
+        "answer": "This is the city of Copenhagen, Denmark.",
+        "gt_answers": [
+            "sydney",
+            "sydney",
+            "sydney",
+            "sydney",
+            "brisbane",
+            "brisbane",
+            "seattle",
+            "seattle",
+            "1 it is",
+            "1 it is"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000411184.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Does this look more like a home or a hotel?",
+        "answer": "It looks like a hotel room. The furniture is elegant and the room is well-appointed. The curtains are drawn, and the room is dimly lit. The bed is made with crisp white linens and the pillows are plump and inviting. The room is clean and well-maintained.",
+        "gt_answers": [
+            "hotel",
+            "hotel",
+            "hotel",
+            "hotel",
+            "hotel",
+            "hotel",
+            "hotel",
+            "hotel",
+            "hotel",
+            "hotel"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000029596.jpg",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "Who makes the shoes the tennis player is wearing?",
+        "answer": "The shoes the tennis player is wearing are likely made by a company called Nike.",
+        "gt_answers": [
+            "nike",
+            "nike",
+            "nike",
+            "nike",
+            "nike",
+            "nike",
+            "adidas",
+            "adidas",
+            "reebok",
+            "reebok"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000434486.jpg",
+        "model_name": "VPGTrans"
+    }
+]

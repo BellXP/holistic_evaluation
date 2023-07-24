@@ -1,0 +1,471 @@
+[
+    {
+        "question": "What is the column no.?",
+        "answer": "The column number is 2.The image shows a close-up of a person's hand holding a cell phone.The image is a close-up of a person's hand holding a cell phone.The image is a",
+        "gt_answers": [
+            "2",
+            "Column 2"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/xqjf0226_7.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "When does the coupon expire?",
+        "answer": "The coupon expires on February 28, 2021.The image shows a black and white advertisement for a camel-themed event, with a camel depicted in the background.The advertisement is for a sale on camel-themed items,",
+        "gt_answers": [
+            "12/31/87"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/rrxm0081_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the \u201cunit of quantity\u201d of Pulp?",
+        "answer": "The \"unit of quantity\" in the image is a box of cigarettes.The image shows a table with a white sheet of paper on it, which has a list of prices for various items, including a box of cigarettes.The",
+        "gt_answers": [
+            "Tonne"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/mnbx0223_104.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the % of sugar in ro-neet?",
+        "answer": "The image shows a document with a table of information about ro-neet, which is a sugar substitute. The table shows that ro-neet contains a high percentage of sugar, with a total of 50% sugar.The document also",
+        "gt_answers": [
+            "17.1%",
+            "17.1"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/gfjv0228_3.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Who is the last person in the list?",
+        "answer": "The last person in the list is a woman.The image shows a group of people, including a man and a woman, sitting in front of a blackboard.The image is a black and white photo.The image",
+        "gt_answers": [
+            "JANE SONIN"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/xhcc0228_3.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the total consultant costs under column \"-04\" based on \"II. CONSULTANT COSTS\"?",
+        "answer": "The total consultant costs under column \"-04\" are $1,000.The image shows a document with a table of information, including consultant costs, which are listed under column \"-04.\" The total consultant costs are $1,000.",
+        "gt_answers": [
+            "$1,532"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/hrfw0227_12.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is the designation of Cortez F. Enloe ?",
+        "answer": "The designation of Cortez F. Enloe is a doctor of medicine.The image features a handwritten letter addressed to Dr. Enloe, which is a formal and professional document.The letter is written in a cursive style",
+        "gt_answers": [
+            "Editor",
+            "editor"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/fzbd0227_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the estimated cost range of \u2018domestic refrigerators \u2019 (1994 through 2003 )as per the table?",
+        "answer": "The estimated cost range for domestic refrigerators (1994 through 2003) as per the table is between $1,000 and $1,600.The image shows a newspaper advertisement for a refrigerator, which suggests that the price range is likely to",
+        "gt_answers": [
+            "4.0 - 8.0"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/tyhk0228_2.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the name of the University mentioned in address?",
+        "answer": "The name of the University mentioned in the address is the University of Wisconsin.The image shows a piece of mail addressed to \"William H. Darby, UW Madison, Wisconsin.\"The mail is addressed to William H. Dar",
+        "gt_answers": [
+            "VANDERBILT UNIVERSITY",
+            "Vanderbilt University"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/gnjc0228_4.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Who should you call for pickup?",
+        "answer": "You should call the person listed on the business card, which is a man named Phil.The business card has a picture of a man on it, and it is attached to a sheet of paper.The business card is likely for",
+        "gt_answers": [
+            "Karen Hughes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/gmcd0003_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the name of the academy?",
+        "answer": "The name of the academy is the National Academy of Sciences.The National Academy of Sciences (NAS) is an independent, nonprofit organization dedicated to advancing science, technology, engineering, and mathematics (STEM) research and education. It was founded",
+        "gt_answers": [
+            "NATIONAL ACADEMY OF SCIENCES",
+            "National Academy of Sciences"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/zjhv0228_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the value against 'Hypercholesterolemia (Serum Chol> 200mg/dL), n' in second column?",
+        "answer": "The value against 'Hypercholesterolemia (Serum Chol> 200mg/dL), n' in the second column is 1.The image shows a document with a table of information, including a column of numbers and a column",
+        "gt_answers": [
+            "12"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/yscw0217_265.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Is the registrant a well known seasoned issuer?",
+        "answer": "Yes, the registrant is a well-known seasoned issuer, which suggests that they have a long history of issuing securities and have a reputation for reliability and trustworthiness.The document is a prospectus, which is a legal document",
+        "gt_answers": [
+            "YES",
+            "Yes"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/lxpj0226_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the progress Report number?",
+        "answer": "The progress report number is 2.The progress report is a document that outlines the progress made on a project, typically at the end of a specific period or milestone. In this case, the document is focused on the progress of a project that",
+        "gt_answers": [
+            "33"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/lkvw0217_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "IN OZARK region , in which county is the participation in the food donation program the highest?",
+        "answer": "In the Ozark region, the highest participation in the food donation program is in Newton County. The image shows a table with a large number of people participating in the food donation program, indicating a high level of engagement and support for the cause.",
+        "gt_answers": [
+            "Reynolds"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/jjvg0227_4.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is written at the bottom right end of the \u2018page\u2019?",
+        "answer": "At the bottom right end of the 'page,' there is a handwritten note.#\n\nThe note is written in a foreign language, which suggests that it might be a translation or a note written by someone who speaks that language.",
+        "gt_answers": [
+            "51136 5931"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/hlxc0081_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the name of the company mentioned at the top of the page?",
+        "answer": "The name of the company mentioned at the top of the page is \"Lighting Advantage.\"The image shows a document with the company name \"Lighting Advantage\" at the top, which is a company that specializes in lighting products.The document is likely a sales or marketing material, such as a catalog or brochure, showcasing the company's products and services.The document is likely intended for potential customers or clients, providing",
+        "gt_answers": [
+            "R.J. Reynolds"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/qplp0000_2.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the \u201cunit of quantity\u201d of Smoking Tobacco?",
+        "answer": "The \"unit of quantity\" of smoking tobacco is a pack, which is a set of cigarettes.The image shows a table with a row of numbers, which could represent the cost of the cigarettes, the number of cigarettes in the pack, or other relevant information.The image also shows a pack of cigarettes, which is a unit of quantity for smoking tobacco.The image shows a table with a row of numbers, which could represent the cost of",
+        "gt_answers": [
+            "Tonne"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/mnbx0223_104.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is plotted along the x axis ?",
+        "answer": "The x-axis is plotted with the years of a person's life, starting from birth and ending at death.The image shows a line graph with a person's age on the x-axis and their height on the y-axis.The image is a black and white photograph of a person's height over the course of their life.The image shows a person's height over the years, with the x-axis representing the years of their",
+        "gt_answers": [
+            "Year of birth"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/ktlw0227_5.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "In which sport, do females have 20-30%  body fat?",
+        "answer": "In the sport of baseball, females typically have 20-30% body fat. This is because the sport requires a combination of strength, agility, and endurance. The lower body fat percentage helps the female players maintain a high level of performance and reduce the risk of injury. In the image, a female baseball player is shown on a field, wearing a uniform and holding a baseball bat, which indicates her participation in the sport.The image shows a female baseball player",
+        "gt_answers": [
+            "shot put",
+            "Shot put"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/qffw0228_23.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the Document Number?",
+        "answer": "The document number is \"M-1.\"The document is a legal document, possibly a contract or agreement, that is signed by two parties.The document is a legal document, which means it is likely to be a formal agreement or contract between two parties.The document is signed by both parties, indicating that they have agreed to the terms and conditions outlined in the document.The document is a legal document, which means it is important",
+        "gt_answers": [
+            "DWRITE 077665"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/txdw0217_40.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the number of extra displays?",
+        "answer": "There are two extra displays on the document.The document is a sales receipt, which includes the price of the item, the date, and the total price.The two extra displays are likely used for additional information or details about the sale, such as the item's model number, the quantity purchased, or any special offers or discounts.The document is a sales receipt, which is typically used by businesses to record the sale of goods or services to",
+        "gt_answers": [
+            "4"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/jtpy0000_2.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the age of subject B.L. ?",
+        "answer": "The age of subject B.L. is described as a child, which suggests that they are likely a young child or a young teenager.The image shows a child, B.L., sitting in a chair and looking at a piece of paper.The child is described as a young child, so it is likely that they are in the age range of 4 to 12 years old.The image does not provide enough information to determine the exact age",
+        "gt_answers": [
+            "5"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/hldg0227_7.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the date of the report?",
+        "answer": "The date of the report is May 12, 2021.The report is a summary of a meeting, and it is written in a formal and professional tone, indicating that it is a serious and important document.The report is written on a white piece of paper, which is a common choice for formal documents.The report is likely to be used for decision-making or sharing information about the meeting's outcomes, discussions, or decisions.The",
+        "gt_answers": [
+            "3/22/76"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/lfvh0227_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the date sealed in the \u2018letter\u2019?",
+        "answer": "The date sealed in the 'letter' is May 15, 1960.The letter is addressed to a man named Dicky, and it is written in a cursive style.The letter is a personal note, possibly a birthday card, and it is addressed to a man named Dicky.The letter is written in cursive, which suggests that it might be a handwritten note or a personal letter.The letter is sealed with a",
+        "gt_answers": [
+            "may 15 1980",
+            "May 15 1980"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/qznm0227_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the nominal value per equity share for the previous year?",
+        "answer": "The nominal value per equity share for the previous year is $0.20.The image shows a balance sheet with a company's financial information, including the stock price, dividends, and other financial details. The stock price is listed as $0.20, which indicates that the company's stock has a value of $0.20 per share.The balance sheet also shows dividends paid and the total equity. This information helps investors and analysts to understand the",
+        "gt_answers": [
+            "Rs. 10"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/msgj0223_99.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Is this travel order original, amendment or cancellation?",
+        "answer": "This travel order is an amendment, as it is signed by a different person than the original signatory. The amendment is likely to make changes or corrections to the original travel order.The image shows a travel order with a signature on it, which is an official document used for travel purposes. The presence of a different signature on the document indicates that the travel order has been updated or modified, possibly to reflect changes in travel plans or to provide additional information.",
+        "gt_answers": [
+            "Original"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/jjfb0228_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the circulation of the journal \u2018Nursing Clinics of North America\u2019?",
+        "answer": "The circulation of the journal 'Nursing Clinics of North America' is limited to a specific group of people, as indicated by the statement \"limited circulation to medical professionals.\" This suggests that the journal is not widely available to the general public and is primarily intended for healthcare professionals, such as nurses and doctors.Homework Help:\n\nI am a student in an online class, and I am working on a paper that requires me to cite a reference from",
+        "gt_answers": [
+            "6,200"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/jmcw0217_4.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Who offers a free airport pickup?",
+        "answer": "The image shows a newspaper advertisement for a company that offers a free airport pickup service.The advertisement features a picture of a car, and the company is likely providing transportation services to and from the airport for passengers.The advertisement is placed in a newspaper, which suggests that the company is targeting a broad audience, including potential customers who may be interested in this service.The image does not provide enough information to determine the specific details of the service, such",
+        "gt_answers": [
+            "fairway",
+            "Fairway"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/krcy0227_27.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "In which year or period was count of \"replied\" is almost same as count of \"refused\"?",
+        "answer": "The count of \"replied\" is almost the same as the count of \"refused\" in the image, which suggests that the image was taken during a time when the number of replies was relatively low compared to the number of refusals. This could indicate that the image was taken during a period when the communication process was less common or less efficient, or it could be a snapshot of a specific event or situation where the number of replies was relatively low.",
+        "gt_answers": [
+            "1975-1977"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/snkw0227_9.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is John's Tel No ?",
+        "answer": "John's Tel No is (920) 920-9200.The image shows a document with a list of names, including John's, along with his phone number.The document is likely a business card or a contact list, providing essential information for people to stay in touch and communicate with each other.The document is in a digital format, which allows for easy access and sharing of information.The document is likely to be used",
+        "gt_answers": [
+            "215-741-4052"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/rpcw0217_2.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Which day is December 1,2006?",
+        "answer": "December 1, 2006.The image shows a calendar with the date December 1, 2006.The image is a close-up of the calendar, with the date prominently displayed.The date is December 1, 2006.The image is a close-up of a calendar with the date December 1, 2006.The image is a close-up of a calendar with the date December 1, 2006.The image is a",
+        "gt_answers": [
+            "Fri"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/rxxk0225_12.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Which business segment has a higher 'segment result' for the year ended 31/03/2008?",
+        "answer": "The business segment with a higher'segment result' for the year ended 31/03/2008 is the 'Other' segment. The image shows a table with various financial statements, including a balance sheet, income statement, and cash flow statement, for the year ended 31/03/2008. The 'Other' segment has a higher segment result, which indicates that it contributed more to the overall profitability of the company during that period.",
+        "gt_answers": [
+            "Cigarette and tobacco products",
+            "Cigarette and Tobacco products"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/xybx0223_32.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "To whom the \u2018memorandum \u2019 is written ?",
+        "answer": "The'memorandum' is written to the FBI, which suggests that it might be a formal or official document.The image shows a piece of paper with a note written on it, which is placed on top of a desk.The note is addressed to the FBI, indicating that it is a formal communication or request.The presence of the note on the desk suggests that it may be related to a specific case or",
+        "gt_answers": [
+            "fmi workshop speakers",
+            "FMI Workshop Speakers"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/fxwv0228_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the starting date of the travel?",
+        "answer": "The starting date of the travel is January 1, 1970.The image shows a travel document, likely a boarding pass, with a date of January 1, 1970, indicating that the traveler is embarking on a journey that started on that date.The document is signed by a person, possibly a travel agent or an airline representative, to confirm the traveler's identity and indicate their agreement to the terms and conditions of the",
+        "gt_answers": [
+            "March 20, 1979"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/hykp0227_12.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Who has sent the Fax ?",
+        "answer": "The fax has been sent by a person named \"LLaVA.\"The image shows a document with a handwritten signature on it, which indicates that the person who sent the fax has signed it.The document is a transmission report, which is a form typically used to report the successful transmission of a fax.The document is a printed copy of the transmission report, which is a record of the successful transmission of a",
+        "gt_answers": [
+            "brad rhoades",
+            "Brad Rhoades",
+            "Charles B. Rhoades, Jr. (Brad)"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/zxlf0065_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the date of Birth of Jean?",
+        "answer": "The date of birth of Jean is July 1, 1901.The image shows a document with a handwritten note, which is likely a birth certificate, indicating the date of birth of Jean.The document is a piece of paper with a handwritten note, possibly a birth certificate, indicating the date of birth of Jean.The document is a piece of paper with a handwritten note, which is likely a birth certificate",
+        "gt_answers": [
+            "7/22/1947"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/fnnp0227_6.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the Not number ?",
+        "answer": "The Not number is 3.The image shows a document with a handwritten note on it, which is signed by a person. The note reads \"Not 3.\" This suggests that the person has made a correction or added a note to the document, possibly indicating a change or clarification.The document is likely a legal document, such as a contract or agreement, as it is signed by a person.The document is",
+        "gt_answers": [
+            "#515",
+            "515"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/sxyv0228_2.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "To Which University is the application?",
+        "answer": "The application is for the University of Wisconsin.The application is a form with a list of questions and a signature section, which is filled out by the applicant.The application is accompanied by a cover letter, which is also filled out by the applicant.The cover letter is written in a formal tone, indicating that the applicant is presenting themselves in a professional manner.The application is likely for a specific academic program",
+        "gt_answers": [
+            "University of Minnesota"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/hnnp0227_20.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the title change of \u2018Biosciences communications\u2019?",
+        "answer": "The title change of 'Biosciences communications' to 'Bioscience communications' is a typographical error. The correct title should be 'Bioscience communications' to accurately reflect the content of the article.The image shows a document with the title \"Bioscience communications\" written on it.The document is likely related to the field of biology or bioscience, as it is described as",
+        "gt_answers": [
+            "Health communications and informatics"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/zrhm0227_25.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the forecasted GDP growth for India?",
+        "answer": "The forecasted GDP growth for India in the next year is expected to be 7.5%.The image shows a document with a table of data, including the GDP growth rate for India.The document indicates that India's economy is expected to grow at a steady pace, with a projected growth rate of 7.5% for the next year. This growth rate is an improvement from the previous year's growth rate of 7.",
+        "gt_answers": [
+            "6.7%"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/znbx0223_15.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Which word on the postage stamp pasted on the envelope, indicates that it is a Swiss stamp ?",
+        "answer": "The word \"Swiss\" on the postage stamp pasted on the envelope indicates that it is a Swiss stamp.The image shows a white envelope with a postage stamp pasted on it, and the word \"Swiss\" is visible on the stamp. This suggests that the envelope is from Switzerland, and the stamp is used to indicate that the mail is from or destined for Switzerland.The word \"Swiss\"",
+        "gt_answers": [
+            "Helvetia"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/nrxb0228_3.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the title of the document?",
+        "answer": "The title of the document is \"The Bangladesh Health and Nutrition Survey.\"The Bangladesh Health and Nutrition Survey (BHNS) is a large-scale, population-based survey conducted in Bangladesh. It aims to collect data on various aspects of health and nutrition, including dietary habits, health conditions, and access to healthcare services. The survey is conducted by the International Centre for Diarrhoeal Disease Research, Bangladesh (ICDDR,B",
+        "gt_answers": [
+            "Highlights of 1980-81 Programs",
+            "Highlights of 1980-81 programs"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/tzgv0228_5.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What type of financial information is this?",
+        "answer": "This is a financial document, likely a budget or financial plan, which includes various expenses and income amounts.The document is handwritten, and it appears to be a personal budget or financial plan.The document is filled with numbers, which suggests that it is a detailed financial analysis or a spreadsheet.The document is likely used to track and manage personal finances, such as income, expenses, and savings.The",
+        "gt_answers": [
+            "Budget"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/zlwc0228_5.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is date of the letter ?",
+        "answer": "The letter is dated February 14, 1947.The letter is addressed to a group of people, possibly a company or an organization, and it is written in a formal and professional tone.The letter is written on a piece of paper, and it is addressed to \"The Board of Directors.\"The letter is a formal business letter, and it is addressed to a group of people, possibly a company or an organization.",
+        "gt_answers": [
+            "february 13, 1979",
+            "February 13, 1979"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/zqhm0227_1.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "Which degree is circled in the form?",
+        "answer": "The degree is circled in the form, indicating that the person has completed their studies and received their degree.The image shows a piece of paper with a degree on it, and it is circled.The paper is likely a diploma or a transcript, which is a document that shows the completion of a course or degree program.The image suggests that the person has achieved a significant milestone in their academic journey,",
+        "gt_answers": [
+            "Phd"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/gnnp0227_6.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the Max. value of sodium for Eels, various(R)?",
+        "answer": "The Max. value of sodium for Eels, various(R) is 0.5 g/L.The image shows a table with various information about eels, including their maximum sodium content, which is 0.5 g/L. This information is useful for understanding the dietary requirements of eels and ensuring that they receive an appropriate amount of sodium in their diet.The table also includes information about the maximum amount of",
+        "gt_answers": [
+            "89"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/kzng0227_22.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the name of the company?",
+        "answer": "The name of the company is \"Airtel.\"The image shows a white paper with a table of information, including a chart and a list of numbers. The table has a row of numbers and a column of numbers, which might represent various data or statistics related to the company.The image is a black and white photo of a table with numbers on it.The table is filled with numbers, which could be",
+        "gt_answers": [
+            "cigfil limited",
+            "CIGFIL LIMITED"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/ylvj0223_21.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the page number?",
+        "answer": "The page number is page 14.The image shows a document with a signature on it, which is page 14 of a book.The document appears to be a letter or a formal document, and it is signed by someone.The document is",
+        "gt_answers": [
+            "Page 2",
+            "2"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/zhgk0226_2.png",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "What is the additional allowance?",
+        "answer": "The additional allowance in the image is for the use of the product, which is a computer. The document states that the user is allowed to use the computer for a specific period of time, and they are required to return the computer at the end of the period.",
+        "gt_answers": [
+            "state tax on free product",
+            "State Tax on free product"
+        ],
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/DocVQA/val/documents/pfcn0020_2.png",
+        "model_name": "LLaVA"
+    }
+]

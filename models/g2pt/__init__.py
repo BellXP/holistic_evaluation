@@ -1,4 +1,5 @@
 import os
+import glob
 import torch
 import torchvision.transforms as transforms
 
@@ -29,7 +30,10 @@ def load(model_path, llama_type, llama_dir, device="cuda" if torch.cuda.is_avail
 
     model = MetaModel('llama_qformerv2_peft', llama_config_path, llama_tokenzier_path, max_seq_len=max_seq_len, max_batch_size=max_batch_size)
 
-    ckpt = torch.load(model_path, map_location='cpu')['model']
-    load_result = model.load_state_dict(ckpt)
+    ckpts = sorted(glob.glob(f"{model_path}/consolidated*.model.pth"))
+    for ckpt in ckpts:
+        ckpt = torch.load(ckpt, map_location='cpu')
+        msg = model.load_state_dict(ckpt['model'], strict=False)
+        print(msg)
 
     return model.to(device), transform_train

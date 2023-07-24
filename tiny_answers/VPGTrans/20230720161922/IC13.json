@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"wear\" is written in the image.",
+        "gt_answers": "wear.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_769.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"DI\" is written in the image.",
+        "gt_answers": "Di",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_744.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"orange.\"",
+        "gt_answers": "Orange",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_168.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word graduate is written in the image.",
+        "gt_answers": "GRADUATE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_646.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"bar\" is written in the image.",
+        "gt_answers": "BAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_265.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"whatever.\"",
+        "gt_answers": "WHATEVER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_368.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a blue and white sign with the word \"WE\" written in it. It is difficult to make out the rest of the word.",
+        "gt_answers": "we",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_730.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"shops.\"",
+        "gt_answers": "SHOPS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_801.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Colchester\" is written in the image.",
+        "gt_answers": "Colchester",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_655.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"is\" is written in the image.",
+        "gt_answers": "is",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_623.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"B & H.\"",
+        "gt_answers": "B&H",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_304.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Floor.\"",
+        "gt_answers": "FLOOR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_816.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"labels.\"",
+        "gt_answers": "labels",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_54.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"IMAYA\" written in white letters on a blue background. It is difficult to determine the context or meaning of the word without more information.",
+        "gt_answers": "iiyama",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_838.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is a sign that says \"Cigar.\"",
+        "gt_answers": "CIGAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_710.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Ahead.\"",
+        "gt_answers": "AHEAD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_540.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a pink plastic sign with the word \"life\" written in white letters.",
+        "gt_answers": "LIFE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_595.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "This is a sign that says \"These.\" It is likely used to indicate that the items in the room are the ones that are mentioned in the sign.",
+        "gt_answers": "THESE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_142.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word February is written in the image.",
+        "gt_answers": "Februar",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_737.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Dixons.\"",
+        "gt_answers": "Dixon",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_645.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word pensions is written in the image.",
+        "gt_answers": "PENSIONS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_159.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"philps.\"",
+        "gt_answers": "Philips",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_182.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"new.\"",
+        "gt_answers": "NEW",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_537.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is written in white letters on a red background. It says \"HomoGenic.\"",
+        "gt_answers": "Homogenic",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_745.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a billboard advertisement for a company called \"need.\"",
+        "gt_answers": "need.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_206.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word orange is written in the image.",
+        "gt_answers": "ORANGE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_822.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"centre\" is written in the image.",
+        "gt_answers": "Centre",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_545.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"monument\" is written in the image.",
+        "gt_answers": "MONUMENT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_404.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word station is written in the image.",
+        "gt_answers": "Station",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_421.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Lion.\"",
+        "gt_answers": "LION",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_799.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Pocket.\"",
+        "gt_answers": "POCKET",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_187.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Greenwood.\"",
+        "gt_answers": "Greenwood",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_690.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Ride.\"",
+        "gt_answers": "Ride",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_827.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"research.\"",
+        "gt_answers": "Research",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_633.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Arthur\".",
+        "gt_answers": "Arthur",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_653.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Ryanair.\"",
+        "gt_answers": "RYANAIR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_125.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"red.\"",
+        "gt_answers": "Red",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_285.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word management is written in the image.",
+        "gt_answers": "Management",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_151.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Heights.\"",
+        "gt_answers": "Height",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_132.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"F\" is written in the image.",
+        "gt_answers": "O",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_33.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"bostock\" is written in the image.",
+        "gt_answers": "Bostock",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_643.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is written in Spanish and it says \"Espa\u00f1ol Ingles.\"",
+        "gt_answers": "ESPANOL-INGLES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_24.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Coming soon: Listerine.\"",
+        "gt_answers": "LISTERINE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_511.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"You are the best.\"",
+        "gt_answers": "YOU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_384.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white photograph of a person standing in front of a wall with the letters R and P written on it.",
+        "gt_answers": "R",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_435.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"is\" is written in the image.",
+        "gt_answers": "ls",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_51.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Canon.\"",
+        "gt_answers": "Canon",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_601.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"the\" is written in the image.",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_165.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"27/21 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12: 12:",
+        "gt_answers": "2.17",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_237.png",
+        "model_name": "VPGTrans"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"Rostam\" is written in the image.",
+        "gt_answers": "Rostanin",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_771.png",
+        "model_name": "VPGTrans"
+    }
+]

@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the letter `p` in black and white. The letter has a bold, serif font, and the top and bottom edges are slightly rounded. The center of the letter is vertical, and there is no space between the top and bottom lines. The left and right edges of the letter are straight, and the inside is blank. The letter is made up of a series of lines that are curved, but not decorative.",
+        "gt_answers": "&",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/948.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"county\" is written in the image. The word is written in a traditional font, with an orange outline around it, and a brown background. The word is likely to be displayed on a sign or other type of advertisement to identify the location of the county.",
+        "gt_answers": "HAUNTED",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1555.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says \"Happy is my wife\".",
+        "gt_answers": "free",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2142.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is an advertisement for a website called Shutter. It is a typography design with the word \"Shutter\" written in bold, yellow letters against a black background. The words are overlaid on top of an image of a person standing on the side of a street at night, looking up at a building. The person is wearing a white shirt, black pants, and black shoes. There are streetlights on the street and a few cars parked on the side of the road. The overall atmosphere of the image is dark and mysterious. It suggests that the person is looking for something or someone.",
+        "gt_answers": "Shut",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/788.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black metal sign with the words \"Is\" written in white on it. The letters are raised and the words are separated by spaces. The sign appears to be handmade, with some imperfections in the metal and the letters slightly worn. The overall effect is a rustic, industrial look.",
+        "gt_answers": "is",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1670.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the words \"L A\" written in a futuristic font, with the first and last letters in yellow and the middle letters in blue. The background is dark.",
+        "gt_answers": "LA",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1114.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a sticker that says \"revolution\" in white letters on a black background. The image also shows a gorilla with its mouth open and looking fierce.",
+        "gt_answers": "EVOLUTION",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/406.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"keep calm and keep moving.\" This phrase is a motivational slogan that encourages people to stay calm and keep moving forward, even in the face of challenges or difficulties. It is often used in the context of motivational or inspiration posters or other graphics.",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/583.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a person holding a sign that reads \"follow me\" in white letters on a blue background with a white border. The image appears to be a person standing in front of a group of people who are looking at them and smiling. There are also some flowers in the background.",
+        "gt_answers": "follow",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/911.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is the word \"happy birthday\" written in gold glitter on a black background.",
+        "gt_answers": "Happy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1419.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image reads, \"it's up to you.\"\n\nIt is written in the shape of a person's hand holding a ball, with the words \"it's up to you\" written above it. The background of the image appears to be a black or dark surface, and the colors used are blue and yellow. The font used is clear and easy to read.",
+        "gt_answers": "IT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1457.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BART\" is written in the image.",
+        "gt_answers": "SCHWARTZKOPFF",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1522.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"baley's\" written in white on a wooden sign. The letters are carved into the wood, with the word written in a modern, sans-serif font. The sign appears to be weathered and worn, but still readable. The image is not high resolution, so it's difficult to make out any details beyond the general shape of the sign.",
+        "gt_answers": "Baileys",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1767.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image reads \"Bach\".",
+        "gt_answers": "FISCHBACHAU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/981.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be an old, worn wooden sign with the words \"WALK\" written in black paint. The sign appears to be weathered and has seen many years of use. The font used is simple and bold, making it easy to read from a distance. The wood appears to be dark and weathered, with cracks and chips in the surface. Overall, the sign appears to be in good condition, but it is unclear what it is advertising or what it is used for.",
+        "gt_answers": "NO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2062.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black t - shirt with the words \"JACK RUSSELL\" written in white on the front of the shirt. The shirt has a collar and short sleeves. There is no image of a person wearing the shirt in the image.",
+        "gt_answers": "PATCH",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1106.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue sign with the word \"boat\" written on it in white letters. The sign is hanging from a boat or other watercraft. The sign is weathered and appears to be old, with the letters faded and worn. There are no other objects or details visible in the image.",
+        "gt_answers": "GOOD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/754.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a painted representation of the word \"be,\" written in the style of calligraphy with watercolors. The word is written in capital letters and appears to be in the center of the image, surrounded by white space.",
+        "gt_answers": "BE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1819.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image reads, `'parable' in red letters against a gray background.",
+        "gt_answers": "PARAMORE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1789.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says \"the end\".",
+        "gt_answers": "THE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1935.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a 2016 New Year's Eve party invitation with the words \"Happy New Year\" written in a script font on a black background. The font is a mix of gold and silver. There is a starburst in the background and a clock in the foreground with the numbers 2016.",
+        "gt_answers": "2018",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1090.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a quote in white letters on a blue background that says, \"but breakfast can be bread.\"\n\nThis quote is about the simplicity of breakfast, which can be just a slice of bread. It also could be interpreted as a metaphor for the importance of starting the day with a good meal.\n\nThe image is a simple, clean design with the quote in white letters on a blue background. The design is minimalist and could be used in a variety of contexts, such as on a greeting card or in a blog post.\n\nIt is possible that the image is a digital illustration or a computer generated graphic. It could also be a typographic design, created by arranging the letters and words to make a cohesive image. The style is minimalist and the message is straightforward, which makes it easy to understand and appreciate.\n\nIt is a creative and inspiring message, encouraging people to appreciate the simple things in life. The image is visually pleasing and easy to understand. The design is simple and elegant, making it suitable for a wide range of applications. The use of white text on a blue background creates a bold and striking image that is easy to read and understand.",
+        "gt_answers": "Breakfast",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1359.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "This image is a brown wooden sign with the word \"only\" written on it in black ink. The sign appears to be distressed and weathered, with the words fading and slightly worn away. The sign is likely intended to be placed on a wall or other vertical surface, and is intended to communicate a message of exclusivity or singularity. The sign may be intended to be used as a decorative element in a room or to signify a particular place or thing, such as a store or event. It is possible that the sign is intended to be used as a sign to indicate the availability of a product or service, or to suggest that the item or activity it signifies is limited or exclusive. It is also possible that the sign is intended to be used as a decorative element in a room or to signify a particular place or thing, such as a store or event.",
+        "gt_answers": "ONLY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/604.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the words \"bills\" written in script on a black cap. The font is stylized and appears to be handwritten or made with a calligraphy pen.",
+        "gt_answers": "Bills",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1741.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a sign that reads'Alameda'. It is written in gold letters on a black background.",
+        "gt_answers": "HALI",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/459.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a logo for a company called Metricup. The logo consists of the words \"Metricup\" written in a circular font with the sun symbol in the center of it. The sun symbol is a stylized representation of the sun and can be interpreted as a symbol of hope, renewal, and energy. The color of the logo is gray with green accents.",
+        "gt_answers": "METRICUP",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/412.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"dip\" written in a black and gold font.",
+        "gt_answers": "DID",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1163.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is the word, Valentine. The text is written in a fancy, ornate font in pink.",
+        "gt_answers": "valenlines",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/633.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It looks like the text in the image says \"Moral is vital.\"",
+        "gt_answers": "Vital",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1680.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a logo for a clothing brand called ` like the brand`. The logo is in the shape of a circle with the words \"like the brand\" written in the center of the circle in black ink. The background is a dark blue color.",
+        "gt_answers": "Like",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/582.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a wooden sign that reads \"moms.\" The sign is mounted on a wall or fence, and there is a rusty lock on the top. The lock is in the shape of a heart. The sign is weathered and worn, but still visible. The image is in sepia tones.",
+        "gt_answers": "MOMS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1933.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a building with a blue and white mural on the side. The mural has a large white text that reads \"Welcome to br\" in bold font, with smaller text below it that says \"epiphany.\" There are also several smaller, colorful designs on the mural. The image is of a building on a city street with a large blue and white mural on the side. The mural is of a large, white text that reads \"Welcome to bro,\" with smaller text below it that says \"epiphany.\" There are also several smaller, colorful designs on the mural.",
+        "gt_answers": "welcome",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2094.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a black and gold sign with the words'church'written on it. The sign appears to be hanging from a wooden structure.",
+        "gt_answers": "DUCHESS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1752.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a framed black and white typography sign that says, \"it's all about the journey.\" The sign has a wood frame with the text in a sans-serif font. The image is centered on the frame and the text is written in black ink.",
+        "gt_answers": "it's",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1548.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a mural on the side of a building that says \"Bristol.\"",
+        "gt_answers": "BRISTOL'S",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/2096.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"Time\" written in orange lettering on a black background.",
+        "gt_answers": "time",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1378.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a sign that reads \"fracture\". The sign is made of wood and has a green and white color scheme. The word \"fracture\" is written in black letters on the sign, and it appears to be carved or painted onto the wood. The background is a green wall, and there are trees in the distance.",
+        "gt_answers": "CACTUS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1979.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"happy\" written in handwriting. The letter 'h' is written in black ink, the letter 'a' is written in brown ink, and the letter 'p' is written in blue ink. The remaining letters are written in green ink. The word is written on a white background.",
+        "gt_answers": "Calories",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/471.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"keren\" is written in the image. It is written in white letters on a black background. The word \"keren\" is written in a stylized font with flames and smoke coming out of the letters. The overall design of the word is meant to convey a sense of power and energy. It is likely meant to be a branding or advertising symbol for a company or organization that focuses on empowerment and energy.",
+        "gt_answers": "KERN",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/654.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a brown cardboard box with the word \"wash\" written on it in white letters. The letters are faded and worn, but still readable. The box is empty, and there are no other visible items inside it.",
+        "gt_answers": "Wafer",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1848.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says, \"shine.\"",
+        "gt_answers": "FISHING",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/483.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a wooden sign with the words \"SEEN\" written in yellow paint on the surface. The word appears to be in a distressed, weathered condition, as if it has been exposed to the elements for a long time. The sign is likely to have been used in a pastoral setting, such as a farm or rural area. The words \"seen\" are written in a typeface that is reminiscent of handwriting, giving the sign a rustic, antique appearance.",
+        "gt_answers": "BEES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/347.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a sign with the words `Ruby's Bagels'on it, written in green ink.",
+        "gt_answers": "NUGGETS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/724.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image reads \"hore\".",
+        "gt_answers": "Hom\u025b",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1556.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It appears to be a brown wooden sign with the word \"r\" written on it in brown. It is difficult to make out the word from the image, but it appears to be written with a chisel or a similar tool.",
+        "gt_answers": "LIBRARY",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/563.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"fantasy\" is written in the image. The letters are made of blue and purple glitter, giving the word a mystical and whimsical appearance. The letters are arranged in a casual, playful style, with the words written in a cursive font.",
+        "gt_answers": "santasy",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/665.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"hero\" is written in the image.",
+        "gt_answers": "HERO",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1277.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a handwritten inscription in gold ink on a black background. The inscription reads `''.",
+        "gt_answers": "Costa",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/662.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "This image is a depiction of the Hindu goddess Durga, also known as Shodashi. She is a form of the goddess Mahadevi, and is considered one of the most powerful and fierce aspects of the goddess. Durga is often depicted as a fierce warrior, carrying weapons such as a sword, spear, and shield. The image is made up of a series of intricate and complex patterns that are characteristic of Indian art. These patterns, known as zari or zari work, are made up of tiny, shimmering gold or silver threads that are woven together to create a rich, colorful fabric. In this image, Durga is depicted in her traditional form, with a fierce expression and a serene, peaceful aura around her.",
+        "gt_answers": "KIDS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/957.png",
+        "model_name": "MiniGPT-4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and gold logo with the words, \"I Love The Bard.\" This is likely a tribute to the British playwright William Shakespeare.",
+        "gt_answers": "ME\u0414BE\u0414\u042a",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/WordArt/test_image/1539.png",
+        "model_name": "MiniGPT-4"
+    }
+]

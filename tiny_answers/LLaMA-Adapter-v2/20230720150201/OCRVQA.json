@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Is this a crafts or hobbies related book?",
+        "answer": "Yes, this is a crafts or hobbies related book, as it is a \"Street Atlas of Connecticut\" that features various crafts and hobbies.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51FBJ309S6L.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is \"The Travel Journals of Tappan Adney 1887-1890.\"",
+        "gt_answers": "The Travel Journals of Tappan Adney, 1887-1890",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51Z9qRQwPrL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of the book is \"Resist.\"",
+        "gt_answers": "Resist (The Resistance Series)",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51ZD5lltJwL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "The author of this book is Terry Wier.",
+        "gt_answers": "Terry Wier",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51PfRWTD-ZL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this book related to Law?",
+        "answer": "Yes, this book is related to Law, as it is a Psychiatry and Law for Clinicians textbook.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41WSB2WCBKL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this a recipe book?",
+        "answer": "Yes, this is a recipe book, as it contains a recipe for a dish that includes rice, vegetables, and meat.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51mIMcC0u9L.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "The author of this book is Della Smith.",
+        "gt_answers": "Delia Smith",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41CYVG33VRL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Who wrote this book?",
+        "answer": "The book was written by a man named Joshua.",
+        "gt_answers": "Harry Thomas Frank",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51B5ZEFZSKL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "The author of this book is National Geographic.",
+        "gt_answers": "National Geographic Society",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/61VhvEo2sAL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this book related to Sports & Outdoors?",
+        "answer": "Yes, the book is related to Sports & Outdoors, as it is a guide to skiing in America.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/518BgANf2EL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this book related to Politics & Social Sciences?",
+        "answer": "No, the book is not related to Politics & Social Sciences. It is related to health and wellness, specifically focused on providing a method for stopping chronic pain.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51pZu589ACL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this book related to Arts & Photography?",
+        "answer": "Yes, the book is related to Arts & Photography, as it features a photo of two men in martial arts poses.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41vD8wGmNcL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is \"Psychological Knowledge in Court: PTSD, Pain, and TBI.\"",
+        "gt_answers": "Psychological Knowledge in Court: PTSD, Pain, and TBI",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41mOC3MGsJL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is a legal or government document, as it is a code of federal regulations.",
+        "gt_answers": "Law",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41xP37BfonL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is \"Piano Solos.\"",
+        "gt_answers": "The Beatles Piano Solos",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51q89jOPOmL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is \"Halston and Warhol.\"",
+        "gt_answers": "Halston and Warhol: Silver and Suede",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51Dxm02LPyL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is historical fiction, as it is set in Ancient Greece and features a group of soldiers in a battle scene.",
+        "gt_answers": "Children's Books",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/61%2BHWEKfyDL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is a medical textbook, specifically focusing on cardiac surgery.",
+        "gt_answers": "Medical Books",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41OPsTieeAL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is \"365 Slow Cooker Suppers.\"",
+        "gt_answers": "365 Slow Cooker Suppers",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/61lkuFyHymL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What type of book is this?",
+        "answer": "This is a cookbook, specifically focusing on the topic of \"Feast Infections Naturally.\"",
+        "gt_answers": "Health, Fitness & Dieting",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41iOilUMkVL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is \"Islands: Western Polynesia, Comprising the New Hebrides Group, the Loyalty Group, and Wallis and Futuna.\"",
+        "gt_answers": "Gems from the Coral Islands: Western Polynesia: comprising the New Hebrides group, the Loyalty group, New Caledonia group",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41eoGJB3BqL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is sports fiction, specifically focusing on the sport of basketball.",
+        "gt_answers": "Comics & Graphic Novels",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/512bCWzIlTL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this book related to Science Fiction & Fantasy?",
+        "answer": "Yes, this book is related to Science Fiction & Fantasy, as it is a fantasy novel featuring a battle scene with elves and orcs.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51HTNAT0JVL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this a romantic book?",
+        "answer": "Yes, the book is described as a romantic book, which suggests that it may contain elements of love, relationships, or emotional connections between characters.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51GWWYk%2BqyL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Who wrote this book?",
+        "answer": "The book was written by Rutu Modan.",
+        "gt_answers": "Rutu Modan",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51pxfRvYO3L.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is marketing, specifically direct marketing.",
+        "gt_answers": "Business & Money",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51CWTYP4E7L.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this book related to Reference?",
+        "answer": "Yes, the book is related to reference, as it is a dictionary or a book of words, which is typically used for looking up definitions, meanings, or usage examples of various terms.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41koRjimufL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this book related to Business & Money?",
+        "answer": "Yes, the book is related to Business & Money, as it is a study guide for the DOST Public Speaking Exam.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51KJ27GwiUL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of the book is \"Return to Paradise.\"",
+        "gt_answers": "Return to Paradise",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/518rhWKqniL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this a financial book?",
+        "answer": "No, this is not a financial book. It is a book about business writing.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51ofItuRZRL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is fiction.",
+        "gt_answers": "Literature & Fiction",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51lLoREuzaL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is science fiction.",
+        "gt_answers": "Science & Math",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41Imavo51GL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this a kids book?",
+        "answer": "Yes, the book is a kids book, as indicated by the title and the content.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41poKXkJnJL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this book related to Test Preparation?",
+        "answer": "Yes, this book is related to test preparation, as it is a study guide for the GRE (Graduate Record Examination) exam.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41pVY-d5Y5L.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of the book is \"Caged Warrior.\"",
+        "gt_answers": "Caged Warrior",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51pjVYwBeXL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this book related to Law?",
+        "answer": "No, this book is not related to Law. It is a book about the Mid-Atlantic Coast, specifically focusing on the area around Maine.",
+        "gt_answers": "No",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51Y3BS8H9NL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of the book is \"The Enlightened Cyclist: Commuter, Dangerous Drivers, and Other Obstacles on the Path to Bicycle Transcendence.\"",
+        "gt_answers": "The Enlightened Cyclist: Commuter Angst, Dangerous Drivers, and Other Obstacles on the Path to Two-Wheeled Trancendence",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/514DVOOfUOL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this a reference book?",
+        "answer": "Yes, the image features a reference book with a woman's head on the cover, and it is titled \"Sign Language.\"",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51Odn3OpcQL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "The author of this book is Dr. Seuss, a well-known children's author and illustrator.",
+        "gt_answers": "Pamela Hill Nettleton",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/31uNgZ1QsfL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this book related to Medical Books?",
+        "answer": "No, this book is not related to Medical Books. It is a book about teaching children with speech and language difficulties.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41j7UTluaSL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is psychology, specifically focusing on family dynamics and mental health issues.",
+        "gt_answers": "Medical Books",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51n63jzabmL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is \"Entrick v Carrington: 250 Years of the Rule of Law.\"",
+        "gt_answers": "Entick v Carrington: 250 Years of the Rule of Law (Hart Studies in Comparative Public Law)",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51VYUu73SML.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is a cookbook, as it contains recipes and instructions for preparing meals.",
+        "gt_answers": "Cookbooks, Food & Wine",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51cnhzYsfrL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What type of book is this?",
+        "answer": "This is a children's book, likely designed to educate and inform young readers about epilepsy and its effects.",
+        "gt_answers": "Health, Fitness & Dieting",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51QSBR7V23L.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the genre of this book?",
+        "answer": "The genre of this book is travel, as it is a guide to Myrtle Beach, South Carolina.",
+        "gt_answers": "Travel",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41p5IJaB-wL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Is this book related to Travel?",
+        "answer": "Yes, the book is related to travel, as it is a travel guide for the cities of Rome, Venice, and Florence.",
+        "gt_answers": "Yes",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51MQQQvTl-L.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Who wrote this book?",
+        "answer": "The book was written by John Feinstein.",
+        "gt_answers": "Mike Lupica",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/41bbo%2BBCrjL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What is the title of this book?",
+        "answer": "The title of this book is \"NP Examination Review Cards.\"",
+        "gt_answers": "Saunders Q&A Review Cards for the NCLEX-PN\u00ae Examination, 2e",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51%2BfUXIzvNL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "What type of book is this?",
+        "answer": "This is a social and cultural anthropology book, which is a branch of anthropology that focuses on the study of human societies and cultures, including their beliefs, values, customs, and practices.",
+        "gt_answers": "Science & Math",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51y-z2LL6jL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    },
+    {
+        "question": "Who is the author of this book?",
+        "answer": "The author of this book is David Fincher.",
+        "gt_answers": "Gil Bettman",
+        "image_path": "/nvme/share/leimeng/datasets/VQA_Datasets/OCRVQA/images/51vRGL98qjL.jpg",
+        "model_name": "LLaMA-Adapter-v2"
+    }
+]

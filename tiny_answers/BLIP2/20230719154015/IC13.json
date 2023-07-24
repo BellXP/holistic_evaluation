@@ -1,0 +1,352 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "wear",
+        "gt_answers": "wear.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "di",
+        "gt_answers": "Di",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_744.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "orange",
+        "gt_answers": "Orange",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_168.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "graduate",
+        "gt_answers": "GRADUATE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_646.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bar",
+        "gt_answers": "BAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_265.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "whatever",
+        "gt_answers": "WHATEVER",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_368.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "wednesday",
+        "gt_answers": "we",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_730.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "shops",
+        "gt_answers": "SHOPS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_801.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "colchester",
+        "gt_answers": "Colchester",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_655.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "is",
+        "gt_answers": "is",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_623.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "b & h",
+        "gt_answers": "B&H",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_304.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "floor",
+        "gt_answers": "FLOOR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_816.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "labels",
+        "gt_answers": "labels",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_54.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "amyi",
+        "gt_answers": "iiyama",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_838.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cigar",
+        "gt_answers": "CIGAR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_710.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ahead",
+        "gt_answers": "AHEAD",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_540.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "life",
+        "gt_answers": "LIFE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "these",
+        "gt_answers": "THESE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_142.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "february",
+        "gt_answers": "Februar",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_737.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "dixon",
+        "gt_answers": "Dixon",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_645.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "pensions",
+        "gt_answers": "PENSIONS",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_159.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "philips",
+        "gt_answers": "Philips",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_182.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "news",
+        "gt_answers": "NEW",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_537.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "homogenic",
+        "gt_answers": "Homogenic",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_745.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "need d",
+        "gt_answers": "need.",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_206.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "orange",
+        "gt_answers": "ORANGE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_822.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "centre",
+        "gt_answers": "Centre",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_545.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "monument",
+        "gt_answers": "MONUMENT",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_404.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "station",
+        "gt_answers": "Station",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_421.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "lion",
+        "gt_answers": "LION",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_799.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "pocket",
+        "gt_answers": "POCKET",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_187.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "greenwood",
+        "gt_answers": "Greenwood",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_690.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ride",
+        "gt_answers": "Ride",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_827.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "research",
+        "gt_answers": "Research",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_633.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "arthur",
+        "gt_answers": "Arthur",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_653.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ryanair",
+        "gt_answers": "RYANAIR",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_125.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "red",
+        "gt_answers": "Red",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_285.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "management",
+        "gt_answers": "Management",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_151.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "height",
+        "gt_answers": "Height",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_132.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "f - f - f - f - f - f - f - f",
+        "gt_answers": "O",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_33.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bostock",
+        "gt_answers": "Bostock",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_643.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "spanish / spanish / spanish / spanish / spanish / spanish / spanish / spanish",
+        "gt_answers": "ESPANOL-INGLES",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_24.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "listenine",
+        "gt_answers": "LISTERINE",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_511.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "you",
+        "gt_answers": "YOU",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_384.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the letter r",
+        "gt_answers": "R",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_435.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word is",
+        "gt_answers": "ls",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_51.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "canon",
+        "gt_answers": "Canon",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_601.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word'the'is written on a black background",
+        "gt_answers": "the",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_165.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "2 17 7",
+        "gt_answers": "2.17",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_237.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "rostanin",
+        "gt_answers": "Rostanin",
+        "image_path": "/nvme/share/leimeng/datasets/OCR_Datasets/IC13/train_images/word_771.png",
+        "model_name": "BLIP2"
+    }
+]

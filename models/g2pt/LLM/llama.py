@@ -17,7 +17,7 @@ from fairscale.nn.model_parallel.layers import (
     ColumnParallelLinear,
 )
 
-from apex.normalization import FusedRMSNorm as RMSNorm
+# from apex.normalization import FusedRMSNorm as RMSNorm
 import open_clip
 
 default_linear_init = functools.partial(nn.init.kaiming_uniform_, a=math.sqrt(5))
