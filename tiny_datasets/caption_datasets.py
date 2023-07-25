@@ -133,3 +133,31 @@ class COCOCaptionDataset(Dataset):
         return {
             "image_path": self.image_list[idx],
             "gt_answers": self.answer_list[idx]}
+
+class COCOCaptionKarpathyDataset(Dataset):
+    def __init__(self):
+        self.data_root = f'{DATA_DIR}/MSCOCO'
+        self.image_list = []
+        self.answer_list = []
+        dataset = self.prepare_dataset()
+        for data in dataset:
+            image_path = os.path.join(self.data_root, data['image'])
+            captions = data['caption']
+            self.image_list.append(image_path)
+            self.answer_list.append(captions)
+        self.question = 'Describe this image in one sentence.'
+
+    def prepare_dataset(self):
+        dataset_file = f'{DATA_DIR}/caption_karpathy/coco_karpathy_test.json'
+        dataset = json.load(open(dataset_file, 'r'))
+        
+        return dataset
+
+    def __len__(self):
+        return len(self.image_list)
+    
+    def __getitem__(self, idx):
+        return {
+            "image_path": self.image_list[idx],
+            'question': self.question,
+            "gt_answers": self.answer_list[idx]}

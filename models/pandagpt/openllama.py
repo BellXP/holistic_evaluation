@@ -3,7 +3,7 @@ import torch.nn.functional as F
 from .ImageBind import *
 from .ImageBind import data
 from .modeling_llama import LlamaForCausalLM
-from transformers import StoppingCriteria, StoppingCriteriaList
+from transformers import StoppingCriteria, StoppingCriteriaList, LlamaConfig
 
 import torch
 from torch.nn.utils import rnn
@@ -101,7 +101,9 @@ class OpenLLAMAPEFTModel(nn.Module):
             target_modules=['q_proj', 'k_proj', 'v_proj', 'o_proj']
         )
 
-        self.llama_model = LlamaForCausalLM.from_pretrained(vicuna_ckpt_path)
+        # llama_config = LlamaConfig
+        import pdb; pdb.set_trace()
+        self.llama_model = LlamaForCausalLM.from_pretrained(vicuna_ckpt_path, local_files_only=True)
         self.llama_model = get_peft_model(self.llama_model, peft_config)
         self.llama_model.print_trainable_parameters()
 

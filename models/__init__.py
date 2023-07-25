@@ -77,5 +77,12 @@ def get_model(model_name, device=None):
     elif 'G2PT' in model_name:
         from .test_g2pt import TestG2PT
         return TestG2PT(model_name, device)
+    elif 'OFv2' in model_name:
+        _, version = model_name.split('_')
+        from .test_OFv2 import OFv2
+        return OFv2(version, device)
+    elif model_name == 'Shikra':
+        from .test_shikra import TestShikra
+        return TestShikra()
     else:
         raise ValueError(f"Invalid model_name: {model_name}")

@@ -13,6 +13,7 @@ from . import DATA_DIR
 class CIFAR10Dataset(CIFAR10):
     def __init__(self, root: str=f"{DATA_DIR}", train: bool=False, **kwargs: Any):
         super().__init__(root, train, **kwargs)
+        self.question = 'Classify the main object in the image.'
 
     def __getitem__(self, index: int) -> Tuple[str, Sequence[str]]:
         """
@@ -29,6 +30,7 @@ class CIFAR10Dataset(CIFAR10):
 
         return {
             "image_path": img,
+            "question": self.question,
             "gt_answers": answers,
         }
 

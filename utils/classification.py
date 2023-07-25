@@ -13,6 +13,7 @@ def evaluate_zero_shot_image_classification(
     dataset,
     model_name,
     dataset_name,
+    task_type,
     time,
     batch_size=1,
     answer_path='answers',
@@ -31,7 +32,7 @@ def evaluate_zero_shot_image_classification(
                 image_path = f'batch#{i} sample#{j}'
             answer_dict={'question': question, 'answer': output,
             'gt_answers': gt_answer, 'image_path': image_path,
-            'model_name': model_name}
+            'model_name': model_name, 'task_type': task_type}
             predictions.append(answer_dict)
             j += 1
         i += 1

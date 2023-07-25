@@ -10,6 +10,7 @@ def evaluate_embodied(
         dataset,
         model_name,
         dataset_name,
+        task_type,
         time,
         batch_size=1,
         answer_path='./answers'
@@ -18,11 +19,11 @@ def evaluate_embodied(
     dataloader = DataLoader(dataset, batch_size=batch_size, collate_fn=lambda batch: {key: [dict[key] for dict in batch] for key in batch[0]})
 
     for batch in tqdm(dataloader, desc="Running inference"):
-        outputs = model.generate(batch['image_path'][-1], batch['question'][-1])
-        for image_path, gt_answer, question, output in zip(batch['image_path'], batch['gt_answers'], batch["question"], [outputs]):
+        outputs = model.batch_generate(batch['image_path'], batch['question'], max_new_tokens=256)
+        for image_path, gt_answer, question, output in zip(batch['image_path'], batch['gt_answers'], batch["question"], outputs):
             answer_dict={'question': question, 'answer': output,
             'gt_answers': gt_answer, 'image_path': image_path,
-            'model_name': model_name}
+            'model_name': model_name, 'task_type': task_type}
             predictions.append(answer_dict)
 
     answer_dir = os.path.join(answer_path, time)

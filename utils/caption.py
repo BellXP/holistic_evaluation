@@ -17,6 +17,7 @@ def evaluate_Caption(
     dataset,
     model_name,
     dataset_name,
+    task_type,
     time,
     batch_size=1,
     answer_path='./answers',
@@ -30,7 +31,7 @@ def evaluate_Caption(
         for image_path, gt_answer, output in zip(batch['image_path'], batch['gt_answers'], outputs):
             answer_dict={'question': question, 'answer': output,
             'gt_answers': gt_answer, 'image_path': image_path,
-            'model_name': model_name}
+            'model_name': model_name, 'task_type': task_type}
             predictions.append(answer_dict)
     answer_dir = os.path.join(answer_path, time)
     os.makedirs(answer_dir, exist_ok=True)

@@ -1,7 +1,12 @@
-DATA_DIR = '/nvme/share/leimeng/datasets'
+DATA_DIR = '.'
+
+import os
+import pickle
+from functools import partial
+from torch.utils.data import Dataset
 
 from .ocr_datasets import ocrDataset
-from .caption_datasets import NoCapsDataset, FlickrDataset, COCOCaptionDataset
+from .caption_datasets import NoCapsDataset, FlickrDataset, COCOCaptionDataset, COCOCaptionKarpathyDataset
 from .kie_datasets import SROIEDataset, FUNSDDataset, POIEDataset
 from .embod_datasets import EmbodiedDataset
 from .cls_datasets import ImageNetDataset, CIFAR10Dataset, CIFAR100Dataset, OxfordIIITPet, Flowers102
@@ -11,11 +16,26 @@ from .vqa_datasets import (
     ScienceQADataset, OKVQADataset, GQADataset, VizWizDataset,
     VQAv2Dataset, VQAv1Dataset, VisdialDataset, IconQADataset,
     VSRDataset, VCR1_MCIDataset, VCR1_OCDataset, MSCOCO_MCIDataset,
-    MSCOCO_OCDataset, MSCOCO_POPEDataset,MSCOCO_POPEDataset_adversarial,
-    MSCOCO_POPEDataset_popular
+    MSCOCO_OCDataset, MSCOCO_POPEDataset, MSCOCO_POPEDataset_adversarial,
+    MSCOCO_POPEDataset_popular, AOKVQAOpenDataset, AOKVQACloseDataset, HatefulMemes, ScienceQAIMGDataset
 )
 
-from functools import partial
+
+class GeneralDataset(Dataset):
+    def __init__(
+        self,
+        dataset_name
+    ):
+        self.dataset_name = dataset_name
+        self.dataset = pickle.load(open(f"{DATA_DIR}/tiny_lvlm_datasets/{dataset_name}/dataset.pkl", 'rb'))
+
+    def __len__(self):
+        return len(self.dataset)
+    
+    def __getitem__(self, idx):
+        sample = self.dataset[idx]
+        sample['image_path'] = f"{DATA_DIR}/{sample['image_path']}"
+        return sample
 
 
 dataset_class_dict = {
@@ -23,6 +43,7 @@ dataset_class_dict = {
     'NoCaps': NoCapsDataset,
     'Flickr': FlickrDataset,
     'MSCOCO_caption': COCOCaptionDataset,
+    'MSCOCO_caption_karpathy': COCOCaptionKarpathyDataset,
     # KIE Datasets
     'SROIE': SROIEDataset,
     'FUNSD': FUNSDDataset,
@@ -33,7 +54,10 @@ dataset_class_dict = {
     'OCRVQA': OCRVQADataset,
     'STVQA': STVQADataset,
     'ScienceQA': ScienceQADataset,
+    'ScienceQAIMG': ScienceQAIMGDataset,
     'OKVQA': OKVQADataset,
+    'AOKVQAOpen': AOKVQAOpenDataset,
+    'AOKVQAClose': AOKVQACloseDataset,
     'GQA': GQADataset,
     'VizWiz': VizWizDataset,
     'VQAv2': VQAv2Dataset,
@@ -41,6 +65,7 @@ dataset_class_dict = {
     'Visdial': VisdialDataset,
     'IconQA': IconQADataset,
     'VSR': VSRDataset,
+    'HatefulMemes': HatefulMemes,
     # Embodied Datasets
     "MetaWorld": partial(EmbodiedDataset, dataset_name="MetaWorld"),
     "FrankaKitchen": partial(EmbodiedDataset, dataset_name="FrankaKitchen"),
@@ -64,5 +89,18 @@ dataset_class_dict = {
     'MSCOCO_OC': MSCOCO_OCDataset,
     'MSCOCO_pope_random': MSCOCO_POPEDataset,
     'MSCOCO_pope_popular': MSCOCO_POPEDataset_popular,
-    'MSCOCO_pope_adversarial': MSCOCO_POPEDataset_adversarial
+    'MSCOCO_pope_adversarial': MSCOCO_POPEDataset_adversarial,
+    # OCR
+    "COCO-Text": partial(ocrDataset, dataset_name="COCO-Text"),
+    "CTW": partial(ocrDataset, dataset_name="CTW"),
+    "CUTE80": partial(ocrDataset, dataset_name="CUTE80"),
+    "HOST": partial(ocrDataset, dataset_name="HOST"),
+    "IC13": partial(ocrDataset, dataset_name="IC13"),
+    "IC15": partial(ocrDataset, dataset_name="IC15"),
+    "IIIT5K": partial(ocrDataset, dataset_name="IIIT5K"),
+    "SVTP": partial(ocrDataset, dataset_name="SVTP"),
+    "SVT": partial(ocrDataset, dataset_name="SVT"),
+    "Total-Text": partial(ocrDataset, dataset_name="Total-Text"),
+    "WOST": partial(ocrDataset, dataset_name="WOST"),
+    "WordArt": partial(ocrDataset, dataset_name="WordArt"),
 }

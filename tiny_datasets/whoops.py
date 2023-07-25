@@ -16,6 +16,7 @@ class WHOOPSCaptionDataset(Dataset):
         self.vis_root = f'{root}/whoops_images'
         self.anno_path = f'{root}/whoops_captions.json'
         self.annotation = json.load(open(self.anno_path, "r"))
+        self.question = 'Describe this image in one sentence.'
 
     def __len__(self):
         return len(self.annotation)
@@ -29,6 +30,7 @@ class WHOOPSCaptionDataset(Dataset):
 
         return {
             "image_path": image_path,
+            'question': self.question,
             "gt_answers": answers,
         }
 
@@ -73,6 +75,7 @@ class WHOOPSWeirdDataset(Dataset):
         self.vis_root = f'{root}/whoops_images'
         self.anno_path = f'{root}/whoops_explanation_of_violation.json'
         self.annotation = json.load(open(self.anno_path, "r"))
+        self.question = 'What is unusual about this image? Please provide a concise one-sentence explanation.'
 
     def __len__(self):
         return len(self.annotation)
@@ -90,5 +93,6 @@ class WHOOPSWeirdDataset(Dataset):
 
         return {
             "image_path": image_path,
+            "question": self.question,
             "gt_answers": answers,
         }
