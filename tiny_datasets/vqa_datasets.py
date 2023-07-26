@@ -602,7 +602,7 @@ class HatefulMemes(Dataset):
 
 
 ###########################
-# NOTE: binary answer VQA #
+# NOTE: multi choices VQA #
 ###########################
 
 class IconQADataset(Dataset):
@@ -700,6 +700,7 @@ class ScienceQADataset(Dataset):
             "image_path": img_path,
             "question": question,
             "gt_answers": answers}
+
 
 class ScienceQAIMGDataset(Dataset):
     

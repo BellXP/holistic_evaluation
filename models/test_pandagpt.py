@@ -59,21 +59,17 @@ class TestPandaGPT:
         pass
 
     def generate(self, image, question, max_new_tokens=256):
-        try:
-            response = self.model.generate({
-                'prompt': question,
-                'image_paths': [image],
-                'audio_paths': [],
-                'video_paths': [],
-                'thermal_paths': [],
-                'top_p': 0.01,
-                'temperature': 1.0,
-                'max_tgt_len': max_new_tokens,
-                'modality_embeds': []
-            })
-        except Exception as e:
-            print(e)
-            response = ''
+        response = self.model.generate({
+            'prompt': question,
+            'image_paths': [image],
+            'audio_paths': [],
+            'video_paths': [],
+            'thermal_paths': [],
+            'top_p': 0.01,
+            'temperature': 1.0,
+            'max_tgt_len': max_new_tokens,
+            'modality_embeds': []
+        })
         return response
     
     def batch_generate(self, image_list, question_list, max_new_tokens=256):

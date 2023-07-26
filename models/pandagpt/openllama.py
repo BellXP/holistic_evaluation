@@ -102,7 +102,7 @@ class OpenLLAMAPEFTModel(nn.Module):
         )
 
         # llama_config = LlamaConfig
-        import pdb; pdb.set_trace()
+        # import pdb; pdb.set_trace()
         self.llama_model = LlamaForCausalLM.from_pretrained(vicuna_ckpt_path, local_files_only=True)
         self.llama_model = get_peft_model(self.llama_model, peft_config)
         self.llama_model.print_trainable_parameters()
@@ -245,8 +245,8 @@ class OpenLLAMAPEFTModel(nn.Module):
             feature_embeds = inputs['modality_embeds'][0]
         else:
             feature_embeds = self.extract_multimodal_feature(inputs)
-            print(f'Check the shape of feature embeds: {feature_embeds.shape}')
-            import pdb; pdb.set_trace()
+            # print(f'Check the shape of feature embeds: {feature_embeds.shape}')
+            # import pdb; pdb.set_trace()
             inputs['modality_embeds'].append(feature_embeds)
 
         batch_size = feature_embeds.shape[0]
