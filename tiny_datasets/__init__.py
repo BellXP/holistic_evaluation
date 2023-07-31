@@ -1,4 +1,4 @@
-DATA_DIR = '.'
+DATA_DIR = '/nvme/share/leimeng/datasets' # '.', '/nvme/share/leimeng/datasets'
 
 import os
 import pickle
@@ -17,7 +17,8 @@ from .vqa_datasets import (
     VQAv2Dataset, VQAv1Dataset, VisdialDataset, IconQADataset,
     VSRDataset, VCR1_MCIDataset, VCR1_OCDataset, MSCOCO_MCIDataset,
     MSCOCO_OCDataset, MSCOCO_POPEDataset, MSCOCO_POPEDataset_adversarial,
-    MSCOCO_POPEDataset_popular, AOKVQAOpenDataset, AOKVQACloseDataset, HatefulMemes, ScienceQAIMGDataset
+    MSCOCO_POPEDataset_popular, AOKVQAOpenDataset, AOKVQACloseDataset,
+    HatefulMemes, ScienceQAIMGDataset, ImageNetVC, RSVQALR
 )
 
 
@@ -27,14 +28,16 @@ class GeneralDataset(Dataset):
         dataset_name
     ):
         self.dataset_name = dataset_name
-        self.dataset = pickle.load(open(f"{DATA_DIR}/tiny_lvlm_datasets/{dataset_name}/dataset.pkl", 'rb'))
+        # self.dataset = pickle.load(open(f"{DATA_DIR}/tiny_lvlm_datasets/{dataset_name}/dataset.pkl", 'rb'))
+        self.dataset = pickle.load(open(f"tiny_lvlm_datasets/{dataset_name}/dataset.pkl", 'rb'))
 
     def __len__(self):
         return len(self.dataset)
     
     def __getitem__(self, idx):
         sample = self.dataset[idx]
-        sample['image_path'] = f"{DATA_DIR}/{sample['image_path']}"
+        # sample['image_path'] = f"{DATA_DIR}/{sample['image_path']}"
+        sample['image_path'] = f"{sample['image_path']}"
         return sample
 
 
@@ -66,6 +69,11 @@ dataset_class_dict = {
     'IconQA': IconQADataset,
     'VSR': VSRDataset,
     'HatefulMemes': HatefulMemes,
+    'ImageNetVC_color': partial(ImageNetVC, task='color'),
+    'ImageNetVC_component': partial(ImageNetVC, task='component'),
+    'ImageNetVC_material': partial(ImageNetVC, task='material'),
+    'ImageNetVC_others': partial(ImageNetVC, task='others'),
+    'ImageNetVC_shape': partial(ImageNetVC, task='shape'),
     # Embodied Datasets
     "MetaWorld": partial(EmbodiedDataset, dataset_name="MetaWorld"),
     "FrankaKitchen": partial(EmbodiedDataset, dataset_name="FrankaKitchen"),
@@ -82,7 +90,7 @@ dataset_class_dict = {
     'WHOOPSCaption': WHOOPSCaptionDataset,
     'WHOOPSVQA': WHOOPSVQADataset,
     'WHOOPSWeird': WHOOPSWeirdDataset,
-    # VCR, POPE
+    # OC, MCI, Hallucination
     'VCR1_OC': VCR1_OCDataset,
     'VCR1_MCI': VCR1_MCIDataset,
     'MSCOCO_MCI': MSCOCO_MCIDataset,
@@ -90,6 +98,8 @@ dataset_class_dict = {
     'MSCOCO_pope_random': MSCOCO_POPEDataset,
     'MSCOCO_pope_popular': MSCOCO_POPEDataset_popular,
     'MSCOCO_pope_adversarial': MSCOCO_POPEDataset_adversarial,
+    'RSVQALR_OC': partial(RSVQALR, q_type='count'),
+    'RSVQALR_MCI': partial(RSVQALR, q_type='presence'),
     # OCR
     "COCO-Text": partial(ocrDataset, dataset_name="COCO-Text"),
     "CTW": partial(ocrDataset, dataset_name="CTW"),

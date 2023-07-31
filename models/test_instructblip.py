@@ -28,7 +28,7 @@ class TestInstructBLIP:
     def generate(self, image, question, max_new_tokens=128):
         image = get_image(image)
         image = self.vis_processors["eval"](image).unsqueeze(0).to(self.device)
-        output = self.model.generate({"image": image, "prompt": question}, max_length=max_new_tokens)[0]
+        output = self.model.generate({"image": image, "prompt": f"Question: {question} Short answer:"}, max_length=max_new_tokens)[0]
 
         return output
     
@@ -37,7 +37,8 @@ class TestInstructBLIP:
         imgs = [get_image(img) for img in image_list]
         imgs = [self.vis_processors["eval"](x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device)
-        prompts = question_list
+        # prompts = question_list
+        prompts = [f"Question: {question} Short answer:" for question in question_list]
         output = self.model.generate({"image": imgs, "prompt": prompts}, max_length=max_new_tokens)
 
         return output

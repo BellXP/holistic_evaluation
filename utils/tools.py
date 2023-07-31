@@ -215,7 +215,8 @@ class VQAEval:
         answer = answer.strip()
         answer = self.processPunctuation(answer)
         answer = self.processDigitArticle(answer)
-        assert type(gt_answers)==list
+        if type(gt_answers) is str:
+            gt_answers = [gt_answers]
         for i in range(len(gt_answers)):
             gt_answers[i] = gt_answers[i].replace("\n", " ")
             gt_answers[i] = gt_answers[i].replace("\t", " ")

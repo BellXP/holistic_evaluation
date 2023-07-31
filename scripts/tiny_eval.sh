@@ -9,9 +9,9 @@ python eval_tiny.py --model_name $model_name --device $device --batch_size $batc
 # MCI, OC
 python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name MSCOCO_MCI,VCR1_MCI,MSCOCO_OC,VCR1_OC
 # Object
-python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name MSCOCO_pope_adversarial,MSCOCO_pope_popular,MSCOCO_pope_random
+python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name MSCOCO_pope_adversarial,MSCOCO_pope_popular,MSCOCO_pope_random,ImageNetVC_color,ImageNetVC_component,ImageNetVC_material,ImageNetVC_others,ImageNetVC_shape
 # VQA
-python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name AOKVQAClose,AOKVQAOpen,DocVQA,GQA,OCRVQA,OKVQA,STVQA,TextVQA,VQAv2,VizWiz,WHOOPSVQA,WHOOPSWeird,Visdial
+python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name AOKVQAClose,AOKVQAOpen,DocVQA,GQA,OCRVQA,OKVQA,STVQA,TextVQA,VQAv2,VizWiz,WHOOPSVQA,WHOOPSWeird
 # VQA (choices)
 python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name HatefulMemes,IconQA,VSR,ScienceQAIMG
 # Embod

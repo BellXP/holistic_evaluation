@@ -14,9 +14,12 @@ dataset_task_dict = {
     'MSCOCO_caption': (evaluate_Caption, 'Caption'),
     'MSCOCO_caption_karpathy': (evaluate_Caption, 'Caption'),
     # KIE Datasets
-    'SROIE': (evaluate_KIE, 'VQA'),
-    'FUNSD': (evaluate_KIE, 'VQA'),
-    'POIE': (evaluate_KIE, 'VQA'),
+    # 'SROIE': (evaluate_KIE, 'KIE'),
+    # 'FUNSD': (evaluate_KIE, 'KIE'),
+    # 'POIE': (evaluate_KIE, 'KIE'),
+    'SROIE': (evaluate_VQA, 'VQA'),
+    'FUNSD': (evaluate_VQA, 'VQA'),
+    'POIE': (evaluate_VQA, 'VQA'),
     # VQA Datasets
     'TextVQA': (evaluate_VQA, 'VQA'),
     'DocVQA': (evaluate_VQA, 'VQA'),
@@ -30,6 +33,11 @@ dataset_task_dict = {
     'VQAv2': (evaluate_VQA, 'VQA'),
     'VQAv1': (evaluate_VQA, 'VQA'),
     'Visdial': (evaluate_MRR, 'VQA'),
+    'ImageNetVC_color': (evaluate_VQA, 'VQA'),
+    'ImageNetVC_component': (evaluate_VQA, 'VQA'),
+    'ImageNetVC_material': (evaluate_VQA, 'VQA'),
+    'ImageNetVC_others': (evaluate_VQA, 'VQA'),
+    'ImageNetVC_shape': (evaluate_VQA, 'VQA'),
     # VQA (binary answer)
     'VSR': (evaluate_VQA, 'Binary'),
     'HatefulMemes': (evaluate_VQA, 'Binary'),
@@ -61,6 +69,8 @@ dataset_task_dict = {
     'MSCOCO_pope_random': (evaluate_VQA, 'VQA'),
     'MSCOCO_pope_popular': (evaluate_VQA, 'VQA'),
     'MSCOCO_pope_adversarial': (evaluate_VQA, 'VQA'),
+    'RSVQALR_OC': (evaluate_VQA, 'VQA'),
+    'RSVQALR_MCI': (evaluate_VQA, 'VQA'),
     # OCR
     "COCO-Text": (evaluate_OCR, 'VQA'),
     "CTW": (evaluate_OCR, 'VQA'),

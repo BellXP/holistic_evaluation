@@ -1,6 +1,8 @@
 import os
 import json
 import datasets
+import pandas as pd
+from pathlib import Path
 from torch.utils.data import Dataset
 
 from task_datasets import DATA_DIR
@@ -316,9 +318,10 @@ class VisdialDataset(Dataset):
             dialog = sample['dialog']
             for qa in dialog:
                 question = data['questions'][qa['question']]
-                # answer = data['answers'][qa['answer']]
-                answer_options = [data['answers'][x] for x in qa['answer_options']]
-                self.answer_list.append(answer_options)
+                answer = data['answers'][qa['answer']]
+                # answer_options = [data['answers'][x] for x in qa['answer_options']]
+                # self.answer_list.append(answer_options)
+                self.answer_list.append(answer)
                 self.image_list.append(image_path)
                 self.question_list.append(question)
 
@@ -422,6 +425,54 @@ class MSCOCO_POPEDataset(Dataset):
             return self.__getitem__((idx + 1) % len(self))
 
 
+class ImageNetVC(Dataset):
+
+    def __init__(
+        self, task: str='shape', root: str=f'{DATA_DIR}/ImageNetVC'
+    ) -> None:
+        super().__init__()
+        csv_path = os.path.join(root, f'{task}.csv')
+        wid2label_path = os.path.join(root, 'ImageNet_mapping.txt')
+        label2wid = {}
+        with open(wid2label_path, 'r') as f:
+            for line in f.readlines():
+                # n01440764 tench, Tinca tinca
+                wid = line[:9]
+                for x in line[9:].split(','):
+                    label2wid[x.strip()] = wid
+        # category,question,answer
+        annos = pd.read_csv(csv_path)
+        img_dir = os.path.join(root, 'images')
+        self.data = []
+        for i, row in annos.iterrows():
+            label = row['category']
+            question = row['question']
+            answer = row['answer']
+            wid = label2wid[label]
+            for image_path in sorted(list(Path(os.path.join(img_dir, wid)).glob('*'))):
+                sample = {
+                    'image_path': str(image_path),
+                    'question': question,
+                    'answer': answer
+                }
+                self.data.append(sample)
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, index) -> dict:
+        sample = self.data[index]
+        return {
+            'image_path': sample['image_path'],
+            'question': sample['question'],
+            'gt_answers': sample['answer'],
+        }
+
+
+#############################
+# NOTE: OC and MCI datasets #
+#############################
+
 class VCR1_OCDataset(Dataset):
     def __init__(
         self,
@@ -466,6 +517,11 @@ class VCR1_MCIDataset(Dataset):
     def __getitem__(self, idx):
         question = self.data[idx]['text_in']
         answers = self.data[idx]['text_out']
+        question = (
+            f'Question: {question}\n\n'
+            'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
+            'The output format follows exactly as below:\nAnswer: <choice>'
+        )
         # COCO_val2014_000000007991.jpg
         # name = 'COCO_val2014_' + str(self.data[idx]['image_id']).zfill(len('000000007991')) + '.jpg'
         # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
@@ -495,6 +551,11 @@ class MSCOCO_MCIDataset(Dataset):
     def __getitem__(self, idx):
         question = self.data[idx]['text_in']
         answers = self.data[idx]['text_out']
+        question = (
+            f'Question: {question}\n\n'
+            'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
+            'The output format follows exactly as below:\nAnswer: <choice>'
+        )
         # COCO_val2014_000000007991.jpg
         name = 'COCO_val2014_' + str(self.data[idx]['image_id']).zfill(len('000000007991')) + '.jpg'
         # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
@@ -534,6 +595,59 @@ class MSCOCO_OCDataset(Dataset):
             "gt_answers": answers}
 
 
+class RSVQALR(Dataset):
+    def __init__(
+        self, split: str='test', root: str=f'{DATA_DIR}/RSVQALR', q_type: str=None,
+    ) -> None:
+        super().__init__()
+        self.split = split
+        images_path = os.path.join(root, f'LR_split_{self.split}_images.json')
+        images = json.load(open(images_path, 'r'))['images']
+        img_dir = os.path.join(root, 'Images_LR')
+        questions_path = os.path.join(root, f'LR_split_{self.split}_questions.json')
+        questions = json.load(open(questions_path, 'r'))['questions']
+        answers_path = os.path.join(root, f'LR_split_{self.split}_answers.json')
+        answers = json.load(open(answers_path, 'r'))['answers']
+        self.data = []
+        for x in answers:
+            if x['active']:
+                ans = x['answer']
+                ques_id = x['question_id']
+                question = questions[ques_id]
+                assert ques_id == question['id'], f'question id NOT valid!'
+                ques = question['question']
+                ques = (
+                    f"Question: {ques}\n\n"
+                    'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
+                    'The output format follows exactly as below:\nAnswer: <choice>')
+                img_id = question['img_id']
+                image = images[img_id]
+                assert img_id == image['id'], f'image id NOT valid!'
+                # image_name = image['original_name']
+                image_path = os.path.join(img_dir, f'{img_id}.tif')
+                if q_type is None:
+                    continue
+                if question['type'] != q_type:
+                    continue
+                sample = {
+                    'image_path': image_path,
+                    'question': ques,
+                    'answer': ans
+                }
+                self.data.append(sample)
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, index) -> dict:
+        sample = self.data[index]
+        return {
+            'image_path': sample['image_path'],
+            'question': sample['question'],
+            'gt_answers': sample['answer'],
+        }
+
+
 ###########################
 # NOTE: binary answer VQA #
 ###########################
@@ -553,9 +667,14 @@ class VSRDataset(Dataset):
                 data.append(json.loads(line))
         for sample in data:
             image_path = f"{self.data_root}/images/{sample['image']}"
-            question = f"Question: Is the following caption right? {sample['caption']}\n"
-            options = '\n'.join(['- ' + x for x in self.choices])
-            question += f'Choose the best answer from the following choices:\n{options}\n'
+            # question = f"Question: Is the following caption right? {sample['caption']}\n" \
+            #            f"Options: {' '.join(self.choices)}\n"
+            caption = sample['caption']
+            question = (
+                f'Question: Is the caption "{caption}" correctly describing the image?\n\n'
+                'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
+                'The output format follows exactly as below:\nAnswer: <choice>'
+            )
             answer = self.choices[sample['label']]
             self.answer_list.append(answer)
             self.image_list.append(image_path)
@@ -575,8 +694,6 @@ class VSRDataset(Dataset):
 
 
 class HatefulMemes(Dataset):
-    # TODO: prepare the list of Yes/No meaning words
-
     def __init__(self, data_root: str=f'{DATA_DIR}/hateful_memes') -> None:
         super().__init__()
         self.data_root = data_root
@@ -592,7 +709,10 @@ class HatefulMemes(Dataset):
         img = sample['img']
         image_path = f'{self.data_root}/{img}'
         text = sample['text']
-        question = f"This is a meme with '{text}' written on it. Is it hateful?"
+        question = (
+            f"This is a meme with '{text}' written on it. Is it hateful?\n\n"
+            'Based on the above and the given image, choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
+            'The output format follows exactly as below:\nAnswer: <choice>')
         gt_answers = "Yes" if sample["label"] == 1 else "No"
         return {
             'image_path': image_path,

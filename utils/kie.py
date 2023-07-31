@@ -12,7 +12,10 @@ class F1Scorer:
 
     def add_string(self, ref, pred):        
         pred_words = list(pred.split())
-        ref_words = list(ref.split())
+        if type(ref) is str:
+            ref_words = list(ref.split())
+        elif type(ref) is list:
+            ref_words = ref
         self.n_gt_words += len(ref_words)
         self.n_detected_words += len(pred_words)
         for pred_w in pred_words:
@@ -23,7 +26,10 @@ class F1Scorer:
     def score(self):
         prec = self.n_match_words / float(self.n_detected_words) * 100
         recall = self.n_match_words / float(self.n_gt_words) * 100
-        f1 = 2 * (prec * recall) / (prec + recall)
+        try:
+            f1 = 2 * (prec * recall) / (prec + recall)
+        except Exception:
+            f1 = 0
         return prec, recall, f1
 
     def result_string(self):
