@@ -57,6 +57,12 @@ dataset_task_dict = {
     'CIFAR100': (evaluate_zero_shot_image_classification, 'VQA'),
     'OxfordIIITPet': (evaluate_zero_shot_image_classification, 'VQA'),
     'Flowers102': (evaluate_zero_shot_image_classification, 'VQA'),
+    'ImageNetC': (evaluate_zero_shot_image_classification, 'VQA'),
+    'ImageNetC_blur': (evaluate_zero_shot_image_classification, 'VQA'),
+    'ImageNetC_digital': (evaluate_zero_shot_image_classification, 'VQA'),
+    'ImageNetC_noise': (evaluate_zero_shot_image_classification, 'VQA'),
+    'ImageNetC_weather': (evaluate_zero_shot_image_classification, 'VQA'),
+    'ImageNetC_extra': (evaluate_zero_shot_image_classification, 'VQA'),
     # whoops
     'WHOOPSCaption': (evaluate_Caption, 'Caption'),
     'WHOOPSVQA': (evaluate_VQA, 'VQA'),
@@ -69,8 +75,8 @@ dataset_task_dict = {
     'MSCOCO_pope_random': (evaluate_VQA, 'VQA'),
     'MSCOCO_pope_popular': (evaluate_VQA, 'VQA'),
     'MSCOCO_pope_adversarial': (evaluate_VQA, 'VQA'),
-    'RSVQALR_OC': (evaluate_VQA, 'VQA'),
     'RSVQALR_MCI': (evaluate_VQA, 'VQA'),
+    'COD10K': (evaluate_VQA, 'VQA'),
     # OCR
     "COCO-Text": (evaluate_OCR, 'VQA'),
     "CTW": (evaluate_OCR, 'VQA'),

@@ -4,6 +4,7 @@ import pathlib
 from pathlib import Path
 from typing import Any, Callable, Optional, Sequence, Tuple, Union
 
+from torch.utils.data import Dataset
 from torchvision.datasets import CIFAR10, ImageNet
 from torchvision.datasets.vision import VisionDataset
 from torchvision.datasets.utils import check_integrity, download_and_extract_archive, download_url, verify_str_arg
@@ -193,6 +194,46 @@ class ImageNetDataset(ImageNet):
             "question": self.question,
             "gt_answers": answers,
         }
+
+
+class ImageNetC(Dataset):
+    def __init__(self, root: str=f'{DATA_DIR}/ImageNetC', mode: Optional[str]=None) -> None:
+        super().__init__()
+        if mode is not None:
+            self.root = os.path.join(root, mode)
+        else:
+            self.root = root
+        self.data = []
+        self.question = 'Classify the main object in the image.'
+        synset2labels_path = f'{DATA_DIR}/ImageNet/LOC_synset_mapping.txt'
+        self.synset2labels = {}
+        with open(synset2labels_path, 'r') as f:
+            for line in f.readlines():
+                # n09421951 sandbar, sand bar
+                synset = line[:9]
+                labels = [x.strip() for x in line[10:].split(',')]
+                self.synset2labels[synset] = labels
+
+        for dirpath, dirnames, filenames in os.walk(self.root):
+            for a in filenames:
+                if not a.endswith('.JPEG'):
+                    continue
+                image_path = os.path.join(dirpath, a)
+                synset = dirpath[-9:]
+                gt_answers = self.synset2labels[synset]
+                sample = {
+                    'image_path': image_path,
+                    'question': self.question,
+                    'gt_answers': gt_answers,
+                }
+                self.data.append(sample)
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, index) -> Any:
+        sample = self.data[index]
+        return sample
 
 
 class OxfordIIITPet(VisionDataset):

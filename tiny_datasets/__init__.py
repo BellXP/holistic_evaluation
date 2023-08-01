@@ -9,7 +9,7 @@ from .ocr_datasets import ocrDataset
 from .caption_datasets import NoCapsDataset, FlickrDataset, COCOCaptionDataset, COCOCaptionKarpathyDataset
 from .kie_datasets import SROIEDataset, FUNSDDataset, POIEDataset
 from .embod_datasets import EmbodiedDataset
-from .cls_datasets import ImageNetDataset, CIFAR10Dataset, CIFAR100Dataset, OxfordIIITPet, Flowers102
+from .cls_datasets import ImageNetDataset, CIFAR10Dataset, CIFAR100Dataset, OxfordIIITPet, Flowers102, ImageNetC
 from .whoops import WHOOPSCaptionDataset, WHOOPSVQADataset, WHOOPSWeirdDataset
 from .vqa_datasets import (
     TextVQADataset, DocVQADataset, OCRVQADataset, STVQADataset,
@@ -18,7 +18,7 @@ from .vqa_datasets import (
     VSRDataset, VCR1_MCIDataset, VCR1_OCDataset, MSCOCO_MCIDataset,
     MSCOCO_OCDataset, MSCOCO_POPEDataset, MSCOCO_POPEDataset_adversarial,
     MSCOCO_POPEDataset_popular, AOKVQAOpenDataset, AOKVQACloseDataset,
-    HatefulMemes, ScienceQAIMGDataset, ImageNetVC, RSVQALR
+    HatefulMemes, ScienceQAIMGDataset, ImageNetVC, RSVQALR, COD10K,
 )
 
 
@@ -86,6 +86,12 @@ dataset_class_dict = {
     'CIFAR100': CIFAR100Dataset,
     'OxfordIIITPet': OxfordIIITPet,
     'Flowers102': Flowers102,
+    'ImageNetC': ImageNetC,
+    'ImageNetC_blur': partial(ImageNetC, mode='blur'),
+    'ImageNetC_digital': partial(ImageNetC, mode='digital'),
+    'ImageNetC_noise': partial(ImageNetC, mode='noise'),
+    'ImageNetC_weather': partial(ImageNetC, mode='weather'),
+    'ImageNetC_extra': partial(ImageNetC, mode='extra'),
     # whoops
     'WHOOPSCaption': WHOOPSCaptionDataset,
     'WHOOPSVQA': WHOOPSVQADataset,
@@ -98,8 +104,8 @@ dataset_class_dict = {
     'MSCOCO_pope_random': MSCOCO_POPEDataset,
     'MSCOCO_pope_popular': MSCOCO_POPEDataset_popular,
     'MSCOCO_pope_adversarial': MSCOCO_POPEDataset_adversarial,
-    'RSVQALR_OC': partial(RSVQALR, q_type='count'),
     'RSVQALR_MCI': partial(RSVQALR, q_type='presence'),
+    'COD10K': COD10K,
     # OCR
     "COCO-Text": partial(ocrDataset, dataset_name="COCO-Text"),
     "CTW": partial(ocrDataset, dataset_name="CTW"),

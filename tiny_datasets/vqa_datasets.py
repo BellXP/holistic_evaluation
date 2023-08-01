@@ -5,9 +5,8 @@ import pandas as pd
 from pathlib import Path
 from torch.utils.data import Dataset
 
-from task_datasets import DATA_DIR
-
 from . import DATA_DIR
+
 
 class TextVQADataset(Dataset):
     data_root = f"{DATA_DIR}/VQA_Datasets/TextVQA"
@@ -80,6 +79,35 @@ class OCRVQADataset(Dataset):
             "image_path": img_path,
             "question": question,
             "gt_answers": answers}
+    
+
+class COD10K(Dataset):
+    def __init__(self, root: str=f'{DATA_DIR}/COD10K'):
+        self.root = root
+        self.question = (
+            f"Question: Is there any animal in the image?\n\n"
+            'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
+            'The output format follows exactly as below:\nAnswer: <choice>'
+        )
+        img_dir = os.path.join(root, 'Imgs')
+        self.data = []
+        for dirpath, dirnames, filenames in os.walk(img_dir):
+            for a in filenames:
+                image_path = os.path.join(dirpath, a)
+                gt_answers = 'Yes'
+                sample = {
+                    'image_path': image_path,
+                    'question': self.question,
+                    'gt_answers': gt_answers,
+                }
+                self.data.append(sample)
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, index) -> dict:
+        sample = self.data[index]
+        return sample
 
 
 class STVQADataset(Dataset):
@@ -596,6 +624,7 @@ class MSCOCO_OCDataset(Dataset):
 
 
 class RSVQALR(Dataset):
+
     def __init__(
         self, split: str='test', root: str=f'{DATA_DIR}/RSVQALR', q_type: str=None,
     ) -> None:
@@ -615,20 +644,21 @@ class RSVQALR(Dataset):
                 ques_id = x['question_id']
                 question = questions[ques_id]
                 assert ques_id == question['id'], f'question id NOT valid!'
+                if q_type is None:
+                    continue
+                if question['type'] != q_type:
+                    continue
                 ques = question['question']
-                ques = (
-                    f"Question: {ques}\n\n"
-                    'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
-                    'The output format follows exactly as below:\nAnswer: <choice>')
+                if q_type == 'presence':
+                    ques = (
+                        f"Question: {ques}\n\n"
+                        'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
+                        'The output format follows exactly as below:\nAnswer: <choice>')
                 img_id = question['img_id']
                 image = images[img_id]
                 assert img_id == image['id'], f'image id NOT valid!'
                 # image_name = image['original_name']
                 image_path = os.path.join(img_dir, f'{img_id}.tif')
-                if q_type is None:
-                    continue
-                if question['type'] != q_type:
-                    continue
                 sample = {
                     'image_path': image_path,
                     'question': ques,

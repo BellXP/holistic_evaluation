@@ -7,7 +7,7 @@ python eval_tiny.py --model_name $model_name --device $device --batch_size $batc
 # KIE
 python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name SROIE,FUNSD,POIE
 # MCI, OC
-python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name MSCOCO_MCI,VCR1_MCI,MSCOCO_OC,VCR1_OC
+python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name MSCOCO_MCI,VCR1_MCI,MSCOCO_OC,VCR1_OC,RSVQALR_MCI,COD10K
 # Object
 python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name MSCOCO_pope_adversarial,MSCOCO_pope_popular,MSCOCO_pope_random,ImageNetVC_color,ImageNetVC_component,ImageNetVC_material,ImageNetVC_others,ImageNetVC_shape
 # VQA
@@ -17,6 +17,6 @@ python eval_tiny.py --model_name $model_name --device $device --batch_size $batc
 # Embod
 # python eval_tiny.py --model_name $model_name --device $device --batch_size 1 --dataset_name MetaWorld,FrankaKitchen,Minecraft,VirtualHome,MinecraftPolicy
 # CLS
-python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name CIFAR10,CIFAR100,Flowers102,ImageNet,OxfordIIITPet
+python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name CIFAR10,CIFAR100,Flowers102,ImageNet,OxfordIIITPet,ImageNetC,ImageNetC_blur,ImageNetC_digital,ImageNetC_noise,ImageNetC_weather,ImageNetC_extra
 # OCR
 python eval_tiny.py --model_name $model_name --device $device --batch_size $batch_size --dataset_name COCO-Text,CTW,CUTE80,HOST,IC13,IC15,IIIT5K,SVTP,SVT,Total-Text,WOST,WordArt
