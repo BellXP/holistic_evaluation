@@ -88,8 +88,6 @@ def main(args):
         file_name = f"{args.answer_path}/{args.model_name}/{dataset_name}.json"
         if task_type == 'Caption':
             metric = eval_caption(file_name, task_type)
-        elif task_type == 'KIE':
-            metric = eval_kie(file_name, task_type)
         else:
             metric = eval_vqa(file_name, task_type)
         result[dataset_name] = metric
