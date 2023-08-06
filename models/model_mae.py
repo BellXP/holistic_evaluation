@@ -394,7 +394,7 @@ class MaskedAutoencoderViT(nn.Module):
 
         self.decoder_pos_embed = nn.Parameter(torch.zeros(1, num_patches + 1, decoder_embed_dim), requires_grad=False).to('cpu')  # fixed sin-cos embedding
         self.blocks = nn.ModuleList([
-            Block(768, 16, 4, qkv_bias=True, qk_scale=None, norm_layer=norm_layer).to('cpu')
+            Block(768, 16, 4, qkv_bias=True, norm_layer=norm_layer).to('cpu')
             for i in range(8)])
         
         print('Get decoder specifics')
@@ -422,9 +422,8 @@ class MaskedAutoencoderViT(nn.Module):
         model_args.vocab_size = self.tokenizer.n_words
         # torch.set_default_tensor_type(torch.cuda.HalfTensor)
 
-        # TBD ImageNet1K zero-shot image classification
         image1k_token_ids = []
-        mappings_path = 'imagenet1k_class_name_llama_tokenizer_mapping.json'
+        mappings_path = 'datasets/ImageNet/imagenet1k_class_name_llama_tokenizer_mapping.json'
         mappings = json.load(open(mappings_path, 'r'))
         for wnid in mappings:
             for label in mappings[wnid]:

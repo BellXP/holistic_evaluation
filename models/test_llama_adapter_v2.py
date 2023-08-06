@@ -6,11 +6,11 @@ from gradio_client import Client
 import clip
 import torch
 
-from . import get_image
+from . import get_image, llama
 
 from .model_mae import mae_vit_base_patch16
 
-model_ckpt_path = 'checkpoints/llama_checkpoints/llama_adapter_v2_0518.pth'
+model_ckpt_path = 'checkpoints/llama_checkpoints/llama_adapter_v2_LORA-BIAS-7B.pth'
 
 
 os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
@@ -52,14 +52,23 @@ class TestLLamaAdapterV2_web:
 
 class TestLLamaAdapterV2:
     def __init__(self, device=None) -> None:
-        _, img_transform = clip.load("ViT-L/14", device=device)
-        generator = mae_vit_base_patch16()
-        ckpt = torch.load(model_ckpt_path, map_location='cpu')
-        ckpt_model = ckpt['model']
-        msg = generator.load_state_dict(ckpt_model, strict=False)
+        # _, img_transform = clip.load("ViT-L/14", device=device)
+        # generator = mae_vit_base_patch16()
+        # ckpt = torch.load(model_ckpt_path, map_location='cpu')
+        # ckpt_model = ckpt['model']
+        # msg = generator.load_state_dict(ckpt_model, strict=False)
 
-        self.img_transform = img_transform
-        self.generator = generator
+        llama_dir = 'checkpoints/llama_checkpoints'
+        max_batch_size = int(os.environ.get('max_batch_size', 16))
+        max_seq_len = int(os.environ.get('max_seq_len', 256))
+        model, preprocess = llama.load(
+            "LORA-BIAS-7B", llama_dir, device, download_root=llama_dir,
+            max_seq_len=max_seq_len, max_batch_size=max_batch_size
+        )
+        model.eval()
+
+        self.img_transform = preprocess
+        self.generator = model
 
         if device is not None:
             self.move_to_device(device)
