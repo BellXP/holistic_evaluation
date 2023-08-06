@@ -24,7 +24,7 @@ def parse_args():
     parser.add_argument("--per_class_acc", action="store_true", help="mean per-class accuracy")
     
     # datasets
-    parser.add_argument("--ocr_dataset_name", type=str, default="IIIT5K SVT IC13 IC15 SVTP CUTE80 COCO-Text Total-Text WordArt") # CTW HOST WOST
+    parser.add_argument("--ocr_dataset_name", type=str, default="IIIT5K SVT IC13 IC15 SVTP CUTE80 COCO-Text Total-Text WordArt CTW HOST WOST")
     parser.add_argument("--dataset_name", type=str, default=None)
     parser.add_argument("--sample_num", type=int, default=-1)
     parser.add_argument("--sample_seed", type=int, default=0)
@@ -38,6 +38,11 @@ def parse_args():
     parser.add_argument("--eval_caption", action="store_true", help="Whether to evaluate on caption.")
     parser.add_argument("--eval_kie", action="store_true", default=False, help="Whether to evaluate on kie.")
     parser.add_argument("--eval_0shot_cls", action="store_true", default=False, help="Whether to evaluate on kie.")
+
+    parser.add_argument(
+        "--ablate_prompts", action="store_true", default=False,
+        help="Ablate prompts for zero-shot image classification."
+    )
 
     args = parser.parse_args()
     return args
@@ -55,6 +60,19 @@ def sample_dataset(dataset, max_sample_num=5000, seed=0):
         dataset = torch.utils.data.Subset(dataset, random_indices)
     return dataset
 
+def sample_imagenet1k(dataset, max_sample_num=3, seed=0):
+    num_classes = 1000
+    num_samples_per_class = 50
+    inds = []
+    np.random.seed(seed)
+    for i in range(num_classes):
+        inds_i = np.random.choice(
+            num_samples_per_class, max_sample_num, replace=False
+        ) + i * num_samples_per_class
+        inds.extend(inds_i.tolist())
+    dataset = torch.utils.data.Subset(dataset, inds)
+    # print(f'sample ImageNet1K for prompt analysis {len(inds)}')
+    return dataset
 
 def get_eval_function(args):
     if args.eval_vqa:
@@ -85,7 +103,10 @@ def main(args):
     eval_function = get_eval_function(args)
     if eval_function is not None:
         dataset = dataset_class_dict[args.dataset_name]()
-        dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
+        if args.dataset_name == 'ImageNet' and args.ablate_prompts:
+            dataset = sample_imagenet1k(dataset, args.sample_num, args.sample_seed)
+        else:
+            dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
         metrics = eval_function(
             model, dataset, args.model_name, args.dataset_name, time,
             batch_size=args.batch_size, answer_path=answer_path,
