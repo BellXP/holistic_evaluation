@@ -39,7 +39,7 @@ class TestInstructBLIP:
         imgs = torch.stack(imgs, dim=0).to(self.device)
         # prompts = question_list
         prompts = [f"Question: {question} Short answer:" for question in question_list]
-        output = self.model.generate({"image": imgs, "prompt": prompts}, max_length=max_new_tokens, temperature=0.0)
+        output = self.model.generate({"image": imgs, "prompt": prompts}, max_length=max_new_tokens)
 
         return output
     

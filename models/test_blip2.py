@@ -57,7 +57,7 @@ class TestBlip2:
         imgs = [self.vis_processors["eval"](x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device, dtype=self.dtype)
         prompts = [f"Question: {question} Short answer:" for question in question_list]
-        output = self.model.generate({"image": imgs, "prompt": prompts}, max_length=max_new_tokens, temperature=0.0)
+        output = self.model.generate({"image": imgs, "prompt": prompts}, max_length=max_new_tokens)
 
         return output
     

@@ -41,7 +41,7 @@ class TestMplugOwl:
         inputs = {k: v.to(self.device) for k, v in inputs.items()}
 
         generate_kwargs = {
-            'do_sample': False,
+            'do_sample': True,
             'top_k': 5,
             'max_length': max_new_tokens
         }
@@ -63,7 +63,7 @@ class TestMplugOwl:
         inputs["pixel_values"] = images
 
         generate_kwargs = {
-            'do_sample': False,
+            'do_sample': True,
             'top_k': 5,
             'max_length': max_new_tokens
         }

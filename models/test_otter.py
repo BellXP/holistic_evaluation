@@ -62,8 +62,7 @@ class TestOtter:
             attention_mask=lang_x["attention_mask"].to(self.model.device, dtype=self.dtype),
             max_new_tokens=max_new_tokens,
             num_beams=3,
-            no_repeat_ngram_size=3,
-            temperature=0.0
+            no_repeat_ngram_size=3
         )
         total_output = []
         for i in range(len(generated_text)):

@@ -44,6 +44,9 @@ def get_model(model_name, device=None):
     elif model_name == 'Otter':
         from .test_otter import TestOtter
         return TestOtter(device)
+    elif model_name == 'Otter-Image':
+        from .test_otter_image import TestOtterImage
+        return TestOtterImage(device)
     elif model_name == 'InstructBLIP':
         from .test_instructblip import TestInstructBLIP
         return TestInstructBLIP(device)
