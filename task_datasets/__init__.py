@@ -1,7 +1,7 @@
 DATA_DIR = '/nvme/share/xupeng/datasets'
 
 from .ocr_datasets import ocrDataset
-from .caption_datasets import NoCapsDataset, FlickrDataset
+from .caption_datasets import NoCapsDataset, FlickrDataset, COCOCaptionDataset, COCOCaptionDatasetTest
 from .kie_datasets import SROIEDataset, FUNSDDataset, POIEDataset
 from .embod_datasets import EmbodiedDataset
 from .cls_datasets import ImageNetDataset, CIFAR10Dataset, CIFAR100Dataset, OxfordIIITPet, Flowers102
@@ -10,7 +10,12 @@ from .vqa_datasets import (
     TextVQADataset, DocVQADataset, OCRVQADataset, STVQADataset,
     ScienceQADataset, OKVQADataset, GQADataset, VizWizDataset,
     VQAv2Dataset, VQAv1Dataset, VisdialDataset, IconQADataset,
-    VSRDataset, SplitOCRVQADataset
+    VSRDataset, VCR1_MCIDataset, VCR1_OCDataset, MSCOCO_MCIDataset,
+    MSCOCO_OCDataset, MSCOCO_POPEDataset, MSCOCO_POPEDataset_adversarial,
+    MSCOCO_POPEDataset_popular, 
+    MSCOCO_POPEDataset_Yes, MSCOCO_POPEDataset_popular_Yes, MSCOCO_POPEDataset_adversarial_Yes,
+    MSCOCO_POPEDataset_adversarial_No, MSCOCO_POPEDataset_No, MSCOCO_POPEDataset_popular_No,
+    VG_Relation, VG_Attribution, COCO_Order, Flickr30k_Order
 )
 
 from functools import partial
@@ -20,6 +25,8 @@ dataset_class_dict = {
     # Caption Datasets
     'NoCaps': NoCapsDataset,
     'Flickr': FlickrDataset,
+    'MSCOCO_caption': COCOCaptionDataset,
+    'MSCOCO_caption_test': COCOCaptionDatasetTest,
     # KIE Datasets
     'SROIE': SROIEDataset,
     'FUNSD': FUNSDDataset,
@@ -54,13 +61,23 @@ dataset_class_dict = {
     'WHOOPSCaption': WHOOPSCaptionDataset,
     'WHOOPSVQA': WHOOPSVQADataset,
     'WHOOPSWeird': WHOOPSWeirdDataset,
-    # split OCRVQA
-    "OCR0": partial(SplitOCRVQADataset, index=0),
-    "OCR1": partial(SplitOCRVQADataset, index=1),
-    "OCR2": partial(SplitOCRVQADataset, index=2),
-    "OCR3": partial(SplitOCRVQADataset, index=3),
-    "OCR4": partial(SplitOCRVQADataset, index=4),
-    "OCR5": partial(SplitOCRVQADataset, index=5),
-    "OCR6": partial(SplitOCRVQADataset, index=6),
-    "OCR7": partial(SplitOCRVQADataset, index=7),
+    # VCR, POPE
+    'VCR1_OC': VCR1_OCDataset,
+    'VCR1_MCI': VCR1_MCIDataset,
+    'MSCOCO_MCI': MSCOCO_MCIDataset,
+    'MSCOCO_OC': MSCOCO_OCDataset,
+    'MSCOCO_pope_random': MSCOCO_POPEDataset,
+    'MSCOCO_pope_popular': MSCOCO_POPEDataset_popular,
+    'MSCOCO_pope_adversarial': MSCOCO_POPEDataset_adversarial,
+    # rebuttal related
+    'MSCOCO_pope_random_Yes': MSCOCO_POPEDataset_Yes,
+    'MSCOCO_pope_popular_Yes': MSCOCO_POPEDataset_popular_Yes,
+    'MSCOCO_pope_adversarial_Yes': MSCOCO_POPEDataset_adversarial_Yes,
+    'MSCOCO_pope_random_No': MSCOCO_POPEDataset_No,
+    'MSCOCO_pope_popular_No': MSCOCO_POPEDataset_popular_No,
+    'MSCOCO_pope_adversarial_No': MSCOCO_POPEDataset_adversarial_No,
+    'VG_Relation': VG_Relation,
+    'VG_Attribution': VG_Attribution,
+    'COCO_Order': COCO_Order,
+    'Flickr30k_Order': Flickr30k_Order
 }

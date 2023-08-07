@@ -111,7 +111,7 @@ class POIEDataset(Dataset):
         self.image_list = []
         self.question_list = []
         self.answer_list = []
-        with open(f"{self.data_root}/test.txt", 'r') as f:
+        with open(f"{self.data_root}/text.txt", 'r') as f:
             lines = f.readlines()
             for line in lines:
                 dict = json.loads(line)

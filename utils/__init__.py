@@ -90,4 +90,15 @@ dataset_task_dict = {
     "Total-Text": (evaluate_OCR, 'VQA'),
     "WOST": (evaluate_OCR, 'VQA'),
     "WordArt": (evaluate_OCR, 'VQA'),
+    # rebuttal
+    'MSCOCO_pope_random_Yes': (evaluate_VQA, 'VQA'),
+    'MSCOCO_pope_popular_Yes': (evaluate_VQA, 'VQA'),
+    'MSCOCO_pope_adversarial_Yes': (evaluate_VQA, 'VQA'),
+    'MSCOCO_pope_random_No': (evaluate_VQA, 'VQA'),
+    'MSCOCO_pope_popular_No': (evaluate_VQA, 'VQA'),
+    'MSCOCO_pope_adversarial_No': (evaluate_VQA, 'VQA'),
+    'VG_Relation': (evaluate_VQA, 'VQA'),
+    'VG_Attribution': (evaluate_VQA, 'VQA'),
+    'COCO_Order': (evaluate_VQA, 'VQA'),
+    'Flickr30k_Order': (evaluate_VQA, 'VQA')
 }

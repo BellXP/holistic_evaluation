@@ -104,6 +104,107 @@ class FlickrDataset(Dataset):
             "gt_answers": self.answer_list[idx]}
 
 
+class COCOCaptionDataset(Dataset):
+
+    def __init__(self):
+        self.data_root = f'{DATA_DIR}/MSCOCO/val2014'
+        self.image_list = []
+        self.answer_list = []
+        dataset = self.prepare_dataset()
+        for data in dataset:
+            image_path = os.path.join(self.data_root,data['filename'])
+            captions = data['caption']
+            self.image_list.append(image_path)
+            self.answer_list.append(captions)
+        # for img_name in dataset:
+        #     sample_info = dataset[img_name]
+        #     image_path = f'{self.data_root}/{img_name}'
+        #     self.image_list.append(image_path)
+        #     self.answer_list.append(sample_info)
+
+    def prepare_dataset(self):
+        dataset_file = 'COCO2014_caption/caption_val1.json'
+        if os.path.exists(dataset_file):
+            dataset = json.load(open(dataset_file, 'r'))
+        else:
+            # data_file = os.path.join(self.data_root, 'results_20130124.token')
+            # dataset = {}
+            # with open(data_file, 'r') as f:
+            #     for line in f.readlines():
+            #         line = line.replace('\n', '').split('\t')
+            #         assert len(line) == 2
+            #         img_name = line[0][:-2]
+            #         caption = line[1]
+            #         if img_name not in dataset:
+            #             dataset[img_name] = []
+            #         dataset[img_name].append(caption)
+            
+            # with open(dataset_file, 'w') as f:
+            #     f.write(json.dumps(dataset, indent=4))
+            print('no dataset')
+        
+        return dataset
+
+    def __len__(self):
+        return len(self.image_list)
+    
+    def __getitem__(self, idx):
+        return {
+            "image_path": self.image_list[idx],
+            "gt_answers": self.answer_list[idx]}
+
+
+class COCOCaptionDatasetTest(Dataset):
+
+    def __init__(self):
+        self.data_root = f'{DATA_DIR}/MSCOCO/val2014'
+        self.image_list = []
+        self.answer_list = []
+        dataset = self.prepare_dataset()
+        for data in dataset:
+            image_path = os.path.join(self.data_root,data['filename'])
+            captions = data['caption']
+            self.image_list.append(image_path)
+            self.answer_list.append(captions)
+        # for img_name in dataset:
+        #     sample_info = dataset[img_name]
+        #     image_path = f'{self.data_root}/{img_name}'
+        #     self.image_list.append(image_path)
+        #     self.answer_list.append(sample_info)
+
+    def prepare_dataset(self):
+        dataset_file = 'COCO2014_caption/caption_val1.json'
+        if os.path.exists(dataset_file):
+            dataset = json.load(open(dataset_file, 'r'))
+            dataset = dataset[:2]
+        else:
+            # data_file = os.path.join(self.data_root, 'results_20130124.token')
+            # dataset = {}
+            # with open(data_file, 'r') as f:
+            #     for line in f.readlines():
+            #         line = line.replace('\n', '').split('\t')
+            #         assert len(line) == 2
+            #         img_name = line[0][:-2]
+            #         caption = line[1]
+            #         if img_name not in dataset:
+            #             dataset[img_name] = []
+            #         dataset[img_name].append(caption)
+            
+            # with open(dataset_file, 'w') as f:
+            #     f.write(json.dumps(dataset, indent=4))
+            print('no dataset')
+        
+        return dataset
+
+    def __len__(self):
+        return len(self.image_list)
+    
+    def __getitem__(self, idx):
+        return {
+            "image_path": self.image_list[idx],
+            "gt_answers": self.answer_list[idx]}
+
+
 if __name__ == "__main__":
     dataset = NoCapsDataset()
     print(len(dataset))

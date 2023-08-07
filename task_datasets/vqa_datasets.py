@@ -181,7 +181,7 @@ class OKVQADataset(Dataset):
         for i in range(len(annotations)):
             question = question_dict[annotations[i]['question_id']]
             answers = [x['answer'] for x in annotations[i]['answers']]
-            image_path = f"{DATA_DIR}/MSCOCO/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
+            image_path = f"{self.data_root}/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
             self.answer_list.append(answers)
             self.image_list.append(image_path)
             self.question_list.append(question)
@@ -272,7 +272,7 @@ class VQAv2Dataset(Dataset):
         for i in range(len(annotations)):
             question = question_dict[annotations[i]['question_id']]
             answers = [x['answer'] for x in annotations[i]['answers']]
-            image_path = f"{DATA_DIR}/MSCOCO/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
+            image_path = f"{self.data_root}/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
             self.answer_list.append(answers)
             self.image_list.append(image_path)
             self.question_list.append(question)
@@ -303,7 +303,7 @@ class VQAv1Dataset(Dataset):
         for i in range(len(annotations)):
             question = question_dict[annotations[i]['question_id']]
             answers = [x['answer'] for x in annotations[i]['answers']]
-            image_path = f"{DATA_DIR}/MSCOCO/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
+            image_path = f"{self.data_root}/val2014/COCO_val2014_000000{annotations[i]['image_id']:06d}.jpg"
             self.answer_list.append(answers)
             self.image_list.append(image_path)
             self.question_list.append(question)
@@ -422,48 +422,507 @@ class VSRDataset(Dataset):
             "gt_answers": answers}
 
 
-class SplitOCRVQADataset(Dataset):
-    data_root = f'{DATA_DIR}/VQA_Datasets/OCRVQA'
-    length = 100037
-
-    def __init__(self, index=0):
-        self.index = index
-        self.pre_num = index * 12500
-
-        self.image_list = []
-        self.question_list = []
-        self.answer_list = []
-        dataset = json.load(open(f'{self.data_root}/dataset.json', "r"))
-        for idx, data in enumerate(dataset):
-            if dataset[data]['split'] != 2:
-                continue
-            questions =  dataset[data]['questions']
-            for index, question in enumerate(questions):
-                img_name = dataset[data]['imageURL'].split('/')[-1]
-                image_file = os.path.join(self.data_root, 'images', img_name)
-                gt_answers = dataset[data]['answers'][index]
-                self.image_list.append(image_file)
-                self.answer_list.append(gt_answers)
-                self.question_list.append(question)
+class MSCOCO_POPEDataset_adversarial(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/MSCOCO/val2014",
+        ann_path= "utils_data/MSCOCO_POPE/coco_pope_adversarial1.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
 
     def __len__(self):
-        if self.index == 7:
-            return self.length - 7 * 12500
-        else:
-            return 12500
+        return len(self.data)
 
     def __getitem__(self, idx):
-        idx = self.pre_num + idx
-        question = self.question_list[idx]
-        answers = self.answer_list[idx]
-        img_path = self.image_list[idx]
+        question = self.data[idx]['text']
+        answers = self.data[idx]['label']
+        # COCO_val2014_000000007991.jpg
+        name = str(self.data[idx]['image'])
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,name)
+        if os.path.isfile(img_path):
+            return {
+                "image_path": img_path,
+                "question": question,
+                "gt_answers": answers}
+        else:
+            print(img_path, 'not exist!!!')
+            return self.__getitem__((idx + 1) % len(self))
+
+
+class MSCOCO_POPEDataset_popular(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/MSCOCO/val2014",
+        ann_path= "utils_data/MSCOCO_POPE/coco_pope_popular1.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx]['text']
+        answers = self.data[idx]['label']
+        # COCO_val2014_000000007991.jpg
+        name = str(self.data[idx]['image'])
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,name)
+        if os.path.isfile(img_path):
+            return {
+                "image_path": img_path,
+                "question": question,
+                "gt_answers": answers}
+        else:
+            print(img_path, 'not exist!!!')
+            return self.__getitem__((idx + 1) % len(self))
+
+
+class MSCOCO_POPEDataset(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/MSCOCO/val2014",
+        ann_path= "utils_data/MSCOCO_POPE/coco_pope_random1.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx]['text']
+        answers = self.data[idx]['label']
+        # COCO_val2014_000000007991.jpg
+        name = str(self.data[idx]['image'])
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,name)
+        if os.path.isfile(img_path):
+            return {
+                "image_path": img_path,
+                "question": question,
+                "gt_answers": answers}
+        else:
+            print(img_path, 'not exist!!!')
+            return self.__getitem__((idx + 1) % len(self))
+
+
+class VCR1_OCDataset(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/VCR/vcr1images",
+        ann_path= "utils_data/GVT/vcr1_oc.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx]['text_in']
+        answers = self.data[idx]['text_out']
+        # COCO_val2014_000000007991.jpg
+        # name = 'COCO_val2014_' + str(self.data[idx]['image_id']).zfill(len('000000007991')) + '.jpg'
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,str(self.data[idx]['image_id']))
+        if os.path.isfile(img_path):
+            return {
+                "image_path": img_path,
+                "question": question,
+                "gt_answers": answers}
+        else:
+            print(img_path, 'not exist!!!')
+            return self.__getitem__((idx + 1) % len(self))
+
+
+class VCR1_MCIDataset(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/VCR/vcr1images",
+        ann_path= "utils_data/GVT/vcr1_mci.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx]['text_in']
+        answers = self.data[idx]['text_out']
+        # COCO_val2014_000000007991.jpg
+        # name = 'COCO_val2014_' + str(self.data[idx]['image_id']).zfill(len('000000007991')) + '.jpg'
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,str(self.data[idx]['image_id']))
+        if os.path.isfile(img_path):
+            return {
+                "image_path": img_path,
+                "question": question,
+                "gt_answers": answers}
+        else:
+            print(img_path, 'not exist!!!')
+            return self.__getitem__((idx + 1) % len(self))
+
+
+class MSCOCO_MCIDataset(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/MSCOCO/val2014",
+        ann_path= "utils_data/GVT/coco_mci.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx]['text_in']
+        answers = self.data[idx]['text_out']
+        # COCO_val2014_000000007991.jpg
+        name = 'COCO_val2014_' + str(self.data[idx]['image_id']).zfill(len('000000007991')) + '.jpg'
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,name)
+        if os.path.isfile(img_path):
+            return {
+                "image_path": img_path,
+                "question": question,
+                "gt_answers": answers}
+        else:
+            print(img_path, 'not exist!!!')
+            return self.__getitem__((idx + 1) % len(self))
+
+
+class MSCOCO_OCDataset(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/MSCOCO/val2014",
+        ann_path="utils_data/GVT/coco_oc.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx]['text_in']
+        answers = self.data[idx]['text_out']
+        # COCO_val2014_000000007991.jpg
+        name = 'COCO_val2014_' + str(self.data[idx]['image_id']).zfill(len('000000007991')) + '.jpg'
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,name)
         return {
             "image_path": img_path,
             "question": question,
             "gt_answers": answers}
 
 
-if __name__ == "__main__":
-    dataset = OCRVQADataset()
-    print(len(dataset))
-    print(dataset[0])
+# NOTE: rebuttal related
+class MSCOCO_POPEDataset_Yes(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/MSCOCO/val2014",
+        ann_path= "utils_data/MSCOCO_POPE/coco_pope_random1.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx]['text']
+        question = (
+            f'Question: {question}\n\n'
+            'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
+            'The output format follows exactly as below:\nAnswer: <choice>'
+        )
+
+        answers = self.data[idx]['label']
+        # COCO_val2014_000000007991.jpg
+        name = str(self.data[idx]['image'])
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,name)
+        if os.path.isfile(img_path):
+            return {
+                "image_path": img_path,
+                "question": question,
+                "gt_answers": answers}
+        else:
+            print(img_path, 'not exist!!!')
+            return self.__getitem__((idx + 1) % len(self))
+
+
+class MSCOCO_POPEDataset_adversarial_Yes(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/MSCOCO/val2014",
+        ann_path= "utils_data/MSCOCO_POPE/coco_pope_adversarial1.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx]['text']
+        question = (
+            f'Question: {question}\n\n'
+            'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
+            'The output format follows exactly as below:\nAnswer: <choice>'
+        )
+
+        answers = self.data[idx]['label']
+        # COCO_val2014_000000007991.jpg
+        name = str(self.data[idx]['image'])
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,name)
+        if os.path.isfile(img_path):
+            return {
+                "image_path": img_path,
+                "question": question,
+                "gt_answers": answers}
+        else:
+            print(img_path, 'not exist!!!')
+            return self.__getitem__((idx + 1) % len(self))
+
+
+class MSCOCO_POPEDataset_popular_Yes(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/MSCOCO/val2014",
+        ann_path= "utils_data/MSCOCO_POPE/coco_pope_popular1.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx]['text']
+        question = (
+            f'Question: {question}\n\n'
+            'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
+            'The output format follows exactly as below:\nAnswer: <choice>'
+        )
+
+        answers = self.data[idx]['label']
+        # COCO_val2014_000000007991.jpg
+        name = str(self.data[idx]['image'])
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,name)
+        if os.path.isfile(img_path):
+            return {
+                "image_path": img_path,
+                "question": question,
+                "gt_answers": answers}
+        else:
+            print(img_path, 'not exist!!!')
+            return self.__getitem__((idx + 1) % len(self))
+
+
+class MSCOCO_POPEDataset_No(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/MSCOCO/val2014",
+        ann_path= "utils_data/MSCOCO_POPE/coco_pope_random1.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx]['text']
+        question = (
+            f'Question: {question}\n\n'
+            'Choose the single most likely answer from the following choices <choice>:\n- No\n- Yes\n\n'
+            'The output format follows exactly as below:\nAnswer: <choice>'
+        )
+
+        answers = self.data[idx]['label']
+        # COCO_val2014_000000007991.jpg
+        name = str(self.data[idx]['image'])
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,name)
+        if os.path.isfile(img_path):
+            return {
+                "image_path": img_path,
+                "question": question,
+                "gt_answers": answers}
+        else:
+            print(img_path, 'not exist!!!')
+            return self.__getitem__((idx + 1) % len(self))
+
+
+class MSCOCO_POPEDataset_adversarial_No(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/MSCOCO/val2014",
+        ann_path= "utils_data/MSCOCO_POPE/coco_pope_adversarial1.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx]['text']
+        question = (
+            f'Question: {question}\n\n'
+            'Choose the single most likely answer from the following choices <choice>:\n- No\n- Yes\n\n'
+            'The output format follows exactly as below:\nAnswer: <choice>'
+        )
+
+        answers = self.data[idx]['label']
+        # COCO_val2014_000000007991.jpg
+        name = str(self.data[idx]['image'])
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,name)
+        if os.path.isfile(img_path):
+            return {
+                "image_path": img_path,
+                "question": question,
+                "gt_answers": answers}
+        else:
+            print(img_path, 'not exist!!!')
+            return self.__getitem__((idx + 1) % len(self))
+
+
+class MSCOCO_POPEDataset_popular_No(Dataset):
+    def __init__(
+        self,
+        image_dir_path=f"{DATA_DIR}/MSCOCO/val2014",
+        ann_path= "utils_data/MSCOCO_POPE/coco_pope_popular1.json"
+    ):
+        self.data = json.load(open(ann_path, "r"))
+        self.image_dir_path = image_dir_path
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx]['text']
+        question = (
+            f'Question: {question}\n\n'
+            'Choose the single most likely answer from the following choices <choice>:\n- No\n- Yes\n\n'
+            'The output format follows exactly as below:\nAnswer: <choice>'
+        )
+
+        answers = self.data[idx]['label']
+        # COCO_val2014_000000007991.jpg
+        name = str(self.data[idx]['image'])
+        # img_path = os.path.join(self.image_dir_path, f"{self.data[idx]['image_id']}.jpg")
+        img_path = os.path.join(self.image_dir_path,name)
+        if os.path.isfile(img_path):
+            return {
+                "image_path": img_path,
+                "question": question,
+                "gt_answers": answers}
+        else:
+            print(img_path, 'not exist!!!')
+            return self.__getitem__((idx + 1) % len(self))
+
+
+# NOTE: ARO dataset
+class VG_Relation(Dataset):
+    def __init__(self):
+        annotation_file = os.path.join(DATA_DIR, "ARO_dataset", "visual_genome_relation.json")
+
+        with open(annotation_file, "r") as f:
+            self.dataset = json.load(f)
+        
+        for item in self.dataset:
+            item["image_path"] = os.path.join(DATA_DIR, "ARO_dataset", "images", item["image_path"])
+            # image_id, image_path, relation_name, true_caption, false_caption
+            item['gt_answers'] = item['true_caption']
+            item['question'] = (
+            f"There are two images captions about the relation '{item['relation_name']}' Which one is correct?.\n\n"
+            f"Based on the above and the given image, choose the single most likely answer from the following choices <choice>:\n- {item['true_caption']}\n- {item['false_caption']}\n\n"
+            'The output format follows exactly as below:\nAnswer: <choice>')
+
+    def __len__(self):
+        return len(self.dataset)
+
+    def __getitem__(self, index):
+        return self.dataset[index]
+
+
+class VG_Attribution(Dataset):
+    def __init__(self):
+        annotation_file = os.path.join(DATA_DIR, "ARO_dataset", "visual_genome_attribution.json")
+  
+        with open(annotation_file, "r") as f:
+            self.dataset = json.load(f)
+        
+        for item in self.dataset:
+            item["image_path"] = os.path.join(DATA_DIR, "ARO_dataset", "images", item["image_path"])
+            item['gt_answers'] = item['true_caption']
+            item['question'] = (
+            f"There are two images captions about the attributes '{item['attributes'][0]}' and '{item['attributes'][1]}' Which one is correct?.\n\n"
+            f"Based on the above and the given image, choose the single most likely answer from the following choices <choice>:\n- {item['true_caption']}\n- {item['false_caption']}\n\n"
+            'The output format follows exactly as below:\nAnswer: <choice>')
+
+    def __len__(self):
+        return len(self.dataset)
+
+    def __getitem__(self, index):
+        return self.dataset[index]
+
+
+class COCO_Order(Dataset):
+    def __init__(self, split='test'):  
+        filenames = {'val':'coco_karpathy_val.json','test':'coco_karpathy_test.json'}
+        self.annotation = json.load(open(os.path.join(DATA_DIR, "ARO_dataset", filenames[split]), 'r'))
+        
+        self.test_cases = []
+        for ann in self.annotation:
+            test_case = {}
+            test_case["image_path"] = os.path.join(DATA_DIR, "ARO_dataset", "MSCOCO", ann["image"])
+            test_case["gt_answers"] = ann['caption'][0]
+            caption_options = '\n'.join(['- ' + x for x in ann['caption']])
+            test_case['question'] = (
+                f'Question: Based on the given image, which caption has the most correct ordering of the constituents?\n\n'
+                f"Choose the best answer from the following choices <choice>:\n{caption_options}\n\n"
+                'The output format follows exactly as below:\nAnswer: <choice>'
+            )
+            self.test_cases.append(test_case)
+
+    def __len__(self):
+        return len(self.test_cases)
+    
+    def __getitem__(self, index):  
+        return self.test_cases[index]
+
+
+class Flickr30k_Order(Dataset):
+    def __init__(self, split='test'):
+        filenames = {'val':'flickr30k_val.json','test':'flickr30k_test.json'}
+        self.annotation = json.load(open(os.path.join(DATA_DIR, "ARO_dataset", filenames[split]), 'r'))
+  
+        self.test_cases = []
+        for ann in self.annotation:
+            test_case = {}
+            test_case["image_path"] = os.path.join(DATA_DIR, "ARO_dataset", ann["image"])
+            test_case["gt_answers"] = ann['caption'][0]
+            caption_options = '\n'.join(['- ' + x for x in ann['caption']])
+            test_case['question'] = (
+                f'Question: Based on the given image, which caption has the most correct ordering of the constituents?\n\n'
+                f"Choose the best answer from the following choices <choice>:\n{caption_options}\n\n"
+                'The output format follows exactly as below:\nAnswer: <choice>'
+            )
+            self.test_cases.append(test_case)
+
+    def __len__(self):
+        return len(self.test_cases)
+    
+    def __getitem__(self, index):  
+        return self.test_cases[index]
