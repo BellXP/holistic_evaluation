@@ -63,6 +63,7 @@ class TestOtter:
             max_new_tokens=max_new_tokens,
             num_beams=3,
             no_repeat_ngram_size=3,
+            temperature=0.0
         )
         total_output = []
         for i in range(len(generated_text)):

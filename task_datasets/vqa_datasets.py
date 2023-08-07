@@ -844,10 +844,13 @@ class VG_Relation(Dataset):
             item["image_path"] = os.path.join(DATA_DIR, "ARO_dataset", "images", item["image_path"])
             # image_id, image_path, relation_name, true_caption, false_caption
             item['gt_answers'] = item['true_caption']
+            # item['question'] = (
+            # f"There are two images captions about the relation '{item['relation_name']}' Which one is correct?.\n\n"
+            # f"Based on the above and the given image, choose the single most likely answer from the following choices <choice>:\n- {item['true_caption']}\n- {item['false_caption']}\n\n"
+            # 'The output format follows exactly as below:\nAnswer: <choice>')
             item['question'] = (
             f"There are two images captions about the relation '{item['relation_name']}' Which one is correct?.\n\n"
-            f"Based on the above and the given image, choose the single most likely answer from the following choices <choice>:\n- {item['true_caption']}\n- {item['false_caption']}\n\n"
-            'The output format follows exactly as below:\nAnswer: <choice>')
+            f"Based on the above and the given image, choose the single most likely answer from the following choices <choice>:\n- {item['true_caption']}\n- {item['false_caption']}\n\n")
 
     def __len__(self):
         return len(self.dataset)
@@ -866,10 +869,13 @@ class VG_Attribution(Dataset):
         for item in self.dataset:
             item["image_path"] = os.path.join(DATA_DIR, "ARO_dataset", "images", item["image_path"])
             item['gt_answers'] = item['true_caption']
+            # item['question'] = (
+            # f"There are two images captions about the attributes '{item['attributes'][0]}' and '{item['attributes'][1]}' Which one is correct?.\n\n"
+            # f"Based on the above and the given image, choose the single most likely answer from the following choices <choice>:\n- {item['true_caption']}\n- {item['false_caption']}\n\n"
+            # 'The output format follows exactly as below:\nAnswer: <choice>')
             item['question'] = (
             f"There are two images captions about the attributes '{item['attributes'][0]}' and '{item['attributes'][1]}' Which one is correct?.\n\n"
-            f"Based on the above and the given image, choose the single most likely answer from the following choices <choice>:\n- {item['true_caption']}\n- {item['false_caption']}\n\n"
-            'The output format follows exactly as below:\nAnswer: <choice>')
+            f"Based on the above and the given image, choose the single most likely answer from the following choices <choice>:\n- {item['true_caption']}\n- {item['false_caption']}\n\n")
 
     def __len__(self):
         return len(self.dataset)
@@ -889,10 +895,14 @@ class COCO_Order(Dataset):
             test_case["image_path"] = os.path.join(DATA_DIR, "ARO_dataset", "MSCOCO", ann["image"])
             test_case["gt_answers"] = ann['caption'][0]
             caption_options = '\n'.join(['- ' + x for x in ann['caption']])
+            # test_case['question'] = (
+            #     f'Question: Based on the given image, which caption has the most correct ordering of the constituents?\n\n'
+            #     f"Choose the best answer from the following choices <choice>:\n{caption_options}\n\n"
+            #     'The output format follows exactly as below:\nAnswer: <choice>'
+            # )
             test_case['question'] = (
                 f'Question: Based on the given image, which caption has the most correct ordering of the constituents?\n\n'
                 f"Choose the best answer from the following choices <choice>:\n{caption_options}\n\n"
-                'The output format follows exactly as below:\nAnswer: <choice>'
             )
             self.test_cases.append(test_case)
 
@@ -914,10 +924,14 @@ class Flickr30k_Order(Dataset):
             test_case["image_path"] = os.path.join(DATA_DIR, "ARO_dataset", ann["image"])
             test_case["gt_answers"] = ann['caption'][0]
             caption_options = '\n'.join(['- ' + x for x in ann['caption']])
+            # test_case['question'] = (
+            #     f'Question: Based on the given image, which caption has the most correct ordering of the constituents?\n\n'
+            #     f"Choose the best answer from the following choices <choice>:\n{caption_options}\n\n"
+            #     'The output format follows exactly as below:\nAnswer: <choice>'
+            # )
             test_case['question'] = (
                 f'Question: Based on the given image, which caption has the most correct ordering of the constituents?\n\n'
                 f"Choose the best answer from the following choices <choice>:\n{caption_options}\n\n"
-                'The output format follows exactly as below:\nAnswer: <choice>'
             )
             self.test_cases.append(test_case)
 

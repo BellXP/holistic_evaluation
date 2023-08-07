@@ -49,7 +49,7 @@ class TestLLamaAdapterV2:
         imgs = [self.img_transform(x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device)
         prompts = [llama.format_prompt(question) for question in question_list]
-        results = self.model.generate(imgs, prompts, max_gen_len=max_new_tokens)
+        results = self.model.generate(imgs, prompts, max_gen_len=max_new_tokens, temperature=0.0)
         results = [result.strip() for result in results]
 
         return results

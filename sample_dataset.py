@@ -8,7 +8,8 @@ import torch
 import numpy as np
 from PIL import Image
 
-from tiny_datasets import dataset_class_dict
+# from tiny_datasets import dataset_class_dict
+from task_datasets import dataset_class_dict
 
 
 def parse_args():

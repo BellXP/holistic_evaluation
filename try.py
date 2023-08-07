@@ -15,23 +15,42 @@ from utils.tools import VQAEval
 #     f.write(json.dumps(predictions, indent=4))
 
 
-data_path = '/home/xupeng/workplace/holistic_evaluation/answers/mPLUG-Owl/20230807101246/MSCOCO_pope_random_Yes.json'
-with open(data_path, 'r') as f:
-    predictions = json.load(f)
+def eval_yes_no(data_path):
+    with open(data_path, 'r') as f:
+        predictions = json.load(f)
+
+    eval = VQAEval()
+    correct = 0
+    no_gts = 0
+    num_yes = 0
+    num_no = 0
+    num = 0
+    for i in range(len(predictions)):
+        gt_answers = predictions[i]['gt_answers']
+        answer = predictions[i]['answer']
+        if eval.evaluate(answer, gt_answers) == 1:
+            correct += 1
+        has_yes = eval.evaluate(answer, 'yes') == 1
+        has_no = eval.evaluate(answer, 'no') == 1
+        if has_yes:
+            num_yes += 1
+        if has_no:
+            num_no += 1
+        if not has_yes and not has_no:
+            no_gts += 1
+
+        num+=1
+
+    print(f'Total num: {num}; Correct: {correct}; No any gts: {no_gts}')
+    print(f'Accuracy: {float(correct)/num}')
+    print(f'Ratio of no gts: {float(no_gts)/num}')
+    print(f'Ratio of yes: {float(num_yes)/num}')
+    print(f'Ratio of no: {float(num_no)/num}')
 
 
-eval = VQAEval()
-correct = 0
-no_gts = 0
-num = 0
-for i in range(len(predictions)):
-    gt_answers = predictions[i]['gt_answers']
-    answer = predictions[i]['answer']
-    if eval.evaluate(answer, gt_answers) == 1:
-        correct += 1
-    elif eval.evaluate(answer, 'yes') == 0 and eval.evaluate(answer, 'no') == 0:
-        no_gts += 1
-    num+=1
-print(f'{float(correct)/num}')
-
-print(f'Total num: {num}; Correct: {correct}; No any gts: {no_gts}')
+for suffix in ['', '_Yes', '_No']:
+    for dataset_name in ['MSCOCO_pope_random', 'MSCOCO_pope_popular', 'MSCOCO_pope_adversarial']:
+        data_path = f"answers/mPLUG-Owl-POPE/{dataset_name}{suffix}.json"
+        print(f"{dataset_name}{suffix}")
+        eval_yes_no(data_path)
+        print()
