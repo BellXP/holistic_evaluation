@@ -832,6 +832,78 @@ class MSCOCO_POPEDataset_popular_No(Dataset):
             return self.__getitem__((idx + 1) % len(self))
 
 
+class IsThereTest_No(Dataset):
+    def __init__(self):
+        imagenet_dir = os.path.join(DATA_DIR, 'CLS_Datasets', 'ImageNet')
+        label_dict = {}
+        with open(f"{imagenet_dir}/labels.txt", 'r') as f:
+            for line in f.readlines():
+                line = line.replace('\n', '').split()
+                label_index = line.pop(0)
+                label_name = ' '.join(line)
+                label_dict[label_index] = label_name
+        label_dict = {key: value for key, value in label_dict.items() if key in os.listdir(f'{imagenet_dir}/val')}
+        
+        import random
+        random.seed(0)
+
+        # All no answers, 10 x 10 x 10 = 1000
+        image_class = random.sample(list(label_dict.keys()), 20)
+        dataset = []
+        for i in range(10):
+            class_index = image_class[i]
+            image_files = random.sample(os.listdir(f"{imagenet_dir}/val/{class_index}"), 10)
+            for image_file in image_files:
+                for j in range(10):
+                    item = {}
+                    item['image_path'] = f"{imagenet_dir}/val/{class_index}/{image_file}"
+                    item['question'] = f"Is there a {label_dict[image_class[j + 10]]} in the image?"
+                    item['gt_answers'] = 'No'
+                    dataset.append(item)
+        self.dataset = dataset
+
+    def __len__(self):
+        return len(self.dataset)
+
+    def __getitem__(self, idx):
+        return self.dataset[idx]
+
+
+class IsThereTest_Yes(Dataset):
+    def __init__(self):
+        imagenet_dir = os.path.join(DATA_DIR, 'CLS_Datasets', 'ImageNet')
+        label_dict = {}
+        with open(f"{imagenet_dir}/labels.txt", 'r') as f:
+            for line in f.readlines():
+                line = line.replace('\n', '').split()
+                label_index = line.pop(0)
+                label_name = ' '.join(line)
+                label_dict[label_index] = label_name
+        label_dict = {key: value for key, value in label_dict.items() if key in os.listdir(f'{imagenet_dir}/val')}
+        
+        import random
+        random.seed(0)
+
+        # All yes answers, 100 x 10 = 1000
+        image_class = random.sample(list(label_dict.keys()), 100)
+        dataset = []
+        for class_index in image_class:
+            image_files = random.sample(os.listdir(f"{imagenet_dir}/val/{class_index}"), 10)
+            for image_file in image_files:
+                item = {}
+                item['image_path'] = f"{imagenet_dir}/val/{class_index}/{image_file}"
+                item['question'] = f"Is there a {label_dict[class_index]} in the image?"
+                item['gt_answers'] = 'Yes'
+                dataset.append(item)
+        self.dataset = dataset
+
+    def __len__(self):
+        return len(self.dataset)
+
+    def __getitem__(self, idx):
+        return self.dataset[idx]
+
+
 # NOTE: ARO dataset
 class VG_Relation(Dataset):
     def __init__(self):

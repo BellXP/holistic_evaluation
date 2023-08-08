@@ -15,7 +15,8 @@ from .vqa_datasets import (
     MSCOCO_POPEDataset_popular, 
     MSCOCO_POPEDataset_Yes, MSCOCO_POPEDataset_popular_Yes, MSCOCO_POPEDataset_adversarial_Yes,
     MSCOCO_POPEDataset_adversarial_No, MSCOCO_POPEDataset_No, MSCOCO_POPEDataset_popular_No,
-    VG_Relation, VG_Attribution, COCO_Order, Flickr30k_Order
+    VG_Relation, VG_Attribution, COCO_Order, Flickr30k_Order,
+    IsThereTest_No, IsThereTest_Yes
 )
 
 from functools import partial
@@ -79,5 +80,7 @@ dataset_class_dict = {
     'VG_Relation': VG_Relation,
     'VG_Attribution': VG_Attribution,
     'COCO_Order': COCO_Order,
-    'Flickr30k_Order': Flickr30k_Order
+    'Flickr30k_Order': Flickr30k_Order,
+    'IsThereTest_Yes': IsThereTest_Yes,
+    'IsThereTest_No': IsThereTest_No
 }

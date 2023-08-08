@@ -100,5 +100,7 @@ dataset_task_dict = {
     'VG_Relation': (evaluate_VQA, 'VQA'),
     'VG_Attribution': (evaluate_VQA, 'VQA'),
     'COCO_Order': (evaluate_VQA, 'VQA'),
-    'Flickr30k_Order': (evaluate_VQA, 'VQA')
+    'Flickr30k_Order': (evaluate_VQA, 'VQA'),
+    'IsThereTest_Yes': (evaluate_VQA, 'VQA'),
+    'IsThereTest_No': (evaluate_VQA, 'VQA')
 }
