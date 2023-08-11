@@ -105,7 +105,7 @@ class TestLLamaAdapterV2:
         imgs = [self.img_transform(x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device, dtype=self.dtype)
         prompts = question_list
-        prompt_template = kwargs.get('prompt_template', None)
+        prompt_template = kwargs.get('prompt_template', 'prompt_no_input')
         if prompt_template is not None:
             prompts = [PROMPT_DICT[prompt_template].format(instruction=x) for x in prompts]
         results = self.generator.generate(imgs, prompts, max_gen_len=max_new_tokens, temperature=temperature, top_p=top_p)
