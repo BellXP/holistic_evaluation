@@ -9,7 +9,7 @@ import numpy as np
 from utils import evaluate_OCR, evaluate_VQA, evaluate_Caption, evaluate_KIE, evaluate_zero_shot_image_classification
 from task_datasets import ocrDataset, dataset_class_dict
 from models import get_model
-
+from typing import Optional
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
@@ -28,6 +28,10 @@ def parse_args():
     parser.add_argument("--dataset_name", type=str, default=None)
     parser.add_argument("--sample_num", type=int, default=-1)
     parser.add_argument("--sample_seed", type=int, default=0)
+    parser.add_argument(
+        "--tiny_indices_jsonl", type=str, default=None,
+        help="Tiny LVLM-eHub dataset indices jsonl file path."
+    )
 
     # result_path
     parser.add_argument("--answer_path", type=str, default="./answers")
@@ -48,7 +52,9 @@ def parse_args():
     return args
 
 
-def sample_dataset(dataset, max_sample_num=5000, seed=0):
+def sample_dataset(dataset, max_sample_num=5000, seed=0, indices: Optional[list]=None):
+    if indices:
+        max_sample_num = max(indices) + 1
     if max_sample_num == -1:
         return dataset
 
@@ -57,6 +63,8 @@ def sample_dataset(dataset, max_sample_num=5000, seed=0):
         random_indices = np.random.choice(
             len(dataset), max_sample_num, replace=False
         )
+        if indices:
+            random_indices = random_indices[indices]
         dataset = torch.utils.data.Subset(dataset, random_indices)
     return dataset
 
@@ -91,12 +99,24 @@ def main(args):
     time = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     answer_path = f"{args.answer_path}/{args.model_name}/{args.dataset_name}"
 
+    if args.tiny_indices_jsonl:
+        dataset2indices = {}
+        with open(args.tiny_indices_jsonl, 'r') as f:
+            for line in f.readlines():
+                a = json.loads(line)
+                dataset = a['dataset']
+                indices = a['indices']
+                dataset2indices[dataset] = indices
+
     result = {}
     if args.eval_ocr:
         ocr_dataset_name = args.ocr_dataset_name.split()
         for i in range(len(ocr_dataset_name)):
             dataset = ocrDataset(ocr_dataset_name[i])
-            dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
+            dataset = sample_dataset(
+                dataset, args.sample_num, args.sample_seed,
+                dataset2indices[ocr_dataset_name[i]] if args.tiny_indices_jsonl else None
+            )
             metrics = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time, batch_size=args.batch_size, answer_path=answer_path)
             result[ocr_dataset_name[i]] = metrics
 
@@ -106,7 +126,10 @@ def main(args):
         if args.dataset_name == 'ImageNet' and args.ablate_prompts:
             dataset = sample_imagenet1k(dataset, args.sample_num, args.sample_seed)
         else:
-            dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
+            dataset = sample_dataset(
+                dataset, args.sample_num, args.sample_seed,
+                dataset2indices[args.dataset_name] if args.tiny_indices_jsonl else None
+            )
         metrics = eval_function(
             model, dataset, args.model_name, args.dataset_name, time,
             batch_size=args.batch_size, answer_path=answer_path,
@@ -114,7 +137,7 @@ def main(args):
             max_new_tokens=args.max_new_tokens,
             prompt_template=args.prompt_template,
             per_class_acc=args.per_class_acc,
-            )
+        )
         result[args.dataset_name] = metrics
     
     result_path = os.path.join(os.path.join(answer_path, time), 'result.json')
