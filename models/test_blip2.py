@@ -22,8 +22,8 @@ PROMPT_DICT = {
 def maybe_autocast(dtype=None):
     return contextlib.nullcontext()
 
-def new_maybe_autocast(self):
-    if torch.cuda.is_bf16_supported() and self.dtype is torch.bfloat16:
+def new_maybe_autocast(self, dtype=None):
+    if torch.cuda.is_bf16_supported() and dtype is torch.bfloat16:
         return torch.cuda.amp.autocast(dtype=torch.bfloat16)
     else:
         return contextlib.nullcontext()
