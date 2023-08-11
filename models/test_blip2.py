@@ -22,20 +22,16 @@ PROMPT_DICT = {
 def maybe_autocast(dtype=None):
     return contextlib.nullcontext()
 
-def new_maybe_autocast(self, dtype=None):
-    enable_autocast = self.device != torch.device("cpu")
-    if not enable_autocast:
-        return contextlib.nullcontext()
-    elif dtype is torch.bfloat16:
-        if torch.cuda.is_bf16_supported():
-            return torch.cuda.amp.autocast(dtype=torch.bfloat16)
-        else:
-            return torch.cuda.amp.autocast(dtype=torch.float16)
+def new_maybe_autocast(self):
+    if torch.cuda.is_bf16_supported() and self.dtype is torch.bfloat16:
+        return torch.cuda.amp.autocast(dtype=torch.bfloat16)
     else:
-        return torch.cuda.amp.autocast(dtype=dtype)
+        return contextlib.nullcontext()
 
 class TestBlip2:
     def __init__(self, device=None) -> None:
+        self.device = device
+        self.dtype = torch.float32
         self.model, self.vis_processors, _ = load_model_and_preprocess(
             name="blip2_t5", model_type="pretrain_flant5xl", is_eval=True, device='cpu'
         )
@@ -44,20 +40,21 @@ class TestBlip2:
         #     self.model.maybe_autocast = maybe_autocast
         self.model.maybe_autocast = MethodType(new_maybe_autocast, self.model)
 
-        if device is not None:
-            self.move_to_device(device)
+        # if device is not None:
+        #     self.move_to_device(device)
         self.model.eval()
+        self.model.to(self.device)
 
-    def move_to_device(self, device):
-        if device is not None and 'cuda' in device.type:
-            self.dtype = torch.float16
-            self.device = device
-            convert_weights_to_fp16(self.model.visual_encoder)
-        else:
-            self.dtype = torch.float32
-            self.device = 'cpu'
-            self.model.visual_encoder = self.model.visual_encoder.to(self.device, dtype=self.dtype)
-        self.model = self.model.to(self.device)
+    # def move_to_device(self, device):
+    #     if device is not None and 'cuda' in device.type:
+    #         self.dtype = torch.float16
+    #         self.device = device
+    #         convert_weights_to_fp16(self.model.visual_encoder)
+    #     else:
+    #         self.dtype = torch.float32
+    #         self.device = 'cpu'
+    #         self.model.visual_encoder = self.model.visual_encoder.to(self.device, dtype=self.dtype)
+    #     self.model = self.model.to(self.device)
 
     @torch.no_grad()
     def generate(self, image, question):
@@ -81,8 +78,10 @@ class TestBlip2:
         prompts = question_list
         if prompt_template is not None:
             prompts = [PROMPT_DICT[prompt_template].format(instruction=x) for x in prompts]
+        max_new_tokens = kwargs.get('max_new_tokens', 16)
         results = self.model.generate(
             {"image": imgs, "prompt": prompts,},
+            max_length=max_new_tokens
         )
         results = [result.strip() for result in results]
 
