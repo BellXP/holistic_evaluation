@@ -1,4 +1,4 @@
-DATA_DIR = '/nvme/share/xupeng/datasets'
+DATA_DIR = '/mnt/lustre/xupeng/datasets'
 
 from .ocr_datasets import ocrDataset
 from .caption_datasets import NoCapsDataset, FlickrDataset, COCOCaptionDataset, COCOCaptionDatasetTest

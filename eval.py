@@ -83,7 +83,7 @@ def get_eval_function(args):
 
 
 def main(args):
-    os.environ['CUDA_VISIBLE_DEVICES'] = str(args.device)
+    # os.environ['CUDA_VISIBLE_DEVICES'] = str(args.device)
     model = get_model(args.model_name, device=torch.device('cuda'))
     time = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     answer_path = f"{args.answer_path}/{args.model_name}"
@@ -94,14 +94,14 @@ def main(args):
         for i in range(len(ocr_dataset_name)):
             dataset = ocrDataset(ocr_dataset_name[i])
             dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-            metrics = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], time, args.batch_size, answer_path)
+            metrics = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], "VQA", time, args.batch_size, answer_path)
             result[ocr_dataset_name[i]] = metrics
 
     eval_function = get_eval_function(args)
     if eval_function is not None:
         dataset = dataset_class_dict[args.dataset_name]()
         dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-        metrics = eval_function(model, dataset, args.model_name, args.dataset_name, time, args.batch_size, answer_path=answer_path)
+        metrics = eval_function(model, dataset, args.model_name, args.dataset_name, "VQA", time, args.batch_size, answer_path=answer_path)
         result[args.dataset_name] = metrics
     
     result_path = os.path.join(os.path.join(answer_path, time), 'result.json')

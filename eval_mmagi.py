@@ -24,7 +24,7 @@ class MMAGIBenchDataset(Dataset):
                  sys_prompt='There are several options:',
                  split: int = -1
         ):
-        data_file=f"mmagi_v030_{'test' if USE_TEST_SET else 'dev'}_inferin.tsv"
+        data_file=f"mmbench_{'test' if USE_TEST_SET else 'dev'}_20230712.tsv"
         self.df = pd.read_csv(data_file, sep='\t')
         self.sys_prompt = sys_prompt
         
@@ -114,6 +114,10 @@ def eval_mmagi(
                 'prediction': outputs[i]
             }
             predictions.append(data)
+    
+    import torch.distributed as dist
+    if dist.get_rank() != 0:
+        return
     os.makedirs(answer_path, exist_ok=True)
     answer_path = os.path.join(answer_path, f"mmagi_{'test' if USE_TEST_SET else 'dev'}_{args.model_name}{'' if split == -1 else f'_{split}'}.json")
     with open(answer_path, "w") as f:
@@ -122,9 +126,9 @@ def eval_mmagi(
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
-    parser.add_argument("--model-name", type=str, default="ImageBind")
+    parser.add_argument("--model-name", type=str, default="LLaMA2-Accessory")
     parser.add_argument("--device", type=int, default=-1)
-    parser.add_argument("--batch-size", type=int, default=1)
+    parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--split", type=int, default=-1)
     parser.add_argument("--max-split", type=int, default=4)
     parser.add_argument("--test", action='store_true')
@@ -135,7 +139,7 @@ def parse_args():
 
 
 def main(args):
-    os.environ['CUDA_VISIBLE_DEVICES'] = str(args.device)
+    # os.environ['CUDA_VISIBLE_DEVICES'] = str(args.device)
     model = get_model(args.model_name, device=torch.device('cuda'))
     dataset = MMAGIBenchDataset(split=args.split)
     eval_mmagi(model, dataset, args.batch_size, split=args.split)
@@ -164,11 +168,8 @@ def merge_files():
 
 
 def json2xlsx(file_name, predictions):
-    # import pdb; pdb.set_trace()
     for i in range(len(predictions)):
-        # predictions[i]['prediction'] = predictions[i]['model_output']
-        # del predictions[i]['model_output']
-        # del predictions[i]['img']
+        del predictions[i]['img']
         options_dict = predictions[i]['options_dict']
         for key in options_dict:
             predictions[i][key] = options_dict[key]

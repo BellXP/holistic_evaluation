@@ -1,0 +1,2306 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "anal",
+        "gt_answers": "RONALDO",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/001.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "7",
+        "gt_answers": "7",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/002.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cr",
+        "gt_answers": "SEACREST",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/003.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hth thx",
+        "gt_answers": "BEACH",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/004.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the palms",
+        "gt_answers": "BALLYS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/005.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "wta",
+        "gt_answers": "STATION",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/006.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "trail",
+        "gt_answers": "ENTRANCE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/007.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "carp",
+        "gt_answers": "Carp",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/008.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "team",
+        "gt_answers": "Team",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/009.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "biz",
+        "gt_answers": "eBizu",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/010.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "nail",
+        "gt_answers": "DAILY",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/011.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "imperial college",
+        "gt_answers": "IMPERIAL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/012.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "college",
+        "gt_answers": "COLLEGE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/013.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "college",
+        "gt_answers": "LONDON",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/014.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fader",
+        "gt_answers": "academy",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/015.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ran",
+        "gt_answers": "entrance",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/016.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "18",
+        "gt_answers": "18",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/017.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "78",
+        "gt_answers": "78",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/018.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "nil",
+        "gt_answers": "NIL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/019.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "satis",
+        "gt_answers": "SATIS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/020.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "finish",
+        "gt_answers": "NISI",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/021.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "optimun",
+        "gt_answers": "OPTIMUM",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/022.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "aerotek",
+        "gt_answers": "Everton",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/023.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "rashford",
+        "gt_answers": "ARSHAVIN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/024.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "23",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/025.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hertha",
+        "gt_answers": "BIERHOFF",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/026.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "20",
+        "gt_answers": "20",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/027.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ac milan",
+        "gt_answers": "ACM",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/028.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "389",
+        "gt_answers": "1899",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/029.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "west",
+        "gt_answers": "WEST",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/030.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cham",
+        "gt_answers": "HAM",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/031.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "united",
+        "gt_answers": "UNITED",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/032.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "arsenal",
+        "gt_answers": "ARSENAL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/033.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "7007",
+        "gt_answers": "FOOT",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/034.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bal",
+        "gt_answers": "BALL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/035.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "clun",
+        "gt_answers": "CLUB",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/036.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "inc",
+        "gt_answers": "SINCE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/037.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "1886",
+        "gt_answers": "1886",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/038.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "le",
+        "gt_answers": "LE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/039.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "prove",
+        "gt_answers": "GROVE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/040.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "1",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/041.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "alco",
+        "gt_answers": "WALCOTT",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/042.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "14",
+        "gt_answers": "14",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/043.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "den",
+        "gt_answers": "ARSENAL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/044.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "arte",
+        "gt_answers": "ARTETA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/045.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "6",
+        "gt_answers": "6",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/046.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "JOACHIM",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/047.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "barclays premier league",
+        "gt_answers": "12",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/048.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "KNIGHT",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/049.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "16",
+        "gt_answers": "16",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/050.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "lake",
+        "gt_answers": "BAKER",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/051.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "32",
+        "gt_answers": "32",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/052.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "stop",
+        "gt_answers": "ASTON",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/053.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hill",
+        "gt_answers": "VILLA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/054.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "dallas",
+        "gt_answers": "BALLACK",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/055.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "13",
+        "gt_answers": "13",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/056.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "starbucks",
+        "gt_answers": "STARBUCKS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/057.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "offf",
+        "gt_answers": "COFFEE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/058.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "samsung",
+        "gt_answers": "SAMSUNG",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/059.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "mobiles",
+        "gt_answers": "mobile",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/060.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chelsea",
+        "gt_answers": "CHELSEA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/061.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "football",
+        "gt_answers": "FOOTBALL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/062.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "club",
+        "gt_answers": "CLUB",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/063.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chelsea",
+        "gt_answers": "CHELSEA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/064.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "football",
+        "gt_answers": "FOOTBALL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/065.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "club",
+        "gt_answers": "CLUB",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/066.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ossie",
+        "gt_answers": "ESSIEN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/067.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "5",
+        "gt_answers": "5",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/068.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ferrara",
+        "gt_answers": "TERRY",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/069.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "26",
+        "gt_answers": "26",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/070.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "novak",
+        "gt_answers": "DONOVAN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/071.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "9",
+        "gt_answers": "9",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/072.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "peter",
+        "gt_answers": "ARTETA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/073.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "6",
+        "gt_answers": "6",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/074.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chelsea",
+        "gt_answers": "CHELSEA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/075.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "football",
+        "gt_answers": "FOOTBALL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/076.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "club",
+        "gt_answers": "CLUB",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/077.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "borr",
+        "gt_answers": "TORRES",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/078.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "9",
+        "gt_answers": "9",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/079.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chelsea",
+        "gt_answers": "CHELSEA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/080.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "football",
+        "gt_answers": "FOOTBALL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/081.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "club",
+        "gt_answers": "CLUB",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/082.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chelsea",
+        "gt_answers": "CHELSEA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/083.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "barrett",
+        "gt_answers": "JARRETT",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/084.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "m8",
+        "gt_answers": "GEMBIRA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/085.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "book",
+        "gt_answers": "LOKA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/086.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hilo",
+        "gt_answers": "AVILON",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/087.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "borac",
+        "gt_answers": "Celelbrating",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/088.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "rififi",
+        "gt_answers": "Life",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/089.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "IL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/090.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "rc",
+        "gt_answers": "MERCATO",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/091.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "gate",
+        "gt_answers": "VACATION",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/092.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "VINYL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/093.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "wcac",
+        "gt_answers": "NEWCASTLE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/094.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unite",
+        "gt_answers": "UNITED",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/095.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ubhri",
+        "gt_answers": "STUBHUB",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/096.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "12",
+        "gt_answers": "12",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/097.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "persie",
+        "gt_answers": "VPERSIE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/098.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "20",
+        "gt_answers": "20",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/099.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "manchester",
+        "gt_answers": "MANCHESTER",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/100.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "united",
+        "gt_answers": "UNITED",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/101.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "champs",
+        "gt_answers": "SOUTHAMPTON",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/102.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "public",
+        "gt_answers": "PUBLICK",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/103.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cousins",
+        "gt_answers": "HOUSE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/104.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ortc",
+        "gt_answers": "BURTON",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/105.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ipa",
+        "gt_answers": "IPA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/106.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "LONG",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/107.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "ISLANDS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/108.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "el originel",
+        "gt_answers": "ORIGINAL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/109.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "CRAFT",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/110.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "brewery",
+        "gt_answers": "BREWERY",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/111.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "andek",
+        "gt_answers": "LUNDEKVAM",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/112.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "5",
+        "gt_answers": "5",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/113.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "allahaba",
+        "gt_answers": "ALLAHABAD",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/114.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "university",
+        "gt_answers": "UNIVERSITY",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/115.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "quotes",
+        "gt_answers": "QUOT",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/116.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ram",
+        "gt_answers": "RAMI",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/117.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tot",
+        "gt_answers": "TOT",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/118.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "labor",
+        "gt_answers": "ARBORES",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/119.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "start",
+        "gt_answers": "START",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/120.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the word finish",
+        "gt_answers": "FINISH",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/121.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "friends",
+        "gt_answers": "FRIENDSHIP",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/122.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ten",
+        "gt_answers": "TOTTENHAM",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/123.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "1st",
+        "gt_answers": "1ST",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/124.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "vid",
+        "gt_answers": "nVIDIA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/125.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "meant",
+        "gt_answers": "meant",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/126.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "to",
+        "gt_answers": "to",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/127.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "be",
+        "gt_answers": "be",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/128.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "played",
+        "gt_answers": "played",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/129.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "west",
+        "gt_answers": "WEST",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/130.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "man",
+        "gt_answers": "HAM",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/131.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "united",
+        "gt_answers": "UNITED",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/132.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bam",
+        "gt_answers": "NANI",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/133.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "west ham",
+        "gt_answers": "WEST",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/134.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "champ",
+        "gt_answers": "HAM",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/135.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "west",
+        "gt_answers": "WEST",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/136.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "west ham",
+        "gt_answers": "HAM",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/137.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the united",
+        "gt_answers": "UNITED",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/138.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "iga",
+        "gt_answers": "WIGAN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/139.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "1932",
+        "gt_answers": "ATHLETIC",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/140.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "sein",
+        "gt_answers": "Heinz",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/141.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bake",
+        "gt_answers": "BAKED",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/142.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fake tan",
+        "gt_answers": "BEANZ",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/143.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "86",
+        "gt_answers": "1869",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/144.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "linkedin",
+        "gt_answers": "in",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/145.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "malaysia",
+        "gt_answers": "tomato",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/146.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "auq",
+        "gt_answers": "sauce",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/147.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "west",
+        "gt_answers": "ESTD",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/148.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "stu",
+        "gt_answers": "ESTD",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/149.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tga",
+        "gt_answers": "WIGAN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/150.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "1932",
+        "gt_answers": "1932",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/151.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "1932",
+        "gt_answers": "ATHLETIC",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/152.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "west",
+        "gt_answers": "WEST",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/153.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "mvv",
+        "gt_answers": "BROMWICH",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/154.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "big",
+        "gt_answers": "ALBION",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/155.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "west",
+        "gt_answers": "Lest",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/156.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "welcome",
+        "gt_answers": "We",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/157.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "forget me not",
+        "gt_answers": "Forget",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/158.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bridgestone",
+        "gt_answers": "BRIOGESTONE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/159.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "oky",
+        "gt_answers": "Tokyo",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/160.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hey",
+        "gt_answers": "Disneyland",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/161.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "20 years",
+        "gt_answers": "20",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/162.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "YEARS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/163.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "THE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/164.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "mcdonalds",
+        "gt_answers": "KINGDOM",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/165.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "of",
+        "gt_answers": "OF",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/166.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "dream",
+        "gt_answers": "DREAMS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/167.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "magic",
+        "gt_answers": "MACIC",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/168.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "christ",
+        "gt_answers": "CHRISTMAS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/169.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "0",
+        "gt_answers": "2003",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/170.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "nant",
+        "gt_answers": "FANTASY",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/171.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "denver",
+        "gt_answers": "DENVER",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/172.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "beer",
+        "gt_answers": "BEER",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/173.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "co",
+        "gt_answers": "CO",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/174.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "arfe",
+        "gt_answers": "AFCEA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/175.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "innova",
+        "gt_answers": "NOVA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/176.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "navar",
+        "gt_answers": "NAVAL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/177.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "it",
+        "gt_answers": "IT",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/178.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "day",
+        "gt_answers": "DAY",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/179.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bmw",
+        "gt_answers": "BMW",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/180.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chino",
+        "gt_answers": "HUTCHINSON",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/181.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the",
+        "gt_answers": "THE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/182.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "scottish",
+        "gt_answers": "SCOTTISH",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/183.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "almond",
+        "gt_answers": "SALMON",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/184.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "company",
+        "gt_answers": "COMPANY",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/185.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "atham-kent",
+        "gt_answers": "CHATHAMKENT",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/186.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "police",
+        "gt_answers": "POLICE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/187.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "toyota",
+        "gt_answers": "To",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/188.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "serve",
+        "gt_answers": "Serve",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/189.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "grand",
+        "gt_answers": "and",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/190.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "protect",
+        "gt_answers": "Protect",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/191.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cottons",
+        "gt_answers": "ScoTT's",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/192.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "famli",
+        "gt_answers": "FAMILY",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/193.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "itallian",
+        "gt_answers": "ITALIAN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/194.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "1984",
+        "gt_answers": "CUISINE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/195.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bar",
+        "gt_answers": "BAR",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/196.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "apple",
+        "gt_answers": "MAPLES",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/197.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "nev",
+        "gt_answers": "TAVERN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/198.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cst",
+        "gt_answers": "EST",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/199.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "2012",
+        "gt_answers": "2011",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/200.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "icodine",
+        "gt_answers": "CROCODILES",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/201.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "no",
+        "gt_answers": "NO",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/202.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "no gimmicks",
+        "gt_answers": "SWIMMING",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/203.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "welcome",
+        "gt_answers": "WELCOME",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/204.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "TO",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/205.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "historic",
+        "gt_answers": "HISTORIC",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/206.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "matter",
+        "gt_answers": "Battery",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/207.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "point",
+        "gt_answers": "Point",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/208.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "dto",
+        "gt_answers": "OLDTOWN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/209.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "white",
+        "gt_answers": "WHITE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/210.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "coffee",
+        "gt_answers": "COFFEE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/211.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "oto",
+        "gt_answers": "OLDTOWN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/212.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hit",
+        "gt_answers": "WHITE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/213.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "off",
+        "gt_answers": "COFFEE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/214.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "taur",
+        "gt_answers": "RESTAURANT",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/215.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bar",
+        "gt_answers": "BAR",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/216.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ding",
+        "gt_answers": "SINGHS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/217.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ibbb",
+        "gt_answers": "CARIBBEAN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/218.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "insi",
+        "gt_answers": "CUISINE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/219.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chel",
+        "gt_answers": "MICHELIN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/220.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ao",
+        "gt_answers": "MOD",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/221.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tm",
+        "gt_answers": "TM",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/222.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "flyin' words",
+        "gt_answers": "FLYING",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/223.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "horses",
+        "gt_answers": "HORSES",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/224.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "eric",
+        "gt_answers": "AMERICAS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/225.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "des",
+        "gt_answers": "OLDEST",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/226.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the house of rouge",
+        "gt_answers": "CAROUSEL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/227.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "101",
+        "gt_answers": "NATIONAL",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/228.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fishe",
+        "gt_answers": "REGISTER",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/229.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "top",
+        "gt_answers": "OF",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/230.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "10",
+        "gt_answers": "HISTORIC",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/231.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "pac",
+        "gt_answers": "PLACES",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/232.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "len",
+        "gt_answers": "Le",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/233.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "zen",
+        "gt_answers": "Grenier",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/234.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "a",
+        "gt_answers": "a",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/235.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "pain",
+        "gt_answers": "Pain",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/236.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "100",
+        "gt_answers": "10000",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/237.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "sine",
+        "gt_answers": "BUSINESS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/238.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "wes",
+        "gt_answers": "INVEST",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/239.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "2012",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/240.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "campaign",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/241.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "wwwbusinessinvestcouk",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/242.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "polim",
+        "gt_answers": "KOLIND",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/243.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fresko",
+        "gt_answers": "KORESKOLE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/244.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "north",
+        "gt_answers": "North",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/245.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "union",
+        "gt_answers": "union",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/246.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "dcc",
+        "gt_answers": "WILDCATS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/247.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chinese",
+        "gt_answers": "CHINESE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/248.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "food",
+        "gt_answers": "FOOD",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/249.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "open",
+        "gt_answers": "OPEN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/250.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "eat",
+        "gt_answers": "EAT",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/251.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tin",
+        "gt_answers": "IN",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/252.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fake",
+        "gt_answers": "TAKE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/253.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "scout",
+        "gt_answers": "OUT",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/254.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "police",
+        "gt_answers": "POLICE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/255.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "national geographic",
+        "gt_answers": "STATION",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/256.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the hulk",
+        "gt_answers": "THE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/257.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bbc",
+        "gt_answers": "TABLE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/258.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "barbecue",
+        "gt_answers": "BARBEOUE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/259.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "we the people",
+        "gt_answers": "PEOPLE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/260.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "aisha",
+        "gt_answers": "handmade",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/261.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chocolate",
+        "gt_answers": "chocolates",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/262.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "aishahaleyesblogspotcom",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/263.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "exclusive",
+        "gt_answers": "Exclusive",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/264.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "unanswerable",
+        "gt_answers": "to",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/265.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "landbury",
+        "gt_answers": "Cadbury",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/266.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "jurlly",
+        "gt_answers": "World",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/267.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "air",
+        "gt_answers": "DAIRY",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/268.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "milk",
+        "gt_answers": "MILK",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/269.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "moon",
+        "gt_answers": "Smooth",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/270.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chocolat",
+        "gt_answers": "Chocolate",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/271.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "mousse",
+        "gt_answers": "Mousse",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/272.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "starbucks",
+        "gt_answers": "STARBUCKS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/273.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "offee",
+        "gt_answers": "COFFEE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/274.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bmw",
+        "gt_answers": "KIA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/275.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "motor",
+        "gt_answers": "MOTORS",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/276.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "halal",
+        "gt_answers": "halal",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/277.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "star",
+        "gt_answers": "STAR",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/278.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "welcome",
+        "gt_answers": "welcome",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/279.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "snack",
+        "gt_answers": "SNACK",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/280.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "imagine",
+        "gt_answers": "TAGINE",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/281.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cobra",
+        "gt_answers": "COBRA",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/282.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "show",
+        "gt_answers": "SHOW",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/283.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "milan",
+        "gt_answers": "THAILAND",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/284.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "rikk",
+        "gt_answers": "Frikkie",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/285.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "dub",
+        "gt_answers": "du",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/286.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "toit",
+        "gt_answers": "Toit",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/287.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fa",
+        "gt_answers": "Safaris",
+        "image_path": "/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/288.jpg",
+        "model_name": "LLaMA2-Accessory",
+        "task_type": "VQA"
+    }
+]

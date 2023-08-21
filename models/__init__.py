@@ -1,5 +1,6 @@
 import torch
 import numpy as np
+import PIL
 from PIL import Image
 
 DATA_DIR = '/nvme/share/VLP_web_data'
@@ -19,6 +20,12 @@ def get_image(image):
             print(f"Fail to read image: {image}")
             exit(-1)
     elif type(image) is Image.Image:
+        return image
+    elif type(image) is PIL.JpegImagePlugin.JpegImageFile:
+        return image
+    elif type(image) is PIL.PngImagePlugin.PngImageFile:
+        return image
+    elif type(image) is PIL.MpoImagePlugin.MpoImageFile:
         return image
     else:
         raise NotImplementedError(f"Invalid type of Image: {type(image)}")
@@ -59,6 +66,9 @@ def get_model(model_name, device=None):
     elif model_name == 'LLaMA-Adapter-v2':
         from .test_llama_adapter_v2 import TestLLamaAdapterV2, TestLLamaAdapterV2_web
         return TestLLamaAdapterV2(device)
+    elif model_name == 'LLaMA2-Accessory':
+        from .test_llama2_accessory import TestLLama2Accessory
+        return TestLLama2Accessory(device)
     elif model_name == 'Multimodal-GPT':
         from .test_multimodel_gpt import TestMultiModelGPT # Web version
         return TestMultiModelGPT(device)
