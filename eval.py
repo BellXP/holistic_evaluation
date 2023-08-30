@@ -98,6 +98,8 @@ def main(args):
     model = get_model(args.model_name, device=torch.device('cpu' if args.device == -1 else f"cuda:{args.device}"))
     time = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     answer_path = f"{args.answer_path}/{args.model_name}/{args.dataset_name}"
+    if not os.path.exists(answer_path):
+        os.makedirs(answer_path)
 
     if args.tiny_indices_jsonl:
         dataset2indices = {}
