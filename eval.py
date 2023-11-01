@@ -17,7 +17,7 @@ def parse_args():
 
     # models
     parser.add_argument("--model_name", type=str, default="LLaMA-Adapter-v2")
-    parser.add_argument("--device", type=int, default=-1)
+    parser.add_argument("--device", type=int, default=0)
     parser.add_argument("--batch_size", type=int, default=1)
 
     # datasets
@@ -58,6 +58,8 @@ def sample_dataset(dataset, max_sample_num=5000, seed=0):
 
 
 def get_eval_function(args):
+    if args.eval_ocr:
+        eval_func = evaluate_OCR
     if args.eval_vqa:
         eval_func = evaluate_VQA
     elif args.eval_caption:
@@ -96,13 +98,13 @@ def main(args):
             dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
             metrics = evaluate_OCR(model, dataset, args.model_name, ocr_dataset_name[i], "VQA", time, args.batch_size, answer_path)
             result[ocr_dataset_name[i]] = metrics
-
-    eval_function = get_eval_function(args)
-    if eval_function is not None:
-        dataset = dataset_class_dict[args.dataset_name]()
-        dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
-        metrics = eval_function(model, dataset, args.model_name, args.dataset_name, "VQA", time, args.batch_size, answer_path=answer_path)
-        result[args.dataset_name] = metrics
+    else:
+        eval_function = get_eval_function(args)
+        if eval_function is not None:
+            dataset = dataset_class_dict[args.dataset_name]()
+            dataset = sample_dataset(dataset, args.sample_num, args.sample_seed)
+            metrics = eval_function(model, dataset, args.model_name, args.dataset_name, "VQA", time, args.batch_size, answer_path=answer_path)
+            result[args.dataset_name] = metrics
     
     result_path = os.path.join(os.path.join(answer_path, time), 'result.json')
     with open(result_path, "w") as f:

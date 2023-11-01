@@ -1,76 +1,129 @@
 import torch
-from transformers import CLIPImageProcessor
+import transformers
+
 from .otter.modeling_otter import OtterForConditionalGeneration
-from .instruct_blip.models.eva_vit import convert_weights_to_fp16
 from . import get_image, DATA_DIR
 
-CKPT_PATH=f'{DATA_DIR}/otter-9b-hf'
+
+def get_formatted_prompt(prompt: str, in_context_prompts: list = []) -> str:
+    in_context_string = ""
+    for in_context_prompt, in_context_answer in in_context_prompts:
+        in_context_string += f"<image>User: {in_context_prompt} GPT:<answer> {in_context_answer}<|endofchunk|>"
+    return f"{in_context_string}<image>User: {prompt} GPT:<answer>"
 
 
 class TestOtter:
-    def __init__(self, device=None) -> None:
-        model_path=CKPT_PATH
-        self.model = OtterForConditionalGeneration.from_pretrained(model_path)
-        self.tokenizer = self.model.text_tokenizer
-        self.image_processor = CLIPImageProcessor()
-        self.tokenizer.padding_side = "left"
+    def __init__(self, device=None, use_llama=False) -> None:
+        model = OtterForConditionalGeneration.from_pretrained(f"{DATA_DIR}/otter-9b-hf", device_map="auto", torch_dtype=torch.bfloat16)
+        model.text_tokenizer.padding_side = "left"
+        image_processor = transformers.CLIPImageProcessor()
+        model.eval()
+        self.model = model
+        self.image_processor = image_processor
 
-        if device is not None:
-            self.move_to_device(device)
-
-    def move_to_device(self, device=None):
-        if device is not None and 'cuda' in device.type:
-            self.dtype = torch.float16
-            self.device = device
-            convert_weights_to_fp16(self.model.vision_encoder)
-        else:
-            self.dtype = torch.float32
-            self.device = 'cpu'
-            self.model.vision_encoder = self.model.vision_encoder.to(self.device, dtype=self.dtype)
-        self.model = self.model.to(self.device, dtype=self.dtype)
+    def move_to_device(self, device):
+        pass
 
     @torch.no_grad()
-    def generate(self, image, question, max_new_tokens=256):
-        image = get_image(image)
-        vision_x = (self.image_processor.preprocess([image], return_tensors="pt")["pixel_values"].unsqueeze(1).unsqueeze(0))
-        lang_x = self.model.text_tokenizer([f"<image> User: {question} GPT: <answer>"], return_tensors="pt")
-        generated_text = self.model.generate(
-            vision_x=vision_x.to(self.model.device, dtype=self.dtype),
-            lang_x=lang_x["input_ids"].to(self.model.device),
-            attention_mask=lang_x["attention_mask"].to(self.model.device, dtype=self.dtype),
-            max_new_tokens=max_new_tokens,
-            num_beams=3,
-            no_repeat_ngram_size=3,
+    def generate(self, raw_image, question, max_new_tokens=1024, do_sample=False, num_beams=1):
+        raw_image = get_image(raw_image)
+        vision_x = self.image_processor.preprocess([raw_image], return_tensors="pt")["pixel_values"].unsqueeze(1).unsqueeze(0)
+        lang_x = self.model.text_tokenizer(
+            [
+                get_formatted_prompt(question, []),
+            ],
+            return_tensors="pt",
         )
-        output = self.model.text_tokenizer.decode(generated_text[0])
-        output = [x for x in output.split(' ') if not x.startswith('<')]
-        out_label = output.index('GPT:')
-        output = ' '.join(output[out_label + 1:])
+        bad_words_id = self.model.text_tokenizer(["User:", "GPT1:", "GFT:", "GPT:"], add_special_tokens=False).input_ids
+        generated_text = self.model.generate(
+            vision_x=vision_x.to(self.model.device),
+            lang_x=lang_x["input_ids"].to(self.model.device),
+            attention_mask=lang_x["attention_mask"].to(self.model.device),
+            max_new_tokens=max_new_tokens,
+            bad_words_ids=bad_words_id,
+            do_sample=do_sample,
+            # temperature=0,
+            num_beams=num_beams,
+            # no_repeat_ngram_size=3,
+        )
+        parsed_output = (
+            self.model.text_tokenizer.decode(generated_text[0])
+            .split("<answer>")[-1]
+            .lstrip()
+            .rstrip()
+            .split("<|endofchunk|>")[0]
+            .lstrip()
+            .rstrip()
+            .lstrip('"')
+            .rstrip('"')
+        )
         
-        return output
-    
+        return parsed_output
+
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list, max_new_tokens=256):
+    def pure_generate(self, raw_image, question, max_new_tokens=1024):
+        raw_image = get_image(raw_image)
+        vision_x = self.image_processor.preprocess([raw_image], return_tensors="pt")["pixel_values"].unsqueeze(1).unsqueeze(0)
+        lang_x = self.model.text_tokenizer([question], return_tensors="pt")
+        bad_words_id = self.model.text_tokenizer(["User:", "GPT1:", "GFT:", "GPT:"], add_special_tokens=False).input_ids
+        generated_text = self.model.generate(
+            vision_x=vision_x.to(self.model.device),
+            lang_x=lang_x["input_ids"].to(self.model.device),
+            attention_mask=lang_x["attention_mask"].to(self.model.device),
+            max_new_tokens=max_new_tokens,
+            bad_words_ids=bad_words_id,
+            do_sample=False,
+            # temperature=0,
+            num_beams=1,
+            # no_repeat_ngram_size=3,
+        )
+        parsed_output = (
+            self.model.text_tokenizer.decode(generated_text[0])
+            .split("<answer>")[-1]
+            .lstrip()
+            .rstrip()
+            .split("<|endofchunk|>")[0]
+            .lstrip()
+            .rstrip()
+            .lstrip('"')
+            .rstrip('"')
+        )
+        
+        return parsed_output
+
+    @torch.no_grad()
+    @torch.cuda.amp.autocast()
+    def batch_generate(self, image_list, question_list, max_new_tokens=1024, do_sample=False, num_beams=1):
         imgs = [get_image(img) for img in image_list]
         imgs = [self.image_processor.preprocess([x], return_tensors="pt")["pixel_values"].unsqueeze(0) for x in imgs]
         vision_x = (torch.stack(imgs, dim=0))
-        prompts = [f"<image> User: {question} GPT: <answer>" for question in question_list]
+        prompts = [get_formatted_prompt(question, []) for question in question_list]
         lang_x = self.model.text_tokenizer(prompts, return_tensors="pt", padding=True)
+        bad_words_id = self.model.text_tokenizer(["User:", "GPT1:", "GFT:", "GPT:"], add_special_tokens=False).input_ids
         generated_text = self.model.generate(
-            vision_x=vision_x.to(self.model.device, dtype=self.dtype),
+            vision_x=vision_x.to(self.model.device),
             lang_x=lang_x["input_ids"].to(self.model.device),
-            attention_mask=lang_x["attention_mask"].to(self.model.device, dtype=self.dtype),
+            attention_mask=lang_x["attention_mask"].to(self.model.device),
             max_new_tokens=max_new_tokens,
-            num_beams=3,
-            no_repeat_ngram_size=3
+            bad_words_ids=bad_words_id,
+            do_sample=do_sample,
+            # temperature=0,
+            num_beams=num_beams,
+            # no_repeat_ngram_size=3,
         )
         total_output = []
         for i in range(len(generated_text)):
-            output = self.model.text_tokenizer.decode(generated_text[i])
-            output = [x for x in output.split(' ') if not x.startswith('<')]
-            out_label = output.index('GPT:')
-            output = ' '.join(output[out_label + 1:])
-            total_output.append(output)
+            parsed_output = (
+                self.model.text_tokenizer.decode(generated_text[i])
+                .split("<answer>")[-1]
+                .lstrip()
+                .rstrip()
+                .split("<|endofchunk|>")[0]
+                .lstrip()
+                .rstrip()
+                .lstrip('"')
+                .rstrip('"')
+            )
+            total_output.append(parsed_output)
 
         return total_output
-    

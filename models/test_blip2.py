@@ -1,63 +1,27 @@
 import torch
-import contextlib
-from types import MethodType
-from lavis.models import load_model_and_preprocess
-from lavis.models.eva_vit import convert_weights_to_fp16
+from transformers import Blip2Processor, Blip2ForConditionalGeneration
 from . import get_image
 
 
-def new_maybe_autocast(self, dtype=None):
-    return contextlib.nullcontext()
-    enable_autocast = self.device != torch.device("cpu")
-    if not enable_autocast:
-        return contextlib.nullcontext()
-    elif dtype is torch.bfloat16:
-        if torch.cuda.is_bf16_supported():
-            return torch.cuda.amp.autocast(dtype=torch.bfloat16)
-        else:
-            return torch.cuda.amp.autocast(dtype=torch.float16)
-    else:
-        return torch.cuda.amp.autocast(dtype=dtype)
-
-
+# No tempearture sampling in default
 class TestBlip2:
     def __init__(self, device=None) -> None:
-        self.model, self.vis_processors, _ = load_model_and_preprocess(
-            name="blip2_t5", model_type="pretrain_flant5xl", is_eval=True, device='cpu'
-        )
-        self.model.maybe_autocast = MethodType(new_maybe_autocast, self.model)
-
-        if device is not None:
-            self.move_to_device(device)
-
-    def move_to_device(self, device):
-        if device is not None and 'cuda' in device.type:
-            self.dtype = torch.float32 # torch.float16
-            self.device = device
-            # convert_weights_to_fp16(self.model.visual_encoder)
-        else:
-            self.dtype = torch.float32
-            self.device = 'cpu'
-            self.model.visual_encoder = self.model.visual_encoder.to(self.device, dtype=self.dtype)
-        self.model = self.model.to(self.device)
+        self.processor = Blip2Processor.from_pretrained("Salesforce/blip2-flan-t5-xl")
+        self.model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-flan-t5-xl", device_map="auto")
 
     @torch.no_grad()
-    def generate(self, image, question, max_new_tokens=30):
+    def generate(self, image, question, max_new_tokens=1024, do_sample=False, num_beams=1):
         image = get_image(image)
-        image = self.vis_processors["eval"](image).unsqueeze(0).to(self.device, dtype=self.dtype)
-        answer = self.model.generate({
-            "image": image, "prompt": f"Question: {question} Short answer:"
-        }, max_length=max_new_tokens)
-
-        return answer[0]
-    
-    @torch.no_grad()
-    def batch_generate(self, image_list, question_list, max_new_tokens=30):
-        imgs = [get_image(img) for img in image_list]
-        imgs = [self.vis_processors["eval"](x) for x in imgs]
-        imgs = torch.stack(imgs, dim=0).to(self.device, dtype=self.dtype)
-        prompts = [f"Question: {question} Short answer:" for question in question_list]
-        output = self.model.generate({"image": imgs, "prompt": prompts}, max_length=max_new_tokens)
-
+        inputs = self.processor(image, question, return_tensors="pt").to("cuda")
+        output = self.model.generate(**inputs, max_length=max_new_tokens, do_sample=do_sample, num_beams=num_beams)
+        output = self.processor.decode(output[0], skip_special_tokens=True)
         return output
+
+    @torch.no_grad()
+    def batch_generate(self, image_list, question_list, max_new_tokens=1024, do_sample=False, num_beams=1):
+        images = [get_image(image) for image in image_list]
+        inputs = self.processor(images, question_list, return_tensors="pt").to("cuda")
+        outputs = self.model.generate(**inputs, max_length=max_new_tokens, do_sample=do_sample, num_beams=num_beams)
+        outputs = self.processor.batch_decode(outputs, skip_special_tokens=True)
+        return outputs
     

@@ -1,7 +1,7 @@
 import os
 from torch.utils.data import Dataset
-from . import DATA_DIR
 
+from . import DATA_DIR
 
 class ocrDataset(Dataset):
     data_root = f'{DATA_DIR}/OCR_Datasets'
@@ -14,6 +14,7 @@ class ocrDataset(Dataset):
         file_path = os.path.join(self.data_root, f'{dataset_name}/test_label.txt')
         file = open(file_path, "r")
         self.lines = file.readlines()
+        self.question = 'What is written in the image?'
 
     def __len__(self):
         return len(self.lines)
@@ -23,4 +24,5 @@ class ocrDataset(Dataset):
         answers = self.lines[idx].split()[1]
         return {
             "image_path": img_path,
+            "question": self.question,
             "gt_answers": answers}

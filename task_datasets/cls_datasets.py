@@ -14,6 +14,7 @@ from . import DATA_DIR
 class CIFAR10Dataset(CIFAR10):
     def __init__(self, root: str=f"{DATA_DIR}/CLS_Datasets", train: bool=False, **kwargs: Any):
         super().__init__(root, train, **kwargs)
+        self.question = 'Classify the main object in the image.'
 
     def __getitem__(self, index: int) -> Tuple[str, Sequence[str]]:
         """
@@ -30,31 +31,9 @@ class CIFAR10Dataset(CIFAR10):
 
         return {
             "image_path": img,
+            "question": self.question,
             "gt_answers": answers,
         }
-
-
-class CIFAR100Dataset(CIFAR10Dataset):
-    """`CIFAR100 <https://www.cs.toronto.edu/~kriz/cifar.html>`_ Dataset.
-
-    This is a subclass of the `CIFAR10` Dataset.
-    """
-    base_folder = 'cifar-100-python'
-    url = "https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz"
-    filename = "cifar-100-python.tar.gz"
-    tgz_md5 = 'eb9058c3a382ffc7106e4002c42a8d85'
-    train_list = [
-        ['train', '16019d7e3df5f24257cddd939b257f8d'],
-    ]
-
-    test_list = [
-        ['test', 'f0ef6b0ae62326f3e7ffdfab6717acfc'],
-    ]
-    meta = {
-        'filename': 'meta',
-        'key': 'fine_label_names',
-        'md5': '7973b15100ade9c7d40fb424638fde48',
-    }
 
 
 class Flowers102(VisionDataset):
@@ -104,6 +83,7 @@ class Flowers102(VisionDataset):
         self._images_folder = self._base_folder / "jpg"
 
         self.cat_to_name = json.load(open(self._base_folder / 'cat_to_name.json', 'r'))
+        self.question = 'What breed is the flower in the image?'
 
         if download:
             self.download()
@@ -134,6 +114,7 @@ class Flowers102(VisionDataset):
         answers = self.cat_to_name[str(label+1)]
         return {
             "image_path": image_path,
+            "question": self.question,
             "gt_answers": answers,
         }
 
@@ -164,8 +145,9 @@ class Flowers102(VisionDataset):
 
 
 class ImageNetDataset(ImageNet):
-    def __init__(self, root: str=f"{DATA_DIR}/ImageNet", split: str = "val", **kwargs: Any):
+    def __init__(self, root: str=f"{DATA_DIR}/CLS_Datasets/ImageNet", split: str = "val", **kwargs: Any):
         super().__init__(root, split, **kwargs)
+        self.question = 'Classify the main object in the image.'
 
     def __getitem__(self, index: int) -> Tuple[str, Sequence[str]]:
         """
@@ -186,6 +168,7 @@ class ImageNetDataset(ImageNet):
 
         return {
             "image_path": path,
+            "question": self.question,
             "gt_answers": answers,
         }
 
@@ -240,6 +223,8 @@ class OxfordIIITPet(VisionDataset):
         self._anns_folder = self._base_folder / "annotations"
         self._segs_folder = self._anns_folder / "trimaps"
 
+        self.question = 'What breed is the pet in the image?'
+
         if download:
             self._download()
 
@@ -274,28 +259,9 @@ class OxfordIIITPet(VisionDataset):
         answers = self.classes[self._labels[idx]]
         return {
             "image_path": image_path,
+            "question": self.question,
             "gt_answers": answers,
         }
-        # image = Image.open(self._images[idx]).convert("RGB")
-
-        # target: Any = []
-        # for target_type in self._target_types:
-        #     if target_type == "category":
-        #         target.append(self._labels[idx])
-        #     else:  # target_type == "segmentation"
-        #         target.append(Image.open(self._segs[idx]))
-
-        # if not target:
-        #     target = None
-        # elif len(target) == 1:
-        #     target = target[0]
-        # else:
-        #     target = tuple(target)
-
-        # if self.transforms:
-        #     image, target = self.transforms(image, target)
-
-        # return image, target
 
     def _check_exists(self) -> bool:
         for folder in (self._images_folder, self._anns_folder):

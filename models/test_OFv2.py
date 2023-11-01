@@ -3,9 +3,8 @@ from torch import nn
 from huggingface_hub import hf_hub_download
 from PIL import Image
 
-
-# https://huggingface.co/openflamingo/OpenFlamingo-3B-vitl-mpt1b-langinstruct
 from open_flamingo import create_model_and_transforms
+
 
 class OFv2(nn.Module):
     def __init__(self, version: str='3BI',
@@ -51,7 +50,7 @@ class OFv2(nn.Module):
         self.model = self.model.to(self.device, dtype=self.dtype)
 
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list, max_new_tokens: int=20, *args, **kwargs):
+    def batch_generate(self, image_list, question_list, max_new_tokens: int=1024, *args, **kwargs):
         if type(image_list[0]) is not str:
             images = [Image.fromarray(x) for x in image_list]
         else:

@@ -1,45 +1,55 @@
 import torch
-from transformers import CLIPImageProcessor
-from .instruct_blip.models import load_model_and_preprocess
-from .instruct_blip.models.eva_vit import convert_weights_to_fp16
+from transformers import InstructBlipProcessor, InstructBlipForConditionalGeneration
 from . import get_image
 
 
+# No sampling in default
 class TestInstructBLIP:
-    def __init__(self, device=None) -> None:
-        self.model, self.vis_processors, _ = load_model_and_preprocess(name="blip2_vicuna_instruct", model_type="vicuna7b", is_eval=True, device='cpu')
-
-        if device is not None:
-            self.move_to_device(device)
-
-    def move_to_device(self, device=None):
-        if device is not None and 'cuda' in device.type:
-            self.dtype = torch.float16
-            self.device = device
-            convert_weights_to_fp16(self.model.visual_encoder)
+    def __init__(self, base_llm='vicuna', device=None) -> None:
+        self.device = 'cuda'
+        if base_llm == 'vicuna':
+            self.model = InstructBlipForConditionalGeneration.from_pretrained("Salesforce/instructblip-vicuna-7b")
+            self.processor = InstructBlipProcessor.from_pretrained("Salesforce/instructblip-vicuna-7b")
+        elif base_llm == 't5':
+            self.model = InstructBlipForConditionalGeneration.from_pretrained("Salesforce/instructblip-flan-t5-xl")
+            self.processor = InstructBlipProcessor.from_pretrained("Salesforce/instructblip-flan-t5-xl")
         else:
-            self.dtype = torch.float32
-            self.device = 'cpu'
-            self.model.visual_encoder = self.model.visual_encoder.to(self.device, dtype=self.dtype)
-        self.model = self.model.to(self.device, dtype=self.dtype)
-        self.model.llm_model = self.model.llm_model.to(self.device, dtype=self.dtype)
+            raise NotImplementedError(f"Invalid base llm: {base_llm}")
+        self.model.to(self.device)
 
     @torch.no_grad()
-    def generate(self, image, question, max_new_tokens=128):
+    def generate(self, image, question, max_new_tokens=1024, do_sample=False, num_beams=1):
         image = get_image(image)
-        image = self.vis_processors["eval"](image).unsqueeze(0).to(self.device)
-        output = self.model.generate({"image": image, "prompt": f"Question: {question} Short answer:"}, max_length=max_new_tokens)[0]
+        inputs = self.processor(images=image, text=question, return_tensors="pt").to(self.device)
+        outputs = self.model.generate(
+                **inputs,
+                do_sample=do_sample,
+                num_beams=num_beams,
+                max_length=max_new_tokens,
+                min_length=1,
+                top_p=0.9,
+                repetition_penalty=1.5,
+                length_penalty=1.0,
+                temperature=1,
+        )
+        generated_text = self.processor.batch_decode(outputs, skip_special_tokens=True)[0]
+        return generated_text
 
-        return output
-    
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list, max_new_tokens=128):
-        imgs = [get_image(img) for img in image_list]
-        imgs = [self.vis_processors["eval"](x) for x in imgs]
-        imgs = torch.stack(imgs, dim=0).to(self.device)
-        # prompts = question_list
-        prompts = [f"Question: {question} Short answer:" for question in question_list]
-        output = self.model.generate({"image": imgs, "prompt": prompts}, max_length=max_new_tokens)
-
-        return output
+    def batch_generate(self, image_list, question_list, max_new_tokens=1024, do_sample=False, num_beams=1):
+        images = [get_image(image) for image in image_list]
+        inputs = self.processor(images=images, text=question_list, return_tensors="pt").to(self.device)
+        outputs = self.model.generate(
+                **inputs,
+                do_sample=do_sample,
+                num_beams=num_beams,
+                max_length=max_new_tokens,
+                min_length=1,
+                top_p=0.9,
+                repetition_penalty=1.5,
+                length_penalty=1.0,
+                temperature=1,
+        )
+        generated_text = self.processor.batch_decode(outputs, skip_special_tokens=True)
+        return generated_text
     

@@ -2,8 +2,8 @@ import os
 import re
 import json
 from torch.utils.data import Dataset
-from . import DATA_DIR
 
+from . import DATA_DIR
 
 class SROIEDataset(Dataset):
     data_root = f'{DATA_DIR}/KIE_Datasets/SROIE'
@@ -92,51 +92,3 @@ class FUNSDDataset(Dataset):
             "image_path": img_path,
             "question": question,
             "gt_answers": answers}
-    
-
-class POIEDataset(Dataset):
-    data_root = f'{DATA_DIR}/KIE_Datasets/POIE'
-    entities = {
-        "CE-PS": "Calories/Energy of per serving", "TF-PS":"Total fat of per serving", "CAR-PS":"Total carbohydrate of per serving",
-        "PRO-PS": "Protein of per serving","SS":"Serving size", "SO-PS":"Sodium of per serving", "TF-D":"Total fat of daily value",
-        "CAR-D": "Total carbohydrate of daily value","SO-D":"Sodium of daily value", "CE-P1":"Calories/Energy of per 100g/ml",
-        "PRO-P1": "Protein of per 100g/ml","CAR-P1":"Total carbohydrate of per 100g/ml","TF-P1":"Total Fat of per 100g/ml", 
-        "PRO-D": "Protein of daily value","SO-P1":"Sodium of per 100g/ml", "CE-D":"Calories/Energy of daily value",
-        "TF-PP": "Total fat of per 100g/ml percentage","CAR-PP":"Total carbohydrate of per 100g/ml percentage", 
-        "SO-PP": "Sodium of per 100g/ml percentage","PRO-PP":"Protein of per 100g/ml percentage",
-        "CE-PP": "Calories/Energy of per 100g/ml percentage"
-    }
-
-    def __init__(self):
-        self.image_list = []
-        self.question_list = []
-        self.answer_list = []
-        with open(f"{self.data_root}/text.txt", 'r') as f:
-            lines = f.readlines()
-            for line in lines:
-                dict = json.loads(line)
-                for key, value in dict['entity_dict'].items():
-                    self.image_list.append(self.data_root + '/' + dict['file_name'])
-                    self.question_list.append(f'what is {self.entities[key]} in the image?')
-                    matches = re.findall(r"\((.*?)\)", value)
-                    answer = [match.strip() for match in matches]
-                    answer.append(re.sub(r'\(.*?\)', '', value).strip())
-                    self.answer_list.append(answer)
-
-    def __len__(self):
-        return len(self.image_list)
-
-    def __getitem__(self, idx):
-        img_path = self.image_list[idx]
-        question = self.question_list[idx]
-        answers = self.answer_list[idx]
-        return {
-            "image_path": img_path,
-            "question": question,
-            "gt_answers": answers}
-
-
-if __name__ == "__main__":
-    dataset = POIEDataset()
-    print(len(dataset))
-    print(dataset[0])

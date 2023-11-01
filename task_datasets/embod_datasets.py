@@ -4,11 +4,10 @@ from torch.utils.data import Dataset
 
 from . import DATA_DIR
 
-
 class EmbodiedDataset(Dataset):
-    data_root = f"{DATA_DIR}/Embodied_Datasets" # '/home/huangsiyuan/holistic_evaluation/EmbodiedEvaluation'
+    data_root = f"{DATA_DIR}/Embodied_Datasets"
     dataset_list = ["MetaWorld", "FrankaKitchen", "Minecraft", "VirtualHome", "MinecraftPolicy"]
-    
+
     def __init__(self, dataset_name):
         assert dataset_name in self.dataset_list, f"{dataset_name} not in the list"
         self.dataset_root = os.path.join(self.data_root, dataset_name)
@@ -21,7 +20,7 @@ class EmbodiedDataset(Dataset):
         else:
             # for quick implementation, we only use the pre-created val dataset
             raise RuntimeError(f'Dataset {dataset_file} not found')
-        
+
         prefix_prompt = None
         prefix_prompt_file = os.path.join(self.dataset_root, 'prefix_prompt.txt')
         if os.path.exists(prefix_prompt_file):
@@ -38,10 +37,10 @@ class EmbodiedDataset(Dataset):
                     dataset[i]['question'] = prefix_prompt + ' ' + dataset[i]['question']
 
         return dataset
-    
+
     def __len__(self):
         return len(self.dataset)
-    
+
     def __getitem__(self, idx):
         img_path = self.dataset[idx]['image_path']
         full_img_path = os.path.join(self.dataset_root, img_path)

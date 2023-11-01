@@ -58,7 +58,7 @@ class TestPandaGPT:
     def move_to_device(self, device):
         pass
 
-    def generate(self, image, question, max_new_tokens=256):
+    def generate(self, image, question, max_new_tokens=1024):
         response = self.model.generate({
             'prompt': question,
             'image_paths': [image],
@@ -72,6 +72,6 @@ class TestPandaGPT:
         })
         return response
     
-    def batch_generate(self, image_list, question_list, max_new_tokens=256):
+    def batch_generate(self, image_list, question_list, max_new_tokens=1024):
         outputs = [self.generate(image, question, max_new_tokens) for image, question in zip(image_list, question_list)]
         return outputs
