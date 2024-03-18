@@ -145,7 +145,7 @@ class LynxBase(nn.Module):
             text_config.freeze_params = freeze_params
             text_config.label_smoothing = config.get("label_smoothing", 0.0)
 
-            model = LlamaForCausalLM.from_pretrained(rpath, config=text_config)
+            model = LlamaForCausalLM.from_pretrained(rpath, config=text_config, torch_dtype=torch.float16)
 
             model.model.padding_idx = self.tokenizer.pad_token_id
 

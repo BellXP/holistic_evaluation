@@ -9,7 +9,7 @@ model_path = f'{DATA_DIR}/llama_checkpoints/llama_adapter_v2_LORA-BIAS-7B.pth' #
 class TestLLamaAdapterV2:
     def __init__(self, device=None) -> None:
         # choose from BIAS-7B, LORA-BIAS-7B
-        model, preprocess = llama.load(model_path, llama_dir, device, max_seq_len=1024, max_batch_size=1)
+        model, preprocess = llama.load(model_path, llama_dir, device, max_seq_len=1024, max_batch_size=16)
         model.eval()
         self.img_transform = preprocess
         self.model = model

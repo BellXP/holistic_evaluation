@@ -22,7 +22,7 @@ def evaluate_VQA(
         outputs = model.batch_generate(batch['image_path'], batch['question'])
         for image_path, question, gt_answer, output in zip(batch['image_path'], batch['question'], batch['gt_answers'], outputs):
             answer_dict={'question': question, 'answer': output,
-            'gt_answers': gt_answer, 'image_path': image_path,
+            'gt_answers': gt_answer, 'image_path': image_path if type(image_path) is str else None,
             'model_name': model_name, 'task_type': task_type}
             predictions.append(answer_dict)
     answer_dir = os.path.join(answer_path, time)

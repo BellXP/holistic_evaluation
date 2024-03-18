@@ -5,7 +5,7 @@ model:
   load_pretrained: False
 
   pretrained: "https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/InstructBLIP/instruct_blip_vicuna7b_trimmed.pth"
-  finetuned: '/mnt/lustre/xupeng/models/BLIVA/vicuna/bliva_vicuna7b.pth'
+  finetuned: '/mnt/lustre/share_data/xupeng/models/BLIVA/vicuna/bliva_vicuna7b.pth'
 
   # vit encoder
   image_size: 224
@@ -18,7 +18,7 @@ model:
   num_query_token: 32
 
   # path to Vicuna checkpoint
-  llm_model: '/mnt/lustre/xupeng/models/PandaGPT/vicuna_ckpt/7b_v0'
+  llm_model: '/mnt/lustre/share_data/xupeng/models/PandaGPT/vicuna_ckpt/7b_v0'
 
   # generation configs
   prompt: ""

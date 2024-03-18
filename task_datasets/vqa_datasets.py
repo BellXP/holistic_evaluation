@@ -1,10 +1,13 @@
 import os
 import json
+import yaml
+import jsonlines
 import pandas as pd
 from pathlib import Path
+from copy import deepcopy
 from torch.utils.data import Dataset
 
-from . import DATA_DIR
+from . import DATA_DIR, multichoice_template, judge_template
 
 
 class VCR_OCDataset(Dataset):
@@ -44,12 +47,7 @@ class VCR_MCIDataset(Dataset):
     def __getitem__(self, idx):
         question = self.data[idx]['text_in']
         answers = self.data[idx]['text_out']
-        question = (
-            f'Question: {question}\n\n'
-            'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
-            'The output format follows exactly as below:\nAnswer: <choice>'
-        )
-
+        question = judge_template.format(question)
         img_path = os.path.join(self.image_dir_path,str(self.data[idx]['image_id']))
         return {
             "image_path": img_path,
@@ -95,11 +93,7 @@ class MSCOCO_MCIDataset(Dataset):
     def __getitem__(self, idx):
         question = self.data[idx]['text_in']
         answers = self.data[idx]['text_out']
-        question = (
-            f'Question: {question}\n\n'
-            'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
-            'The output format follows exactly as below:\nAnswer: <choice>'
-        )
+        question = judge_template.format(question)
         name = 'COCO_val2014_' + str(self.data[idx]['image_id']).zfill(len('000000007991')) + '.jpg'
         img_path = os.path.join(self.image_dir_path,name)
         if os.path.isfile(img_path):
@@ -285,11 +279,8 @@ class IconQADataset(Dataset):
             image_path = f"{dataset_dir}/{sample}/image.png"
             self.image_list.append(image_path)
             data = json.load(open(f"{dataset_dir}/{sample}/data.json", 'r'))
-            # question = f"Question: {data['question']}\n" \
-            #            f"Options: {' '.join(data['choices'])}\n"
             options = '\n- '.join(data['choices'])
-            question = f"Question: {data['question']}\n" \
-                       f"Choose the best answer from the following choices:\n- {options}\n"
+            question = multichoice_template.format(data['question'], options)
             self.question_list.append(question)
             self.answer_list.append(data['choices'][data['answer']])
 
@@ -322,11 +313,8 @@ class VSRDataset(Dataset):
         for sample in data:
             image_path = f"{self.data_root}/images/{sample['image']}"
             caption = sample['caption']
-            question = (
-                f'Question: Is the caption "{caption}" correctly describing the image?\n\n'
-                'Choose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n'
-                'The output format follows exactly as below:\nAnswer: <choice>'
-            )
+            question = f'Is the caption "{caption}" correctly describing the image?'
+            question = judge_template.format(question)
             answer = self.choices[sample['label']]
             self.answer_list.append(answer)
             self.image_list.append(image_path)
@@ -374,25 +362,57 @@ class WHOOPSDataset(Dataset):
 
 
 class ScienceQADataset(Dataset):
-    def __init__(self) -> None:
-        super().__init__()
-        self.data_root = f'{DATA_DIR}/VQA_Datasets/ScienceQA'
-        self.dataset = []
-        jsonl_path = f'{self.data_root}/annos_test_image_2017samples.jsonl'
-        with open(jsonl_path, 'r') as f:
-            self.dataset = [json.loads(x) for x in f.readlines()]
+    split='test'
+    options = ["A", "B", "C", "D", "E", "F", "G", "H"]
+    data_root = f'{DATA_DIR}/VQA_Datasets/ScienceQA'
+
+    def __init__(self):
+        ann_path = f"{self.data_root}/{self.split}_anns.json"
+        if not os.path.exists(ann_path):
+            self.prepare_dataset()
+        self.dataset = json.load(open(ann_path, "r"))
+
+    def prepare_dataset(self):
+        import io
+        import datasets
+        from PIL import Image
+        
+        # load dataset
+        data = datasets.load_dataset('derek-thomas/ScienceQA', self.split)
+        dataset = []
+        for sample in data[self.split]:
+            if sample['image'] is None:
+                continue
+            
+            question = '' if sample['hint'] == '' else f"Context: {sample['hint']}\n\n"
+            options = '\n- '.join(sample['choices'])
+            image_binary_stream = io.BytesIO(sample['image']['bytes'])
+            image = Image.open(image_binary_stream).convert('RGB')
+            dataset.append({
+                'image_path': image,
+                'question': question,
+                'options': options,
+                'gt_answers': sample['choices'][sample['answer']]
+            })
+
+        # save dataset
+        for i in range(len(dataset)):
+            img_name = f"{i:04d}.png"
+            img_path = f'{self.data_root}/{self.split}_imgs/{img_name}'
+            if not os.path.exists(img_path):
+                dataset[i]['image_path'].save(img_path)
+            dataset[i]['image_path'] = img_name
+        with open(f"{self.data_root}/{self.split}_anns.json", "w") as f:
+            f.write(json.dumps(dataset, indent=4))
 
     def __len__(self):
         return len(self.dataset)
 
-    def __getitem__(self, index) -> dict:
-        sample = self.dataset[index]
-        image_path = os.path.join(self.data_root, sample['image_path'])
-        return {
-            "image_path": image_path,
-            "question": sample['question'],
-            "gt_answers": sample['answer'],
-        }
+    def __getitem__(self, idx):
+        sample = self.dataset[idx]
+        sample['image_path'] = f"{self.data_root}/{self.split}_imgs/{sample['image_path']}"
+        sample['question'] = multichoice_template.format(sample['question'], sample['options'])
+        return sample
 
 
 class VizWizDataset(Dataset):
@@ -403,7 +423,6 @@ class VizWizDataset(Dataset):
         self.question_list = []
         self.answer_list = []
         self.load_data(split='val')
-        # self.load_data(split='train')
 
     def load_data(self, split='val'):
         annotations = json.load(open(f"{self.data_root}/{split}_grounding.json", "r"))
@@ -548,3 +567,120 @@ class MSCOCO_POPEDataset_adversarial(Dataset):
         else:
             print(img_path, 'not exist!!!')
             return self.__getitem__((idx + 1) % len(self))
+
+
+class VCRDataset(Dataset):
+    def __init__(
+        self,
+        dataset_root=f"{DATA_DIR}/VCR",
+        dataset_name='val',
+    ):
+        self.dataset = []
+        dataset_dir = os.path.join(dataset_root, f'dataset_{dataset_name}.jsonl')
+        if os.path.exists(dataset_dir):
+            self.dataset = json.load(open(dataset_dir, "r"))
+        else:
+            dataset_anno_dir = os.path.join(dataset_root, f'{dataset_name}.jsonl')
+            with jsonlines.open(dataset_anno_dir) as reader:
+                for cur_ann in reader:
+                    img_path = os.path.join(dataset_root, 'vcr1images', cur_ann['img_fn'])
+                    meta_path = os.path.join(dataset_root, 'vcr1images', cur_ann['metadata_fn'])
+
+                    with open(meta_path, 'r') as f:
+                        metadata = json.load(f)
+
+                    obj_names = cur_ann['objects']
+                    obj_boxes = metadata['boxes']
+                    obj_width = metadata['width']
+                    new_obj_names = self.add_person_location(cur_ann['question'], cur_ann['answer_choices'], obj_names, obj_boxes, obj_width)
+
+                    question_sent = self.transform_list2sent(cur_ann['question'], new_obj_names)
+                    answer_sents = []
+                    for answer_i in cur_ann['answer_choices']:
+                        answer_sents.append(self.transform_list2sent(answer_i, new_obj_names))
+
+                    options = '\n- '.join(answer_sents)
+                    self.dataset.append({
+                        'image_path': img_path,
+                        'question': question_sent,
+                        'options': options,
+                        'gt_answers': answer_sents[cur_ann['answer_label']]
+                    })
+            with open(dataset_dir, 'w') as f:
+                f.write(json.dumps(self.dataset, indent=4))
+
+    def add_person_location(self, questions, answers, obj_names, obj_boxes, obj_width):
+        referred_person_id = []
+        referred_person_rename = []
+        referred_person_coor = []
+
+        left_range = [0, obj_width/3]
+        middle_range = [obj_width/3, obj_width*2/3]
+        right_range = [obj_width*2/3, obj_width]
+
+        for ii in questions:
+            if isinstance(ii, list) and obj_names[ii[0]] == 'person':
+                if ii[0] not in referred_person_id:
+                    referred_person_id.append(ii[0])
+                    referred_person_rename.append('person')
+                    referred_person_coor.append((obj_boxes[ii[0]][0] + obj_boxes[ii[0]][2])/2)
+        for ans_i in answers:
+            for ii in ans_i:
+                if isinstance(ii, list) and obj_names[ii[0]] == 'person':
+                    if ii[0] not in referred_person_id:
+                        referred_person_id.append(ii[0])
+                        referred_person_rename.append('person')
+                        referred_person_coor.append((obj_boxes[ii[0]][0] + obj_boxes[ii[0]][2])/2)
+
+        if len(referred_person_id) == 0:
+            # Don't make change.
+            return obj_names
+        else:
+            if len(referred_person_id) == 1:
+                cur_person_id = referred_person_id[0]
+                if left_range[0] <= obj_boxes[cur_person_id][0] <= left_range[1]:
+                    referred_person_rename[0] = 'person on the left'
+                elif middle_range[0] < obj_boxes[cur_person_id][0] <= middle_range[1]:
+                    referred_person_rename[0] = 'person in the middle'
+                elif right_range[0] < obj_boxes[cur_person_id][0] <= right_range[1]:
+                    referred_person_rename[0] = 'person on the right'
+            elif len(referred_person_id) == 2:
+                left_right_id = sorted(range(len(referred_person_coor)), key=lambda k: referred_person_coor[k])
+                referred_person_rename[left_right_id[0]] = 'person on the left'
+                referred_person_rename[left_right_id[1]] = 'person on the right'
+            elif len(referred_person_id) == 3:
+                left_right_id = sorted(range(len(referred_person_coor)), key=lambda k: referred_person_coor[k])
+                referred_person_rename[left_right_id[0]] = 'person on the left'
+                referred_person_rename[left_right_id[1]] = 'person in the middle'
+                referred_person_rename[left_right_id[2]] = 'person on the right'
+            else:
+                for box_id, box_coor in enumerate(referred_person_coor):
+                    if left_range[0] <= box_coor <= left_range[1]:
+                        referred_person_rename[box_id] = 'person on the left' if 'person on the left' not in referred_person_rename else 'another person on the left'
+                    elif middle_range[0] < box_coor <= middle_range[1]:
+                        referred_person_rename[box_id] = 'person in the middle' if 'person in the middle' not in referred_person_rename else 'another person in the middle'
+                    elif right_range[0] < box_coor <= right_range[1]:
+                        referred_person_rename[box_id] = 'person  on the right' if 'person on the right' not in referred_person_rename else 'another person on the right'
+            
+            for person_id, person_real_id in enumerate(referred_person_id):
+                obj_names[person_real_id] = referred_person_rename[person_id]
+            return obj_names
+
+    def transform_list2sent(self, input, objs):
+        try:
+            input_sent = [objs[ii[0]] if isinstance(ii, list) else ii  for ii in input]
+        except:
+            print('???')
+        input_sent = (' ').join(input_sent)
+        input_sent = input_sent.replace(' ,', ',')
+        input_sent = input_sent.replace(' .', '.')
+        input_sent = input_sent.replace(' ?', '?')
+        return input_sent
+
+    def __len__(self):
+        return len(self.dataset)
+
+    def __getitem__(self, idx):
+        sample = self.dataset[idx]
+        sample['question'] = multichoice_template.format(sample['question'], sample['options'])
+        return sample

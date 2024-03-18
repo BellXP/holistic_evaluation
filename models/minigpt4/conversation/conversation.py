@@ -269,7 +269,7 @@ class Chat:
         output_text = output_text.split('Assistant:')[-1].strip()
         return output_text, output_token.cpu().numpy()
 
-    def batch_answer(self, image_list, question_list, chat_list, max_new_tokens=300, num_beams=1, min_length=1, top_p=0.9, repetition_penalty=1.0, length_penalty=1, temperature=1.0, max_length=2000):
+    def batch_answer(self, image_list, question_list, chat_list, max_new_tokens=300, num_beams=1, min_length=1, top_p=0.9, repetition_penalty=1.0, length_penalty=1, temperature=1.0, max_length=2000, do_sample=True):
         embs_list = []
         for image, question, conv in zip(image_list, question_list, chat_list):
             img_list = []
@@ -287,7 +287,7 @@ class Chat:
             max_new_tokens=max_new_tokens,
             stopping_criteria=self.stopping_criteria,
             num_beams=num_beams,
-            do_sample=True,
+            do_sample=do_sample,
             min_length=min_length,
             top_p=top_p,
             repetition_penalty=repetition_penalty,

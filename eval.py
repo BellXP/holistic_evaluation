@@ -107,10 +107,18 @@ def main(args):
             result[args.dataset_name] = metrics
     
     result_path = os.path.join(os.path.join(answer_path, time), 'result.json')
+    try:
+        pre_result = json.load(open(result_path))
+    except:
+        pre_result = None
+    if pre_result is not None:
+        pre_result[args.dataset_name] = metrics
+        result = pre_result
     with open(result_path, "w") as f:
         f.write(json.dumps(result, indent=4))
 
 
 if __name__ == "__main__":
     args = parse_args()
+    print(args)
     main(args)

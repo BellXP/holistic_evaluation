@@ -21,7 +21,7 @@ class TestMplugOwl:
         self.processor = MplugOwlProcessor(self.image_processor, self.tokenizer)
 
     @torch.no_grad()
-    def generate(self, image, question, max_new_tokens=1024):
+    def generate(self, image, question, max_new_tokens=1024, do_sample=False, num_beams=1):
         prompts = [prompt_template.format(question)]
         image = get_image(image)
         inputs = self.processor(text=prompts, images=[image], return_tensors='pt')
@@ -29,10 +29,10 @@ class TestMplugOwl:
         inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
 
         generate_kwargs = {
-            'do_sample': False,
+            'do_sample': do_sample,
             'top_k': 5,
             'max_length': max_new_tokens,
-            'num_beams': 1
+            'num_beams': num_beams
         }
 
         with torch.no_grad():
@@ -67,7 +67,7 @@ class TestMplugOwl:
         return generated_text
 
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list, max_new_tokens=256):
+    def batch_generate(self, image_list, question_list, max_new_tokens=256, do_sample=False, num_beams=1):
         images = [get_image(image) for image in image_list]
         prompts = [prompt_template.format(question) for question in question_list]
         inputs = self.processor(text=prompts, images=images, return_tensors='pt')
@@ -75,10 +75,10 @@ class TestMplugOwl:
         inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
 
         generate_kwargs = {
-            'do_sample': False,
+            'do_sample': do_sample,
             'top_k': 5,
             'max_length': max_new_tokens,
-            'num_beams': 1
+            'num_beams': num_beams
         }
 
         import time

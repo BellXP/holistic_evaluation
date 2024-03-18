@@ -8,7 +8,7 @@ from einops_exts import rearrange_many, repeat_many
 
 
 def FeedForward(dim, mult=4):
-    inner_dim = int(dim * mult)
+    inner_dim = int(dim * mult) # 4096 * 4
     return nn.Sequential(
         nn.LayerNorm(dim),
         nn.Linear(dim, inner_dim, bias=False),
@@ -20,8 +20,8 @@ def FeedForward(dim, mult=4):
 class PerceiverAttention(nn.Module):
     def __init__(
             self,
-            vision_width,
-            text_width,
+            vision_width, # 1408
+            text_width, # 4096
             dim_head=64,
             heads=8
     ):
@@ -77,12 +77,12 @@ class PerceiverAttention(nn.Module):
 class PerceiverResampler(nn.Module):
     def __init__(
             self,
-            vision_width,
-            text_width,
-            depth,
+            vision_width, # 1408
+            text_width, # 4096
+            depth, # 3
             dim_head=64,
             heads=8,
-            num_latents=64,
+            num_latents=64, # 32
             ff_mult=4,
     ):
         super().__init__()

@@ -18,18 +18,18 @@ class TestVPGTrans:
         cfg = Config(CFG_PATH, DATA_DIR)
         model_config = cfg.model_cfg
         model_cls = registry.get_model_class(model_config.arch)
-        model = model_cls.from_config(model_config).to('cpu')
+        model = model_cls.from_config(model_config).to('cuda')
         vis_processor_cfg = cfg.preprocess_cfg.vis_processor.train
         vis_processor = registry.get_processor_class(vis_processor_cfg.name).from_config(vis_processor_cfg)
         self.model, self.vis_processor = model, vis_processor
-        self.model.llama_model = self.model.llama_model.float().to('cpu')
-        self.chat = Chat(model, vis_processor, device='cpu')
+        self.model.llama_model = self.model.llama_model
+        self.chat = Chat(model, vis_processor)
 
         # print(f'Check the number of trainable parameters: {sum(p.numel() for p in self.model.parameters() if p.requires_grad)}')
         # print(f'Check the number of whole parameters: {sum(p.numel() for p in self.model.parameters())}')
 
-        if device is not None:
-            self.move_to_device(device)
+        # if device is not None:
+        #     self.move_to_device(device)
 
     def move_to_device(self, device):
         if device is not None and 'cuda' in device.type:

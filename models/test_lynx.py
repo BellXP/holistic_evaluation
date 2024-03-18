@@ -12,7 +12,6 @@ class TestLynx:
         config['LLM'] = f"{DATA_DIR}/{config['LLM']}"
         config['checkpoint'] = f"{DATA_DIR}/{config['checkpoint']}"
         model = LynxBase(config=config, freeze_vit=config['freeze_vit'], freeze_llm=config['freeze_llm'], load_bridge=False)
-        # model = model.to(device, dtype=torch.float16)
         model = model.to(device)
         model.eval()
         self.model = model

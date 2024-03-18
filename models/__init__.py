@@ -3,7 +3,7 @@ import torch
 import numpy as np
 from PIL import Image
 
-DATA_DIR = '/mnt/lustre/xupeng/models'
+DATA_DIR = '/mnt/lustre/share_data/xupeng/models'
 
 def skip(*args, **kwargs):
     pass
@@ -21,6 +21,8 @@ def get_image(image):
             exit(-1)
     elif type(image) is Image.Image:
         return image
+    elif type(image) is np.ndarray:
+        return Image.fromarray(image)
     else:
         raise NotImplementedError(f"Invalid type of Image: {type(image)}")
 
@@ -82,9 +84,9 @@ def get_model(model_name, device=None):
     elif model_name == 'VPGTrans':
         from .test_vpgtrans import TestVPGTrans
         return TestVPGTrans(device)
-    elif model_name == 'LLaVA':
+    elif 'LLaVA' in model_name:
         from .test_llava import TestLLaVA
-        return TestLLaVA(device)
+        return TestLLaVA(model_name, device)
     elif model_name == 'LLaMA-Adapter-v2':
         from .test_llama_adapter_v2 import TestLLamaAdapterV2
         return TestLLamaAdapterV2(device)
@@ -110,6 +112,9 @@ def get_model(model_name, device=None):
     elif model_name == 'MIC':
         from .test_mic import TestMIC
         return TestMIC(device)
+    elif model_name in [f"{a}{b}" for a in ['LLaMA-7B', 'Vicuna-7B', 'Flan-T5-XL'] for b in ['-Caption', '']]:
+        from .test_llm import TestLLM
+        return TestLLM(model_name)
     else:
         from .test_automodel import TestAutoModel
         return TestAutoModel(model_name, device)

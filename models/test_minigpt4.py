@@ -65,8 +65,8 @@ class TestMiniGPT4:
         return llm_message
 
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list, max_new_tokens=1024):
+    def batch_generate(self, image_list, question_list, max_new_tokens=1024, do_sample=False, num_beams=1):
         image_list = [get_image(image) for image in image_list]
         chat_list = [CONV_VISION.copy() for _ in range(len(image_list))]
-        batch_outputs = self.chat.batch_answer(image_list, question_list, chat_list, max_new_tokens=max_new_tokens)
+        batch_outputs = self.chat.batch_answer(image_list, question_list, chat_list, max_new_tokens=max_new_tokens, do_sample=do_sample, num_beams=num_beams)
         return batch_outputs

@@ -201,7 +201,8 @@ class Chat:
                 image = image.unsqueeze(0)
             image = image.to(self.device)
 
-        image_emb, _ = self.model.encode_img(image)
+        with torch.cuda.amp.autocast():
+            image_emb, _ = self.model.encode_img(image)
         img_list.append(image_emb)
         # img_list.append(image)
         conv.append_message(conv.roles[0], "<Img><ImageHere></Img>")

@@ -39,10 +39,18 @@ def get_template_name(model_name):
 
 
 class TestLLaVA:
-    def __init__(self, device=None):
-        model_base = f'{DATA_DIR}/LLaVA/LLaVA-Vicuna-7B-v1.1'
-        model_path = f'{DATA_DIR}/LLaVA/llava_vicuna-7b-v1.1-lcs_558k-instruct-80k_lora'
-        model_name = "llava_vicuna-7b-v1.1-lcs_558k-instruct-80k_lora"
+    def __init__(self, model_name, device=None):
+        if model_name == 'LLaVA':
+            model_base = f'{DATA_DIR}/LLaVA/LLaVA-Vicuna-7B-v1.1'
+            model_path = f'{DATA_DIR}/LLaVA/llava_vicuna-7b-v1.1-lcs_558k-instruct-80k_lora'
+            model_name = "llava_vicuna-7b-v1.1-lcs_558k-instruct-80k_lora"
+        elif model_name == 'LLaVA-1.5':
+            model_base = None
+            model_path = 'liuhaotian/llava-v1.5-7b'
+            model_name = 'llava-v1.5-7b'
+        else:
+            raise NotImplementedError(f"Invalid model name: {model_name}")
+
         self.template_name = get_template_name(model_name)
         self.tokenizer, self.model, self.image_processor, self.context_len = load_pretrained_model(model_path, model_base, model_name)
 

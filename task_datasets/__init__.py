@@ -1,5 +1,13 @@
 DATA_DIR = '/mnt/lustre/xupeng/datasets'
 
+
+# multichoice_template = "Question: {}\n\nChoose the single most likely answer from the following choices <choice>:\n- {}\n\nThe output format follows exactly as below:\nAnswer: <choice>"
+multichoice_template = "Question: {}\n\nChoose the single most likely answer from the following choices <choice>:\n- {}\n\n"
+# judge_template = "Question: {}\n\nChoose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\nThe output format follows exactly as below:\nAnswer: <choice>"
+# judge_template = "Question: {}\n\nChoose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\n"
+judge_template = "{}"
+
+
 import json
 from functools import partial
 from torch.utils.data import Dataset
@@ -12,7 +20,7 @@ from .vqa_datasets import (
     VCR_OCDataset, VCR_MCIDataset, MSCOCO_OCDataset, MSCOCO_MCIDataset,
     DocVQADataset, TextVQADataset, STVQADataset, OCRVQADataset,
     OKVQADataset, GQADataset, IconQADataset, VSRDataset,
-    WHOOPSDataset, ScienceQADataset, VizWizDataset, ImageNetVC,
+    WHOOPSDataset, ScienceQADataset, VizWizDataset, ImageNetVC, VCRDataset,
     MSCOCO_POPEDataset_random, MSCOCO_POPEDataset_popular, MSCOCO_POPEDataset_adversarial
 )
 
@@ -46,9 +54,9 @@ dataset_class_dict = {
     'Flowers102': Flowers102,
     # OC, MCI
     'VCR1_OC': VCR_OCDataset,
-    'VCR1_MCI': VCR_MCIDataset,
+    'VCR1_MCI': VCR_MCIDataset, # judge
     'MSCOCO_OC': MSCOCO_OCDataset,
-    'MSCOCO_MCI': MSCOCO_MCIDataset,
+    'MSCOCO_MCI': MSCOCO_MCIDataset, # judge
 
     # NOTE: Visual Knowledge Acquisition (700)
     # OCR
@@ -76,10 +84,10 @@ dataset_class_dict = {
     'OCRVQA': OCRVQADataset,
     'OKVQA': OKVQADataset,
     'GQA': GQADataset,
-    'IconQA': IconQADataset,
-    'VSR': VSRDataset,
+    'IconQA': IconQADataset, # multi-choice
+    'VSR': VSRDataset, # judge
     'WHOOPS': WHOOPSDataset,
-    'ScienceQA': ScienceQADataset,
+    'ScienceQA': ScienceQADataset, # multi-choice
     'VizWiz': VizWizDataset,
 
     # NOTE: Visual Commonsense (250) -> 500
@@ -89,6 +97,7 @@ dataset_class_dict = {
     'ImageNetVC_material': partial(ImageNetVC, task='material'),
     'ImageNetVC_component': partial(ImageNetVC, task='component'),
     'ImageNetVC_others': partial(ImageNetVC, task='others'),
+    'VCR': VCRDataset, # multi-choice
 
     # NOTE: Object Hallucination (150) -> 300
     # Object Hallucination

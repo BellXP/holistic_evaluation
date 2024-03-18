@@ -2,6 +2,7 @@ import torch
 from . import get_image
 from .bliva.models import load_model_and_preprocess
 
+# NOTE: BLIVA tend to generate other meaningless information after generating the required results, so we set its max_new_tokens into 256
 
 # No sampling in default
 class TestBLIVA:
@@ -14,7 +15,7 @@ class TestBLIVA:
         self.vis_processor = vis_processor
 
     @torch.no_grad()
-    def generate(self, image, question, max_new_tokens=1024, do_sample=False, num_beams=1):
+    def generate(self, image, question, max_new_tokens=256, do_sample=False, num_beams=1):
         imgs = [get_image(image)]
         imgs = [self.vis_processor(x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device)
@@ -24,7 +25,7 @@ class TestBLIVA:
         return result
 
     @torch.no_grad()
-    def batch_generate(self, image_list, question_list, max_new_tokens=1024, do_sample=False, num_beams=1):
+    def batch_generate(self, image_list, question_list, max_new_tokens=256, do_sample=False, num_beams=1):
         imgs = [get_image(img) for img in image_list]
         imgs = [self.vis_processor(x) for x in imgs]
         imgs = torch.stack(imgs, dim=0).to(self.device)

@@ -28,7 +28,7 @@ from ..llava_arch import LlavaMetaModel, LlavaMetaForCausalLM
 
 
 class LlavaConfig(LlamaConfig):
-    model_type = "llava"
+    model_type = "llava_llama"
 
 
 class LlavaLlamaModel(LlavaMetaModel, LlamaModel):
@@ -43,6 +43,12 @@ class LlavaLlamaForCausalLM(LlamaForCausalLM, LlavaMetaForCausalLM):
 
     def __init__(self, config):
         super(LlamaForCausalLM, self).__init__(config)
+        config.attention_dropout = 0.0
+        config.num_key_value_heads = config.num_attention_heads
+        config.rope_theta = 10000.0
+        config.attention_bias = False
+        config.rope_scaling = None
+        config.pretraining_tp = 1
         self.model = LlavaLlamaModel(config)
 
         self.lm_head = nn.Linear(config.hidden_size, config.vocab_size, bias=False)
@@ -136,5 +142,5 @@ class LlavaLlamaForCausalLM(LlamaForCausalLM, LlavaMetaForCausalLM):
         )
         return model_inputs
 
-AutoConfig.register("llava", LlavaConfig)
+AutoConfig.register("llava_llama", LlavaConfig)
 AutoModelForCausalLM.register(LlavaConfig, LlavaLlamaForCausalLM)

@@ -14,7 +14,7 @@ def get_formatted_prompt(prompt: str, in_context_prompts: list = []) -> str:
 
 class TestOtterImage:
     def __init__(self, device=None, use_llama=False) -> None:
-        model = OtterForConditionalGeneration.from_pretrained("luodian/OTTER-9B-LA-InContext", device_map="auto")
+        model = OtterForConditionalGeneration.from_pretrained("luodian/OTTER-9B-LA-InContext", device_map="auto", torch_dtype=torch.bfloat16)
         model.text_tokenizer.padding_side = "left"
         image_processor = transformers.CLIPImageProcessor()
         model.eval()
@@ -35,17 +35,18 @@ class TestOtterImage:
             return_tensors="pt",
         )
         bad_words_id = self.model.text_tokenizer(["User:", "GPT1:", "GFT:", "GPT:"], add_special_tokens=False).input_ids
-        generated_text = self.model.generate(
-            vision_x=vision_x.to(self.model.device),
-            lang_x=lang_x["input_ids"].to(self.model.device),
-            attention_mask=lang_x["attention_mask"].to(self.model.device),
-            max_new_tokens=max_new_tokens,
-            bad_words_ids=bad_words_id,
-            do_sample=do_sample,
-            # temperature=0,
-            num_beams=num_beams,
-            # no_repeat_ngram_size=3,
-        )
+        with torch.cuda.amp.autocast():
+            generated_text = self.model.generate(
+                vision_x=vision_x.to(self.model.device),
+                lang_x=lang_x["input_ids"].to(self.model.device),
+                attention_mask=lang_x["attention_mask"].to(self.model.device),
+                max_new_tokens=max_new_tokens,
+                bad_words_ids=bad_words_id,
+                do_sample=do_sample,
+                # temperature=0,
+                num_beams=num_beams,
+                # no_repeat_ngram_size=3,
+            )
         parsed_output = (
             self.model.text_tokenizer.decode(generated_text[0])
             .split("<answer>")[-1]
@@ -66,17 +67,18 @@ class TestOtterImage:
         vision_x = self.image_processor.preprocess([raw_image], return_tensors="pt")["pixel_values"].unsqueeze(1).unsqueeze(0)
         lang_x = self.model.text_tokenizer([question], return_tensors="pt")
         bad_words_id = self.model.text_tokenizer(["User:", "GPT1:", "GFT:", "GPT:"], add_special_tokens=False).input_ids
-        generated_text = self.model.generate(
-            vision_x=vision_x.to(self.model.device),
-            lang_x=lang_x["input_ids"].to(self.model.device),
-            attention_mask=lang_x["attention_mask"].to(self.model.device),
-            max_new_tokens=max_new_tokens,
-            bad_words_ids=bad_words_id,
-            do_sample=False,
-            # temperature=0,
-            num_beams=1,
-            # no_repeat_ngram_size=3,
-        )
+        with torch.cuda.amp.autocast():
+            generated_text = self.model.generate(
+                vision_x=vision_x.to(self.model.device),
+                lang_x=lang_x["input_ids"].to(self.model.device),
+                attention_mask=lang_x["attention_mask"].to(self.model.device),
+                max_new_tokens=max_new_tokens,
+                bad_words_ids=bad_words_id,
+                do_sample=False,
+                # temperature=0,
+                num_beams=1,
+                # no_repeat_ngram_size=3,
+            )
         parsed_output = (
             self.model.text_tokenizer.decode(generated_text[0])
             .split("<answer>")[-1]
@@ -98,17 +100,18 @@ class TestOtterImage:
         prompts = [get_formatted_prompt(question, []) for question in question_list]
         lang_x = self.model.text_tokenizer(prompts, return_tensors="pt", padding=True)
         bad_words_id = self.model.text_tokenizer(["User:", "GPT1:", "GFT:", "GPT:"], add_special_tokens=False).input_ids
-        generated_text = self.model.generate(
-            vision_x=vision_x.to(self.model.device),
-            lang_x=lang_x["input_ids"].to(self.model.device),
-            attention_mask=lang_x["attention_mask"].to(self.model.device),
-            max_new_tokens=max_new_tokens,
-            bad_words_ids=bad_words_id,
-            do_sample=do_sample,
-            # temperature=0,
-            num_beams=num_beams,
-            # no_repeat_ngram_size=3,
-        )
+        with torch.cuda.amp.autocast():
+            generated_text = self.model.generate(
+                vision_x=vision_x.to(self.model.device),
+                lang_x=lang_x["input_ids"].to(self.model.device),
+                attention_mask=lang_x["attention_mask"].to(self.model.device),
+                max_new_tokens=max_new_tokens,
+                bad_words_ids=bad_words_id,
+                do_sample=do_sample,
+                # temperature=0,
+                num_beams=num_beams,
+                # no_repeat_ngram_size=3,
+            )
         total_output = []
         for i in range(len(generated_text)):
             parsed_output = (

@@ -20,7 +20,7 @@ class TestBlip2:
     @torch.no_grad()
     def batch_generate(self, image_list, question_list, max_new_tokens=1024, do_sample=False, num_beams=1):
         images = [get_image(image) for image in image_list]
-        inputs = self.processor(images, question_list, return_tensors="pt").to("cuda")
+        inputs = self.processor(images, question_list, return_tensors="pt", padding=True).to("cuda")
         outputs = self.model.generate(**inputs, max_length=max_new_tokens, do_sample=do_sample, num_beams=num_beams)
         outputs = self.processor.batch_decode(outputs, skip_special_tokens=True)
         return outputs

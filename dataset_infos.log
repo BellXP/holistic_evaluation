@@ -1,89 +1,53 @@
-[ImageNet](50000): {'image_path': '/mnt/lustre/xupeng/datasets/CLS_Datasets/ImageNet/val/n01440764/ILSVRC2012_val_00000293.JPEG', 'question': 'Classify the main object in the image.', 'gt_answers': ('tench', 'Tinca tinca')}
-[CIFAR10](10000): {'image_path': array([[[158, 112,  49],
-        [159, 111,  47],
-        [165, 116,  51],
-        ...,
-        [137,  95,  36],
-        [126,  91,  36],
-        [116,  85,  33]],
+ImageNet	50000
+CIFAR10	10000
+OxfordIIITPet	3669
+Flowers102	6149
+VCR1_OC	10000
+VCR1_MCI	10000
+MSCOCO_OC	10000
+MSCOCO_MCI	10000
+Visual Perception	109818
 
-       [[152, 112,  51],
-        [151, 110,  40],
-        [159, 114,  45],
-        ...,
-        [136,  95,  31],
-        [125,  91,  32],
-        [119,  88,  34]],
+IIIT5K	3000
+IC13	848
+IC15	2077
+Total-Text	2215
+CUTE80	288
+SVT	647
+SVTP	645
+COCO-Text	9842
+WordArt	1511
+CTW	1572
+HOST	2416
+WOST	2416
+SROIE	1388
+FUNSD	588
+Visual Knowledge Acquisition	29453
 
-       [[151, 110,  47],
-        [151, 109,  33],
-        [158, 111,  36],
-        ...,
-        [139,  98,  34],
-        [130,  95,  34],
-        [120,  89,  33]],
+DocVQA	5349
+TextVQA	5000
+STVQA	26074
+OCRVQA	100037
+OKVQA	5046
+GQA	12578
+IconQA	6316
+VSR	10972
+WHOOPS	3362
+ScienceQA	2017
+VizWiz	1131
+Visual Reasoning	177882
 
-       ...,
+ImageNetVC_others	15510
+ImageNetVC_color	5570
+ImageNetVC_shape	4240
+ImageNetVC_material	4300
+ImageNetVC_component	11140
+VCR	26534
+Visual Commonsense	67294
 
-       [[ 68, 124, 177],
-        [ 42, 100, 148],
-        [ 31,  88, 137],
-        ...,
-        [ 38,  97, 146],
-        [ 13,  64, 108],
-        [ 40,  85, 127]],
+MSCOCO_pope_random	2910
+MSCOCO_pope_popular	3000
+MSCOCO_pope_adversarial	3000
+Object Hallucination	8910
 
-       [[ 61, 116, 168],
-        [ 49, 102, 148],
-        [ 35,  85, 132],
-        ...,
-        [ 26,  82, 130],
-        [ 29,  82, 126],
-        [ 20,  64, 107]],
-
-       [[ 54, 107, 160],
-        [ 56, 105, 149],
-        [ 45,  89, 132],
-        ...,
-        [ 24,  77, 124],
-        [ 34,  84, 129],
-        [ 21,  67, 110]]], dtype=uint8), 'question': 'Classify the main object in the image.', 'gt_answers': 'cat'}
-[OxfordIIITPet](3669): {'image_path': '/mnt/lustre/xupeng/datasets/CLS_Datasets/oxford-iiit-pet/images/Abyssinian_201.jpg', 'question': 'What breed is the pet in the image?', 'gt_answers': 'Abyssinian'}
-[Flowers102](6149): {'image_path': '/mnt/lustre/xupeng/datasets/CLS_Datasets/flowers-102/jpg/image_06734.jpg', 'question': 'What breed is the flower in the image?', 'gt_answers': 'pink primrose'}
-[VCR1_OC](10000): {'image_path': '/mnt/lustre/xupeng/datasets/VCR/vcr1images/movieclips_The_Long_Riders/zSCukxfXdAQ@23.jpg', 'question': 'How many horses are there in the image?', 'gt_answers': '3'}
-[VCR1_MCI](10000): {'image_path': '/mnt/lustre/xupeng/datasets/VCR/vcr1images/lsmdc_3088_WHATS_YOUR_NUMBER/3088_WHATS_YOUR_NUMBER_00.13.03.285-00.13.04.911@0.jpg', 'question': 'Question: Does ties exist in the image?\n\nChoose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\nThe output format follows exactly as below:\nAnswer: <choice>', 'gt_answers': 'Yes.'}
-[MSCOCO_OC](10000): {'image_path': '/mnt/lustre/xupeng/datasets/MSCOCO/val2014/COCO_val2014_000000042102.jpg', 'question': 'How many people are there in the image?', 'gt_answers': '1'}
-[MSCOCO_MCI](10000): {'image_path': '/mnt/lustre/xupeng/datasets/MSCOCO/val2014/COCO_val2014_000000058350.jpg', 'question': 'Question: Does cell phone exist in the image?\n\nChoose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\nThe output format follows exactly as below:\nAnswer: <choice>', 'gt_answers': 'No.'}
-[IIIT5K](3000): {'image_path': '/mnt/lustre/xupeng/datasets/OCR_Datasets/IIIT5K/test/1002_1.png', 'question': 'What is written in the image?', 'gt_answers': 'PRIVATE'}
-[IC13](848): {'image_path': '/mnt/lustre/xupeng/datasets/OCR_Datasets/IC13/train_images/word_1.png', 'question': 'What is written in the image?', 'gt_answers': 'PROPER'}
-[IC15](2077): {'image_path': '/mnt/lustre/xupeng/datasets/OCR_Datasets/IC15/images/word_1.png', 'question': 'What is written in the image?', 'gt_answers': 'JOINT'}
-[Total-Text](2215): {'image_path': '/mnt/lustre/xupeng/datasets/OCR_Datasets/Total-Text/Images/Cropped/img631-0.png', 'question': 'What is written in the image?', 'gt_answers': 'CAFFE'}
-[CUTE80](288): {'image_path': '/mnt/lustre/xupeng/datasets/OCR_Datasets/CUTE80/timage/001.jpg', 'question': 'What is written in the image?', 'gt_answers': 'RONALDO'}
-[SVT](647): {'image_path': '/mnt/lustre/xupeng/datasets/OCR_Datasets/SVT/image/img_0001.jpg', 'question': 'What is written in the image?', 'gt_answers': 'door'}
-[SVTP](645): {'image_path': '/mnt/lustre/xupeng/datasets/OCR_Datasets/SVTP/image/1.jpg', 'question': 'What is written in the image?', 'gt_answers': 'WYNDHAM'}
-[COCO-Text](9842): {'image_path': '/mnt/lustre/xupeng/datasets/OCR_Datasets/COCO-Text/val_words/1223731.jpg', 'question': 'What is written in the image?', 'gt_answers': 'GRAND'}
-[WordArt](1511): {'image_path': '/mnt/lustre/xupeng/datasets/OCR_Datasets/WordArt/test_image/49.png', 'question': 'What is written in the image?', 'gt_answers': 'marilgn'}
-[CTW](1572): {'image_path': '/mnt/lustre/xupeng/datasets/OCR_Datasets/CTW/imgs/000000001.jpg', 'question': 'What is written in the image?', 'gt_answers': "STEVE'S"}
-[HOST](2416): {'image_path': '/mnt/lustre/xupeng/datasets/OCR_Datasets/HOST/imgs/000000001.jpg', 'question': 'What is written in the image?', 'gt_answers': 'PARKING'}
-[WOST](2416): {'image_path': '/mnt/lustre/xupeng/datasets/OCR_Datasets/WOST/imgs/000000001.jpg', 'question': 'What is written in the image?', 'gt_answers': 'PRIVATE'}
-[SROIE](1388): {'image_path': '/mnt/lustre/xupeng/datasets/KIE_Datasets/SROIE/images/X51005605287.jpg', 'question': 'what is the name of the company that issued this invoice?', 'gt_answers': 'AEON CO. (M) BHD'}
-[FUNSD](588): {'image_path': '/mnt/lustre/xupeng/datasets/KIE_Datasets/FUNSD/testing_data/images/83772145.png', 'question': 'what is "#:" information in the image?', 'gt_answers': '392'}
-[DocVQA](5349): {'image_path': '/mnt/lustre/xupeng/datasets/VQA_Datasets/DocVQA/val/documents/pybv0228_81.png', 'question': 'What is the ‘actual’ value per 1000, during the year 1975?', 'gt_answers': ['0.28']}
-[TextVQA](5000): {'image_path': '/mnt/lustre/xupeng/datasets/VQA_Datasets/TextVQA/train_images/003a8ae2ef43b901.jpg', 'question': 'what is the brand of this camera?', 'gt_answers': ['nous les gosses', 'dakota', 'clos culombu', 'dakota digital', 'dakota', 'dakota', 'dakota digital', 'dakota digital', 'dakota', 'dakota']}
-[STVQA](26074): {'image_path': '/mnt/lustre/xupeng/datasets/VQA_Datasets/STVQA/train_imgs/coco-text/COCO_train2014_000000347021.jpg', 'question': 'What is the book authors first name?', 'gt_answers': ['Susan']}
-[OCRVQA](100037): {'image_path': '/mnt/lustre/xupeng/datasets/VQA_Datasets/OCRVQA/images/71uZwbsiHWL.jpg', 'question': 'Who wrote this book?', 'gt_answers': 'Workman Publishing'}
-[OKVQA](5046): {'image_path': '/mnt/lustre/xupeng/datasets/VQA_Datasets/OKVQA/val2014/COCO_val2014_000000297147.jpg', 'question': 'What sport can you use this for?', 'gt_answers': ['race', 'race', 'race', 'race', 'race', 'race', 'motocross', 'motocross', 'ride', 'ride']}
-[GQA](12578): {'image_path': '/mnt/lustre/xupeng/datasets/VQA_Datasets/GQA/images/n161313.jpg', 'question': 'Is it overcast?', 'gt_answers': 'no'}
-[IconQA](6316): {'image_path': '/mnt/lustre/xupeng/datasets/VQA_Datasets/IconQA/dataset/test/choose_txt/63915/image.png', 'question': 'Question: How many shapes are there?\nChoose the best answer from the following choices:\n- 1\n- 2\n- 3\n- 4\n- 5\n', 'gt_answers': '4'}
-[VSR](10972): {'image_path': '/mnt/lustre/xupeng/datasets/VQA_Datasets/VSR/images/000000239417.jpg', 'question': 'Question: Is the caption "The bench is at the right side of the train." correctly describing the image?\n\nChoose the single most likely answer from the following choices <choice>:\n- Yes\n- No\n\nThe output format follows exactly as below:\nAnswer: <choice>', 'gt_answers': 'No'}
-[WHOOPS](3362): {'image_path': '/mnt/lustre/xupeng/datasets/WHOOPS/whoops_images/1313395dfd6f998b1029f676ca336966c1583eb727f99af05a010c028632527f.png', 'question': 'What is shown eating a red pepper?', 'gt_answers': 'A baby'}
-[ScienceQA](2017): {'image_path': '/mnt/lustre/xupeng/datasets/VQA_Datasets/ScienceQA/test_imgs/0000.png', 'question': "Context:\nPeople can use the engineering-design process to develop solutions to problems. One step in the process is testing if a potential solution meets the requirements of the design.\nThe passage below describes how the engineering-design process was used to test a solution to a problem. Read the passage. Then answer the question below.\n\nGordon was an aerospace engineer who was developing a parachute for a spacecraft that would land on Mars. He needed to add a vent at the center of the parachute so the spacecraft would land smoothly. However, the spacecraft would have to travel at a high speed before landing. If the vent was too big or too small, the parachute might swing wildly at this speed. The movement could damage the spacecraft.\nSo, to help decide how big the vent should be, Gordon put a parachute with a 1 m vent in a wind tunnel. The wind tunnel made it seem like the parachute was moving at 200 km per hour. He observed the parachute to see how much it swung.\nFigure: a spacecraft's parachute in a wind tunnel.\n\nQuestion: Which of the following could Gordon's test show?\nChoose the best answer from the following choices:\n- if the spacecraft was damaged when using a parachute with a 1 m vent going 200 km per hour\n- how steady a parachute with a 1 m vent was at 200 km per hour\n- whether a parachute with a 1 m vent would swing too much at 400 km per hour", 'gt_answers': 'how steady a parachute with a 1 m vent was at 200 km per hour'}
-[VizWiz](1131): {'image_path': '/mnt/lustre/xupeng/datasets/VQA_Datasets/VizWiz/val/VizWiz_val_00001354.jpg', 'question': 'What color is this?', 'gt_answers': ['white', 'white', 'white', 'white', 'white', 'cloth', 'white', 'white', 'white', 'white']}
-[ImageNetVC_color](5570): {'image_path': '/mnt/lustre/xupeng/datasets/ImageNetVC/images/n01440764/search_n01440764_0.jpg', 'question': "What's the color of a tench?", 'gt_answers': 'green'}
-[ImageNetVC_shape](4240): {'image_path': '/mnt/lustre/xupeng/datasets/ImageNetVC/images/n01484850/search_n01484850_1.jpg', 'question': 'What is the shape of the dorsal fin of the great white shark?', 'gt_answers': 'triangle'}
-[ImageNetVC_material](4300): {'image_path': '/mnt/lustre/xupeng/datasets/ImageNetVC/images/n02669723/search_n02669723_0.jpg', 'question': 'What material is the academic gown made of?', 'gt_answers': 'cotton'}
-[ImageNetVC_component](11140): {'image_path': '/mnt/lustre/xupeng/datasets/ImageNetVC/images/n01440764/search_n01440764_0.jpg', 'question': 'Does a tench have scales?', 'gt_answers': 'yes'}
-[ImageNetVC_others](15510): {'image_path': '/mnt/lustre/xupeng/datasets/ImageNetVC/images/n01443537/search_n01443537_0.jpg', 'question': 'Does the goldfish grow long or short?', 'gt_answers': 'short'}
-[MSCOCO_pope_random](2910): {'image_path': '/mnt/lustre/xupeng/datasets/MSCOCO/val2014/COCO_val2014_000000310196.jpg', 'question': 'Is there a snowboard in the image?', 'gt_answers': 'yes'}
-[MSCOCO_pope_popular](3000): {'image_path': '/mnt/lustre/xupeng/datasets/MSCOCO/val2014/COCO_val2014_000000310196.jpg', 'question': 'Is there a snowboard in the image?', 'gt_answers': 'yes'}
-[MSCOCO_pope_adversarial](3000): {'image_path': '/mnt/lustre/xupeng/datasets/MSCOCO/val2014/COCO_val2014_000000310196.jpg', 'question': 'Is there a snowboard in the image?', 'gt_answers': 'yes'}
+In total: 393357

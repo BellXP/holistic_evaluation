@@ -11,3 +11,4 @@ scripts/run_eval.sh --model_name $model_name --batch_size $batch_size --eval_vqa
 scripts/run_eval.sh --model_name $model_name --batch_size $batch_size --eval_vqa --dataset_name ImageNetVC_material # 4300
 scripts/run_eval.sh --model_name $model_name --batch_size $batch_size --eval_vqa --dataset_name ImageNetVC_component # 11140
 scripts/run_eval.sh --model_name $model_name --batch_size $batch_size --eval_vqa --dataset_name ImageNetVC_others # 15510
+scripts/run_eval.sh --model_name $model_name --batch_size $batch_size --eval_vqa --dataset_name VCR # 26534
